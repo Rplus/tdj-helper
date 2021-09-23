@@ -3,6 +3,11 @@
   import { sum } from './u.js';
 
   let position = '天';
+  const breakPoints = {
+    '天': 164,
+    '地': 143,
+    '荒': 145,
+  };
   let scores = [];
   let outputScore = 0;
   $: {
@@ -18,7 +23,7 @@
 
 <h1>天地劫M 絕魂石 預估</h1>
 
-<form>
+<form style={`--break-point: ${breakPoints[position]}`}>
   <fieldset>
     <legend>絕‧魂石位置</legend>
     <div class="flex jc-se">
@@ -47,7 +52,11 @@
 
   <fieldset class="flex jc-sb">
     <legend>計分</legend>
-    <input type="text" readonly value={'= ' + outputScore} />
+    <input type="text" readonly
+      class="output"
+      value={outputScore}
+      style={`--p: ${outputScore}`}
+    />
     <input type="reset" />
   </fieldset>
 </form>
@@ -68,6 +77,21 @@
 
 
 <style>
+  .output {
+    --cp: 250;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(to right, #0001, #666a),
+      linear-gradient(
+        to right,
+        #3331 calc(100% * var(--break-point) / var(--cp)),
+        #aaa1 0
+      );
+    background-size: calc(100% * var(--p) / var(--cp)) 5px, 100% 100%;
+    background-position: 0% 100%;
+    background-color: #eee;
+  }
+
   fieldset {
     margin-bottom: 1em;
     border-color: #ccc6;
