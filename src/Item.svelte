@@ -53,7 +53,7 @@
 
 
 
-<div class="flex">
+<div class="flex list-item">
   <select bind:value={targetProp}>
     {#each props as prop, index}
       <option value={props[index]}>
@@ -63,26 +63,29 @@
   </select>
 
   <input type="number" max={max} min={min} bind:value={value} />
-  <input type="range" max={max} min={min}
-    bind:value={value}
-    style={`--max: ${max}; --min: ${min}`}
-  />
+  <div class="flex">
+    <input type="range" max={max} min={min}
+      bind:value={value}
+      style={`--max: ${max};`}
+    />
+  </div>
 </div>
 
 
 
 <style>
-  input {
-    text-align: center;
-    margin-left: 0.25em;
+  .list-item > * {
+    flex-grow: 1;
   }
 
   input[type="number"] {
-    width: 5em;
+    width: 4em;
+    margin-left: .25em;
+    margin-right: .25em;
+    text-align: center;
   }
 
   input[type="range"] {
-    width: 10em;
-    width: calc(.75em * (var(--max, 10) + var(--min, 2)));
+    width: calc(100% * var(--max) / 10);
   }
 </style>
