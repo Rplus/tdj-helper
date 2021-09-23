@@ -92,6 +92,11 @@
     background-color: #eee;
   }
 
+  label {
+    cursor: pointer;
+    padding: 0.1em .75em;
+  }
+
   fieldset {
     margin-bottom: 1em;
     border-color: #ccc6;
