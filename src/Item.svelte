@@ -56,10 +56,9 @@
 <div class="flex">
   <select bind:value={targetProp}>
     {#each props as prop, index}
-      <option
-        label={prop.label + ' ' + props[index].score}
-        value={props[index]}
-      />
+      <option value={props[index]}>
+        {prop.label + ' ' + props[index].score}
+      </option>
     {/each}
   </select>
 
