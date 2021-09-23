@@ -1,1 +1,6 @@
-fieldset.svelte-1sv5dwh.svelte-1sv5dwh{margin-bottom:1em;border-color:#ccc6}footer.svelte-1sv5dwh ul.svelte-1sv5dwh{float:right;opacity:0.6;font-style:italic;font-size:smaller}input.svelte-tu4src{text-align:center;margin-left:0.25em}input[type="number"].svelte-tu4src{width:5em}input[type="range"].svelte-tu4src{width:10em;width:calc(.75em * (var(--max, 10) + var(--min, 2)))}
+.output.svelte-d2pwkv.svelte-d2pwkv{--cp:250;background-repeat:no-repeat;background-image:linear-gradient(to right, #0001, #666a),
+      linear-gradient(
+        to right,
+        #3331 calc(100% * var(--break-point) / var(--cp)),
+        #aaa1 0
+      );background-size:calc(100% * var(--p) / var(--cp)) 5px, 100% 100%;background-position:0% 100%;background-color:#eee}fieldset.svelte-d2pwkv.svelte-d2pwkv{margin-bottom:1em;border-color:#ccc6}footer.svelte-d2pwkv ul.svelte-d2pwkv{float:right;opacity:0.6;font-style:italic;font-size:smaller}input.svelte-tu4src{text-align:center;margin-left:0.25em}input[type="number"].svelte-tu4src{width:5em}input[type="range"].svelte-tu4src{width:10em;width:calc(.75em * (var(--max, 10) + var(--min, 2)))}
