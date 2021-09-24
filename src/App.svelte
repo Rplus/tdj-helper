@@ -21,7 +21,7 @@
 
 
 
-<h1>天地劫M 絕魂石 預估</h1>
+<h1>天地劫M 絕品魂石 評估工具</h1>
 
 <form style={`--break-point: ${breakPoints[position]}`}>
   <fieldset>
