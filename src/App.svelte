@@ -8,16 +8,9 @@
     '地': 143,
     '荒': 145,
   };
-  let output = {
-    score: 0,
-    max: 0,
-  };
   let items = []
 
-  $: {
-    console.log(111, items);
-    output = sumItems(items)
-  }
+  $: output = sumItems(items);
 
   function updateScores(e) {
     items[e.detail.order] = e.detail;
