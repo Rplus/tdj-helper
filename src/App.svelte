@@ -106,7 +106,7 @@
     <div class="flex jc-sb">
       <input
         type="submit"
-        value="紀錄"
+        value="記錄"
         on:click|preventDefault={ save }
         disabled={!output.score}
       />
