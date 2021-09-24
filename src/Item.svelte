@@ -47,7 +47,7 @@
     }
   }
   $: {
-    dispatch('update', {targetProp, value, order});
+    dispatch('update', { targetProp, value, order, max, min, });
   }
 </script>
 

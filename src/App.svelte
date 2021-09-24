@@ -8,14 +8,27 @@
     '地': 143,
     '荒': 145,
   };
-  let scores = [];
-  let outputScore = 0;
+  let output = {
+    score: 0,
+    max: 0,
+  };
+  let items = []
+
   $: {
-    outputScore = sum(scores);
+    console.log(111, items);
+    output = sumItems(items)
   }
 
   function updateScores(e) {
-    scores[e.detail.order] = e.detail.targetProp.score * e.detail.value;
+    items[e.detail.order] = e.detail;
+  }
+
+  function sumItems(items) {
+    return items.reduce((all, i) => {
+      all.score += i.targetProp.score * i.value;
+      all.max += i.targetProp.score * i.max;
+      return all;
+    }, { score: 0, max: 0, });
   }
 </script>
 
@@ -54,9 +67,10 @@
     <legend>計分</legend>
     <input type="text" readonly
       class="output"
-      value={outputScore}
-      style={`--p: ${outputScore}`}
+      value={output.score}
+      style={`--score: ${output.score}; --max: ${output.max}`}
     />
+    <sub class="max">/ {output.max}</sub>
     <input type="reset" />
   </fieldset>
 </form>
@@ -78,17 +92,21 @@
 
 <style>
   .output {
-    --cp: 250;
     background-repeat: no-repeat;
     background-image:
       linear-gradient(to right, #0001, #666a),
       linear-gradient(
         to right,
-        #3331 calc(100% * var(--break-point) / var(--cp)),
+        #3331 calc(100% * var(--break-point) / var(--max)),
         #aaa1 0
       );
-    background-size: calc(100% * var(--p) / var(--cp)) 5px, 100% 100%;
+    background-size: calc(100% * var(--score) / var(--max)) 5px, 100% 100%;
     background-position: 0% 100%;
     background-color: #eee;
+  }
+
+  .max {
+    align-self: center;
+    color: #0006;
   }
 </style>
