@@ -2,37 +2,10 @@
   export let position = '天';
   export let order = 0;
 
-  import { clamp } from './u.js';
+  import { clamp, PROPS, TYPES, } from './u.js';
   import { createEventDispatcher } from 'svelte';
 
   const dispatch = createEventDispatcher();
-
-  const types = {
-    atk: {
-      '天': [10, 4],
-      '地': [5, 2],
-      '荒': [7, 3],
-    },
-    def: {
-      '天': [5, 2],
-      '地': [10, 4],
-      '荒': [7, 3],
-    }
-  };
-
-  const props = [
-    { label: '--',  score: 0, type: 'atk', },
-    { label: '攻擊',  score: 11, type: 'atk', },
-    { label: '傷害',  score: 10, type: 'atk', },
-    { label: '穿透',  score: 6, type: 'atk', },
-    { label: '暴擊',  score: 3, type: 'atk', },
-    { label: '反擊',  score: 0, type: 'atk', },
-
-    { label: '氣血',  score: 7, type: 'def', },
-    { label: '免傷',  score: 5, type: 'def', },
-    { label: '防禦',  score: 1, type: 'def', },
-    { label: '抗暴',  score: 0, type: 'def', },
-  ];
 
   let targetProp;
   let max;
@@ -41,8 +14,8 @@
 
   $: {
     if (targetProp) {
-      max = types[targetProp.type][position][0];
-      min = types[targetProp.type][position][1];
+      max = TYPES[targetProp.type][position][0];
+      min = TYPES[targetProp.type][position][1];
       value = clamp(value, min, max);
     }
   }
@@ -55,9 +28,9 @@
 
 <div class="flex list-item">
   <select bind:value={targetProp}>
-    {#each props as prop, index}
-      <option value={props[index]}>
-        {prop.label + ' ' + props[index].score}
+    {#each PROPS as prop, index}
+      <option value={PROPS[index]}>
+        {prop.label + ' ' + PROPS[index].score}
       </option>
     {/each}
   </select>
