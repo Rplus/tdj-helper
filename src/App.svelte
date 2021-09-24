@@ -25,7 +25,7 @@
 
 <form style={`--break-point: ${breakPoints[position]}`}>
   <fieldset>
-    <legend>絕‧魂石位置</legend>
+    <legend>絕‧魂石孔位</legend>
     <div class="flex jc-se">
       <label>
         <input type="radio" bind:group={position} name="position" value="天" checked />
