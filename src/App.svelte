@@ -104,7 +104,12 @@
     <sub class="max">/ {output.max}</sub>
 
     <div class="flex jc-sb">
-      <input type="submit" value="紀錄" on:click|preventDefault={ save } />
+      <input
+        type="submit"
+        value="紀錄"
+        on:click|preventDefault={ save }
+        disabled={!output.score}
+      />
       <input type="reset" />
     </div>
   </fieldset>
