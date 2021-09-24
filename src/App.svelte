@@ -1,9 +1,13 @@
 <script>
   import Item from './Item.svelte';
-  import { clamp, sum, getProp, BreakPoints, } from './u.js';
+  import History from './History.svelte';
+  import { clamp, sum, getProp, BreakPoints, RockTypes, } from './u.js';
+  import { historeUrls } from './stores.js';
 
   let position = '天';
   let items = new Array(4);
+
+  let title = '';
 
   $: output = sumItems(items);
 
@@ -26,6 +30,23 @@
     }, { score: 0, max: 0, });
   }
 
+  function save() {
+    if (!output.score) { return; }
+    historeUrls.add(JSON.stringify({
+      title,
+      position,
+      items,
+      score: output.score,
+    }));
+  }
+
+  function applyUrl(apply) {
+    let data = JSON.parse(apply.detail.url);
+    position = data.position;
+    title = data.title;
+    items = data.items;
+  }
+
   function refitValueRange() {
     items.forEach(i => {
       let _p = getProp(i.prop);
@@ -39,9 +60,17 @@
 
 <h1>天地劫M 絕品魂石 評估</h1>
 
-<form style={`--break-point: ${BreakPoints[position]}`}>
+<form class="main" style={`--break-point: ${BreakPoints[position]}`}>
   <fieldset>
-    <legend>絕‧魂石孔位</legend>
+    <legend>
+      絕‧魂石孔位
+      <input class="title" type="search" bind:value={title} list="rock-types" />
+      <datalist id="rock-types">
+        {#each RockTypes as rock}
+          <option value={rock}></option>
+        {/each}
+      </datalist>
+    </legend>
     <div class="flex jc-se">
       <label>
         <input type="radio" bind:group={position} name="position" value="天" checked />
@@ -65,7 +94,7 @@
     {/each}
   </fieldset>
 
-  <fieldset class="flex jc-sb">
+  <fieldset class="">
     <legend>計分</legend>
     <input type="text" readonly
       class="output"
@@ -73,11 +102,17 @@
       style={`--score: ${output.score}; --max: ${output.max}`}
     />
     <sub class="max">/ {output.max}</sub>
-    <input type="reset" />
+
+    <div class="flex jc-sb">
+      <input type="submit" value="紀錄" on:click|preventDefault={ save } />
+      <input type="reset" />
+    </div>
   </fieldset>
 </form>
 
-<footer>
+<History on:apply={ applyUrl } />
+
+<footer class="footer">
   <ul>
     <li>
       Made by Rplus
@@ -93,6 +128,10 @@
 
 
 <style>
+  .title {
+    max-width: 7em;
+  }
+
   .output {
     background-repeat: no-repeat;
     background-image:

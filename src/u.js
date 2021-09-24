@@ -9,6 +9,25 @@ export function clamp(num, min, max) {
 export function sum(numbers) {
   return numbers.reduce((all, i) => all + i, 0);
 };
+
+const STORAGE_KEY = 'TDJ-HELPER';
+export function saveItem(data) {
+  if (!data || !data.key) { return false;}
+  let odata = getItem() || {};
+
+  odata[data.key] = data.value;
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(odata));
+};
+
+export function getItem(key) {
+  let data = localStorage.getItem(STORAGE_KEY);
+  if (!data) { return null; }
+  data = JSON.parse(data);
+
+  return key ? data[key] : data;
+};
+
 const TYPES = {
   atk: {
     '天': [10, 4],
@@ -48,3 +67,28 @@ export const BreakPoints = {
   '地': 143,
   '荒': 145,
 };
+
+export const RockTypes = [
+  '荒蟄',
+  '頭狼',
+  '幽魎',
+  '羅鬼',
+
+  '妖術師',
+  '朱焰魔火',
+  '九環朱蝮',
+
+  '赤練鬼',
+  '剛破鬼',
+  '凶骸兵',
+
+  '冥葵',
+  '屍魔術士',
+
+  '咒石兵',
+  '冰魔蠍',
+  '死魘鬼卒',
+
+  '鬼面花蛛',
+  '百眼翼魔',
+];
