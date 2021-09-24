@@ -64,7 +64,12 @@
   <fieldset>
     <legend>
       絕‧魂石孔位
-      <input class="title" type="search" bind:value={title} list="rock-types" />
+      <input
+        class="title"
+        type="search"
+        list="rock-types"
+        bind:value={title}
+      />
       <datalist id="rock-types">
         {#each RockTypes as rock}
           <option value={rock}></option>
