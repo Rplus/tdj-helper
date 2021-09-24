@@ -9,6 +9,19 @@ export function clamp(num, min, max) {
 export function sum(numbers) {
   return numbers.reduce((all, i) => all + i, 0);
 };
+const TYPES = {
+  atk: {
+    '天': [10, 4],
+    '地': [5, 2],
+    '荒': [7, 3],
+  },
+  def: {
+    '天': [5, 2],
+    '地': [10, 4],
+    '荒': [7, 3],
+  }
+};
+
 export const PROPS = [
   { label: '--',  score: 0, type: 'atk', },
   { label: '攻擊',  score: 11, type: 'atk', },
@@ -21,17 +34,17 @@ export const PROPS = [
   { label: '免傷',  score: 5, type: 'def', },
   { label: '防禦',  score: 1, type: 'def', },
   { label: '抗暴',  score: 0, type: 'def', },
-];
+].map(p => {
+  p.range = TYPES[p.type];
+  return p;
+});
 
-export const TYPES = {
-  atk: {
-    '天': [10, 4],
-    '地': [5, 2],
-    '荒': [7, 3],
-  },
-  def: {
-    '天': [5, 2],
-    '地': [10, 4],
-    '荒': [7, 3],
-  }
+export function getProp(label) {
+  return PROPS.find(p => p.label === label);
+}
+
+export const BreakPoints = {
+  '天': 164,
+  '地': 143,
+  '荒': 145,
 };

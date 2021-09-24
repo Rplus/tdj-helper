@@ -1,16 +1,16 @@
 <script>
   import Item from './Item.svelte';
-  import { sum } from './u.js';
+  import { clamp, sum, getProp, BreakPoints, } from './u.js';
 
   let position = '天';
-  const breakPoints = {
-    '天': 164,
-    '地': 143,
-    '荒': 145,
-  };
-  let items = []
+  let items = new Array(4);
 
   $: output = sumItems(items);
+
+  $: {
+    position;
+    refitValueRange();
+  }
 
   function updateScores(e) {
     items[e.detail.order] = e.detail;
@@ -18,10 +18,20 @@
 
   function sumItems(items) {
     return items.reduce((all, i) => {
-      all.score += i.targetProp.score * i.value;
-      all.max += i.targetProp.score * i.max;
+      let _p = getProp(i.prop);
+      let _max = _p.range[position][0];
+      all.score += _p.score * i.value;
+      all.max += _p.score * _max;
       return all;
     }, { score: 0, max: 0, });
+  }
+
+  function refitValueRange() {
+    items.forEach(i => {
+      let _p = getProp(i.prop);
+      let [max, min] = _p.range[position];
+      i.value = clamp(i.value, min, max);
+    })
   }
 </script>
 
@@ -29,7 +39,7 @@
 
 <h1>天地劫M 絕品魂石 評估</h1>
 
-<form style={`--break-point: ${breakPoints[position]}`}>
+<form style={`--break-point: ${BreakPoints[position]}`}>
   <fieldset>
     <legend>絕‧魂石孔位</legend>
     <div class="flex jc-se">
@@ -50,10 +60,9 @@
 
   <fieldset>
     <legend>副屬</legend>
-    <Item position={position} order={0} on:update={updateScores} />
-    <Item position={position} order={1} on:update={updateScores} />
-    <Item position={position} order={2} on:update={updateScores} />
-    <Item position={position} order={3} on:update={updateScores} />
+    {#each items as item, index}
+      <Item position={position} bind:item={item} />
+    {/each}
   </fieldset>
 
   <fieldset class="flex jc-sb">

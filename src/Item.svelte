@@ -1,44 +1,33 @@
 <script>
   export let position = '天';
-  export let order = 0;
+  export let item = { prop: '--', value: 5 };
 
-  import { clamp, PROPS, TYPES, } from './u.js';
-  import { createEventDispatcher } from 'svelte';
+  import { clamp, PROPS, getProp, } from './u.js';
 
-  const dispatch = createEventDispatcher();
-
-  let targetProp;
-  let max;
-  let min;
-  let value = 5;
-
-  $: {
-    if (targetProp) {
-      max = TYPES[targetProp.type][position][0];
-      min = TYPES[targetProp.type][position][1];
-      value = clamp(value, min, max);
-    }
-  }
-  $: {
-    dispatch('update', { targetProp, value, order, max, min, });
-  }
+  $: [max, min] = getProp(item.prop).range[position] || [];
 </script>
 
 
 
 <div class="flex list-item">
-  <select bind:value={targetProp}>
-    {#each PROPS as prop, index}
-      <option value={PROPS[index]}>
-        {prop.label + ' ' + PROPS[index].score}
+  <select bind:value={item.prop}>
+    {#each PROPS as _prop, index}
+      <option value={_prop.label}>
+        {_prop.label + ' ' + _prop.score}
       </option>
     {/each}
   </select>
 
-  <input type="number" max={max} min={min} bind:value={value} />
+  <input
+    type="number"
+    max={max}
+    min={min}
+    bind:value={item.value}
+  />
+
   <div class="flex">
     <input type="range" max={max} min={min}
-      bind:value={value}
+      bind:value={item.value}
       style={`--max: ${max};`}
     />
   </div>
