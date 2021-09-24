@@ -13,6 +13,7 @@
 
   $: {
     position;
+    items;
     refitValueRange();
   }
 
