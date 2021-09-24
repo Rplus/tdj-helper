@@ -140,7 +140,7 @@
 
 <style>
   .title {
-    max-width: 7em;
+    max-width: 10em;
   }
 
   .output {
