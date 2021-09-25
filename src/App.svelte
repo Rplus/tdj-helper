@@ -131,7 +131,7 @@
     <li>
       計分標準參考來源：
       <br>
-      <a href="https://bbs.nga.cn/read.php?tid=26383169&rand=456" target="_blank">魂石选择终极攻略 | NGA玩家社区</a>
+      <a href="https://bbs.nga.cn/read.php?tid=26383169&rand=456" target="_blank" rel="noopener">魂石选择终极攻略 | NGA玩家社区</a>
     </li>
   </ul>
 </footer>
