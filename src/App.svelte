@@ -144,6 +144,7 @@
   }
 
   .output {
+    max-width: calc(80vw - 2em);
     background-repeat: no-repeat;
     background-image:
       linear-gradient(to right, #0001, #666a),
