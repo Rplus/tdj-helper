@@ -51,6 +51,7 @@
 
 <style>
   details {
+    margin-top: 1em;
     margin-left: 5vmin;
   }
 
