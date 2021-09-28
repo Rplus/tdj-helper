@@ -92,3 +92,9 @@ export const RockTypes = [
   '鬼面花蛛',
   '百眼翼魔',
 ];
+
+
+export function cloneObj(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+export const DefailtItem = { prop: '--', value: 5 };

@@ -1,7 +1,15 @@
 <script>
   import Item from './Item.svelte';
   import History from './History.svelte';
-  import { clamp, sum, getProp, BreakPoints, RockTypes, } from './u.js';
+  import {
+    clamp,
+    sum,
+    getProp,
+    cloneObj,
+    BreakPoints,
+    RockTypes,
+    DefailtItem,
+  } from './u.js';
   import { historeUrls } from './stores.js';
 
   let position = '天';
@@ -54,6 +62,11 @@
       let [max, min] = _p.range[position];
       i.value = clamp(i.value, min, max);
     })
+  }
+
+  function reset() {
+    title = '';
+    items = cloneObj(new Array(4).fill(DefailtItem));
   }
 </script>
 
@@ -121,7 +134,7 @@
         on:click|preventDefault={ save }
         disabled={!output.score}
       />
-      <input type="reset" />
+      <input type="reset" on:click|preventDefault={reset} />
     </div>
   </fieldset>
 </form>

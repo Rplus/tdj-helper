@@ -1,8 +1,15 @@
 <script>
-  export let position = '天';
-  export let item = { prop: '--', value: 5 };
+  import {
+    clamp,
+    getProp,
+    cloneObj,
+    PROPS,
+    DefailtItem,
+  } from './u.js';
 
-  import { clamp, PROPS, getProp, } from './u.js';
+  export let position = '天';
+  export let item = cloneObj(DefailtItem);
+
 
   $: [max, min] = getProp(item.prop).range[position] || [];
 </script>
