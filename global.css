@@ -120,8 +120,8 @@ footer ul {
   font-size: smaller;
 }
 
-input[type="reset"],
-input[type="submit"],
-button {
+input[type="reset"]:not([disabled]),
+input[type="submit"]:not([disabled]),
+button:not([disabled]) {
   cursor: pointer;
 }
