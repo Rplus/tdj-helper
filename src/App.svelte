@@ -59,7 +59,12 @@
 
 
 
-<h1>天地劫M 絕品魂石 評估</h1>
+<h1>
+  <ruby>
+    絕品魂石 評估
+    <rt style="color: #0003">天地劫M</rt>
+  </ruby>
+</h1>
 
 <form class="main" style={`--break-point: ${BreakPoints[position]}`}>
   <fieldset>
