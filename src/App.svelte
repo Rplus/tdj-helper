@@ -68,6 +68,9 @@
     title = '';
     items = cloneObj(new Array(4).fill(DefailtItem));
   }
+
+  function submit() {
+  }
 </script>
 
 
@@ -79,7 +82,10 @@
   </ruby>
 </h1>
 
-<form class="main" style={`--break-point: ${BreakPoints[position]}`}>
+<form class="main"
+  on:submit|preventDefault={submit}
+  style={`--break-point: ${BreakPoints[position]}`}
+>
   <fieldset>
     <legend>
       絕‧魂石孔位
