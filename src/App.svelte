@@ -49,6 +49,53 @@
     }));
   }
 
+  function isValidProp(item) {
+    return item.prop !== '--';
+  }
+
+  function genRangedItems(items, valueType = 'max') {
+    let _items = cloneObj(items);
+    return _items.map(item => {
+      if (!isValidProp(item)) { return item; }
+
+      let valueRange = getProp(item.prop).range[position];
+      switch (valueType) {
+        case 'max':
+          item.value = valueRange[0];
+          break;
+        case 'min':
+          item.value = valueRange[1];
+          break;
+        case 'mid':
+          item.value = Math.round((valueRange[0] + valueRange[1]) / 2);
+          break;
+        default:
+          break;
+      }
+      return item;
+    });
+  }
+
+  function saveRangedItems(items, rangeType = 'max', suffix = '') {
+    let _items = genRangedItems(items, rangeType);
+    let _score = sumItems(_items).score;
+
+    historeUrls.add(JSON.stringify({
+      title: title + suffix,
+      position,
+      items: _items,
+      score: _score,
+    }));
+  }
+
+  function saveMMM() {
+    if (!items.some(isValidProp)) { return;  }
+
+    saveRangedItems(items, 'max', '[上]');
+    saveRangedItems(items, 'mid', '[中]');
+    saveRangedItems(items, 'min', '[下]');
+  }
+
   function applyUrl(apply) {
     let data = JSON.parse(apply.detail.url);
     position = data.position;
@@ -139,6 +186,11 @@
         value="記錄"
         on:click|preventDefault={ save }
         disabled={!output.score}
+      />
+      <input
+        type="submit"
+        value="生成上下限"
+        on:click|preventDefault={ saveMMM }
       />
       <input type="reset" on:click|preventDefault={reset} />
     </div>
