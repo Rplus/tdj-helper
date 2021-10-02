@@ -189,8 +189,9 @@
     />
     <sub class="max">/ {output.max}</sub>
 
-    <div class="flex jc-sb">
+    <div class="flex jc-sb form-btns">
       <input
+        class="save"
         type="submit"
         value="記錄"
         on:click|preventDefault={ save }
@@ -246,5 +247,13 @@
   .max {
     align-self: center;
     color: #0006;
+  }
+
+  .form-btns * + * {
+    margin-inline-start: 0.5rem;
+  }
+
+  .save {
+    margin-inline-end: auto;
   }
 </style>
