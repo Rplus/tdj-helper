@@ -34,6 +34,7 @@
     魂石紀錄:
   </summary>
 
+  <div class="ul">
   {#each $savedUrl as url (url)}
     <div class="li">
       <button class="btn"
@@ -45,6 +46,7 @@
       >{@html itemTitle(url) }</span>
     </div>
   {/each}
+  </div>
 </details>
 
 
@@ -53,6 +55,11 @@
   details {
     margin-top: 1em;
     margin-left: 5vmin;
+  }
+
+  .ul {
+    max-height: calc(100vh - 15rem);
+    overflow: auto;
   }
 
   .li {

@@ -94,6 +94,15 @@
     saveRangedItems(items, 'max', '[上]');
     saveRangedItems(items, 'mid', '[中]');
     saveRangedItems(items, 'min', '[下]');
+
+    setTimeout(asideScrollToBottom, 0);
+  }
+
+  function asideScrollToBottom() {
+    // dirty dom
+    let ul = document.querySelector('.aside .ul');
+    if (!ul) { return; }
+    ul.scrollTop = ul.scrollHeight;
   }
 
   function applyUrl(apply) {
