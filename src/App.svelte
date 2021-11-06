@@ -136,6 +136,7 @@
     絕品魂石 評估
     <rt style="color: #0003">天地劫M</rt>
   </ruby>
+  <a href="./weapon" title="go to next">⏵</a>
 </h1>
 
 <form class="main"
