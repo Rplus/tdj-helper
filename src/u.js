@@ -41,25 +41,31 @@ const TYPES = {
   }
 };
 
-export const PROPS = [
-  { label: '--',  score: 0, type: 'atk', },
-  { label: '攻擊',  score: 11, type: 'atk', },
-  { label: '傷害',  score: 10, type: 'atk', },
-  { label: '穿透',  score: 6, type: 'atk', },
-  { label: '暴擊',  score: 3, type: 'atk', },
-  { label: '反擊',  score: 0, type: 'atk', },
+export const ORI_PROPS = [
+  { label: '--', score: 0, type: 'atk', },
+  { label: '攻擊', score: 11, type: 'atk', },
+  { label: '傷害', score: 10, type: 'atk', },
+  { label: '穿透', score: 6, type: 'atk', },
+  { label: '暴擊', score: 3, type: 'atk', },
+  { label: '反擊', score: 0, type: 'atk', },
 
-  { label: '氣血',  score: 7, type: 'def', },
-  { label: '免傷',  score: 5, type: 'def', },
-  { label: '防禦',  score: 1, type: 'def', },
-  { label: '抗暴',  score: 0, type: 'def', },
-].map(p => {
-  p.range = TYPES[p.type];
-  return p;
-});
+  { label: '氣血', score: 7, type: 'def', },
+  { label: '免傷', score: 5, type: 'def', },
+  { label: '防禦', score: 1, type: 'def', },
+  { label: '抗暴', score: 0, type: 'def', },
+];
 
-export function getProp(label) {
-  return PROPS.find(p => p.label === label);
+export function genProps(props = ORI_PROPS) {
+  return props.map(p => {
+    p.range = TYPES[p.type];
+    return p;
+  })
+}
+
+export const PROPS = genProps();
+
+export function getProp(label, props = PROPS) {
+  return props.find(p => p.label === label);
 }
 
 export const BreakPoints = {

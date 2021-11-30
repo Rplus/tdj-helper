@@ -1,23 +1,26 @@
 <script>
   import Item from './Item.svelte';
   import History from './History.svelte';
+  import Settings from './Settings.svelte';
   import {
     clamp,
     sum,
     getProp,
+    genProps,
     cloneObj,
     BreakPoints,
     RockTypes,
     DefailtItem,
   } from './u.js';
-  import { historeUrls } from './stores.js';
+  import { historeUrls, oriProps } from './stores.js';
 
   let position = '天';
   let items = new Array(4);
 
   let title = '';
 
-  $: output = sumItems(items);
+  $: customProps = genProps($oriProps);
+  $: output = sumItems(items, $oriProps);
 
   $: {
     position;
@@ -31,7 +34,7 @@
 
   function sumItems(items) {
     return items.reduce((all, i) => {
-      let _p = getProp(i.prop);
+      let _p = getProp(i.prop, customProps);
       let _max = _p.range[position][0];
       all.score += _p.score * i.value;
       all.max += _p.score * _max;
@@ -58,7 +61,7 @@
     return _items.map(item => {
       if (!isValidProp(item)) { return item; }
 
-      let valueRange = getProp(item.prop).range[position];
+      let valueRange = getProp(item.prop, customProps).range[position];
       switch (valueType) {
         case 'max':
           item.value = valueRange[0];
@@ -114,7 +117,7 @@
 
   function refitValueRange() {
     items.forEach(i => {
-      let _p = getProp(i.prop);
+      let _p = getProp(i.prop, customProps);
       let [max, min] = _p.range[position];
       i.value = clamp(i.value, min, max);
     })
@@ -210,7 +213,8 @@
 
 <History on:apply={ applyUrl } />
 
-<footer class="footer">
+<footer class="footer flex jc-sb">
+  <Settings />
   <ul>
     <li>
       Made by Rplus

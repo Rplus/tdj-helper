@@ -7,6 +7,8 @@
     DefailtItem,
   } from './u.js';
 
+  import { oriProps } from './stores.js';
+
   export let position = '天';
   export let item = cloneObj(DefailtItem);
 
@@ -18,7 +20,7 @@
 
 <div class="flex list-item">
   <select bind:value={item.prop}>
-    {#each PROPS as _prop, index}
+    {#each $oriProps as _prop, index}
       <option value={_prop.label}>
         {_prop.label + ' ' + _prop.score}
       </option>
