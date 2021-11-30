@@ -113,6 +113,10 @@ fieldset {
   border-color: #ccc6;
 }
 
+footer {
+  align-items: center;
+}
+
 footer ul {
   float: right;
   opacity: 0.6;
