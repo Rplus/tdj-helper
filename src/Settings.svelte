@@ -63,7 +63,7 @@
 
 .dialog-content {
   padding: 1em;
-  background-color: #fffc;
+  background-color: #eee;
   box-shadow: 0 .25em 3px #0003;
 }
 </style>
