@@ -49,7 +49,7 @@
       </tr>
     </thead>
     <tbody id="tbody">
-      <td colspan="4">Loading~</td>
+      <td id="td" colspan="4">Loading~</td>
     </tbody>
   </table>
 
@@ -95,8 +95,7 @@
     }
     th,
     tbody tr:nth-of-type(4n) {
-      padding-bottom: .5em;
-      border-bottom: 6px dotted #0003;
+      border-bottom: 4px dotted #0003;
     }
     label {
       display: block;
@@ -139,6 +138,10 @@
     fetch(`https://opensheet.elk.sh/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/${date}!c2:e22`)
     .then(r => r.json())
     .then(raw => {
+      if (raw.error) {
+        td.innerHTML = new Error('Fetching data fails.');
+        return;
+      }
       let data = [];
       raw.forEach((d, index) => {
         let N = ~~(index / 4) + 1;
@@ -148,9 +151,10 @@
           title: `${N}-${n}`,
           boss: n === 4,
         };
+
         for (let p in d) {
           let type = p.slice(0, 2);
-          let value = d[p].replace(/\r\n|\n|\r/g, '\n');
+          let value = d[p];
           let checkbox = n !== 4 && type === '靈門';
           o.content.push({
             type,
@@ -164,39 +168,31 @@
       let tmpl = data.map(row => {
         let content = '';
         if (row.boss) {
-          content = `
-            <td colspan="3">${row.content[0]?.value || ''}</td>`;
+          content = `<td colspan="3">${row.content[0]?.value || ''}</td>`;
         } else {
           content = row.content.map(td => {
             let innerContent = '';
             if (td.value?.length > 2) {
               innerContent = td.checkbox
-               ? td.value.map(item => `
-                  <label><input type="radio" name="${row.title}"> <span>${item}</span></label>
-                `.trim()).join('')
-               : `
-                <label><input type="radio" name="${row.title}"> <span>${td.value}</span></label>
-                `.trim();
+               ? td.value.map(item => `<label><input type="radio" name="${row.title}"> <span>${item}</span></label>`).join('')
+               : `<label><input type="radio" name="${row.title}"> <span>${td.value}</span></label>`;
             } else {
               innerContent = td.value || '';
             }
-            return `
-              <td class="${td.checkbox ? 'checkbox' : ''}">${innerContent}</td>`.trim();
+            return `<td class="${td.checkbox ? 'checkbox' : ''}">${innerContent}</td>`;
           }).join('');
         }
 
-        return `
-        <tr>
-          <td>${row.title}</td>
-          ${content}
-        </tr>
-        `
+        return (`
+          <tr>
+            <td>${row.title}</td>
+            ${content}
+          </tr>
+        `);
       });
       tbody.innerHTML = tmpl.join('');
     })
-    .catch(err => {
-      table.innerHTML = new Error(err);
-    })
+    .catch(err => table.innerHTML = new Error(err));
   </script>
 </body>
 </html>
