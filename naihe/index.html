@@ -104,6 +104,9 @@
     .checkbox {
       white-space: normal;
     }
+    tbody tr:nth-of-type(4n) {
+      font-weight: 900;
+    }
 
     tbody tr:nth-of-type(8n + 1),
     tbody tr:nth-of-type(8n + 2),
@@ -128,7 +131,17 @@
 
   <script>
     let urlProps = new URLSearchParams(location.search);
-    let date = urlProps.get('date') || '0124';
+    let getFormatedD1 = () => {
+      let today = new Date();
+      let day7 = 1000 * 60 * 60 * 24 * 7;
+      let d0 = new Date(2022, 0, 24);
+      let d1 = new Date(today - (today - d0) % day7);
+      return (
+        `${d1.getMonth() + 1}`.padStart(2, '0')
+        + `${d1.getDate()}`.padStart(2, '0')
+      );
+    };
+    let date = urlProps.get('date') || getFormatedD1();
     caption.innerHTML = `<a href="./?date=${date}">${date}↗</a>`;
 
     openIframe = () => {
