@@ -79,6 +79,21 @@
       max-width: 100%;
       background-color: #fff3;
     }
+    caption a {
+      padding: 3px .75em;
+    }
+    caption a:last-child {
+      border: 1px dotted;
+      border-width: 1px 1px 0 1px!important;
+    }
+    caption a:first-child::before {
+      content: '';
+      border: 3px solid #f33;
+      display: inline-block;
+      vertical-align: 10px;
+      border-radius: 1em;
+      margin-right: .1em;
+    }
     th {
       /* position: sticky; */
       top: 0;
@@ -141,8 +156,9 @@
         + `${d1.getDate()}`.padStart(2, '0')
       );
     };
-    let date = urlProps.get('date') || getFormatedD1();
-    caption.innerHTML = `<a href="./?date=${date}">${date}↗</a>`;
+    let d1 = getFormatedD1();
+    let date = urlProps.get('date') || d1;
+    caption.innerHTML = [...new Set([d1, date])].map(d => `<a href="./?date=${d}">${d}↗</a>`).join('');
 
     openIframe = () => {
       iframe.src = gsheetlink.href;
