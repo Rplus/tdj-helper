@@ -22,6 +22,10 @@
     <a href="../weapon/" title="淬火需求">⏵</a>
   </h1>
 
+  <style id="table_style"></style>
+
+  <form>
+
   <table id="table">
     <caption id="caption"></caption>
     <colgroup>
@@ -52,6 +56,8 @@
       <td id="td" colspan="4">Loading~</td>
     </tbody>
   </table>
+  <input type="reset">
+  </form>
 
   <hr>
 
@@ -150,10 +156,10 @@
       let today = new Date();
       let day7 = 1000 * 60 * 60 * 24 * 7;
       let d0 = new Date(2022, 0, 24);
-      let d1 = new Date(today - (today - d0) % day7);
+      let _d1 = new Date(today - (today - d0) % day7);
       return (
-        `${d1.getMonth() + 1}`.padStart(2, '0')
-        + `${d1.getDate()}`.padStart(2, '0')
+        `${_d1.getMonth() + 1}`.padStart(2, '0')
+        + `${_d1.getDate()}`.padStart(2, '0')
       );
     };
     let d1 = getFormatedD1();
@@ -163,6 +169,21 @@
     openIframe = () => {
       iframe.src = gsheetlink.href;
     };
+
+    table.addEventListener('input', () => {
+      let checkboxs = [...document.querySelectorAll('input[data-value]:checked')];
+      if (!checkboxs.length) { return; }
+
+      let values = checkboxs.map(i => i.nextElementSibling?.textContent || '').filter(Boolean);
+      values = [...new Set(values)].map(i => {
+        let n = document.querySelector(`input[data-value="${i}"]:checked`)?.name;
+        return {
+          value: i,
+          name: n,
+        };
+      });
+      table_style.textContent = values.map(i => `input[data-value="${i.value}"]:not([name="${i.name}"]) + span`).join(',') + '{ text-decoration: line-through; }';
+    });
 
     fetch(`https://opensheet.elk.sh/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/${date}!c2:e22`)
     .then(r => r.json())
@@ -203,7 +224,7 @@
             let innerContent = '';
             if (td.value?.length > 2) {
               innerContent = td.checkbox
-               ? td.value.map(item => `<label><input type="radio" name="${row.title}"> <span>${item}</span></label>`).join('')
+               ? td.value.map(item => `<label><input type="radio" name="${row.title}" data-value="${item}"> <span>${item}</span></label>`).join('')
                : `<label><input type="radio" name="${row.title}"> <span>${td.value}</span></label>`;
             } else {
               innerContent = td.value || '';
