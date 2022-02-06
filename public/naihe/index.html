@@ -24,7 +24,7 @@
 
   <style id="table_style"></style>
 
-  <form>
+  <form id="tableForm">
 
   <table id="table">
     <caption id="caption"></caption>
@@ -170,9 +170,12 @@
       iframe.src = gsheetlink.href;
     };
 
-    table.addEventListener('input', () => {
+    function markDupOptions(argument) {
       let checkboxs = [...document.querySelectorAll('input[data-value]:checked')];
-      if (!checkboxs.length) { return; }
+      if (!checkboxs.length) {
+        table_style.textContent = '';
+        return;
+      }
 
       let values = checkboxs.map(i => i.nextElementSibling?.textContent || '').filter(Boolean);
       values = [...new Set(values)].map(i => {
@@ -183,6 +186,11 @@
         };
       });
       table_style.textContent = values.map(i => `input[data-value="${i.value}"]:not([name="${i.name}"]) + span`).join(',') + '{ text-decoration: line-through; }';
+    };
+
+    tableForm.addEventListener('input', markDupOptions);
+    tableForm.addEventListener('reset', () => {
+      table_style.textContent = '';
     });
 
     fetch(`https://opensheet.elk.sh/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/${date}!c2:e22`)
