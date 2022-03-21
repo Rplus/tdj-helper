@@ -220,7 +220,7 @@
           o.content.push({
             type,
             checkbox,
-            value: checkbox ? value.split('\n') : value,
+            value: checkbox ? value.split('\n').map(t => t.trim()) : value.trim(),
           });
         }
         data[index] = o;
