@@ -167,7 +167,9 @@
     };
     let d1 = getFormatedD1();
     let date = urlProps.get('date') || d1;
-    caption.innerHTML = [...new Set([d1, date])].map(d => `<a href="./?date=${d}">${d}↗</a>`).join('');
+    caption.innerHTML = [...new Set([d1, date])]
+      .map(d => `<a href="./?date=${d}">${d}↗</a>`)
+      .join('');
 
     openIframe = () => {
       iframe.src = gsheetlink.href;
@@ -180,7 +182,10 @@
         return;
       }
 
-      let values = checkboxs.map(i => i.nextElementSibling?.textContent || '').filter(Boolean);
+      let values = checkboxs
+        .map(i => i.nextElementSibling?.textContent || '')
+        .filter(Boolean);
+
       values = [...new Set(values)].map(i => {
         let n = document.querySelector(`input[data-value="${i}"]:checked`)?.name;
         return {
@@ -188,8 +193,17 @@
           name: n,
         };
       });
-      table_style.textContent = values.map(i => `input[data-value="${i.value}"]:not([name="${i.name}"]) + span`).join(',') + '{ text-decoration: line-through; }';
+      table_style.textContent =
+        values
+          .map(i => `input[data-value="${i.value}"]:not([name="${i.name}"]) + span`)
+          .join(',') + '{ text-decoration: line-through; }';
     };
+
+    function genLabel(title, value, match) {
+      return `<label><input type="radio" name="${title}" ${
+        match && 'data-value="' + match + '"'
+      }> <span>${value}</span></label>`;
+    }
 
     tableForm.addEventListener('input', markDupOptions);
     tableForm.addEventListener('reset', () => {
@@ -235,8 +249,8 @@
             let innerContent = '';
             if (td.value?.length > 2) {
               innerContent = td.checkbox
-               ? td.value.map(item => `<label><input type="radio" name="${row.title}" data-value="${item}"> <span>${item}</span></label>`).join('')
-               : `<label><input type="radio" name="${row.title}"> <span>${td.value}</span></label>`;
+               ? td.value.map(item => genLabel(row.title, item, item)).join('')
+               : genLabel(row.title, td.value);
             } else {
               innerContent = td.value || '';
             }
