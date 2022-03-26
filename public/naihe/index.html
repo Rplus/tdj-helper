@@ -88,14 +88,19 @@
       max-width: 100%;
       background-color: #fff3;
     }
+    caption {
+      margin-bottom: 0.5em;
+    }
     caption a {
       padding: 3px .75em;
+      border: 1px dotted transparent;
+      border-bottom-color: currentcolor;
     }
-    caption a:last-child {
+    caption a[data-target="true"] {
       border: 1px dotted;
       border-width: 1px 1px 0 1px!important;
     }
-    caption a:first-child::before {
+    caption a:nth-of-type(-n + 2)::before {
       content: '';
       border: 3px solid #f33;
       display: inline-block;
@@ -167,8 +172,8 @@
     };
     let d1 = getFormatedD1();
     let date = urlProps.get('date') || d1;
-    caption.innerHTML = [...new Set([d1, date])]
-      .map(d => `<a href="./?date=${d}">${d}↗</a>`)
+    caption.innerHTML = [...new Set([d1 + '-65', d1, date])]
+      .map(d => `<a href="./?date=${d}" data-target="${date === d}">${d}🔗</a>`)
       .join('');
 
     openIframe = () => {
