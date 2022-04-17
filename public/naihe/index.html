@@ -172,7 +172,7 @@
     };
     let d1 = getFormatedD1();
     let date = urlProps.get('date') || d1;
-    caption.innerHTML = [...new Set([d1 + '-65', d1, date])]
+    caption.innerHTML = [...new Set([d1, date])]
       .map(d => `<a href="./?date=${d}" data-target="${date === d}">${d}🔗</a>`)
       .join('');
 
