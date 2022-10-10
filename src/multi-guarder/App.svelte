@@ -171,6 +171,7 @@
 			<div
 				class="dot--attacker"
 				data-title={a.title}
+				tabindex="0"
 				style="--x: {a.x}; --y: {a.y}; --bgc: {a.color}"
 			/>
 		{/each}
@@ -405,17 +406,18 @@
 	opacity: 0.5;
 	justify-content: flex-end;
 	align-items: flex-start;
+  border: 2px solid var(--bdc, #0000);
+  outline: none;
 }
 .dot--attacker::after {
   content: attr(data-title);
   font-size: 1rem;
-  color: #0003;
+  color: var(--font-color, #0003);
 }
+.dot--attacker:focus,
 .dot--attacker:hover {
-  border: 2px solid;
-}
-.dot--attacker:hover::after {
-  color: #000;
+	--bdc: #000;
+	--font-color: #000;
 }
 
 form {
