@@ -78,7 +78,6 @@
 		for (let i = gridSize - 1; i >= 0; i--) {
 			for (let j = gridSize - 1; j >= 0; j--) {
 				let def = findDefender(i, j, _nearest_defenders);
-				console.log({def});
 				_attackers[i + j * gridSize] = {
 					title: `${def.title}`,
 					x: i,
