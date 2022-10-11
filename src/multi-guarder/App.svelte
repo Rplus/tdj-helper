@@ -17,7 +17,7 @@
 		y: 2,
 	};
 
-	let defenders = [
+	let guarders = [
 		{
 			index: 1,
 			order: 1,
@@ -57,32 +57,29 @@
 	];
 
 	$: {
-		attackee;
-		defenders.forEach(d => {
-			d.distance = Math.abs(d.y - attackee.y) + Math.abs(d.x - attackee.x);
-		});
-	};
-
-	$: {
-		defenders;
+		guarders;
 		attackee;
 		gridSize;
-		updateDefenders();
+		guarders.forEach(guarder => {
+			guarder.distance2T = Math.abs(guarder.y - attackee.y) + Math.abs(guarder.x - attackee.x);
+		});
+		updateGuarders();
 	}
+
 	let attackers = [];
 	let empty = { title: '' };
-	function updateDefenders(attacker) {
+	function updateGuarders(attacker) {
 		let _attackers = [];
-		let _nearest_defenders = findNearestDefendersToAttackee();
+		let _nearest_guarders = findNearestGuardersToAttackee();
 
 		for (let i = gridSize - 1; i >= 0; i--) {
 			for (let j = gridSize - 1; j >= 0; j--) {
-				let def = findDefender(i, j, _nearest_defenders);
+				let guarder = findGuarder(i, j, _nearest_guarders);
 				_attackers[i + j * gridSize] = {
-					title: `${def.title}`,
+					title: `${guarder.title}`,
 					x: i,
 					y: j,
-					color: def.color,
+					color: guarder.color,
 					// role: 'attacker',
 				};
 			}
@@ -90,69 +87,57 @@
 		attackers = _attackers;
 	}
 
-	function findNearestDefendersToAttackee() {
-		let _d = [];
+	function findNearestGuardersToAttackee() {
+		let guarderGroupByDistance2T = [];
 		let minest = gridSize * 2;
 
-		defenders.forEach(d => {
-			if (d.range < d.distance) { return null; }
+		guarders.forEach(g => {
+			if (g.range < g.distance2T) { return null; }
 
-			if (minest >= d.distance) {
-				minest = d.distance;
-				if (!_d[d.distance]) {
-					_d[d.distance] = [];
+			if (minest >= g.distance2T) {
+				minest = g.distance2T;
+				if (!guarderGroupByDistance2T[g.distance2T]) {
+					guarderGroupByDistance2T[g.distance2T] = [];
 				}
-				_d[d.distance].push(d);
+				guarderGroupByDistance2T[g.distance2T].push(g);
 			}
 		});
-		return _d[minest];
+		return guarderGroupByDistance2T[minest].sort(sortByIndex);
 	}
 
-	function findDefender(x, y, _defenders) {
-		if (!_defenders || _defenders.length === 0) {
+	function sortByIndex(a, b) {
+		return a.index - b.index;
+	}
+
+	function findGuarder(atk_x, atk_y, passed1_guarders) {
+		if (!passed1_guarders || passed1_guarders.length === 0) {
 			return empty;
 		}
-		if (_defenders.length === 1) {
-			return _defenders[0];
+
+		let firstGuarder = passed1_guarders[0];
+		if (passed1_guarders.length === 1) {
+			return firstGuarder;
 		}
 
-		// 2. find distance to attacker
-		let minDistance = gridSize * 2;
-		let minIndex = 999;
-		let maxIndex = 0;
-		let _d = _defenders.map(d => {
-			let distance = Math.abs(d.y - y) + Math.abs(d.x - x);
-			let {index, title, color} = d;
-			if (minDistance > distance) {
-				minDistance = distance;
-			}
-			if (minIndex > index) {
-				minIndex = index;
-			}
-			if (maxIndex < index) {
-				maxIndex = index;
-			}
-			return {
-				index,
-				title,
-				distance,
-				color,
-			};
-		});
+		let firstGuarderDistance2A;
 
-		let minIndexDefender = _d.find(d => d.index === minIndex);
-		let maxIndexDefender = _d.find(d => d.index === maxIndex);
+		// we just find those guarders have smaller distance to attacker than the first guarder.
+		// if there is no guarder, we could know: first guarder has the smallest distance to attacker.
+		// if there are guarders have smaller distance, we will choise the latest one guarder.
+		let _guarders = passed1_guarders
+			.filter((g, index) => {
+				g.distance2A = Math.abs(g.y - atk_y) + Math.abs(g.x - atk_x);
+				if (!index) {
+					firstGuarderDistance2A = g.distance2A;
+				}
+				return firstGuarderDistance2A > g.distance2A;
+			});
 
-		// if smallest index defender is one of the closest defenders,
-		// just select it.
-		if (minIndexDefender.distance === minDistance) {
-			return minIndexDefender;
-		} else {
-			// find the biggest index defender in the closer group than smallest index defender
-			return _d
-				.filter(d => d.distance < minIndexDefender.distance)
-				.sort((a, b) => b.index - a.index)[0];
+		if (!_guarders.length) {
+			return firstGuarder;
 		}
+
+		return _guarders[_guarders.length - 1];
 	}
 </script>
 
@@ -184,7 +169,7 @@
 			/>
 		{/each}
 
-		{#each defenders as d}
+		{#each guarders as d}
 			<div
 				class="dot"
 				data-range={d.range}
@@ -230,13 +215,13 @@
 		<legend>自訂區塊</legend>
 
 		<dl>
-			{#each defenders as d}
-				<dt>{d.title} - <small>護衛</small></dt>
+			{#each guarders as guarder}
+				<dt>{guarder.title} - <small>護衛</small></dt>
 				<dd>
 					<label>
 						x:
 						<input type="number"
-							bind:value={d.x}
+							bind:value={guarder.x}
 							max={gridSize - 1}
 							min="0"
 						/>
@@ -246,7 +231,7 @@
 					<label>
 						y:
 						<input type="number"
-							bind:value={d.y}
+							bind:value={guarder.y}
 							max={gridSize - 1}
 							min="0"
 						/>
@@ -256,7 +241,7 @@
 					<label>
 						護衛範圍:
 						<input type="number"
-							bind:value={d.range}
+							bind:value={guarder.range}
 							max="3"
 							min="0"
 						/>
@@ -266,7 +251,7 @@
 					<label>
 						顏色:
 						<input type="color"
-							bind:value={d.color}
+							bind:value={guarder.color}
 						/>
 					</label>
 				</dd>
@@ -422,10 +407,24 @@
   font-size: 1rem;
   color: var(--font-color, #0003);
 }
+.dot--attacker::before {
+	content: '攻';
+	position: absolute;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  font-size: .35em;
+  opacity: var(--watermark, 0);
+}
+
 .dot--attacker:focus,
 .dot--attacker:hover {
 	--bdc: #000;
-	--font-color: #000;
+	--font-color: #0009;
+}
+.dot--attacker:focus {
+	--watermark: 1;
 }
 
 form {
