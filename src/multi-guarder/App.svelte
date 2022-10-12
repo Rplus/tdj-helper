@@ -88,7 +88,7 @@
 	}
 
 	function findNearestGuardersToAttackee() {
-		let guarderGroupByDistance2T = [];
+		let guarderGroupByDistanceToTarget = [];
 		let minest = gridSize * 2;
 
 		guarders.forEach(g => {
@@ -96,13 +96,13 @@
 
 			if (minest >= g.distance2T) {
 				minest = g.distance2T;
-				if (!guarderGroupByDistance2T[g.distance2T]) {
-					guarderGroupByDistance2T[g.distance2T] = [];
+				if (!guarderGroupByDistanceToTarget[g.distance2T]) {
+					guarderGroupByDistanceToTarget[g.distance2T] = [];
 				}
-				guarderGroupByDistance2T[g.distance2T].push(g);
+				guarderGroupByDistanceToTarget[g.distance2T].push(g);
 			}
 		});
-		return guarderGroupByDistance2T[minest].sort(sortByIndex);
+		return guarderGroupByDistanceToTarget[minest].sort(sortByIndex);
 	}
 
 	function sortByIndex(a, b) {
@@ -429,7 +429,7 @@
 
 form {
   line-height: 1.35;
-  width: clamp(320px, 40%, 600px);
+  width: 320px;
   word-break: break-all;
 }
 
