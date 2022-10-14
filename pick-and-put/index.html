@@ -22,6 +22,10 @@
     <!-- <a href="../naihe/" title="三途川">↦</a> -->
   </h1>
 
+
+  <div id="output">
+  </div>
+
   <form id="form">
     <fieldset>
       <legend>行為:</legend>
@@ -47,26 +51,31 @@
       </label>
     </fieldset>
 
-
     <fieldset>
-      <legend>格數:</legend>
-      <input type="number" name="range" value="2" min="1" max="5">
+      <legend><label for="range">格數:</label></legend>
+      <input type="range" name="range" id="range" value="2" min="1" max="5">
+      <div class="flex" style="justify-content: space-around;">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+      </div>
     </fieldset>
   </form>
 
-  <hr/>
 
-  <div id="output">
-  </div>
+  <footer>
+    <hr>
 
-  <hr>
+    <cite>
+      參考資料:
+      <a href="https://nga.178.com/read.php?tid=31378635">
+        [攻略心得] 燕赤霞技能機制 | NGA
+      </a>
+    </cite>
+  </footer>
 
-  <cite>
-    參考資料:
-    <a href="https://nga.178.com/read.php?tid=31378635">
-      [攻略心得] 燕赤霞技能機制 | NGA
-    </a>
-  </cite>
 
   <style>
     *,
@@ -75,13 +84,23 @@
       box-sizing: border-box;
     }
     body {
-      display: block;
       text-align: center;
+      gap: 1em;
+      grid-template:
+        "title title" auto
+        "main aside" 1fr
+        "footer footer" auto / 3fr 1fr;
+    }
+    h1 {
+      grid-area: title;
+    }
+    footer {
+      grid-area: footer;
     }
 
     form {
+      grid-area: aside;
       width: fit-content;
-      margin: 0 auto;
       text-align: left;
     }
 
@@ -101,12 +120,14 @@
     }
 
     #output {
+      grid-area: main;
       display: flex;
       flex-wrap: wrap;
       min-width: 320px;
       max-width: 600px;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
       aspect-ratio: 1;
-      margin: 0 auto;
       font-size: larger;
       box-shadow: inset 0 0 0 1px #0003;
       transform: var(--transform-outer);
