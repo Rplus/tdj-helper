@@ -195,7 +195,8 @@
       let size = range * 2 + 1;
       let arr = [];
       let count = 0;
-      let orderFactor = Math.pow(10, -1 - ~~Math.log10(size * size));
+      let orderFactor = Math.min(Math.pow(10, -1 - ~~Math.log10(size * size)), 0.01);
+      console.log({orderFactor});
       for (let row = 0; row < size; row++) {
         for (let col = 0; col < size; col++) {
           let index = col + row * size;
@@ -253,8 +254,7 @@
           data-row="${cell.y}"
           data-index="${cell.index}"
           data-order="${cell.order}"
-        >
-        </div>`;
+        ></div>`;
     }
 
     function sortByOrder(a, b) {
