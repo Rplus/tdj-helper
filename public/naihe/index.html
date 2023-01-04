@@ -57,6 +57,7 @@
     </tbody>
   </table>
   <input type="reset">
+  <input type="button" value="Print" id="print">
   </form>
 
   <hr>
@@ -156,6 +157,16 @@
       max-width: 90vw;
       height: 30em;
     }
+    @media print {
+      body {
+        columns: 2;
+      }
+    }
+    @page {
+      /* size: A4 landscape; */
+      margin: 0;
+      padding: 0;
+    }
   </style>
 
   <script>
@@ -214,6 +225,12 @@
     tableForm.addEventListener('reset', () => {
       table_style.textContent = '';
     });
+
+
+    let print = document.querySelector('#print');
+    print.addEventListener('click', () => {
+      window.print();
+    })
 
     fetch(`https://opensheet.elk.sh/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/${date}!c2:e22`)
     .then(r => r.json())
