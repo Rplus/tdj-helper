@@ -181,8 +181,10 @@
         + `${_d1.getDate()}`.padStart(2, '0')
       );
     };
+    let ori_title = document.title;
     let d1 = getFormatedD1();
     let date = urlProps.get('date') || d1;
+    document.title = ori_title + ' - ' + date;
     caption.innerHTML = [...new Set([d1, date])]
       .map(d => `<a href="./?date=${d}" data-target="${date === d}">${d}🔗</a>`)
       .join('');
