@@ -6,6 +6,7 @@
     "build": "rollup -c",
     "deploy": "gh-pages -d public",
     "dev": "rollup -c -w",
+    "dev-only": "rollup -c -w --configOrder=2",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {

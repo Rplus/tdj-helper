@@ -28,7 +28,7 @@ function serve() {
 	};
 }
 
-export default [{
+let configs = [{
 	input: 'src/main.js',
 	output: {
 		sourcemap: true,
@@ -103,4 +103,44 @@ export default [{
 	watch: {
 		clearScreen: false
 	}
+},
+{
+	input: 'src/weapon-picker/main.js',
+	output: {
+		sourcemap: true,
+		format: 'iife',
+		name: 'app',
+		file: 'public/weapon-picker/bundle.js'
+	},
+	plugins: [
+		svelte({
+			compilerOptions: {
+				// enable run-time checks when not in production
+				dev: !production
+			}
+		}),
+		css({ output: 'bundle.css' }),
+		resolve({
+			browser: true,
+			dedupe: ['svelte']
+		}),
+		commonjs(),
+		// !production && serve(),
+		!production && livereload('public'),
+		production && terser(),
+	],
+	watch: {
+		clearScreen: false
+	}
 }];
+
+let configFilter = process.argv?.filter(i => i.indexOf('configOrder') !== -1);
+if (configFilter?.length) {
+	configFilter = +configFilter[0].split('=')[1];
+}
+
+if (typeof configFilter === 'number') {
+	configs = configs.slice(configFilter, configFilter + 1);
+}
+
+export default configs;
