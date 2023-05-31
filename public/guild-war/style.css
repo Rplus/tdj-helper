@@ -131,3 +131,12 @@ button {
 h1 {
   text-align: center;
 }
+
+#info {
+  border-top: 1px solid;
+  padding-top: 1em;
+  margin-top: 3em;
+  text-align: right;
+  font-style: italic;
+  opacity: 0.7;
+}
