@@ -8,15 +8,12 @@ const output = document.getElementById('output');
 // let data;
 let o_types;
 
-let qsArr = [false];
+let qsArr = [false, false, false, ];
 
 window.onload = async function (argument) {
-  const gen_btn = document.getElementById('gen_btn');
   // data = await fetch(url).then(r => r.json());
   o_types = [... new Set(raw_data.map(i => i.name))]
 
-  gen_btn.addEventListener('click', genForm);
-  gen_btn.disabled = false;
   addDynamicStyle();
 
   if (location.search) {
