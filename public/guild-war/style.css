@@ -111,10 +111,6 @@ body {
   margin-bottom: 1em;
 }
 
-button {
-  font-size: 1.5em;
-}
-
 :root {
   --bgc: #242424;
   --color: #fffc;
