@@ -24,6 +24,7 @@ window.onload = async function (argument) {
 
   document.getElementById('copy')?.addEventListener('click', copy);
   document.getElementById('resize')?.addEventListener('click', () => {
+    output.style = '';
     output.rows = output.rows > 20 ? 5 : 25;
   });
 }
