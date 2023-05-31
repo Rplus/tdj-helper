@@ -44,6 +44,12 @@ form {
   counter-increment: form-index;
 }
 
+@media (max-width: 450px) {
+  form {
+    font-size: 1em;
+  }
+}
+
 .flex-left {
   flex-shrink: 0;
 }
