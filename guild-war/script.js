@@ -121,7 +121,7 @@ function initQs(data) {
 
     return data.find(i => {
       if (!i.name.includes(_type)) { return false; }
-      return _names.split(' ').some(_name => i.member.includes(_name));
+      return _names?.split(' ').some(_name => i.member.includes(_name));
     });
   });
 }
