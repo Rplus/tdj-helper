@@ -4,6 +4,7 @@ const raw_data = [{"name":"魔羊掛角","member":"靈鼩 —— —— 寧采�
 
 const box = document.getElementById('form-box');
 const output = document.getElementById('output');
+const link = document.getElementById('link');
 
 // let data;
 let o_types;
@@ -101,12 +102,29 @@ function genForm(qsRule) {
 
 function genOutput() {
   let forms = [...document.querySelectorAll('form')];
+  let _data = [];
 
   output.textContent = forms.map((form, index) => {
     let type = form.dataset.click;
-    let value = form.querySelector(`label[data-type="${type}"] input[data-click="members"]:checked`)?.value || 'o.O?';
-    return `#${index + 1} ${type}:\n\n${value}`;
+    let value = form.querySelector(`label[data-type="${type}"] input[data-click="members"]:checked`)?.value || '';
+    if (type && value) {
+      _data[index] = { type, value, };
+    }
+    return `#${index + 1} ${type || '?'}:\n\n${value || '?'}`;
   }).join('\n\n\n\n');
+
+  genLink(_data);
+}
+
+function genLink(_data) {
+  let _search = _data.map((i, index) => {
+    let str = i.value
+      .replace(/—+/g, '')
+      .trim()
+      .replace(/\s+/g, '+');
+    return `${index + 1}=${i.type}:${str}`;
+  }).join('&');
+  link.href = `?${_search}`;
 }
 
 function initQs(data) {
