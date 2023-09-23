@@ -128,7 +128,7 @@ function genOutput() {
 function genLink(_data) {
   let _search = _data.map((i, index) => {
     let str = i.value
-      .replace(/—+/g, '')
+      .replace(/[—＿]+/g, '')
       .trim()
       .replace(/\s+/g, '+');
     return `${index + 1}=${i.type}:${str}`;
@@ -137,7 +137,7 @@ function genLink(_data) {
 }
 
 function initQs(data) {
-  let qs = new URLSearchParams(location.search);
+  let qs = new URLSearchParams(location.search.replace(/＿+\+/g, ''));
 
   qsArr = [
     qs.get('1'),
