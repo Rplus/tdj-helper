@@ -211,6 +211,8 @@
 	<SvelteTable
 		columns={columns}
 		rows={render_roles}
+		rowKey="name"
+		classNameInput="search-input"
 	/>
 
 	<h1>天地劫M 英靈圖鑑</h1>
@@ -232,7 +234,6 @@
 	max-width: 50em;
 	align-content: stretch;
 }
-
 
 .filter {
 	margin-bottom: 1em;
@@ -269,10 +270,33 @@ label {
 	text-transform: uppercase;
 }
 
+:global(th:has(.search-input)) {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	/* position: relative; */
+}
+
+:global(thead th.isSortable) {
+	position: sticky;
+	top: 0;
+	padding-bottom: 0.5em;
+	background-color: #eee;
+	border-bottom: 1px dotted #0003;
+}
+
+
+:global(.search-input) {
+	position: absolute;
+	left: 50px;
+	z-index: 1;
+	margin-top: 4px;
+	max-width: 8em;
+	background: #0001;
+}
+
 :global(body) {
 	margin: 0;
-	/* background-color: #111; */
-	/* color: #fff; */
   background-color: #eee;
 }
 
@@ -281,19 +305,20 @@ label {
 	border-collapse: collapse;
 	border-spacing: 0;
 
+	& th,
 	& td {
 		width: 12%;
 
 		&:first-child {
 			width: 10em;
-			text-align: left;
 		}
 	}
 
-	& tr:nth-of-type(5n - 4) td {
+	& tr:nth-of-type(5n + 1) td {
 		border-top: 1px dotted #0003;
 	}
 }
+
 
 .info {
 	text-align: right;
