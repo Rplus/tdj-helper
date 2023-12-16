@@ -1381,7 +1381,7 @@
       }
     },
     {
-      "name": "於小雪",
+      "name": "于小雪",
       "link": "https://wiki.biligame.com/tdj/%E4%BA%8E%E5%B0%8F%E9%9B%AA",
       "avatar": {
         "src": "https://patchwiki.biligame.com/images/tdj/thumb/1/1a/1my9fyukltifpye3wn1t5m7iikor6e7.png/50px-%E5%A4%B4%E5%83%8F_%E4%BA%8E%E5%B0%8F%E9%9B%AA.png",
@@ -2768,11 +2768,11 @@
         "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/4/45/an5csqagzatxxxpo9xkknjjpn6kwzb1.png/90px-%E6%88%98%E9%98%B5_%E5%A4%A9%E6%81%A9%E5%A6%99%E9%9B%AA%E9%98%B5.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/4/45/an5csqagzatxxxpo9xkknjjpn6kwzb1.png/120px-%E6%88%98%E9%98%B5_%E5%A4%A9%E6%81%A9%E5%A6%99%E9%9B%AA%E9%98%B5.png 2x"
       },
       "members": [
-        "於小雪",
+        "于小雪",
         "俠客",
         "鐵衛"
       ],
-      "info": "上陣於小雪和「俠客」、「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，自身攜帶「有害狀態」小於3個，傷害提高10%。"
+      "info": "上陣于小雪和「俠客」、「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，自身攜帶「有害狀態」小於3個，傷害提高10%。"
     },
     {
       "name": "天機陣",
