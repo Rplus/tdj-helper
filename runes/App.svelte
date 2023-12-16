@@ -261,12 +261,4 @@
   .save {
     margin-inline-end: auto;
   }
-
-  :global(body) {
-    display: grid;
-    grid-template:
-      "title title" auto
-      "main aside" 1fr
-      "footer footer" auto / 1fr 1fr;
-  }
 </style>
