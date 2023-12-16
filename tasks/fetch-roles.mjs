@@ -91,7 +91,7 @@ let formations = await Promise.all(
 				srcset: tds[0].querySelector('img').getAttribute('srcset'),
 			},
 			members: members.map(mem => mem.querySelector('.hero_head_name').textContent.trim()),
-			info: formations_info[name] || '',
+			info: formations_info[converter(name)] || '',
 			// info: await get_formation_info(`https://wiki.biligame.com${href}`, index),
 		};
 	})
@@ -129,4 +129,4 @@ let op = {
 	icons,
 };
 
-writeFile('./src/roles/data.json', converter(JSON.stringify(op, null, 2)));
+writeFile('./roles/data.json', converter(JSON.stringify(op, null, 2)));

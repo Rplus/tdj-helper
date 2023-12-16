@@ -1580,26 +1580,6 @@
     }
   },
   {
-    "name": "韋勝",
-    "link": "https://wiki.biligame.com/tdj/%E9%9F%A6%E8%83%9C",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/50px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/75px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/100px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 2x"
-    },
-    "rarity": "r",
-    "type": "雷",
-    "klass": "鐵衛",
-    "3c": true,
-    "status": {
-      "hp": 6185,
-      "atk_phy": 1989,
-      "def_phy": 1175,
-      "atk_mag": 310,
-      "def_mag": 705,
-      "crit": 127
-    }
-  },
-  {
     "name": "高世津",
     "link": "https://wiki.biligame.com/tdj/%E9%AB%98%E4%B8%96%E6%B4%A5",
     "avatar": {
@@ -1617,6 +1597,26 @@
       "atk_mag": 313,
       "def_mag": 666,
       "crit": 168
+    }
+  },
+  {
+    "name": "韋勝",
+    "link": "https://wiki.biligame.com/tdj/%E9%9F%A6%E8%83%9C",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/50px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/75px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/100px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 2x"
+    },
+    "rarity": "r",
+    "type": "雷",
+    "klass": "鐵衛",
+    "3c": true,
+    "status": {
+      "hp": 6185,
+      "atk_phy": 1989,
+      "def_phy": 1175,
+      "atk_mag": 310,
+      "def_mag": 705,
+      "crit": 127
     }
   },
   {
@@ -1780,26 +1780,6 @@
     }
   },
   {
-    "name": "赫蘭鐵罕",
-    "link": "https://wiki.biligame.com/tdj/%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/50px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/75px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/100px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 2x"
-    },
-    "rarity": "sr",
-    "type": "炎",
-    "klass": "鐵衛",
-    "3c": true,
-    "status": {
-      "hp": 7361,
-      "atk_phy": 2183,
-      "def_phy": 1443,
-      "atk_mag": 322,
-      "def_mag": 768,
-      "crit": 135
-    }
-  },
-  {
     "name": "雅布斯",
     "link": "https://wiki.biligame.com/tdj/%E9%9B%85%E5%B8%83%E6%96%AF",
     "avatar": {
@@ -1817,6 +1797,26 @@
       "atk_mag": 2315,
       "def_mag": 1088,
       "crit": 181
+    }
+  },
+  {
+    "name": "赫蘭鐵罕",
+    "link": "https://wiki.biligame.com/tdj/%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/50px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/75px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/100px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 2x"
+    },
+    "rarity": "sr",
+    "type": "炎",
+    "klass": "鐵衛",
+    "3c": true,
+    "status": {
+      "hp": 7361,
+      "atk_phy": 2183,
+      "def_phy": 1443,
+      "atk_mag": 322,
+      "def_mag": 768,
+      "crit": 135
     }
   },
   {
@@ -1860,26 +1860,6 @@
     }
   },
   {
-    "name": "伊絲朶",
-    "link": "https://wiki.biligame.com/tdj/%E4%BC%8A%E4%B8%9D%E6%9C%B6",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/50px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/75px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/100px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 2x"
-    },
-    "rarity": "r",
-    "type": "光",
-    "klass": "祝由",
-    "3c": true,
-    "status": {
-      "hp": 4551,
-      "atk_phy": 266,
-      "def_phy": 936,
-      "atk_mag": 1717,
-      "def_mag": 1167,
-      "crit": 121
-    }
-  },
-  {
     "name": "常逸風",
     "link": "https://wiki.biligame.com/tdj/%E5%B8%B8%E9%80%B8%E9%A3%8E",
     "avatar": {
@@ -1897,6 +1877,26 @@
       "atk_mag": 330,
       "def_mag": 1000,
       "crit": 467
+    }
+  },
+  {
+    "name": "伊絲朶",
+    "link": "https://wiki.biligame.com/tdj/%E4%BC%8A%E4%B8%9D%E6%9C%B6",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/50px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/75px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/100px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 2x"
+    },
+    "rarity": "r",
+    "type": "光",
+    "klass": "祝由",
+    "3c": true,
+    "status": {
+      "hp": 4551,
+      "atk_phy": 266,
+      "def_phy": 936,
+      "atk_mag": 1717,
+      "def_mag": 1167,
+      "crit": 121
     }
   },
   {
@@ -1960,26 +1960,6 @@
     }
   },
   {
-    "name": "朱繯",
-    "link": "https://wiki.biligame.com/tdj/%E6%9C%B1%E7%BC%B3",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/50px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/75px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/100px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 2x"
-    },
-    "rarity": "sr",
-    "type": "炎",
-    "klass": "羽士",
-    "3c": true,
-    "status": {
-      "hp": 5073,
-      "atk_phy": 2515,
-      "def_phy": 1094,
-      "atk_mag": 315,
-      "def_mag": 906,
-      "crit": 364
-    }
-  },
-  {
     "name": "慕容箏",
     "link": "https://wiki.biligame.com/tdj/%E6%85%95%E5%AE%B9%E7%AD%9D",
     "avatar": {
@@ -1997,6 +1977,26 @@
       "atk_mag": 2705,
       "def_mag": 1256,
       "crit": 187
+    }
+  },
+  {
+    "name": "朱繯",
+    "link": "https://wiki.biligame.com/tdj/%E6%9C%B1%E7%BC%B3",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/50px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/75px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/100px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 2x"
+    },
+    "rarity": "sr",
+    "type": "炎",
+    "klass": "羽士",
+    "3c": true,
+    "status": {
+      "hp": 5073,
+      "atk_phy": 2515,
+      "def_phy": 1094,
+      "atk_mag": 315,
+      "def_mag": 906,
+      "crit": 364
     }
   },
   {
@@ -2040,26 +2040,6 @@
     }
   },
   {
-    "name": "劍邪",
-    "link": "https://wiki.biligame.com/tdj/%E5%89%91%E9%82%AA",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/50px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/75px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/100px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 2x"
-    },
-    "rarity": "ssr",
-    "type": "暗",
-    "klass": "御風",
-    "3c": true,
-    "status": {
-      "hp": 5872,
-      "atk_phy": 3038,
-      "def_phy": 1165,
-      "atk_mag": 434,
-      "def_mag": 1221,
-      "crit": 383
-    }
-  },
-  {
     "name": "皇甫申",
     "link": "https://wiki.biligame.com/tdj/%E7%9A%87%E7%94%AB%E7%94%B3",
     "avatar": {
@@ -2077,6 +2057,26 @@
       "atk_mag": 721,
       "def_mag": 947,
       "crit": 218
+    }
+  },
+  {
+    "name": "劍邪",
+    "link": "https://wiki.biligame.com/tdj/%E5%89%91%E9%82%AA",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/50px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/75px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/100px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 2x"
+    },
+    "rarity": "ssr",
+    "type": "暗",
+    "klass": "御風",
+    "3c": true,
+    "status": {
+      "hp": 5872,
+      "atk_phy": 3038,
+      "def_phy": 1165,
+      "atk_mag": 434,
+      "def_mag": 1221,
+      "crit": 383
     }
   },
   {
@@ -2140,26 +2140,6 @@
     }
   },
   {
-    "name": "楊雲佐",
-    "link": "https://wiki.biligame.com/tdj/%E6%9D%A8%E4%BA%91%E4%BD%90",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/50px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/75px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/100px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 2x"
-    },
-    "rarity": "sr",
-    "type": "光",
-    "klass": "御風",
-    "3c": true,
-    "status": {
-      "hp": 5309,
-      "atk_phy": 2703,
-      "def_phy": 1019,
-      "atk_mag": 352,
-      "def_mag": 1091,
-      "crit": 378
-    }
-  },
-  {
     "name": "周崇",
     "link": "https://wiki.biligame.com/tdj/%E5%91%A8%E5%B4%87",
     "avatar": {
@@ -2177,6 +2157,26 @@
       "atk_mag": 363,
       "def_mag": 824,
       "crit": 246
+    }
+  },
+  {
+    "name": "楊雲佐",
+    "link": "https://wiki.biligame.com/tdj/%E6%9D%A8%E4%BA%91%E4%BD%90",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/50px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/75px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/100px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 2x"
+    },
+    "rarity": "sr",
+    "type": "光",
+    "klass": "御風",
+    "3c": true,
+    "status": {
+      "hp": 5309,
+      "atk_phy": 2703,
+      "def_phy": 1019,
+      "atk_mag": 352,
+      "def_mag": 1091,
+      "crit": 378
     }
   },
   {
@@ -2200,26 +2200,6 @@
     }
   },
   {
-    "name": "夏侯儀",
-    "link": "https://wiki.biligame.com/tdj/%E5%A4%8F%E4%BE%AF%E4%BB%AA",
-    "avatar": {
-      "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/50px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png",
-      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/75px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/100px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 2x"
-    },
-    "rarity": "ssr",
-    "type": "炎",
-    "klass": "咒師",
-    "3c": true,
-    "status": {
-      "hp": 5260,
-      "atk_phy": 378,
-      "def_phy": 1121,
-      "atk_mag": 2812,
-      "def_mag": 1330,
-      "crit": 194
-    }
-  },
-  {
     "name": "解臾",
     "link": "https://wiki.biligame.com/tdj/%E8%A7%A3%E8%87%BE",
     "avatar": {
@@ -2237,6 +2217,26 @@
       "atk_mag": 399,
       "def_mag": 912,
       "crit": 140
+    }
+  },
+  {
+    "name": "夏侯儀",
+    "link": "https://wiki.biligame.com/tdj/%E5%A4%8F%E4%BE%AF%E4%BB%AA",
+    "avatar": {
+      "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/50px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png",
+      "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/75px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/100px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 2x"
+    },
+    "rarity": "ssr",
+    "type": "炎",
+    "klass": "咒師",
+    "3c": true,
+    "status": {
+      "hp": 5260,
+      "atk_phy": 378,
+      "def_phy": 1121,
+      "atk_mag": 2812,
+      "def_mag": 1330,
+      "crit": 194
     }
   },
   {
