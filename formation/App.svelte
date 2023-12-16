@@ -52,6 +52,14 @@
 
 
 <div class="workspace">
+
+	<h1>
+    <a href="../" title="back">../</a>
+		天地劫M 戰陣圖鑑
+	</h1>
+
+	<hr>
+
 	<div class="style">
 		{@html filetr_style}
 		{@html search_style}
@@ -103,11 +111,6 @@
 	{/each}
 
 	<hr>
-
-	<h1>
-    <a href="../" title="back">../</a>
-		天地劫M 戰陣圖鑑
-	</h1>
 
 	<footer class="footer">
 		資料來源：<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">https://wiki.biligame.com/tdj/</a>
