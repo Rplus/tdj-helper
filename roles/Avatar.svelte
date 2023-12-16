@@ -12,7 +12,9 @@
 		<Icon row={row} />
 
 		<img class="avatar" width="50" height="50" loading="lazy" decording="async"
-		 src={row.avatar.src} alt={row.name}
+		 src={row.avatar.src}
+		 srcset={row.avatar.srcset}
+		 alt={row.name}
 		/>
 	</div>
 
