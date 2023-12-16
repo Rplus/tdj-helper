@@ -143,6 +143,7 @@
 
 .members {
 	gap: .5em;
+	align-items: flex-start;
 	margin-bottom: .5em;
 	text-align: center;
 }
