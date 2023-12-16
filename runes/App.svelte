@@ -135,12 +135,11 @@
 
 
 <h1>
-  <a href="./naihe/" title="三途川選擇">↤</a>
+  <a href="../">../</a>
   <ruby>
     絕品魂石 評估
     <rt style="color: #0003">天地劫M</rt>
   </ruby>
-  <a href="./weapon/" title="go to next">↦</a>
 </h1>
 
 <form class="main"
@@ -261,5 +260,13 @@
 
   .save {
     margin-inline-end: auto;
+  }
+
+  :global(body) {
+    display: grid;
+    grid-template:
+      "title title" auto
+      "main aside" 1fr
+      "footer footer" auto / 1fr 1fr;
   }
 </style>

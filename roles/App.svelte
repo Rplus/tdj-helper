@@ -215,7 +215,12 @@
 		classNameInput="search-input"
 	/>
 
-	<h1>天地劫M 英靈圖鑑</h1>
+	<hr>
+
+	<h1>
+    <a href="../" title="back">../</a>
+		天地劫M 英靈圖鑑
+	</h1>
 
 	<footer class="info">
 		<hr>
@@ -237,7 +242,6 @@
 
 .filter {
 	margin-bottom: 1em;
-	font-size: larger;
 }
 
 input[type="checkbox"] {
@@ -255,9 +259,11 @@ input[type="checkbox"] {
 		border: 1px solid #0003;
 		padding: 3px .5em;
 		border-radius: 3px;
+		font-size: larger;
+		user-select: none;
 	}
 
-	&:checked + .txt{
+	&:checked + .txt {
 		border-color: #000;
 		background-color: #ffc9;
 	}
@@ -274,7 +280,6 @@ label {
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	/* position: relative; */
 }
 
 :global(thead th.isSortable) {
@@ -283,6 +288,10 @@ label {
 	padding-bottom: 0.5em;
 	background-color: #eee;
 	border-bottom: 1px dotted #0003;
+
+	&:hover {
+		background-color: #ff03;
+	}
 }
 
 
@@ -318,7 +327,6 @@ label {
 		border-top: 1px dotted #0003;
 	}
 }
-
 
 .info {
 	text-align: right;

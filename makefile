@@ -4,6 +4,15 @@ fetch:
 dev:
 	pnpm run dev;
 
+deploy: build
+	pnpm run deploy;
+
+build:
+	pnpm run build;
+
+init:
+	pnpm install;
+
 # update-data: fetch cn2tw
 # 	echo 'DONE';
 

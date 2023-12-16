@@ -1,30 +1,19 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "tdj-helper-2024",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "rollup -c",
-    "deploy": "gh-pages -d public",
-    "dev": "rollup -c -w",
-    "dev-only": "rollup -c -w --configOrder=2",
-    "start": "sirv public --no-clear"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "gh-pages": "^3.2.3",
-    "node-html-parser": "^6.1.11",
-    "opencc-js": "^1.0.5",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0"
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "svelte": "^4.2.8",
+    "vite": "^5.0.8"
   },
   "dependencies": {
-    "@rollup/plugin-json": "^6.1.0",
-    "sirv-cli": "^1.0.0",
     "svelte-table": "^0.6.1"
   }
 }
