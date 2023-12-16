@@ -23,6 +23,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+a:link,
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -45,8 +46,10 @@ a:visited {
     --main-color: #fff;
     --main-bgc: #000;
 
+    --link-color: #0a61aa;
     --link-color: rgb(200,100,0);
-    --link-visited-color: rgb(160,80,0);
+    --link-visited-color: rgb(161 0 137);
+    --link-visited-color: rgb(160, 80, 0);
   }
 }
 
@@ -96,4 +99,10 @@ input[type="reset"]:not([disabled]),
 input[type="submit"]:not([disabled]),
 button:not([disabled]) {
   cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
