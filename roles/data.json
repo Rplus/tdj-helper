@@ -1581,26 +1581,6 @@
       }
     },
     {
-      "name": "韋勝",
-      "link": "https://wiki.biligame.com/tdj/%E9%9F%A6%E8%83%9C",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/50px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/75px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/100px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 2x"
-      },
-      "rarity": "r",
-      "type": "雷",
-      "klass": "鐵衛",
-      "3c": true,
-      "status": {
-        "hp": 6185,
-        "atk_phy": 1989,
-        "def_phy": 1175,
-        "atk_mag": 310,
-        "def_mag": 705,
-        "crit": 127
-      }
-    },
-    {
       "name": "高世津",
       "link": "https://wiki.biligame.com/tdj/%E9%AB%98%E4%B8%96%E6%B4%A5",
       "avatar": {
@@ -1618,6 +1598,26 @@
         "atk_mag": 313,
         "def_mag": 666,
         "crit": 168
+      }
+    },
+    {
+      "name": "韋勝",
+      "link": "https://wiki.biligame.com/tdj/%E9%9F%A6%E8%83%9C",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/50px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/75px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/c/c8/o18zj4brceyso84f3pmvp3hxef6r3va.png/100px-%E5%A4%B4%E5%83%8F_%E9%9F%A6%E8%83%9C.png 2x"
+      },
+      "rarity": "r",
+      "type": "雷",
+      "klass": "鐵衛",
+      "3c": true,
+      "status": {
+        "hp": 6185,
+        "atk_phy": 1989,
+        "def_phy": 1175,
+        "atk_mag": 310,
+        "def_mag": 705,
+        "crit": 127
       }
     },
     {
@@ -1781,26 +1781,6 @@
       }
     },
     {
-      "name": "赫蘭鐵罕",
-      "link": "https://wiki.biligame.com/tdj/%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/50px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/75px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/100px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 2x"
-      },
-      "rarity": "sr",
-      "type": "炎",
-      "klass": "鐵衛",
-      "3c": true,
-      "status": {
-        "hp": 7361,
-        "atk_phy": 2183,
-        "def_phy": 1443,
-        "atk_mag": 322,
-        "def_mag": 768,
-        "crit": 135
-      }
-    },
-    {
       "name": "雅布斯",
       "link": "https://wiki.biligame.com/tdj/%E9%9B%85%E5%B8%83%E6%96%AF",
       "avatar": {
@@ -1818,6 +1798,26 @@
         "atk_mag": 2315,
         "def_mag": 1088,
         "crit": 181
+      }
+    },
+    {
+      "name": "赫蘭鐵罕",
+      "link": "https://wiki.biligame.com/tdj/%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/50px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/75px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/3/37/2hi250okm8epd6gj5car9tm08f05by6.png/100px-%E5%A4%B4%E5%83%8F_%E8%B5%AB%E5%85%B0%E9%93%81%E7%BD%95.png 2x"
+      },
+      "rarity": "sr",
+      "type": "炎",
+      "klass": "鐵衛",
+      "3c": true,
+      "status": {
+        "hp": 7361,
+        "atk_phy": 2183,
+        "def_phy": 1443,
+        "atk_mag": 322,
+        "def_mag": 768,
+        "crit": 135
       }
     },
     {
@@ -1861,26 +1861,6 @@
       }
     },
     {
-      "name": "伊絲朶",
-      "link": "https://wiki.biligame.com/tdj/%E4%BC%8A%E4%B8%9D%E6%9C%B6",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/50px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/75px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/100px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 2x"
-      },
-      "rarity": "r",
-      "type": "光",
-      "klass": "祝由",
-      "3c": true,
-      "status": {
-        "hp": 4551,
-        "atk_phy": 266,
-        "def_phy": 936,
-        "atk_mag": 1717,
-        "def_mag": 1167,
-        "crit": 121
-      }
-    },
-    {
       "name": "常逸風",
       "link": "https://wiki.biligame.com/tdj/%E5%B8%B8%E9%80%B8%E9%A3%8E",
       "avatar": {
@@ -1898,6 +1878,26 @@
         "atk_mag": 330,
         "def_mag": 1000,
         "crit": 467
+      }
+    },
+    {
+      "name": "伊絲朶",
+      "link": "https://wiki.biligame.com/tdj/%E4%BC%8A%E4%B8%9D%E6%9C%B6",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/50px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/75px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/d/dc/64jlj3eyowf1gtt63cnhapq3msi5j9r.png/100px-%E5%A4%B4%E5%83%8F_%E4%BC%8A%E4%B8%9D%E6%9C%B6.png 2x"
+      },
+      "rarity": "r",
+      "type": "光",
+      "klass": "祝由",
+      "3c": true,
+      "status": {
+        "hp": 4551,
+        "atk_phy": 266,
+        "def_phy": 936,
+        "atk_mag": 1717,
+        "def_mag": 1167,
+        "crit": 121
       }
     },
     {
@@ -1961,26 +1961,6 @@
       }
     },
     {
-      "name": "朱繯",
-      "link": "https://wiki.biligame.com/tdj/%E6%9C%B1%E7%BC%B3",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/50px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/75px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/100px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 2x"
-      },
-      "rarity": "sr",
-      "type": "炎",
-      "klass": "羽士",
-      "3c": true,
-      "status": {
-        "hp": 5073,
-        "atk_phy": 2515,
-        "def_phy": 1094,
-        "atk_mag": 315,
-        "def_mag": 906,
-        "crit": 364
-      }
-    },
-    {
       "name": "慕容箏",
       "link": "https://wiki.biligame.com/tdj/%E6%85%95%E5%AE%B9%E7%AD%9D",
       "avatar": {
@@ -1998,6 +1978,26 @@
         "atk_mag": 2705,
         "def_mag": 1256,
         "crit": 187
+      }
+    },
+    {
+      "name": "朱繯",
+      "link": "https://wiki.biligame.com/tdj/%E6%9C%B1%E7%BC%B3",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/50px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/75px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/7/78/6ghc4etox5ytr0cc3cjwk6ybhxww0wz.png/100px-%E5%A4%B4%E5%83%8F_%E6%9C%B1%E7%BC%B3.png 2x"
+      },
+      "rarity": "sr",
+      "type": "炎",
+      "klass": "羽士",
+      "3c": true,
+      "status": {
+        "hp": 5073,
+        "atk_phy": 2515,
+        "def_phy": 1094,
+        "atk_mag": 315,
+        "def_mag": 906,
+        "crit": 364
       }
     },
     {
@@ -2041,26 +2041,6 @@
       }
     },
     {
-      "name": "劍邪",
-      "link": "https://wiki.biligame.com/tdj/%E5%89%91%E9%82%AA",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/50px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/75px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/100px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 2x"
-      },
-      "rarity": "ssr",
-      "type": "暗",
-      "klass": "御風",
-      "3c": true,
-      "status": {
-        "hp": 5872,
-        "atk_phy": 3038,
-        "def_phy": 1165,
-        "atk_mag": 434,
-        "def_mag": 1221,
-        "crit": 383
-      }
-    },
-    {
       "name": "皇甫申",
       "link": "https://wiki.biligame.com/tdj/%E7%9A%87%E7%94%AB%E7%94%B3",
       "avatar": {
@@ -2078,6 +2058,26 @@
         "atk_mag": 721,
         "def_mag": 947,
         "crit": 218
+      }
+    },
+    {
+      "name": "劍邪",
+      "link": "https://wiki.biligame.com/tdj/%E5%89%91%E9%82%AA",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/50px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/75px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/53/l24esijvemhx08a140dpcw00et10g3r.png/100px-%E5%A4%B4%E5%83%8F_%E5%89%91%E9%82%AA.png 2x"
+      },
+      "rarity": "ssr",
+      "type": "暗",
+      "klass": "御風",
+      "3c": true,
+      "status": {
+        "hp": 5872,
+        "atk_phy": 3038,
+        "def_phy": 1165,
+        "atk_mag": 434,
+        "def_mag": 1221,
+        "crit": 383
       }
     },
     {
@@ -2141,26 +2141,6 @@
       }
     },
     {
-      "name": "楊雲佐",
-      "link": "https://wiki.biligame.com/tdj/%E6%9D%A8%E4%BA%91%E4%BD%90",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/50px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/75px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/100px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 2x"
-      },
-      "rarity": "sr",
-      "type": "光",
-      "klass": "御風",
-      "3c": true,
-      "status": {
-        "hp": 5309,
-        "atk_phy": 2703,
-        "def_phy": 1019,
-        "atk_mag": 352,
-        "def_mag": 1091,
-        "crit": 378
-      }
-    },
-    {
       "name": "周崇",
       "link": "https://wiki.biligame.com/tdj/%E5%91%A8%E5%B4%87",
       "avatar": {
@@ -2178,6 +2158,26 @@
         "atk_mag": 363,
         "def_mag": 824,
         "crit": 246
+      }
+    },
+    {
+      "name": "楊雲佐",
+      "link": "https://wiki.biligame.com/tdj/%E6%9D%A8%E4%BA%91%E4%BD%90",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/50px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/75px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/a/a9/r0yspvhu2uv2jdaomagik9hr8dtyk8i.png/100px-%E5%A4%B4%E5%83%8F_%E6%9D%A8%E4%BA%91%E4%BD%90.png 2x"
+      },
+      "rarity": "sr",
+      "type": "光",
+      "klass": "御風",
+      "3c": true,
+      "status": {
+        "hp": 5309,
+        "atk_phy": 2703,
+        "def_phy": 1019,
+        "atk_mag": 352,
+        "def_mag": 1091,
+        "crit": 378
       }
     },
     {
@@ -2201,26 +2201,6 @@
       }
     },
     {
-      "name": "夏侯儀",
-      "link": "https://wiki.biligame.com/tdj/%E5%A4%8F%E4%BE%AF%E4%BB%AA",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/50px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/75px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/100px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 2x"
-      },
-      "rarity": "ssr",
-      "type": "炎",
-      "klass": "咒師",
-      "3c": true,
-      "status": {
-        "hp": 5260,
-        "atk_phy": 378,
-        "def_phy": 1121,
-        "atk_mag": 2812,
-        "def_mag": 1330,
-        "crit": 194
-      }
-    },
-    {
       "name": "解臾",
       "link": "https://wiki.biligame.com/tdj/%E8%A7%A3%E8%87%BE",
       "avatar": {
@@ -2238,6 +2218,26 @@
         "atk_mag": 399,
         "def_mag": 912,
         "crit": 140
+      }
+    },
+    {
+      "name": "夏侯儀",
+      "link": "https://wiki.biligame.com/tdj/%E5%A4%8F%E4%BE%AF%E4%BB%AA",
+      "avatar": {
+        "src": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/50px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png",
+        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/75px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/5/5e/dz9gij1q8hjasvv5tl627oxph8dncvn.png/100px-%E5%A4%B4%E5%83%8F_%E5%A4%8F%E4%BE%AF%E4%BB%AA.png 2x"
+      },
+      "rarity": "ssr",
+      "type": "炎",
+      "klass": "咒師",
+      "3c": true,
+      "status": {
+        "hp": 5260,
+        "atk_phy": 378,
+        "def_phy": 1121,
+        "atk_mag": 2812,
+        "def_mag": 1330,
+        "crit": 194
       }
     },
     {
@@ -2534,7 +2534,7 @@
         "雷",
         "冰"
       ],
-      "info": ""
+      "info": "上陣鐵手夏侯儀和「雷」，「冰」屬性英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格範圍內存在氣血未滿的角色，傷害提高10%。"
     },
     {
       "name": "三身通智陣",
@@ -2548,7 +2548,7 @@
         "陣眼",
         "陣眼"
       ],
-      "info": ""
+      "info": "上陣真胤和至少2位「陣眼」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格內有其他友方角色時，絕學傷害提升10%。"
     },
     {
       "name": "義鼠奪風陣",
@@ -2562,7 +2562,7 @@
         "暗",
         "炎"
       ],
-      "info": ""
+      "info": "上陣白玉堂和「暗」，「炎」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「有益狀態」時，傷害提高10%。"
     },
     {
       "name": "乾坤流燁陣",
@@ -2576,7 +2576,7 @@
         "光",
         "光"
       ],
-      "info": ""
+      "info": "上陣武英仲和至少2位「光」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若目標未攜帶「有益狀態」，「對戰中」傷害提高15%。"
     },
     {
       "name": "倫巴第協陣",
@@ -2590,7 +2590,7 @@
         "男",
         "男"
       ],
-      "info": ""
+      "info": "上陣古倫德和至少2位「男性」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，自身氣血未滿時，傷害提高10%。"
     },
     {
       "name": "佛口蛇心陣",
@@ -2604,7 +2604,7 @@
         "雷",
         "光"
       ],
-      "info": ""
+      "info": "上陣青和「雷」，「光」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。目標每有1個「有害狀態」，「對戰中」傷害提高5%（最多提高15%）。"
     },
     {
       "name": "俠風洗刃陣",
@@ -2618,7 +2618,7 @@
         "炎",
         "雷"
       ],
-      "info": ""
+      "info": "上陣奚歌和「炎」，「雷」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，單體絕學傷害提高10%。"
     },
     {
       "name": "元龍兩儀陣",
@@ -2632,7 +2632,7 @@
         "炎",
         "冰"
       ],
-      "info": ""
+      "info": "上陣召祐和「炎」，「冰」屬性英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格範圍內存在「炎」或「冰」屬性角色，傷害提高10%。"
     },
     {
       "name": "光焰燭天陣",
@@ -2646,7 +2646,7 @@
         "炎",
         "炎"
       ],
-      "info": ""
+      "info": "上陣慕容箏和至少2位「炎」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升10%，攻擊攜帶「燃燒」狀態的目標時，傷害提高10%。"
     },
     {
       "name": "冰火絕獄陣",
@@ -2660,7 +2660,7 @@
         "炎",
         "冰"
       ],
-      "info": ""
+      "info": "上陣羅淵女皇和「炎」，「冰」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「有益狀態」時傷害提高8%，自身未攜帶「有益狀態」時免傷提高8%。"
     },
     {
       "name": "兇星鎮荒陣",
@@ -2674,7 +2674,7 @@
         "咒師",
         "鐵衛"
       ],
-      "info": ""
+      "info": "上陣殷千煬和「咒師」，「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。「對戰中」自身氣血大於等於50%時免傷提高8%，目標氣血大於等於50%時傷害提高8%。"
     },
     {
       "name": "劍灼焰染陣",
@@ -2688,7 +2688,7 @@
         "羽士",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣安逸和「羽士」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，目標不滿血時，「對戰中」自身傷害提高10%"
     },
     {
       "name": "劍膽星馳陣",
@@ -2702,7 +2702,7 @@
         "咒師",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣燕赤霞和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格內每多1個其他角色，傷害和暴擊率提高2%（最多提高8%）。"
     },
     {
       "name": "千煌幻日陣",
@@ -2716,7 +2716,7 @@
         "冰璃",
         "慕容璇璣"
       ],
-      "info": ""
+      "info": "上陣夏侯儀，冰璃和慕容璇璣時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，造成範圍傷害額外提高10%。"
     },
     {
       "name": "墨染冬月陣",
@@ -2730,7 +2730,7 @@
         "冰",
         "暗"
       ],
-      "info": ""
+      "info": "上陣白復歸和「冰」，「暗」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格內存在攜帶「有害狀態」的友方時免傷提高8%，2格內存在攜帶「有害狀態」的敵方時傷害提高8%。"
     },
     {
       "name": "天命玄燁陣",
@@ -2744,7 +2744,7 @@
         "俠客",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣朧夜和「俠客」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。與無剋制關係的目標「對戰中」傷害提升8%，受到剋制傷害降低8%。"
     },
     {
       "name": "天師明光陣",
@@ -2758,7 +2758,7 @@
         "暗",
         "雷"
       ],
-      "info": ""
+      "info": "上陣雙雙和「暗」，「雷」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。2格內存在攜帶「有益狀態」的其他友方時傷害提高10%"
     },
     {
       "name": "天恩妙雪陣",
@@ -2772,7 +2772,7 @@
         "俠客",
         "鐵衛"
       ],
-      "info": ""
+      "info": "上陣於小雪和「俠客」、「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，自身攜帶「有害狀態」小於3個，傷害提高10%。"
     },
     {
       "name": "天機陣",
@@ -2786,7 +2786,7 @@
         "鐵衛",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣尉遲良和「鐵衛」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，身周2格有友方角色時，提升10%傷害。"
     },
     {
       "name": "天烈熾炎陣",
@@ -2800,7 +2800,7 @@
         "炎",
         "炎"
       ],
-      "info": ""
+      "info": "上陣殷劍平和至少2位「炎」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，主動攻擊「對戰中」傷害提高10%。"
     },
     {
       "name": "天魔萬象陣",
@@ -2814,7 +2814,7 @@
         "暗",
         "冰"
       ],
-      "info": ""
+      "info": "上陣劍邪和「暗」，「冰」屬性英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，周圍2圈內每有1個敵人，造成傷害提高5%（最多15%）。"
     },
     {
       "name": "幻冰凝霜陣",
@@ -2828,7 +2828,7 @@
         "冰",
         "冰"
       ],
-      "info": ""
+      "info": "上陣朧妖和至少2位「冰」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升10%，攻擊攜帶「遲緩」類狀態的目標時，傷害提高10%"
     },
     {
       "name": "幽使馭天陣",
@@ -2842,7 +2842,7 @@
         "俠客",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣雙曜冰璃和「俠客」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。與非飛行角色「對戰中」傷害和暴擊抗性提高8%。"
     },
     {
       "name": "幽冥夜華陣",
@@ -2856,7 +2856,7 @@
         "暗",
         "暗"
       ],
-      "info": ""
+      "info": "上陣黎幽和至少2位「暗」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，攻擊攜帶3個及以上「有害狀態」的目標時，傷害提高15%。"
     },
     {
       "name": "幽寰天契陣",
@@ -2870,7 +2870,7 @@
         "炎",
         "冰"
       ],
-      "info": ""
+      "info": "上陣霍雍和「炎」，「冰」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若氣血高於50%且未攜帶「有害狀態」，傷害提高15%。"
     },
     {
       "name": "弦月封霜陣",
@@ -2884,7 +2884,7 @@
         "冰",
         "冰"
       ],
-      "info": ""
+      "info": "上陣封寒月和至少2位「冰」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，自身滿血時，物穿，法穿提高10%。"
     },
     {
       "name": "暗月鬥靈陣",
@@ -2898,7 +2898,7 @@
         "鬥將",
         "鐵衛"
       ],
-      "info": ""
+      "info": "上陣月孛和「鬥將」，「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。與攜帶「屬性降低」類「有害狀態」的敵方「對戰中」傷害和免傷提高8%。"
     },
     {
       "name": "暗香迷情陣",
@@ -2912,7 +2912,7 @@
         "女",
         "女"
       ],
-      "info": ""
+      "info": "上陣韓無砂和至少2位「女性」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升10%，與非女性單位戰鬥時，傷害提升10%"
     },
     {
       "name": "朝花夕夢陣",
@@ -2926,7 +2926,7 @@
         "光",
         "暗"
       ],
-      "info": ""
+      "info": "上陣九陰和「光」，「暗」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格範圍內同時存在其他「光」和「暗」屬相角色，傷害和暴擊率提高8%。"
     },
     {
       "name": "流靄絕殺陣",
@@ -2940,7 +2940,7 @@
         "咒師",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣巴艾邇和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，傷害提升8%，暴擊率提高8%，2格範圍內每有1個其他友方，造成傷害降低4%（最多8%），造成暴擊率降低4%（最多8%）。"
     },
     {
       "name": "海潮升歌陣",
@@ -2954,7 +2954,7 @@
         "鐵衛",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣露葵和「鐵衛」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。自身滿血時，傷害提高8%，氣血未滿時，免傷提高8%。"
     },
     {
       "name": "灼光雷鳴陣",
@@ -2968,7 +2968,7 @@
         "炎",
         "光"
       ],
-      "info": ""
+      "info": "上陣阿秋和「炎」，「光」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，使用傷害絕學時，對處於自身直線位置的目標，暴擊率和傷害提高8%。"
     },
     {
       "name": "焚香銷魂陣",
@@ -2982,21 +2982,7 @@
         "俠客",
         "鐵衛"
       ],
-      "info": ""
-    },
-    {
-      "name": "牽靈懾魂陣",
-      "url": "https://wiki.biligame.com/tdj/%E6%88%98%E9%98%B5/%E7%89%B5%E7%81%B5%E6%85%91%E9%AD%82%E9%98%B5",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/1/1b/2f083rkhn95drl5ktew65e9rpr61kjq.png/60px-%E6%88%98%E9%98%B5_%E7%89%B5%E7%81%B5%E6%85%91%E9%AD%82%E9%98%B5.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/1/1b/2f083rkhn95drl5ktew65e9rpr61kjq.png/90px-%E6%88%98%E9%98%B5_%E7%89%B5%E7%81%B5%E6%85%91%E9%AD%82%E9%98%B5.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/1/1b/2f083rkhn95drl5ktew65e9rpr61kjq.png/120px-%E6%88%98%E9%98%B5_%E7%89%B5%E7%81%B5%E6%85%91%E9%AD%82%E9%98%B5.png 2x"
-      },
-      "members": [
-        "妮可",
-        "俠客",
-        "鬥將"
-      ],
-      "info": ""
+      "info": "上陣憛香和「俠客」，「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若自身未攜帶「有害狀態」，範圍傷害和暴擊率提高8%。"
     },
     {
       "name": "狐靈神氛陣",
@@ -3010,21 +2996,7 @@
         "炎",
         "幽"
       ],
-      "info": ""
-    },
-    {
-      "name": "玄雷淬火陣",
-      "url": "https://wiki.biligame.com/tdj/%E6%88%98%E9%98%B5/%E7%8E%84%E9%9B%B7%E6%B7%AC%E7%81%AB%E9%98%B5",
-      "avatar": {
-        "src": "https://patchwiki.biligame.com/images/tdj/thumb/b/bd/kinqyms2c1be4426dgtrxfvlxvg5g8y.png/60px-%E6%88%98%E9%98%B5_%E7%8E%84%E9%9B%B7%E6%B7%AC%E7%81%AB%E9%98%B5.png",
-        "srcset": "https://patchwiki.biligame.com/images/tdj/thumb/b/bd/kinqyms2c1be4426dgtrxfvlxvg5g8y.png/90px-%E6%88%98%E9%98%B5_%E7%8E%84%E9%9B%B7%E6%B7%AC%E7%81%AB%E9%98%B5.png 1.5x, https://patchwiki.biligame.com/images/tdj/thumb/b/bd/kinqyms2c1be4426dgtrxfvlxvg5g8y.png/120px-%E6%88%98%E9%98%B5_%E7%8E%84%E9%9B%B7%E6%B7%AC%E7%81%AB%E9%98%B5.png 2x"
-      },
-      "members": [
-        "賽特",
-        "暗",
-        "雷"
-      ],
-      "info": ""
+      "info": "上陣太玄靈狐和「火」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。目標氣血低於90%時，「對戰中」傷害提高8%；自身氣血低於90%時，「對戰中」免傷提高8%。"
     },
     {
       "name": "瓊華飛仙陣",
@@ -3038,7 +3010,7 @@
         "羽士",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣紫楓和「羽士」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，攜帶移動力提高的狀態時，使用絕學傷害提高10%。"
     },
     {
       "name": "璇光天映陣",
@@ -3052,7 +3024,7 @@
         "光",
         "光"
       ],
-      "info": ""
+      "info": "上陣星佔賢者和至少2位「光」屬相英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格範圍內存在其他「光」屬相角色，暴擊傷害減免和傷害提高8%。"
     },
     {
       "name": "璇璣引雷陣",
@@ -3066,7 +3038,7 @@
         "雷",
         "雷"
       ],
-      "info": ""
+      "info": "上陣慕容璇璣和至少2位「雷」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，主動攻擊暴擊率提升15%。"
     },
     {
       "name": "祝法化生陣",
@@ -3080,7 +3052,7 @@
         "咒師",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣九色鹿和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。自身滿血時傷害提高8%，自身未攜帶「有害狀態」時免傷提高8%。"
     },
     {
       "name": "神武曦舒陣",
@@ -3094,7 +3066,7 @@
         "男",
         "女"
       ],
-      "info": ""
+      "info": "上陣傅雅魚和「男性」、「女性」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格範圍內存在其他男性角色時，傷害提高8%，2格範圍內存在其他女性角色時，免傷提高8%。"
     },
     {
       "name": "神觀天掣陣",
@@ -3108,7 +3080,7 @@
         "雷",
         "光"
       ],
-      "info": ""
+      "info": "上陣雲衣宮主和「雷」，「光」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身有主動絕學處於冷卻中時，傷害提高10%。"
     },
     {
       "name": "神闕靈繁陣",
@@ -3123,7 +3095,7 @@
         "朱繯",
         "青蘿"
       ],
-      "info": ""
+      "info": "上陣白菀，紫蘊，朱繯和青蘿時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升20%。"
     },
     {
       "name": "紫電青霜陣",
@@ -3137,7 +3109,7 @@
         "雷",
         "雷"
       ],
-      "info": ""
+      "info": "上陣紫蘊和至少2位「雷」屬性英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升10%，攻擊攜帶「電流」狀態的目標時，傷害提高10%"
     },
     {
       "name": "醉夢紅塵陣",
@@ -3151,7 +3123,7 @@
         "咒師",
         "御風"
       ],
-      "info": ""
+      "info": "上陣李逍遙和「咒師」，「御風」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身每有1個「有益狀態」，傷害提高5%（最多提高15%）。"
     },
     {
       "name": "問仙破御陣",
@@ -3165,7 +3137,7 @@
         "咒師",
         "祝由"
       ],
-      "info": ""
+      "info": "上陣雪芝和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。攻擊存在主動絕學處於冷卻中的敵方時，傷害提高10%。"
     },
     {
       "name": "附星擢升陣",
@@ -3179,7 +3151,7 @@
         "暗",
         "雷"
       ],
-      "info": ""
+      "info": "上陣允迦和「暗」，「雷」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，傷害提升15%，3格範圍內每有1個敵方，造成傷害降低5%（最多15%）。"
     },
     {
       "name": "風花劍影陣",
@@ -3193,7 +3165,7 @@
         "女",
         "女"
       ],
-      "info": ""
+      "info": "上陣殷無邪和至少2位「女性」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格範圍內存在女性角色時，傷害提高10%。"
     },
     {
       "name": "飛燕驚鴻陣",
@@ -3207,7 +3179,7 @@
         "俠客",
         "鐵衛"
       ],
-      "info": ""
+      "info": "上陣韓千秀和「俠客」，「鐵衛」英靈至少各一名時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提升15%，主動造成傷害後，額外附加1次「固定傷害」（目標當前氣血*15%）。"
     },
     {
       "name": "驅雷魔魄陣",
@@ -3221,7 +3193,7 @@
         "雷",
         "幽"
       ],
-      "info": ""
+      "info": "上陣劍魂·天尊和「雷」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若自身未攜帶「有害狀態」，「對戰中」傷害提高15%。"
     },
     {
       "name": "鬼冥煉獄陣",
@@ -3235,7 +3207,7 @@
         "羽士",
         "咒師"
       ],
-      "info": ""
+      "info": "上陣鮮於超和「羽士」，「咒師」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，氣血高於70%時，傷害和免傷提高8%。"
     }
   ],
   "icons": {
