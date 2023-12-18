@@ -1,12 +1,10 @@
 <script>
 	export let row;
-	// export let col;
-	import data from './data.json';
 
 	$: bgi = [
-		data.icons.klass[row.klass],
-		data.icons.type[row.type],
-	].map(i => `url('${i}')`).join();
+		row.career,
+		row.prop,
+	].map(i => `url('/icon/${i}.png')`).join();
 </script>
 
 
@@ -15,6 +13,8 @@
 	style="background-image: {bgi}"
 	title="{row.klass}, {row.type}"
 />
+
+
 
 <style>
 	.icon {

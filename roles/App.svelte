@@ -1,5 +1,5 @@
 <script>
-	import data from './data.json';
+	import roles_data from '/data/roles.min.json';
 	import SvelteTable from 'svelte-table';
 	import Avatar from './Avatar.svelte';
 	import Icon from './Icon.svelte';
@@ -8,13 +8,13 @@
 	const filters = [{
 		prop: 'rarity',
 		title: '稀有度',
-		values: ['n', 'r', 'sr', 'ssr'],
+		values: ['N', 'R', 'SR', 'SSR'],
 	}, {
-		prop: 'klass',
+		prop: 'career',
 		title: '職業',
 		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'],
 	}, {
-		prop: 'type',
+		prop: 'prop',
 		title: '屬相',
 		values: ['炎', '雷', '冰', '光', '暗', '幽'],
 	}
@@ -30,7 +30,7 @@
 	}));
 
 
-	let max_status = data.roles.reduce((all, item) => {
+	let max_status = roles_data.reduce((all, item) => {
 		for (let prop in item.status) {
 			if (!all[prop] || item.status[prop] > all[prop]) {
 				all[prop] = item.status[prop];
@@ -40,152 +40,122 @@
 	}, {});
 
 	let columns = [
-	{
-		key: 'name',
-		title: '[ 名 ]',
-		value: v => v.name,
-		sortable: true,
-		renderComponent: Avatar,
-		searchValue: (v, s) =>
-		v.name.toString().toLowerCase().includes(s.toLowerCase()),
-	},
-	{
-		key: 'hp',
-		title: '氣血',
-		value: v => v.status.hp,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'hp',
-				max: max_status.hp,
+		{
+			key: 'name',
+			title: '[ 名 ]',
+			value: v => v.name,
+			sortable: true,
+			renderComponent: Avatar,
+			searchValue: (v, s) =>
+				v.name.toString().toLowerCase().includes(s.toLowerCase()),
+		},
+		{
+			key: 'hp',
+			title: '氣血',
+			value: v => v.status.hp,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'hp',
+					max: max_status.hp,
+				},
 			},
 		},
-	},
-	{
-		key: 'atk_phy',
-		title: '物攻',
-		value: v => v.status.atk_phy,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'atk_phy',
-				max: max_status.atk_phy,
+		{
+			key: 'atk_phy',
+			title: '物攻',
+			value: v => v.status.atk_phy,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'atk_phy',
+					max: max_status.atk_phy,
+				},
 			},
 		},
-	},
-	{
-		key: 'def_phy',
-		title: '物防',
-		value: v => v.status.def_phy,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'def_phy',
-				max: max_status.def_phy,
+		{
+			key: 'def_phy',
+			title: '物防',
+			value: v => v.status.def_phy,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'def_phy',
+					max: max_status.def_phy,
+				},
 			},
 		},
-	},
-	{
-		key: 'atk_mag',
-		title: '法攻',
-		value: v => v.status.atk_mag,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'atk_mag',
-				max: max_status.atk_mag,
+		{
+			key: 'atk_mag',
+			title: '法攻',
+			value: v => v.status.atk_mag,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'atk_mag',
+					max: max_status.atk_mag,
+				},
 			},
 		},
-	},
-	{
-		key: 'def_mag',
-		title: '法防',
-		value: v => v.status.def_mag,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'def_mag',
-				max: max_status.def_mag,
+		{
+			key: 'def_mag',
+			title: '法防',
+			value: v => v.status.def_mag,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'def_mag',
+					max: max_status.def_mag,
+				},
 			},
 		},
-	},
-	{
-		key: 'crit',
-		title: '會心',
-		value: v => v.status.crit,
-		sortable: true,
-		renderComponent: {
-			component: Numbers,
-			props: {
-				prop: 'crit',
-				max: max_status.crit,
+		{
+			key: 'crit',
+			title: '會心',
+			value: v => v.status.crit,
+			sortable: true,
+			renderComponent: {
+				component: Numbers,
+				props: {
+					prop: 'crit',
+					max: max_status.crit,
+				},
 			},
 		},
-	},
-		// {
-		// 	key: 'class',
-		// 	title: '職業',
-		// 	value: v => v.klass,
-		// 	sortable: true,
-		// 	renderComponent: Icon,
-		// },
-		// {
-		// 	key: 'rarity',
-		// 	title: 'Rarity',
-		// 	value: v => v.rarity,
-		// 	sortable: true,
-		// 	filterOptions: rows => {
-		// 		let letrs = {};
-		// 		rows.forEach(row => {
-		// 			let letr = row.rarity;
-		// 			if (letrs[letr] === undefined)
-		// 				letrs[letr] = {
-		// 					name: `${letr}`,
-		// 					value: letr,
-		// 				};
-		// 		});
-		// 		// fix order
-		// 		letrs = Object.entries(letrs)
-		// 			.sort()
-		// 			.reduce((o, [k, v]) => ((o[k] = v), o), {});
-		// 		return Object.values(letrs);
-		// 	},
-		// 	filterValue: v => v.rarity,
-		// },
-		];
+	];
 
-		$: render_roles = filter_roles(filters);
+	$: render_roles = filter_roles(filters);
 
-		function filter_roles(filters) {
-			let checked_filters = get_checked_filters(filters);
-			if (!checked_filters.length) {
-				return data.roles;
-			}
-			console.log(checked_filters);
-			return data.roles.filter(role => {
-				return checked_filters.every(_f => {
-					return _f.keys.includes(role[_f.prop]);
-				});
+	function filter_roles(filters) {
+		let checked_filters = get_checked_filters(filters);
+		if (!checked_filters.length) {
+			return roles_data;
+		}
+		console.log(checked_filters);
+		return roles_data.filter(role => {
+			return checked_filters.every(_f => {
+				return _f.keys.includes(role[_f.prop]);
 			});
-		}
+		});
+	}
 
-		function get_checked_filters(filters) {
-			let checked_filters = filters.map(cate => {
-				return {
-					prop: cate.prop,
-					keys: cate.options.map(option => {
-						return option.checked ? option.key : null;
-					}).filter(Boolean),
-				}
-			})
-			.filter(i => i.keys.length);
-			return checked_filters;
-		}
+	function get_checked_filters(filters) {
+		let checked_filters = filters.map(cate => {
+			return {
+				prop: cate.prop,
+				keys: cate.options.map(option => {
+					return option.checked ? option.key : null;
+				}).filter(Boolean),
+			}
+		})
+		.filter(i => i.keys.length);
+		return checked_filters;
+	}
 </script>
 
 
@@ -221,9 +191,23 @@
 
 	<hr>
 
-	<footer class="info">
-		資料來源：<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">https://wiki.biligame.com/tdj/</a>
-	</footer>
+	<section class="footer">
+		<ul>
+			資料來源：
+			<li>
+				Official (zh-cn)<br>
+				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_tdj">
+					https://www.zlongame.com/userinfo/tdj/index.html
+				</a>
+			</li>
+			<li>
+				BWiki<br>
+				<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">
+					https://wiki.biligame.com/tdj/
+				</a>
+			</li>
+		</ul>
+	</section>
 </div>
 
 
@@ -334,10 +318,21 @@
 		}
 	}
 
-	.info {
-		text-align: right;
+	.footer {
+		width: fit-content;
+		float: right;
+		text-align: left;
 		margin: 2em 0;
+		padding-bottom: 1em;
 		font-family: monospace;
+
+		& ul {
+			padding: 0;
+			margin: 0;
+		}
+		& li {
+			margin-top: 0.5em;
+		}
 	}
 
 	h1 {

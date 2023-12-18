@@ -89,6 +89,7 @@
 	{#each data as strategy (strategy.name)}
 		<div class="row flex {gen_members_class(strategy.members)}"
 			data-info={strategy.desc}
+			id={strategy.name}
 		>
 			<div class="members flex">
 				<Item member={strategy} />
