@@ -1,5 +1,5 @@
 <script>
-	import data from '/roles/data.json';
+	import data from '/data/strategy.min.json';
 	import Item from './Item.svelte';
 
 	let filters = init_filters();
@@ -26,12 +26,11 @@
 		}
 
 		console.log({kwd});
-
 		return `.row.row:not([data-info*="${kwd.trim()}"]) { display: none; }`;
 	}
 
 	function gen_members_class(members) {
-		return members.map(m => `mem-${m}`).join(' ');
+		return members.map(m => `mem-${m.name}`).join(' ');
 	}
 
 	function init_filters() {
@@ -87,25 +86,19 @@
 	</form>
 	<hr>
 
-	{#each data.formations as formation (formation.name)}
-		<div class="row flex {gen_members_class(formation.members)}"
-			data-info={formation.info}
+	{#each data as strategy (strategy.name)}
+		<div class="row flex {gen_members_class(strategy.members)}"
+			data-info={strategy.desc}
 		>
 			<div class="members flex">
-				<Item
-					title={formation.name}
-					img={formation.avatar.src}
-					link={formation.url}
-				/>
+				<Item member={strategy} />
 
-				{#each formation.members as member}
-					<Item
-						title={member}
-					/>
+				{#each strategy.members as member}
+					<Item member={member} />
 				{/each}
 			</div>
 
-			<div class="info">{formation.info}</div>
+			<div class="info">{strategy.desc}</div>
 		</div>
 
 	{/each}

@@ -6,6 +6,8 @@
 
 
 
+<a class="anchor" id={row.name}></a>
+
 <div class="box">
 
 	<div class="pic">
@@ -24,6 +26,13 @@
 </div>
 
 <style>
+	.anchor:target::before {
+		content: '';
+		display: block;
+		padding-top: 30px;
+		margin-top: -30px;
+		visibility: hidden;
+	}
 
 	.box {
 		display: flex;
