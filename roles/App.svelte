@@ -5,6 +5,9 @@
 	import Icon from './Icon.svelte';
 	import Numbers from './Number.svelte';
 
+	import { setContext } from 'svelte';
+	setContext('icon_folder', import.meta.env.BASE_URL + 'icon');
+
 	const filters = [{
 		prop: 'rarity',
 		title: '稀有度',

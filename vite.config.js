@@ -4,8 +4,8 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: './',
-	// base: '/tdk-helper/',
+	// base: './',
+	base: '/tdj-helper/',
 	plugins: [svelte()],
 	resolve: {
 		alias: {
