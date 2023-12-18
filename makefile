@@ -7,6 +7,9 @@ parse-biliwiki:
 dev:
 	pnpm run dev;
 
+preview: build
+	pnpm run preview;
+
 deploy: build
 	pnpm run deploy;
 
