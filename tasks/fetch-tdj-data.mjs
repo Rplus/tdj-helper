@@ -81,8 +81,10 @@ let op = {
 	ornaments: [],
 };
 
-let roles_detail_data = raw_data.role_deatil.rawdata.flat();
 
+
+// ROLES
+let roles_detail_data = raw_data.role_deatil.rawdata.flat();
 op.roles = roles_data.map(item => {
 	let detail = roles_detail_data.find(j => j.name === item.name);
 
@@ -102,18 +104,23 @@ op.roles = roles_data.map(item => {
 		...pick_obj(detail, ['pinyin', 'pic', 'rarity', 'position', 'range', 'speed',]),
 
 		strategy,
+		path: encodeURIComponent(item.name),
 
-		state: {
+		status: {
 			hp: +detail.qixue,
-			mag_atk: +detail.magic_attack,
-			phy_atk: +detail.physical_attack,
-			mag_def: +detail.magic_defense,
-			phy_def: +detail.physical_defense,
+			atk_mag: +detail.magic_attack,
+			atk_phy: +detail.physical_attack,
+			def_mag: +detail.magic_defense,
+			def_phy: +detail.physical_defense,
 			crit: +detail.huixin,
 		},
 	};
 })
 
+
+
+
+// STRATEGY
 let icons_mapping = {
 	...op.icons,
 	female: '女',
@@ -150,6 +157,7 @@ let sources = [...new Set(op.roles.map(i => i.source))];
 
 
 
+// ORNAMENTS
 op.ornaments = {
 	keys: {
 		position: {
