@@ -1,11 +1,35 @@
 import fs from 'fs';
+import { Converter } from 'opencc-js';
+import * as OpenCC from 'opencc-js';
 
-export function outputJSON(json = {}, fileName, jsonSpace = 2) {
-  let fileContent = JSON.stringify(json, null, jsonSpace);
-  writeFile(fileName, fileContent)
+const customDict = [
+  ['於小雪', '于小雪'],
+  ['星佔賢者', '星占賢者'],
+  ['激活', '啟動'],
+];
+
+const converter = OpenCC
+  // .Converter({ from: 'cn', to: 'tw' })
+  .ConverterFactory(
+    OpenCC.Locale.from.cn,
+    OpenCC.Locale.to.tw,
+    [customDict],
+  );
+
+
+export function outputJSON(obj = {}) {
+  let space = obj.space;
+  if (space === undefined) {
+    space = 2;
+  }
+  let fileContent = JSON.stringify(obj.json, null, space);
+  writeFile(obj.fn, fileContent, obj.cn2tw);
 };
 
-export function writeFile(fileName = '', fileContent = '') {
+export function writeFile(fileName = '', fileContent = '', cn2tw = false) {
+  if (cn2tw) {
+    fileContent = converter(fileContent);
+  }
 	fs.writeFileSync(fileName, fileContent);
   console.log('\x1b[46m%s\x1b[0m', `Data saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 }
@@ -34,4 +58,11 @@ export function readJsonFile(filePath) {
 
 export function parse_number(str = '') {
   return parseInt(str.replace(/\D/g, ''));
+}
+
+export function pick_obj(obj, arr = []) {
+  return arr.reduce((all, item) => {
+    all[item] = obj[item];
+    return all;
+  }, {});
 }

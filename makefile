@@ -1,4 +1,7 @@
 fetch:
+	node ./tasks/fetch-tdj-data.mjs;
+
+parse-biliwiki:
 	node ./tasks/fetch-roles.mjs;
 
 dev:

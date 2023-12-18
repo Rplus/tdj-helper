@@ -5,6 +5,15 @@ import * as OpenCC from 'opencc-js';
 
 import { writeFile, outputJSON, parse_number, } from './u.mjs';
 
+// tdj official zh-cn data
+// https://www.zlongame.com/userinfo/tdj/index.html
+// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic (json)
+// use 'pinyin' to get role's data
+// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=luoyuannvhuang
+
+// ornament 飾品
+// https://tdj-activity.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=ornaments&type=ornaments
+
 let dev_mode = false;
 
 // roles
