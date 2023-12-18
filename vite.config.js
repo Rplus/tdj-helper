@@ -24,7 +24,7 @@ export default defineConfig({
 				resolve(__dirname, './pick-and-put/index.html'),
 				resolve(__dirname, './multi-guarder/index.html'),
 				resolve(__dirname, './guild-war/index.html'),
-				resolve(__dirname, './formation/index.html'),
+				resolve(__dirname, './strategy/index.html'),
 				resolve(__dirname, './runes/index.html'),
 			],
 			// input: {
