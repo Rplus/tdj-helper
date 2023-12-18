@@ -213,10 +213,10 @@
 	</div>
 
 	<SvelteTable
-	columns={columns}
-	rows={render_roles}
-	rowKey="name"
-	classNameInput="search-input"
+		columns={columns}
+		rows={render_roles}
+		rowKey="name"
+		classNameInput="search-input"
 	/>
 
 	<hr>
