@@ -14,7 +14,7 @@
 
 <div class="icon"
 	style="background-image: {bgi}"
-	title="{row.klass}, {row.type}"
+	title="{row.career}, {row.prop}"
 />
 
 
