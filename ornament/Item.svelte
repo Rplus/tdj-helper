@@ -40,7 +40,7 @@
 
 <tr class="item {gen_class(item)}" data-info="{item.name} {item.desc}">
 	<td class="avatar" data-position={keys.position[item.position]}>
-		<div class="img-box">
+		<div class="img-box" data-position={keys.position[item.position]}>
 			<img
 				src={imgs[0]}
 				srcset="{imgs[0]}, {imgs[1]} 2x"
@@ -67,19 +67,36 @@
 
 
 <style>
+	.item:hover {
+		--hit-op: .5;
+	}
+
 	.desc {
 		white-space: pre-wrap;
 		padding-top: 0.5em;
 	}
 
 	.img-box {
+		position: relative;
 		padding: 0.5em;
 		border-radius: 0.25em;
 		background-color: #9993;
 		box-shadow: inset 2px 2px 8px #0003;
+		overflow: hidden;
 
 		& img {
 			filter: drop-shadow(2px 2px 3px #333c);
+		}
+
+		&::before {
+			content: attr(data-position);
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			padding: 0.25em;
+			font-size: 12px;
+			opacity: var(--hit-op, 0);
 		}
 	}
 
@@ -98,19 +115,6 @@
 		@media (max-width: 480px) {
 			--img-size: 48px;
 			--name-fz: .8em;
-		}
-
-		&::before {
-			content: attr(data-position);
-			top: 5%;
-			left: -12%;
-			position: absolute;
-			border-radius: 0 50% 50% 0;
-			border-radius: 50% 0 0 50%;
-			background-color: #9996;
-			opacity: 0.5;
-			font-size: smaller;
-			padding: 0.25em;
 		}
 	}
 
