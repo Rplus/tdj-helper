@@ -26,19 +26,8 @@ export default defineConfig({
 				resolve(__dirname, './guild-war/index.html'),
 				resolve(__dirname, './strategy/index.html'),
 				resolve(__dirname, './runes/index.html'),
+				resolve(__dirname, './ornament/index.html'),
 			],
-			// input: {
-			// 	main: resolve(__dirname, './index.html'),
-			// 	'weapon2': resolve(__dirname, './weapon/index.html'),
-			// 	roless: resolve(__dirname, './roles/index.html'),
-			// 	naihe: resolve(__dirname, './naihe/index.html'),
-			// 	'naihe': resolve(__dirname, './src/pick-and-put/index.html'),
-			// },
-			// input: {
-			// 	'test1/i_1': resolve(__dirname, './src/index.html'),
-			// 	'i_2': resolve(__dirname, './src-2/index.html'),
-			// 	ii: resolve(__dirname, './src-2/main.js'),
-			// },
 		},
 	},
 });
