@@ -160,27 +160,32 @@ let sources = [...new Set(op.roles.map(i => i.source))];
 // ORNAMENTS
 op.ornaments = {
 	keys: {
-		position: {
-			1: '頭',
-			2: '身',
-			3: '腰',
-			4: '手',
-		},
-		job: ['俠客', '羽士', '鐵衛', '咒師', '御風', '鬥將', ],
+		rarity: ['R', 'SR', 'SSR',],
+		position: ['', '頭', '身', '腰', '手', ],
+		// position: {
+		// 	1: '頭',
+		// 	2: '身',
+		// 	3: '腰',
+		// 	4: '手',
+		// },
+		job: ['俠客', '羽士', '鐵衛', '咒師', '祝由', '御風', '鬥將', ],
 		// type: ['physical_attack','physical_defense','magic_attack','magic_defense','treatment','qixue','currency'];
 		type: ['物攻', '物防', '法攻', '法防', '治療', '氣血', ],
 	},
-	data: raw_data.ornaments.rawdata.data.data.map(item =>
-		pick_obj(item, [
+	items: raw_data.ornaments.rawdata.data.data.map(item => {
+		let o = pick_obj(item, [
 			'name',
 			'icon',
 			'position',
-			'quality',
-			'description',
+			// 'quality',
+			// 'description',
 			'job',
 			'type',
-		])
-	),
+		]);
+		o.rarity = item.quality;
+		o.desc = item.description.replace(/\<br\/\>/g, '\n');
+		return o;
+	}),
 };
 
 
@@ -212,6 +217,12 @@ outputJSON({
 outputJSON({
 	json: op.ornaments,
 	fn: './tasks/_temp/ornaments.json',
+	cn2tw: true,
+});
+outputJSON({
+	json: op.ornaments,
+	fn: './data/ornaments.min.json',
+	space: 0,
 	cn2tw: true,
 });
 
