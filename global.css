@@ -53,8 +53,20 @@ a:visited {
   }
 }
 
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .ai-c {
