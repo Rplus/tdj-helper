@@ -121,6 +121,7 @@
 
 	.name {
 		padding-top: .25em;
+		white-space: nowrap;
 		text-align: center;
 		font-size: var(--name-fz, 1em);
 	}
