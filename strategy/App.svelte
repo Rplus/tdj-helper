@@ -5,7 +5,7 @@
 	let filters = init_filters();
 	let search_kwd = '';
 
-	$: filetr_style  = `<style>${gen_filter_style(filters)}</style>`;
+	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
 	$: search_style  = `<style>${gen_search_style(search_kwd)}</style>`;
 
 	function gen_filter_style(_filters) {
@@ -60,7 +60,7 @@
 	<hr>
 
 	<div class="style">
-		{@html filetr_style}
+		{@html filter_style}
 		{@html search_style}
 	</div>
 
