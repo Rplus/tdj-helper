@@ -4,6 +4,7 @@
 	import { get_icon_image } from './u.js';
 
 	export let job = '';
+	export let position = '';
 
 	const max_len = data.keys.job.length;
 
@@ -26,15 +27,14 @@
 </script>
 
 
-<div class="job">
+<div class="job flex">
+	{position} /
 	{#if jobs.length === max_len}
-		<strong>
-		※ 通用飾品
-		</strong>
+		<strong>通用</strong>
 
 	{:else}
 		{#each jobs as job}
-			<img src={job.img} alt={job.name} width="20" height="20">
+			<img src={job.img} alt={job.name} title={job.name} width="20" height="20">
 		{/each}
 	{/if}
 </div>
@@ -47,5 +47,7 @@
 		padding-right: 1em;
 		padding-bottom: 0.25em;
 		border-bottom: 1px dashed #6663;
+		gap: .25em;
+		color: #666a;
 	}
 </style>

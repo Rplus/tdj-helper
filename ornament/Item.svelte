@@ -56,7 +56,7 @@
 	</td>
 
 	<td>
-		<Job job={item.job} />
+		<Job job={item.job} position={keys.position[item.position]} />
 
 		<div class="desc">
 			{item.desc}
