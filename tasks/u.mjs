@@ -6,6 +6,7 @@ const customDict = [
   ['於小雪', '于小雪'],
   ['星佔賢者', '星占賢者'],
   ['激活', '啟動'],
+  ['概率', '機率'],
 ];
 
 const converter = OpenCC
