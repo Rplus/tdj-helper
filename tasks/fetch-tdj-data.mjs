@@ -72,6 +72,11 @@ if (dev_mode) {
 		fn: raw_data.role_deatil.fn,
 		cn2tw: false,
 	});
+	outputJSON({
+		json: raw_data.role_deatil.rawdata,
+		fn: raw_data.role_deatil.fn.replace('json', 'tw.json'),
+		cn2tw: true,
+	});
 }
 
 let op = {
