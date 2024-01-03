@@ -64,6 +64,14 @@
 		is_composing = false;
 	}
 
+	function gen_desc(str = '') {
+		if (search_kwd.length) {
+			let reg = new RegExp(`(${search_kwd})`, 'g');
+			return str.replace(reg, `<mark>$1</mark>`);
+		}
+		return str;
+	}
+
 </script>
 
 
@@ -119,7 +127,7 @@
 				{/each}
 			</div>
 
-			<div class="info">{strategy.desc}</div>
+			<div class="info">{@html gen_desc(strategy.desc, search_kwd)}</div>
 		</div>
 
 	{/each}
