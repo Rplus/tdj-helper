@@ -4,9 +4,17 @@
 
 	let filters = init_filters();
 	let search_kwd = '';
+	let input_value = '';
+	let is_composing = false;
 
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
 	$: search_style  = `<style>${gen_search_style(search_kwd)}</style>`;
+
+	$: {
+		if (!is_composing) {
+			search_kwd = input_value;
+		}
+	}
 
 	function gen_filter_style(_filters) {
 		let checked = _filters
@@ -45,7 +53,17 @@
 
 	function reset_filter() {
 		filters = init_filters();
+		input_value = '';
 	}
+
+	function compositionstart() {
+		is_composing = true;
+	}
+
+	function compositionend() {
+		is_composing = false;
+	}
+
 </script>
 
 
@@ -80,7 +98,9 @@
 			</label>
 		{/each}
 		<div class="search-box">
-			<input type="search" bind:value={search_kwd}
+			<input type="search" bind:value={input_value}
+				on:compositionstart={compositionstart}
+				on:compositionend={compositionend}
 				placeholder="過濾說明" />
 		</div>
 	</form>
