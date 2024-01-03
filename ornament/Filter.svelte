@@ -6,9 +6,18 @@
 	let filters = init_filters();
 	let filters_len = filters.flat().length;
 
-	let search_kwd = new URLSearchParams(location.search).get('query') || '';
+	let is_composing = false;
+	let search_kwd = '';
+	let input_value = new URLSearchParams(location.search).get('query') || '';
+
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
 	$: search_style  = `<style>${gen_search_style(search_kwd)}</style>`;
+
+	$: {
+		if (!is_composing) {
+			search_kwd = input_value;
+		}
+	}
 
 	const filters_cates = {
 		rarity: '品質',
@@ -53,7 +62,15 @@
 
 	function reset() {
 		filters = init_filters();
-		search_kwd = '';
+		input_value = '';
+	}
+
+	function compositionstart() {
+		is_composing = true;
+	}
+
+	function compositionend() {
+		is_composing = false;
 	}
 
 </script>
@@ -86,7 +103,12 @@
 	</dl>
 
 	<div class="search">
-		<input type="search" bind:value={search_kwd} placeholder="Search">
+		<input type="search"
+			bind:value={input_value}
+			on:compositionstart={compositionstart}
+			on:compositionend={compositionend}
+			placeholder="Search"
+		>
 
 		<input type="reset" on:click={reset} />
 	</div>
