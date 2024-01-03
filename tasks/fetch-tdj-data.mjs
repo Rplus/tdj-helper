@@ -3,7 +3,7 @@ import fs from 'fs';
 import { parse } from 'node-html-parser';
 import * as CSV from 'csv-tools';
 
-import { writeFile, outputJSON, pick_obj, } from './u.mjs';
+import { writeFile, outputJSON, pick_obj, getArgs, } from './u.mjs';
 
 {
 	// img path
@@ -15,9 +15,8 @@ import { writeFile, outputJSON, pick_obj, } from './u.mjs';
 	// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
 }
 
-
-let dev_mode = false;
-dev_mode = true; // fetch local file
+let args = getArgs();
+let dev_mode = !!(+args.dev);
 
 console.log({dev_mode});
 
