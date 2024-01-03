@@ -73,7 +73,7 @@ if (dev_mode) {
 	});
 	outputJSON({
 		json: raw_data.role_deatil.rawdata,
-		fn: raw_data.role_deatil.fn.replace('json', 'tw.json'),
+		fn: raw_data.role_deatil.fn.replace('json', 'tw.json').replace('_temp', 'data'),
 		cn2tw: true,
 	});
 }
