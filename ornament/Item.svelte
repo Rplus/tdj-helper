@@ -1,7 +1,7 @@
 <script>
 	import data from '/data/ornaments.min.json';
 	import { resize_img } from '/_share/u.js';
-	import Job from './Job.svelte';
+	import Meta from './Meta.svelte';
 
 	export let item = {};
 
@@ -56,7 +56,11 @@
 	</td>
 
 	<td>
-		<Job job={item.job} position={keys.position[item.position]} />
+		<Meta
+			job={item.job}
+			type={item.type}
+			position={keys.position[item.position]}
+		/>
 
 		<div class="desc">
 			{item.desc}
