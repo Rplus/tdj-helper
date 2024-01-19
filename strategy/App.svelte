@@ -1,6 +1,7 @@
 <script>
 	import data from '/data/strategy.min.json';
 	import Item from './Item.svelte';
+	import '../_share/Theme.js';
 
 	let filters = init_filters();
 	let search_kwd = '';

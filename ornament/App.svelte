@@ -2,6 +2,7 @@
 	import data from '/data/ornaments.min.json';
 	import Item from './Item.svelte';
 	import Filter from './Filter.svelte';
+	import '../_share/Theme.js';
 </script>
 
 

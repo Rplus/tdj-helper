@@ -122,25 +122,10 @@ body {
   align-items: flex-end;
   justify-content: center;
   gap: 1em;
-  background-color: var(--bgc);
+  background-color: var(--main-bgc);
   border-bottom: 1px solid;
   padding-bottom: .5em;
   margin-bottom: 1em;
-}
-
-:root {
-  --bgc: #242424;
-  --color: #fffc;
-  color-scheme: light dark;
-  color: var(--color);
-  background-color: var(--bgc);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color: #213547;
-    --bgc: #eee;
-  }
 }
 
 * {

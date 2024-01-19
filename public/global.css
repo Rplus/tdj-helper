@@ -1,11 +1,41 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --main-color: #333;
   --main-bgc: #eee;
   --link-color: rgb(0, 100, 200);
   --link-visited-color: rgb(0, 80, 160);
+
+  & body.dark-theme {
+    color-scheme: dark;
+
+    --main-color: #fff;
+    --main-bgc: #000;
+
+    --link-color: #0a61aa;
+    --link-color: rgb(200,100,0);
+    --link-visited-color: rgb(161 0 137);
+    --link-visited-color: rgb(160, 80, 0);
+  }
 }
+
+
+/*
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #fff;
+    --main-bgc: #000;
+
+    --link-color: #0a61aa;
+    --link-color: rgb(200,100,0);
+    --link-visited-color: rgb(161 0 137);
+    --link-visited-color: rgb(160, 80, 0);
+  }
+}
+ */
 
 html, body {
   position: relative;
@@ -38,20 +68,6 @@ a:visited {
 }
 
 
-@media (prefers-color-scheme: light) {
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-color: #fff;
-    --main-bgc: #000;
-
-    --link-color: #0a61aa;
-    --link-color: rgb(200,100,0);
-    --link-visited-color: rgb(161 0 137);
-    --link-visited-color: rgb(160, 80, 0);
-  }
-}
 
 .pos-r {
   position: relative;

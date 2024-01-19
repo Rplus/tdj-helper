@@ -4,6 +4,7 @@
 	import Avatar from './Avatar.svelte';
 	import Icon from './Icon.svelte';
 	import Numbers from './Number.svelte';
+	import '../_share/Theme.js';
 
 	import { setContext } from 'svelte';
 	setContext('icon_folder', import.meta.env.BASE_URL + 'icon');
