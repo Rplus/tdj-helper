@@ -189,7 +189,6 @@
 	max-width: 22em;
 	margin-bottom: 1em;
 	align-self: flex-start;
-	padding-bottom: 1em;
 
 	& .ctx {
 		margin-top: 0.5em;
@@ -197,10 +196,9 @@
 
 	@media (max-width: 700px) {
 		max-width: unset;
-		padding-left: .75em;
-		padding-right: 1.5em;
-		margin-left: .65em;
-		border-left: .4em solid #0001;
+		padding-left: .5em;
+		margin-left: 1.5em;
+		border-left: .25em solid #9993;
 	}
 }
 
