@@ -58,6 +58,7 @@
 <style>
 	.job {
 		width: fit-content;
+		align-items: center;
 		padding-right: 1em;
 		padding-bottom: 0.25em;
 		border-bottom: 1px dashed #6663;

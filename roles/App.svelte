@@ -194,7 +194,7 @@
 
 	<hr>
 
-	<section class="footer">
+	<footer class="footer">
 		<ul>
 			資料來源：
 			<li>
@@ -210,7 +210,7 @@
 				</a>
 			</li>
 		</ul>
-	</section>
+	</footer>
 </div>
 
 
@@ -318,23 +318,6 @@
 
 		& tr:nth-of-type(5n + 1) td {
 			border-top: 1px dotted #0003;
-		}
-	}
-
-	.footer {
-		width: fit-content;
-		float: right;
-		text-align: left;
-		margin: 2em 0;
-		padding-bottom: 1em;
-		font-family: monospace;
-
-		& ul {
-			padding: 0;
-			margin: 0;
-		}
-		& li {
-			margin-top: 0.5em;
 		}
 	}
 

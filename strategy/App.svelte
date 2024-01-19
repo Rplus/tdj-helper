@@ -135,7 +135,15 @@
 	<hr>
 
 	<footer class="footer">
-		資料來源：<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">https://wiki.biligame.com/tdj/</a>
+		<ul>
+			資料來源：
+			<li>
+				Official (zh-cn)<br>
+				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_biliwiki">https://www.zlongame.com/userinfo/tdj/index.html</a>
+			</li>
+		</ul>
+
+
 	</footer>
 </div>
 
