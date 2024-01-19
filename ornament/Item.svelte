@@ -77,7 +77,7 @@
 
 
 <style>
-	.item {
+	:global(.item) {
 		display: grid;
 		grid-column: 1 / -1;
 		align-items: start;
