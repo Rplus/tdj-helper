@@ -58,8 +58,8 @@
 }
 
 .avatar {
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 	margin-bottom: .25em;
 	display: flex;
 	align-items: center;
