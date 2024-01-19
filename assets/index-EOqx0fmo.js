@@ -1,4 +1,4 @@
-import"./modulepreload-polyfill-9p4a8sJU.js";let o=[{name:"魔羊掛角",member:`靈鼩 —— — — 寧采臣
+import"./modulepreload-polyfill-9p4a8sJU.js";import"./Theme-7KzdsG4A.js";/* empty css               */let o=[{name:"魔羊掛角",member:`靈鼩 —— — — 寧采臣
 — 相桓子 —— 劍聖
 — —— 李盈鳳 ——`},{name:"魔羊掛角",member:`劍平 —— — — 燕明蓉
 — 鮮于超 — 封寒月
@@ -44,7 +44,7 @@ import"./modulepreload-polyfill-9p4a8sJU.js";let o=[{name:"魔羊掛角",member:
 任斷離 —— 奚歌
 劍邪 ——— 黎幽`},{name:"古神祈願",member:`—— 劍聖 ——
 銀瑪 —— 鄲陰
-魔夏 —— 阿良`}];o.forEach(e=>{e.member=p(e.member)});console.log(o[0].member);console.log(p(o[0].member));const d=document.getElementById("form-box"),i=document.getElementById("output"),f=document.getElementById("link");let s,b=[!1,!1,!1];window.onload=async function(e){var n,t;s=[...new Set(o.map(l=>l.name))],g(),location.search&&(k(o),i.rows=25),b.forEach(l=>v(l)),(n=document.getElementById("copy"))==null||n.addEventListener("click",y),(t=document.getElementById("resize"))==null||t.addEventListener("click",()=>{i.style="",i.rows=i.rows>20?5:25})};function y(){navigator.clipboard.writeText(i.value)}function g(){let e=document.createElement("style");e.textContent=s.map(n=>`form[data-click="${n}"] .lineups label[data-type="${n}"] { display: flex;}`).join(""),d.append(e)}function v(e){var r,c;if(document.querySelectorAll("form").length>2)return;let n=Math.random()+ +new Date,t=s.map(a=>`<label class="flex" data-type>
+魔夏 —— 阿良`}];o.forEach(e=>{e.member=b(e.member)});console.log(o[0].member);console.log(b(o[0].member));const d=document.getElementById("form-box"),i=document.getElementById("output"),f=document.getElementById("link");let s,p=[!1,!1,!1];window.onload=async function(e){var n,t;s=[...new Set(o.map(l=>l.name))],g(),location.search&&(k(o),i.rows=25),p.forEach(l=>v(l)),(n=document.getElementById("copy"))==null||n.addEventListener("click",y),(t=document.getElementById("resize"))==null||t.addEventListener("click",()=>{i.style="",i.rows=i.rows>20?5:25})};function y(){navigator.clipboard.writeText(i.value)}function g(){let e=document.createElement("style");e.textContent=s.map(n=>`form[data-click="${n}"] .lineups label[data-type="${n}"] { display: flex;}`).join(""),d.append(e)}function v(e){var r,c;if(document.querySelectorAll("form").length>2)return;let n=Math.random()+ +new Date,t=s.map(a=>`<label class="flex" data-type>
         <input data-click="types" type="radio"
           name="${n}"
           value="${a}">
@@ -72,6 +72,6 @@ import"./modulepreload-polyfill-9p4a8sJU.js";let o=[{name:"魔羊掛角",member:
 ${r||"?"}`}).join(`
 
 
-`),$(n)}function $(e){let n=e.map((t,l)=>{let m=t.value.replace(/[—＿]+/g,"").trim().replace(/\s+/g,"+");return`${l+1}=${t.type}:${m}`}).join("&");f.href=`?${n}`}function k(e){let n=new URLSearchParams(location.search.replace(/＿+\+/g,""));b=[n.get("1"),n.get("2"),n.get("3")].map(t=>{if(!t)return null;let[l,m]=t.split(":");return e.find(r=>r.name.includes(l)?m==null?void 0:m.split(" ").every(c=>r.member.includes(c)):!1)})}function p(e){let n=[];return e=e.replace(/[—-]+/g,"＿"),e.split(`
+`),$(n)}function $(e){let n=e.map((t,l)=>{let m=t.value.replace(/[—＿]+/g,"").trim().replace(/\s+/g,"+");return`${l+1}=${t.type}:${m}`}).join("&");f.href=`?${n}`}function k(e){let n=new URLSearchParams(location.search.replace(/＿+\+/g,""));p=[n.get("1"),n.get("2"),n.get("3")].map(t=>{if(!t)return null;let[l,m]=t.split(":");return e.find(r=>r.name.includes(l)?m==null?void 0:m.split(" ").every(c=>r.member.includes(c)):!1)})}function b(e){let n=[];return e=e.replace(/[—-]+/g,"＿"),e.split(`
 `).map(m=>{let r=m.trim().split(/\s+/g);return r.forEach((c,a)=>{let u=w(c);(u>n[a]||!n[a])&&(n[a]=u)}),r}).map(m=>m.map((r,c)=>h(r,n[c])).join(" ")).join(`
 `)}function h(e,n){return e.replace(/[—-]+/g,"＿").padEnd(n,"＿")}function E(e){return/[^\x00-\x7F]/.test(e)}function w(e){return e.split("").reduce((n,t)=>n+(E(t)?1:.5),0)}
