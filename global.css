@@ -95,16 +95,21 @@ fieldset {
   border-color: #ccc6;
 }
 
-footer {
+footer.footer {
   align-items: center;
-  text-align: right;
-}
+  font-family: monospace;
+  word-break: break-all;
 
-footer ul {
-  float: right;
-  opacity: 0.6;
-  font-style: italic;
-  font-size: smaller;
+  & ul {
+    float: right;
+    padding: 1em 0 1em 1em;
+    opacity: 0.75;
+    font-size: smaller;
+  }
+
+  & li {
+    margin-top: 0.5em;
+  }
 }
 
 input[type="reset"]:not([disabled]),
