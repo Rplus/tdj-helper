@@ -123,3 +123,7 @@ button:not([disabled]) {
 *::after {
   box-sizing: border-box;
 }
+
+rt {
+  opacity: .3;
+}

@@ -9,7 +9,10 @@
 <div class="workspace">
 	<h1>
 		<a href="../" title="back">../</a>
-		天地劫M 飾品圖鑑
+		<ruby>
+			飾品圖鑑
+			<rt>天地劫M</rt>
+		</ruby>
 	</h1>
 
 	<Filter />

@@ -166,7 +166,10 @@
 <div class="workspace">
 	<h1>
 		<a href="../" title="back">../</a>
-		天地劫M 英靈圖鑑
+		<ruby>
+			英靈圖鑑
+			<rt>天地劫M</rt>
+		</ruby>
 	</h1>
 
 	<div class="filters">

@@ -146,7 +146,10 @@
 <div class="workspace">
 <h1>
 	<a href="../">../</a>
-	天地劫M 多重護衛優先級判定模擬
+	<ruby>
+		多重護衛優先級判定模擬
+		<rt style="opacity: 0.3;">天地劫M</rt>
+	</ruby>
 </h1>
 <div class="map-box">
 
