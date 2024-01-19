@@ -7,6 +7,10 @@
 	let input_value = '';
 	let is_composing = false;
 
+	data.forEach(i => {
+		i.desc = i.desc.replace(/(所有我方上陣角色物攻，物防，法攻，法防提高)(\d+%)[。，](.+)$/gm, '$1<strong>$2</strong>。<br><div class="ctx">$3</div>');
+	});
+
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
 	$: search_style  = `<style>${gen_search_style(search_kwd)}</style>`;
 
@@ -183,6 +187,10 @@
 	margin-bottom: 1em;
 	align-self: flex-start;
 	padding-bottom: 1em;
+
+	& .ctx {
+		margin-top: 0.5em;
+	}
 
 	@media (max-width: 700px) {
 		max-width: unset;
