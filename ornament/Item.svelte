@@ -1,7 +1,8 @@
 <script>
 	import data from '/data/ornaments.min.json';
 	import { resize_img } from '/_share/u.js';
-	import Meta from './Meta.svelte';
+	import Type from './Type.svelte';
+	import Job from './Job.svelte';
 
 	export let item = {};
 
@@ -38,9 +39,9 @@
 
 
 
-<tr class="item {gen_class(item)}" data-info="{item.name} {item.desc}">
-	<td class="avatar" data-position={keys.position[item.position]}>
-		<div class="img-box" data-position={keys.position[item.position]}>
+<li class="item {gen_class(item)}" data-info="{item.name} {item.desc}">
+	<div class="avatar">
+		<div class="img-box">
 			<img
 				src={imgs[0]}
 				srcset="{imgs[0]}, {imgs[1]} 2x"
@@ -53,35 +54,67 @@
 		<div class="name">
 			{item.name}
 		</div>
-	</td>
+	</div>
 
-	<td>
-		<Meta
-			job={item.job}
-			type={item.type}
-			position={keys.position[item.position]}
-		/>
-
-		<div class="desc">
-			{item.desc}
+	<div class="meta flex">
+		<div class="postion">
+			{keys.position[item.position]}
 		</div>
-	</td>
-</tr>
+		∙
+		<Job job={item.job} />
+		∙
+		<Type type={item.type} />
+
+	</div>
+
+	<div class="desc">
+		{item.desc}
+	</div>
+	<!--
+	-->
+</li>
 
 
 
 <style>
-	.item:hover {
-		--hit-op: .5;
+	.item {
+		display: grid;
+		grid-column: 1 / -1;
+		align-items: start;
+		grid-template-columns: subgrid;
+		grid-template-rows: auto 1fr;
+		grid-template-areas:
+			"avatar meta"
+			"avatar desc";
+		gap: .5em min(.75em, 3vw);
+		margin-bottom: 1.5em;
+
+		/* @media (max-width: 480px) {
+			grid-template-areas:
+				"meta meta"
+				"avatar desc";
+		} */
 	}
 
 	.desc {
+		grid-area: desc;
 		white-space: pre-wrap;
-		padding-top: 0.5em;
+	}
+
+	.meta {
+		grid-area: meta;
+		gap: .25em;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-right: 1em;
+		padding-bottom: .25em;
+		border-bottom: 1px dashed #6663;
+		font-size: smaller;
+		color: #666a;
 	}
 
 	.img-box {
-		position: relative;
+		aspect-ratio: 1;
 		padding: 0.5em;
 		border-radius: 0.25em;
 		background-color: #9993;
@@ -89,30 +122,18 @@
 		overflow: hidden;
 
 		& img {
+			display: block;
 			filter: drop-shadow(2px 2px 3px #333c);
 		}
-
-		&::before {
-			content: attr(data-position);
-			position: absolute;
-			right: 0;
-			bottom: 0;
-			z-index: -1;
-			padding: 0.25em;
-			font-size: 12px;
-			opacity: var(--hit-op, 0);
-		}
-	}
-
-	td {
-		padding: .25em .5em 1.5em;
-		padding-bottom: 1em;
-		vertical-align: top;
 	}
 
 	.avatar {
+		grid-area: avatar;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 		position: relative;
-		width: fit-content;
 		--img-size: 64px;
 		--name-fz: 1em;
 

@@ -14,11 +14,11 @@
 
 	<Filter />
 
-	<table>
+	<ul class="list">
 		{#each data.items as item (item.name)}
 			<Item item={item} />
 		{/each}
-	</table>
+	</ul>
 
 	<hr>
 
@@ -58,5 +58,11 @@
 		text-align: center;
 		padding-bottom: 0.5em;
 		border-bottom: 1px dotted #0003;
+	}
+
+	.list {
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr auto;
 	}
 </style>
