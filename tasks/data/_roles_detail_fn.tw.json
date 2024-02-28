@@ -1,8 +1,691 @@
 [
   [
     {
-      "name": "律",
+      "name": "蒼狼",
       "is_new": "1",
+      "pinyin": "canglang",
+      "weight": "1320",
+      "source": "天地劫幽城再臨原創角色",
+      "pic": "Hero1075_img",
+      "prop_icon": "Light",
+      "career_icon": "Guard",
+      "rarity": "SSR",
+      "position": "近攻",
+      "prop": "光",
+      "career": "鐵衛",
+      "range": "1",
+      "speed": "3",
+      "qixue": "249",
+      "magic_attack": "12",
+      "physical_attack": "85",
+      "magic_defense": "21",
+      "physical_defense": "46",
+      "huixin": "20",
+      "inherent": "Gift_148",
+      "inherent_name": "荒原狼神",
+      "star1": "",
+      "star2": "",
+      "star3": "代替相鄰1格內友方承受所有攻擊，自身3格範圍內每存在1個其他友方免傷提高8%，護衛範圍提升1格（最多提升16%/2格），當達上限時，自身雙防額外提升20%。造成傷害後，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，持續2回合。主動攻擊或遭受攻擊前，若目標攜帶<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，則獲得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>狀態，持續1回合（每回合只能觸發1次）。<br/>[協攻]若隊友主動攻擊自身3格範圍內的敵人且優先攻擊時，則在「對戰中」雙方交戰後，立刻對敵方造成1次「固定傷害」（蒼狼自身（物防+法防）的30%），並施加1個「裂傷」狀態，持續2回合（每回合只能觸發3次）",
+      "star4": "代替相鄰1格內友方承受所有攻擊，自身3格範圍內每存在1個其他友方免傷提高10%，護衛範圍提升1格（最多提升20%/2格），當達上限時，自身雙防額外提升20%。造成傷害後，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，持續2回合。主動攻擊或遭受攻擊前，若目標攜帶<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，則獲得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>狀態，持續1回合（每回合只能觸發1次）。<br/>[協攻]若隊友主動攻擊自身3格範圍內的敵人且優先攻擊時，則在「對戰中」雙方交戰後，立刻對敵方造成1次「固定傷害」（蒼狼自身（物防+法防）的30%），並施加1個「裂傷」狀態，持續2回合（每回合只能觸發3次）",
+      "star5": "代替相鄰1格內友方承受所有攻擊，自身3格範圍內每存在1個其他友方免傷提高12%，護衛範圍提升1格（最多提升24%/2格），當達上限時，自身雙防額外提升20%。造成傷害後，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，持續2回合。主動攻擊或遭受攻擊前，若目標攜帶<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，則獲得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>狀態，持續1回合（每回合只能觸發1次）。<br/>[協攻]若隊友主動攻擊自身3格範圍內的敵人且優先攻擊時，則在「對戰中」雙方交戰後，立刻對敵方造成1次「固定傷害」（蒼狼自身（物防+法防）的30%），並施加1個「裂傷」狀態，持續2回合（每回合只能觸發3次）",
+      "star6": "代替相鄰1格內友方承受所有攻擊，自身3格範圍內每存在1個其他友方免傷提高15%，護衛範圍提升1格（最多提升30%/2格），當達上限時，自身雙防額外提升20%。造成傷害後，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，持續2回合。主動攻擊或遭受攻擊前，若目標攜帶<link type=buff value=751075092 bgcolor=#3a85ffff>「裂傷」</link>狀態，則獲得<link type=buff value=751075083 bgcolor=#3a85ffff>「循血」</link>狀態，持續1回合（每回合只能觸發1次）。<br/>[協攻]若隊友主動攻擊自身3格範圍內的敵人且優先攻擊時，則在「對戰中」雙方交戰後，立刻對敵方造成1次「固定傷害」（蒼狼自身（物防+法防）的30%），並施加2個「裂傷」狀態，持續2回合（每回合只能觸發3次）",
+      "story_name": "晝夜",
+      "story_content": "道是「一如」。<br/>「一如」之下，有十一鬼疫與十二定序神。它們在形而上的空間裡追逐彼此，吞噬對方，直到最後一隻鬼疫為最後一位定序神所伏，世間的一次輪迴才能結束。<br/>不甘作為輪迴祭品的，遂向號稱維護著秩序守恆的，發起了戰爭。<br/>隨後而來的就是「萬古之戰」。混亂對規則，莽荒對信仰，魔神對定序，黑暗對光明。<br/>在那場戰爭中，白晝與黑夜的守護者攜手守護了夢境的要塞。<br/>蓋因為夢境連接著世間的所有生靈。波旬便會從那裡侵入，復活一切混亂與惡，以及統率它們的神。<br/>夢境，乃是白晝與黑夜的交界，是魔神入侵的最後一道防線。波旬的軍隊如潮如海，湧上夢的白岸。<br/>最後一具被魔神侵蝕的軀體，在他們面前轟然倒地，遽然碎裂，化作黑色煙塵。<br/>黑夜也隨之落到地上。若「一如」有目，那麼便可見，黑夜已經耗盡了神力，她將會死去。<br/>她說她的夢已經做到了盡頭，世間也許不再有夢了。<br/>白晝拾起她的身體。她坍縮成一個黑洞，卻滾燙得像一個太陽。<br/>不，白晝說。 <br/>白晝帶著那個太陽前往「一如」的座下，祈求「一如」收下他的神格，再將那神格復還給黑夜，好教那黑夜復活。<br/>「一如」無耳無目，無首無足，因而不會回應他的請求。<br/>他搖了搖頭，正要離去，忽然覺得心口一痛，手中一涼。他看到光從他身體中流出，流進了黑夜。隨後那黑色便如寶石般晶瑩，幻化出許多顏色，很快地消失在明靄裡了。",
+      "hero_icon": "Hero1075_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1552",
+          "name": "蠻荒戰技",
+          "type": "主動",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "",
+          "range": "",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "選擇1個絕學進行釋放。使用後切換為「撕筋掠血」和「剔骨掏心」。"
+        },
+        {
+          "img": "GPassive_1010",
+          "name": "列陣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "自身2格內每多1名友方，「對戰中」物防，法防提高4%（最多12%）。"
+        },
+        {
+          "img": "Skill_Guard_1019",
+          "name": "反震",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Lie",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "遭受近戰攻擊「對戰後」對敵人造成1次「固定傷害」（物防的100%）。"
+        },
+        {
+          "img": "Skill_Guard_1004",
+          "name": "破陣威壓",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成1倍傷害，「對戰前」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合。"
+        },
+        {
+          "img": "EXSkill_1556",
+          "name": "識異曉敵",
+          "type": "主動",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "7格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主動使用，對單個敵方目標施加<link type=buff value=751075170 bgcolor=#3a85ffff>「識破」</link><link type=buff value=700001411 bgcolor=#3a85ffff>「錮步」</link><link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>狀態，持續2回合。<br/>"
+        },
+        {
+          "img": "EXSkill_1555",
+          "name": "頭領之志",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Lie",
+          "unlock_inner2": "伍級",
+          "desc": "3格內任意友方遭受範圍絕學攻擊後若處於自身3格內，驅散範圍內全體友方1個「有害狀態」，並恢復其30%的最大氣血。（每回合觸發1次）"
+        },
+        {
+          "img": "EXSkill_1551",
+          "name": "草原戰吼",
+          "type": "支援",
+          "cd": "4回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Hun",
+          "unlock_inner2": "伍級",
+          "desc": "主動使用，為範圍內所有友方施加<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link><link type=buff value=700000542 bgcolor=#3a85ffff>「御魔I」</link>狀態，若自身1圈內不存在敵人，則額外施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000782 bgcolor=#3a85ffff>「迅捷I」</link>狀態，持續3回合。"
+        },
+        {
+          "img": "EXSkill_1557",
+          "name": "逐夜之狼",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "直線4x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊範圍內所有敵人，造成0.5倍傷害。奔騰開始時攜帶起始點周圍3格5名友方，朝絕學射程最遠可到達的格子移動，並在附近放下他們且共同獲得<link type=buff value=741032141 bgcolor=#3a85ffff>「光鎧」</link>狀態。行動結束時對自身3格範圍內的敵人施加<link type=buff value=700000891 bgcolor=#3a85ffff>「亂神I」</link>狀態，持續2回合"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "蒼狼",
+          "name": "霜狼鐵",
+          "img": "Weapon_107501",
+          "qixue": "49",
+          "magic": "0",
+          "physical": "36",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "傳，朔方天寒，狼爪覆霜，其堅若鐵。<br/>狼也，以群居而獵。孤狼也，通行四方，無所依從，是狼也，獨霸荒蠻，力戰而亡，無飢寒惡疾以憾逝者。生者可畏之，而無笑談。<br/>言，孤狼寒霜路，亡骨無飢顏。"
+        },
+        {
+          "weapon": "蒼狼",
+          "name": "血天嘯",
+          "img": "Weapon_107502",
+          "qixue": "60",
+          "magic": "0",
+          "physical": "44",
+          "feature": "[破空]反擊傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，匹天嘯空野，驚塵一方塞。<br/>狼性也，非為郡國爭土，但為水草豐生。荒原飲血，是以牙尖嘴利，無兵勝有兵，生滅千載，數朝往復而狼群存。<br/>言，爪流非敵血，腥露哺狼兒。"
+        },
+        {
+          "weapon": "蒼狼",
+          "name": "山光異",
+          "img": "Weapon_107503",
+          "qixue": "74",
+          "magic": "0",
+          "physical": "55",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，赤焰燒虜雲，炎氛蒸塞空。<br/>古有神狼，逐於草莽，無敵可御。拓其疆也，至於炎火極地。逐炎龍於火湖天烈，炎龍殞而神狼滅，獨留神狼利爪不熔，山岩為形而天炎凝爪也。<br/>言，天狼競真烈，魂銷志長青。"
+        },
+        {
+          "weapon": "蒼狼",
+          "name": "亙古木吟",
+          "img": "Weapon_107504",
+          "qixue": "93",
+          "magic": "0",
+          "physical": "69",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，雲散千巖暮，風生萬木吟。<br/>千古狼首，不啖血肉而食果漿。年歲定而行止若慧僧，視其目而深邃，聞其嘯如長吟。百獸拜之，以靜可止戈也。<br/>言，靜坐如雕木，沉吟同山驚。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "蒼狼",
+          "img": "Equip_xuantiekui",
+          "name": "玄鐵盔",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "15",
+          "qixue_attr": "hp",
+          "maigc_defense": "5",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "蒼狼",
+          "img": "Equip_baoganghuanjia",
+          "name": "薄鋼環甲",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "19",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "10",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "蒼狼",
+          "img": "Equip_jingtieyaodai",
+          "name": "精鐵腰帶",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "12",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "8",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "蒼狼",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "16",
+          "qixue_attr": "hp",
+          "maigc_defense": "5",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "strategy": [
+        {
+          "img": "BattleAsssit_056",
+          "name": "頭狼尋獵陣",
+          "unlock_condition": "陣眼蒼狼位階35級，五內魔陸級解鎖",
+          "relate1": "",
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero1075_HeadIcon_Basic",
+          "icon1": "warlock",
+          "icon2": "physician",
+          "icon3": "",
+          "desc": "上陣蒼狼和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。3格範圍內其他友方大於等於2名時，傷害和免傷提高8%。"
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "蒼牙天驚",
+          "img": "Weapon_107505",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "遭受攻擊時，若目標攜帶「裂傷」狀態，則免傷提高<b><color=#e4462c>5%</color></b>，且戰後自身<b><color=#e4462c>1</color></b>個隨機主動絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
+        },
+        {
+          "name": "蒼牙天驚",
+          "img": "Weapon_107505",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "遭受攻擊時，若目標攜帶「裂傷」狀態，則免傷提高<b><color=#e4462c>6%</color></b>，且戰後自身<b><color=#e4462c>1</color></b>個隨機主動絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
+        },
+        {
+          "name": "蒼牙天驚",
+          "img": "Weapon_107505",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "遭受攻擊時，若目標攜帶「裂傷」狀態，則免傷提高<b><color=#e4462c>7%</color></b>，且戰後自身<b><color=#e4462c>1</color></b>個隨機主動絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
+        },
+        {
+          "name": "蒼牙天驚",
+          "img": "Weapon_107505",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "遭受攻擊時，若目標攜帶「裂傷」狀態，則免傷提高<b><color=#e4462c>8%</color></b>，且戰後自身<b><color=#e4462c>1</color></b>個隨機主動絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
+        },
+        {
+          "name": "蒼牙天驚",
+          "img": "Weapon_107505",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "遭受攻擊時，若目標攜帶「裂傷」狀態，則免傷提高<b><color=#e4462c>10%</color></b>，且戰後自身<b><color=#e4462c>1</color></b>個隨機主動絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "白鹿",
+      "is_new": "1",
+      "pinyin": "bailu",
+      "weight": "1310",
+      "source": "天地劫幽城再臨原創角色",
+      "pic": "Hero1076_img",
+      "prop_icon": "Shadow",
+      "career_icon": "Warlock",
+      "rarity": "SSR",
+      "position": "遠攻",
+      "prop": "暗",
+      "career": "咒師",
+      "range": "2",
+      "speed": "3",
+      "qixue": "184",
+      "magic_attack": "107",
+      "physical_attack": "13",
+      "magic_defense": "36",
+      "physical_defense": "29",
+      "huixin": "25",
+      "inherent": "Gift_149",
+      "inherent_name": "浮生一夢",
+      "star1": "",
+      "star2": "",
+      "star3": "3格內存在滿血/未滿血的其他友方時，自身的法攻/免傷提高7%。回合開始時，在自己身邊召喚「夢種燈」（繼承自身150%氣血屬性和50%其他屬性，若「夢種燈」存活則不會召喚，召喚間隔6回合觸發）。若3格內存在「夢種燈」，使用絕學後為自身和3格內2個非「夢種燈」的其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續1回合。",
+      "star4": "3格內存在滿血/未滿血的其他友方時，自身的法攻/免傷提高9%。回合開始時，在自己身邊召喚「夢種燈」（繼承自身150%氣血屬性和50%其他屬性，若「夢種燈」存活則不會召喚，召喚間隔5回合觸發）。若3格內存在「夢種燈」，使用絕學後為自身和3格內2個非「夢種燈」的其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續1回合。",
+      "star5": "3格內存在滿血/未滿血的其他友方時，自身的法攻/免傷提高12%。回合開始時，在自己身邊召喚「夢種燈」（繼承自身150%氣血屬性和50%其他屬性，若「夢種燈」存活則不會召喚，召喚間隔4回合觸發）。若3格內存在「夢種燈」，使用絕學後為自身和3格內2個非「夢種燈」的其他友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續2回合。",
+      "star6": "3格內存在滿血/未滿血的其他友方時，自身的法攻/免傷提高15%。回合開始時，在自己身邊召喚「夢種燈」（繼承自身150%氣血屬性和50%其他屬性，若「夢種燈」存活則不會召喚，召喚間隔4回合觸發）。若3格內存在「夢種燈」，使用絕學後為自身和3格內2個非「夢種燈」的其他友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續2回合。",
+      "story_name": "爭渡",
+      "story_content": "白鹿可以穿行在所有人的夢裡，或者說，她只能以這樣的形式存在於世界上。<br/>所以，她見過許多夢。她在夢中與那些惡念戰鬥，直到將它們驅離。<br/>這樣的戰鬥永遠不能停止。一旦停下來，惡便會於夢中滋生，待它們鋪開了路，波旬就從那裡侵入。<br/>她點亮燈，黑暗都應光而散。只不過，她知道它們從未遠離；它們在燈光之外默默地等待著她。<br/>或許，在這個只有她與世界共同存在的地方，它們也在陪伴著她。<br/>白鹿向前踱步，驚起了一群寒鴉。",
+      "hero_icon": "Hero1076_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "Skill_Shadow_1009",
+          "name": "怖畏斷生",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」恢復自身氣血（恢復量為本次傷害的30%）。"
+        },
+        {
+          "img": "Skill_Shadow_1005",
+          "name": "絕魄之陣",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形2格",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700000881 bgcolor=#3a85ffff>「汙穢」</link>狀態，持續2回合。"
+        },
+        {
+          "img": "GPassive_1012",
+          "name": "神念",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Xun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若自身氣血大於等於90%，法攻、法防提高10%。"
+        },
+        {
+          "img": "GPassive_1018",
+          "name": "退魔符",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "行動結束時，使相鄰1格內法防屬性最高的1個其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「御魔I」</link>狀態，持續1回合。"
+        },
+        {
+          "img": "EXSkill_1561",
+          "name": "懸燈點燭",
+          "type": "主動",
+          "cd": "2回合",
+          "cost": "1內力",
+          "shoot": "3格",
+          "range": "1圈",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主動使用，對範圍內所有友方驅散1個「有害狀態」並施加<link type=buff value=700000901 bgcolor=#3a85ffff>「命蘊」</link>狀態，持續2回合，若範圍內存在「夢種燈」則額外添加其最大氣血50%的<link type=buff value=741076508 bgcolor=#3a85ffff>「火源」</link>，持續2回合。"
+        },
+        {
+          "img": "EXSkill_1558",
+          "name": "夢斷魂消",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Xun",
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，造成1.5倍傷害，若3格內存在滿血/未滿血的其他友方，「對戰前」對目標施加<link type=buff value=700001354 bgcolor=#3a85ffff>「失智II」</link>/<link type=buff value=700000881 bgcolor=#3a85ffff>「汙穢」</link>狀態，持續2回合。"
+        },
+        {
+          "img": "EXSkill_1559",
+          "name": "長夜入夢",
+          "type": "主動",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "菱形2格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Hun",
+          "unlock_inner2": "伍級",
+          "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的0.75倍），驅散1個「有害狀態」，在自身和「夢種燈」2格內張開領域<link type=buff value=741076125 bgcolor=#3a85ffff>「虛夢之境」</link>，持續2回合。"
+        },
+        {
+          "img": "EXSkill_1560",
+          "name": "魂燃燈盡",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成0.7倍傷害，施加2個隨機「有害狀態」，絕學後對「夢種燈」3格範圍內所有敵人再造成1次法術傷害（法攻的0.3倍）並銷燬「夢種燈」，刷新自身天賦冷卻時間。<br/>[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害累積1點氣力，行動結束時若「夢種燈」攜帶「火源」則額外獲得1點氣力）"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "白鹿",
+          "name": "啟明盞",
+          "img": "Weapon_107601",
+          "qixue": "36",
+          "magic": "38",
+          "physical": "0",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，日旦出，謂明星為啟明；日既入，謂明星為長庚。<br/>白鹿持盞，御護浮夢；民酣享安眠，恍惚而見明曜，至旦出乃見星耀長空，暢懷而不知白鹿所存。<br/>言，旦浴日光燻，夜夢啟明輝。"
+        },
+        {
+          "weapon": "白鹿",
+          "name": "藏籠燻",
+          "img": "Weapon_107602",
+          "qixue": "44",
+          "magic": "47",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "「莊子」載，以天下為之籠,則雀無所逃。<br/>魘蝕夢，天地闕；薰逐惡，天地合。民曰白鹿之能，以薰藏籠焉。轉流偏折，以「龍」代「籠」也，而不知其能自光來。<br/>言，千載輝光溢，疑是藏龍薰。"
+        },
+        {
+          "weapon": "白鹿",
+          "name": "流華三界",
+          "img": "Weapon_107603",
+          "qixue": "54",
+          "magic": "58",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，三界流動，以罪苦為場。<br/>世人難脫三欲，皆以夢現，難眠為苦弱之痛矣。古神以流華光耀，引渡罪業。欲生自然，流轉為願可脫也。<br/>言，三界苦弱，流華引欲。"
+        },
+        {
+          "weapon": "白鹿",
+          "name": "朦朧曲",
+          "img": "Weapon_107605",
+          "qixue": "68",
+          "magic": "73",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，夜深斜搭鞦韆索，樓閣朦朧煙雨中。<br/>家憶為曲，離愁為怨，久居大荒，不知歸路何在，離魂忘鄉而無歸處。但聞朦朧鄉音，嫋嫋爐光引歸人，安然而居。<br/>言，瑤瑤無歸期，衍光引歸人。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "白鹿",
+          "img": "Equip_shuilingzhuhua",
+          "name": "水靈珠花",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "10",
+          "qixue_attr": "hp",
+          "maigc_defense": "7",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "白鹿",
+          "img": "Equip_baijuanwuxiu",
+          "name": "白絹舞袖",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "9",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "7",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "白鹿",
+          "img": "Equip_xuanjingxiudai",
+          "name": "玄經繡帶",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "12",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "5",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "白鹿",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "12",
+          "magatt_attr": "magatn",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "納木晦明",
+          "img": "Weapon_107604",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "若<b><color=#e4462c>3</color></b>格內存在「夢種燈」，傷害提高<b><color=#e4462c>5%</color></b>。使用傷害絕學後，為「夢種燈」添加其最大氣血<b><color=#e4462c>25%</color></b>的「火源」，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "納木晦明",
+          "img": "Weapon_107604",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "若<b><color=#e4462c>3</color></b>格內存在「夢種燈」，傷害提高<b><color=#e4462c>6%</color></b>。使用傷害絕學後，為「夢種燈」添加其最大氣血<b><color=#e4462c>25%</color></b>的「火源」，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "納木晦明",
+          "img": "Weapon_107604",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "若<b><color=#e4462c>3</color></b>格內存在「夢種燈」，傷害提高<b><color=#e4462c>7%</color></b>。使用傷害絕學後，為「夢種燈」添加其最大氣血<b><color=#e4462c>25%</color></b>的「火源」，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "納木晦明",
+          "img": "Weapon_107604",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "若<b><color=#e4462c>3</color></b>格內存在「夢種燈」，傷害提高<b><color=#e4462c>8%</color></b>。使用傷害絕學後，為「夢種燈」添加其最大氣血<b><color=#e4462c>25%</color></b>的「火源」，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "納木晦明",
+          "img": "Weapon_107604",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "若<b><color=#e4462c>3</color></b>格內存在「夢種燈」，傷害提高<b><color=#e4462c>10%</color></b>。使用傷害絕學後，為「夢種燈」添加其最大氣血<b><color=#e4462c>25%</color></b>的「火源」，持續<b><color=#e4462c>2</color></b>回合。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "律",
+      "is_new": "0",
       "pinyin": "lvlv",
       "weight": "1300",
       "source": "天地劫幽城再臨原創角色",
@@ -330,13 +1013,39 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "若目標<b><color=#e4462c>1</color></b>格內無其他友方，則「對戰後」造成<b><color=#e4462c>1</color></b>次「固定傷害」（物攻的<b><color=#e4462c>30%</color></b>）。使用傷害絕學後，可選擇傳送到攜帶「幽禁」狀態敵方角色身周的<b><color=#e4462c>1</color></b>個指定空格並獲得「閃避」狀態，持續<b><color=#e4462c>1</color></b>回合（間隔<b><color=#e4462c>1</color></b>回合觸發）。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "玄烏玉雕·塵",
+          "percent": "0.2"
+        },
+        {
+          "name": "綺羅天香·煙",
+          "percent": "0.2"
+        },
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.2"
+        },
+        {
+          "name": "八荒靈石·煙",
+          "percent": "0.2"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "靈虛扇",
+          "percent": "0.126984126984127"
+        }
+      ],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
     {
       "name": "冰蟬玉劍",
-      "is_new": "1",
+      "is_new": "0",
       "pinyin": "bingchanyujian",
       "weight": "1290",
       "source": "天地劫幽城再臨原創角色",
@@ -679,7 +1388,11 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "氣血大於等於<b><color=#e4462c>50%</color></b>時，物攻提高<b><color=#e4462c>10%</color></b>，反之雙防提高<b><color=#e4462c>15%</color></b>。行動結束時，若攜帶「匿鞘」狀態，驅散自身<b><color=#e4462c>1</color></b>個「有害狀態」並根據消化的儲存總量為自身恢復氣血。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -1028,7 +1741,21 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>10%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>30%</color></b>並對攻擊者施加「汙穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "冰蟾串珠·塵",
+          "percent": "0.109677419354839"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [
+        {
+          "name": "神秘斗篷",
+          "percent": "0.113935542442124"
+        }
+      ],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -1362,7 +2089,20 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>15%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "鹿鳴靈珠",
+          "percent": "0.113127902068383"
+        },
+        {
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.104685521317011"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -1711,7 +2451,21 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>10%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>30%</color></b>）。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.109858130229174"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.117302052785924"
+        }
+      ],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -2060,7 +2814,16 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>15%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "八荒靈石·塵",
+          "percent": "0.11544227886057"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -2394,7 +3157,20 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>10%</color></b>。觸發天賦再行動時獲得「激盪」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.15034965034965"
+        },
+        {
+          "name": "洛神玉菡",
+          "percent": "0.0961538461538462"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -2728,7 +3504,24 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "場上存在攜帶「生息」或「殺生」狀態的友方時，自身法攻提高<b><color=#e4462c>15%</color></b>。主動使用絕學後，為自身和攜帶「生息」/「命殺」狀態的友方施加「雷鎧」狀態。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "朱蕊晶花",
+          "percent": "0.142767295597484"
+        },
+        {
+          "name": "龍骨項鍊·煙",
+          "percent": "0.132704402515723"
+        },
+        {
+          "name": "龍骨項鍊·塵",
+          "percent": "0.130817610062893"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -3081,7 +3874,7 @@
       "hero_ornaments_1": [
         {
           "name": "天石命墜",
-          "percent": "1"
+          "percent": "0.195066867416526"
         }
       ],
       "hero_ornaments_2": [
@@ -3450,7 +4243,16 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "主動攻擊「對戰中」若物攻大於目標物攻/法攻，暴擊率提升<b><color=#e4462c>15%</color></b>，若會心大於目標會心則傷害額外提升<b><color=#e4462c>10%</color></b>。"
         }
-      ]
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.108232207281076"
+        }
+      ],
+      "hero_ornaments_2": [],
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -3791,8 +4593,8 @@
           "percent": "0.690023752969121"
         },
         {
-          "name": "封豨牙懸",
-          "percent": "0.135182338968842"
+          "name": "湮魂魔蛛",
+          "percent": "0.11103021477976"
         }
       ],
       "hero_ornaments_2": [
@@ -4180,12 +4982,16 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.44231639270095"
+          "name": "鳳翼神墜",
+          "percent": "0.171797691039032"
         },
         {
-          "name": "天河硃砂",
-          "percent": "0.268360729904992"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.164101154480484"
+        },
+        {
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.158603628367235"
         }
       ],
       "hero_ornaments_2": [
@@ -4956,7 +5762,7 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.709405020142547"
+          "percent": "0.224489795918367"
         },
         {
           "name": "洛神玉菡",
@@ -5739,47 +6545,19 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.313175810973168"
-        },
-        {
-          "name": "洛神玉菡",
-          "percent": "0.122547056467761"
-        },
-        {
-          "name": "鹿鳴靈珠",
-          "percent": "0.0961153384060873"
+          "percent": "0.136494252873563"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.20597609561753"
-        },
-        {
-          "name": "玉璣靈鐲·煙",
-          "percent": "0.173705179282869"
-        },
-        {
-          "name": "赤霞玉戒·煙",
-          "percent": "0.113147410358566"
-        },
-        {
           "name": "赤霞玉戒·塵",
-          "percent": "0.0960159362549801"
+          "percent": "0.115659519168291"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "星天流離",
-          "percent": "0.174679487179487"
-        },
-        {
-          "name": "摩尼寶珠",
-          "percent": "0.147435897435897"
-        },
-        {
           "name": "清神淨玉",
-          "percent": "0.12900641025641"
+          "percent": "0.0994152046783626"
         }
       ],
       "hero_ornaments_4": [
@@ -6143,16 +6921,20 @@
       ],
       "hero_ornaments_1": [
         {
+          "name": "寰光劍玉",
+          "percent": "0.207557071634742"
+        },
+        {
           "name": "冰蟾串珠·煙",
-          "percent": "0.72166654498552"
+          "percent": "0.195617948045133"
         },
         {
           "name": "定筆簪",
-          "percent": "0.0777785889854226"
+          "percent": "0.142613487273681"
         },
         {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.0652454308729405"
+          "percent": "0.107320913146156"
         }
       ],
       "hero_ornaments_2": [
@@ -6529,16 +7311,20 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "九色鹿冠",
-          "percent": "0.386248156039993"
+          "name": "冰凜銀環·煙",
+          "percent": "0.125945945945946"
         },
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.234797574168169"
+          "name": "龍骨項鍊·塵",
+          "percent": "0.12"
+        },
+        {
+          "name": "龍骨項鍊·煙",
+          "percent": "0.110810810810811"
         },
         {
           "name": "冰凜銀環·塵",
-          "percent": "0.222668415013932"
+          "percent": "0.109189189189189"
         }
       ],
       "hero_ornaments_2": [
@@ -6920,7 +7706,7 @@
       "hero_ornaments_1": [
         {
           "name": "天石命墜",
-          "percent": "0.686832740213523"
+          "percent": "0.168582375478927"
         }
       ],
       "hero_ornaments_2": [
@@ -6935,28 +7721,12 @@
         {
           "name": "瓊瞳靈戒",
           "percent": "0.185147507629705"
-        },
-        {
-          "name": "赤心環",
-          "percent": "0.046795523906409"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "天石雲佩",
           "percent": "0.584560690705942"
-        },
-        {
-          "name": "化淵曲玉",
-          "percent": "0.0685627221940071"
-        },
-        {
-          "name": "琅環玉璧",
-          "percent": "0.0624682579989843"
-        },
-        {
-          "name": "摩尼寶珠",
-          "percent": "0.0578974098527171"
         }
       ],
       "hero_ornaments_4": [
@@ -6971,10 +7741,6 @@
         {
           "name": "硯山佩",
           "percent": "0.0386178861788618"
-        },
-        {
-          "name": "封血之蠱·塵",
-          "percent": "0.0345528455284553"
         }
       ]
     }
@@ -7329,7 +8095,7 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.832622717830983"
+          "percent": "0.282201405152225"
         }
       ],
       "hero_ornaments_2": [
@@ -7695,17 +8461,17 @@
       "hero_ornaments_1": [
         {
           "name": "天狼血眼",
-          "percent": "0.581546750477046"
+          "percent": "0.376881396748946"
         },
         {
           "name": "冰蟾串珠·塵",
-          "percent": "0.272645639241217"
+          "percent": "0.148103552077062"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.838227022162223"
+          "percent": "0.148568608094768"
         }
       ],
       "hero_ornaments_3": [
@@ -8092,11 +8858,15 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·煙",
-          "percent": "0.616679378271046"
+          "percent": "0.29054583442152"
         },
         {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.109065565578729"
+          "percent": "0.157743536171324"
+        },
+        {
+          "name": "定筆簪",
+          "percent": "0.118307652128493"
         }
       ],
       "hero_ornaments_2": [
@@ -8487,48 +9257,52 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "玉璣靈鐲·煙",
-          "percent": "0.22705078125"
-        },
-        {
           "name": "赤霞玉戒·煙",
-          "percent": "0.162109375"
+          "percent": "0.261744966442953"
         },
         {
           "name": "赤霞玉戒·塵",
-          "percent": "0.13671875"
+          "percent": "0.21923937360179"
         },
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.10302734375"
+          "name": "玉璣靈鐲·煙",
+          "percent": "0.167785234899329"
+        },
+        {
+          "name": "玄鴆骨戒",
+          "percent": "0.111856823266219"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "星天流離",
-          "percent": "0.166829268292683"
+          "name": "清神淨玉",
+          "percent": "0.259507829977629"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.133658536585366"
+          "percent": "0.166666666666667"
         },
         {
-          "name": "淵魚金令",
-          "percent": "0.121951219512195"
+          "name": "辟邪玉佩·煙",
+          "percent": "0.138702460850112"
         },
         {
-          "name": "清神淨玉",
-          "percent": "0.110243902439024"
+          "name": "護命神符·塵",
+          "percent": "0.135346756152125"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.293398533007335"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.156599552572707"
         },
         {
-          "name": "玄武玉",
-          "percent": "0.097799511002445"
+          "name": "鮫人悲歌·影",
+          "percent": "0.112975391498881"
+        },
+        {
+          "name": "朝雲橫度",
+          "percent": "0.0995525727069351"
         }
       ]
     }
@@ -8867,7 +9641,7 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "天河硃砂",
+          "name": "朱焰妖瞳·煙",
           "percent": "0.615136876006441"
         },
         {
@@ -8877,32 +9651,56 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.587761674718196"
+          "name": "朝露戒·塵",
+          "percent": "0.215846994535519"
         },
         {
-          "name": "玉璣靈鐲·煙",
-          "percent": "0.120772946859903"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.172131147540984"
+        },
+        {
+          "name": "赤霞玉戒·塵",
+          "percent": "0.155737704918033"
+        },
+        {
+          "name": "朝露戒·煙",
+          "percent": "0.136612021857924"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "護命神符·煙",
-          "percent": "0.339774557165862"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.262479871175523"
+          "name": "龍涎香囊·霧",
+          "percent": "0.226775956284153"
         },
         {
           "name": "清神淨玉",
-          "percent": "0.0982286634460548"
+          "percent": "0.177595628415301"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.166666666666667"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.155737704918033"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "天荊覆魂",
-          "percent": "0.600644122383253"
+          "name": "鮫人悲歌·影",
+          "percent": "0.147540983606557"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.136612021857924"
+        },
+        {
+          "name": "鮫人悲歌·塵",
+          "percent": "0.133879781420765"
+        },
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.112021857923497"
         }
       ]
     }
@@ -9264,8 +10062,8 @@
           "percent": "0.255526657997399"
         },
         {
-          "name": "鳳翼神墜",
-          "percent": "0.125162548764629"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.138235294117647"
         }
       ],
       "hero_ornaments_2": [
@@ -9650,11 +10448,7 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.740396218825422"
-        },
-        {
-          "name": "魂剎玉",
-          "percent": "0.0786655269509252"
+          "percent": "0.443570585922139"
         }
       ],
       "hero_ornaments_2": [
@@ -9685,10 +10479,6 @@
         {
           "name": "朝雲橫度",
           "percent": "0.593170437102091"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.0826140567200986"
         }
       ]
     }
@@ -10046,12 +10836,8 @@
           "percent": "0.431701379496889"
         },
         {
-          "name": "如意珠翠",
-          "percent": "0.128212063835542"
-        },
-        {
-          "name": "寰光劍玉",
-          "percent": "0.114417094941845"
+          "name": "定筆簪",
+          "percent": "0.0960482985729967"
         }
       ],
       "hero_ornaments_2": [
@@ -10433,7 +11219,7 @@
       "hero_ornaments_1": [
         {
           "name": "七色纓珞",
-          "percent": "0.702135106755338"
+          "percent": "0.259589652096343"
         },
         {
           "name": "冰蠺玉帶·煙",
@@ -10818,16 +11604,8 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "鳳翼神墜",
-          "percent": "0.186400937866354"
-        },
-        {
           "name": "冰蟾串珠·塵",
-          "percent": "0.167643610785463"
-        },
-        {
-          "name": "天河硃砂",
-          "percent": "0.139507620164127"
+          "percent": "0.107413010590015"
         },
         {
           "name": "如意珠翠",
@@ -10836,52 +11614,44 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "霜紙戒",
-          "percent": "0.331367924528302"
+          "name": "流光手鐲·煙",
+          "percent": "0.15136476426799"
         },
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.240566037735849"
+          "percent": "0.116625310173697"
         },
         {
-          "name": "御波靈戒",
-          "percent": "0.100235849056604"
+          "name": "烏光燧珏·霧",
+          "percent": "0.11166253101737"
+        },
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.109181141439206"
         }
       ],
       "hero_ornaments_3": [
         {
+          "name": "清神淨玉",
+          "percent": "0.121588089330025"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.101736972704715"
+        },
+        {
           "name": "辟邪玉佩·煙",
-          "percent": "0.178194607268464"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.174677608440797"
-        },
-        {
-          "name": "淵魚金令",
-          "percent": "0.139507620164127"
-        },
-        {
-          "name": "滄海月明",
-          "percent": "0.113716295427902"
+          "percent": "0.101736972704715"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.231764705882353"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.181176470588235"
+          "percent": "0.114143920595533"
         },
         {
-          "name": "玄武玉",
-          "percent": "0.170588235294118"
-        },
-        {
-          "name": "送風入懷",
-          "percent": "0.111764705882353"
+          "name": "鮫人悲歌·影",
+          "percent": "0.101736972704715"
         }
       ]
     }
@@ -11235,16 +12005,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.730484978353085"
+          "name": "龍骨項鍊·塵",
+          "percent": "0.162268388545761"
         },
         {
-          "name": "九色鹿冠",
-          "percent": "0.104881853034212"
-        },
-        {
-          "name": "冰凜銀環·塵",
-          "percent": "0.097112286992901"
+          "name": "龍骨項鍊·煙",
+          "percent": "0.142616507580011"
         }
       ],
       "hero_ornaments_2": [
@@ -12023,7 +12789,7 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.624312813715478"
+          "percent": "0.444026375591402"
         },
         {
           "name": "洛神玉菡",
@@ -12409,73 +13175,61 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.325032202662087"
+          "percent": "0.26556420233463"
         },
         {
           "name": "鹿鳴靈珠",
           "percent": "0.150708458565908"
-        },
-        {
-          "name": "玉蝶黛翠",
-          "percent": "0.0669815371404036"
-        },
-        {
-          "name": "封豨牙懸",
-          "percent": "0.0506655216831258"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.239466895958727"
-        },
-        {
-          "name": "玉璣靈鐲·煙",
-          "percent": "0.149183147033534"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.230408259033318"
         },
         {
           "name": "赤霞玉戒·塵",
-          "percent": "0.14445399828031"
+          "percent": "0.175973721257626"
         },
         {
-          "name": "玄鴆骨戒",
-          "percent": "0.0640584694754944"
+          "name": "玉璣靈鐲·煙",
+          "percent": "0.165180666353825"
+        },
+        {
+          "name": "重曜玉鐲",
+          "percent": "0.167996245893947"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "清神淨玉",
-          "percent": "0.165594165594166"
-        },
-        {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.164307164307164"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.128271128271128"
+          "percent": "0.283435007038949"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.0918060918060918"
+          "percent": "0.151102768653214"
+        },
+        {
+          "name": "辟邪玉佩·煙",
+          "percent": "0.13139371187236"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.105584232754575"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.163300386764074"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.202252463632098"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.145940872829657"
         },
         {
           "name": "萬佛朝宗·霧",
-          "percent": "0.10786420283627"
-        },
-        {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.102707348517404"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.0945423291792007"
+          "percent": "0.110746128578132"
         }
       ]
     }
@@ -12830,7 +13584,7 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·煙",
-          "percent": "0.785116065623924"
+          "percent": "0.436070197430273"
         }
       ],
       "hero_ornaments_2": [
@@ -13208,11 +13962,7 @@
       "hero_ornaments_1": [
         {
           "name": "龍牙魂玉",
-          "percent": "0.494994854523342"
-        },
-        {
-          "name": "玄烏玉雕·塵",
-          "percent": "0.111329404060249"
+          "percent": "0.143859649122807"
         }
       ],
       "hero_ornaments_2": [
@@ -13596,70 +14346,50 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "鹿鳴靈珠",
-          "percent": "0.20919881305638"
-        },
-        {
-          "name": "如意珠翠",
-          "percent": "0.15727002967359"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.147901740020471"
         },
         {
           "name": "鳳翼神墜",
-          "percent": "0.147181008902077"
-        },
-        {
-          "name": "冰蟾串珠·塵",
-          "percent": "0.109495548961424"
+          "percent": "0.119754350051177"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "御波靈戒",
-          "percent": "0.231957231957232"
+          "percent": "0.191943127962085"
         },
         {
           "name": "白焰玉鐲·煙",
           "percent": "0.22958122958123"
         },
         {
-          "name": "霜紙戒",
-          "percent": "0.0855360855360855"
-        },
-        {
           "name": "流光手鐲·煙",
-          "percent": "0.0831600831600832"
+          "percent": "0.17693522906793"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.176068883610451"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.127375296912114"
+          "name": "清神淨玉",
+          "percent": "0.156398104265403"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.102434679334917"
+          "percent": "0.121642969984202"
         },
         {
-          "name": "清神淨玉",
-          "percent": "0.0988717339667458"
+          "name": "辟邪玉佩·煙",
+          "percent": "0.120063191153239"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.0968508615567439"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.119273301737757"
         },
         {
-          "name": "送風入懷",
-          "percent": "0.0929887106357695"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.0888294711824124"
+          "name": "鮫人悲歌·影",
+          "percent": "0.115323854660348"
         }
       ]
     }
@@ -13998,8 +14728,8 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "洛神玉菡",
-          "percent": "0.351050354898071"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.2122776821572"
         },
         {
           "name": "冰蟾串珠·塵",
@@ -14382,48 +15112,56 @@
       ],
       "hero_ornaments_3": [
         {
-          "name": "淵魚金令",
-          "percent": "0.244635193133047"
+          "name": "鳳繡香囊·塵",
+          "percent": "0.210144927536232"
         },
         {
-          "name": "星天流離",
-          "percent": "0.167381974248927"
+          "name": "護命神符·煙",
+          "percent": "0.195652173913043"
         },
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.145922746781116"
+          "name": "龍涎香囊·霧",
+          "percent": "0.188405797101449"
+        },
+        {
+          "name": "清神淨玉",
+          "percent": "0.173913043478261"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.231759656652361"
-        },
-        {
-          "name": "天荊覆魂",
-          "percent": "0.175965665236052"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.171673819742489"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.103004291845494"
+          "percent": "0.217391304347826"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.217391304347826"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.13768115942029"
+        },
+        {
+          "name": "甘霖·煙",
+          "percent": "0.115942028985507"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.40948275862069"
+          "name": "赤霞玉戒·塵",
+          "percent": "0.195652173913043"
         },
         {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.275862068965517"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.152173913043478"
         },
         {
           "name": "玉璣靈鐲·煙",
-          "percent": "0.120689655172414"
+          "percent": "0.144927536231884"
+        },
+        {
+          "name": "朝露戒·塵",
+          "percent": "0.130434782608696"
         }
       ]
     }
@@ -14778,29 +15516,13 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·塵",
-          "percent": "0.345530893821236"
-        },
-        {
-          "name": "天狼血眼",
-          "percent": "0.248950209958008"
+          "percent": "0.177737881508079"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "流影真符",
-          "percent": "0.145258103241297"
-        },
-        {
-          "name": "御刃金佩",
-          "percent": "0.105042016806723"
-        },
-        {
           "name": "靈越佩環·塵",
-          "percent": "0.0990396158463385"
-        },
-        {
-          "name": "五尊神令",
-          "percent": "0.0762304921968787"
+          "percent": "0.10916179337232"
         }
       ],
       "hero_ornaments_4": [
@@ -14828,7 +15550,7 @@
         },
         {
           "name": "流光手鐲·煙",
-          "percent": "0.0982519590114527"
+          "percent": "0.144249512670565"
         }
       ]
     }
@@ -16382,35 +17104,31 @@
       "hero_ornaments_3": [
         {
           "name": "辟邪玉佩·煙",
-          "percent": "0.204227941176471"
+          "percent": "0.126440677966102"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.149080882352941"
+          "percent": "0.106440677966102"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.266434080058759"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.140102827763496"
+          "percent": "0.131864406779661"
         },
         {
-          "name": "鮫人悲歌·影",
-          "percent": "0.0978699963275799"
+          "name": "萬佛朝宗·霧",
+          "percent": "0.131525423728814"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.405335786568537"
+          "percent": "0.208474576271186"
         },
         {
           "name": "御波靈戒",
-          "percent": "0.17608095676173"
+          "percent": "0.144745762711864"
         }
       ]
     }
@@ -16764,50 +17482,70 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "定筆簪",
-          "percent": "0.191722972972973"
+          "name": "妖燐石·煙",
+          "percent": "0.163620337724995"
         },
         {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.121380308880309"
+          "percent": "0.115373909816292"
         },
         {
-          "name": "冰蟾串珠·煙",
-          "percent": "0.118605212355212"
+          "name": "定筆簪",
+          "percent": "0.113193542401188"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "流光手鐲·煙",
-          "percent": "0.217401901048014"
+          "percent": "0.408228816151728"
+        },
+        {
+          "name": "幽都王璽",
+          "percent": "0.207402875497094"
         },
         {
           "name": "千稜幻玉·煙",
-          "percent": "0.103582744333415"
+          "percent": "0.19577852554298"
+        },
+        {
+          "name": "行戈靈戒",
+          "percent": "0.185224839400428"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "靈越佩環·煙",
-          "percent": "0.147865114022319"
+          "percent": "0.364178647904558"
         },
         {
-          "name": "靈越佩環·霧",
-          "percent": "0.104075691411936"
+          "name": "紫月香囊·煙",
+          "percent": "0.332364637503824"
         },
         {
           "name": "靈越佩環·塵",
           "percent": "0.101043182920912"
+        },
+        {
+          "name": "靈越佩環·霧",
+          "percent": "0.0953585569731632"
         }
       ],
       "hero_ornaments_4": [
         {
+          "name": "薰風",
+          "percent": "0.341388803915571"
+        },
+        {
           "name": "清光似水",
-          "percent": "0.171081409477521"
+          "percent": "0.309880697460997"
         },
         {
           "name": "無邊落木·煙",
-          "percent": "0.102794653705954"
+          "percent": "0.230498623432242"
+        },
+        {
+          "name": "慈航普度",
+          "percent": "0.214897522178036"
         }
       ],
       "hero_wunei_PVE1": {
@@ -17170,12 +17908,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "龍骨項鍊·塵",
-          "percent": "0.121808143547274"
+          "name": "妖燐石·霧",
+          "percent": "0.16769286490402"
         },
         {
-          "name": "天河硃砂",
-          "percent": "0.115942028985507"
+          "name": "妖燐石·煙",
+          "percent": "0.142158638174574"
         }
       ],
       "hero_ornaments_2": [
@@ -17186,30 +17924,18 @@
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.176747311827957"
+          "name": "紫月香囊·塵",
+          "percent": "0.30505163271002"
         },
         {
-          "name": "護命神符·煙",
-          "percent": "0.17372311827957"
-        },
-        {
-          "name": "護命神符·塵",
-          "percent": "0.110887096774194"
+          "name": "紫月香囊·霧",
+          "percent": "0.197599776723416"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.199732798931196"
-        },
-        {
-          "name": "鮫人悲歌·影",
-          "percent": "0.145958583834335"
-        },
-        {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.0995323981295925"
+          "name": "甘霖·霧",
+          "percent": "0.30923806865755"
         }
       ],
       "hero_wunei_PVE1": {
@@ -17576,8 +18302,8 @@
           "percent": "0.243554260742899"
         },
         {
-          "name": "冰蠺玉帶·塵",
-          "percent": "0.0833211944646759"
+          "name": "八荒靈石·塵",
+          "percent": "0.148756415317805"
         }
       ],
       "hero_ornaments_2": [
@@ -17586,32 +18312,44 @@
           "percent": "0.204977175673686"
         },
         {
-          "name": "瓊瞳靈戒",
-          "percent": "0.19584744514799"
+          "name": "寰鳥戒",
+          "percent": "0.17953839325344"
         },
         {
-          "name": "寰鳥戒",
-          "percent": "0.137976733912531"
+          "name": "雲龍雕環",
+          "percent": "0.17265867731913"
         }
       ],
       "hero_ornaments_3": [
         {
+          "name": "紫月香囊·塵",
+          "percent": "0.378162450066578"
+        },
+        {
           "name": "鑲蛇銀佩·塵",
-          "percent": "0.170763827919227"
+          "percent": "0.219041278295606"
         },
         {
           "name": "暮雲合璧",
-          "percent": "0.0930640913081651"
+          "percent": "0.150466045272969"
+        },
+        {
+          "name": "琅環玉璧",
+          "percent": "0.131602308033733"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "煙霞百相",
-          "percent": "0.414680508846323"
+          "percent": "0.488681757656458"
         },
         {
-          "name": "藏龍玉帶",
-          "percent": "0.0910951893551689"
+          "name": "甘霖·塵",
+          "percent": "0.302707501109632"
+        },
+        {
+          "name": "甘霖·霧",
+          "percent": "0.15889924545051"
         }
       ],
       "hero_wunei_PVE1": {
@@ -17975,7 +18713,15 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·煙",
-          "percent": "0.786411249820634"
+          "percent": "0.229967948717949"
+        },
+        {
+          "name": "定筆簪",
+          "percent": "0.158653846153846"
+        },
+        {
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.127403846153846"
         }
       ],
       "hero_ornaments_3": [
@@ -18372,11 +19118,19 @@
       "hero_ornaments_1": [
         {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.455838064675389"
+          "percent": "0.216443784051511"
+        },
+        {
+          "name": "龍族盔",
+          "percent": "0.141654284299158"
         },
         {
           "name": "龍牙魂玉",
-          "percent": "0.223302888175759"
+          "percent": "0.102526002971768"
+        },
+        {
+          "name": "冰蟾串珠·塵",
+          "percent": "0.0970777612679544"
         }
       ],
       "hero_ornaments_3": [
@@ -18774,56 +19528,48 @@
       ],
       "hero_ornaments_3": [
         {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.132022471910112"
+        },
+        {
+          "name": "清神淨玉",
+          "percent": "0.126404494382022"
+        },
+        {
           "name": "辟邪玉佩·煙",
-          "percent": "0.149825783972125"
+          "percent": "0.120786516853933"
         },
         {
-          "name": "護命神符·煙",
-          "percent": "0.146341463414634"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.134146341463415"
-        },
-        {
-          "name": "淵魚金令",
-          "percent": "0.118466898954704"
+          "name": "鳳繡香囊·煙",
+          "percent": "0.103932584269663"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.196551724137931"
-        },
-        {
-          "name": "朝雲橫度",
-          "percent": "0.113793103448276"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.113793103448276"
-        },
-        {
           "name": "鮫人悲歌·影",
-          "percent": "0.108620689655172"
+          "percent": "0.123595505617978"
+        },
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.115168539325843"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.0955056179775281"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "玉璣靈鐲·煙",
-          "percent": "0.218588640275387"
-        },
-        {
           "name": "赤霞玉戒·塵",
-          "percent": "0.187607573149742"
+          "percent": "0.174157303370787"
         },
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.163511187607573"
+          "name": "朝露戒·塵",
+          "percent": "0.106741573033708"
         },
         {
-          "name": "重曜玉鐲",
-          "percent": "0.141135972461274"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.0955056179775281"
         }
       ]
     }
@@ -19172,10 +19918,6 @@
         {
           "name": "定筆簪",
           "percent": "0.115456938698759"
-        },
-        {
-          "name": "玄烏玉雕·塵",
-          "percent": "0.121474238435502"
         }
       ],
       "hero_ornaments_3": [
@@ -19958,19 +20700,11 @@
       "hero_ornaments_1": [
         {
           "name": "冰凜銀環·煙",
-          "percent": "0.705166418281172"
+          "percent": "0.316129032258064"
         },
         {
           "name": "冰凜銀環·塵",
-          "percent": "0.152757078986587"
-        },
-        {
-          "name": "龍骨項鍊·塵",
-          "percent": "0.0553899652260308"
-        },
-        {
-          "name": "龍骨項鍊·煙",
-          "percent": "0.0300546448087432"
+          "percent": "0.116129032258065"
         }
       ],
       "hero_ornaments_3": [
@@ -20378,26 +21112,18 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "封豨牙懸",
-          "percent": "0.564797580269893"
+          "name": "天河硃砂",
+          "percent": "0.198729582577132"
         },
         {
-          "name": "天河硃砂",
-          "percent": "0.162052117263844"
+          "name": "神烏飾墜·煙",
+          "percent": "0.119555353901996"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.502362480312664"
-        },
-        {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.222598145015458"
-        },
-        {
           "name": "赤霞玉戒·塵",
-          "percent": "0.132123898967509"
+          "percent": "0.106473690115562"
         }
       ],
       "hero_ornaments_3": [
@@ -20421,19 +21147,7 @@
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·煙",
-          "percent": "0.282009345794393"
-        },
-        {
-          "name": "天荊覆魂",
-          "percent": "0.149474299065421"
-        },
-        {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.14375"
-        },
-        {
-          "name": "朝雲橫度",
-          "percent": "0.132476635514019"
+          "percent": "0.10692247279255"
         }
       ]
     }
@@ -20788,38 +21502,18 @@
         {
           "name": "白焰玉鐲·煙",
           "percent": "0.633473095737247"
-        },
-        {
-          "name": "流光手鐲·煙",
-          "percent": "0.0800139762403913"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "靈越佩環·塵",
-          "percent": "0.35095652173913"
-        },
-        {
-          "name": "煉法黑鱗",
-          "percent": "0.100695652173913"
+          "percent": "0.188900379179593"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "慈航普度",
-          "percent": "0.138279345175897"
-        },
-        {
-          "name": "杏花疏影",
-          "percent": "0.129223267154302"
-        },
-        {
           "name": "清光似水",
-          "percent": "0.122082897944967"
-        },
-        {
-          "name": "玄闕腰帶",
-          "percent": "0.103448275862069"
+          "percent": "0.0985866942433644"
         }
       ]
     }
@@ -21166,58 +21860,58 @@
           "percent": "0.217476681394207"
         },
         {
-          "name": "定筆簪",
-          "percent": "0.121011291114384"
-        },
-        {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.11119293078056"
+          "percent": "0.0999343616672137"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.296678966789668"
+          "percent": "0.331486880466472"
         },
         {
-          "name": "寰鳥戒",
-          "percent": "0.160147601476015"
+          "name": "流光手鐲·煙",
+          "percent": "0.206997084548105"
         },
         {
           "name": "御波靈戒",
-          "percent": "0.114391143911439"
+          "percent": "0.193877551020408"
+        },
+        {
+          "name": "蛇首靈戒·煙",
+          "percent": "0.127113702623907"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "護命神符·煙",
-          "percent": "0.228900883218842"
-        },
-        {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.11261040235525"
+          "percent": "0.233819241982507"
         },
         {
           "name": "清神淨玉",
-          "percent": "0.111874386653582"
+          "percent": "0.210204081632653"
+        },
+        {
+          "name": "辟邪玉佩·煙",
+          "percent": "0.159183673469388"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.0970845481049563"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·煙",
-          "percent": "0.232672054861621"
-        },
-        {
-          "name": "朝雲橫度",
-          "percent": "0.174626500122459"
+          "percent": "0.293294460641399"
         },
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.15356355620867"
+          "percent": "0.227696793002915"
         },
         {
           "name": "萬佛朝宗·霧",
-          "percent": "0.134459955914769"
+          "percent": "0.170845481049563"
         }
       ]
     }
@@ -21570,36 +22264,44 @@
           "percent": "0.275713638423199"
         },
         {
-          "name": "葬海戒",
-          "percent": "0.174218396012687"
-        },
-        {
           "name": "千稜幻玉·煙",
-          "percent": "0.114861803352968"
+          "percent": "0.14408833827094"
         },
         {
           "name": "赤霞玉戒·煙",
-          "percent": "0.111463525147259"
+          "percent": "0.128198222461621"
+        },
+        {
+          "name": "葬海戒",
+          "percent": "0.119310530568274"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "御刃金佩",
-          "percent": "0.207427536231884"
-        },
-        {
           "name": "靈越佩環·霧",
-          "percent": "0.182291666666667"
+          "percent": "0.313762456234851"
         },
         {
-          "name": "五尊神令",
-          "percent": "0.170969202898551"
+          "name": "煉法黑鱗",
+          "percent": "0.120387826555346"
+        },
+        {
+          "name": "天穹劍印",
+          "percent": "0.119579854565042"
         }
       ],
       "hero_ornaments_4": [
         {
+          "name": "慈航普度",
+          "percent": "0.152168058173983"
+        },
+        {
           "name": "玄闕腰帶",
-          "percent": "0.329326377863461"
+          "percent": "0.137624562348505"
+        },
+        {
+          "name": "杏花疏影",
+          "percent": "0.132507406409911"
         }
       ]
     }
@@ -21953,12 +22655,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "封豨牙懸",
-          "percent": "0.518197340043134"
+          "name": "天河硃砂",
+          "percent": "0.291113381001021"
         },
         {
-          "name": "天河硃砂",
-          "percent": "0.3705966930266"
+          "name": "封豨牙懸",
+          "percent": "0.155844155844156"
         }
       ],
       "hero_ornaments_2": [
@@ -22342,54 +23044,54 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蟾串珠·煙",
-          "percent": "0.331542181622783"
-        },
-        {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.190757657173563"
+          "percent": "0.140825035561878"
         },
         {
           "name": "定筆簪",
-          "percent": "0.149919398173025"
+          "percent": "0.135135135135135"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.278595696489241"
-        },
-        {
-          "name": "寰鳥戒",
-          "percent": "0.189127972819932"
+          "percent": "0.163447951012718"
         },
         {
           "name": "蛇首靈戒·塵",
-          "percent": "0.132049830124575"
+          "percent": "0.13518605746585"
         },
         {
-          "name": "蛇首靈戒·煙",
-          "percent": "0.12321630804077"
+          "name": "流光手鐲·煙",
+          "percent": "0.116344795101272"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "紺雲化霧",
-          "percent": "0.124347628772408"
-        },
-        {
           "name": "靈越佩環·塵",
-          "percent": "0.123666893578398"
+          "percent": "0.176165803108808"
         },
         {
           "name": "靈越佩環·煙",
-          "percent": "0.0982527796687089"
+          "percent": "0.132359868111163"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "玄闕腰帶",
-          "percent": "0.306955530216648"
+          "percent": "0.128120584079133"
+        },
+        {
+          "name": "煙霞百相",
+          "percent": "0.127178520960904"
+        },
+        {
+          "name": "清光似水",
+          "percent": "0.105982100800754"
+        },
+        {
+          "name": "慈航普度",
+          "percent": "0.09609043805935"
         }
       ]
     }
@@ -22728,62 +23430,34 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "封豨牙懸",
-          "percent": "0.236827195467422"
-        },
-        {
           "name": "天河硃砂",
-          "percent": "0.140509915014164"
+          "percent": "0.133148404993065"
         },
         {
           "name": "神烏飾墜·煙",
-          "percent": "0.134277620396601"
-        },
-        {
-          "name": "九色鹿冠",
-          "percent": "0.124079320113314"
+          "percent": "0.0970873786407767"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.304683195592287"
+          "name": "赤霞玉戒·塵",
+          "percent": "0.109649122807018"
         },
         {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.166942148760331"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.0964912280701754"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.211738891936369"
-        },
-        {
-          "name": "淵魚金令",
-          "percent": "0.137685134393856"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.120680197476687"
+          "name": "清神淨玉",
+          "percent": "0.115497076023392"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.235807860262009"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.130458515283843"
-        },
-        {
-          "name": "鮫人悲歌·霧",
-          "percent": "0.120633187772926"
-        },
-        {
-          "name": "玄武玉",
-          "percent": "0.118449781659389"
+          "percent": "0.114035087719298"
         }
       ]
     }
@@ -23122,16 +23796,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "天石命墜",
+          "name": "八荒靈石·塵",
           "percent": "0.489443011369065"
         },
         {
           "name": "飛泉鳴玉",
           "percent": "0.157542753415496"
-        },
-        {
-          "name": "定筆簪",
-          "percent": "0.127066017005828"
         }
       ],
       "hero_ornaments_2": [
@@ -23519,46 +24189,62 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "天狼血眼",
-          "percent": "0.465863453815261"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.186978297161937"
         },
         {
-          "name": "冰蟾串珠·塵",
-          "percent": "0.279785809906292"
+          "name": "天狼血眼",
+          "percent": "0.103923205342237"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.693577163247101"
+          "percent": "0.224368499257058"
+        },
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.186478454680535"
+        },
+        {
+          "name": "葬海戒",
+          "percent": "0.105497771173848"
+        },
+        {
+          "name": "白焰玉鐲·塵",
+          "percent": "0.104754829123328"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "星天流離",
-          "percent": "0.30806954971021"
-        },
-        {
           "name": "靈越佩環·塵",
-          "percent": "0.124832813196612"
+          "percent": "0.234769687964339"
         },
         {
-          "name": "御刃金佩",
-          "percent": "0.12037449843959"
+          "name": "靈越佩環·煙",
+          "percent": "0.160475482912333"
+        },
+        {
+          "name": "靈越佩環·霧",
+          "percent": "0.112184249628529"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "玄闕腰帶",
-          "percent": "0.205699020480855"
+          "name": "清光似水",
+          "percent": "0.237741456166419"
         },
         {
-          "name": "清光似水",
-          "percent": "0.138023152270703"
+          "name": "無邊落木·煙",
+          "percent": "0.12407132243685"
         },
         {
           "name": "慈航普度",
-          "percent": "0.101959038290294"
+          "percent": "0.109955423476969"
+        },
+        {
+          "name": "月滿西樓",
+          "percent": "0.107726597325409"
         }
       ]
     }
@@ -23897,16 +24583,20 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.514862804878049"
+          "name": "龍骨項鍊·煙",
+          "percent": "0.141083521444695"
         },
         {
           "name": "冰凜銀環·塵",
-          "percent": "0.186737804878049"
+          "percent": "0.135440180586907"
         },
         {
-          "name": "九色鹿冠",
-          "percent": "0.120426829268293"
+          "name": "冰凜銀環·煙",
+          "percent": "0.128668171557562"
+        },
+        {
+          "name": "龍骨項鍊·塵",
+          "percent": "0.120767494356659"
         }
       ],
       "hero_ornaments_2": [
@@ -24696,16 +25386,8 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蟾串珠·煙",
-          "percent": "0.516796875"
-        },
-        {
-          "name": "七色纓珞",
-          "percent": "0.1298828125"
-        },
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.1177734375"
+          "name": "雷吼化玉",
+          "percent": "0.119891008174387"
         }
       ],
       "hero_ornaments_2": [
@@ -25481,7 +26163,7 @@
       "hero_ornaments_1": [
         {
           "name": "天河硃砂",
-          "percent": "0.588202559821925"
+          "percent": "0.231067961165049"
         },
         {
           "name": "神烏飾墜·煙",
@@ -25490,48 +26172,56 @@
       ],
       "hero_ornaments_2": [
         {
+          "name": "赤霞玉戒·塵",
+          "percent": "0.352525252525253"
+        },
+        {
+          "name": "赤霞玉戒·煙",
+          "percent": "0.311111111111111"
+        },
+        {
           "name": "玉璣靈鐲·煙",
-          "percent": "0.338341680578742"
+          "percent": "0.275757575757576"
         },
         {
           "name": "玄鴆骨戒",
-          "percent": "0.159710628825821"
-        },
-        {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.112409571508069"
+          "percent": "0.196969696969697"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "清神淨玉",
-          "percent": "0.184752365052866"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.165275459098498"
+          "percent": "0.436363636363636"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.112409571508069"
+          "percent": "0.271717171717172"
         },
         {
-          "name": "鑲蛇銀佩·塵",
-          "percent": "0.109627156371731"
+          "name": "辟邪玉佩·煙",
+          "percent": "0.193939393939394"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.167676767676768"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "朝雲橫度",
-          "percent": "0.187290969899666"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.331313131313131"
         },
         {
-          "name": "玄武玉",
-          "percent": "0.126532887402453"
+          "name": "鮫人悲歌·影",
+          "percent": "0.22020202020202"
         },
         {
           "name": "萬佛朝宗·霧",
-          "percent": "0.105351170568562"
+          "percent": "0.187878787878788"
+        },
+        {
+          "name": "朝雲橫度",
+          "percent": "0.134343434343434"
         }
       ]
     }
@@ -26674,15 +27364,11 @@
       "hero_ornaments_1": [
         {
           "name": "鳳翼神墜",
-          "percent": "0.378973105134474"
+          "percent": "0.268796385930945"
         },
         {
           "name": "冰蟾串珠·塵",
-          "percent": "0.213936430317848"
-        },
-        {
-          "name": "如意珠翠",
-          "percent": "0.110024449877751"
+          "percent": "0.135527589545015"
         }
       ],
       "hero_ornaments_2": [
@@ -26691,40 +27377,52 @@
           "percent": "0.390825688073395"
         },
         {
-          "name": "御波靈戒",
-          "percent": "0.154128440366972"
+          "name": "流光手鐲·煙",
+          "percent": "0.320534223706177"
         },
         {
-          "name": "流光手鐲·煙",
-          "percent": "0.114984709480122"
+          "name": "御波靈戒",
+          "percent": "0.1669449081803"
+        },
+        {
+          "name": "蛇首靈戒·煙",
+          "percent": "0.164440734557596"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "清神淨玉",
-          "percent": "0.216117216117216"
-        },
-        {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.11050061050061"
+          "percent": "0.470784641068447"
         },
         {
           "name": "護命神符·煙",
+          "percent": "0.11050061050061"
+        },
+        {
+          "name": "辟邪玉佩·煙",
           "percent": "0.106837606837607"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.0980392156862745"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "鮫人悲歌·影",
-          "percent": "0.1619804400978"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.126528117359413"
+          "percent": "0.290484140233723"
         },
         {
-          "name": "朝雲橫度",
-          "percent": "0.112469437652812"
+          "name": "鮫人悲歌·影",
+          "percent": "0.265442404006678"
+        },
+        {
+          "name": "萬佛朝宗·霧",
+          "percent": "0.196994991652755"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.106010016694491"
         }
       ]
     }
@@ -27078,30 +27776,18 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "封豨牙懸",
-          "percent": "0.53358843537415"
+          "name": "妖燐石·霧",
+          "percent": "0.107142857142857"
         },
         {
-          "name": "神烏飾墜·煙",
-          "percent": "0.148384353741497"
-        },
-        {
-          "name": "翡翠骷髏",
-          "percent": "0.0989"
+          "name": "八荒靈石·塵",
+          "percent": "0.107142857142857"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "玉璣靈鐲·塵",
-          "percent": "0.575243747350572"
-        },
-        {
-          "name": "重曜玉鐲",
-          "percent": "0.117846545146248"
-        },
-        {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.117422636710471"
+          "percent": "0.162150285630584"
         }
       ],
       "hero_ornaments_3": [
@@ -27493,12 +28179,8 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "寰鳥戒",
-          "percent": "0.406132329209252"
-        },
-        {
-          "name": "瓊瞳靈戒",
-          "percent": "0.394190424959656"
+          "name": "寒月玉鐲",
+          "percent": "0.14062703265253"
         }
       ],
       "hero_ornaments_3": [
@@ -27521,16 +28203,8 @@
       ],
       "hero_ornaments_4": [
         {
-          "name": "硯山佩",
-          "percent": "0.36782720825274"
-        },
-        {
-          "name": "天石符珠",
-          "percent": "0.25779067268429"
-        },
-        {
           "name": "煙霞百相",
-          "percent": "0.137169568020632"
+          "percent": "0.14765187979706"
         }
       ]
     }
@@ -27869,16 +28543,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "西方神徽",
-          "percent": "0.505998800239952"
-        },
-        {
-          "name": "天狼血眼",
-          "percent": "0.258248350329934"
+          "name": "八荒靈石·影",
+          "percent": "0.108017817371938"
         },
         {
           "name": "冰蟾串珠·塵",
-          "percent": "0.187762447510498"
+          "percent": "0.0968819599109131"
         }
       ],
       "hero_ornaments_2": [
@@ -28278,16 +28948,16 @@
           "percent": "0.373783129818243"
         },
         {
-          "name": "冰蟾串珠·煙",
-          "percent": "0.106549997186427"
-        },
-        {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.105677789657307"
+          "percent": "0.129694769091115"
         },
         {
           "name": "定筆簪",
-          "percent": "0.103820831692083"
+          "percent": "0.115681379779871"
+        },
+        {
+          "name": "玄烏玉雕·塵",
+          "percent": "0.104277771473959"
         }
       ],
       "hero_ornaments_2": [
@@ -28307,15 +28977,7 @@
       "hero_ornaments_3": [
         {
           "name": "天穹劍印",
-          "percent": "0.295458392101552"
-        },
-        {
-          "name": "五尊神令",
-          "percent": "0.18064880112835"
-        },
-        {
-          "name": "靈越佩環·煙",
-          "percent": "0.0952045133991537"
+          "percent": "0.100919291604705"
         }
       ],
       "hero_ornaments_4": [
@@ -28672,12 +29334,16 @@
           "percent": "0.521218662610999"
         },
         {
-          "name": "冰凜銀環·塵",
-          "percent": "0.137025953000049"
+          "name": "龍骨項鍊·塵",
+          "percent": "0.114640438568204"
         },
         {
-          "name": "九色鹿冠",
-          "percent": "0.113673159005053"
+          "name": "龍骨項鍊·煙",
+          "percent": "0.103837471783296"
+        },
+        {
+          "name": "冰凜銀環·塵",
+          "percent": "0.103837471783296"
         }
       ],
       "hero_ornaments_2": [
@@ -29077,16 +29743,20 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "九色鹿冠",
-          "percent": "0.473868108426202"
-        },
-        {
           "name": "冰凜銀環·塵",
-          "percent": "0.273217109860605"
+          "percent": "0.165276490577695"
         },
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.149812424142116"
+          "name": "龍骨項鍊·煙",
+          "percent": "0.163731850478838"
+        },
+        {
+          "name": "龍骨項鍊·塵",
+          "percent": "0.157862218103182"
+        },
+        {
+          "name": "朱蕊晶花",
+          "percent": "0.118319431572444"
         }
       ],
       "hero_ornaments_2": [
@@ -29467,26 +30137,18 @@
           "percent": "0.374688353318295"
         },
         {
-          "name": "龍牙魂玉",
-          "percent": "0.149234239582097"
-        },
-        {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.125964620681467"
+          "percent": "0.144733699546214"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "星河手環",
-          "percent": "0.355690331787371"
+          "percent": "0.182345240321676"
         },
         {
           "name": "幽都王璽",
-          "percent": "0.150315138542038"
-        },
-        {
-          "name": "寰鳥戒",
-          "percent": "0.117255321679153"
+          "percent": "0.111838414063961"
         }
       ],
       "hero_ornaments_3": [
@@ -29505,20 +30167,8 @@
       ],
       "hero_ornaments_4": [
         {
-          "name": "玄闕腰帶",
-          "percent": "0.154120585087406"
-        },
-        {
           "name": "慈航普度",
-          "percent": "0.135569033178737"
-        },
-        {
-          "name": "藏龍玉帶",
-          "percent": "0.102747056724938"
-        },
-        {
-          "name": "清光似水",
-          "percent": "0.100368652634083"
+          "percent": "0.0981858986347485"
         }
       ]
     }
@@ -29886,44 +30536,52 @@
       ],
       "hero_ornaments_2": [
         {
+          "name": "流光手鐲·煙",
+          "percent": "0.169946891596376"
+        },
+        {
           "name": "幽都王璽",
-          "percent": "0.183320480334912"
+          "percent": "0.168541080912215"
         },
         {
           "name": "千稜幻玉·煙",
-          "percent": "0.116337997135617"
+          "percent": "0.123086535457669"
         },
         {
-          "name": "千稜幻玉·煙",
-          "percent": "0.1513"
+          "name": "蛇首靈戒·煙",
+          "percent": "0.0954389253358325"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "靈越佩環·煙",
-          "percent": "0.1781"
-        },
-        {
-          "name": "天穹劍印",
-          "percent": "0.103887546672524"
+          "percent": "0.218681661980631"
         },
         {
           "name": "靈越佩環·塵",
-          "percent": "0.100263562486273"
+          "percent": "0.143548890971571"
+        },
+        {
+          "name": "靈越佩環·霧",
+          "percent": "0.121836925960637"
+        },
+        {
+          "name": "天穹劍印",
+          "percent": "0.112464854732896"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "壽葫蘆",
-          "percent": "0.367232876712329"
+          "percent": "0.606529209621993"
         },
         {
           "name": "慈航普度",
-          "percent": "0.118575342465753"
+          "percent": "0.131208997188379"
         },
         {
           "name": "清光似水",
-          "percent": "0.104547945205479"
+          "percent": "0.117775695095283"
         }
       ]
     }
@@ -30277,24 +30935,32 @@
       "hero_ornaments_2": [
         {
           "name": "赤霞玉戒·煙",
-          "percent": "0.238636363636364"
+          "percent": "0.574698795180723"
         },
         {
-          "name": "重曜玉鐲",
-          "percent": "0.156468531468531"
+          "name": "赤霞玉戒·塵",
+          "percent": "0.143106457242583"
+        },
+        {
+          "name": "銀闌靈鐲·煙",
+          "percent": "0.0994764397905759"
+        },
+        {
+          "name": "玉璣靈鐲·煙",
+          "percent": "0.0968586387434555"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
+          "name": "清神淨玉",
           "percent": "0.1884"
         },
         {
-          "name": "清神淨玉",
+          "name": "鑲蛇銀佩·塵",
           "percent": "0.1394"
         },
         {
-          "name": "鑲蛇銀佩·塵",
+          "name": "辟邪玉佩·煙",
           "percent": "0.1369"
         },
         {
@@ -30305,7 +30971,19 @@
       "hero_ornaments_4": [
         {
           "name": "壽葫蘆",
-          "percent": "0.155187445510026"
+          "percent": "0.331325301204819"
+        },
+        {
+          "name": "朝雲橫度",
+          "percent": "0.25421686746988"
+        },
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.213253012048193"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.212048192771084"
         }
       ]
     }
@@ -30644,16 +31322,8 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.2148033126294"
-        },
-        {
           "name": "冰蟾串珠·塵",
-          "percent": "0.188923395445135"
-        },
-        {
-          "name": "雷吼化玉",
-          "percent": "0.144927536231884"
+          "percent": "0.218367346938776"
         },
         {
           "name": "天狼血眼",
@@ -30663,47 +31333,55 @@
       "hero_ornaments_2": [
         {
           "name": "星河手環",
-          "percent": "0.279106029106029"
+          "percent": "0.235209235209235"
+        },
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.17965367965368"
         },
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.133575883575884"
+          "percent": "0.157287157287157"
         },
         {
-          "name": "霜紙戒",
-          "percent": "0.0956340956340956"
+          "name": "流光手鐲·塵",
+          "percent": "0.126984126984127"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "靈越佩環·塵",
-          "percent": "0.143298969072165"
-        },
-        {
           "name": "靈越佩環·煙",
-          "percent": "0.125257731958763"
+          "percent": "0.242424242424242"
         },
         {
-          "name": "煉法黑鱗",
-          "percent": "0.108247422680412"
+          "name": "靈越佩環·塵",
+          "percent": "0.220779220779221"
         },
         {
-          "name": "五尊神令",
-          "percent": "0.105670103092784"
+          "name": "靈越佩環·霧",
+          "percent": "0.15007215007215"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.113997113997114"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "慈航普度",
-          "percent": "0.201967892283791"
+          "percent": "0.251082251082251"
         },
         {
           "name": "月滿西樓",
-          "percent": "0.121698601760746"
+          "percent": "0.18037518037518"
+        },
+        {
+          "name": "無邊落木·煙",
+          "percent": "0.176767676767677"
         },
         {
           "name": "清光似水",
-          "percent": "0.103573278094252"
+          "percent": "0.163059163059163"
         }
       ]
     }
@@ -31456,7 +32134,7 @@
       "hero_ornaments_1": [
         {
           "name": "玄烏玉雕·煙",
-          "percent": "0.511915310357692"
+          "percent": "0.425232729054385"
         },
         {
           "name": "冰蟾串珠·煙",
@@ -31464,41 +32142,25 @@
         },
         {
           "name": "冰蠺玉帶·煙",
-          "percent": "0.0995196567644453"
+          "percent": "0.106614404703577"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "幽都王璽",
-          "percent": "0.299267005929315"
-        },
-        {
-          "name": "赤心環",
-          "percent": "0.15271487931276"
-        },
-        {
-          "name": "葬海戒",
-          "percent": "0.106587609132079"
+          "percent": "0.142218121837345"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "鑲蛇銀佩·塵",
-          "percent": "0.484351204351204"
-        },
-        {
-          "name": "鑲蛇銀佩·煙",
-          "percent": "0.147381507381507"
+          "percent": "0.235119796471805"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "慈航普度",
-          "percent": "0.385738043799251"
-        },
-        {
-          "name": "玄闕腰帶",
-          "percent": "0.216447255941187"
+          "percent": "0.199166876345439"
         }
       ]
     }
@@ -31837,58 +32499,62 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "飛泉鳴玉",
-          "percent": "0.164034640855833"
-        },
-        {
-          "name": "玄烏玉雕·塵",
-          "percent": "0.149770759042282"
-        },
-        {
-          "name": "定筆簪",
-          "percent": "0.142638818135507"
-        },
-        {
-          "name": "玄烏玉雕·煙",
-          "percent": "0.13397860417728"
+          "name": "八荒靈石·塵",
+          "percent": "0.110100682039623"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "瓊瞳靈戒",
-          "percent": "0.214867617107943"
-        },
-        {
           "name": "寒月玉鐲",
-          "percent": "0.168533604887984"
+          "percent": "0.378947368421053"
         },
         {
           "name": "寰鳥戒",
-          "percent": "0.116089613034623"
+          "percent": "0.232631578947368"
         },
         {
-          "name": "靈泉魂鐲·霧",
-          "percent": "0.111507128309572"
+          "name": "雲龍雕環",
+          "percent": "0.225263157894737"
+        },
+        {
+          "name": "靈泉魂鐲·塵",
+          "percent": "0.222105263157895"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "琅環玉璧",
-          "percent": "0.156361778231988"
+          "percent": "0.245263157894737"
         },
         {
-          "name": "鳳紋佩環",
-          "percent": "0.0996423096576392"
+          "name": "靈越佩環·煙",
+          "percent": "0.230526315789474"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.197894736842105"
+        },
+        {
+          "name": "鑲蛇銀佩·塵",
+          "percent": "0.196842105263158"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "煙霞百相",
-          "percent": "0.309341500765697"
+          "percent": "0.342105263157895"
+        },
+        {
+          "name": "和光同塵",
+          "percent": "0.192631578947368"
+        },
+        {
+          "name": "壽葫蘆",
+          "percent": "0.190526315789474"
         },
         {
           "name": "藏龍玉帶",
-          "percent": "0.115875446656457"
+          "percent": "0.188421052631579"
         }
       ]
     }
@@ -32267,25 +32933,37 @@
       "hero_ornaments_3": [
         {
           "name": "五尊神令",
-          "percent": "0.190093708165997"
+          "percent": "0.155687830687831"
         },
         {
           "name": "天穹劍印",
-          "percent": "0.14643188137164"
+          "percent": "0.136772486772487"
+        },
+        {
+          "name": "煉法黑鱗",
+          "percent": "0.114417989417989"
         },
         {
           "name": "靈越佩環·煙",
-          "percent": "0.0957676861291319"
+          "percent": "0.113227513227513"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "慈航普度",
-          "percent": "0.252844111919647"
+          "percent": "0.286904761904762"
         },
         {
           "name": "無邊落木·煙",
-          "percent": "0.0986983704007379"
+          "percent": "0.125132275132275"
+        },
+        {
+          "name": "月滿西樓",
+          "percent": "0.117592592592593"
+        },
+        {
+          "name": "無邊落木·塵",
+          "percent": "0.0962962962962963"
         }
       ]
     }
@@ -32664,25 +33342,13 @@
       "hero_ornaments_3": [
         {
           "name": "鑲蛇銀佩·塵",
-          "percent": "0.277499035121575"
-        },
-        {
-          "name": "清神淨玉",
-          "percent": "0.125005360435696"
-        },
-        {
-          "name": "護命神符·煙",
-          "percent": "0.103863802049831"
+          "percent": "0.107277019398543"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "朝雲橫度",
-          "percent": "0.322683020971823"
-        },
-        {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.0967534416949007"
+          "percent": "0.147818946936262"
         }
       ],
       "hero_wunei_PVE1": {
@@ -33046,37 +33712,29 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·塵",
-          "percent": "0.50758129236026"
+          "percent": "0.420831432853326"
         },
         {
           "name": "天狼血眼",
-          "percent": "0.200227045375355"
-        },
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.103620362148614"
+          "percent": "0.154851110966313"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "白焰玉鐲·煙",
-          "percent": "0.616107291936228"
+          "percent": "0.259853645163331"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "靈越佩環·塵",
-          "percent": "0.70271577171774"
+          "percent": "0.271368017039583"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "天荊覆魂",
-          "percent": "0.330349603107583"
-        },
-        {
           "name": "慈航普度",
-          "percent": "0.189686426842313"
+          "percent": "0.0997490457411586"
         }
       ],
       "hero_wunei_PVE1": {
@@ -33453,36 +34111,48 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "白焰玉鐲·煙",
-          "percent": "0.283673469387755"
-        },
-        {
           "name": "蛇首靈戒·煙",
-          "percent": "0.246938775510204"
+          "percent": "0.136243386243386"
         },
         {
-          "name": "御波靈戒",
-          "percent": "0.157142857142857"
+          "name": "血參靈玉·塵",
+          "percent": "0.12962962962963"
+        },
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.128306878306878"
+        },
+        {
+          "name": "烏光燧珏·煙",
+          "percent": "0.112433862433862"
         }
       ],
       "hero_ornaments_3": [
         {
+          "name": "清神淨玉",
+          "percent": "0.235449735449735"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.115079365079365"
+        },
+        {
           "name": "辟邪玉佩·煙",
-          "percent": "0.226395939086294"
+          "percent": "0.111111111111111"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.361139369277721"
+          "percent": "0.201058201058201"
         },
         {
-          "name": "萬佛朝宗·塵",
-          "percent": "0.129196337741607"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.10978835978836"
         },
         {
           "name": "萬佛朝宗·霧",
-          "percent": "0.12410986775178"
+          "percent": "0.107142857142857"
         }
       ]
     }
@@ -33851,43 +34521,55 @@
       "hero_ornaments_2": [
         {
           "name": "玉璣靈鐲·塵",
-          "percent": "0.409689816085644"
-        },
-        {
-          "name": "重曜玉鐲",
-          "percent": "0.200384298654955"
+          "percent": "0.532634493670886"
         },
         {
           "name": "赤霞玉戒·塵",
-          "percent": "0.135328026351908"
+          "percent": "0.215783227848101"
+        },
+        {
+          "name": "重曜玉鐲",
+          "percent": "0.202729430379747"
+        },
+        {
+          "name": "赤霞玉戒·煙",
+          "percent": "0.132911392405063"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "清神淨玉",
-          "percent": "0.19460421802246"
+          "percent": "0.289754746835443"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.159408381265407"
+          "percent": "0.261669303797468"
         },
         {
           "name": "辟邪玉佩·煙",
-          "percent": "0.132566420158861"
+          "percent": "0.215189873417722"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.132318037974684"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·煙",
-          "percent": "0.177432655305113"
+          "percent": "0.318037974683544"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.205498417721519"
         },
         {
           "name": "萬佛朝宗·霧",
-          "percent": "0.156267179769104"
+          "percent": "0.180379746835443"
         },
         {
           "name": "玄武玉",
-          "percent": "0.1434854315558"
+          "percent": "0.151898734177215"
         }
       ]
     }
@@ -34227,15 +34909,15 @@
       "hero_ornaments_1": [
         {
           "name": "冰蟾串珠·煙",
-          "percent": "0.340500528727529"
+          "percent": "0.199904651979726"
+        },
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.143925327445175"
         },
         {
           "name": "冰蠺玉帶·霧",
-          "percent": "0.145893549524145"
-        },
-        {
-          "name": "定筆簪",
-          "percent": "0.124480084596405"
+          "percent": "0.122296381793546"
         }
       ],
       "hero_ornaments_2": [
@@ -34244,16 +34926,8 @@
           "percent": "0.251467433778413"
         },
         {
-          "name": "幽都王璽",
-          "percent": "0.147691182094814"
-        },
-        {
-          "name": "赤心環",
-          "percent": "0.120421024626282"
-        },
-        {
           "name": "流光手鐲·煙",
-          "percent": "0.105256156570611"
+          "percent": "0.10160728335394"
         }
       ],
       "hero_ornaments_3": [
@@ -34268,20 +34942,16 @@
         {
           "name": "五尊神令",
           "percent": "0.11651809473124"
-        },
-        {
-          "name": "靈越佩環·塵",
-          "percent": "0.0852015699840341"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "玄闕腰帶",
-          "percent": "0.338142785821268"
+          "name": "慈航普度",
+          "percent": "0.116518676707504"
         },
         {
-          "name": "慈航普度",
-          "percent": "0.188417373939091"
+          "name": "玄闕腰帶",
+          "percent": "0.116050354051928"
         }
       ],
       "hero_wunei_PVE1": {
@@ -34644,39 +35314,35 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "九色鹿冠",
-          "percent": "0.236893203883495"
-        },
-        {
-          "name": "魂剎玉",
-          "percent": "0.161165048543689"
-        },
-        {
-          "name": "六芒星印·霧",
-          "percent": "0.147572815533981"
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.12844702467344"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "盤龍戒",
-          "percent": "0.213461538461538"
+          "name": "朝露戒·煙",
+          "percent": "0.5"
         },
         {
-          "name": "寰鳥戒",
-          "percent": "0.15"
+          "name": "血參靈玉·塵",
+          "percent": "0.403846153846154"
         },
         {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.111538461538462"
+          "name": "朝露戒·塵",
+          "percent": "0.326923076923077"
+        },
+        {
+          "name": "紫霄戒·煙",
+          "percent": "0.323076923076923"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "鳳紋佩環",
-          "percent": "0.204280155642023"
+          "name": "龍涎香囊·霧",
+          "percent": "0.546153846153846"
         },
         {
-          "name": "鑲蛇銀佩·塵",
+          "name": "紫月香囊·霧",
           "percent": "0.190661478599222"
         },
         {
@@ -34684,18 +35350,26 @@
           "percent": "0.157587548638132"
         },
         {
-          "name": "辟邪玉佩·煙",
+          "name": "龍涎香囊·塵",
           "percent": "0.134241245136187"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.382692307692308"
+          "percent": "0.423076923076923"
         },
         {
-          "name": "玄武玉",
-          "percent": "0.125"
+          "name": "甘霖·霧",
+          "percent": "0.342307692307692"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.103846153846154"
+        },
+        {
+          "name": "甘霖·煙",
+          "percent": "0.0961538461538462"
         }
       ]
     }
@@ -35053,30 +35727,30 @@
           "percent": "0.272125845339606"
         },
         {
-          "name": "封豨牙懸",
+          "name": "神烏飾墜·煙",
           "percent": "0.119523669508968"
         },
         {
-          "name": "神烏飾墜·煙",
+          "name": "朱焰妖瞳·煙",
           "percent": "0.109232578653337"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "赤霞玉戒·煙",
-          "percent": "0.170081061164333"
-        },
-        {
-          "name": "玄鴆骨戒",
-          "percent": "0.157111274871039"
+          "percent": "0.391017964071856"
         },
         {
           "name": "赤霞玉戒·塵",
-          "percent": "0.12969786293294"
+          "percent": "0.377844311377246"
         },
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.104347826086957"
+          "name": "玄鴆骨戒",
+          "percent": "0.365868263473054"
+        },
+        {
+          "name": "朝露戒·塵",
+          "percent": "0.239720558882236"
         }
       ],
       "hero_ornaments_3": [
@@ -35085,26 +35759,34 @@
           "percent": "0.271033564985953"
         },
         {
-          "name": "辟邪玉佩·煙",
+          "name": "護命神符·煙",
           "percent": "0.124500961111933"
         },
         {
-          "name": "護命神符·煙",
+          "name": "辟邪玉佩·煙",
           "percent": "0.108088126571048"
         },
         {
-          "name": "鑲蛇銀佩·塵",
+          "name": "龍涎香囊·霧",
           "percent": "0.0968505101286411"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.173701298701299"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.373053892215569"
         },
         {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.13267414403778"
+          "name": "萬佛朝宗·霧",
+          "percent": "0.303992015968064"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.287225548902196"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.208183632734531"
         }
       ],
       "hero_wunei_PVE1": {
@@ -35468,7 +36150,19 @@
       "hero_ornaments_1": [
         {
           "name": "冰凜銀環·煙",
-          "percent": "0.733194439766543"
+          "percent": "0.269235565531862"
+        },
+        {
+          "name": "龍骨項鍊·塵",
+          "percent": "0.145238392151972"
+        },
+        {
+          "name": "龍骨項鍊·煙",
+          "percent": "0.122833270981419"
+        },
+        {
+          "name": "朱蕊晶花",
+          "percent": "0.120006650870848"
         }
       ],
       "hero_ornaments_2": [
@@ -35873,34 +36567,22 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.419622293873791"
+          "name": "朱蕊晶花",
+          "percent": "0.190299430833952"
         },
         {
-          "name": "冰凜銀環·塵",
-          "percent": "0.121833256563795"
+          "name": "龍骨項鍊·煙",
+          "percent": "0.124721603563474"
         },
         {
           "name": "龍骨項鍊·塵",
-          "percent": "0.107554122524182"
-        },
-        {
-          "name": "九色鹿冠",
-          "percent": "0.099032703823123"
+          "percent": "0.117545162088592"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "幽杳袖環",
-          "percent": "0.242939150401837"
-        },
-        {
-          "name": "靈蛇金鐲·煙",
-          "percent": "0.218369690011481"
-        },
-        {
           "name": "鳳紋靈鐲·煙",
-          "percent": "0.185763490241102"
+          "percent": "0.190864600326264"
         }
       ],
       "hero_ornaments_3": [
@@ -35920,7 +36602,11 @@
       "hero_ornaments_4": [
         {
           "name": "鮫人悲歌·煙",
-          "percent": "0.4172760511883"
+          "percent": "0.128641342344442"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.10020974131904"
         }
       ]
     }
@@ -36274,54 +36960,66 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "飛泉鳴玉",
-          "percent": "0.218461538461538"
+          "name": "八荒靈石·塵",
+          "percent": "0.135785649409628"
         },
         {
-          "name": "天石命墜",
-          "percent": "0.146153846153846"
-        },
-        {
-          "name": "定筆簪",
-          "percent": "0.109230769230769"
-        },
-        {
-          "name": "玄烏玉雕·煙",
-          "percent": "0.113333333333333"
+          "name": "妖燐石·霧",
+          "percent": "0.105131698455949"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "瓊瞳靈戒",
-          "percent": "0.246244879380974"
-        },
-        {
           "name": "寒月玉鐲",
-          "percent": "0.227127901684115"
+          "percent": "0.320253164556962"
         },
         {
-          "name": "寰鳥戒",
-          "percent": "0.109239872553482"
+          "name": "紫霄戒·煙",
+          "percent": "0.20379746835443"
+        },
+        {
+          "name": "雲龍雕環",
+          "percent": "0.158860759493671"
+        },
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.15126582278481"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "靈越佩環·煙",
-          "percent": "0.132763276327633"
+          "percent": "0.255063291139241"
         },
         {
-          "name": "摩尼寶珠",
-          "percent": "0.11971197119712"
+          "name": "鳳繡香囊·塵",
+          "percent": "0.15"
+        },
+        {
+          "name": "鑲蛇銀佩·塵",
+          "percent": "0.140506329113924"
         },
         {
           "name": "鳳紋佩環",
-          "percent": "0.0976597659765977"
+          "percent": "0.137341772151899"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "煙霞百相",
-          "percent": "0.387371249440215"
+          "percent": "0.334177215189873"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.15126582278481"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.150632911392405"
+        },
+        {
+          "name": "無邊落木·塵",
+          "percent": "0.122151898734177"
         }
       ],
       "hero_wunei_PVE1": {
@@ -36699,20 +37397,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "雷吼化玉",
-          "percent": "0.211508553654743"
+          "name": "鳳翼神墜",
+          "percent": "0.117002294162631"
         },
         {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.182626083092646"
-        },
-        {
-          "name": "冰蟾串珠·塵",
-          "percent": "0.141746278604754"
-        },
-        {
-          "name": "龍牙魂玉",
-          "percent": "0.10308820262164"
+          "name": "八荒靈石·影",
+          "percent": "0.102217690542952"
         }
       ],
       "hero_ornaments_2": [
@@ -36725,44 +37415,20 @@
           "percent": "0.155199287463817"
         },
         {
-          "name": "星河手環",
-          "percent": "0.10331774660432"
+          "name": "血參靈玉·塵",
+          "percent": "0.0953436807095344"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.165700267618198"
-        },
-        {
-          "name": "淵魚金令",
-          "percent": "0.147636039250669"
-        },
-        {
-          "name": "護命神符·煙",
-          "percent": "0.119536128456735"
-        },
-        {
-          "name": "星天流離",
-          "percent": "0.105263157894737"
+          "name": "清神淨玉",
+          "percent": "0.110231232182452"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "天荊覆魂",
-          "percent": "0.17132008041099"
-        },
-        {
-          "name": "朝雲橫度",
-          "percent": "0.155014518650882"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.13915568461023"
-        },
-        {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.110788474424838"
+          "percent": "0.138739309471017"
         }
       ]
     }
@@ -37487,42 +38153,62 @@
           "percent": "0.355644355644356"
         },
         {
-          "name": "飛泉鳴玉",
-          "percent": "0.185481185481185"
-        },
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.124542124542125"
-        },
-        {
-          "name": "魂剎玉",
-          "percent": "0.107559107559108"
+          "name": "八荒靈石·塵",
+          "percent": "0.138024883359254"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "瓊瞳靈戒",
-          "percent": "0.240516999157067"
+          "name": "寒月玉鐲",
+          "percent": "0.263811048839071"
         },
         {
-          "name": "寒月玉鐲",
-          "percent": "0.235740376510256"
+          "name": "雲龍雕環",
+          "percent": "0.145716573258607"
+        },
+        {
+          "name": "紫霄戒·煙",
+          "percent": "0.144115292233787"
+        },
+        {
+          "name": "瓊瞳靈戒",
+          "percent": "0.11529223378703"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "鑲蛇銀佩·塵",
-          "percent": "0.362921716344579"
+          "percent": "0.288630904723779"
+        },
+        {
+          "name": "琅環玉璧",
+          "percent": "0.111689351481185"
+        },
+        {
+          "name": "化淵曲玉",
+          "percent": "0.102081665332266"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.0992794235388311"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "煙霞百相",
-          "percent": "0.473378212974296"
+          "percent": "0.399519615692554"
         },
         {
-          "name": "藏龍玉帶",
-          "percent": "0.103733170134639"
+          "name": "薰風",
+          "percent": "0.121697357886309"
+        },
+        {
+          "name": "和光同塵",
+          "percent": "0.109287429943955"
+        },
+        {
+          "name": "無邊落木·塵",
+          "percent": "0.102882305844676"
         }
       ]
     }
@@ -37886,56 +38572,48 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "重曜玉鐲",
-          "percent": "0.233089907817551"
+          "name": "赤霞玉戒·塵",
+          "percent": "0.151743138709336"
         },
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.219741410271759"
+          "name": "赤霞玉戒·煙",
+          "percent": "0.144537458938222"
         },
         {
           "name": "玉璣靈鐲·煙",
-          "percent": "0.134263138991979"
-        },
-        {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.130192745121513"
+          "percent": "0.132775246370669"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "清神淨玉",
-          "percent": "0.17798132183908"
+          "percent": "0.181095687188725"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.169540229885057"
+          "percent": "0.151637172830349"
         },
         {
-          "name": "星天流離",
-          "percent": "0.12805316091954"
+          "name": "護命神符·塵",
+          "percent": "0.126205361873477"
         },
         {
           "name": "辟邪玉佩·煙",
-          "percent": "0.120929118773946"
+          "percent": "0.102151107343435"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.245273988992582"
-        },
-        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.147642976788705"
-        },
-        {
-          "name": "朝雲橫度",
-          "percent": "0.107382148839435"
+          "percent": "0.146126947123026"
         },
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.104151710935631"
+          "percent": "0.142100243721522"
+        },
+        {
+          "name": "萬佛朝宗·霧",
+          "percent": "0.137437745046095"
         }
       ]
     }
@@ -38289,12 +38967,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "封豨牙懸",
-          "percent": "0.354485776805252"
+          "name": "天河硃砂",
+          "percent": "0.179357798165138"
         },
         {
-          "name": "天河硃砂",
-          "percent": "0.200674690007294"
+          "name": "神烏飾墜·煙",
+          "percent": "0.0954128440366973"
         },
         {
           "name": "神烏飾墜·煙",
@@ -38303,52 +38981,56 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "玉璣靈鐲·塵",
-          "percent": "0.331447860596661"
-        },
-        {
           "name": "赤霞玉戒·煙",
-          "percent": "0.114588085028738"
+          "percent": "0.181537783652787"
         },
         {
           "name": "赤霞玉戒·塵",
-          "percent": "0.111486178268406"
+          "percent": "0.172945582727473"
         },
         {
-          "name": "重曜玉鐲",
-          "percent": "0.101724295228538"
+          "name": "玉璣靈鐲·塵",
+          "percent": "0.126239259748843"
+        },
+        {
+          "name": "朝露戒·塵",
+          "percent": "0.101013439083499"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "鑲蛇銀佩·塵",
-          "percent": "0.193430656934307"
-        },
-        {
           "name": "清神淨玉",
-          "percent": "0.152828467153285"
+          "percent": "0.169640890063891"
         },
         {
           "name": "辟邪玉佩·煙",
-          "percent": "0.108120437956204"
+          "percent": "0.134170522141441"
+        },
+        {
+          "name": "鑲蛇銀佩·塵",
+          "percent": "0.128442388191232"
         },
         {
           "name": "護命神符·煙",
-          "percent": "0.0986313868613139"
+          "percent": "0.127450980392157"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "萬佛朝宗·霧",
-          "percent": "0.154933430603684"
+          "name": "鮫人悲歌·煙",
+          "percent": "0.136924432694426"
         },
         {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.14709100857195"
+          "name": "鮫人悲歌·影",
+          "percent": "0.1305353602115"
         },
         {
           "name": "朝雲橫度",
-          "percent": "0.131223782600766"
+          "percent": "0.106080634500991"
+        },
+        {
+          "name": "萬佛朝宗·霧",
+          "percent": "0.0964970257766028"
         }
       ]
     }
@@ -38687,42 +39369,62 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "天狼血眼",
-          "percent": "0.395980131685341"
+          "name": "八荒靈石·影",
+          "percent": "0.173528709086565"
         },
         {
-          "name": "冰蟾串珠·塵",
-          "percent": "0.375303222825459"
+          "name": "綺羅天香·霧",
+          "percent": "0.135223381380903"
         }
       ],
       "hero_ornaments_2": [
         {
+          "name": "血參靈玉·塵",
+          "percent": "0.254880888411248"
+        },
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.164427727028479"
+        },
+        {
           "name": "白焰玉鐲·煙",
-          "percent": "0.653471093568609"
+          "percent": "0.108543793659323"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "流影真符",
-          "percent": "0.169129531286077"
+          "name": "紫月香囊·煙",
+          "percent": "0.472505821243059"
         },
         {
-          "name": "星天流離",
-          "percent": "0.145116601246825"
+          "name": "鳳繡香囊·塵",
+          "percent": "0.164427727028479"
         },
         {
-          "name": "靈越佩環·塵",
-          "percent": "0.130570307088432"
+          "name": "紫月香囊·霧",
+          "percent": "0.130933190041196"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.0977968833960236"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "慈航普度",
-          "percent": "0.22781441629064"
+          "name": "甘霖·煙",
+          "percent": "0.425398531255597"
         },
         {
-          "name": "天荊覆魂",
-          "percent": "0.177947471942613"
+          "name": "薰風",
+          "percent": "0.15762135052839"
+        },
+        {
+          "name": "甘霖·霧",
+          "percent": "0.120902740462117"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.118395128067347"
         }
       ],
       "hero_wunei_PVE1": {
@@ -39085,16 +39787,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "玄烏玉雕·塵",
-          "percent": "0.335719704153233"
+          "name": "八荒靈石·塵",
+          "percent": "0.137631293009779"
         },
         {
-          "name": "定筆簪",
-          "percent": "0.267020671344586"
-        },
-        {
-          "name": "天石命墜",
-          "percent": "0.114356153992035"
+          "name": "妖燐石·霧",
+          "percent": "0.0977906555595799"
         }
       ],
       "hero_ornaments_2": [
@@ -39486,54 +40184,70 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "定筆簪",
-          "percent": "0.145909275010126"
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.128865066005139"
+        },
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.101089749269071"
         },
         {
           "name": "寰光劍玉",
-          "percent": "0.162717699473471"
-        },
-        {
-          "name": "冰蟾串珠·煙",
-          "percent": "0.135581206966383"
-        },
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.126265694613204"
+          "percent": "0.0997164879950385"
         }
       ],
       "hero_ornaments_2": [
         {
           "name": "行戈靈戒",
-          "percent": "0.217496962332928"
+          "percent": "0.370088408644401"
         },
         {
           "name": "流光手鐲·煙",
-          "percent": "0.156338598622924"
+          "percent": "0.337671905697446"
         },
         {
-          "name": "蛇首靈戒·煙",
-          "percent": "0.1166"
+          "name": "幽都王璽",
+          "percent": "0.256385068762279"
+        },
+        {
+          "name": "血參靈玉·煙",
+          "percent": "0.239440078585462"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "寰光佩環",
-          "percent": "0.152380952380952"
+          "name": "靈越佩環·煙",
+          "percent": "0.264857563850688"
         },
         {
-          "name": "靈越佩環·煙",
-          "percent": "0.11225937183384"
+          "name": "寰光佩環",
+          "percent": "0.263629666011788"
+        },
+        {
+          "name": "靈越佩環·塵",
+          "percent": "0.228757367387033"
+        },
+        {
+          "name": "天穹劍印",
+          "percent": "0.176203339882122"
         }
       ],
       "hero_ornaments_4": [
         {
           "name": "杏花疏影",
-          "percent": "0.142669096800324"
+          "percent": "0.277259332023576"
         },
         {
           "name": "寰光蔽月",
-          "percent": "0.103888213851762"
+          "percent": "0.253806483300589"
+        },
+        {
+          "name": "壽葫蘆",
+          "percent": "0.229616895874263"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.195112966601179"
         }
       ],
       "hero_wunei_PVE1": {
@@ -39911,20 +40625,12 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰凜銀環·煙",
-          "percent": "0.231106243154436"
-        },
-        {
           "name": "朱蕊晶花",
-          "percent": "0.181818181818182"
+          "percent": "0.192546583850932"
         },
         {
-          "name": "龍骨項鍊·塵",
-          "percent": "0.176341730558598"
-        },
-        {
-          "name": "龍骨項鍊·煙",
-          "percent": "0.113910186199343"
+          "name": "妖燐石·霧",
+          "percent": "0.107364685004437"
         }
       ],
       "hero_ornaments_2": [
@@ -39933,52 +40639,48 @@
           "percent": "0.217199558985667"
         },
         {
-          "name": "黑玉蛇戒",
-          "percent": "0.128996692392503"
+          "name": "碧血手鐲·霧",
+          "percent": "0.182377049180328"
         },
         {
-          "name": "靈蛇金鐲·煙",
-          "percent": "0.127894156560088"
+          "name": "碧血手鐲·煙",
+          "percent": "0.176229508196721"
         },
         {
-          "name": "碧血手鐲·塵",
-          "percent": "0.0893054024255788"
+          "name": "靈虛扇",
+          "percent": "0.109631147540984"
         }
       ],
       "hero_ornaments_3": [
         {
+          "name": "紫月香囊·霧",
+          "percent": "0.272540983606557"
+        },
+        {
           "name": "龍涎香囊·霧",
-          "percent": "0.237472766884532"
+          "percent": "0.224385245901639"
         },
         {
-          "name": "護命神符·煙",
-          "percent": "0.171023965141612"
+          "name": "紫月香囊·煙",
+          "percent": "0.203893442622951"
         },
         {
-          "name": "清神淨玉",
-          "percent": "0.100217864923747"
-        },
-        {
-          "name": "龍涎香囊·塵",
-          "percent": "0.0947712418300654"
+          "name": "紫月香囊·塵",
+          "percent": "0.186475409836066"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "玄武玉",
-          "percent": "0.128430296377607"
+          "name": "甘霖·霧",
+          "percent": "0.1875"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.155737704918033"
         },
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.125137211855104"
-        },
-        {
-          "name": "杏花疏影",
-          "percent": "0.109769484083425"
-        },
-        {
-          "name": "鮫人悲歌·塵",
-          "percent": "0.102085620197585"
+          "percent": "0.149590163934426"
         }
       ]
     }
@@ -40317,15 +41019,15 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蠺玉帶·煙",
+          "name": "八荒靈石·影",
           "percent": "0.492307692307692"
         },
         {
-          "name": "冰蠺玉帶·塵",
+          "name": "妖燐石·煙",
           "percent": "0.123076923076923"
         },
         {
-          "name": "八荒靈石·影",
+          "name": "妖燐石·霧",
           "percent": "0.107692307692308"
         }
       ],
@@ -41116,40 +41818,48 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "翡翠骷髏",
-          "percent": "0.355742296918768"
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.143484626647145"
         },
         {
           "name": "如意珠翠",
-          "percent": "0.162464985994398"
-        },
-        {
-          "name": "六芒星印·塵",
-          "percent": "0.0955"
+          "percent": ""
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "玄鴆骨戒",
-          "percent": "0.378917378917379"
+          "name": "朝露戒·煙",
+          "percent": "0.48207171314741"
         },
         {
-          "name": "黑玉蛇戒",
-          "percent": "0.165242165242165"
+          "name": "朝露戒·塵",
+          "percent": "0.398406374501992"
+        },
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.398406374501992"
+        },
+        {
+          "name": "朝露戒·霧",
+          "percent": "0.346613545816733"
         }
       ],
       "hero_ornaments_3": [
         {
           "name": "龍涎香囊·霧",
-          "percent": "0.397727272727273"
+          "percent": "0.541832669322709"
         },
         {
-          "name": "化淵曲玉",
+          "name": "紫月香囊·霧",
           "percent": "0.164772727272727"
         },
         {
-          "name": "護命神符·煙",
+          "name": "紫月香囊·煙",
           "percent": "0.1232"
+        },
+        {
+          "name": "紫月香囊·塵",
+          "percent": "0.111507293354943"
         }
       ],
       "hero_ornaments_4": [
@@ -41526,66 +42236,70 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "綺羅天香·霧",
-          "percent": "0.466666666666667"
+          "name": "妖燐石·霧",
+          "percent": "0.186170212765957"
         },
         {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.2"
+          "name": "八荒靈石·塵",
+          "percent": "0.132978723404255"
         },
         {
-          "name": "八荒靈石·煙",
-          "percent": "0.133333333333333"
+          "name": "妖燐石·煙",
+          "percent": "0.0957446808510638"
         }
       ],
       "hero_ornaments_2": [
         {
+          "name": "紫霄戒·煙",
+          "percent": "0.296296296296296"
+        },
+        {
           "name": "血參靈玉·煙",
-          "percent": "0.25"
+          "percent": "0.160493827160494"
         },
         {
-          "name": "寰鳥戒",
-          "percent": "0.1875"
+          "name": "靈泉魂鐲·煙",
+          "percent": "0.123456790123457"
         },
         {
-          "name": "烏光燧珏·塵",
-          "percent": "0.125"
-        },
-        {
-          "name": "雲龍雕環",
-          "percent": "0.125"
+          "name": "血參靈玉·塵",
+          "percent": "0.123456790123457"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·塵",
-          "percent": "0.4"
+          "name": "紫月香囊·煙",
+          "percent": "0.234567901234568"
         },
         {
-          "name": "九龍玉佩",
-          "percent": "0.2"
+          "name": "龍涎香囊·霧",
+          "percent": "0.172839506172839"
         },
         {
-          "name": "暮雲合璧",
-          "percent": "0.133333333333333"
+          "name": "紫月香囊·霧",
+          "percent": "0.148148148148148"
+        },
+        {
+          "name": "鳳繡香囊·煙",
+          "percent": "0.135802469135802"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "煙霞百相",
-          "percent": "0.266666666666667"
+          "name": "甘霖·煙",
+          "percent": "0.209876543209877"
+        },
+        {
+          "name": "甘霖·塵",
+          "percent": "0.197530864197531"
         },
         {
           "name": "薰風",
-          "percent": "0.2"
+          "percent": "0.185185185185185"
         },
         {
-          "name": "無邊落木·塵",
-          "percent": "0.2"
-        },
-        {
-          "name": "月滿西樓",
-          "percent": "0.133333333333333"
+          "name": "剎那·煙",
+          "percent": "0.160493827160494"
         }
       ]
     }
@@ -41939,65 +42653,53 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "妖燐石·霧",
-          "percent": "0.214285714285714"
-        },
-        {
-          "name": "太初華晶·煙",
-          "percent": "0.214285714285714"
-        },
-        {
-          "name": "滄瀾法印",
-          "percent": "0.142857142857143"
-        },
-        {
-          "name": "朱焰妖瞳·霧",
-          "percent": "0.142857142857143"
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.103926096997691"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.347826086956522"
-        },
-        {
-          "name": "赤霞玉戒·煙",
-          "percent": "0.217391304347826"
+          "name": "朝露戒·塵",
+          "percent": "0.717948717948718"
         },
         {
           "name": "朝露戒·霧",
+          "percent": "0.130434782608696"
+        },
+        {
+          "name": "朝露戒·煙",
           "percent": "0.130434782608696"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "龍涎香囊·霧",
+          "name": "紫月香囊·霧",
           "percent": "0.225806451612903"
         },
         {
-          "name": "護命神符·塵",
+          "name": "紫月香囊·塵",
           "percent": "0.193548387096774"
         },
         {
-          "name": "鳳繡香囊·塵",
+          "name": "紫月香囊·煙",
           "percent": "0.193548387096774"
         },
         {
-          "name": "清神淨玉",
+          "name": "鳳繡香囊·煙",
           "percent": "0.129032258064516"
         }
       ],
       "hero_ornaments_4": [
         {
+          "name": "甘霖·煙",
+          "percent": "0.214285714285714"
+        },
+        {
+          "name": "甘霖·塵",
+          "percent": "0.214285714285714"
+        },
+        {
           "name": "鮫人悲歌·煙",
-          "percent": "0.214285714285714"
-        },
-        {
-          "name": "行雲流水·塵",
-          "percent": "0.214285714285714"
-        },
-        {
-          "name": "鮫人悲歌·影",
           "percent": "0.107142857142857"
         },
         {
@@ -42341,22 +43043,26 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "冰蟾串珠·塵",
-          "percent": "0.216650898770104"
+          "name": "妖燐石·霧",
+          "percent": "0.197623038244705"
         },
         {
-          "name": "鳳翼神墜",
-          "percent": "0.129139072847682"
+          "name": "八荒靈石·影",
+          "percent": "0.100716135913454"
+        },
+        {
+          "name": "妖燐石·煙",
+          "percent": "0.0956879475849459"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "流光手鐲·煙",
-          "percent": "0.189723320158103"
+          "name": "血參靈玉·塵",
+          "percent": "0.255711422845691"
         },
         {
-          "name": "白焰玉鐲·煙",
-          "percent": "0.129446640316206"
+          "name": "流光手鐲·煙",
+          "percent": "0.121042084168337"
         },
         {
           "name": "御波靈戒",
@@ -42365,26 +43071,38 @@
       ],
       "hero_ornaments_3": [
         {
-          "name": "辟邪玉佩·煙",
-          "percent": "0.159134615384615"
+          "name": "紫月香囊·霧",
+          "percent": "0.687374749498998"
         },
         {
-          "name": "護命神符·煙",
+          "name": "紫月香囊·塵",
           "percent": "0.152884615384615"
         },
         {
-          "name": "清神淨玉",
+          "name": "紫月香囊·煙",
           "percent": "0.0958"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.0984732824427481"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "鮫人悲歌·影",
-          "percent": "0.148966842864008"
+          "name": "甘霖·煙",
+          "percent": "0.302605210420842"
         },
         {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.109562710235464"
+          "name": "甘霖·塵",
+          "percent": "0.235671342685371"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.104208416833667"
+        },
+        {
+          "name": "甘霖·霧",
+          "percent": "0.0985971943887776"
         }
       ]
     }
@@ -42742,57 +43460,53 @@
           "percent": "0.377358490566038"
         },
         {
-          "name": "火紋硅玉",
-          "percent": "0.188679245283019"
-        },
-        {
-          "name": "神烏飾墜·煙",
-          "percent": "0.169811320754717"
+          "name": "妖燐石·塵",
+          "percent": "0.129139072847682"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "碧血手鐲·煙",
-          "percent": "0.217391304347826"
+          "name": "朝露戒·煙",
+          "percent": "0.5"
         },
         {
-          "name": "朝露戒·塵",
+          "name": "朝露戒·霧",
           "percent": "0.152173913043478"
         },
         {
-          "name": "玉璣靈鐲·煙",
+          "name": "朝露戒·塵",
           "percent": "0.108695652173913"
         },
         {
-          "name": "銀闌靈鐲·煙",
+          "name": "血參靈玉·塵",
           "percent": "0.108695652173913"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "龍涎香囊·霧",
+          "name": "紫月香囊·煙",
           "percent": "0.196078431372549"
         },
         {
-          "name": "鳳繡香囊·塵",
+          "name": "紫月香囊·霧",
           "percent": "0.196078431372549"
-        },
-        {
-          "name": "鑲蛇銀佩·塵",
-          "percent": "0.0980392156862745"
         },
         {
           "name": "紫月香囊·塵",
+          "percent": "0.0980392156862745"
+        },
+        {
+          "name": "龍涎香囊·霧",
           "percent": "0.0980392156862745"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "鮫人悲歌·影",
+          "name": "甘霖·煙",
           "percent": "0.244897959183673"
         },
         {
-          "name": "剎那·煙",
+          "name": "甘霖·霧",
           "percent": "0.163265306122449"
         },
         {
@@ -42800,7 +43514,7 @@
           "percent": "0.122448979591837"
         },
         {
-          "name": "甘霖·霧",
+          "name": "甘霖·塵",
           "percent": "0.122448979591837"
         }
       ]
@@ -43158,52 +43872,56 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "鳳紋靈鐲·塵",
-          "percent": "0.269230769230769"
-        },
-        {
-          "name": "幻月神珠",
-          "percent": "0.173076923076923"
-        },
-        {
           "name": "碧血手鐲·煙",
-          "percent": "0.153846153846154"
+          "percent": "0.344827586206897"
+        },
+        {
+          "name": "碧血手鐲·霧",
+          "percent": "0.264367816091954"
+        },
+        {
+          "name": "鳳紋靈鐲·煙",
+          "percent": "0.218390804597701"
         },
         {
           "name": "血參靈玉·塵",
-          "percent": "0.0961538461538462"
+          "percent": "0.137931034482759"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "鳳繡香囊·塵",
-          "percent": "0.41025641025641"
+          "name": "紫月香囊·霧",
+          "percent": "0.425287356321839"
         },
         {
-          "name": "龍涎香囊·塵",
-          "percent": "0.153846153846154"
+          "name": "龍涎香囊·霧",
+          "percent": "0.35632183908046"
         },
         {
-          "name": "鳳繡香囊·煙",
+          "name": "紫月香囊·煙",
           "percent": "0.128205128205128"
+        },
+        {
+          "name": "紫月香囊·塵",
+          "percent": "0.103932584269663"
         }
       ],
       "hero_ornaments_4": [
         {
+          "name": "甘霖·煙",
+          "percent": "0.252873563218391"
+        },
+        {
+          "name": "甘霖·霧",
+          "percent": "0.229885057471264"
+        },
+        {
+          "name": "甘霖·塵",
+          "percent": "0.206896551724138"
+        },
+        {
           "name": "鮫人悲歌·影",
-          "percent": "0.372093023255814"
-        },
-        {
-          "name": "無邊落木·塵",
-          "percent": "0.186046511627907"
-        },
-        {
-          "name": "剎那·煙",
-          "percent": "0.116279069767442"
-        },
-        {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.116279069767442"
+          "percent": "0.183908045977011"
         }
       ]
     }
@@ -43542,8 +44260,8 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "妖燐石·霧",
-          "percent": "0.29064039408867"
+          "name": "朱蕊晶花",
+          "percent": "0.24469964664311"
         },
         {
           "name": "龍骨項鍊·塵",
@@ -43552,15 +44270,15 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "血參靈玉·塵",
-          "percent": "0.282722513089005"
+          "name": "鳳紋靈鐲·煙",
+          "percent": "0.412186379928315"
         },
         {
           "name": "碧血手鐲·煙",
-          "percent": "0.178010471204188"
+          "percent": "0.390681003584229"
         },
         {
-          "name": "鳳紋靈鐲·煙",
+          "name": "碧血手鐲·霧",
           "percent": "0.162303664921466"
         }
       ],
@@ -43570,22 +44288,34 @@
           "percent": "0.278606965174129"
         },
         {
-          "name": "護命神符·塵",
+          "name": "龍涎香囊·霧",
           "percent": "0.129353233830846"
         },
         {
-          "name": "鳳繡香囊·塵",
+          "name": "紫月香囊·煙",
           "percent": "0.104477611940299"
+        },
+        {
+          "name": "紫月香囊·塵",
+          "percent": "0.10301852817135"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "甘霖·塵",
-          "percent": "0.284263959390863"
+          "name": "甘霖·霧",
+          "percent": "0.351254480286738"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.329749103942652"
+        },
+        {
+          "name": "甘霖·煙",
+          "percent": "0.290322580645161"
         },
         {
           "name": "鮫人悲歌·影",
-          "percent": "0.208121827411168"
+          "percent": "0.222222222222222"
         }
       ]
     }
@@ -43928,16 +44658,8 @@
           "percent": "0.350993377483444"
         },
         {
-          "name": "神烏飾墜·煙",
-          "percent": "0.23841059602649"
-        },
-        {
-          "name": "天河硃砂",
-          "percent": "0.152317880794702"
-        },
-        {
-          "name": "神烏飾墜·塵",
-          "percent": "0.112582781456954"
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.0984455958549223"
         }
       ],
       "hero_ornaments_2": [
@@ -44329,31 +45051,55 @@
       "hero_ornaments_2": [
         {
           "name": "朝露戒·塵",
-          "percent": "0.5"
+          "percent": "0.263888888888889"
+        },
+        {
+          "name": "紫霄戒·煙",
+          "percent": "0.138888888888889"
         },
         {
           "name": "朝露戒·煙",
-          "percent": "0.318181818181818"
+          "percent": "0.111111111111111"
+        },
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.111111111111111"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "龍涎香囊·影",
-          "percent": "0.454545454545455"
+          "name": "紫月香囊·塵",
+          "percent": "0.25"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.222222222222222"
         },
         {
           "name": "紫月香囊·霧",
-          "percent": "0.318181818181818"
+          "percent": "0.208333333333333"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.194444444444444"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.454545454545455"
+          "name": "甘霖·霧",
+          "percent": "0.208333333333333"
         },
         {
-          "name": "夜雨·塵",
-          "percent": "0.272727272727273"
+          "name": "甘霖·煙",
+          "percent": "0.194444444444444"
+        },
+        {
+          "name": "夜雨·煙",
+          "percent": "0.152777777777778"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.125"
         }
       ]
     }
@@ -44707,27 +45453,51 @@
       "hero_ornaments_2": [
         {
           "name": "血參靈玉·塵",
-          "percent": "0.375"
+          "percent": "0.229166666666667"
         },
         {
-          "name": "紫霄戒·霧",
-          "percent": "0.1875"
+          "name": "紫霄戒·煙",
+          "percent": "0.119047619047619"
         },
         {
-          "name": "流光手鐲·煙",
-          "percent": "0.1875"
+          "name": "烏光燧珏·煙",
+          "percent": "0.116071428571429"
         }
       ],
       "hero_ornaments_3": [
         {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.181547619047619"
+        },
+        {
+          "name": "紫月香囊·煙",
+          "percent": "0.169642857142857"
+        },
+        {
+          "name": "紫月香囊·霧",
+          "percent": "0.136904761904762"
+        },
+        {
           "name": "龍涎香囊·霧",
-          "percent": "0.5"
+          "percent": "0.119047619047619"
         }
       ],
       "hero_ornaments_4": [
         {
+          "name": "甘霖·塵",
+          "percent": "0.169642857142857"
+        },
+        {
+          "name": "甘霖·煙",
+          "percent": "0.148809523809524"
+        },
+        {
+          "name": "甘霖·霧",
+          "percent": "0.130952380952381"
+        },
+        {
           "name": "夜雨·霧",
-          "percent": "0.6375"
+          "percent": "0.125"
         }
       ]
     }
@@ -45084,48 +45854,56 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "蛇首靈戒·煙",
-          "percent": "0.333333333333333"
+          "name": "血參靈玉·塵",
+          "percent": "0.365384615384615"
         },
         {
-          "name": "妖靈飾戒·霧",
-          "percent": "0.333333333333333"
+          "name": "血參靈玉·煙",
+          "percent": "0.346153846153846"
         },
         {
-          "name": "行戈靈戒",
-          "percent": "0.166666666666667"
+          "name": "烏光燧珏·煙",
+          "percent": "0.230769230769231"
         },
         {
-          "name": "紫霄戒·塵",
-          "percent": "0.111111111111111"
+          "name": "烏光燧珏·霧",
+          "percent": "0.211538461538462"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "清神淨玉",
+          "name": "龍涎香囊·霧",
           "percent": "0.4375"
         },
         {
-          "name": "靈越佩環·霧",
+          "name": "紫月香囊·霧",
           "percent": "0.25"
         },
         {
-          "name": "寰光佩環",
+          "name": "紫月香囊·煙",
           "percent": "0.25"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.0961538461538462"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "玄闕腰帶",
-          "percent": "0.5"
+          "name": "甘霖·煙",
+          "percent": "0.346153846153846"
         },
         {
-          "name": "杏花疏影",
-          "percent": "0.25"
+          "name": "甘霖·霧",
+          "percent": "0.326923076923077"
         },
         {
           "name": "薰風",
-          "percent": "0.125"
+          "percent": "0.25"
+        },
+        {
+          "name": "剎那·煙",
+          "percent": "0.230769230769231"
         }
       ]
     }
@@ -45852,36 +46630,32 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "朝露戒·煙",
-          "percent": "0.466666666666667"
-        },
-        {
-          "name": "靈蛇金鐲·塵",
-          "percent": "0.333333333333333"
+          "name": "血參靈玉·塵",
+          "percent": "0.1125"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "鑲蛇銀佩·塵",
-          "percent": "0.6"
-        },
-        {
-          "name": "鳳紋佩環",
-          "percent": "0.2"
-        },
-        {
           "name": "龍涎香囊·霧",
-          "percent": "0.2"
+          "percent": "0.1625"
+        },
+        {
+          "name": "紫月香囊·霧",
+          "percent": "0.1375"
+        },
+        {
+          "name": "紫月香囊·煙",
+          "percent": "0.125"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "夜雨·煙",
-          "percent": "0.4"
+          "name": "甘霖·霧",
+          "percent": "0.1"
         },
         {
-          "name": "月滿西樓",
-          "percent": "0.3"
+          "name": "甘霖·煙",
+          "percent": "0.1"
         },
         {
           "name": "甘霖·塵",
@@ -46243,28 +47017,32 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "天石命墜",
-          "percent": "0.554973821989529"
+          "name": "妖燐石·霧",
+          "percent": "0.198717948717949"
         },
         {
-          "name": "定筆簪",
-          "percent": "0.235602094240838"
-        },
-        {
-          "name": "玄烏玉雕·塵",
-          "percent": "0.162303664921466"
+          "name": "八荒靈石·塵",
+          "percent": "0.121794871794872"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "瓊瞳靈戒",
-          "percent": "0.936507936507937"
+          "name": "紫霄戒·煙",
+          "percent": "0.118279569892473"
+        },
+        {
+          "name": "血參靈玉·煙",
+          "percent": "0.0967741935483871"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "鳳紋佩環",
-          "percent": "0.671875"
+          "name": "紫月香囊·煙",
+          "percent": "0.139784946236559"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.0967741935483871"
         }
       ],
       "hero_ornaments_4": [
@@ -46278,11 +47056,11 @@
         },
         {
           "name": "和光同塵",
-          "percent": "0.120418848167539"
+          "percent": "0.150537634408602"
         },
         {
-          "name": "剎那·煙",
-          "percent": "0.1429"
+          "name": "甘霖·煙",
+          "percent": "0.13768115942029"
         }
       ]
     }
@@ -46558,34 +47336,12 @@
       ],
       "hero_ornaments_2": [
         {
-          "name": "赤心環",
-          "percent": "0.0543"
-        },
-        {
           "name": "妖靈飾戒·煙",
           "percent": "0.1852"
         }
       ],
-      "hero_ornaments_3": [
-        {
-          "name": "龍涎香囊·煙",
-          "percent": "0.6667"
-        },
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.25"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "夜雨·霧",
-          "percent": "0.8095"
-        },
-        {
-          "name": "剎那·塵",
-          "percent": "0.0952"
-        }
-      ]
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -46867,38 +47623,8 @@
           "percent": "0.444444444444444"
         }
       ],
-      "hero_ornaments_3": [
-        {
-          "name": "紫月香囊·煙",
-          "percent": "0.3333"
-        },
-        {
-          "name": "龍涎香囊·塵",
-          "percent": "0.3333"
-        },
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.1667"
-        },
-        {
-          "name": "鳳繡香囊·煙",
-          "percent": "0.1667"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "甘霖·煙",
-          "percent": "0.3333"
-        },
-        {
-          "name": "夜雨·霧",
-          "percent": "0.3333"
-        },
-        {
-          "name": "薰風",
-          "percent": "0.3333"
-        }
-      ]
+      "hero_ornaments_3": [],
+      "hero_ornaments_4": []
     }
   ],
   [
@@ -47170,12 +47896,12 @@
           "percent": "0.5"
         },
         {
-          "name": "綺羅天香·煙",
-          "percent": "0.2"
+          "name": "天狼血眼",
+          "percent": "0.182444061962134"
         },
         {
-          "name": "龍骨項鍊·煙",
-          "percent": "0.1"
+          "name": "洛神玉菡",
+          "percent": "0.14859437751004"
         },
         {
           "name": "六芒星印·煙",
@@ -48779,12 +49505,7 @@
           "percent": "0.4375"
         }
       ],
-      "hero_ornaments_4": [
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.381"
-        }
-      ]
+      "hero_ornaments_4": []
     }
   ],
   [
