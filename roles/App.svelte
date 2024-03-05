@@ -202,13 +202,19 @@
 		<ul>
 			資料來源：
 			<li>
+				Official (zh-tw)<br>
+				<a href="https://www.game-beans.com/userinfo/tdj/index.html" target="_officail_tw">
+					https://www.game-beans.com/userinfo/tdj/index.html
+				</a>
+			</li>
+			<li>
 				Official (zh-cn)<br>
-				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_tdj">
+				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_officail_cn">
 					https://www.zlongame.com/userinfo/tdj/index.html
 				</a>
 			</li>
 			<li>
-				BWiki<br>
+				Bili-Wiki<br>
 				<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">
 					https://wiki.biligame.com/tdj/
 				</a>
