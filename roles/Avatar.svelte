@@ -9,7 +9,7 @@
 	$: strategy = get_strategy(row.strategy);
 
 	$: links = [
-		`https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin}%22}`, // official tw
+		row.pinyin_tw ? `https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin_tw}%22}` : null, // official tw
 		`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin}%22}`, // official cn
 		`https://wiki.biligame.com/tdj/${row.path}`, // bwiki
 	];
