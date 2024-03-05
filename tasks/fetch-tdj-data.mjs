@@ -5,6 +5,13 @@ import * as CSV from 'csv-tools';
 
 import { writeFile, outputJSON, pick_obj, getArgs, } from './u.mjs';
 
+let domains = {
+	cn: 'tdj-activity.zlongame.com',
+	// cn: 'tdj-activitytest.zlongame.com', // test
+	tw: 'tdj-activity.game-beans.com',
+	// tw: 'tdj-activitytest.game-beans.com', // test
+};
+
 {
 	// img path
 	// https://media.zlongame.com/media/news/cn/tdj/info/data/heroicon/Hero2017_HeadIcon_Basic.png
@@ -13,6 +20,8 @@ import { writeFile, outputJSON, pick_obj, getArgs, } from './u.mjs';
 
 	// ornaments 飾品
 	// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
+	// https://tdj-activity.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=ornaments&type=ornaments
+	// https://tdj-activitytest.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=ornaments&type=ornaments
 }
 
 let args = getArgs();
@@ -23,13 +32,13 @@ console.log({dev_mode});
 let raw_data = {
 	roles: {
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic
-		url: () => get_url({ module: 'hero', type: 'basic' }),
+		url: (lang) => get_url({ module: 'hero', type: 'basic', }, lang),
 		fn: './tasks/_temp/_roles.json',
 		rawdata: null,
 	},
 	role_deatil: {
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=%s
-		url: (name) => get_url({ module: 'hero', type: 'detail', query: name, }),
+		url: (name, lang) => get_url({ module: 'hero', type: 'detail', query: name, }, lang),
 		fn: './tasks/_temp/_roles_detail_fn.json',
 		rawdata: null,
 	},
@@ -46,9 +55,30 @@ if (dev_mode) {
 	for (let type in raw_data) {
 		raw_data[type].rawdata = JSON.parse( fs.readFileSync(raw_data[type].fn, 'utf8') );
 	}
-	roles_data = raw_data.roles.rawdata?.data?.data || [];
+	roles_data = raw_data.roles.rawdata || [];
 } else {
-	raw_data.roles.rawdata = await fetch(raw_data.roles.url()).then(r => r.json());
+	let roles_tw = await fetch(raw_data.roles.url('tw')).then(r => r.json());
+	let roles_cn = await fetch(raw_data.roles.url('cn')).then(r => r.json());
+
+	raw_data.roles.rawdata = roles_cn?.data?.data.map(role => {
+		let role_tw = roles_tw?.data?.data.find(_role => _role.hero_icon === role.hero_icon);
+		return role_tw ? {
+			...role_tw,
+			pinyin_tw: role_tw.pinyin, // tw_only
+			pinyin: role.pinyin,
+		} : role;
+	});
+
+	outputJSON({
+		json: roles_tw,
+		fn: './tasks/_temp/_roles.tw.json',
+		cn2tw: false,
+	});
+	outputJSON({
+		json: roles_cn,
+		fn: './tasks/_temp/_roles.cn.json',
+		cn2tw: false,
+	});
 	outputJSON({
 		json: raw_data.roles.rawdata,
 		fn: raw_data.roles.fn,
@@ -62,9 +92,9 @@ if (dev_mode) {
 		cn2tw: false,
 	});
 
-	roles_data = raw_data.roles.rawdata?.data?.data || [];
+	roles_data = raw_data.roles.rawdata || [];
 	raw_data.role_deatil.rawdata = await Promise.all(
-		roles_data.slice(0).map(i => fetch_role_detail(i.pinyin))
+		roles_data.slice(0).map(i => fetch_role_detail(i))
 	)
 	outputJSON({
 		json: raw_data.role_deatil.rawdata,
@@ -104,8 +134,8 @@ op.roles = roles_data.map(item => {
 	}
 
 	return {
-		...pick_obj(item, ['name', 'rarity', 'prop', 'hero_icon', 'career', ]),
-		...pick_obj(detail, ['pinyin', 'pic', 'rarity', 'position', 'range', 'speed',]),
+		...pick_obj(item, ['name', 'rarity', 'prop', 'hero_icon', 'career', 'pinyin', 'pinyin_tw', ]),
+		...pick_obj(detail, ['pic', 'rarity', 'position', 'range', 'speed', ]),
 
 		strategy,
 		path: encodeURIComponent(item.name),
@@ -243,8 +273,10 @@ outputJSON({
 
 
 
-async function fetch_role_detail(name = '') {
-	let _url = raw_data.role_deatil.url(name);
+async function fetch_role_detail(role) {
+	let _url = role.pinyin_tw
+		? raw_data.role_deatil.url(role.pinyin_tw, 'tw')
+		: raw_data.role_deatil.url(role.pinyin, 'cn');
 
 	return fetch(_url)
 		.then(r => r.json())
@@ -253,10 +285,10 @@ async function fetch_role_detail(name = '') {
 		});
 }
 
-function get_url(qs_obj = {}) {
+function get_url(qs_obj = {}, lang = 'cn') {
 	qs_obj = {
 		...{
-			id: 0,
+			id: lang === 'cn' ? 0 : 1,
 			action: 'info',
 			module: 'hero',
 			type: 'basic',
@@ -269,7 +301,7 @@ function get_url(qs_obj = {}) {
 		qs.set(key, qs_obj[key]);
 	}
 
-	return `https://tdj-activity.zlongame.com/tdj/data/mQuery.do?${qs.toString()}`;
+	return `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
 }
 
 function gen_mem_by_img(img = '') {
