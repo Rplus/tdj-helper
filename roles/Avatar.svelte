@@ -85,6 +85,15 @@
 		visibility: hidden;
 	}
 
+	.anchor:target ~ .box {
+		animation: fadeout-anchor 5s;
+	}
+
+	@keyframes fadeout-anchor {
+		from { background-color: #ff03; }
+		to   { background-color: #ff00; }
+	}
+
 	.box {
 		display: flex;
 		gap: .5em;
