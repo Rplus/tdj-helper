@@ -120,12 +120,8 @@
 		box-shadow: 1px 1px 3px 1px #3339;
 	}
 
-	a {
-		color: #339;
-
-		&:not(:hover) {
-			text-decoration: none;
-		}
+	a:not(:hover) {
+		text-decoration: none;
 	}
 
 	.strategy {
