@@ -177,9 +177,19 @@ op.strategy = op.strategy.map(item => {
 		}
 	};
 
-	if (item.name === '三身通智阵') {
+	if (item.name.startsWith('三身通智')) {
 		obj.members.push( gen_mem_by_img('strategy_core') );
 		obj.members.push( gen_mem_by_img('strategy_core') );
+	}
+	// workaround for sucking game-beans
+	if (item.name === '驅雷魔魄陣' || item.name === '狐靈神氛陣') {
+		obj.members.push( gen_mem_by_img('dusk') );
+	}
+	if (item.name === '暗月鬥靈陣') {
+		obj.members.push( gen_mem_by_img('melee') );
+	}
+	if (item.name === '冰火絕獄陣') {
+		obj.desc = obj.desc.split('英靈定位：')[0]
 	}
 
 	return obj;
