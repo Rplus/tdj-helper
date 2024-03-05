@@ -61,9 +61,9 @@ export function parse_number(str = '') {
   return parseInt(str.replace(/\D/g, ''));
 }
 
-export function pick_obj(obj, arr = []) {
-  return arr.reduce((all, item) => {
-    all[item] = obj[item];
+export function pick_obj(obj, props = []) {
+  return props.reduce((all, prop) => {
+    all[prop] = obj[prop];
     return all;
   }, {});
 }
