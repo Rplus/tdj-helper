@@ -1,11 +1,18 @@
 <script>
 	export let row;
+	export let col;
 	import Icon from './Icon.svelte';
 	import strategy_data from '/data/strategy.min.json';
 
 	$: img = get_img('heroicon', row.hero_icon);
 
 	$: strategy = get_strategy(row.strategy);
+
+	$: links = [
+		`https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin}%22}`, // official tw
+		`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin}%22}`, // official cn
+		`https://wiki.biligame.com/tdj/${row.path}`, // bwiki
+	];
 
 	function get_strategy(strategy) {
 		if (!strategy) {
@@ -52,9 +59,21 @@
 		{/if}
 	</div>
 
-	<a href="https://wiki.biligame.com/tdj/{row.path}" target="_biliwiki">
-		{row.name}
-	</a>
+	<div class="name pos-r">
+		<a href={links[0]} target="_officail_tw">
+			{row.name}
+		</a>
+
+		<div class="links pos-a">
+			<a href={links[1]} target="_officail_cn">
+				{row.name} (cn)
+			</a>
+			<a href={links[2]} target="_biliwiki">
+				{row.name} (bwiki)
+			</a>
+		</div>
+	</div>
+
 </div>
 
 <style>
@@ -116,4 +135,20 @@
 			bottom: calc(-15% + 1px);
 		}
 	}
+
+	.links {
+		position: absolute;
+		background-color: var(--main-bgc);
+		white-space: nowrap;
+		visibility: hidden;
+	}
+	.name:hover .links,
+	.name:focus-within .links {
+		visibility: visible;
+	}
+
+	.links a {
+		display: block;
+	}
+
 </style>
