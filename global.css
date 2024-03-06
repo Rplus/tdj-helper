@@ -85,21 +85,14 @@ a:visited {
   display: inline-flex;
 }
 
-.ai-c {
-  align-items: center;
-}
+.ai-c { align-items: center; }
+.jc-c { justify-content: center; }
+.jc-se { justify-content: space-evenly; }
+.jc-sb { justify-content: space-between; }
 
-.jc-c {
-  justify-content: center;
-}
-
-.jc-se {
-  justify-content: space-evenly;
-}
-
-.jc-sb {
-  justify-content: space-between;
-}
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
 
 label {
   cursor: pointer;
