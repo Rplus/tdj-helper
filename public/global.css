@@ -101,6 +101,10 @@ a:visited {
   justify-content: space-between;
 }
 
+.text-right {
+  text-align: right;
+}
+
 label {
   cursor: pointer;
   padding: 0.1em .75em;
