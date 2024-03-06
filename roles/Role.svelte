@@ -3,6 +3,10 @@
 	export let max_status;
 	import Avatar from './Avatar.svelte';
 	import NumberBar from './NumberBar.svelte';
+
+	let order_style = Object.keys(data.status)
+		.map(prop => `--${prop}: ${data.status[prop]}`)
+		.join(';');
 </script>
 
 
@@ -12,6 +16,7 @@
 	data-career={data.career}
 	data-prop={data.prop}
 	data-search={data.name}
+	style={order_style}
 >
 	<Avatar role={data} />
 

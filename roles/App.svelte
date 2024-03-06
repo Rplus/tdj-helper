@@ -25,6 +25,23 @@
 		return props;
 	}, status_props);
 
+	let sort_prop = '';
+	let sort_dir = -1;
+	let sort_style = ``;
+	function sort_by_prop(prop = '') {
+		if (!prop) {
+			sort_style = '';
+		}
+		if (sort_prop === prop) {
+			sort_dir = -sort_dir;
+		} else {
+			sort_prop = prop;
+			sort_dir = -1;
+		}
+		sort_style = `<style> .role {
+			order: calc(var(--${prop}) * ${sort_dir});
+		} </style>`;
+	}
 </script>
 
 
@@ -42,13 +59,18 @@
 
 	<hr>
 
+	{@html sort_style}
 	<div class="list">
 		<div class="role role-head">
-			<div class="name">
+			<div class="name text-center" on:click={() => sort_by_prop()}>
 				名
 			</div>
 			{#each status_props as prop}
-				<div class="text-right">
+				<div class="role-sort-btn text-right"
+					data-dir={sort_dir}
+					class:active={prop.prop === sort_prop}
+					on:click={() => sort_by_prop(prop.prop)}
+				>
 					{prop.label}
 				</div>
 			{/each}
@@ -96,18 +118,19 @@
 		min-height: 100vh;
 		margin: 0 auto;
 		max-width: 50em;
-
+		/*
 		@media (max-width: 700px) {
 			& .role > div:nth-child(4),
 			& .role > div:nth-child(6),
 			& .role > div:nth-child(7) {
-				/* display: none; */
+				display: none;
 			}
 
 			& .list {
-				/* grid-template-columns: max(140px, 30vw) repeat(3, 1fr); */
+				grid-template-columns: max(140px, 30vw) repeat(3, 1fr);
 			}
 		}
+		*/
 	}
 	h1 {
 		text-align: center;
@@ -129,10 +152,35 @@
 		top: 0;
 		z-index: 1;
 		margin: 0;
+		padding-top: .25em;
 		padding-bottom: .5em;
 		background-color: var(--main-bgc);
-		mask-image: linear-gradient(#000 40%, #0000);
+		mask-image: linear-gradient(#000 60%, #0000);
 		font-weight: 900;
+		display: grid !important;
+		order: -10000 !important;
+	}
+
+	.role-sort-btn {
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: .25em;
+
+		&::before {
+			font-family: monospace;
+			font-size: smaller;
+			opacity: .5;
+		}
+	}
+	.role-sort-btn.active,
+	.role-sort-btn:hover {
+		background-color: #ff03;
+	}
+	.role-sort-btn.active {
+		&[data-dir="-1"]::before { content: '▼'; }
+		&[data-dir="1"]::before { content: '▲'; }
 	}
 
 </style>
