@@ -4,7 +4,6 @@
 	import { resize_img } from '/_share/u.js';
 
 	let filters = init_filters();
-	let filters_len = filters.flat().length;
 
 	let is_composing = false;
 	let search_kwd = '';
