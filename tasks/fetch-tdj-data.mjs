@@ -188,9 +188,6 @@ op.strategy = op.strategy.map(item => {
 	if (item.name === '暗月鬥靈陣') {
 		obj.members.push( gen_mem_by_img('melee') );
 	}
-	if (item.name === '冰火絕獄陣') {
-		obj.desc = obj.desc.split('英靈定位：')[0]
-	}
 
 	return obj;
 });
