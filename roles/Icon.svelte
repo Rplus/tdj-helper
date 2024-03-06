@@ -1,12 +1,12 @@
 <script>
-	export let row;
+	export let role;
 	import { getContext } from 'svelte';
 
 	let folder = getContext('icon_folder');
 
 	$: bgi = [
-		row.career,
-		row.prop,
+		role.career,
+		role.prop,
 	].map(i => `url('${folder}/${i}.png')`).join();
 </script>
 
@@ -14,7 +14,7 @@
 
 <div class="icon"
 	style="background-image: {bgi}"
-	title="{row.career}, {row.prop}"
+	title="{role.career}, {role.prop}"
 />
 
 

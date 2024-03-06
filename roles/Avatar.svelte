@@ -1,24 +1,23 @@
 <script>
-	export let row;
-	export let col;
+	export let role;
 	import Icon from './Icon.svelte';
 	import strategy_data from '/data/strategy.min.json';
 
-	$: img = get_img('heroicon', row.hero_icon);
+	$: img = get_img('heroicon', role.hero_icon);
 
-	$: strategy = get_strategy(row.strategy);
+	$: strategy = get_strategy(role.strategy);
 
 	$: links = [
-		row.pinyin_tw ? `https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin_tw}%22}` : null, // official tw
-		`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${row.pinyin}%22}`, // official cn
-		`https://wiki.biligame.com/tdj/${row.path}`, // bwiki
+		role.pinyin_tw ? `https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin_tw}%22}` : null, // official tw
+		`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin}%22}`, // official cn
+		`https://wiki.biligame.com/tdj/${role.path}`, // bwiki
 	];
 
 	function get_strategy(strategy) {
 		if (!strategy) {
 			return null;
 		}
-		let _strategy = strategy_data.find(i => i.name === row.strategy);
+		let _strategy = strategy_data.find(i => i.name === role.strategy);
 		if (_strategy) {
 			return {
 				name: _strategy.name,
@@ -40,18 +39,16 @@
 
 
 
-<span class="anchor" id={row.name} />
-
 <div class="box">
 
 	<div class="pic">
-		<Icon row={row} />
+		<Icon role={role} />
 
 		<img class="avatar"
 			width="50" height="50"
 			loading="lazy" decording="async"
 			src={img}
-			alt={row.name}
+			alt={role.name}
 		/>
 
 		{#if strategy}
@@ -61,15 +58,15 @@
 
 	<div class="name pos-r">
 		<a href={links[0]} target="_officail_tw">
-			{row.name}
+			{role.name}
 		</a>
 
 		<div class="links pos-a">
 			<a href={links[1]} target="_officail_cn">
-				{row.name} (cn)
+				{role.name} (cn)
 			</a>
 			<a href={links[2]} target="_biliwiki">
-				{row.name} (bwiki)
+				{role.name} (bwiki)
 			</a>
 		</div>
 	</div>
@@ -95,10 +92,15 @@
 	}
 
 	.box {
+		text-align: center;
 		display: flex;
 		gap: .5em;
+		flex-direction: column;
 		align-items: center;
-		text-align: left;
+
+		@media (min-width: 700px) {
+			flex-direction: row;
+		}
 	}
 
 	.pic {
@@ -145,7 +147,10 @@
 		position: absolute;
 		background-color: var(--main-bgc);
 		white-space: nowrap;
+		text-align: start;
 		visibility: hidden;
+		z-index: 1;
+		opacity: .75;
 	}
 	.name:hover .links,
 	.name:focus-within .links {
