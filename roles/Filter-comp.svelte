@@ -104,7 +104,7 @@
 					<input type="checkbox"
 						bind:checked={option.checked}
 					/>
-					<div class="txt">{option.key}</div>
+					{option.key}
 				</label>
 			{/each}
 
@@ -129,41 +129,10 @@
 		}
 	}
 
-	input[type="checkbox"] {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		padding: 0;
-		margin: -1px;
-		overflow: hidden;
-		clip: rect(0,0,0,0);
-		white-space: nowrap;
-		border: 0;
-
-		& + .txt {
-			border: 1px solid #0003;
-			padding: 3px .5em;
-			border-radius: 3px;
-			font-size: larger;
-			user-select: none;
-		}
-
-		&:checked + .txt {
-			background-color: #ffc9;
-		}
-
-		&:focus + .txt {
-			border-color: #666c;
-			box-shadow: inset 0 0 0 1px var(--main-color);
-		}
-
-	}
-
 	label {
-		display: inline-block;
+		display: inline-flex;
 		cursor: pointer;
-		margin-left: .5em;
-		margin-bottom: .5em;
+		margin: 0 .25em .5em .5em;
 		padding: 0;
 		text-transform: uppercase;
 	}
