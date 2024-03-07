@@ -62,10 +62,12 @@ if (dev_mode) {
 
 	raw_data.roles.rawdata = roles_cn?.data?.data.map(role => {
 		let role_tw = roles_tw?.data?.data.find(_role => _role.hero_icon === role.hero_icon);
+		role.path = encodeURIComponent(role.name);
 		return role_tw ? {
 			...role_tw,
 			pinyin_tw: role_tw.pinyin, // tw_only
 			pinyin: role.pinyin,
+			path: role.path,
 		} : role;
 	});
 
@@ -92,6 +94,7 @@ if (dev_mode) {
 		cn2tw: false,
 	});
 
+	// parse role's details
 	roles_data = raw_data.roles.rawdata || [];
 	raw_data.role_deatil.rawdata = await Promise.all(
 		roles_data.slice(0).map(i => fetch_role_detail(i))
@@ -134,11 +137,10 @@ op.roles = roles_data.map(item => {
 	}
 
 	return {
-		...pick_obj(item, ['name', 'rarity', 'prop', 'hero_icon', 'career', 'pinyin', 'pinyin_tw', ]),
+		...pick_obj(item, ['name', 'rarity', 'prop', 'hero_icon', 'career', 'pinyin', 'pinyin_tw', 'path', ]),
 		...pick_obj(detail, ['pic', 'rarity', 'position', 'range', 'speed', ]),
 
 		strategy,
-		path: encodeURIComponent(item.name),
 
 		status: {
 			hp: +detail.qixue,
