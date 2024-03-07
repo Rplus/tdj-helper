@@ -12,7 +12,8 @@
 		// i.desc_info = i.desc.match(/物攻，物防，法攻，法防提高(\d+%)[。，](.+)?$/);
 		i.desc_html = i.desc.replace(
 			/.+所有我方上陣角色物攻，物防，法攻，法防提高(\d+%)[。，](.+)?$/gm,
-			'攻防<strong>+$1</strong>。<br><div class="ctx">$2</div>'
+			// '攻防+$1<br><div class="ctx">$2</div>'
+			`攻防+$1\n$2`
 		);
 	});
 
@@ -194,10 +195,17 @@
 	max-width: 22em;
 	margin-bottom: 1em;
 	align-self: flex-start;
+	white-space: pre-wrap;
 
+	&::first-line {
+		color: #999c;
+	}
+
+	/*
 	& .ctx {
 		margin-top: 0.5em;
 	}
+	*/
 
 	@media (max-width: 700px) {
 		max-width: unset;
