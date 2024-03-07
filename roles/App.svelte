@@ -150,7 +150,7 @@
 	.role-head {
 		position: sticky;
 		top: 0;
-		z-index: 1;
+		z-index: 10;
 		margin: 0;
 		padding-top: .25em;
 		padding-bottom: .5em;
