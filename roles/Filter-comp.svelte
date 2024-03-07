@@ -84,7 +84,7 @@
 </script>
 
 
-<form class="filters" on:reset|preventDefault={reset_filter}>
+<form class="filters" on:reset|preventDefault={reset_filter} on:submit|preventDefault>
 	<div class="filter input-box">
 		<input type="search" placeholder="過濾名稱"
 			bind:value={input_value}

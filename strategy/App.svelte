@@ -103,7 +103,7 @@
 		{@html search_style}
 	</div>
 
-	<form class="filters" on:reset|preventDefault={reset_filter}>
+	<form class="filters" on:reset|preventDefault={reset_filter} on:submit|preventDefault>
 		<div class="hr">
 			🔍 + 聯集(⋃)
 			<input type="reset" />
