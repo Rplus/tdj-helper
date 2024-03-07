@@ -23,7 +23,7 @@ import"./modulepreload-polyfill-9p4a8sJU.js";import{S as C,i as N,s as P,e as x,
 氣血+5%，自身周圍3格範圍內每有1個敵人，免傷、暴擊抗性提高3%（最多提高9%）。自身氣血低於70%時，免傷、暴擊抗性額外提高6%。`},{name:"妙喜絲絛",icon:"Equip_miaoxisitao",position:"3",job:"1111111",type:"000101",rarity:"SSR",desc:`僅「恆沙之下」敦煌藝術館聯動獲得
 法防+7%、氣血+7%，行動結束時，若1格範圍存在其他友方，則對自身和1格範圍內1個其他友方施加「固元I」和「命蘊」狀態，持續1回合。
 「命蘊」：行動結束時，恢復20%氣血
-「固元I」：法術免傷+10%`},{name:"九色鹿冠",icon:"Equip_jiuseluguan",position:"1",job:"0001101",type:"000010",rarity:"SSR",desc:`僅「恆沙之下」敦煌藝術館聯動獲得
+「固元I」：法術免傷+10%`},{name:"九色鹿冠",icon:"Equip_jiuseluguan",position:"1",job:"0001101",type:"001001",rarity:"SSR",desc:`僅「恆沙之下」敦煌藝術館聯動獲得
 法攻+7%，氣血+7%，對友方使用絕學時，驅散選取目標2格範圍內所有友方1個「有害狀態」並施加1個「有益狀態」（間隔1回合觸發）。
 僅咒師、祝由、鬥將可用`},{name:"御波靈戒",icon:"Equip_yubolingjie",position:"4",job:"0100000",type:"100000",rarity:"SSR",desc:`物攻+7%，暴擊率+7%，若本次行動最後一次移動距離小於等於2格，則行動結束時，獲得「括羽」狀態（間隔1回合觸發）
 「括羽」：單體絕學射程+1（使用單體絕學後消耗）
