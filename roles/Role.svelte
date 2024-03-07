@@ -37,4 +37,10 @@
 		align-items: center;
 		gap: .25em;
 	}
+
+	/* trick for anchor target with sticky header */
+	.role:target {
+		padding-top: 2em;
+		margin-top: -2em;
+	}
 </style>
