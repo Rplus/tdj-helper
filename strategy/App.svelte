@@ -9,7 +9,11 @@
 	let is_composing = false;
 
 	data.forEach(i => {
-		i.desc = i.desc.replace(/(所有我方上陣角色物攻，物防，法攻，法防提高)(\d+%)[。，](.+)$/gm, '$1<strong>$2</strong>。<br><div class="ctx">$3</div>');
+		// i.desc_info = i.desc.match(/物攻，物防，法攻，法防提高(\d+%)[。，](.+)?$/);
+		i.desc_html = i.desc.replace(
+			/.+所有我方上陣角色物攻，物防，法攻，法防提高(\d+%)[。，](.+)?$/gm,
+			'攻防<strong>+$1</strong>。<br><div class="ctx">$2</div>'
+		);
 	});
 
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
@@ -124,7 +128,7 @@
 
 	{#each data as strategy (strategy.name)}
 		<div class="row flex {gen_members_class(strategy.members)}"
-			data-info={strategy.desc}
+			data-info={strategy.desc_html}
 			id={strategy.name}
 		>
 			<div class="members flex">
@@ -135,7 +139,7 @@
 				{/each}
 			</div>
 
-			<div class="info">{@html gen_desc(strategy.desc, search_kwd)}</div>
+			<div class="info">{@html gen_desc(strategy.desc_html, search_kwd)}</div>
 		</div>
 
 	{/each}
