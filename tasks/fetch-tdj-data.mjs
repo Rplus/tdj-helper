@@ -225,6 +225,12 @@ op.ornaments = {
 		]);
 		o.rarity = item.quality;
 		o.desc = item.description.replace(/\<br\/\>/g, '\n');
+
+		// 九色鹿冠
+		if (o.icon === 'Equip_jiuseluguan') {
+			o.type = '001001'; // 000010 => 001001
+		}
+
 		return o;
 	}),
 };
