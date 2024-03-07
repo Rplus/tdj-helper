@@ -152,6 +152,7 @@
 		z-index: 1;
 		opacity: .75;
 	}
+	.pic:hover + .name .links, /* TODO: click pic to show more role details */
 	.name:hover .links,
 	.name:focus-within .links {
 		visibility: visible;
