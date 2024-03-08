@@ -6,6 +6,7 @@
 	export let search_cb = null;
 
 	// ### filter_cates sample
+	// # TODO: values contain (value, title)?
 	// [
 	// 	{
 	// 		prop: 'rarity',
@@ -24,9 +25,11 @@
 	// 	},
 	// ];
 
+	const query_param = 'query';
+
 	let filters = init_filters();
 	let search_kwd = '';
-	let input_value = new URLSearchParams(location.search).get('query') || '';
+	let input_value = new URLSearchParams(location.search).get(query_param) || '';
 	let is_composing = false;
 
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
@@ -120,12 +123,24 @@
 	function compositionend() {
 		is_composing = false;
 	}
+
+	let is_submited = false;
+	function allow_submit_next_time(e) {
+		if (!is_submited) {
+			e.preventDefault()
+			is_submited = true;
+			return;
+		}
+	}
 </script>
 
 
-<form class="filters" on:reset|preventDefault={reset_filter} on:submit|preventDefault>
+<form class="filters"
+	on:reset|preventDefault={reset_filter}
+	on:submit={allow_submit_next_time}
+>
 	<div class="filter input-box">
-		<input type="search" placeholder={placeholder}
+		<input type="search" name={query_param} placeholder={placeholder}
 			bind:value={input_value}
 			on:compositionstart={compositionstart}
 			on:compositionend={compositionend}
