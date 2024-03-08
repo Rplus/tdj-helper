@@ -1,6 +1,9 @@
 <script>
 	export let filter_cates = []; // filters array
-	export let item_class = ''; // string
+	export let item_class = '.item'; // string
+	export let placeholder = '過濾名稱';
+	export let gen_selector = (prop, value) => `[data-${prop}="${value}"]`;
+	export let search_cb = null;
 
 	// filter_cates sample
 	// [
@@ -31,6 +34,9 @@
 	$: {
 		if (!is_composing) {
 			search_kwd = input_value;
+			if (search_cb) {
+				search_cb(input_value);
+			}
 		}
 	}
 
@@ -51,7 +57,7 @@
 		let selectors = _filters
 			.map(cate => cate.options
 				.filter(i => i.checked)
-				.map(i => `[data-${cate.prop}="${i.key}"]`)
+				.map(i => gen_selector(cate.prop, i.key))
 				.join(',')
 			)
 			.flat()
@@ -86,7 +92,7 @@
 
 <form class="filters" on:reset|preventDefault={reset_filter} on:submit|preventDefault>
 	<div class="filter input-box">
-		<input type="search" placeholder="過濾名稱"
+		<input type="search" placeholder={placeholder}
 			bind:value={input_value}
 			on:compositionstart={compositionstart}
 			on:compositionend={compositionend}
