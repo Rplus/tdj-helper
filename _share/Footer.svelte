@@ -17,7 +17,7 @@
 				<li>
 					{item.title}
 					<br>
-					<a href={item.link} target={item.target || '_blank'}>
+					<a href={item.link} rel="noopener" target={item.target || '_blank'}>
 						{item.link}
 					</a>
 				</li>

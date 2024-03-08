@@ -57,15 +57,15 @@
 	</div>
 
 	<div class="name pos-r">
-		<a href={links[0]} target="_officail_tw">
+		<a href={links[0]} rel="noopener" target="_officail_tw">
 			{role.name}
 		</a>
 
 		<div class="links pos-a">
-			<a href={links[1]} target="_officail_cn">
+			<a href={links[1]} rel="noopener" target="_officail_cn">
 				{role.name} (cn)
 			</a>
-			<a href={links[2]} target="_biliwiki">
+			<a href={links[2]} rel="noopener" target="_biliwiki">
 				{role.name} (bwiki)
 			</a>
 		</div>
