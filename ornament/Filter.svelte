@@ -19,7 +19,7 @@
 			title: cate_map[prop],
 			multi: (prop === 'type' || prop === 'job'),
 			values: values,
-			icons: values.map(i => resize_img(get_icon_image(i), 24)),
+			icons: values.map(i => resize_img(get_icon_image(i), 32)),
 		};
 	});
 
