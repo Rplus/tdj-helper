@@ -77,7 +77,7 @@
 
 	{#each data as strategy (strategy.name)}
 		<div class="row flex"
-			data-prop={strategy.members.map(i => i.name)}
+			data-prop={strategy.members.map(i => !i.img && i.name).filter(Boolean)}
 			data-search={strategy.desc_html}
 			id={strategy.name}
 		>
