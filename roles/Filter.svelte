@@ -1,5 +1,5 @@
 <script>
-	import Filter from './Filter-comp.svelte';
+	import Filter from '/_share/Filter-comp.svelte';
 
 	let filter_cates = [
 		{
