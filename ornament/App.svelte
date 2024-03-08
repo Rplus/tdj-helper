@@ -16,7 +16,7 @@
 		</ruby>
 	</h1>
 
-	<Filter />
+	<Filter keys={data.keys} />
 
 	<hr>
 
