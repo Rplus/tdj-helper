@@ -69,21 +69,14 @@ a:visited {
 
 
 
-.pos-r {
-  position: relative;
-}
+.pos-r { position: relative; }
+.pos-a { position: absolute; }
 
-.pos-a {
-  position: absolute;
-}
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.inline-block { display: inline-block; }
 
-.flex {
-  display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
-}
+.flex-wrap { flex-wrap: wrap; }
 
 .ai-c { align-items: center; }
 .jc-c { justify-content: center; }
