@@ -25,7 +25,7 @@
 
 	let filters = init_filters();
 	let search_kwd = '';
-	let input_value = '';
+	let input_value = new URLSearchParams(location.search).get('query') || '';
 	let is_composing = false;
 
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
