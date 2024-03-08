@@ -27,5 +27,6 @@
 
 <Filter
 	filter_cates={filters}
+	placeholder="過濾說明"
 />
 
