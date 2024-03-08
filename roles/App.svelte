@@ -2,6 +2,7 @@
 	import roles_data from '/data/roles.min.json';
 	import Filter from './Filter.svelte';
 	import Role from './Role.svelte';
+	import Footer from '/_share/Footer.svelte';
 	import '../_share/Theme.js';
 
 	import { setContext } from 'svelte';
@@ -42,6 +43,22 @@
 			order: calc(var(--${prop}) * ${sort_dir});
 		} </style>`;
 	}
+
+	let refs = [
+		{
+			title: 'Official (zh-tw)',
+			link: 'https://www.game-beans.com/userinfo/tdj/index.html',
+			target: '_officail_tw',
+		}, {
+			title: 'Official (zh-cn)',
+			link: 'https://www.zlongame.com/userinfo/tdj/index.html',
+			target: '_officail_cn',
+		// }, {
+		// 	title: 'Bili-Wiki',
+		// 	link: 'https://wiki.biligame.com/tdj/',
+		// 	target: '_biliwiki',
+		},
+	];
 </script>
 
 
@@ -86,29 +103,7 @@
 
 	<hr>
 
-	<footer class="footer">
-		<ul>
-			資料來源：
-			<li>
-				Official (zh-tw)<br>
-				<a href="https://www.game-beans.com/userinfo/tdj/index.html" target="_officail_tw">
-					https://www.game-beans.com/userinfo/tdj/index.html
-				</a>
-			</li>
-			<li>
-				Official (zh-cn)<br>
-				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_officail_cn">
-					https://www.zlongame.com/userinfo/tdj/index.html
-				</a>
-			</li>
-			<li>
-				Bili-Wiki<br>
-				<a href="https://wiki.biligame.com/tdj/" target="_biliwiki">
-					https://wiki.biligame.com/tdj/
-				</a>
-			</li>
-		</ul>
-	</footer>
+	<Footer refs={refs} />
 </div>
 
 

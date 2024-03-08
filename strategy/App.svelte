@@ -2,6 +2,7 @@
 	import data from '/data/strategy.min.json';
 	import Item from './Item.svelte';
 	import Filter from '/_share/Filter-comp.svelte';
+	import Footer from '/_share/Footer.svelte';
 	import '../_share/Theme.js';
 
 	data.forEach(i => {
@@ -38,6 +39,17 @@
 		return str;
 	}
 
+	let refs = [
+		{
+			title: 'Official (zh-tw)',
+			link: 'https://www.game-beans.com/userinfo/tdj/index.html',
+			target: '_officail_tw',
+		}, {
+			title: 'Official (zh-cn)',
+			link: 'https://www.zlongame.com/userinfo/tdj/index.html',
+			target: '_officail_cn',
+		},
+	];
 </script>
 
 
@@ -84,21 +96,7 @@
 
 	<hr>
 
-	<footer class="footer">
-		<ul>
-			資料來源：
-			<li>
-				Official (zh-tw)<br>
-				<a href="https://www.game-beans.com/userinfo/tdj/index.html" target="_officail_tw">
-					https://www.game-beans.com/userinfo/tdj/index.html
-				</a>
-			</li>
-			<li>
-				Official (zh-cn)<br>
-				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_biliwiki">https://www.zlongame.com/userinfo/tdj/index.html</a>
-			</li>
-		</ul>
-	</footer>
+	<Footer refs={refs} />
 
 </div>
 

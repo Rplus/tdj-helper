@@ -2,7 +2,20 @@
 	import data from '/data/ornaments.min.json';
 	import Item from './Item.svelte';
 	import Filter from './Filter.svelte';
+	import Footer from '/_share/Footer.svelte';
 	import '../_share/Theme.js';
+
+	let refs = [
+		{
+			title: 'Official (zh-tw)',
+			link: 'https://www.game-beans.com/userinfo/tdj/index.html',
+			target: '_officail_tw',
+		}, {
+			title: 'Official (zh-cn)',
+			link: 'https://www.zlongame.com/userinfo/tdj/index.html',
+			target: '_officail_cn',
+		},
+	];
 </script>
 
 
@@ -28,23 +41,8 @@
 
 	<hr>
 
-	<footer class="footer">
-		<ul>
-			資料來源：
-			<li>
-				Official (zh-cn)<br>
-				<a href="https://www.zlongame.com/userinfo/tdj/index.html" target="_tdj">
-					https://www.zlongame.com/userinfo/tdj/index.html
-				</a>
-			</li>
-			<li>
-				BWiki<br>
-				<a href="https://wiki.biligame.com/tdj/%E9%A5%B0%E5%93%81%E5%9B%BE%E9%89%B4" target="_biliwiki">
-					https://wiki.biligame.com/tdj/
-				</a>
-			</li>
-		</ul>
-	</footer>
+	<Footer refs={refs} />
+
 </div>
 
 
