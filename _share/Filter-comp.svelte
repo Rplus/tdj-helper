@@ -107,7 +107,7 @@
 			<div>{filter.title}:</div>
 
 			{#each filter.options as option}
-				<label>
+				<label hidden={!option.key}>
 					<input type="checkbox"
 						bind:checked={option.checked}
 					/>
@@ -136,14 +136,14 @@
 		}
 	}
 
-	label {
+	label:not([hidden]) {
 		display: inline-flex;
 		cursor: pointer;
 		margin: 0 .25em .5em .5em;
 		padding: 0;
 		text-transform: uppercase;
+		user-select: none;
 	}
-
 
 	@media (min-width: 700px) {
 		.input-box {
