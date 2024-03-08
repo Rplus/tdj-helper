@@ -1,7 +1,10 @@
 fetch:
 	node ./tasks/fetch-tdj-data.mjs -- dev=1;
 
-fetch-new:
+print-date:
+	date +%FT%T%:::z > './data/latest-fetch-time.txt';
+
+fetch-new: print-date
 	node ./tasks/fetch-tdj-data.mjs -- dev=0;
 
 parse-biliwiki:

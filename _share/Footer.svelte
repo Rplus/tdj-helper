@@ -1,10 +1,13 @@
 <script>
+	import date from '/data/latest-fetch-time.txt?raw';
 	export let refs = [];
 </script>
 
 
 
 <footer class="footer">
+	<time class="update">{date}</time>
+
 	<slot />
 
 	{#if refs}
@@ -21,4 +24,20 @@
 			{/each}
 		</ul>
 	{/if}
+
 </footer>
+
+
+
+<style>
+	time {
+		position: absolute;
+		opacity: .5;
+		font-family: monospace;
+		font-size: small;
+
+		&::before {
+			content: 'Latest update: ';
+		}
+	}
+</style>

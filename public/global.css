@@ -98,6 +98,7 @@ fieldset {
 }
 
 footer.footer {
+  position: relative;
   align-items: center;
   font-family: monospace;
   word-break: break-all;
