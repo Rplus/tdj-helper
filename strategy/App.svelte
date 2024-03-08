@@ -14,7 +14,7 @@
 
 	let filter_cates = [
 		{
-			prop: 'career',
+			prop: 'prop',
 			title: '職業',
 			multi: true,
 			values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', ],
@@ -77,7 +77,7 @@
 
 	{#each data as strategy (strategy.name)}
 		<div class="row flex"
-			data-career={strategy.members.map(i => i.name)}
+			data-prop={strategy.members.map(i => i.name)}
 			data-search={strategy.desc_html}
 			id={strategy.name}
 		>
