@@ -5,7 +5,7 @@
 	export let gen_selector = (prop, value, multi) => `[data-${prop}${multi ? '*' : ''}="${value}"]`;
 	export let search_cb = null;
 
-	// filter_cates sample
+	// ### filter_cates sample
 	// [
 	// 	{
 	// 		prop: 'rarity',
@@ -17,12 +17,12 @@
 	// 		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'],
 	// 		icons; ['', '', '', '', '', '', '', ],
 	// 	}, {
-	// 		prop: 'prop',
-	// 		title: '屬相',
-	// 		values: ['炎', '雷', '冰', '光', '暗', '幽'],
+	// 		prop: 'type',
+	// 		title: '類型',
+	// 		multi: true,
+	// 		values: ['物攻', '物防', '法攻', '法防', '治療', '氣血'],
 	// 	},
 	// ];
-
 
 	let filters = init_filters();
 	let search_kwd = '';
@@ -31,6 +31,8 @@
 
 	$: filter_style  = `<style>${gen_filter_style(filters)}</style>`;
 	$: search_style  = search_kwd ? `<style>${gen_search_style(search_kwd)}</style>`: '';
+
+	// $: console.log({filters});
 
 	$: {
 		if (!is_composing) {
@@ -41,6 +43,7 @@
 		}
 	}
 
+	// ∪ &cup; ∩ &cap;
 	function init_filters() {
 		return filter_cates.map(cate => ({
 			prop: cate.prop,
@@ -56,17 +59,44 @@
 		}));
 	}
 
+	function gen_not_selector(selector_str) {
+		return `${item_class}:not(${selector_str})`;
+	}
+
 	function gen_filter_style(_filters) {
 		let selectors = _filters
-			.map(cate => cate.options
-				.filter(i => i.checked)
-				.map(i => gen_selector(cate.prop, i.key, cate.multi))
-				.join(',')
-			)
+			.map(cate => {
+				let checked_props = cate.options
+					.map(option => {
+						if (!option.checked) { return null; }
+
+						return {
+							prop: cate.prop,
+							value: option.key,
+						};
+					})
+					.filter(Boolean);
+
+				// skip logic, when all un-checked prop's checkbox
+				if (!checked_props.length) {
+					return '';
+				}
+
+				// ? intersection set rule, group later
+				if (cate.multi && cate.is_cap) {
+					return checked_props.map(i =>
+						gen_not_selector( gen_selector(i.prop, i.value, cate.multi) )
+					);
+				}
+
+				// : union set rule, group same-prop selectors first
+				return gen_not_selector(
+					checked_props.map(i => gen_selector(i.prop, i.value, cate.multi)).join()
+				);
+			})
 			.flat()
 			.filter(Boolean)
-			.map(i => `${item_class}:not(${i})`)
-			.join(',')
+			.join();
 
 		return selectors ? `${selectors} { display: none; }` : '';
 	}
@@ -106,10 +136,23 @@
 
 	{#each filters as filter}
 		<div class="filter">
-			<div>{filter.title}:</div>
+			<div class="filter-title">
+				{filter.title}:
+
+				{#if filter.multi}
+					<input
+						class="filter-switcher"
+						type="checkbox"
+						switch
+						bind:checked={filter.is_cap}
+						data-active="∩"
+						data-inactive="∪"
+					/>
+				{/if}
+			</div>
 
 			{#each filter.options as option}
-				<label hidden={!option.key}>
+				<label class="filer-option-label" hidden={!option.key}>
 					<input type="checkbox"
 						bind:checked={option.checked}
 					/>
@@ -144,7 +187,12 @@
 		}
 	}
 
-	label:not([hidden]) {
+	.filter-title {
+		display: flex;
+		align-items: center;
+	}
+
+	.filer-option-label:not([hidden]) {
 		display: inline-flex;
 		align-items: center;
 		margin: 0 .25em .5em .5em;
@@ -154,8 +202,35 @@
 		cursor: pointer;
 	}
 
-	label img {
+	.filer-option-label img {
 		margin-inline-start: 2px;
+	}
+
+	.filter-switcher {
+		appearance: none;
+		font-family: inherit;
+		font-size: smaller;
+		cursor: pointer;
+
+		&::after,
+		&::before {
+			content: attr(data-inactive);
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1px 2px;
+			opacity: .5;
+		}
+
+		&::after {
+			content: attr(data-active);
+		}
+
+		&:not(:checked)::before,
+		&:checked::after {
+			box-shadow: inset 0 0 0 1px #6669;
+			background-color: #9999;
+		}
 	}
 
 	@media (min-width: 700px) {
