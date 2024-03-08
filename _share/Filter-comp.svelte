@@ -15,6 +15,7 @@
 	// 		prop: 'career',
 	// 		title: '職業',
 	// 		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'],
+	// 		icons; ['', '', '', '', '', '', '', ],
 	// 	}, {
 	// 		prop: 'prop',
 	// 		title: '屬相',
@@ -45,10 +46,11 @@
 			prop: cate.prop,
 			title: cate.title,
 			multi: cate.multi,
-			options: cate.values.map(key => {
+			options: cate.values.map((key, index) => {
 				return {
 					key,
 					checked: false,
+					icon: cate.icons?.[index],
 				};
 			}),
 		}));
@@ -111,14 +113,20 @@
 					<input type="checkbox"
 						bind:checked={option.checked}
 					/>
+
 					{option.key}
+
+					{#if option.icon}
+						<img src={option.icon} alt={option.key} width="16" height="16">
+					{/if}
+
 				</label>
 			{/each}
 
 		</div>
 	{/each}
 
-	<div class="style">
+	<div>
 		{@html filter_style}
 		{@html search_style}
 	</div>
@@ -138,11 +146,16 @@
 
 	label:not([hidden]) {
 		display: inline-flex;
-		cursor: pointer;
+		align-items: center;
 		margin: 0 .25em .5em .5em;
 		padding: 0;
 		text-transform: uppercase;
 		user-select: none;
+		cursor: pointer;
+	}
+
+	label img {
+		margin-inline-start: 2px;
 	}
 
 	@media (min-width: 700px) {
