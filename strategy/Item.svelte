@@ -1,4 +1,7 @@
 <script>
+	import Name from './Name.svelte';
+	import { resize_img } from '/_share/u.js';
+
 	export let member = {};
 
 	let is_strategy = !!member.desc;
@@ -7,10 +10,6 @@
 
 	let img_type = is_strategy ? 'strategy' : 'heroicon';
 	let img = resize_img(`https://media.zlongame.com/media/news/cn/tdj/info/data/${img_type}/${member.img}.png`);
-
-	function resize_img(url) {
-		return `https://wsrv.nl/?&w=128&h=128&we&il&output=webp&url=` + url;
-	}
 </script>
 
 
@@ -27,19 +26,7 @@
 		{/if}
 	</div>
 
-
-
-	{#if is_role}
-		<a href="../roles/#{member.name}">
-			<div class="title">
-				{member.name}
-			</div>
-		</a>
-	{:else}
-		<div class="title">
-			{member.name}
-		</div>
-	{/if}
+	<Name name={member.name} is_role={is_role} />
 
 </div>
 
@@ -77,7 +64,4 @@
 	max-height: 90%;
 }
 
-.title {
-	font-size: smaller;
-}
 </style>
