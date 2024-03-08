@@ -1,10 +1,7 @@
 <script>
-	import data from '/data/ornaments.min.json';
-	export let type = '';
-
-	let types = [...type].map((i, index) => +i && data.keys.type[index]).filter(Boolean);
-
+	export let types = [''];
 </script>
+
 
 
 <div class="flex btns">

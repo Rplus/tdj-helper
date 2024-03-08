@@ -8,38 +8,34 @@
 
 	let keys = data.keys;
 
-	const rarity_map = keys.rarity.reduce((all, i, index) => {
-		all[i] = index;
-		return all;
-	}, {});
+
+	function io2prop(io_str = '01', prop) {
+		return io_str
+			.split('')
+			.map((i, index) => !!(+i) ? data.keys[prop][index] : '')
+			.filter(Boolean);
+	}
+
+	$: types = io2prop(item.type, 'type');
+	$: jobs = io2prop(item.job, 'job');
+	$: position = data.keys.position[item.position];
 
 	let img = `https://media.zlongame.com/media/news/cn/tdj/info/data/accessories/${item.icon}.png`;
 	let imgs = [
 		resize_img(img, 64),
 		resize_img(img, 128),
 	];
-
-	function gen_class(obj) {
-		return [
-			` position-${obj.position}`,
-			` rarity-${rarity_map[obj.rarity]}`,
-			io2class(obj.job, 'job'),
-			io2class(obj.type, 'type'),
-		].join('');
-	}
-
-	function io2class(io_str = '', prop = 'class') {
-		return io_str
-			.split('')
-			.map((i, index) => !!(+i) ? ` ${prop}-${index}` : '')
-			.join('');
-	}
-
 </script>
 
 
 
-<li class="item {gen_class(item)}" data-info="{item.name} {item.desc}">
+<li class="item"
+	data-rarity={item.rarity}
+	data-position={position}
+	data-type={types}
+	data-job={jobs}
+	data-search="{item.name} {item.desc}"
+>
 	<div class="avatar">
 		<div class="img-box">
 			<img
@@ -58,20 +54,18 @@
 
 	<div class="meta flex">
 		<div class="postion">
-			{keys.position[item.position]}
+			{position}
 		</div>
 		∙
-		<Job job={item.job} />
+		<Job jobs={jobs} />
 		∙
-		<Type type={item.type} />
+		<Type types={types} />
 
 	</div>
 
 	<div class="desc">
 		{item.desc}
 	</div>
-	<!--
-	-->
 </li>
 
 

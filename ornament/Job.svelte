@@ -1,27 +1,18 @@
 <script>
-	import data from '/data/ornaments.min.json';
 	import { resize_img } from '/_share/u.js';
 	import { get_icon_image } from './u.js';
 
-	export let job = '';
+	export let jobs = [];
 
-	const max_len = data.keys.job.length;
+	// const max_len = data.keys.job.length;
+	const max_len = 7;
 
-	let jobs = get_job();
-
-	function get_job() {
-		return [...job].map((i, index) => {
-			if (i === '0') {
-				return null;
-			}
-			let name = data.keys.job[index];
-			return {
-				name,
-				img: resize_img(get_icon_image(name), 32),
-			};
-		})
-		.filter(Boolean);
-	}
+	let jobs_with_img = jobs.map(job => {
+		return {
+			name: job,
+			img: resize_img(get_icon_image(job), 32),
+		};
+	});
 
 </script>
 
@@ -32,7 +23,7 @@
 		<strong>通用</strong>
 
 	{:else}
-		{#each jobs as job}
+		{#each jobs_with_img as job}
 			<img src={job.img} alt={job.name} title={job.name} width="20" height="20">
 		{/each}
 	{/if}
