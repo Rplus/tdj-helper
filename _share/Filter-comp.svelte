@@ -147,6 +147,7 @@
 						bind:checked={filter.is_cap}
 						data-active="∩"
 						data-inactive="∪"
+						title={filter.is_cap ? '聯集 [交集]' : '[聯集] 交集'}
 					/>
 				{/if}
 			</div>
