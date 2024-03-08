@@ -2,7 +2,7 @@
 	export let filter_cates = []; // filters array
 	export let item_class = '.item'; // string
 	export let placeholder = '過濾名稱';
-	export let gen_selector = (prop, value) => `[data-${prop}="${value}"]`;
+	export let gen_selector = (prop, value, multi) => `[data-${prop}${multi ? '*' : ''}="${value}"]`;
 	export let search_cb = null;
 
 	// filter_cates sample
@@ -44,6 +44,7 @@
 		return filter_cates.map(cate => ({
 			prop: cate.prop,
 			title: cate.title,
+			multi: cate.multi,
 			options: cate.values.map(key => {
 				return {
 					key,
@@ -57,7 +58,7 @@
 		let selectors = _filters
 			.map(cate => cate.options
 				.filter(i => i.checked)
-				.map(i => gen_selector(cate.prop, i.key))
+				.map(i => gen_selector(cate.prop, i.key, cate.multi))
 				.join(',')
 			)
 			.flat()

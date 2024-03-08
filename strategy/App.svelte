@@ -15,15 +15,15 @@
 		{
 			prop: 'career',
 			title: '職業',
+			multi: true,
 			values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', ],
 		}, {
 			prop: 'prop',
 			title: '屬相',
+			multi: true,
 			values: ['炎', '雷', '冰', '光', '暗', '幽'],
 		},
 	];
-	let gen_filter_selector = (prop, value) => `[data-${prop}*="${value}"]`;
-
 
 	$: search_kwd = '';
 	function search_cb(kwd) {
@@ -57,7 +57,6 @@
 	<Filter
 		filter_cates={filter_cates}
 		item_class=".row"
-		gen_selector={gen_filter_selector}
 		placeholder="過濾說明"
 		search_cb={search_cb}
 	/>
