@@ -98,7 +98,7 @@ if (dev_mode) {
 	// parse role's details
 	roles_data = raw_data.roles.rawdata || [];
 	raw_data.role_deatil.rawdata = await Promise.all(
-		roles_data.slice(0).map((i) => fetch_role_detail(i))
+		roles_data.slice(0).map((i) => fetch_role_detail(i)),
 	);
 	outputJSON({
 		json: raw_data.role_deatil.rawdata,

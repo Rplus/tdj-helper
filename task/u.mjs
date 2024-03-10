@@ -29,7 +29,7 @@ export function writeFile(fileName = '', fileContent = '', cn2tw = false) {
 	fs.writeFileSync(fileName, fileContent);
 	console.log(
 		'\x1b[46m%s\x1b[0m',
-		`Data saved as ${fileName}! ( ${fileContent.length / 1000} kb )`
+		`Data saved as ${fileName}! ( ${fileContent.length / 1000} kb )`,
 	);
 }
 

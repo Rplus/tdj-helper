@@ -2,10 +2,6 @@
 import date from '$lib/data/latest-fetch-time.txt?raw';
 export let refs = [];
 export let show_time = true;
-
-let a = 3 > 4
-	? 1
-	: 2;
 </script>
 
 <!-- -->

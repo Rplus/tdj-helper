@@ -5,6 +5,8 @@ export let placeholder = '過濾名稱';
 export let gen_selector = (prop, value, multi) => `[data-${prop}${multi ? '*' : ''}="${value}"]`;
 export let search_cb = null;
 
+import { browser } from '$app/environment';
+
 // ### filter_cates sample
 // # TODO: values contain (value, title)?
 // [
@@ -29,7 +31,7 @@ const query_param = 'query';
 
 let filters = init_filters();
 let search_kwd = '';
-let input_value = new URLSearchParams(location.search).get(query_param) || '';
+let input_value = browser && new URLSearchParams(location.search).get(query_param) || '';
 let is_composing = false;
 
 $: filter_style = `<style>${gen_filter_style(filters)}</style>`;
@@ -90,13 +92,13 @@ function gen_filter_style(_filters) {
 			// ? intersection set rule, group later
 			if (cate.multi && cate.is_cap) {
 				return checked_props.map((i) =>
-					gen_not_selector(gen_selector(i.prop, i.value, cate.multi))
+					gen_not_selector(gen_selector(i.prop, i.value, cate.multi)),
 				);
 			}
 
 			// : union set rule, group same-prop selectors first
 			return gen_not_selector(
-				checked_props.map((i) => gen_selector(i.prop, i.value, cate.multi)).join()
+				checked_props.map((i) => gen_selector(i.prop, i.value, cate.multi)).join(),
 			);
 		})
 		.flat()
