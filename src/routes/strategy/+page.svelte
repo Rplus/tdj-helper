@@ -12,8 +12,9 @@ let filter_cates = [
 		prop: 'prop',
 		title: '職業',
 		multi: true,
-		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', ],
-	}, {
+		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'],
+	},
+	{
 		prop: 'prop',
 		title: '屬相',
 		multi: true,
@@ -39,33 +40,26 @@ let refs = [
 		title: 'Official (zh-tw)',
 		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
 		target: '_officail_tw',
-	}, {
+	},
+	{
 		title: 'Official (zh-cn)',
 		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
 		target: '_officail_cn',
 	},
 ];
-
 </script>
 
-
-
 <div class="workspace">
-
 	<Header parent_path="/strategy" title="戰陣圖鑑" />
 
-	<Filter
-		filter_cates={filter_cates}
-		item_class=".row"
-		placeholder="過濾說明"
-		search_cb={search_cb}
-	/>
+	<Filter {filter_cates} item_class=".row" placeholder="過濾說明" {search_cb} />
 
-	<hr>
+	<hr />
 
 	{#each strategy_data as strategy (strategy.name)}
-		<div class="row flex"
-			data-prop={strategy.members.map(i => !i.img && i.name).filter(Boolean)}
+		<div
+			class="row flex"
+			data-prop={strategy.members.map((i) => !i.img && i.name).filter(Boolean)}
 			data-search={strategy.desc_html}
 			id={strategy.name}
 		>
@@ -73,32 +67,18 @@ let refs = [
 				<Item member={strategy} />
 
 				{#each strategy.members as member}
-					<Item member={member} />
+					<Item {member} />
 				{/each}
 			</div>
 
 			<div class="info">{@html gen_desc(strategy.desc_html, search_kwd)}</div>
 		</div>
-
 	{/each}
 
-
-	<Footer refs={refs} />
-
+	<Footer {refs} />
 </div>
 
-
-
 <style>
-.workspace {
-	padding: .5em;
-	justify-content: center;
-	min-height: 100vh;
-	margin: 0 auto;
-	max-width: 50em;
-	align-content: stretch;
-}
-
 .row {
 	margin-bottom: 1.5em;
 
@@ -112,9 +92,9 @@ let refs = [
 }
 
 .members {
-	gap: .5em;
+	gap: 0.5em;
 	align-items: flex-start;
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	text-align: center;
 }
 
@@ -130,9 +110,9 @@ let refs = [
 
 	@media (max-width: 700px) {
 		max-width: unset;
-		padding-left: .5em;
+		padding-left: 0.5em;
 		margin-left: 1.5em;
-		border-left: .25em solid #9993;
+		border-left: 0.25em solid #9993;
 	}
 }
 

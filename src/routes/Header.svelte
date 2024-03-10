@@ -5,23 +5,23 @@ import { link } from '$lib/u.js';
 
 let pages = [
 	{
-		path: '/',
+		path: link('/'),
 		title: '../',
 	},
 	{
-		path: '/info',
+		path: link('/info'),
 		title: 'Info',
 	},
 	{
-		path: '/role',
+		path: link('/role'),
 		title: '英靈',
 	},
 	{
-		path: '/strategy',
+		path: link('/strategy'),
 		title: '戰陣',
 	},
 	{
-		path: '/ornament',
+		path: link('/ornament'),
 		title: '飾品',
 	},
 ];
@@ -32,7 +32,7 @@ let pages = [
 		<ul>
 			{#each pages as _page}
 				<li aria-current={$page.url.pathname === _page.path ? 'page' : undefined}>
-					<a href={link(_page.path)}>{_page.title}</a>
+					<a href={_page.path}>{_page.title}</a>
 				</li>
 			{/each}
 		</ul>
@@ -42,5 +42,9 @@ let pages = [
 <style>
 li[aria-current='page'] {
 	list-style: circle;
+}
+
+nav {
+	position: absolute;
 }
 </style>

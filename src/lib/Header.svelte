@@ -1,20 +1,22 @@
 <script>
-export let parent_path = '../';
+export let parent_path = '/';
 export let title = '';
 import { link } from '$lib/u.js';
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>{title} :: 天地劫M ::</title>
 	<meta name="description" content={title} />
 </svelte:head>
 
 <h1>
-	<a href={link(parent_path)} title="back">../</a>
-	<ruby>
-		{title}
-		<rt>天地劫M</rt>
-	</ruby>
+	<slot>
+		<a href={link(parent_path)} title="back">../</a>
+		<ruby>
+			{title}
+			<rt>天地劫M</rt>
+		</ruby>
+	</slot>
 </h1>
 
 <style>

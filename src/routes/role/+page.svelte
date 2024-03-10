@@ -76,25 +76,6 @@ let refs = [
 <Footer {refs} />
 
 <style>
-.workspace {
-	min-height: 100vh;
-	margin: 0 auto;
-	max-width: 50em;
-	/*
-	@media (max-width: 700px) {
-		& .role > div:nth-child(4),
-		& .role > div:nth-child(6),
-		& .role > div:nth-child(7) {
-			display: none;
-		}
-
-		& .list {
-			grid-template-columns: max(140px, 30vw) repeat(3, 1fr);
-		}
-	}
-	*/
-}
-
 .list {
 	display: grid;
 	grid-template-columns: 2fr repeat(6, 1fr);

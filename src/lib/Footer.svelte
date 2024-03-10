@@ -15,7 +15,7 @@ export let show_time = true;
 		<time class="update-time">{date}</time>
 	{/if}
 
-	<slot name="footer" />
+	<slot />
 
 	{#if refs?.length}
 		<ul>

@@ -8,7 +8,7 @@
 	--link-color: rgb(0, 100, 200);
 	--link-visited-color: rgb(0, 80, 160);
 
-	& body.dark-theme {
+	&.dark-theme {
 		color-scheme: dark;
 
 		--main-color: #fff;

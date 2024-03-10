@@ -33,17 +33,16 @@ export let type = 'list';
 	justify-content: flex-start;
 	font-size: smaller;
 	position: relative;
-	padding: .25em;
+	padding: 0.25em;
 	margin-inline-start: 2.5em;
 
 	&::before {
 		content: attr(title) ':';
 		position: absolute;
 		right: 100%;
-		padding-inline-end: .25em;
-		opacity: .5;
+		padding-inline-end: 0.25em;
+		opacity: 0.5;
 		white-space: nowrap;
 	}
 }
-
 </style>

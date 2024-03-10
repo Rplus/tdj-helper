@@ -1,27 +1,83 @@
 <script>
+import Header from '$lib/Header.svelte';
+import { link } from '$lib/u.js';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
+<Header title="天地劫M工具集 by Rplus">
+	天地劫M 工具集
+	<span class="subtitle">by Rplus</span>
+</Header>
 
 <section>
-	<h1>
-		to your new<br />SvelteKit app
-	</h1>
+	<fieldset>
+		<legend>分享 / 集成</legend>
+		<ul>
+			<li>
+				<a href={link('/guild-war')}>閣戰打野陣容撿選</a>
+			</li>
+
+			<li>
+				<a href={link('/naihe')}>三途川選擇</a>
+			</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+		<legend>檢索</legend>
+		<ul>
+			<li>
+				<a href={link('/role')}>英靈圖鑑</a>
+			</li>
+
+			<li>
+				<a href={link('/strategy')}>戰陣圖鑑</a>
+			</li>
+
+			<li>
+				<a href={link('/ornament')}>飾品圖鑑</a>
+			</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+		<legend>模擬 / 評估</legend>
+		<ul>
+			<li>
+				<a href={link('/multi-guarder')}>多重護衛優先級判定模擬</a>
+			</li>
+			<li>
+				<a href={link('/pick-and-put')}>範圍取放順序</a>
+			</li>
+
+			<li>
+				<a href={link('/weapon')}>淬火需求</a>
+			</li>
+			<li>
+				<a href={link('/runes')}>魂石評估工具</a>
+			</li>
+		</ul>
+	</fieldset>
 </section>
 
 <style>
-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	flex: 0.6;
+.subtitle {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 0.65em;
+	opacity: 0.5;
 }
 
-h1 {
-	width: 100%;
+section {
+	max-width: 25em;
+	margin: 0 auto;
+}
+
+fieldset {
+	margin-bottom: 1em;
+	border-color: #ccc6;
+}
+
+fieldset li {
+	margin-bottom: 0.5em;
 }
 </style>

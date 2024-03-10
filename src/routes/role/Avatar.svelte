@@ -1,7 +1,7 @@
 <script>
 export let role;
 
-import { link } from '$lib/u.js';
+import { link, resize_img } from '$lib/u.js';
 import strategy_data from '$lib/data/strategy.min.json';
 
 import Icon from './Icon.svelte';
@@ -34,10 +34,6 @@ function get_strategy(strategy) {
 function get_img(type, name, size) {
 	let src = `https://media.zlongame.com/media/news/cn/tdj/info/data/${type}/${name}.png`;
 	return resize_img(src, size);
-}
-
-function resize_img(url, size = 128) {
-	return `https://wsrv.nl/?&w=${size}&h=${size}&we&il&output=webp&url=${url}`;
 }
 </script>
 

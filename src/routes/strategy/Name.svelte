@@ -1,17 +1,15 @@
 <script>
-	export let name = '';
-	export let href = '';
+export let name = '';
+export let href = '';
 
-	import { link } from '$lib/u.js';
+import { link } from '$lib/u.js';
 
-	$: name_split = name.match(/(·)?.{1,2}/g);
+$: name_split = name.match(/(·)?.{1,2}/g);
 </script>
-
-
 
 <span class="name">
 	{#if href}
-		<a href={href}>
+		<a {href}>
 			{#each name_split as n}
 				<span class="inline-block">{n}</span>
 			{/each}
@@ -23,11 +21,9 @@
 	{/if}
 </span>
 
-
-
 <style>
-	.name {
-		font-size: .85rem;
-		line-height: 1.1;
-	}
+.name {
+	font-size: 0.85rem;
+	line-height: 1.1;
+}
 </style>

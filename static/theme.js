@@ -31,7 +31,7 @@
 	dark_mode_preference.addEventListener('change', handle_change);
 
 	function toggle_dark_theme(status = false) {
-		document.body.classList.toggle('dark-theme', status);
+		document.documentElement.classList.toggle('dark-theme', status);
 		saveItem({ key: 'dark-theme', value: +status });
 	}
 
@@ -48,13 +48,9 @@
 	// btn
 	let btn = document.createElement('button');
 	btn.textContent = '🌙';
-	btn.style = `
-		position: absolute;
-		top: .5em;
-		right: .5em;
-		background-color: #0000;
-		border: none;`;
-
+	btn.style = `position: absolute; top: .5em; right: .5em; z-index: 10; background-color: #0000; border: none;`;
 	btn.onclick = handle_click;
-	document.body.append(btn);
+	document.addEventListener('DOMContentLoaded', () => {
+		document.body.append(btn);
+	});
 })();

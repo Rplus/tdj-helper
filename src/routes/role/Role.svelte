@@ -22,12 +22,7 @@ let order_style = Object.keys(data.status)
 	<Avatar role={data} />
 
 	{#each max_status as status}
-		<NumberBar
-			number={data.status[status.prop]}
-			max={status.max}
-			label={status.label}
-			type={type}
-		/>
+		<NumberBar number={data.status[status.prop]} max={status.max} label={status.label} {type} />
 	{/each}
 </div>
 
@@ -60,5 +55,4 @@ let order_style = Object.keys(data.status)
 	padding-top: 2em;
 	margin-top: -2em;
 }
-
 </style>
