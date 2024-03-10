@@ -1,26 +1,146 @@
-<svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
-</svelte:head>
+<script>
+import { strategy_data } from './strategy.js';
 
-<div class="text-column">
-	<h1>About this app</h1>
+import Filter from '$lib//Filter.svelte';
+import Header from '$lib/Header.svelte';
+import Footer from '$lib/Footer.svelte';
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+import Item from './Item.svelte';
 
-	<pre>npm create svelte@latest</pre>
+let filter_cates = [
+	{
+		prop: 'prop',
+		title: '職業',
+		multi: true,
+		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', ],
+	}, {
+		prop: 'prop',
+		title: '屬相',
+		multi: true,
+		values: ['炎', '雷', '冰', '光', '暗', '幽'],
+	},
+];
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
+$: search_kwd = '';
+function search_cb(kwd) {
+	search_kwd = kwd;
+}
 
-	<p>
-		<!-- The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try -->
-		using it with JavaScript disabled!
-	</p>
+function gen_desc(str = '') {
+	if (search_kwd.length) {
+		let reg = new RegExp(`(${search_kwd})`, 'g');
+		return str.replace(reg, `<mark>$1</mark>`);
+	}
+	return str;
+}
+
+let refs = [
+	{
+		title: 'Official (zh-tw)',
+		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
+		target: '_officail_tw',
+	}, {
+		title: 'Official (zh-cn)',
+		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
+		target: '_officail_cn',
+	},
+];
+
+</script>
+
+
+
+<div class="workspace">
+
+	<Header parent_path="/strategy" title="戰陣圖鑑" />
+
+	<Filter
+		filter_cates={filter_cates}
+		item_class=".row"
+		placeholder="過濾說明"
+		search_cb={search_cb}
+	/>
+
+	<hr>
+
+	{#each strategy_data as strategy (strategy.name)}
+		<div class="row flex"
+			data-prop={strategy.members.map(i => !i.img && i.name).filter(Boolean)}
+			data-search={strategy.desc_html}
+			id={strategy.name}
+		>
+			<div class="members flex">
+				<Item member={strategy} />
+
+				{#each strategy.members as member}
+					<Item member={member} />
+				{/each}
+			</div>
+
+			<div class="info">{@html gen_desc(strategy.desc_html, search_kwd)}</div>
+		</div>
+
+	{/each}
+
+
+	<Footer refs={refs} />
+
 </div>
+
+
+
+<style>
+.workspace {
+	padding: .5em;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	max-width: 50em;
+	align-content: stretch;
+}
+
+.row {
+	margin-bottom: 1.5em;
+
+	@media (max-width: 700px) {
+		flex-wrap: wrap;
+	}
+
+	& > div:first-child {
+		margin-right: 1em;
+	}
+}
+
+.members {
+	gap: .5em;
+	align-items: flex-start;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+.info {
+	max-width: 22em;
+	margin-bottom: 1em;
+	align-self: flex-start;
+	white-space: pre-wrap;
+
+	&::first-line {
+		color: #999c;
+	}
+
+	@media (max-width: 700px) {
+		max-width: unset;
+		padding-left: .5em;
+		margin-left: 1.5em;
+		border-left: .25em solid #9993;
+	}
+}
+
+hr {
+	margin: 2em 0;
+}
+
+h1 {
+	text-align: center;
+}
+</style>

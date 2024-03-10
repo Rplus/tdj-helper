@@ -1,6 +1,7 @@
 <script>
 import { page } from '$app/stores';
 import { base } from '$app/paths';
+import { link } from '$lib/u.js';
 
 let pages = [
 	{
@@ -8,16 +9,20 @@ let pages = [
 		title: '../',
 	},
 	{
-		path: '/about',
-		title: 'About',
+		path: '/info',
+		title: 'Info',
 	},
 	{
 		path: '/role',
-		title: '角色',
+		title: '英靈',
 	},
 	{
 		path: '/strategy',
 		title: '戰陣',
+	},
+	{
+		path: '/ornament',
+		title: '飾品',
 	},
 ];
 </script>
@@ -27,7 +32,7 @@ let pages = [
 		<ul>
 			{#each pages as _page}
 				<li aria-current={$page.url.pathname === _page.path ? 'page' : undefined}>
-					<a href="{base}{_page.path}">{_page.title}</a>
+					<a href={link(_page.path)}>{_page.title}</a>
 				</li>
 			{/each}
 		</ul>

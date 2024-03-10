@@ -1,59 +1,66 @@
 <script>
-	export let role;
-	import Icon from './Icon.svelte';
+export let role;
 
-	import strategy_data from '$lib/data/strategy.min.json';
+import { link } from '$lib/u.js';
+import strategy_data from '$lib/data/strategy.min.json';
 
-	$: img = get_img('heroicon', role.hero_icon);
+import Icon from './Icon.svelte';
 
-	$: strategy = get_strategy(role.strategy);
+$: img = get_img('heroicon', role.hero_icon);
 
-	$: links = [
-		role.pinyin_tw ? `https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin_tw}%22}` : null, // official tw
-		`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin}%22}`, // official cn
-		`https://wiki.biligame.com/tdj/${role.path}`, // bwiki
-	];
+$: strategy = get_strategy(role.strategy);
 
-	function get_strategy(strategy) {
-		if (!strategy) {
-			return null;
-		}
-		let _strategy = strategy_data.find(i => i.name === role.strategy);
-		if (_strategy) {
-			return {
-				name: _strategy.name,
-				img: get_img('strategy', _strategy.img),
-			};
-		}
+$: links = [
+	role.pinyin_tw
+		? `https://www.game-beans.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin_tw}%22}`
+		: null, // official tw
+	`https://www.zlongame.com/userinfo/tdj/index.html?customparams={%22hero%22:%22${role.pinyin}%22}`, // official cn
+	`https://wiki.biligame.com/tdj/${role.path}`, // bwiki
+];
+
+function get_strategy(strategy) {
+	if (!strategy) {
+		return null;
 	}
-
-	function get_img(type, name, size) {
-		let src = `https://media.zlongame.com/media/news/cn/tdj/info/data/${type}/${name}.png`;
-		return resize_img(src, size);
+	let _strategy = strategy_data.find((i) => i.name === role.strategy);
+	if (_strategy) {
+		return {
+			name: _strategy.name,
+			img: get_img('strategy', _strategy.img),
+		};
 	}
+}
 
-	function resize_img(url, size = 128) {
-		return `https://wsrv.nl/?&w=${size}&h=${size}&we&il&output=webp&url=${url}`;
-	}
+function get_img(type, name, size) {
+	let src = `https://media.zlongame.com/media/news/cn/tdj/info/data/${type}/${name}.png`;
+	return resize_img(src, size);
+}
 
+function resize_img(url, size = 128) {
+	return `https://wsrv.nl/?&w=${size}&h=${size}&we&il&output=webp&url=${url}`;
+}
 </script>
 
-
-
 <div class="box">
-
 	<div class="pic">
-		<Icon role={role} />
+		<Icon {role} />
 
-		<img class="avatar"
-			width="50" height="50"
-			loading="lazy" decording="async"
-			src={img}
-			alt={role.name}
-		/>
+		<a href={link(`/role/${role.name}`)}>
+			<img
+				class="avatar"
+				width="50"
+				height="50"
+				loading="lazy"
+				decording="async"
+				src={img}
+				alt={role.name}
+			/>
+		</a>
 
 		{#if strategy}
-			<a href="../strategy/#{strategy.name}" class="strategy"
+			<a
+				href={link(`/strategy/#${strategy.name}`)}
+				class="strategy"
 				title={strategy.name}
 				style="background-image: url('{strategy.img}')"
 			>
@@ -75,79 +82,77 @@
 			</a>
 		</div>
 	</div>
-
 </div>
 
 <style>
-	.box {
-		text-align: center;
-		display: flex;
-		gap: .5em;
-		flex-direction: column;
-		align-items: center;
+.box {
+	text-align: center;
+	display: flex;
+	gap: 0.5em;
+	flex-direction: column;
+	align-items: center;
 
-		@media (min-width: 700px) {
-			flex-direction: row;
-		}
+	@media (min-width: 700px) {
+		flex-direction: row;
 	}
+}
 
-	.pic {
-		position: relative;
-		width: fit-content;
+.pic {
+	position: relative;
+	width: fit-content;
 
-		& .icon {
-			position: absolute;
-			left: -45%;
-			top: -35%;
-			opacity: 0.8;
-			transform: scale(.6);
-		}
-	}
-
-	.avatar {
-		display: block;
-		border-radius: 50%;
-		box-shadow: 1px 1px 3px 1px #3339;
-	}
-
-	a:not(:hover) {
-		text-decoration: none;
-	}
-
-	.strategy {
+	& .icon {
 		position: absolute;
-		right: -15%;
-		bottom: -15%;
-		z-index: 2;
-		width: 24px;
-		height: 24px;
-		background-size: contain;
-		box-shadow: 1px 1px 2px #3339;
-		border-radius: 50%;
-		overflow: hidden;
-
-		&:hover {
-			bottom: calc(-15% + 1px);
-		}
+		left: -45%;
+		top: -35%;
+		opacity: 0.8;
+		transform: scale(0.6);
 	}
+}
 
-	.links {
-		position: absolute;
-		background-color: var(--main-bgc);
-		white-space: nowrap;
-		text-align: start;
-		visibility: hidden;
-		z-index: 1;
-		opacity: .75;
+.avatar {
+	display: block;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px 1px #3339;
+}
+
+a:not(:hover) {
+	text-decoration: none;
+}
+
+.strategy {
+	position: absolute;
+	right: -15%;
+	bottom: -15%;
+	z-index: 2;
+	width: 24px;
+	height: 24px;
+	background-size: contain;
+	box-shadow: 1px 1px 2px #3339;
+	border-radius: 50%;
+	overflow: hidden;
+
+	&:hover {
+		bottom: calc(-15% + 1px);
 	}
-	.pic:hover + .name .links, /* TODO: click pic to show more role details */
+}
+
+.links {
+	position: absolute;
+	background-color: var(--main-bgc);
+	white-space: nowrap;
+	text-align: start;
+	visibility: hidden;
+	z-index: 1;
+	opacity: 0.75;
+}
+.pic:hover + .name .links, /* TODO: click pic to show more role details */
 	.name:hover .links,
 	.name:focus-within .links {
-		visibility: visible;
-	}
+	visibility: visible;
+}
 
-	.links a {
-		display: block;
-	}
-
+.links a {
+	display: block;
+}
 </style>

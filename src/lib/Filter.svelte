@@ -31,7 +31,7 @@ const query_param = 'query';
 
 let filters = init_filters();
 let search_kwd = '';
-let input_value = browser && new URLSearchParams(location.search).get(query_param) || '';
+let input_value = (browser && new URLSearchParams(location.search).get(query_param)) || '';
 let is_composing = false;
 
 $: filter_style = `<style>${gen_filter_style(filters)}</style>`;

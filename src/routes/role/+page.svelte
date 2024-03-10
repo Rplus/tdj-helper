@@ -1,31 +1,12 @@
 <script>
-import { setContext } from 'svelte';
-
 import roles_data from '$lib/data/roles.min.json';
 
 import Filter from './Filter.svelte';
 import Role from './Role.svelte';
+import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 
-setContext('icon_folder', import.meta.env.BASE_URL + 'icon');
-let status_props = [
-		{ max: 0, label: '氣血', prop: 'hp', },
-		{ max: 0, label: '物攻', prop: 'atk_phy', },
-		{ max: 0, label: '物防', prop: 'def_phy', },
-		{ max: 0, label: '法攻', prop: 'atk_mag', },
-		{ max: 0, label: '法防', prop: 'def_mag', },
-		{ max: 0, label: '會心', prop: 'crit', },
-	];
-
-	let max_status = roles_data.reduce((props, role) => {
-		for (let item of props) {
-			if (role.status[item.prop] > item.max) {
-				item.max = role.status[item.prop];
-			}
-		}
-		return props;
-	}, status_props);
-
+import { status_props, max_status } from './role.js';
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -63,33 +44,20 @@ let refs = [
 ];
 </script>
 
-<svelte:head>
-	<title>Roles</title>
-	<meta name="description" content="Roles" />
-</svelte:head>
-
 <div class="workspace">
-	<h1>
-		<a href="../" title="back">../</a>
-		<ruby>
-			英靈圖鑑
-			<rt>天地劫M</rt>
-		</ruby>
-	</h1>
+	<Header parent_path="../" title="英靈圖鑑" />
 
 	<Filter />
 
-	<hr>
+	<hr />
 
 	{@html sort_style}
 	<div class="list">
-
-		<div class="role role-head">
-			<div class="name text-center" on:click={() => sort_by_prop()}>
-				名
-			</div>
+		<div class="role role-head type-list">
+			<div class="name text-center" on:click={() => sort_by_prop()}>名</div>
 			{#each status_props as prop}
-				<div class="role-sort-btn text-right"
+				<div
+					class="role-sort-btn text-right"
 					data-dir={sort_dir}
 					class:active={prop.prop === sort_prop}
 					on:click={() => sort_by_prop(prop.prop)}
@@ -100,18 +68,12 @@ let refs = [
 		</div>
 
 		{#each roles_data as role (role.pinyin)}
-			<Role
-				data={role}
-				max_status={max_status}
-			/>
+			<Role data={role} type="list" />
 		{/each}
-
 	</div>
-
 </div>
 
 <Footer {refs} />
-
 
 <style>
 .workspace {
@@ -132,11 +94,6 @@ let refs = [
 	}
 	*/
 }
-h1 {
-	text-align: center;
-	padding-bottom: 0.5em;
-	border-bottom: 1px dotted #0003;
-}
 
 .list {
 	display: grid;
@@ -152,8 +109,8 @@ h1 {
 	top: 0;
 	z-index: 10;
 	margin: 0;
-	padding-top: .25em;
-	padding-bottom: .5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.5em;
 	background-color: var(--main-bgc);
 	mask-image: linear-gradient(#000 60%, #0000);
 	font-weight: 900;
@@ -166,12 +123,12 @@ h1 {
 	display: inline-flex;
 	align-items: center;
 	justify-content: flex-end;
-	gap: .25em;
+	gap: 0.25em;
 
 	&::before {
 		font-family: monospace;
 		font-size: smaller;
-		opacity: .5;
+		opacity: 0.5;
 	}
 }
 .role-sort-btn.active,
@@ -179,8 +136,11 @@ h1 {
 	background-color: #ff03;
 }
 .role-sort-btn.active {
-	&[data-dir="-1"]::before { content: '▼'; }
-	&[data-dir="1"]::before { content: '▲'; }
+	&[data-dir='-1']::before {
+		content: '▼';
+	}
+	&[data-dir='1']::before {
+		content: '▲';
+	}
 }
-
 </style>

@@ -1,36 +1,38 @@
-(function() {
+(function () {
 	const STORAGE_KEY = 'TDJ-HELPER';
 	function saveItem(data) {
-		if (!data || !data.key) { return false;}
+		if (!data || !data.key) {
+			return false;
+		}
 		let odata = getItem() || {};
 
 		odata[data.key] = data.value;
 		localStorage.setItem(STORAGE_KEY, JSON.stringify(odata));
-	};
+	}
 
 	function getItem(key) {
 		let data = localStorage.getItem(STORAGE_KEY);
-		if (!data) { return null; }
+		if (!data) {
+			return null;
+		}
 		data = JSON.parse(data);
 
 		return key ? data[key] : data;
-	};
+	}
 
 	const dark_mode_preference = window.matchMedia('(prefers-color-scheme: dark)');
 
 	let cached_dark_theme = getItem('dark-theme');
 
-	let is_dark_theme = (cached_dark_theme !== undefined)
-		? cached_dark_theme
-		: dark_mode_preference.matches;
+	let is_dark_theme =
+		cached_dark_theme !== undefined ? cached_dark_theme : dark_mode_preference.matches;
 
 	toggle_dark_theme(is_dark_theme);
 	dark_mode_preference.addEventListener('change', handle_change);
 
-
 	function toggle_dark_theme(status = false) {
 		document.body.classList.toggle('dark-theme', status);
-		saveItem({key: 'dark-theme', value: +status, });
+		saveItem({ key: 'dark-theme', value: +status });
 	}
 
 	function handle_change(e) {
@@ -55,5 +57,4 @@
 
 	btn.onclick = handle_click;
 	document.body.append(btn);
-
 })();

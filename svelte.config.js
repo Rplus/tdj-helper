@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 
+console.log(111, process.env.BASE_URL);
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -10,7 +11,8 @@ const config = {
 			fallback: '404.html',
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_URL,
+			base: '/tdj-helper',
+			// base: process.argv.includes('dev') ? '' : process.env.BASE_URL,
 		},
 		alias: {
 			// '$data': '/src/lib/data',
