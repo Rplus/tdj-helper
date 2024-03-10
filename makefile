@@ -1,33 +1,25 @@
-fetch:
-	node ./tasks/fetch-tdj-data.mjs -- dev=1;
-
-print-date:
-	date +%FT%T%:::z > './data/latest-fetch-time.txt';
-
-fetch-new: print-date
-	node ./tasks/fetch-tdj-data.mjs -- dev=0;
-
-parse-biliwiki:
-	node ./tasks/fetch-roles.mjs;
+.PHONY: build
 
 dev:
 	pnpm run dev;
 
+build:
+	pnpm run build;
+
 preview: build
 	pnpm run preview;
 
-deploy: build
-	pnpm run deploy;
+check:
+	pnpm run check;
 
-build:
-	pnpm run build;
+lint:
+	pnpm run lint;
+
+format:
+	pnpm run format;
 
 init:
 	pnpm install;
 
-# update-data: fetch cn2tw
-# 	echo 'DONE';
-
-# cn2tw:
-# 	opencc -c 's2tw.json' -i './task/icons.json' -o './task/icons.tw.json';
-# 	opencc -c 's2tw.json' -i './task/roles.json' -o './task/roles.tw.json';
+print-date:
+	date +%FT%T%:::z > './src/lib/data/latest-fetch-time.txt';
