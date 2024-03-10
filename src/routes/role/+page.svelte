@@ -45,7 +45,7 @@ let refs = [
 </script>
 
 <div class="workspace">
-	<Header parent_path="../" title="英靈圖鑑" />
+	<Header title="英靈圖鑑" />
 
 	<Filter />
 

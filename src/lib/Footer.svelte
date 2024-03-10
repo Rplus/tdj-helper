@@ -1,7 +1,7 @@
 <script>
 import date from '$lib/data/latest-fetch-time.txt?raw';
 export let refs = [];
-export let show_time = true;
+export let time = true;
 </script>
 
 <!-- -->
@@ -11,8 +11,8 @@ export let show_time = true;
 <hr />
 
 <footer class="footer">
-	{#if show_time}
-		<time class="update-time">{date}</time>
+	{#if time}
+		<time class="update-time">{time === true ? date : time}</time>
 	{/if}
 
 	<slot />

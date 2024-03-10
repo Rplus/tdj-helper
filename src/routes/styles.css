@@ -153,3 +153,7 @@ form.form {
 		border-color: #ccc6;
 	}
 }
+
+[hidden] {
+	display: none !important;
+}
