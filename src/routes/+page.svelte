@@ -50,7 +50,7 @@ import { link } from '$lib/u.js';
 			</li>
 
 			<li>
-				<a href={link('/weapon')}>淬火需求</a>
+				<a href={link('/material')}>淬火需求</a>
 			</li>
 			<li>
 				<a href={link('/runes')}>魂石評估工具</a>
