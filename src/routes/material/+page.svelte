@@ -1,18 +1,9 @@
 <script>
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
-import { produce, cost, } from './data.js';
+import { produce, cost } from './data.js';
 
-const names = [
-  '**之鐵',
-  '**之銅',
-  '**之銀',
-  '**之精',
-  '一階絕',
-  '二階絕',
-  '七階材',
-  '💰'
-];
+const names = ['**之鐵', '**之銅', '**之銀', '**之精', '一階絕', '二階絕', '七階材', '💰'];
 
 let lv1 = 1;
 let lv2 = 70;
@@ -25,7 +16,6 @@ function calc(lv1, lv2) {
 	return names.map((name, index) => `${name} x${sum[index] || 0}`).join('\n');
 }
 
-
 let refs = [
 	{
 		title: '淬火及身五內百科 | NGA',
@@ -34,7 +24,6 @@ let refs = [
 	},
 ];
 </script>
-
 
 <div class="workspace">
 	<Header title="淬火需求" />
@@ -49,7 +38,7 @@ let refs = [
 		<textarea rows="8">{output}</textarea>
 	</form>
 
-	<hr>
+	<hr />
 
 	<table class="text-right">
 		<thead>
@@ -74,10 +63,8 @@ let refs = [
 		</tbody>
 	</table>
 
-	<Footer refs={refs} time={false} />
-
+	<Footer {refs} time={false} />
 </div>
-
 
 <style>
 .workspace {
@@ -96,7 +83,7 @@ table {
 
 td:not(:last-child):empty::before {
 	content: '-';
-	opacity: .35;
+	opacity: 0.35;
 }
 
 td,
