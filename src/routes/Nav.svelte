@@ -7,7 +7,7 @@ import { link } from '$lib/u.js';
 let pages = [
 	{
 		path: link('/'),
-		title: '../',
+		title: '⮌',
 	},
 	// {
 	// 	path: link('/info'),
@@ -52,8 +52,9 @@ details {
 	border-radius: 0.25em;
 	background-color: var(--main-bgc);
 	position: sticky;
+	line-height: 1.3;
 	z-index: 10;
-	border-color: color-mix(in srgb, var(--main-color) 30%, #0000);
+	color: color-mix(in srgb, var(--main-color) 40%, #0000);
 }
 
 summary {
