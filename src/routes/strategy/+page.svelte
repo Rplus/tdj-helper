@@ -50,7 +50,7 @@ let refs = [
 </script>
 
 <div class="workspace">
-	<Header parent_path="/strategy" title="戰陣圖鑑" />
+	<Header title="戰陣圖鑑" />
 
 	<Filter {filter_cates} item_class=".row" placeholder="過濾說明" {search_cb} />
 
