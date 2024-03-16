@@ -63,7 +63,7 @@ $: {
 	guarders;
 	attackee;
 	gridSize;
-	guarders.forEach(guarder => {
+	guarders.forEach((guarder) => {
 		guarder.distance2T = Math.abs(guarder.y - attackee.y) + Math.abs(guarder.x - attackee.x);
 	});
 	updateGuarders();
@@ -94,8 +94,10 @@ function findNearestGuardersToAttackee() {
 	let guarderGroupByDistanceToTarget = [];
 	let minest = gridSize * 2;
 
-	guarders.forEach(g => {
-		if (g.range < g.distance2T) { return null; }
+	guarders.forEach((g) => {
+		if (g.range < g.distance2T) {
+			return null;
+		}
 
 		if (minest >= g.distance2T) {
 			minest = g.distance2T;
@@ -127,14 +129,13 @@ function findGuarder(atk_x, atk_y, passed1_guarders) {
 	// we just find those guarders have smaller distance to attacker than the first guarder.
 	// if there is no guarder, we could know: first guarder has the smallest distance to attacker.
 	// if there are guarders have smaller distance, we will choise the latest one guarder.
-	let _guarders = passed1_guarders
-		.filter((g, index) => {
-			g.distance2A = Math.abs(g.y - atk_y) + Math.abs(g.x - atk_x);
-			if (!index) {
-				firstGuarderDistance2A = g.distance2A;
-			}
-			return firstGuarderDistance2A > g.distance2A;
-		});
+	let _guarders = passed1_guarders.filter((g, index) => {
+		g.distance2A = Math.abs(g.y - atk_y) + Math.abs(g.x - atk_x);
+		if (!index) {
+			firstGuarderDistance2A = g.distance2A;
+		}
+		return firstGuarderDistance2A > g.distance2A;
+	});
 
 	if (!_guarders.length) {
 		return firstGuarder;
@@ -144,57 +145,55 @@ function findGuarder(atk_x, atk_y, passed1_guarders) {
 }
 
 let refs = [
-{
-	link: 'https://www.bilibili.com/video/BV1VB4y1y7fh/',
-	title: '「天地劫」多T护卫机制 详解 @ bilibili by u/墨_源',
-	target: '_blank',
-}
+	{
+		link: 'https://www.bilibili.com/video/BV1VB4y1y7fh/',
+		title: '「天地劫」多T护卫机制 详解 @ bilibili by u/墨_源',
+		target: '_blank',
+	},
 ];
 </script>
 
-
-
 <div class="workspace">
 	<Header title="多重護衛優先級判定模擬" />
-<div class="map-box">
-
-	<div class="map"
-		style="font-size: {width / gridSize}px; height: {width}px;"
-	  bind:clientWidth={width}
-	>
+	<div class="map-box">
 		<div
-			class="dot attackee"
-			data-title={attackee.title}
-			style="--x: {attackee.x}; --y: {attackee.y};"
-		/>
-
-		{#each attackers as a}
+			class="map"
+			style="font-size: {width / gridSize}px; height: {width}px;"
+			bind:clientWidth={width}
+		>
 			<div
-				class="dot--attacker"
-				data-title={a.title}
-				tabindex="0"
-				style="--x: {a.x}; --y: {a.y}; --bgc: {a.color}"
+				class="dot attackee"
+				data-title={attackee.title}
+				style="--x: {attackee.x}; --y: {attackee.y};"
 			/>
-		{/each}
 
-		{#each guarders as d}
-			<div
-				class="dot"
-				data-range={d.range}
-				data-title={d.title}
-				style="--x: {d.x}; --y: {d.y}; --bgc: {d.color}"
-			/>
-		{/each}
-	</div>
+			{#each attackers as a}
+				<div
+					class="dot--attacker"
+					data-title={a.title}
+					tabindex="0"
+					style="--x: {a.x}; --y: {a.y}; --bgc: {a.color}"
+				/>
+			{/each}
 
-	<div class="intro">
-圖中方格為攻擊者可站的位置<br>
-底色對應護衛單位
-<br>
-<br>
-<details open>
-	<summary>== 護衛優先級 說明 ==	</summary>
-<pre>
+			{#each guarders as d}
+				<div
+					class="dot"
+					data-range={d.range}
+					data-title={d.title}
+					style="--x: {d.x}; --y: {d.y}; --bgc: {d.color}"
+				/>
+			{/each}
+		</div>
+
+		<div class="intro">
+			圖中方格為攻擊者可站的位置<br />
+			底色對應護衛單位
+			<br />
+			<br />
+			<details open>
+				<summary>== 護衛優先級 說明 == </summary>
+				<pre>
 <u>規則一：判定各護衛與「被攻擊者」距離</u>
 離「被攻擊者」最近者，最優先護衛
 
@@ -210,99 +209,68 @@ let refs = [
   比坦X更近的那堆中，依倒序護衛
   (愈後上場者、護衛優先級愈高)
 </pre>
-</details>
-
-
-
+			</details>
+		</div>
+		<hr />
 	</div>
-	<hr>
-</div>
 
-<form>
-	<fieldset>
-		<legend>自訂區塊</legend>
+	<form>
+		<fieldset>
+			<legend>自訂區塊</legend>
 
-		<dl>
-			{#each guarders as guarder}
-				<dt>{guarder.title} - <small>護衛</small></dt>
+			<dl>
+				{#each guarders as guarder}
+					<dt>{guarder.title} - <small>護衛</small></dt>
+					<dd>
+						<label>
+							x:
+							<input type="number" bind:value={guarder.x} max={gridSize - 1} min="0" />
+						</label>
+					</dd>
+					<dd>
+						<label>
+							y:
+							<input type="number" bind:value={guarder.y} max={gridSize - 1} min="0" />
+						</label>
+					</dd>
+					<dd>
+						<label>
+							護衛範圍:
+							<input type="number" bind:value={guarder.range} max="3" min="0" />
+						</label>
+					</dd>
+					<dd>
+						<label>
+							顏色:
+							<input type="color" bind:value={guarder.color} />
+						</label>
+					</dd>
+				{/each}
+
+				<dt>{attackee.title} - <small>被攻擊目標</small></dt>
 				<dd>
 					<label>
 						x:
-						<input type="number"
-							bind:value={guarder.x}
-							max={gridSize - 1}
-							min="0"
-						/>
+						<input type="number" bind:value={attackee.x} max={gridSize - 1} min="0" />
 					</label>
 				</dd>
 				<dd>
 					<label>
 						y:
-						<input type="number"
-							bind:value={guarder.y}
-							max={gridSize - 1}
-							min="0"
-						/>
+						<input type="number" bind:value={attackee.y} max={gridSize - 1} min="0" />
 					</label>
 				</dd>
-				<dd>
-					<label>
-						護衛範圍:
-						<input type="number"
-							bind:value={guarder.range}
-							max="3"
-							min="0"
-						/>
-					</label>
-				</dd>
-				<dd>
-					<label>
-						顏色:
-						<input type="color"
-							bind:value={guarder.color}
-						/>
-					</label>
-				</dd>
-			{/each}
 
-			<dt>{attackee.title} - <small>被攻擊目標</small></dt>
-			<dd>
-				<label>
-					x:
-					<input type="number"
-						bind:value={attackee.x}
-						max={gridSize - 1}
-						min="0"
-					/>
-				</label>
-			</dd>
-			<dd>
-				<label>
-					y:
-					<input type="number"
-						bind:value={attackee.y}
-						max={gridSize - 1}
-						min="0"
-					/>
-				</label>
-			</dd>
-
-			<dt>
-				格子數:
-			</dt>
-			<dd>
-				<input type="number" bind:value={gridSize} min="4">
-			</dd>
-		</dl>
-	</fieldset>
-</form>
+				<dt>格子數:</dt>
+				<dd>
+					<input type="number" bind:value={gridSize} min="4" />
+				</dd>
+			</dl>
+		</fieldset>
+	</form>
 
 	<Footer {refs} />
-
 </div>
-
-
-
 
 <style>
 .workspace {
@@ -312,44 +280,29 @@ let refs = [
 	padding: 1em;
 	justify-content: center;
 	min-height: 100vh;
-  align-content: stretch;
+	align-content: stretch;
 }
 
 .map-box {
-  width: clamp(320px, 50%, 600px);
+	width: clamp(320px, 50%, 600px);
 }
 
 .map {
-  position: relative;
-  width: 100%;
-  box-shadow: inset 0 0 0 1px;
-  background: #eee;
-  background-image:
-    linear-gradient(to right, #0006, #0000 1px),
-    linear-gradient(to bottom, #0006, #0000 1px);
-  background-size: 1em 1em;
+	position: relative;
+	width: 100%;
+	box-shadow: inset 0 0 0 1px;
+	background: #eee;
+	background-image: linear-gradient(to right, #0006, #0000 1px),
+		linear-gradient(to bottom, #0006, #0000 1px);
+	background-size: 1em 1em;
 
-  --sd-0: inset 0 0 0 1em;
-  --sd-1:
-    -1em 0, 1em 0,
-    0 -1em, 0 1em,
-    var(--sd-0);
+	--sd-0: inset 0 0 0 1em;
+	--sd-1: -1em 0, 1em 0, 0 -1em, 0 1em, var(--sd-0);
 
-  --sd-2:
-    0 -2em, 0 2em,
-    -1em -1em, -1em 1em,
-    1em -1em, 1em 1em,
-    -2em 0, 2em 0,
-    var(--sd-1);
+	--sd-2: 0 -2em, 0 2em, -1em -1em, -1em 1em, 1em -1em, 1em 1em, -2em 0, 2em 0, var(--sd-1);
 
-  --sd-3:
-    0 -3em, 0 3em,
-    3em 0, -3em 0,
-    1em -2em, -1em -2em,
-    2em -1em, -2em -1em,
-    2em 1em, -2em 1em,
-    1em 2em, -1em 2em,
-    var(--sd-2);
+	--sd-3: 0 -3em, 0 3em, 3em 0, -3em 0, 1em -2em, -1em -2em, 2em -1em, -2em -1em, 2em 1em, -2em 1em,
+		1em 2em, -1em 2em, var(--sd-2);
 }
 
 .dot {
@@ -363,32 +316,36 @@ let refs = [
 }
 
 .dot::after {
-  content: attr(data-title);
-  position: absolute;
-  inset: 0;
-  display: flex;
-  font-size: .35em;
-  color: #000;
-  border-radius: 50%;
-  align-items: center;
-  background-color: var(--bgc);
-  border: .1em solid #000;
-  justify-content: center;
+	content: attr(data-title);
+	position: absolute;
+	inset: 0;
+	display: flex;
+	font-size: 0.35em;
+	color: #000;
+	border-radius: 50%;
+	align-items: center;
+	background-color: var(--bgc);
+	border: 0.1em solid #000;
+	justify-content: center;
 }
 
 .dot.attackee::after {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 .dot:hover::after {
-	border: .3em solid #a00;
+	border: 0.3em solid #a00;
 }
 
-.dot[data-range="1"]:hover { box-shadow: var(--sd-1);}
-.dot[data-range="2"]:hover { box-shadow: var(--sd-2);}
-.dot[data-range="3"]:hover { box-shadow: var(--sd-3);}
-
-
+.dot[data-range='1']:hover {
+	box-shadow: var(--sd-1);
+}
+.dot[data-range='2']:hover {
+	box-shadow: var(--sd-2);
+}
+.dot[data-range='3']:hover {
+	box-shadow: var(--sd-3);
+}
 
 .dot--attacker {
 	position: absolute;
@@ -402,13 +359,13 @@ let refs = [
 	opacity: 0.5;
 	justify-content: flex-end;
 	align-items: flex-start;
-  border: 2px solid var(--bdc, #0000);
-  outline: none;
+	border: 2px solid var(--bdc, #0000);
+	outline: none;
 }
 .dot--attacker::after {
-  content: attr(data-title);
-  font-size: 1rem;
-  color: var(--font-color, #0003);
+	content: attr(data-title);
+	font-size: 1rem;
+	color: var(--font-color, #0003);
 }
 .dot--attacker::before {
 	content: '攻';
@@ -417,8 +374,8 @@ let refs = [
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  font-size: .35em;
-  opacity: var(--watermark, 0);
+	font-size: 0.35em;
+	opacity: var(--watermark, 0);
 }
 
 .dot--attacker:focus,
@@ -431,19 +388,19 @@ let refs = [
 }
 
 form {
-  line-height: 1.35;
-  width: 320px;
-  word-break: break-all;
+	line-height: 1.35;
+	width: 320px;
+	word-break: break-all;
 }
 
 hr {
-	margin: 1em .5em;
+	margin: 1em 0.5em;
 	border: 1px dotted #0003;
 }
 
 fieldset {
 	margin-top: -0.5em;
-	padding: .5em;
+	padding: 0.5em;
 }
 
 legend {
@@ -466,5 +423,4 @@ dd {
 	min-width: 80vw;
 	text-align: center;
 }
-
 </style>

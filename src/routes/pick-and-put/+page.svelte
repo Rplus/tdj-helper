@@ -2,7 +2,7 @@
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Cell from './Cell.svelte';
-import { options, gen_cells, } from './data.js';
+import { options, gen_cells } from './data.js';
 
 let option = {
 	type: 'pick',
@@ -26,7 +26,6 @@ const refs = [
 		target: '_blank',
 	},
 ];
-
 </script>
 
 <div class="workspace">
@@ -34,26 +33,21 @@ const refs = [
 
 	<form class="form grid">
 		<div class="output grid ji-c ai-c" style="--grid: {grid * 2 + 1};">
-			{#each cells as cell, index}
-				<Cell {index} {cell} />
+			{#each cells as cell}
+				<Cell {cell} />
 			{/each}
 		</div>
 
 		<aside class="aside">
-
 			<fieldset>
 				<legend>行為:</legend>
 
 				{#each options.types as item}
 					<label>
-						<input type="radio" name="type"
-							value={item.type}
-							bind:group={option.type}
-						/>
+						<input type="radio" name="type" value={item.type} bind:group={option.type} />
 						{item.title}
 					</label>
 				{/each}
-
 			</fieldset>
 
 			<!--  -->
@@ -63,23 +57,17 @@ const refs = [
 
 				{#each options.shapes as item}
 					<label>
-						<input type="radio" name="shape"
-							value={item.shape}
-							bind:group={option.shape}
-						/>
+						<input type="radio" name="shape" value={item.shape} bind:group={option.shape} />
 						{item.title}
 					</label>
 				{/each}
-
 			</fieldset>
 
 			<!--  -->
 
 			<fieldset>
 				<legend><label for="range">延伸格數:</label></legend>
-				<input type="range" name="range" min="1" max="5"
-					bind:value={grid}
-				/>
+				<input type="range" name="range" min="1" max="5" bind:value={grid} />
 				<div class="numbers flex jc-sb">
 					<span>1</span>
 					<span>2</span>
@@ -100,15 +88,12 @@ const refs = [
 .form {
 	gap: 1em;
 	margin: 0 auto;
-	/* grid-template-columns: auto 200px; */
-	grid-template: "main aside" auto / auto 200px;
+	grid-template: 'main aside' auto / auto 200px;
 
 	@media (max-width: 700px) {
 		grid-template:
-			"aside" auto
-			"main" auto / 1fr;
-
-		/* grid-template-columns: 1fr; */
+			'aside' auto
+			'main' auto / 1fr;
 	}
 }
 
@@ -138,6 +123,6 @@ input[type='range'] {
 }
 
 .aside label {
-	padding: 0 .25em 0 0;
+	padding: 0 0.25em 0 0;
 }
 </style>

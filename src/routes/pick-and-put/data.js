@@ -29,19 +29,17 @@ export function gen_cells(option, grid) {
 	for (let y = grid; y >= -grid; y--) {
 		for (let x = -grid; x <= grid; x++) {
 			let out = Math.abs(x) + Math.abs(y) > limit;
-			cells.push({x, y, out,});
+			cells.push({ x, y, out });
 		}
 	}
 
-	let picked_cells = cells
-		.filter(i => !i.out)
-		.sort(sort_by_order(type, grid))
+	let picked_cells = cells.filter((i) => !i.out).sort(sort_by_order(type, grid));
 
-	let center_order = ~~(picked_cells.length / 2)
+	let center_order = ~~(picked_cells.length / 2);
 	let order_map = {};
 
 	picked_cells.forEach((cell, order) => {
-		let {x, y} = cell;
+		let { x, y } = cell;
 		if (!order_map[x]) {
 			order_map[x] = {};
 		}
@@ -72,18 +70,16 @@ export function gen_cells(option, grid) {
 }
 
 function calc_pick_order(cell, factor = 1000) {
-	return cell.x * (- factor) - cell.y;
+	return cell.x * -factor - cell.y;
 }
 function calc_put_order(cell, grid, factor = 0.01) {
-	let {x, y} = cell;
+	let { x, y } = cell;
 	let distance = grid * grid - Math.sqrt(x * x + y * y) * 10000;
 	let _suffix = (y * grid * -2 - x) * factor;
 	return distance + _suffix;
 }
 function sort_by_order(type, grid) {
-	return (type === 'pick')
-		? sort_by_pick_order(grid)
-		: sort_by_put_order(grid);
+	return type === 'pick' ? sort_by_pick_order(grid) : sort_by_put_order(grid);
 }
 function sort_by_pick_order(grid = 2) {
 	const factor = get_factor(2);
@@ -92,7 +88,7 @@ function sort_by_pick_order(grid = 2) {
 	};
 }
 function sort_by_put_order(grid = 2) {
-	const factor = Math.min(Math.pow(10, -1 - ~~Math.log10((grid*2+1)*(grid*2+1))), 0.01);
+	const factor = Math.min(Math.pow(10, -1 - ~~Math.log10((grid * 2 + 1) * (grid * 2 + 1))), 0.01);
 	return (a, b) => {
 		return calc_put_order(b, grid, factor) - calc_put_order(a, grid, factor);
 	};
