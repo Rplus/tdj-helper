@@ -30,8 +30,7 @@ let pages = [
 let details;
 beforeNavigate((e) => {
 	details.open = false;
-})
-
+});
 </script>
 
 <nav>
@@ -48,10 +47,9 @@ beforeNavigate((e) => {
 </nav>
 
 <style>
-
 details {
 	border: 1px solid;
-	border-radius: .25em;
+	border-radius: 0.25em;
 	background-color: var(--main-bgc);
 	position: sticky;
 	z-index: 10;
@@ -61,7 +59,7 @@ details {
 summary {
 	/* opacity: .5; */
 	cursor: pointer;
-	padding: 0.25em .5em;
+	padding: 0.25em 0.5em;
 	/* background-color: #f00; */
 }
 
@@ -70,7 +68,7 @@ summary::marker {
 }
 
 ul {
-	margin: .25em 1em 1em;
+	margin: 0.25em 1em 1em;
 	padding-inline-start: 1.5em;
 }
 

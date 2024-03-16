@@ -3,11 +3,7 @@ import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import { onMount } from 'svelte';
 import { link } from '$lib/u.js';
-import {
-	raw_data,
-	transStr,
-	genLink,
-} from './data.js';
+import { raw_data, transStr, genLink } from './data.js';
 
 raw_data.forEach((i) => {
 	i.member = transStr(i.member);
@@ -44,13 +40,16 @@ function gen_op(answers_index) {
 }
 
 function gen_qs(obj) {
-	return obj.map((i, index) => {
-		if (!i) { return ''; }
-		let members = i.member
-			.replace(/(\s)?[—＿]+(\s)?/g, ' ')
-			.replace(/\s+/g, '+');
-		return `${index + 1}=${i.name}:${members}`;
-	}).filter(Boolean).join('&');
+	return obj
+		.map((i, index) => {
+			if (!i) {
+				return '';
+			}
+			let members = i.member.replace(/(\s)?[—＿]+(\s)?/g, ' ').replace(/\s+/g, '+');
+			return `${index + 1}=${i.name}:${members}`;
+		})
+		.filter(Boolean)
+		.join('&');
 }
 
 let textarea;
@@ -68,23 +67,23 @@ function copy() {
 onMount(() => {
 	// init qs
 	let qs = new URLSearchParams(location.search.replace(/＿+\+/g, ''));
-	let _types = [null, null, null, ];
+	let _types = [null, null, null];
 	let qs_arr = [qs.get('1'), qs.get('2'), qs.get('3')].map((str, index) => {
 		if (!str) {
 			return -1;
 		}
 		let [_type, _names] = str.split(':');
 
-		return raw_data.findIndex(item => {
+		return raw_data.findIndex((item) => {
 			if (!item.name.includes(_type)) {
 				return false;
 			}
 			_types[index] = item.name;
-			return _names?.split(' ').every(_name => item.member.includes(_name));
+			return _names?.split(' ').every((_name) => item.member.includes(_name));
 		});
 	});
 
-	answers_index = qs_arr.map(idx => {
+	answers_index = qs_arr.map((idx) => {
 		if (idx === -1) {
 			return null;
 		}
@@ -92,7 +91,6 @@ onMount(() => {
 	});
 	answers_type = _types;
 });
-
 </script>
 
 <div class="workspace">
@@ -106,7 +104,6 @@ onMount(() => {
 				>{textarea_content}</textarea
 			>
 		</details>
-
 	</div>
 
 	<div class="text-center action-bar">
@@ -185,7 +182,7 @@ onMount(() => {
 	position: sticky;
 	top: 0;
 	background-color: var(--main-bgc);
-	padding-bottom: .25em;
+	padding-bottom: 0.25em;
 }
 details {
 	max-width: 25em;
@@ -195,8 +192,8 @@ textarea {
 	font-size: smaller;
 }
 pre {
-	margin: 0 0 .25em;
-	padding: .15em .5em .25em;
+	margin: 0 0 0.25em;
+	padding: 0.15em 0.5em 0.25em;
 	font-size: min(1rem, 2.75vw);
 
 	&.option {
@@ -207,10 +204,10 @@ pre {
 label.flex {
 	align-items: start;
 	cursor: pointer;
-	gap: .15em;
+	gap: 0.15em;
 
 	& input {
-		margin-block-start: .65em;
+		margin-block-start: 0.65em;
 	}
 
 	&:hover pre {

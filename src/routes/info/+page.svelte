@@ -1,7 +1,8 @@
-<svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
-</svelte:head>
+<script>
+import Header from '$lib/Header.svelte';
+</script>
+
+<Header title="About" />
 
 <div class="text-column">
 	<h1>About this app</h1>
