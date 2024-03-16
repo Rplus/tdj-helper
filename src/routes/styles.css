@@ -105,6 +105,9 @@ button:not([disabled]) {
 	position: absolute;
 }
 
+.grid {
+	display: grid;
+}
 .flex {
 	display: flex;
 }
@@ -130,6 +133,12 @@ button:not([disabled]) {
 }
 .jc-sb {
 	justify-content: space-between;
+}
+.jc-sa {
+	justify-content: space-around;
+}
+.ji-c {
+	justify-items: center;
 }
 
 .text-left {
