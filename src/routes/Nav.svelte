@@ -9,10 +9,10 @@ let pages = [
 		path: link('/'),
 		title: '../',
 	},
-	{
-		path: link('/info'),
-		title: 'Info',
-	},
+	// {
+	// 	path: link('/info'),
+	// 	title: 'Info',
+	// },
 	{
 		path: link('/role'),
 		title: '英靈',
