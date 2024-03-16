@@ -105,13 +105,14 @@ onMount(() => {
 			<textarea bind:this={textarea} rows={textarea_rows} cols="30" readonly
 				>{textarea_content}</textarea
 			>
-
-			<div class="text-right">
-				<a href={link(`/guild-war?${full_qs}`)}>🔗 分享連結</a>
-				<button on:click={resize}>↕ 縮放</button>
-				<button on:click={copy}>⎙ 複製</button>
-			</div>
 		</details>
+
+	</div>
+
+	<div class="text-center action-bar">
+		<a href={link(`/guild-war?${full_qs}`)}>🔗 分享連結</a>
+		<button on:click={resize}>↕ 縮放</button>
+		<button on:click={copy}>⎙ 複製</button>
 	</div>
 
 	<hr />
@@ -180,6 +181,12 @@ onMount(() => {
 	width: fit-content;
 	font-size: smaller;
 }
+.action-bar {
+	position: sticky;
+	top: 0;
+	background-color: var(--main-bgc);
+	padding-bottom: .25em;
+}
 details {
 	max-width: 25em;
 	margin: 0 auto;
@@ -188,8 +195,8 @@ textarea {
 	font-size: smaller;
 }
 pre {
-	margin: 0;
-	padding: 0 0.5em 0.5em;
+	margin: 0 0 .25em;
+	padding: .15em .5em .25em;
 	font-size: min(1rem, 2.75vw);
 
 	&.option {
@@ -200,12 +207,19 @@ pre {
 label.flex {
 	align-items: start;
 	cursor: pointer;
+	gap: .15em;
+
+	& input {
+		margin-block-start: .65em;
+	}
 
 	&:hover pre {
 		background-color: #ffc3;
 	}
+
 	& input:checked + pre {
 		background-color: #ffc7;
+		box-shadow: inset 3px 0 #3336;
 	}
 }
 .mb-1 {
