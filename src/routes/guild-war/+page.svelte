@@ -151,7 +151,7 @@ onMount(() => {
 		{/each}
 	</div>
 
-	<Footer time={false}>
+	<Footer>
 		<p>
 			可採用快速連結，示例：
 

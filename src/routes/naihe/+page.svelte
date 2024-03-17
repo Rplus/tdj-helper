@@ -180,7 +180,7 @@ onMount(() => {
 		<input type="button" value="Print" id="print" />
 	</form>
 
-	<Footer time={false}>
+	<Footer>
 		<div class="footer-content">
 			<details on:toggle={openIframe}>
 				<summary>

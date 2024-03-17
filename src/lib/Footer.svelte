@@ -1,7 +1,7 @@
 <script>
 import date from '$lib/data/latest-fetch-time.txt?raw';
 export let refs = [];
-export let time = true;
+export let time = false;
 </script>
 
 <!-- -->

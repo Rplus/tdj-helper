@@ -79,7 +79,7 @@ const refs = [
 		</aside>
 	</form>
 
-	<Footer {refs} time={false}>
+	<Footer {refs}>
 		PS：[放置模式] 第三圈以外的落位<sup>(#29+)</sup>，未經驗證
 	</Footer>
 </div>

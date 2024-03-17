@@ -63,7 +63,7 @@ let refs = [
 		</tbody>
 	</table>
 
-	<Footer {refs} time={false} />
+	<Footer {refs} />
 </div>
 
 <style>
