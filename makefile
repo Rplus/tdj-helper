@@ -26,3 +26,6 @@ init:
 
 print-date:
 	date +%FT%T%:::z > './src/lib/data/latest-fetch-time.txt';
+
+fetch-new: print-date
+	node ./tasks/fetch-tdj-data.mjs -- dev=0;
