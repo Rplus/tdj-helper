@@ -9,6 +9,62 @@ const customDict = [
 	['概率', '機率'],
 ];
 
+const domains = {
+	cn: 'tdj-activity.zlongame.com',
+	// cn: 'tdj-activitytest.zlongame.com', // test
+	tw: 'tdj-activity.game-beans.com',
+	// tw: 'tdj-activitytest.game-beans.com', // test
+};
+
+export let raw_data = {
+	roles: {
+		url: (lang) => get_url({ module: 'hero', type: 'basic' }, lang),
+		fn: './task/rawdata/roles',
+		rawdata: null,
+		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic
+	},
+	role_deatil: {
+		url: (name, lang) => get_url({ module: 'hero', type: 'detail', query: name }, lang),
+		fn: './task/rawdata/roles_detail',
+		rawdata: null,
+		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=%s
+	},
+	ornaments: {
+		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }),
+		fn: './task/rawdata/ornaments',
+		rawdata: null,
+		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
+	},
+	ornaments_tw: {
+		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }, 'tw'),
+		fn: './task/rawdata/ornaments.tw',
+		rawdata: null,
+		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
+	},
+};
+
+
+function get_url(qs_obj = {}, lang = 'cn') {
+	qs_obj = {
+		...{
+			id: lang === 'cn' ? 0 : 1,
+			action: 'info',
+			module: 'hero',
+			type: 'basic',
+		},
+		...qs_obj,
+	};
+	let qs = new URLSearchParams();
+
+	for (let key in qs_obj) {
+		qs.set(key, qs_obj[key]);
+	}
+
+	return `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
+}
+
+
+
 const converter = OpenCC
 	// .Converter({ from: 'cn', to: 'tw' })
 	.ConverterFactory(OpenCC.Locale.from.cn, OpenCC.Locale.to.tw, [customDict]);

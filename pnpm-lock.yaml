@@ -38,6 +38,9 @@ devDependencies:
   gh-pages:
     specifier: ^6.1.1
     version: 6.1.1
+  opencc-js:
+    specifier: ^1.0.5
+    version: 1.0.5
   prettier:
     specifier: ^3.1.1
     version: 3.2.5
@@ -1484,6 +1487,10 @@ packages:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
+    dev: true
+
+  /opencc-js@1.0.5:
+    resolution: {integrity: sha512-LD+1SoNnZdlRwtYTjnQdFrSVCAaYpuDqL5CkmOaHOkKoKh7mFxUicLTRVNLU5C+Jmi1vXQ3QL4jWdgSaa4sKjg==}
     dev: true
 
   /optionator@0.9.3:

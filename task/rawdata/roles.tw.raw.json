@@ -1,0 +1,1243 @@
+{
+  "data": {
+    "data": [
+      {
+        "name": "朱槿",
+        "is_new": "1",
+        "pinyin": "zhujin",
+        "weight": "1210",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "鬥將",
+        "hero_icon": "Hero1059_HeadIcon_Basic"
+      },
+      {
+        "name": "月孛",
+        "is_new": "1",
+        "pinyin": "yuebei",
+        "weight": "1200",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "羽士",
+        "hero_icon": "Hero1067_HeadIcon_Basic"
+      },
+      {
+        "name": "蕭熇",
+        "is_new": "1",
+        "pinyin": "xiaohe",
+        "weight": "1190",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1320_HeadIcon_Basic"
+      },
+      {
+        "name": "太玄靈狐",
+        "is_new": "1",
+        "pinyin": "taixuanlinghu",
+        "weight": "1180",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鬥將",
+        "hero_icon": "Hero1321_HeadIcon_Basic"
+      },
+      {
+        "name": "雙曜冰璃",
+        "is_new": "1",
+        "pinyin": "shuangyaobingli",
+        "weight": "1170",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "鐵衛",
+        "hero_icon": "Hero1051_HeadIcon_Basic"
+      },
+      {
+        "name": "瑤姬",
+        "is_new": "1",
+        "pinyin": "yaoji",
+        "weight": "1160",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "祝由",
+        "hero_icon": "Hero1070_HeadIcon_Basic"
+      },
+      {
+        "name": "劍魂·天尊",
+        "is_new": "1",
+        "pinyin": "jianhuntianzun",
+        "weight": "1150",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1040_HeadIcon_Basic"
+      },
+      {
+        "name": "九色鹿",
+        "is_new": "1",
+        "pinyin": "jiuselu",
+        "weight": "1140",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "御風",
+        "hero_icon": "Hero1063_HeadIcon_Basic"
+      },
+      {
+        "name": "伎樂飛天",
+        "is_new": "1",
+        "pinyin": "jiyuefeitian",
+        "weight": "1130",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1064_HeadIcon_Basic"
+      },
+      {
+        "name": "安逸",
+        "is_new": "1",
+        "pinyin": "anyi",
+        "weight": "1120",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero1048_HeadIcon_Basic"
+      },
+      {
+        "name": "御卿",
+        "is_new": "1",
+        "pinyin": "yuqing",
+        "weight": "1110",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "祝由",
+        "hero_icon": "Hero1057_HeadIcon_Basic"
+      },
+      {
+        "name": "霸熊高戚",
+        "is_new": "0",
+        "pinyin": "baxionggaoqi",
+        "weight": "1100",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1055_HeadIcon_Basic"
+      },
+      {
+        "name": "雙雙",
+        "is_new": "0",
+        "pinyin": "shuangshuang",
+        "weight": "1090",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero1056_HeadIcon_Basic"
+      },
+      {
+        "name": "羅淵女皇",
+        "is_new": "1",
+        "pinyin": "luoyuannvhuang",
+        "weight": "1080",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "俠客",
+        "hero_icon": "Hero1061_HeadIcon_Basic"
+      },
+      {
+        "name": "歸棹",
+        "is_new": "1",
+        "pinyin": "guizhao",
+        "weight": "1070",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "御風",
+        "hero_icon": "Hero1060_HeadIcon_Basic"
+      },
+      {
+        "name": "朝歌",
+        "is_new": "1",
+        "pinyin": "zhaoge",
+        "weight": "1060",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1039_HeadIcon_Basic"
+      },
+      {
+        "name": "露葵",
+        "is_new": "1",
+        "pinyin": "lukui",
+        "weight": "1050",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "羽士",
+        "hero_icon": "Hero1052_HeadIcon_Basic"
+      },
+      {
+        "name": "幽篁",
+        "is_new": "1",
+        "pinyin": "youhuang",
+        "weight": "1040",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "咒師",
+        "hero_icon": "Hero1062_HeadIcon_Basic"
+      },
+      {
+        "name": "朧夜",
+        "is_new": "1",
+        "pinyin": "longye",
+        "weight": "1030",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1301_HeadIcon_Basic"
+      },
+      {
+        "name": "殷千煬",
+        "is_new": "1",
+        "pinyin": "yinqianyang",
+        "weight": "1020",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero1302_HeadIcon_Basic"
+      },
+      {
+        "name": "少俠應奉仁",
+        "is_new": "1",
+        "pinyin": "shaoxiayingfengren",
+        "weight": "1010",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1319_HeadIcon_Basic"
+      },
+      {
+        "name": "公孫七月",
+        "is_new": "0",
+        "pinyin": "gongsunqiyue",
+        "weight": "1000",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "羽士",
+        "hero_icon": "Hero1047_HeadIcon_Basic"
+      },
+      {
+        "name": "傅雅魚",
+        "is_new": "0",
+        "pinyin": "fuyayu",
+        "weight": "990",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "祝由",
+        "hero_icon": "Hero1049_HeadIcon_Basic"
+      },
+      {
+        "name": "西莉亞",
+        "is_new": "1",
+        "weight": "980",
+        "pinyin": "xiliya",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero1046_HeadIcon_Basic"
+      },
+      {
+        "name": "星占賢者",
+        "is_new": "1",
+        "weight": "970",
+        "pinyin": "xingzhanxianzhe",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1050_HeadIcon_Basic"
+      },
+      {
+        "name": "法海",
+        "is_new": "1",
+        "weight": "960",
+        "pinyin": "fahai",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero2014_HeadIcon_Basic"
+      },
+      {
+        "name": "青",
+        "is_new": "1",
+        "weight": "950",
+        "pinyin": "qing",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero2015_HeadIcon_Basic"
+      },
+      {
+        "name": "白素貞",
+        "is_new": "1",
+        "weight": "940",
+        "pinyin": "baisuzhen",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero2016_HeadIcon_Basic"
+      },
+      {
+        "name": "阿秋",
+        "is_new": "1",
+        "weight": "930",
+        "pinyin": "aqiu",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "羽士",
+        "hero_icon": "Hero1043_HeadIcon_Basic"
+      },
+      {
+        "name": "呼延朔",
+        "is_new": "1",
+        "weight": "920",
+        "pinyin": "huyanshuo",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "御風",
+        "hero_icon": "Hero1044_HeadIcon_Basic"
+      },
+      {
+        "name": "巴艾邇",
+        "is_new": "1",
+        "weight": "910",
+        "pinyin": "baaier",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "御風",
+        "hero_icon": "Hero1034_HeadIcon_Basic"
+      },
+      {
+        "name": "卓爾",
+        "is_new": "1",
+        "weight": "900",
+        "pinyin": "zhuoer",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1042_HeadIcon_Basic"
+      },
+      {
+        "name": "真胤",
+        "is_new": "1",
+        "weight": "890",
+        "pinyin": "zhenyin",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1210_HeadIcon_Basic"
+      },
+      {
+        "name": "神闕青衣",
+        "is_new": "1",
+        "weight": "880",
+        "pinyin": "shenqueqingyi",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1041_HeadIcon_Basic"
+      },
+      {
+        "name": "魔化皇甫申",
+        "is_new": "1",
+        "weight": "870",
+        "pinyin": "mohuahuangfushen",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "御風",
+        "hero_icon": "Hero1149_HeadIcon_Basic"
+      },
+      {
+        "name": "允迦",
+        "is_new": "1",
+        "weight": "860",
+        "pinyin": "yunjia",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "羽士",
+        "hero_icon": "Hero1036_HeadIcon_Basic"
+      },
+      {
+        "name": "白玉堂",
+        "is_new": "1",
+        "weight": "850",
+        "pinyin": "baiyutang",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "御風",
+        "hero_icon": "Hero2013_HeadIcon_Basic"
+      },
+      {
+        "name": "展昭",
+        "is_new": "1",
+        "weight": "840",
+        "pinyin": "zhanzhao",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero2012_HeadIcon_Basic"
+      },
+      {
+        "name": "憛香",
+        "is_new": "1",
+        "weight": "830",
+        "pinyin": "tanxiang",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1037_HeadIcon_Basic"
+      },
+      {
+        "name": "隋酒",
+        "is_new": "1",
+        "weight": "820",
+        "pinyin": "suijiu",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "鐵衛",
+        "hero_icon": "Hero1038_HeadIcon_Basic"
+      },
+      {
+        "name": "無相·弭服",
+        "is_new": "1",
+        "weight": "810",
+        "pinyin": "wuxiangmifu",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero1032_HeadIcon_Basic"
+      },
+      {
+        "name": "白復歸",
+        "is_new": "1",
+        "weight": "800",
+        "pinyin": "baifugui",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "祝由",
+        "hero_icon": "Hero1033_HeadIcon_Basic"
+      },
+      {
+        "name": "靈鼩",
+        "is_new": "1",
+        "weight": "790",
+        "pinyin": "lingqu",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "御風",
+        "hero_icon": "Hero1148_HeadIcon_Basic"
+      },
+      {
+        "name": "雲衣宮主",
+        "is_new": "1",
+        "weight": "780",
+        "pinyin": "yunyigongzhu",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1147_HeadIcon_Basic"
+      },
+      {
+        "name": "任斷離",
+        "is_new": "1",
+        "weight": "770",
+        "pinyin": "renduanli",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1031_HeadIcon_Basic"
+      },
+      {
+        "name": "銀瑪",
+        "is_new": "1",
+        "weight": "760",
+        "pinyin": "yinma",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "羽士",
+        "hero_icon": "Hero1030_HeadIcon_Basic"
+      },
+      {
+        "name": "霍雍",
+        "is_new": "1",
+        "weight": "750",
+        "pinyin": "huoyong",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1146_HeadIcon_Basic"
+      },
+      {
+        "name": "九陰",
+        "is_new": "1",
+        "weight": "740",
+        "pinyin": "jiuyin",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1028_HeadIcon_Basic"
+      },
+      {
+        "name": "高皇君",
+        "is_new": "1",
+        "weight": "730",
+        "pinyin": "gaohuangjun",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1314_HeadIcon_Basic"
+      },
+      {
+        "name": "奚歌",
+        "is_new": "1",
+        "weight": "720",
+        "pinyin": "xige",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "御風",
+        "hero_icon": "Hero1027_HeadIcon_Basic"
+      },
+      {
+        "name": "春蘭",
+        "is_new": "1",
+        "weight": "710",
+        "pinyin": "chunlan",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1026_HeadIcon_Basic"
+      },
+      {
+        "name": "寧采臣",
+        "is_new": "1",
+        "weight": "700",
+        "pinyin": "ningcaichen",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero2008_HeadIcon_Basic"
+      },
+      {
+        "name": "聶小倩",
+        "is_new": "1",
+        "weight": "690",
+        "pinyin": "niexiaoqian",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero2009_HeadIcon_Basic"
+      },
+      {
+        "name": "燕赤霞",
+        "is_new": "1",
+        "weight": "680",
+        "pinyin": "yanchixia",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero2010_HeadIcon_Basic"
+      },
+      {
+        "name": "玄羽",
+        "is_new": "1",
+        "weight": "670",
+        "pinyin": "xuanyu",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "羽士",
+        "hero_icon": "Hero1025_HeadIcon_Basic"
+      },
+      {
+        "name": "雲襄",
+        "is_new": "1",
+        "weight": "660",
+        "pinyin": "yunxiang",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1024_HeadIcon_Basic"
+      },
+      {
+        "name": "鮮于超",
+        "is_new": "0",
+        "weight": "650",
+        "pinyin": "xianyuchao",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1208_HeadIcon_Basic"
+      },
+      {
+        "name": "舞蝶",
+        "is_new": "1",
+        "weight": "640",
+        "pinyin": "wudie",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "祝由",
+        "hero_icon": "Hero1023_HeadIcon_Basic"
+      },
+      {
+        "name": "武英仲",
+        "is_new": "0",
+        "weight": "630",
+        "pinyin": "wuyingzhong",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "俠客",
+        "hero_icon": "Hero1224_HeadIcon_Basic"
+      },
+      {
+        "name": "召祐",
+        "is_new": "0",
+        "weight": "620",
+        "pinyin": "zhaoyou",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1016_HeadIcon_Basic"
+      },
+      {
+        "name": "赤煉",
+        "is_new": "0",
+        "weight": "610",
+        "pinyin": "chilian",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "御風",
+        "hero_icon": "Hero1022_HeadIcon_Basic"
+      },
+      {
+        "name": "魔化夏侯儀",
+        "is_new": "0",
+        "weight": "600",
+        "pinyin": "mohuaxiahouyi",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1201_HeadIcon_Basic"
+      },
+      {
+        "name": "方芸",
+        "is_new": "0",
+        "weight": "590",
+        "pinyin": "fangyun",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "羽士",
+        "hero_icon": "Hero1223_HeadIcon_Basic"
+      },
+      {
+        "name": "上官遠",
+        "is_new": "0",
+        "weight": "580",
+        "pinyin": "shangguanyuan",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1101_HeadIcon_Basic"
+      },
+      {
+        "name": "李逍遙",
+        "is_new": "0",
+        "weight": "570",
+        "pinyin": "lixiaoyao",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "俠客",
+        "hero_icon": "Hero2000_HeadIcon_Basic"
+      },
+      {
+        "name": "趙靈兒",
+        "is_new": "0",
+        "weight": "560",
+        "pinyin": "zhaolinger",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero2001_HeadIcon_Basic"
+      },
+      {
+        "name": "林月如",
+        "is_new": "0",
+        "weight": "550",
+        "pinyin": "linyueru",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "御風",
+        "hero_icon": "Hero2002_HeadIcon_Basic"
+      },
+      {
+        "name": "殷無邪",
+        "is_new": "0",
+        "weight": "540",
+        "pinyin": "yinwuxie",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1009_HeadIcon_Basic"
+      },
+      {
+        "name": "諸葛艾",
+        "is_new": "0",
+        "weight": "530",
+        "pinyin": "zhugeai",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1001_HeadIcon_Basic"
+      },
+      {
+        "name": "于小雪",
+        "is_new": "0",
+        "weight": "520",
+        "pinyin": "yuxiaoxue",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "祝由",
+        "hero_icon": "Hero2003_HeadIcon_Basic"
+      },
+      {
+        "name": "宇文拓",
+        "is_new": "0",
+        "weight": "510",
+        "pinyin": "yuwentuo",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero2004_HeadIcon_Basic"
+      },
+      {
+        "name": "宇韶容",
+        "is_new": "0",
+        "weight": "500",
+        "pinyin": "yushaorong",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero1020_HeadIcon_Basic"
+      },
+      {
+        "name": "劍邪",
+        "is_new": "0",
+        "weight": "490",
+        "pinyin": "jianxie",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "御風",
+        "hero_icon": "Hero1204_HeadIcon_Basic"
+      },
+      {
+        "name": "黎幽",
+        "is_new": "0",
+        "weight": "480",
+        "pinyin": "liyou",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1014_HeadIcon_Basic"
+      },
+      {
+        "name": "曹沁",
+        "is_new": "0",
+        "weight": "470",
+        "pinyin": "caoqin",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "御風",
+        "hero_icon": "Hero1019_HeadIcon_Basic"
+      },
+      {
+        "name": "尉遲良",
+        "is_new": "0",
+        "weight": "460",
+        "pinyin": "yuchiliang",
+        "rarity": "N",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero1000_HeadIcon_Basic"
+      },
+      {
+        "name": "虞兮",
+        "is_new": "0",
+        "weight": "450",
+        "pinyin": "yuxi",
+        "rarity": "N",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1002_HeadIcon_Basic"
+      },
+      {
+        "name": "鹿昭依",
+        "is_new": "0",
+        "weight": "440",
+        "pinyin": "luzhaoyi",
+        "rarity": "N",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1007_HeadIcon_Basic"
+      },
+      {
+        "name": "秦惟剛",
+        "is_new": "0",
+        "weight": "430",
+        "pinyin": "qinweigang",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "羽士",
+        "hero_icon": "Hero1118_HeadIcon_Basic"
+      },
+      {
+        "name": "紫楓",
+        "is_new": "0",
+        "weight": "420",
+        "pinyin": "zifeng",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1206_HeadIcon_Basic"
+      },
+      {
+        "name": "冰璃",
+        "is_new": "0",
+        "weight": "410",
+        "pinyin": "bingli",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1103_HeadIcon_Basic"
+      },
+      {
+        "name": "鄲陰",
+        "is_new": "0",
+        "weight": "400",
+        "pinyin": "danyin",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1143_HeadIcon_Basic"
+      },
+      {
+        "name": "封寒月",
+        "is_new": "0",
+        "weight": "390",
+        "pinyin": "fenghanyue",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero1200_HeadIcon_Basic"
+      },
+      {
+        "name": "封鈴笙",
+        "is_new": "0",
+        "weight": "380",
+        "pinyin": "fenglingsheng",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1105_HeadIcon_Basic"
+      },
+      {
+        "name": "葛雲衣",
+        "is_new": "0",
+        "weight": "370",
+        "pinyin": "geyunyi",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "祝由",
+        "hero_icon": "Hero1125_HeadIcon_Basic"
+      },
+      {
+        "name": "古倫德",
+        "is_new": "0",
+        "weight": "360",
+        "pinyin": "gulunde",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1116_HeadIcon_Basic"
+      },
+      {
+        "name": "韓千秀",
+        "is_new": "0",
+        "weight": "350",
+        "pinyin": "hanqianxiu",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "羽士",
+        "hero_icon": "Hero1212_HeadIcon_Basic"
+      },
+      {
+        "name": "皇甫申",
+        "is_new": "0",
+        "weight": "340",
+        "pinyin": "huangfushen",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero1113_HeadIcon_Basic"
+      },
+      {
+        "name": "解臾",
+        "is_new": "0",
+        "weight": "330",
+        "pinyin": "xieyu",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1132_HeadIcon_Basic"
+      },
+      {
+        "name": "慕容璇璣",
+        "is_new": "0",
+        "weight": "320",
+        "pinyin": "murongxuanji",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1104_HeadIcon_Basic"
+      },
+      {
+        "name": "夏侯儀",
+        "is_new": "0",
+        "weight": "310",
+        "pinyin": "xiahouyi",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1102_HeadIcon_Basic"
+      },
+      {
+        "name": "燕明蓉",
+        "is_new": "0",
+        "weight": "300",
+        "pinyin": "yanmingrong",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "御風",
+        "hero_icon": "Hero1144_HeadIcon_Basic"
+      },
+      {
+        "name": "陰歙",
+        "is_new": "0",
+        "weight": "290",
+        "pinyin": "yinxi",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "鐵衛",
+        "hero_icon": "Hero1134_HeadIcon_Basic"
+      },
+      {
+        "name": "殷劍平",
+        "is_new": "0",
+        "weight": "280",
+        "pinyin": "yinjianping",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero1100_HeadIcon_Basic"
+      },
+      {
+        "name": "白菀",
+        "is_new": "0",
+        "weight": "270",
+        "pinyin": "baiwan",
+        "rarity": "SR",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1109_HeadIcon_Basic"
+      },
+      {
+        "name": "常逸風",
+        "is_new": "0",
+        "weight": "260",
+        "pinyin": "changyifeng",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "御風",
+        "hero_icon": "Hero1119_HeadIcon_Basic"
+      },
+      {
+        "name": "高戚",
+        "is_new": "0",
+        "weight": "250",
+        "pinyin": "gaoqi",
+        "rarity": "SR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1306_HeadIcon_Basic"
+      },
+      {
+        "name": "韓無砂",
+        "is_new": "0",
+        "weight": "240",
+        "pinyin": "hanwusha",
+        "rarity": "SR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1145_HeadIcon_Basic"
+      },
+      {
+        "name": "赫蘭鐵罕",
+        "is_new": "0",
+        "weight": "230",
+        "pinyin": "helantiehan",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1107_HeadIcon_Basic"
+      },
+      {
+        "name": "幻鏡朧妖",
+        "is_new": "0",
+        "weight": "220",
+        "pinyin": "huanjinglongyao",
+        "rarity": "SR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero1133_HeadIcon_Basic"
+      },
+      {
+        "name": "李盈鳳",
+        "is_new": "0",
+        "weight": "210",
+        "pinyin": "liyingfeng",
+        "rarity": "SR",
+        "prop": "光",
+        "career": "羽士",
+        "hero_icon": "Hero1127_HeadIcon_Basic"
+      },
+      {
+        "name": "慕容箏",
+        "is_new": "0",
+        "weight": "200",
+        "pinyin": "murongzheng",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1108_HeadIcon_Basic"
+      },
+      {
+        "name": "司徒纓",
+        "is_new": "0",
+        "weight": "190",
+        "pinyin": "situying",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "祝由",
+        "hero_icon": "Hero1312_HeadIcon_Basic"
+      },
+      {
+        "name": "太淵隱逸",
+        "is_new": "0",
+        "weight": "180",
+        "pinyin": "taiyuanyinyi",
+        "rarity": "SR",
+        "prop": "冰",
+        "career": "祝由",
+        "hero_icon": "Hero1304_HeadIcon_Basic"
+      },
+      {
+        "name": "相桓子",
+        "is_new": "0",
+        "weight": "170",
+        "pinyin": "xianghuanzi",
+        "rarity": "SR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1129_HeadIcon_Basic"
+      },
+      {
+        "name": "陽寰",
+        "is_new": "0",
+        "weight": "160",
+        "pinyin": "yanghuan",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1135_HeadIcon_Basic"
+      },
+      {
+        "name": "楊雲佐",
+        "is_new": "0",
+        "weight": "150",
+        "pinyin": "yangyunzuo",
+        "rarity": "SR",
+        "prop": "光",
+        "career": "御風",
+        "hero_icon": "Hero1130_HeadIcon_Basic"
+      },
+      {
+        "name": "應奉仁",
+        "is_new": "0",
+        "weight": "140",
+        "pinyin": "yingfengren",
+        "rarity": "SR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1318_HeadIcon_Basic"
+      },
+      {
+        "name": "周崇",
+        "is_new": "0",
+        "weight": "130",
+        "pinyin": "zhouchong",
+        "rarity": "SR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1114_HeadIcon_Basic"
+      },
+      {
+        "name": "朱繯",
+        "is_new": "0",
+        "weight": "120",
+        "pinyin": "zhuhuan",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "羽士",
+        "hero_icon": "Hero1112_HeadIcon_Basic"
+      },
+      {
+        "name": "紫蘊",
+        "is_new": "0",
+        "weight": "110",
+        "pinyin": "ziyun",
+        "rarity": "SR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1111_HeadIcon_Basic"
+      },
+      {
+        "name": "阿爾泰巴",
+        "is_new": "0",
+        "weight": "100",
+        "pinyin": "aertaiba",
+        "rarity": "R",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1106_HeadIcon_Basic"
+      },
+      {
+        "name": "高世津",
+        "is_new": "0",
+        "weight": "90",
+        "pinyin": "gaoshijin",
+        "rarity": "R",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1335_HeadIcon_Basic"
+      },
+      {
+        "name": "呼延崇",
+        "is_new": "0",
+        "weight": "80",
+        "pinyin": "huyanchong",
+        "rarity": "R",
+        "prop": "暗",
+        "career": "羽士",
+        "hero_icon": "Hero1142_HeadIcon_Basic"
+      },
+      {
+        "name": "青蘿",
+        "is_new": "0",
+        "weight": "70",
+        "pinyin": "qingluo",
+        "rarity": "R",
+        "prop": "冰",
+        "career": "御風",
+        "hero_icon": "Hero1110_HeadIcon_Basic"
+      },
+      {
+        "name": "韋勝",
+        "is_new": "0",
+        "weight": "60",
+        "pinyin": "weisheng",
+        "rarity": "R",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1218_HeadIcon_Basic"
+      },
+      {
+        "name": "希維亞",
+        "is_new": "0",
+        "weight": "50",
+        "pinyin": "xiweiya",
+        "rarity": "R",
+        "prop": "冰",
+        "career": "鐵衛",
+        "hero_icon": "Hero1137_HeadIcon_Basic"
+      },
+      {
+        "name": "雅布斯",
+        "is_new": "0",
+        "weight": "40",
+        "pinyin": "yabusi",
+        "rarity": "R",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1136_HeadIcon_Basic"
+      },
+      {
+        "name": "伊絲朶",
+        "is_new": "0",
+        "weight": "30",
+        "pinyin": "yisiduo",
+        "rarity": "R",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1131_HeadIcon_Basic"
+      },
+      {
+        "name": "應靈華",
+        "is_new": "0",
+        "weight": "20",
+        "pinyin": "yinglinghua",
+        "rarity": "R",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero1217_HeadIcon_Basic"
+      },
+      {
+        "name": "朱浩",
+        "is_new": "0",
+        "weight": "10",
+        "pinyin": "zhuhao",
+        "rarity": "R",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1115_HeadIcon_Basic"
+      }
+    ],
+    "now": "2024-03-17 12:07:58"
+  },
+  "status": 1,
+  "switch": null,
+  "info": 0
+}

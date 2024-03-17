@@ -58,6 +58,13 @@ let imgs = [resize_img(img, 64), resize_img(img, 128)];
 
 	<div class="desc">
 		{item.desc}
+		{#if item.set}
+			<details>
+				<div class="set">
+					{item.set}
+				</div>
+			</details>
+		{/if}
 	</div>
 </li>
 
@@ -138,5 +145,16 @@ let imgs = [resize_img(img, 64), resize_img(img, 128)];
 	white-space: nowrap;
 	text-align: center;
 	font-size: var(--name-fz, 1em);
+}
+
+details {
+	font-size: smaller;
+	margin-top: 0.5em;
+	line-height: 1.3;
+	color: #666;
+}
+
+.set {
+	padding-left: 0.5em;
 }
 </style>
