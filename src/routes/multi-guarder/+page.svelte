@@ -1,6 +1,7 @@
 <script>
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
+import Intro from './Intro.svelte';
 
 let width;
 let gridSize = 6;
@@ -153,13 +154,13 @@ let refs = [
 ];
 </script>
 
-<div class="workspace">
-	<Header title="多重護衛優先級判定模擬" />
+<Header title="多重護衛優先級判定模擬" />
+<div class="workspace flex ai-c">
+
 	<div class="map-box">
 		<div
 			class="map"
-			style="font-size: {width / gridSize}px; height: {width}px;"
-			bind:clientWidth={width}
+			style="--grid: {gridSize}"
 		>
 			<div
 				class="dot attackee"
@@ -186,35 +187,13 @@ let refs = [
 			{/each}
 		</div>
 
-		<div class="intro">
-			圖中方格為攻擊者可站的位置<br />
-			底色對應護衛單位
-			<br />
-			<br />
-			<details open>
-				<summary>== 護衛優先級 說明 == </summary>
-				<pre>
-<u>規則一：判定各護衛與「被攻擊者」距離</u>
-離「被攻擊者」最近者，最優先護衛
+		<hr>
 
-<u>規則二：判定各護衛與「攻擊者」距離</u>
-若有複數最近的護衛群，改判定各護衛與「攻擊者」距離
-※ 坦X：上場順序最先者
+		<Intro />
 
-<u>狀況-1</u>：坦X 距離攻擊者最近
-  則依正序護衛
-  (=> 坦X護衛)
-
-<u>狀況-2</u>：坦X 距離攻擊者不是最近
-  比坦X更近的那堆中，依倒序護衛
-  (愈後上場者、護衛優先級愈高)
-</pre>
-			</details>
-		</div>
-		<hr />
 	</div>
 
-	<form>
+	<form class="aside">
 		<fieldset>
 			<legend>自訂區塊</legend>
 
@@ -269,32 +248,37 @@ let refs = [
 		</fieldset>
 	</form>
 
-	<Footer {refs} />
 </div>
+
+<Footer {refs} />
 
 <style>
 .workspace {
-	display: flex;
-	flex-wrap: wrap;
 	gap: 1em;
-	padding: 1em;
-	justify-content: center;
-	min-height: 100vh;
-	align-content: stretch;
+	align-items: flex-start;
+
+	@media (max-width: 700px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .map-box {
-	width: clamp(320px, 50%, 600px);
+  container-type: inline-size;
+	width: clamp(250px, 60vw, 600px);
 }
 
 .map {
+
 	position: relative;
 	width: 100%;
+	aspect-ratio: 1;
 	box-shadow: inset 0 0 0 1px;
 	background: #eee;
 	background-image: linear-gradient(to right, #0006, #0000 1px),
 		linear-gradient(to bottom, #0006, #0000 1px);
 	background-size: 1em 1em;
+	font-size: calc(100cqw / var(--grid));
 
 	--sd-0: inset 0 0 0 1em;
 	--sd-1: -1em 0, 1em 0, 0 -1em, 0 1em, var(--sd-0);
@@ -309,6 +293,7 @@ let refs = [
 	position: absolute;
 	width: 1em;
 	height: 1em;
+	aspect-ratio: 1;
 	z-index: 1;
 	left: calc(var(--x) * 1em);
 	top: calc(var(--y) * 1em);
@@ -389,7 +374,7 @@ let refs = [
 
 form {
 	line-height: 1.35;
-	width: 320px;
+	width: clamp(200px, 80vw, 300px);
 	word-break: break-all;
 }
 
