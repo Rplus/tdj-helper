@@ -3,7 +3,7 @@ import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import { onMount } from 'svelte';
 import { link } from '$lib/u.js';
-import { raw_data, transStr, genLink } from './data.js';
+import { raw_data, transStr } from './data.js';
 
 raw_data.forEach((i) => {
 	i.member = transStr(i.member);
@@ -53,7 +53,6 @@ function gen_qs(obj) {
 }
 
 let textarea;
-let textarea_style = '';
 let textarea_rows = 5;
 function resize() {
 	textarea.style = '';

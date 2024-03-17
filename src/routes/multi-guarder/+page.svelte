@@ -3,15 +3,7 @@ import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Intro from './Intro.svelte';
 
-let width;
 let gridSize = 6;
-
-let attacker = {
-	index: 20,
-	order: 20,
-	title: '攻',
-	position: [1, 0],
-};
 
 let attackee = {
 	index: 10,
@@ -72,7 +64,7 @@ $: {
 
 let attackers = [];
 let empty = { title: '' };
-function updateGuarders(attacker) {
+function updateGuarders() {
 	let _attackers = [];
 	let _nearest_guarders = findNearestGuardersToAttackee();
 
@@ -156,12 +148,8 @@ let refs = [
 
 <Header title="多重護衛優先級判定模擬" />
 <div class="workspace flex ai-c">
-
 	<div class="map-box">
-		<div
-			class="map"
-			style="--grid: {gridSize}"
-		>
+		<div class="map" style="--grid: {gridSize}">
 			<div
 				class="dot attackee"
 				data-title={attackee.title}
@@ -172,7 +160,7 @@ let refs = [
 				<div
 					class="dot--attacker"
 					data-title={a.title}
-					tabindex="0"
+					tabindex="-1"
 					style="--x: {a.x}; --y: {a.y}; --bgc: {a.color}"
 				/>
 			{/each}
@@ -187,10 +175,9 @@ let refs = [
 			{/each}
 		</div>
 
-		<hr>
+		<hr />
 
 		<Intro />
-
 	</div>
 
 	<form class="aside">
@@ -247,7 +234,6 @@ let refs = [
 			</dl>
 		</fieldset>
 	</form>
-
 </div>
 
 <Footer {refs} />
@@ -264,12 +250,11 @@ let refs = [
 }
 
 .map-box {
-  container-type: inline-size;
+	container-type: inline-size;
 	width: clamp(250px, 60vw, 600px);
 }
 
 .map {
-
 	position: relative;
 	width: 100%;
 	aspect-ratio: 1;
@@ -401,11 +386,5 @@ dt {
 dd {
 	margin: 0;
 	padding-left: 1em;
-}
-
-.info {
-	margin-top: auto;
-	min-width: 80vw;
-	text-align: center;
 }
 </style>

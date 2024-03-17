@@ -1,7 +1,7 @@
 <script>
 import { onMount } from 'svelte';
 import { fetch_role_detail } from '$lib/fetch-data.js';
-import { link } from '$lib/u.js';
+// import { link } from '$lib/u.js';
 
 import Role from '../Role.svelte';
 import Header from '$lib/Header.svelte';

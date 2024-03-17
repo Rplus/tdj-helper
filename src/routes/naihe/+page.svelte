@@ -2,7 +2,6 @@
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import { onMount } from 'svelte';
-import { link } from '$lib/u.js';
 
 let gsheet_url =
 	'https://docs.google.com/spreadsheets/d/e/2PACX-1vThfydM3yjBOBsKXVmXDZo6Mr6iHiQO0di-C_J5Ct6bQ1weTorkbV8TOZ7wz0KmAPEk2qMj6zCqHz_J/pubhtml#';
@@ -30,18 +29,8 @@ onMount(() => {
 	let d1 = getFormatedD1();
 	let date = urlProps.get('date') || '0328-65' || d1;
 	document.title = ori_title + ' - ' + date;
-	caption.innerHTML = [...new Set([d1, date])]
-		.map(
-			(d) =>
-				`<a href="${link('/naihe')}?date=${d}" data-target="${date === d}" data-sveltekit-reload>${d}🔗</a>`,
-		)
-		.join('');
 
-	openIframe = () => {
-		iframe.src = gsheetlink.href;
-	};
-
-	function markDupOptions(argument) {
+	function markDupOptions() {
 		let checkboxs = [...document.querySelectorAll('input[data-value]:checked')];
 		if (!checkboxs.length) {
 			updateStyle('');
@@ -70,8 +59,8 @@ onMount(() => {
 		}> <span>${value}</span></label>`;
 	}
 
-	tableForm.addEventListener('input', markDupOptions);
-	tableForm.addEventListener('reset', () => {
+	window.tableForm.addEventListener('input', markDupOptions);
+	window.tableForm.addEventListener('reset', () => {
 		updateStyle('');
 	});
 
@@ -93,7 +82,7 @@ onMount(() => {
 		.then((r) => r.json())
 		.then((raw) => {
 			if (raw.error) {
-				td.innerHTML = new Error('Fetching data fails. API 改了QQ 有空再修');
+				window.td.innerHTML = new Error('Fetching data fails. API 改了QQ 有空再修');
 				return;
 			}
 			let data = [];
@@ -146,9 +135,9 @@ onMount(() => {
 	      </tr>
 	    `;
 			});
-			tbody.innerHTML = tmpl.join('');
+			window.tbody.innerHTML = tmpl.join('');
 		})
-		.catch((err) => (table.innerHTML = new Error(err)));
+		.catch((err) => (window.table.innerHTML = new Error(err)));
 });
 </script>
 
@@ -199,7 +188,7 @@ onMount(() => {
 					<a rel="noopener" target="_blank" href={gsheet_url}>天地劫M 三途川 @ Google SpreadSheet</a
 					>
 				</summary>
-				<iframe id="iframe" width="580" bind:this={iframe} frameborder="0"></iframe>
+				<iframe title="gsheet" id="iframe" width="580" bind:this={iframe} frameborder="0"></iframe>
 			</details>
 
 			----- ----- -----
@@ -300,7 +289,7 @@ onMount(() => {
 	height: 30em;
 }
 @media print {
-	body {
+	:global(body) {
 		columns: 2;
 	}
 }

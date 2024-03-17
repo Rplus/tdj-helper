@@ -57,7 +57,7 @@ export function gen_cells(option, grid) {
 		order_map[x][y] = order;
 	});
 
-	cells.forEach((cell, index) => {
+	cells.forEach((cell) => {
 		if (!cell.out) {
 			cell.order = order_map[cell.x]?.[cell.y];
 		}
@@ -79,9 +79,9 @@ function calc_put_order(cell, grid, factor = 0.01) {
 	return distance + _suffix;
 }
 function sort_by_order(type, grid) {
-	return type === 'pick' ? sort_by_pick_order(grid) : sort_by_put_order(grid);
+	return type === 'pick' ? sort_by_pick_order() : sort_by_put_order(grid);
 }
-function sort_by_pick_order(grid = 2) {
+function sort_by_pick_order() {
 	const factor = get_factor(2);
 	return (a, b) => {
 		return calc_pick_order(b, factor) - calc_pick_order(a, factor);

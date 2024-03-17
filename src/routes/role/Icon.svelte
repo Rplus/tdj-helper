@@ -1,6 +1,5 @@
 <script>
 export let role;
-import { getContext } from 'svelte';
 import { link } from '$lib/u.js';
 
 function get_icon_url(fn = '') {

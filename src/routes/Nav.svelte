@@ -1,6 +1,5 @@
 <script>
 import { page } from '$app/stores';
-import { base } from '$app/paths';
 import { beforeNavigate } from '$app/navigation';
 import { link } from '$lib/u.js';
 
@@ -28,7 +27,7 @@ let pages = [
 ];
 
 let details;
-beforeNavigate((e) => {
+beforeNavigate(() => {
 	details.open = false;
 });
 </script>

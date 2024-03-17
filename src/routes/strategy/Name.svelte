@@ -2,8 +2,6 @@
 export let name = '';
 export let href = '';
 
-import { link } from '$lib/u.js';
-
 $: name_split = name.match(/(·)?.{1,2}/g);
 </script>
 

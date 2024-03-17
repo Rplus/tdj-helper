@@ -75,7 +75,7 @@ let refs = [
 		</div>
 	{/each}
 
-	<Footer {refs} />
+	<Footer time={true} {refs} />
 </div>
 
 <style>
@@ -118,9 +118,5 @@ let refs = [
 
 hr {
 	margin: 2em 0;
-}
-
-h1 {
-	text-align: center;
 }
 </style>

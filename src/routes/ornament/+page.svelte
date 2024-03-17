@@ -20,13 +20,7 @@ let refs = [
 </script>
 
 <div class="workspace">
-	<h1>
-		<a href="../" title="back">../</a>
-		<ruby>
-			飾品圖鑑
-			<rt>天地劫M</rt>
-		</ruby>
-	</h1>
+	<Header title="飾品圖鑑" />
 
 	<Filter keys={data.keys} />
 
@@ -38,21 +32,10 @@ let refs = [
 		{/each}
 	</ul>
 
-	<Footer {refs} />
+	<Footer time={true} {refs} />
 </div>
 
 <style>
-table {
-	table-layout: fixed;
-	border-collapse: collapse;
-}
-
-h1 {
-	text-align: center;
-	padding-bottom: 0.5em;
-	border-bottom: 1px dotted #0003;
-}
-
 .list {
 	padding: 0;
 	display: grid;

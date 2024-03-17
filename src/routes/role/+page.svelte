@@ -6,7 +6,7 @@ import Role from './Role.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 
-import { status_props, max_status } from './role.js';
+import { status_props } from './role.js';
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -54,13 +54,24 @@ let refs = [
 	{@html sort_style}
 	<div class="list">
 		<div class="role role-head type-list">
-			<div class="name text-center" on:click={() => sort_by_prop()}>名</div>
+			<div
+				class="name text-center"
+				on:click={() => sort_by_prop()}
+				role="button"
+				tabindex="0"
+				aria-hidden="true"
+			>
+				名
+			</div>
 			{#each status_props as prop}
 				<div
 					class="role-sort-btn text-right"
 					data-dir={sort_dir}
 					class:active={prop.prop === sort_prop}
 					on:click={() => sort_by_prop(prop.prop)}
+					role="button"
+					tabindex="0"
+					aria-hidden="true"
 				>
 					{prop.label}
 				</div>
@@ -73,7 +84,7 @@ let refs = [
 	</div>
 </div>
 
-<Footer {refs} />
+<Footer time={true} {refs} />
 
 <style>
 .list {

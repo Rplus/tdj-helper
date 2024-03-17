@@ -1,4 +1,4 @@
-import { browser } from '$app/environment';
+// import { browser } from '$app/environment';
 
 export const raw_data = [
 	{
@@ -216,19 +216,6 @@ export const raw_data = [
 魔夏 —— 阿良`,
 	},
 ];
-
-export function genLink(_data) {
-	let _search = _data
-		.map((i, index) => {
-			let str = i.value
-				.replace(/[—＿]+/g, '')
-				.trim()
-				.replace(/\s+/g, '+');
-			return `${index + 1}=${i.type}:${str}`;
-		})
-		.join('&');
-	link.href = `?${_search}`;
-}
 
 export function transStr(str) {
 	let chars_len = [];
