@@ -1,97 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type='image/png' href="./tdj-t-128.png" />
+		<link rel="apple-touch-icon" href="./tdj-t-128.png" />
 
-	<link rel='icon' type='image/png' href='./tdj-t-128.png'>
-	<link rel="apple-touch-icon" href="./tdj-t-128.png">
-	<meta name="theme-color" content="#eeeeee"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#eeeeee"/>
+		<meta name="title" content="天地劫M 工具集 made by Rplus">
+		<meta name="description" content="天地劫M 工具集 made by Rplus">
 
-	<title>天地劫M 小工具 by Rplus</title>
-	<meta name="description" content="天地劫M 小工具 by Rplus">
-  <script type="module" crossorigin src="/tdj-helper/assets/modulepreload-polyfill-9p4a8sJU.js"></script>
-  <script type="module" crossorigin src="/tdj-helper/assets/Theme-7KzdsG4A.js"></script>
-  <link rel="stylesheet" crossorigin href="/tdj-helper/assets/global-miWskpRL.css">
-</head>
+		<script src="./theme.js"></script>
+		
+		<link href="./_app/immutable/assets/0.D2IEHKWe.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.Bq5s4aHA.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Header.DyiPnFd_.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Dbix95-K.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Bv5c3hhc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DaxL_F1W.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.BVl-4iMh.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.CW7iFCLx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/control.CYgJF_JY.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.sLtKb0hR.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.8Z2Ob-eK.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.D5AV_8EQ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.CZb7561r.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/u.6Agv22B3.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CaCmHsuK.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Header.DHGpMeog.js"><title>天地劫M工具集 by Rplus :: 天地劫M ::</title><!-- HEAD_svelte-19nstpk_START --><meta name="description" content="天地劫M工具集 by Rplus"><!-- HEAD_svelte-19nstpk_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app"><nav class="svelte-tezvrc"><details class="svelte-tezvrc"><summary class="svelte-tezvrc" data-svelte-h="svelte-12ko6jo">☰</summary> <ul class="svelte-tezvrc"><li class="svelte-tezvrc"><a href="./">⮌</a> </li><li class="svelte-tezvrc"><a href="./role">英靈</a> </li><li class="svelte-tezvrc"><a href="./strategy">戰陣</a> </li><li class="svelte-tezvrc"><a href="./ornament">飾品</a> </li></ul></details> </nav> <main> <h1 class="svelte-3umau7">天地劫M 工具集
+	<span class="subtitle svelte-15gyrd0" data-svelte-h="svelte-1nnkz4o">by Rplus</span> </h1> <section class="svelte-15gyrd0" data-svelte-h="svelte-15dsa5c"><fieldset class="svelte-15gyrd0"><legend>分享 / 集成</legend> <ul><li class="svelte-15gyrd0"><a href="./guild-war">閣戰打野陣容撿選</a></li> <li class="svelte-15gyrd0"><a href="./naihe">三途川選擇</a></li></ul></fieldset> <fieldset class="svelte-15gyrd0"><legend>檢索</legend> <ul><li class="svelte-15gyrd0"><a href="./role">英靈圖鑑</a></li> <li class="svelte-15gyrd0"><a href="./strategy">戰陣圖鑑</a></li> <li class="svelte-15gyrd0"><a href="./ornament">飾品圖鑑</a></li></ul></fieldset> <fieldset class="svelte-15gyrd0"><legend>模擬 / 評估</legend> <ul><li class="svelte-15gyrd0"><a href="./multi-guarder">多重護衛優先級判定模擬</a></li> <li class="svelte-15gyrd0"><a href="./pick-and-put">範圍取放順序</a></li> <li class="svelte-15gyrd0"><a href="./material">淬火需求</a></li> <li class="svelte-15gyrd0"><a href="./runes">魂石評估工具</a></li></ul></fieldset> </section></main> </div> 
+			
+			<script>
+				{
+					__sveltekit_1um54wt = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/tdj-helper"
+					};
 
-<body>
-	<div class="workspace">
-		<h1>
-			天地劫M 工具集
-			<span>by Rplus</span>
-		</h1>
+					const element = document.currentScript.parentElement;
 
-		<fieldset>
-			<legend>分享 / 集成</legend>
-			<ul>
-				<li>
-					<a href="./guild-war/">閣戰打野陣容撿選</a>
-				</li>
+					const data = [null,null];
 
-				<li>
-					<a href="./naihe/">三途川選擇</a>
-				</li>
-			</ul>
-		</fieldset>
-
-
-		<fieldset>
-			<legend>檢索</legend>
-			<ul>
-				<li>
-					<a href="./roles/">英靈圖鑑</a>
-				</li>
-
-				<li>
-					<a href="./strategy/">戰陣圖鑑</a>
-				</li>
-
-				<li>
-					<a href="./ornament/">飾品圖鑑</a>
-				</li>
-			</ul>
-		</fieldset>
-
-		<fieldset>
-			<legend>模擬 / 評估</legend>
-			<ul>
-				<li>
-					<a href="./multi-guarder/">多重護衛優先級判定模擬</a>
-				</li>
-				<li>
-					<a href="./pick-and-put/">範圍取放順序</a>
-				</li>
-
-				<li>
-					<a href="./weapon/">淬火需求</a>
-				</li>
-				<li>
-					<a href="./runes/">魂石評估工具</a>
-				</li>
-			</ul>
-		</fieldset>
-	</div>
-
-	<style>
-		.workspace {
-			max-width: 30rem;
-			margin: 0 auto;
-		}
-		li {
-			margin-bottom: .5em;
-			font-size: larger;
-		}
-		h1 {
-			line-height: 1;
-		}
-		h1 span {
-			display: inline-block;
-			font-weight: 500;
-			font-size: 1rem;
-			opacity: 0.5;
-		}
-	</style>
-
-</body>
+					Promise.all([
+						import("./_app/immutable/entry/start.Dbix95-K.js"),
+						import("./_app/immutable/entry/app.sLtKb0hR.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
 </html>
