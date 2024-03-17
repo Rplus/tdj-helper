@@ -43,7 +43,6 @@ export let raw_data = {
 	},
 };
 
-
 function get_url(qs_obj = {}, lang = 'cn') {
 	qs_obj = {
 		...{
@@ -62,8 +61,6 @@ function get_url(qs_obj = {}, lang = 'cn') {
 
 	return `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
 }
-
-
 
 const converter = OpenCC
 	// .Converter({ from: 'cn', to: 'tw' })

@@ -1,10 +1,6 @@
 import fs from 'fs';
 import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
 
-
-
-
-
 //
 //  #######  ########  ##    ##    ###    ##     ## ######## ##    ## ########  ######
 // ##     ## ##     ## ###   ##   ## ##   ###   ### ##       ###   ##    ##    ##    ##
@@ -26,8 +22,6 @@ outputJSON({
 	fn: `${raw_data.ornaments_tw.fn}.tw.op.json`,
 	cn2tw: false,
 });
-
-
 
 //
 // ########     ###     ######  ####  ######
@@ -71,8 +65,6 @@ outputJSON({
 	cn2tw: false,
 });
 
-
-
 //
 // ########  ######## ########    ###    #### ##        ######
 // ##     ## ##          ##      ## ##    ##  ##       ##    ##
@@ -98,9 +90,6 @@ outputJSON({
 	fn: `${raw_data.role_deatil.fn}.op.json`,
 	cn2tw: true,
 });
-
-
-
 
 //
 // ##     ## ##       ########  ######
