@@ -10,19 +10,6 @@ import { link } from '$lib/u.js';
 
 <section>
 	<fieldset>
-		<legend>分享 / 集成</legend>
-		<ul>
-			<li>
-				<a href={link('/guild-war')}>閣戰打野陣容撿選</a>
-			</li>
-
-			<li>
-				<a href={link('/naihe')}>三途川選擇</a>
-			</li>
-		</ul>
-	</fieldset>
-
-	<fieldset>
 		<legend>檢索</legend>
 		<ul>
 			<li>
@@ -35,6 +22,19 @@ import { link } from '$lib/u.js';
 
 			<li>
 				<a href={link('/ornament')}>飾品圖鑑</a>
+			</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+		<legend>分享 / 集成</legend>
+		<ul>
+			<li>
+				<a href={link('/guild-war')}>閣戰打野陣容撿選</a>
+			</li>
+
+			<li>
+				<a href={link('/naihe')}>三途川選擇</a>
 			</li>
 		</ul>
 	</fieldset>
