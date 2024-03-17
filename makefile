@@ -1,5 +1,8 @@
 .PHONY: build
 
+deploy: build
+	pnpm run deploy;
+
 dev:
 	pnpm run dev;
 
