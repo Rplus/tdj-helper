@@ -30,7 +30,7 @@ print-date:
 # fetch-new: print-date
 # 	node ./tasks/fetch-tdj-data.mjs -- dev=0;
 
-fetch-new:
+fetch-new: print-date
 	node ./task/fetch.mjs;
 
 data-sorting:
