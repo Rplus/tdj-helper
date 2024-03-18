@@ -9,7 +9,7 @@ import { link } from '$lib/u.js';
 	<meta name="description" content={title} />
 </svelte:head>
 
-<h1>
+<h1 class="text-center" style="padding-bottom: 0.5em; border-bottom: 1px dotted #6663;">
 	<slot>
 		<a href={link(parent_path)} title="back">../</a>
 		<ruby>
@@ -18,11 +18,3 @@ import { link } from '$lib/u.js';
 		</ruby>
 	</slot>
 </h1>
-
-<style>
-h1 {
-	text-align: center;
-	padding-bottom: 0.5em;
-	border-bottom: 1px dotted #6663;
-}
-</style>
