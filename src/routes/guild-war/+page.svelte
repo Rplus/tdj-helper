@@ -1,7 +1,8 @@
 <script>
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
-import { onMount } from 'svelte';
+// import { onMount } from 'svelte';
+import { afterNavigate } from '$app/navigation';
 import { link } from '$lib/u.js';
 import { raw_data, transStr } from './data.js';
 
@@ -63,7 +64,7 @@ function copy() {
 	navigator.clipboard.writeText(textarea_content);
 }
 
-onMount(() => {
+function init_qs() {
 	// init qs
 	let qs = new URLSearchParams(location.search.replace(/＿+\+/g, ''));
 	let _types = [null, null, null];
@@ -89,7 +90,10 @@ onMount(() => {
 		return `${raw_data[idx]?.name}.${idx}`;
 	});
 	answers_type = _types;
-});
+}
+
+// onMount(init_qs);
+afterNavigate(init_qs);
 </script>
 
 <div class="workspace">
@@ -156,7 +160,10 @@ onMount(() => {
 			可採用快速連結，示例：
 
 			<br />
-			<a href={link('/guild-war?1=羊:紫楓+寒月&2=連:冰璃&3=惡魔:依依')}
+			<a
+				data-sveltekit-noscroll
+				data-sveltekit-replacestate
+				href={link('/guild-war?1=羊:紫楓+寒月&2=連:冰璃&3=惡魔:依依')}
 				>https://rplus.github.io/tdj-helper/guild-war/?1=羊:紫楓+寒月&2=連:冰璃&3=惡魔:依依</a
 			>
 		</p>
