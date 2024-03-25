@@ -1,5 +1,6 @@
 <script>
 import Header from '$lib/Header.svelte';
+import Footer from '$lib/Footer.svelte';
 import { link } from '$lib/u.js';
 </script>
 
@@ -58,6 +59,16 @@ import { link } from '$lib/u.js';
 		</ul>
 	</fieldset>
 </section>
+
+<Footer>
+	<p>
+		GitHub repo:
+		<br />
+		<a href="https://github.com/rplus/tdj-helper" target="_blank" rel="noopener"
+			>https://github.com/rplus/tdj-helper</a
+		>
+	</p>
+</Footer>
 
 <style>
 .subtitle {
