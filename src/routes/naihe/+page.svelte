@@ -1,6 +1,7 @@
 <script>
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
+import Table from './Table.svelte';
 import { onMount } from 'svelte';
 
 let gsheet_url =
@@ -16,169 +17,41 @@ function openIframe() {
 let _style = '';
 $: injected_style = _style ? `<style>${_style}</style>` : '';
 
+let tabs;
+let init_tab;
+
+function get_latest_monday() {
+	const MS_OF_WEEK = 1000 * 60 * 60 * 24 * 7;
+
+	let today = new Date();
+	let d0 = new Date(2022, 0, 24);
+	let d1 = new Date(today - ((today - d0) % MS_OF_WEEK));
+
+	return d1.toLocaleString('sv').slice(5, 10).replace('-', '');
+	// return `${d1.getMonth() + 1}`.padStart(2, '0') + `${d1.getDate()}`.padStart(2, '0');
+}
+
 onMount(() => {
-	let urlProps = new URLSearchParams(location.search);
-	let getFormatedD1 = () => {
-		let today = new Date();
-		let day7 = 1000 * 60 * 60 * 24 * 7;
-		let d0 = new Date(2022, 0, 24);
-		let _d1 = new Date(today - ((today - d0) % day7));
-		return `${_d1.getMonth() + 1}`.padStart(2, '0') + `${_d1.getDate()}`.padStart(2, '0');
-	};
-	let ori_title = document.title;
-	let d1 = getFormatedD1();
-	let date = urlProps.get('date') || '0328-65' || d1;
-	document.title = ori_title + ' - ' + date;
+	let d1 = get_latest_monday();
+	let date = new URLSearchParams(location.search)?.get('date') || d1;
+	let days = [...new Set([d1, date])];
 
-	function markDupOptions() {
-		let checkboxs = [...document.querySelectorAll('input[data-value]:checked')];
-		if (!checkboxs.length) {
-			updateStyle('');
-			return;
+	tabs = days.map((d) => {
+		let title = /^\d{4}$/.test(d) ? `t-${d}` : d;
+		if (date === d) {
+			init_tab = title;
 		}
-
-		let values = checkboxs.map((i) => i.nextElementSibling?.textContent || '').filter(Boolean);
-
-		values = [...new Set(values)].map((i) => {
-			let n = document.querySelector(`input[data-value="${i}"]:checked`)?.name;
-			return {
-				value: i,
-				name: n,
-			};
-		});
-
-		updateStyle(
-			values.map((i) => `input[data-value="${i.value}"]:not([name="${i.name}"]) + span`).join(',') +
-				'{ text-decoration: line-through; opacity: .5; }',
-		);
-	}
-
-	function genLabel(title, value, match) {
-		return `<label><input type="radio" name="${title}" ${
-			match && 'data-value="' + match + '"'
-		}> <span>${value}</span></label>`;
-	}
-
-	window.tableForm.addEventListener('input', markDupOptions);
-	window.tableForm.addEventListener('reset', () => {
-		updateStyle('');
+		return title;
 	});
-
-	function updateStyle(style = '') {
-		_style = style;
-	}
-
-	let print = document.querySelector('#print');
-	print.addEventListener('click', () => {
-		window.print();
-	});
-
-	// FIXME
-	// api changed, passed date will be identified as number
-	// try to use another parsing way to get sheet data
-	// e.q. (gviz) https://docs.google.com/spreadsheets/d/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/gviz/tq?tqx=out:csv&sheet=0404&tq=SELECT+C%2CD%2CE
-	// and then parse csv file
-	fetch(`https://opensheet.elk.sh/1F3nsxZ5ndIhxajYIulzv3vEy2-PzO-6By74QPPWn170/${date}!c2:e22`)
-		.then((r) => r.json())
-		.then((raw) => {
-			if (raw.error) {
-				window.td.innerHTML = new Error('Fetching data fails. API 改了QQ 有空再修');
-				return;
-			}
-			let data = [];
-			raw.forEach((d, index) => {
-				let N = ~~(index / 4) + 1;
-				let n = (index % 4) + 1;
-				let o = {
-					content: [],
-					title: `${N}-${n}`,
-					boss: n === 4,
-				};
-
-				for (let p in d) {
-					let type = p.slice(0, 2);
-					let value = d[p];
-					let checkbox = n !== 4 && type === '靈門';
-					o.content.push({
-						type,
-						checkbox,
-						value: checkbox ? value.split('\n').map((t) => t.trim()) : value.trim(),
-					});
-				}
-				data[index] = o;
-			});
-
-			let tmpl = data.map((row) => {
-				let content = '';
-				if (row.boss) {
-					content = `<td colspan="3">${row.content[0]?.value || ''}</td>`;
-				} else {
-					content = row.content
-						.map((td) => {
-							let innerContent = '';
-							if (td.value?.length > 2) {
-								innerContent = td.checkbox
-									? td.value.map((item) => genLabel(row.title, item, item)).join('')
-									: genLabel(row.title, td.value);
-							} else {
-								innerContent = td.value || '';
-							}
-							return `<td class="${td.checkbox ? 'checkbox' : ''}">${innerContent}</td>`;
-						})
-						.join('');
-				}
-
-				return `
-	      <tr>
-	        <td>${row.title}</td>
-	        ${content}
-	      </tr>
-	    `;
-			});
-			window.tbody.innerHTML = tmpl.join('');
-		})
-		.catch((err) => (window.table.innerHTML = new Error(err)));
 });
 </script>
 
 <Header title="三途川選擇" />
 
 <div class="workspace">
-	<div>{@html injected_style}</div>
-	<form id="tableForm" class="form">
-		<table id="table">
-			<caption id="caption"></caption>
-			<colgroup>
-				<col width="2em" />
-				<col width="30%" />
-				<col width="30%" />
-				<col width="30%" />
-			</colgroup>
-			<thead id="thead">
-				<tr>
-					<th>#</th>
-					<th>
-						靈門<br />
-						隊伍強化<br />
-						(不疊加)
-					</th>
-					<th>
-						神樹<br />
-						英靈強化
-					</th>
-					<th>
-						神龕<br />
-						秘寶
-					</th>
-				</tr>
-			</thead>
-			<tbody id="tbody">
-				<td id="td" colspan="4">Loading~</td>
-			</tbody>
-		</table>
-		<input type="reset" />
-		<input type="button" value="Print" id="print" />
-	</form>
+	{#if tabs}
+		<Table {tabs} {init_tab} />
+	{/if}
 
 	<Footer>
 		<div class="footer-content">
@@ -202,81 +75,6 @@ onMount(() => {
 </div>
 
 <style>
-.workspace {
-	& .form {
-		text-align: center;
-	}
-	& table {
-		text-align: center;
-		border-collapse: collapse;
-		margin: auto;
-		width: 30em;
-		max-width: 100%;
-		background-color: #fff3;
-	}
-	& caption {
-		margin-bottom: 0.5em;
-	}
-	& caption a {
-		padding: 3px 0.75em;
-		border: 1px dotted transparent;
-		border-bottom-color: currentcolor;
-	}
-	& caption a[data-target='true'] {
-		border: 1px dotted;
-		border-width: 1px 1px 0 1px !important;
-	}
-	& caption a:nth-of-type(-n + 2)::before {
-		content: '';
-		border: 3px solid #f33;
-		display: inline-block;
-		vertical-align: 10px;
-		border-radius: 1em;
-		margin-right: 0.1em;
-	}
-	& th {
-		/* position: sticky; */
-		top: 0;
-		background-color: #9996;
-	}
-	& td {
-		border-bottom: 1px dotted #0003;
-		white-space: nowrap;
-	}
-	& td + td {
-		height: 3em;
-		padding: 0.5em 0;
-		white-space: pre-wrap;
-	}
-	& th,
-	& tbody tr:nth-of-type(4n) {
-		border-bottom: 4px dotted #0003;
-	}
-	& label {
-		display: block;
-		padding: 0;
-	}
-	& .checkbox {
-		white-space: normal;
-	}
-	& tbody tr:nth-of-type(4n) {
-		font-weight: 900;
-	}
-
-	& tbody tr:nth-of-type(8n + 1),
-	& tbody tr:nth-of-type(8n + 2),
-	& tbody tr:nth-of-type(8n + 3),
-	& tbody tr:nth-of-type(8n + 4) {
-		background-color: #3331;
-	}
-	& tr:hover td {
-		background-color: #99f1;
-	}
-
-	& input:checked + span {
-		background-color: #ff06;
-	}
-}
 .footer-content {
 	text-align: center;
 	width: 560px;
@@ -291,6 +89,9 @@ onMount(() => {
 @media print {
 	:global(body) {
 		columns: 2;
+	}
+	:global(h1, footer) {
+		display: none;
 	}
 }
 @page {
