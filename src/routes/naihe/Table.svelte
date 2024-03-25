@@ -1,6 +1,8 @@
 <script>
 export let tabs = [''];
 export let init_tab = '';
+import { pushState } from '$app/navigation';
+import { link } from '$lib/u.js';
 
 let o_title = document.title;
 let active_tab;
@@ -10,6 +12,7 @@ $: switch_tab(init_tab || tabs[0]);
 function switch_tab(title) {
 	active_tab = title;
 	document.title = o_title + title;
+	pushState(link(`/naihe?date=${title.replace('t-', '')}`));
 }
 
 let _style = '';
