@@ -3,6 +3,7 @@ import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Table from './Table.svelte';
 import { onMount } from 'svelte';
+import { afterNavigate } from '$app/navigation';
 
 let gsheet_url =
 	'https://docs.google.com/spreadsheets/d/e/2PACX-1vThfydM3yjBOBsKXVmXDZo6Mr6iHiQO0di-C_J5Ct6bQ1weTorkbV8TOZ7wz0KmAPEk2qMj6zCqHz_J/pubhtml#';
@@ -31,7 +32,7 @@ function get_latest_monday() {
 	// return `${d1.getMonth() + 1}`.padStart(2, '0') + `${d1.getDate()}`.padStart(2, '0');
 }
 
-onMount(() => {
+function init() {
 	let d1 = get_latest_monday();
 	let date = new URLSearchParams(location.search)?.get('date') || d1;
 	let days = [...new Set([d1, date])];
@@ -43,7 +44,9 @@ onMount(() => {
 		}
 		return title;
 	});
-});
+}
+
+afterNavigate(init);
 </script>
 
 <Header title="三途川選擇" />
@@ -67,16 +70,20 @@ onMount(() => {
 			----- ----- -----
 			<br />
 
-			試算表非常需要志士協作，歡迎
+			試算表依賴志士協作，歡迎
 			<a href="https://mailbox.gamer.com.tw/send.php?to=Rplus">巴哈私訊</a>
 			聯繫以開放協作權限 ：P
+
+			<p>
+				可於網址指定顯示日期，例：
+				<a href="?date=0711" data-sveltekit-replacestate>/tdj-helper/naihe?date=0711</a>
+			</p>
 		</div>
 	</Footer>
 </div>
 
 <style>
 .footer-content {
-	text-align: center;
 	width: 560px;
 	max-width: 90vw;
 	margin: 0 auto;

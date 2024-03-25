@@ -5,7 +5,7 @@ export let init_tab = '';
 let o_title = document.title;
 let active_tab;
 
-switch_tab(init_tab || tabs[0]);
+$: switch_tab(init_tab || tabs[0]);
 
 function switch_tab(title) {
 	active_tab = title;
