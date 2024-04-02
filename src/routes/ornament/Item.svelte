@@ -121,6 +121,7 @@ let imgs = [resize_img(img, 64), resize_img(img, 128)];
 
 .avatar {
 	grid-area: avatar;
+	grid-row: 1 / -1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
