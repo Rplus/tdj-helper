@@ -38,6 +38,12 @@ op.roles = roles_data.map((item) => {
 		strategy = _strategy.name;
 	}
 
+	switch (item.hero_icon) {
+		case 'Hero1077_HeadIcon_Basic':
+			item.prop = '炎';
+			break;
+	}
+
 	return {
 		...pick_obj(item, [
 			'name',
@@ -99,14 +105,14 @@ op.strategy = op.strategy.map((item) => {
 			obj.members.push(gen_mem_by_img('strategy_core'));
 			break;
 
-		case '驅雷魔魄陣':
-		case '狐靈神氛陣':
-			obj.members.push(gen_mem_by_img('dusk'));
-			break;
+		// case '驅雷魔魄陣':
+		// case '狐靈神氛陣':
+		// 	obj.members.push(gen_mem_by_img('dusk'));
+		// 	break;
 
-		case '暗月鬥靈陣':
-			obj.members.push(gen_mem_by_img('melee'));
-			break;
+		// case '暗月鬥靈陣':
+		// 	obj.members.push(gen_mem_by_img('melee'));
+		// 	break;
 
 		default:
 			break;
