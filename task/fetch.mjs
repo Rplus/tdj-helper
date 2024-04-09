@@ -19,7 +19,7 @@ outputJSON({
 raw_data.ornaments_tw.rawdata = await fetch(raw_data.ornaments_tw.url()).then((r) => r.json());
 outputJSON({
 	json: raw_data.ornaments_tw.rawdata,
-	fn: `${raw_data.ornaments_tw.fn}.tw.op.json`,
+	fn: `${raw_data.ornaments_tw.fn}.op.json`,
 	cn2tw: false,
 });
 
