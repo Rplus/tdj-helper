@@ -38,10 +38,10 @@ op.roles = roles_data.map((item) => {
 		strategy = _strategy.name;
 	}
 
-	switch (item.hero_icon) {
-		case 'Hero1077_HeadIcon_Basic':
-			item.prop = '炎';
-			break;
+	// heroInfo.prop == '火' ? '炎' : heroInfo.prop;
+	// ^ that is official sucking code
+	if (item.prop === '火') {
+		item.prop = '炎';
 	}
 
 	return {
