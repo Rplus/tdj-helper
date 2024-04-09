@@ -1,5 +1,48 @@
 [
   {
+    "name": "甦醒者",
+    "rarity": "SSR",
+    "prop": "幽",
+    "hero_icon": "Hero1152_HeadIcon_Basic",
+    "career": "咒師",
+    "pinyin": "suxingzhe",
+    "path": "%E8%8B%8F%E9%86%92%E8%80%85",
+    "pic": "Hero1152_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "status": {
+      "hp": 182,
+      "atk_mag": 107,
+      "atk_phy": 14,
+      "def_mag": 37,
+      "def_phy": 28,
+      "crit": 25
+    }
+  },
+  {
+    "name": "景樂齊",
+    "rarity": "SSR",
+    "prop": "火",
+    "hero_icon": "Hero1077_HeadIcon_Basic",
+    "career": "祝由",
+    "pinyin": "jingleqi",
+    "path": "%E6%99%AF%E4%B9%90%E9%BD%90",
+    "pic": "Hero1077_img",
+    "position": "治療",
+    "range": "2",
+    "speed": "3",
+    "strategy": "酌酒忘塵陣",
+    "status": {
+      "hp": 183,
+      "atk_mag": 75,
+      "atk_phy": 11,
+      "def_mag": 37,
+      "def_phy": 38,
+      "crit": 20
+    }
+  },
+  {
     "name": "祿存高皇君",
     "rarity": "SSR",
     "prop": "冰",
@@ -222,12 +265,13 @@
     "hero_icon": "Hero1071_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xuezhi",
+    "pinyin_tw": "xuezhi",
     "path": "%E9%9B%AA%E8%8A%9D",
     "pic": "Hero1071_img",
     "position": "近攻",
     "range": "1",
     "speed": "3",
-    "strategy": "問仙破御陣",
+    "strategy": "問仙破禦陣",
     "status": {
       "hp": 222,
       "atk_mag": 14,
@@ -244,6 +288,7 @@
     "hero_icon": "Hero1072_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "qumuzhi",
+    "pinyin_tw": "qumuzhi",
     "path": "%E7%9E%BF%E7%89%A7%E4%B9%8B",
     "pic": "Hero1072_img",
     "position": "遠攻",

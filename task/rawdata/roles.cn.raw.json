@@ -2,11 +2,35 @@
   "data": {
     "data": [
       {
-        "name": "禄存高皇君",
+        "name": "苏醒者",
         "is_new": "1",
+        "pinyin": "suxingzhe",
+        "weight": "1370",
+        "expire": "45406",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "咒师",
+        "hero_icon": "Hero1152_HeadIcon_Basic",
+        "path": "%E8%8B%8F%E9%86%92%E8%80%85"
+      },
+      {
+        "name": "景乐齐",
+        "is_new": "1",
+        "pinyin": "jingleqi",
+        "weight": "1360",
+        "expire": "45406",
+        "rarity": "SSR",
+        "prop": "火",
+        "career": "祝由",
+        "hero_icon": "Hero1077_HeadIcon_Basic",
+        "path": "%E6%99%AF%E4%B9%90%E9%BD%90"
+      },
+      {
+        "name": "禄存高皇君",
+        "is_new": "0",
         "pinyin": "lucungaohuangjun",
         "weight": "1350",
-        "expire": "45378",
+        "expire": "",
         "rarity": "SSR",
         "prop": "冰",
         "career": "咒师",
@@ -15,10 +39,10 @@
       },
       {
         "name": "相胤",
-        "is_new": "1",
+        "is_new": "0",
         "pinyin": "xiangyin",
         "weight": "1340",
-        "expire": "45378",
+        "expire": "",
         "rarity": "SSR",
         "prop": "雷",
         "career": "御风",
@@ -27,10 +51,10 @@
       },
       {
         "name": "波旬尉迟良",
-        "is_new": "1",
+        "is_new": "0",
         "pinyin": "boxunyuchiliang",
         "weight": "1330",
-        "expire": "45378",
+        "expire": "",
         "rarity": "SSR",
         "prop": "幽",
         "career": "侠客",
@@ -1598,7 +1622,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-03-17 12:07:59"
+    "now": "2024-04-09 18:54:29"
   },
   "status": 1,
   "switch": null,

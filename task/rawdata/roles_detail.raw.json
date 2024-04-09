@@ -1,8 +1,691 @@
 [
   [
     {
-      "name": "禄存高皇君",
+      "name": "苏醒者",
       "is_new": "1",
+      "pinyin": "suxingzhe",
+      "weight": "1370",
+      "source": "天地劫幽城再临原创角色",
+      "pic": "Hero1152_img",
+      "prop_icon": "Dusk",
+      "career_icon": "Warlock",
+      "rarity": "SSR",
+      "position": "远攻",
+      "prop": "幽",
+      "career": "咒师",
+      "range": "2",
+      "speed": "3",
+      "qixue": "182",
+      "magic_attack": "107",
+      "physical_attack": "14",
+      "magic_defense": "37",
+      "physical_defense": "28",
+      "huixin": "25",
+      "inherent": "Gift_156",
+      "inherent_name": "命运梭织",
+      "star1": "",
+      "star2": "",
+      "star3": "气血越高伤害、法术免伤越高（最高提升10%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+      "star4": "气血越高伤害、法术免伤越高（最高提升15%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+      "star5": "气血越高伤害、法术免伤越高（最高提升20%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+      "star6": "气血越高伤害、法术免伤越高（最高提升25%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+      "story_name": "沉睡",
+      "story_content": "他于石座下叩首，那微微的震动不足以撼动上神。他从未像此刻一样虔诚笨拙，如同被传说与长生丹药蛊惑的凡人，愚昧无知。<br/>但他又足够幸运，他是那千千万中唯一得偿所愿之人。许是因他一生轨迹都笼罩在幽城投下的一小片阴影中，尊神总是对他格外宽容。<br/>甚至于他开始以幽篁自称，却依旧把所有的根植最底层的思绪追溯到皇甫申身上。<br/>——那时，皇甫申从深渊中攥住一抹灵魂，可怜他一声声呼唤「笙妹」「笙妹」「笙妹」，却始终唤醒不了轻飘飘的魂魄。<br/>于是幽篁用幽壤捏造了他记忆中的「笙妹」，从那时轮宫弥兰纳巴的体中抽取了「生之力」注入这具躯壳。名唤封铃笙的魂魄自此栖息于这沉寂之地。<br/>他时常端详这具躯体，试图在纷乱的记忆中找到恰到好处的缘由。<br/>在天瑶派他们总是一起练功，最自在的日子是在什么时候呢？",
+      "hero_icon": "Hero1152_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1599",
+          "name": "情仇皆妄",
+          "type": "法攻伤害",
+          "cd": "3回合",
+          "cost": "2内力",
+          "shoot": "2格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻击单个敌人，造成1.5倍伤害，「对战前」夺取目标2个「有益状态」若夺取到2个「有益状态」则该绝学冷却时间-3，「对战后」扩散自身2个「有益状态」给3格范围内其他友方。"
+        },
+        {
+          "img": "EXSkill_1600",
+          "name": "再入轮回",
+          "type": "治疗",
+          "cd": "3回合",
+          "cost": "2内力",
+          "shoot": "2格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵位阶3级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "[被动]使用绝学后，使3格范围内友方「有害状态」持续时间-1并恢复其气血（恢复量为施术者法攻的0.5倍）。<br/>[主动]使1个已结束行动的其他友方再激活，并恢复气血（恢复量为施术者法攻的1倍）并使其「有益状态」等级提升1级。"
+        },
+        {
+          "img": "EXSkill_1602",
+          "name": "瞬霎时停",
+          "type": "主动",
+          "cd": "3回合",
+          "cost": "1内力",
+          "shoot": "自身",
+          "range": "全场",
+          "way": "主动",
+          "unlock_condition": "英灵位阶15级",
+          "inner_power1": "Xun",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主动使用对所有目标施加<link type=buff value=741152007 bgcolor=#3a85ffff>「调和」</link>状态。"
+        },
+        {
+          "img": "GPassive_1012",
+          "name": "神念",
+          "type": "被动",
+          "cd": "无",
+          "cost": "1内力",
+          "shoot": "无",
+          "range": "无",
+          "way": "被动",
+          "unlock_condition": "英灵位阶15级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+        },
+        {
+          "img": "EXSkill_1603",
+          "name": "冥煞敕夺",
+          "type": "法攻伤害",
+          "cd": "3回合",
+          "cost": "2内力",
+          "shoot": "4格",
+          "range": "1圈",
+          "way": "主动",
+          "unlock_condition": "英灵位阶25级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "肆级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "对范围内所有敌人造成0.5倍伤害，夺取目标1个随机「有益状态」。"
+        },
+        {
+          "img": "EXSkill_1605",
+          "name": "远破",
+          "type": "被动",
+          "cd": "无",
+          "cost": "2内力",
+          "shoot": "无",
+          "range": "无",
+          "way": "被动",
+          "unlock_condition": "英灵位阶40级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒级",
+          "inner_power2": "Xun",
+          "unlock_inner2": "伍级",
+          "desc": "进行远程对战时，「对战前」夺取目标1个「有益状态」，且「对战中」伤害和免伤提高15%。"
+        },
+        {
+          "img": "EXSkill_1604",
+          "name": "乱氛之仪",
+          "type": "法攻伤害",
+          "cd": "4回合",
+          "cost": "2内力",
+          "shoot": "自身",
+          "range": "直线4x3格",
+          "way": "主动",
+          "unlock_condition": "英灵位阶40级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒级",
+          "inner_power2": "Hun",
+          "unlock_inner2": "伍级",
+          "desc": "对范围内所有敌人造成0.6倍伤害，施加<link type=buff value=700000891 bgcolor=#3a85ffff>「乱神I」</link>状态，持续2回合，并使目标所有「有益状态」等级降低1级。"
+        },
+        {
+          "img": "EXSkill_1601",
+          "name": "乱时攫运",
+          "type": "法攻伤害",
+          "cd": "3回合",
+          "cost": "2内力",
+          "shoot": "3格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵位阶55级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "拾级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻击单个敌人，造成1.8倍伤害，施加<link type=buff value=741152006 bgcolor=#3a85ffff>「孤绝」</link>状态，持续2回合，「对战前」使自身「有益状态」等级提升2级，使目标「有害状态」等级提升2级。<br/>[气力技]消耗3点气力，才可释放绝学。（每造成1次伤害累计1点气力，使用非伤害绝学累积1点气力）"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "苏醒者",
+          "name": "洄天轮",
+          "img": "Weapon_115201",
+          "qixue": "36",
+          "magic": "38",
+          "physical": "0",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "载，秋风孤鹤唳，落日独木洄。<br/>洄天者，追时溯往之术也。附此术于纺锤之上，逆时而动，可消敌袭术法，后发而先至，实奇巧之兵也。<br/>言：轮动惊飞鸟，孤木逆江流。"
+        },
+        {
+          "weapon": "苏醒者",
+          "name": "清平梦",
+          "img": "Weapon_115202",
+          "qixue": "44",
+          "magic": "47",
+          "physical": "0",
+          "feature": "[决明]伤害提升5%",
+          "rarity": "R",
+          "jiesuo": "英灵位阶25",
+          "desc": "载，浮生一梭过，梦回人散。<br/>观者只见清平一梦，历者所察百感交集。此兵可引贪嗔痴妄百般交错，织成执恨怨悔万千心劫，非凡俗之辈可破之法也。<br/>言：人殇旧时中，溯洄不知处。"
+        },
+        {
+          "weapon": "苏醒者",
+          "name": "织命谱",
+          "img": "Weapon_115203",
+          "qixue": "54",
+          "magic": "58",
+          "physical": "0",
+          "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星回响消耗45点天魂之力",
+          "desc": "载，续命彩丝登茧馆，长生金籙献琳宫。<br/>织命者，捻时轮因缘之弦，谱苍生命途之章也。或救亡者于鬼门之外，或诞新生于苍茫之间，尽在持者之心。<br/>言：凤舞长生曲，鸾歌续命杯。"
+        },
+        {
+          "weapon": "苏醒者",
+          "name": "越幽莲",
+          "img": "Weapon_115204",
+          "qixue": "68",
+          "magic": "73",
+          "physical": "0",
+          "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星回响消耗74点天魂之力",
+          "desc": "载，清灯入幽帘，破影抱空峦。<br/>明缺生幽隙，莲起涅槃炎。持者通幽玄之径，穿行万界之间，只为寻得一世可免于空劫。<br/>言：三千明灭世，傍者唯此莲。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "苏醒者",
+          "img": "Equip_shuilingzhuhua",
+          "name": "水灵珠花",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "10",
+          "qixue_attr": "hp",
+          "maigc_defense": "7",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基础气血上限增加10%"
+        },
+        {
+          "equipment": "苏醒者",
+          "img": "Equip_baijuanwuxiu",
+          "name": "白绢舞袖",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "9",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "7",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基础物防和基础法防增加10%"
+        },
+        {
+          "equipment": "苏醒者",
+          "img": "Equip_xuanjingxiudai",
+          "name": "玄经绣带",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "12",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "5",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+        },
+        {
+          "equipment": "苏醒者",
+          "img": "Equip_subuhushou",
+          "name": "素布护手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "12",
+          "magatt_attr": "magatn",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "幻世镜花",
+          "img": "Weapon_115205",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "神兵强化中习得",
+          "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>5%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+        },
+        {
+          "name": "幻世镜花",
+          "img": "Weapon_115205",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和15+",
+          "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>6%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+        },
+        {
+          "name": "幻世镜花",
+          "img": "Weapon_115205",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和30+",
+          "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>7%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+        },
+        {
+          "name": "幻世镜花",
+          "img": "Weapon_115205",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和45+",
+          "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>8%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+        },
+        {
+          "name": "幻世镜花",
+          "img": "Weapon_115205",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和60+",
+          "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>10%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "景乐齐",
+      "is_new": "1",
+      "pinyin": "jingleqi",
+      "weight": "1360",
+      "source": "天地劫幽城再临原创角色",
+      "pic": "Hero1077_img",
+      "prop_icon": "Fire",
+      "career_icon": "Physician",
+      "rarity": "SSR",
+      "position": "治疗",
+      "prop": "火",
+      "career": "祝由",
+      "range": "2",
+      "speed": "3",
+      "qixue": "183",
+      "magic_attack": "75",
+      "physical_attack": "11",
+      "magic_defense": "37",
+      "physical_defense": "38",
+      "huixin": "20",
+      "inherent": "Gift_155",
+      "inherent_name": "樽酒赋乐",
+      "star1": "",
+      "star2": "",
+      "star3": "物防、治疗效果提高10%。友方在5格范围内主动使用绝学或普攻前，获得1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态（上限2层），每次获得「酒」状态时，驱散1个「有害状态」并获得1个「有益状态」。",
+      "star4": "物防、治疗效果提高13%。友方在5格范围内主动使用绝学或普攻前，获得1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态（上限2层），每次获得「酒」状态时，驱散1个「有害状态」并获得1个「有益状态」。",
+      "star5": "物防、治疗效果提高16%。友方在5格范围内主动使用绝学或普攻前，获得1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态（上限2层），每次获得「酒」状态时，驱散1个「有害状态」并获得1个「有益状态」。",
+      "star6": "物防、治疗效果提高20%。友方在5格范围内主动使用绝学或普攻前，获得1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态（上限2层），每次获得「酒」状态时，驱散1个「有害状态」并获得1个「有益状态」。",
+      "story_name": "出逃",
+      "story_content": "姨妈家和家里不一样，只是一处普通人家。在城郊，酒肆不如徽州多，也未见什么稀奇的瓦子。景六到这里三天便大呼无聊，一周就寻思上吊，一月就整日躺在床上垂泪。<br/>姨妈的性子和妈妈大不相同。以往在这时，他一撅嘴，妈妈早已带着夜市上遣小厮买回来的水晶脍呀煎肝脏呀——等等他爱吃的，鞍前马后地来哄他了。想到这里，景六从床上跳下来，冲到柴院里，对着正在劈柴的姨妈说：你是不是恨我。<br/>姨妈挥起一斧子，劈裂一口怀抱粗的树桩。斧刃深深嵌在木质里，好会才拔出来。她眼睛都不抬一下，答：管你茶饭吃饱，养着你游手好闲，还叫恨你？<br/>景六说：你是不是恨我娘当年非要嫁给景厚丰？你还恨我娘生了我？<br/>姨妈说：她爱嫁哪就嫁哪，爱生什么生什么，关我什么事？<br/>景六说：虽然我也不喜欢景厚丰，但你不该这么对我。<br/>姨妈说：那不是「景厚丰」，那是你亲爹。<br/>景六说：我就爱这么叫。<br/>姨妈抬起头来横了他一眼。他吓得原地往后蹦了三丈：叫爹，就是我爹。<br/>如此交流就是最后一遭。三日后，景六跑了。",
+      "hero_icon": "Hero1077_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "Skill_None_1006",
+          "name": "神气流转",
+          "type": "治疗",
+          "cd": "1回合",
+          "cost": "2内力",
+          "shoot": "3格",
+          "range": "菱形2格",
+          "way": "主动",
+          "unlock_condition": "英灵初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的0.75倍），驱散1个「有害状态」。"
+        },
+        {
+          "img": "EXSkill_1594",
+          "name": "散酒无忧",
+          "type": "治疗",
+          "cd": "2回合",
+          "cost": "2内力",
+          "shoot": "自身",
+          "range": "菱形5格",
+          "way": "主动",
+          "unlock_condition": "英灵位阶3级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主动使用，反转范围内所有友方身上2个「有害状态」为「有益状态」，恢复气血（恢复量为施术者法攻的1倍），并施加1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态。"
+        },
+        {
+          "img": "Skill_None_1005",
+          "name": "气愈之术",
+          "type": "治疗",
+          "cd": "无",
+          "cost": "1内力",
+          "shoot": "2格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵位阶15级",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的1.5倍），驱散1个「有害状态」。"
+        },
+        {
+          "img": "Skill_None_1019",
+          "name": "圣烨之护",
+          "type": "被动",
+          "cd": "无",
+          "cost": "1内力",
+          "shoot": "无",
+          "range": "无",
+          "way": "被动",
+          "unlock_condition": "英灵位阶15级",
+          "inner_power1": "Xun",
+          "unlock_inner1": "壹级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若自身气血100%，则承受的物攻伤害降低25%。"
+        },
+        {
+          "img": "EXSkill_1598",
+          "name": "伴酒",
+          "type": "被动",
+          "cd": "无",
+          "cost": "1内力",
+          "shoot": "无",
+          "range": "无",
+          "way": "被动",
+          "unlock_condition": "英灵位阶25级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "肆级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "回合开始时，与携带<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态气血百分比最低的1个其他友方平衡气血百分比，并恢复双方生命值（恢复量为施术者法攻的1倍），施加<link type=buff value=700000940 bgcolor=#3a85ffff>「无瑕I」</link>状态，持续2回合。"
+        },
+        {
+          "img": "EXSkill_1597",
+          "name": "千金买命",
+          "type": "主动",
+          "cd": "2回合",
+          "cost": "1内力",
+          "shoot": "7格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵位阶40级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "柒级",
+          "inner_power2": "Shen",
+          "unlock_inner2": "伍级",
+          "desc": "主动使用，对敌方施加<link type=buff value=741077403 bgcolor=#3a85ffff>「收买」</link>状态，持续2回合。"
+        },
+        {
+          "img": "EXSkill_1596",
+          "name": "公子同游",
+          "type": "治疗",
+          "cd": "2回合",
+          "cost": "2内力",
+          "shoot": "3格",
+          "range": "单体",
+          "way": "主动",
+          "unlock_condition": "英灵位阶40级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "柒级",
+          "inner_power2": "Xun",
+          "unlock_inner2": "伍级",
+          "desc": "[被动]行动结束时，恢复处于友方「酒池」地形上所有友方气血（恢复量为施术者法攻的0.5倍）。<br/>[主动]主动使用，恢复单个友方气血（恢复量为施术者法攻的1倍），驱散1个「有害状态」，在目标1圈范围内制造「酒池」地形，持续2回合，并对目标施加<link type=buff value=741077302 bgcolor=#3a85ffff>「携酒游」</link>状态，持续2回合。<br/>「酒池」：酒池内的敌方角色，暴击伤害-10%；酒池内的友方角色，行动结束时，恢复气血（最大气血的20%），驱散1个「有害状态」。酒池内的友方角色不消耗<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态。"
+        },
+        {
+          "img": "EXSkill_1595",
+          "name": "悠鱼自在",
+          "type": "治疗",
+          "cd": "3回合",
+          "cost": "2内力",
+          "shoot": "3格",
+          "range": "菱形3格",
+          "way": "主动",
+          "unlock_condition": "英灵位阶55级",
+          "inner_power1": "Hun",
+          "unlock_inner1": "拾级",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "对单个其他友方使用，恢复气血（恢复量为施术者法攻的0.75倍），并在目标身周3格范围内的单位间弹射恢复气血，每弹射1次，治疗效果提高6%（最多提高30%），绝学后为受治疗的友方施加1层<link type=buff value=741077007 bgcolor=#3a85ffff>「酒」</link>状态，且友方每被弹射1次额外驱散1个「有害状态」，获得1个「有益状态」并使「有益状态」等级提升1级。（最多弹射6次，且优先弹射气血最低的目标）"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "景乐齐",
+          "name": "檀鱼木",
+          "img": "Weapon_107701",
+          "qixue": "38",
+          "magic": "32",
+          "physical": "0",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "载，岁岁秋月底，沈醉紫檀槽。<br/>传，南洋有檀木，沉水而不腐，华香而不蠹。徽州有匠得此檀木，巧工雕琢，四面嵌无色琉璃，盛水而不漏，再置花草奇石于其间，真似一方水下洞天。有鱼灵甚喜之，据以为巢。此瓶亦得鱼灵神佑，生人不可近而袭之。<br/>言：瓶中自是酒泉郡，鱼兮汤沐须醉乡。"
+        },
+        {
+          "weapon": "景乐齐",
+          "name": "梨香木",
+          "img": "Weapon_107702",
+          "qixue": "47",
+          "magic": "39",
+          "physical": "0",
+          "feature": "[丹阳]治疗效果提升5%",
+          "rarity": "R",
+          "jiesuo": "英灵位阶25",
+          "desc": "载，梦相忆，心自宽，梨花酒熟承滋欢。<br/>传，员丘赤泉蕴不老梨树，食其果可延寿。有能者取此梨木作骨，制缸，所宿之物亦得赤泉之灵傍身，施辟邪解难之能。<br/>言：鱼戏梨花落处，灵消殇人愁肠。"
+        },
+        {
+          "weapon": "景乐齐",
+          "name": "沧河鉴",
+          "img": "Weapon_107703",
+          "qixue": "58",
+          "magic": "48",
+          "physical": "0",
+          "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星回响消耗45点天魂之力",
+          "desc": "载，观盏如梦游沧海，万里波涛在目前。<br/>传，古有上仙怜人世旱涝之灾，凝神氛之力于斗升之瓶，内辟无垠无相之界。入，可纳百川奔涌，出，可润九州涸泽。<br/>言：江河既导，万穴俱流，涓流泱瀼，莫不来注。"
+        },
+        {
+          "weapon": "景乐齐",
+          "name": "落龙碧",
+          "img": "Weapon_107704",
+          "qixue": "73",
+          "magic": "60",
+          "physical": "0",
+          "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%<br/>[贯清]气血高于50%时，治疗效果提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星回响消耗74点天魂之力",
+          "desc": "载，纵游不厌沧海宽，一跃已在青天上。<br/>有古国之属百年上贡之物，削北海龙角作瓶骨，磨天山玄玉成瓶身。传此物蕴龙属之力，幻形鱼灵，状若烛焰，有除祟愈疾之仁，亦有唤雷退敌之能。<br/>言：衔烛耀幽都，升云出鼎湖。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "景乐齐",
+          "img": "Equip_xuansezhiguan",
+          "name": "玄色织冠",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "10",
+          "qixue_attr": "hp",
+          "maigc_defense": "8",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基础气血上限增加10%"
+        },
+        {
+          "equipment": "景乐齐",
+          "img": "Equip_houzhizhangyi",
+          "name": "厚织长衣",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "13",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "8",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基础物防和基础法防增加10%"
+        },
+        {
+          "equipment": "景乐齐",
+          "img": "Equip_xuanjingxiudai",
+          "name": "玄经绣带",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "6",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+        },
+        {
+          "equipment": "景乐齐",
+          "img": "Equip_subuhushou",
+          "name": "素布护手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "9",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "strategy": [
+        {
+          "img": "BattleAsssit_060",
+          "name": "酌酒忘尘阵",
+          "unlock_condition": "阵眼景乐齐位阶35级，五内魂陆级解锁",
+          "relate1": "",
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero1077_HeadIcon_Basic",
+          "icon1": "warlock",
+          "icon2": "guard",
+          "icon3": "",
+          "desc": "上阵景乐齐和「咒师」，「铁卫」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，若携带的「有益状态」数量大于等于目标，则「对战中」伤害提高15%。"
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "万苍岩",
+          "img": "Weapon_107705",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "神兵强化中习得",
+          "desc": "<b><color=#e4462c>3</color></b>格范围内存在携带「酒」状态的友方时，治疗效果和免伤提高<b><color=#e4462c>5%</color></b>。<b><color=#e4462c>3</color></b>格范围内携带<b><color=#e4462c>2</color></b>层「酒」状态的友方使用绝学或普攻后，行动结束时于所在格生成「酒池」地形，持续<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "万苍岩",
+          "img": "Weapon_107705",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和15+",
+          "desc": "<b><color=#e4462c>3</color></b>格范围内存在携带「酒」状态的友方时，治疗效果和免伤提高<b><color=#e4462c>6%</color></b>。<b><color=#e4462c>3</color></b>格范围内携带<b><color=#e4462c>2</color></b>层「酒」状态的友方使用绝学或普攻后，行动结束时于所在格生成「酒池」地形，持续<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "万苍岩",
+          "img": "Weapon_107705",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和30+",
+          "desc": "<b><color=#e4462c>3</color></b>格范围内存在携带「酒」状态的友方时，治疗效果和免伤提高<b><color=#e4462c>7%</color></b>。<b><color=#e4462c>3</color></b>格范围内携带<b><color=#e4462c>2</color></b>层「酒」状态的友方使用绝学或普攻后，行动结束时于所在格生成「酒池」地形，持续<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "万苍岩",
+          "img": "Weapon_107705",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和45+",
+          "desc": "<b><color=#e4462c>3</color></b>格范围内存在携带「酒」状态的友方时，治疗效果和免伤提高<b><color=#e4462c>8%</color></b>。<b><color=#e4462c>3</color></b>格范围内携带<b><color=#e4462c>2</color></b>层「酒」状态的友方使用绝学或普攻后，行动结束时于所在格生成「酒池」地形，持续<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "万苍岩",
+          "img": "Weapon_107705",
+          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+          "jiesuo-level": "星之晶等级和60+",
+          "desc": "<b><color=#e4462c>3</color></b>格范围内存在携带「酒」状态的友方时，治疗效果和免伤提高<b><color=#e4462c>10%</color></b>。<b><color=#e4462c>3</color></b>格范围内携带<b><color=#e4462c>2</color></b>层「酒」状态的友方使用绝学或普攻后，行动结束时于所在格生成「酒池」地形，持续<b><color=#e4462c>2</color></b>回合。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "禄存高皇君",
+      "is_new": "0",
       "pinyin": "lucungaohuangjun",
       "weight": "1350",
       "source": "幽城幻剑录登场角色",
@@ -351,7 +1034,7 @@
   [
     {
       "name": "相胤",
-      "is_new": "1",
+      "is_new": "0",
       "pinyin": "xiangyin",
       "weight": "1340",
       "source": "幽城幻剑录登场角色",
@@ -685,7 +1368,7 @@
   [
     {
       "name": "波旬尉迟良",
-      "is_new": "1",
+      "is_new": "0",
       "pinyin": "boxunyuchiliang",
       "weight": "1330",
       "source": "天地劫幽城再临原创角色",
@@ -3503,17 +4186,17 @@
   [
     {
       "name": "雪芝",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "xuezhi",
-      "weight": "1250",
-      "source": "天地劫幽城再临原创角色",
+      "weight": "1230",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1071_img",
       "prop_icon": "Ice",
       "career_icon": "Guard",
       "rarity": "SSR",
       "position": "近攻",
       "prop": "冰",
-      "career": "铁卫",
+      "career": "鐵衛",
       "range": "1",
       "speed": "3",
       "qixue": "222",
@@ -3523,150 +4206,150 @@
       "physical_defense": "33",
       "huixin": "14",
       "inherent": "Gift_142",
-      "inherent_name": "瑶池仙首",
+      "inherent_name": "瑤池仙首",
       "star1": "",
       "star2": "",
-      "star3": "3格范围内存在携带<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态的敌方，自身物攻、法防提高10%。回合开始时，自身获得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙灵」</link>状态。主动攻击或遭受攻击后，给敌方施加1层「仙罪」状态，持续3回合。若攻击前目标已携带3层「仙罪」状态，则战后额外造成1次「固定伤害」（目标已损失气血的30%）",
-      "star4": "3格范围内存在携带<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态的敌方，自身物攻、法防提高13%。回合开始时，自身获得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙灵」</link>状态。主动攻击或遭受攻击后，给敌方施加1层「仙罪」状态，持续3回合。若攻击前目标已携带3层「仙罪」状态，则战后额外造成1次「固定伤害」（目标已损失气血的30%）",
-      "star5": "3格范围内存在携带<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态的敌方，自身物攻、法防提高16%。回合开始时，自身获得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙灵」</link>状态。主动攻击或遭受攻击后，给敌方施加1层「仙罪」状态，持续3回合。若攻击前目标已携带3层「仙罪」状态，则战后额外造成1次「固定伤害」（目标已损失气血的30%）",
-      "star6": "3格范围内存在携带<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态的敌方，自身物攻、法防提高20%。回合开始时，自身获得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙灵」</link>状态。主动攻击或遭受攻击后，给敌方施加1层「仙罪」状态，持续3回合。若攻击前目标已携带3层「仙罪」状态，则战后额外造成1次「固定伤害」（目标已损失气血的30%）",
-      "story_name": "四时之女",
-      "story_content": "西天素有四仙葩，芝、枫、槿、杏，性本灵，生于瑶池畔。东西、阴阳两分以来，王母迁居至昆仑山上，是日，怨斯地荒芜清冷，遂将灵草神木点以灵蕴，化以不死金丹之体。是以点化四仙女，为贴身侍女。四人各司其职，辅佐王母左右，掌事里外。仙集雅会，文曲星三巡酒后借兴又称：四仙子恰与人间四季相合，不如冠以四时风物之名，正如「春为青阳，夏为朱明，秋为白藏，冬为玄英」。于是，又得名青阳云杏、朱槿炎明、白藏暮枫、玄英雪芝。<br/>四仙中又以最先化仙的雪芝最为年长，便尊为首。雪芝虽为群仙之首，个性却最为憨直，一板一眼，不善察颜观色、心会微言之意。不喜出门，尤好洒扫庭除、内外整洁。其余众仙子因此都对其照护有加。",
+      "star3": "3格範圍內存在攜帶<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態的敵方，自身物攻、法防提高10%。回合開始時，自身獲得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙靈」</link>狀態。主動攻擊或遭受攻擊後，給敵方施加1層「仙罪」狀態，持續3回合。若攻擊前目標已攜帶3層「仙罪」狀態，則戰後額外造成1次「固定傷害」（目標已損失氣血的30%）",
+      "star4": "3格範圍內存在攜帶<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態的敵方，自身物攻、法防提高13%。回合開始時，自身獲得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙靈」</link>狀態。主動攻擊或遭受攻擊後，給敵方施加1層「仙罪」狀態，持續3回合。若攻擊前目標已攜帶3層「仙罪」狀態，則戰後額外造成1次「固定傷害」（目標已損失氣血的30%）",
+      "star5": "3格範圍內存在攜帶<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態的敵方，自身物攻、法防提高16%。回合開始時，自身獲得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙靈」</link>狀態。主動攻擊或遭受攻擊後，給敵方施加1層「仙罪」狀態，持續3回合。若攻擊前目標已攜帶3層「仙罪」狀態，則戰後額外造成1次「固定傷害」（目標已損失氣血的30%）",
+      "star6": "3格範圍內存在攜帶<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態的敵方，自身物攻、法防提高20%。回合開始時，自身獲得<link type=buff value=741071005 bgcolor=#3a85ffff>「仙靈」</link>狀態。主動攻擊或遭受攻擊後，給敵方施加1層「仙罪」狀態，持續3回合。若攻擊前目標已攜帶3層「仙罪」狀態，則戰後額外造成1次「固定傷害」（目標已損失氣血的30%）",
+      "story_name": "四時之女",
+      "story_content": "西天素有四仙葩，芝、楓、槿、杏，性本靈，生於瑤池畔。東西、陰陽兩分以來，王母遷居至昆侖山上，是日，怨斯地荒蕪清冷，遂將靈草神木點以靈蘊，化以不死金丹之體。是以點化四仙女，為貼身侍女。四人各司其職，輔佐王母左右，掌事裡外。仙集雅會，文曲星三巡酒後藉興又稱：四仙子恰與人間四季相合，不如冠以四時風物之名，正如「春為青陽，夏為朱明，秋為白藏，冬為玄英」。於是，又得名青陽雲杏、朱槿炎明、白藏暮楓、玄英雪芝。<br/>四仙中又以最先化仙的雪芝最為年長，便尊為首。雪芝雖為群仙之首，個性卻最為憨直，一板一眼，不善察顏觀色、心會微言之意。不喜出門，尤好灑掃庭除、內外整潔。其餘眾仙子因此都對其照護有加。",
       "hero_icon": "Hero1071_HeadIcon_Basic",
       "skill": [
         {
           "img": "EXSkill_1524",
-          "name": "惊风扰雪",
-          "type": "物攻伤害",
+          "name": "驚風擾雪",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.5倍伤害，「对战前」清除目标2格范围内所有敌方的护盾并施加1层<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态，持续3回合。"
+          "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰前」清除目標2格範圍內所有敵方的護盾並施加1層<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態，持續3回合。"
         },
         {
           "img": "EXSkill_1523",
-          "name": "月倾轮转",
-          "type": "物攻伤害",
+          "name": "月傾輪轉",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "十字2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶3级",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Shen",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "选择1个格子释放，对范围内所有敌人造成0.5倍伤害，击退中心点以外的敌人2格，如果击退路线被阻挡，则额外施加<link type=buff value=700000734 bgcolor=#3a85ffff>「迟缓III」</link>状态，持续1回合。"
+          "desc": "選擇1個格子釋放，對範圍內所有敵人造成0.5倍傷害，擊退中心點以外的敵人2格，如果擊退路線被阻擋，則額外施加<link type=buff value=700000734 bgcolor=#3a85ffff>「遲緩III」</link>狀態，持續1回合。"
         },
         {
           "img": "Skill_Ice_1012",
-          "name": "寒气",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "寒氣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+          "desc": "造成傷害後，對目標施加<link type=buff value=700001301 bgcolor=#3a85ffff>「遲緩I」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1525",
           "name": "庇凡",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "气血大于等于80%时，回合开始时，获得<link type=buff value=741071903 bgcolor=#3a85ffff>「仙躯」</link>状态。"
+          "desc": "氣血大於等於80%時，回合開始時，獲得<link type=buff value=741071903 bgcolor=#3a85ffff>「仙軀」</link>狀態。"
         },
         {
           "img": "Skill_Ice_1011",
           "name": "冰之力",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶25级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Shen",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "与携带「迟缓」类状态的目标对战，「对战中」伤害额外提高20%。"
+          "desc": "與攜帶「遲緩」類狀態的目標對戰，「對戰中」傷害額外提高20%。"
         },
         {
           "img": "EXSkill_1522",
-          "name": "碎琼乱玉",
-          "type": "物攻伤害",
+          "name": "碎瓊亂玉",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "直线3x3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "直線3x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Xun",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人造成0.5倍伤害，施加<link type=buff value=700001511 bgcolor=#3a85ffff>「封缄」</link>状态，持续2回合，命中大于等于<b><color=#e4462c>2</color></b>个敌方时，额外使所有目标1个不在冷却中且初始冷却时间最短的主动绝学冷却时间+1。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700001511 bgcolor=#3a85ffff>「封緘」</link>狀態，持續2回合，命中大於等於<b><color=#e4462c>2</color></b>個敵方時，額外使所有目標1個不在冷卻中且初始冷卻時間最短的主動絕學冷卻時間+1。"
         },
         {
           "img": "Skill_Guard_1012",
-          "name": "饮血横扫",
-          "type": "物攻伤害",
+          "name": "飲血橫掃",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Hun",
-          "unlock_inner2": "伍级",
-          "desc": "攻击单个敌人，造成1.5倍伤害，击杀目标后恢复自身40%气血。"
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，造成1.5倍傷害，擊殺目標後恢復自身40%氣血。"
         },
         {
           "img": "EXSkill_1521",
           "name": "以仙之名",
-          "type": "物攻伤害",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Shen",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "消耗自身当前气血20%（无法免疫），攻击单个敌人，造成1.8倍伤害，「对战前」施加<link type=buff value=700000850 bgcolor=#3a85ffff>「封脉」</link>状态，持续1回合，目标每携带1层<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>状态，自身物理穿透+20%。本次攻击后不移除<link type=buff value=741071005 bgcolor=#3a85ffff>「仙灵」</link>状态，「对战后」对目标周围1圈所有敌方施加<link type=buff value=741071023 bgcolor=#3a85ffff>「冰劫」</link>状态。<br/>[气力技]消耗3点气力，才可释放绝学。（每造成1次伤害或遭受1次伤害均可累积1点气力）"
+          "desc": "消耗自身當前氣血20%（無法免疫），攻擊單個敵人，造成1.8倍傷害，「對戰前」施加<link type=buff value=700000850 bgcolor=#3a85ffff>「封脈」</link>狀態，持續1回合，目標每攜帶1層<link type=buff value=741071010 bgcolor=#3a85ffff>「仙罪」</link>狀態，自身物理穿透+20%。本次攻擊後不移除<link type=buff value=741071005 bgcolor=#3a85ffff>「仙靈」</link>狀態，「對戰後」對目標周圍1圈所有敵方施加<link type=buff value=741071023 bgcolor=#3a85ffff>「冰劫」</link>狀態，持續1回合。<br/>[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害或遭受1次傷害均可累積1點氣力）"
         }
       ],
       "weapon": [
         {
           "weapon": "雪芝",
-          "name": "桃木轮",
+          "name": "桃木輪",
           "img": "Weapon_107101",
           "qixue": "45",
           "magic": "0",
@@ -3674,50 +4357,50 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "「典术」载，桃者，五木之精也，古压伏邪气者。<br/>桃木为轮，精纯御身，而势可破毒邪之阵。轻质易舞，如桃林风起，粉黛尽落，姿艳而力强也。<br/>言，精木制邪，熏香净世。"
+          "desc": "「典術」載，桃者，五木之精也，古壓伏邪氣者。<br/>桃木為輪，精純禦身，而勢可破毒邪之陣。輕質易舞，如桃林風起，粉黛盡落，姿豔而力強也。<br/>言，精木制邪，熏香淨世。"
         },
         {
           "weapon": "雪芝",
-          "name": "弦月轮",
+          "name": "弦月輪",
           "img": "Weapon_107102",
           "qixue": "55",
           "magic": "0",
           "physical": "46",
-          "feature": "[破空]反击伤害提升5%",
+          "feature": "[破空]反擊傷害提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，昼漏频加箭,宵晖欲半弓。<br/>取精粹寒铁，引弦月之形，为弧曲圆刃。其辉灼灼，虽天魔大能，目不直视，瞬霎之机，身首离也。<br/>言，晖冷暗玉盘，温血化凝脂。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，晝漏頻加箭,宵暉欲半弓。<br/>取精粹寒鐵，引弦月之形，為弧曲圓刃。其輝灼灼，雖天魔大能，目不直視，瞬霎之機，身首離也。<br/>言，暉冷暗玉盤，溫血化凝脂。"
         },
         {
           "weapon": "雪芝",
-          "name": "赛霜寒",
+          "name": "賽霜寒",
           "img": "Weapon_107103",
           "qixue": "69",
           "magic": "0",
           "physical": "57",
-          "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，满堂花醉三千客，一剑霜寒十四州。<br/>天酿醉客，庭满香肴。天女以天寒地霜为髓，炼寒霜环刃，为天宴守。凛气化壁，邪秽不入，独守千年，亦不能破。<br/>言，天霜聚锋寒，仙乐无扰忧。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，滿堂花醉三千客，一劍霜寒十四州。<br/>天釀醉客，庭滿香肴。天女以天寒地霜為髓，煉寒霜環刃，為天宴守。凜氣化壁，邪穢不入，獨守千年，亦不能破。<br/>言，天霜聚鋒寒，仙樂無擾憂。"
         },
         {
           "weapon": "雪芝",
-          "name": "仙云翼",
+          "name": "仙雲翼",
           "img": "Weapon_107104",
           "qixue": "86",
           "magic": "0",
           "physical": "71",
-          "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，祗此沉仙翼,瑶池似不遥。<br/>雪芝辖天庭玉玺，获赐仙云翼轮。轻似蝉翼，刃生仙风，持者腾云，日行千里。盖有恶出，一日伏诛也。<br/>言，仙轮归天翼，罪远难久安。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，祗此沉仙翼,瑤池似不遙。<br/>雪芝轄天庭玉璽，獲賜仙雲翼輪。輕似蟬翼，刃生仙風，持者騰雲，日行千里。蓋有惡出，一日伏誅也。<br/>言，仙輪歸天翼，罪遠難久安。"
         }
       ],
       "equipment": [
         {
           "equipment": "雪芝",
           "img": "Equip_huowenjinchai",
-          "name": "火纹金钗",
+          "name": "火紋金釵",
           "rarity": "N",
           "part": "1",
           "qixue": "11",
@@ -3732,12 +4415,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
           "equipment": "雪芝",
           "img": "Equip_baoganghuanjia",
-          "name": "薄钢环甲",
+          "name": "薄鋼環甲",
           "rarity": "N",
           "part": "2",
           "qixue": "17",
@@ -3752,12 +4435,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
           "equipment": "雪芝",
           "img": "Equip_yintangshuyao",
-          "name": "银烫束腰",
+          "name": "銀燙束腰",
           "rarity": "N",
           "part": "3",
           "qixue": "13",
@@ -3772,12 +4455,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
         },
         {
           "equipment": "雪芝",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "15",
@@ -3798,8 +4481,8 @@
       "strategy": [
         {
           "img": "BattleAsssit_052",
-          "name": "问仙破御阵",
-          "unlock_condition": "阵眼雪芝位阶35级，五内神陆级解锁",
+          "name": "問仙破禦陣",
+          "unlock_condition": "陣眼雪芝位階35級，五內神陸級解鎖",
           "relate1": "",
           "relate2": "",
           "relate3": "",
@@ -3807,71 +4490,62 @@
           "icon1": "warlock",
           "icon2": "physician",
           "icon3": "",
-          "desc": "上阵雪芝和「咒师」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。攻击存在主动绝学处于冷却中的敌方时，伤害提高10%。"
+          "desc": "上陣雪芝和「咒師」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。攻擊存在主動絕學處於冷卻中的敵方時，傷害提高10%。"
         }
       ],
       "godclass_weapon": [
         {
-          "name": "翠华映雪",
+          "name": "翠華映雪",
           "img": "Weapon_107105",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "攻击携带「仙罪」状态的敌方时，伤害提高<b><color=#e4462c>7%</color></b>。遭受绝学攻击后，使敌方该绝学冷却<b><color=#e4462c>+1</color></b>（每回合触发<b><color=#e4462c>1</color></b>次）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>7%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
-          "name": "翠华映雪",
+          "name": "翠華映雪",
           "img": "Weapon_107105",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "攻击携带「仙罪」状态的敌方时，伤害提高<b><color=#e4462c>9%</color></b>。遭受绝学攻击后，使敌方该绝学冷却<b><color=#e4462c>+1</color></b>（每回合触发<b><color=#e4462c>1</color></b>次）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>9%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
-          "name": "翠华映雪",
+          "name": "翠華映雪",
           "img": "Weapon_107105",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "攻击携带「仙罪」状态的敌方时，伤害提高<b><color=#e4462c>11%</color></b>。遭受绝学攻击后，使敌方该绝学冷却<b><color=#e4462c>+1</color></b>（每回合触发<b><color=#e4462c>1</color></b>次）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>11%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
-          "name": "翠华映雪",
+          "name": "翠華映雪",
           "img": "Weapon_107105",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "攻击携带「仙罪」状态的敌方时，伤害提高<b><color=#e4462c>13%</color></b>。遭受绝学攻击后，使敌方该绝学冷却<b><color=#e4462c>+1</color></b>（每回合触发<b><color=#e4462c>1</color></b>次）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>13%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
-          "name": "翠华映雪",
+          "name": "翠華映雪",
           "img": "Weapon_107105",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "攻击携带「仙罪」状态的敌方时，伤害提高<b><color=#e4462c>15%</color></b>。遭受绝学攻击后，使敌方该绝学冷却<b><color=#e4462c>+1</color></b>（每回合触发<b><color=#e4462c>1</color></b>次）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "攻擊攜帶「仙罪」狀態的敵方時，傷害提高<b><color=#e4462c>15%</color></b>。遭受絕學攻擊後，使敵方該絕學冷卻<b><color=#e4462c>+1</color></b>（每回合觸發<b><color=#e4462c>1</color></b>次）"
         }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "八荒灵石·尘",
-          "percent": "0.11544227886057"
-        }
-      ],
-      "hero_ornaments_2": [],
-      "hero_ornaments_3": [],
-      "hero_ornaments_4": []
+      ]
     }
   ],
   [
     {
       "name": "瞿牧之",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "qumuzhi",
-      "weight": "1240",
-      "source": "寰神结登场角色",
+      "weight": "1220",
+      "source": "寰神結登場角色",
       "pic": "Hero1072_img",
       "prop_icon": "Light",
       "career_icon": "Warlock",
       "rarity": "SSR",
-      "position": "远攻",
+      "position": "遠攻",
       "prop": "光",
-      "career": "咒师",
+      "career": "咒師",
       "range": "2",
       "speed": "3",
       "qixue": "181",
@@ -3881,150 +4555,150 @@
       "physical_defense": "29",
       "huixin": "24",
       "inherent": "Gift_141",
-      "inherent_name": "文昌星运",
+      "inherent_name": "文昌星運",
       "star1": "",
       "star2": "",
-      "star3": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（1格），本次再行动结束时减少2层「昌明」状态（间隔4回合触发）。",
-      "star4": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（1格），本次再行动结束时减少2层「昌明」状态（间隔3回合触发）。",
-      "star5": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（2格），本次再行动结束时减少2层「昌明」状态（间隔3回合触发）。",
-      "star6": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（2格），本次再行动结束时减少2层「昌明」状态（间隔2回合触发）。",
+      "star3": "場上每有1個其他角色使用傷害絕學後，自身獲得1層<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>狀態。使用非傷害絕學後，若自身攜帶大於等於2層「昌明」狀態，則獲得再行動（1格），本次再行動結束時減少2層「昌明」狀態（間隔4回合觸發）。",
+      "star4": "場上每有1個其他角色使用傷害絕學後，自身獲得1層<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>狀態。使用非傷害絕學後，若自身攜帶大於等於2層「昌明」狀態，則獲得再行動（1格），本次再行動結束時減少2層「昌明」狀態（間隔3回合觸發）。",
+      "star5": "場上每有1個其他角色使用傷害絕學後，自身獲得1層<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>狀態。使用非傷害絕學後，若自身攜帶大於等於2層「昌明」狀態，則獲得再行動（2格），本次再行動結束時減少2層「昌明」狀態（間隔3回合觸發）。",
+      "star6": "場上每有1個其他角色使用傷害絕學後，自身獲得1層<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>狀態。使用非傷害絕學後，若自身攜帶大於等於2層「昌明」狀態，則獲得再行動（2格），本次再行動結束時減少2層「昌明」狀態（間隔2回合觸發）。",
       "story_name": "文士",
-      "story_content": "瞿牧之，郑州人也，生而会言，颖悟绝人，过目不忘使百书皆阅一遍而封存，然习文十余年而不中。<br/>瞿牧之的前半生平平无奇，和天下千万读书人一样，悬梁刺股，寒窗苦读，待一朝揭榜，再有定论——要不拿皇粮，要不当个幼子的启蒙先生，往后余生一眼望得到头，他连自己百年之后的身后事都能想个七七八八。<br/>顾自以为人人如此，他随波逐流也是理所应当。<br/>然，几两银难倒真书生，人生转折并非是他仕途失意，而是在长平镇那一天的那一刻，他看见了一个姑娘，一眼万年。<br/>「我是曾在长平镇跟你聊过几回话，那个落第书生瞿牧之啊！你还记得我么？」<br/>虽然，这姑娘所惦念之人不是他。<br/>虽然，这关系天下的九仪天尊剑不属于他。<br/>虽然，可能后人记载的大部分故事都与他无关。<br/>但总归，瞿牧之此人的墓志铭上，除去「落第书生」这个名号之外，能多写几行字了。",
+      "story_content": "瞿牧之，鄭州人也，生而會言，穎悟絕人，過目不忘使百書皆閱一遍而封存，然習文十餘年而不中。<br/>瞿牧之的前半生平平無奇，和天下千萬讀書人一樣，懸樑刺股，寒窗苦讀，待一朝揭榜，再有定論——要不拿皇糧，要不當個幼子的啟蒙先生，往後餘生一眼望得到頭，他連自己百年之後的身後事都能想個七七八八。<br/>顧自以為人人如此，他隨波逐流也是理所應當。<br/>然，幾兩銀難倒真書生，人生轉折並非是他仕途失意，而是在長平鎮那一天的那一刻，他看見了一個姑娘，一眼萬年。<br/>「我是曾在長平鎮跟你聊過幾回話，那個落第書生瞿牧之啊！你還記得我麼？」<br/>雖然，這姑娘所惦念之人不是他。<br/>雖然，這關係天下的九儀天尊劍不屬於他。<br/>雖然，可能後人記載的大部分故事都與他無關。<br/>但總歸，瞿牧之此人的墓誌銘上，除去「落第書生」這個名號之外，能多寫幾行字了。",
       "hero_icon": "Hero1072_HeadIcon_Basic",
       "skill": [
         {
           "img": "Skill_Light_1004",
-          "name": "群星聚华 ",
-          "type": "法攻伤害",
+          "name": "群星眾華",
+          "type": "法攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "2格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.5倍伤害，「对战后」为自身周围3格内所有友方驱散1个「有害状态」。"
+          "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」為自身周圍3格內所有友方驅散1個「減益狀態」。"
         },
         {
           "img": "EXSkill_1515",
-          "name": "学以致用",
-          "type": "主动",
+          "name": "學以致用",
+          "type": "主動",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "5格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶3级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对单个其他角色释放，复制目标3个「有益状态」和伤害绝学最高倍率。<br/>使用后切换为「倒背如流」。<br/>「倒背如流」：攻击单个敌人，伤害倍率由「学以致用」复制（下限1.2倍-上限2.5倍），每携带1层「昌明」状态伤害提高5%（最高提升20%）。使用后切换为「学以致用」。"
+          "desc": "對單個其他角色釋放，複製目標3個「增益狀態」和傷害絕學最高倍率。<br/>使用後切換為「倒背如流」。<br/>「倒背如流」：攻擊單個敵人，傷害倍率由「學以致用」複製（下限1.2倍-上限2.5倍），每攜帶1層「昌明」狀態傷害提高5%（最高提升20%）。使用後切換為「學以致用」。"
         },
         {
           "img": "EXSkill_1520",
-          "name": "时仪返召",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "時儀返召",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "行动结束时，自身每携带2层「昌明」状态，反转3格内1个友方1个「有害状态」（最多反转2次）。"
+          "desc": "行動結束時，自身每攜帶2層「昌明」狀態，反轉3格內1個友方1個「減益狀態」（最多反轉2次）。"
         },
         {
           "img": "EXSkill_1519",
-          "name": "神视焕新",
-          "type": "治疗",
+          "name": "神視煥新",
+          "type": "治療",
           "cd": "1回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "3格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Mo",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的1.5倍），目标每携带1个冷却中的主动绝学，技能后反转1个「有害状态」且自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态（最多3个）。"
+          "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的1.5倍），目標每攜帶1個冷卻中的主動絕學，技能後反轉1個「減益狀態」且自身獲得1層<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>狀態（最多3個）。"
         },
         {
           "img": "GPassive_1012",
           "name": "神念",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶25级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Xun",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+          "desc": "若自身氣血大於等於90%，法攻、法防提高10%。"
         },
         {
           "img": "Skill_Light_1013",
-          "name": "七光御阵",
-          "type": "法攻伤害",
+          "name": "七光御陣",
+          "type": "法攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Xun",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Hun",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人造成0.4倍伤害，战后为自身菱形3格范围内的友方恢复气血（恢复量为施术者法攻的0.5倍）。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成0.4倍傷害，戰後為自身菱形3格範圍內的友方恢復氣血（恢復量為施術者法攻的0.5倍）。"
         },
         {
           "img": "EXSkill_1517",
-          "name": "启智之阵",
-          "type": "治疗",
+          "name": "啟智之陣",
+          "type": "治療",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Xun",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Mo",
-          "unlock_inner2": "伍级",
-          "desc": "主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的0.75倍），施加<link type=buff value=700000791 bgcolor=#3a85ffff>「神护I」</link>状态，持续2回合。对「咒师」「祝由」职业的目标额外施加<link type=buff value=741072135 bgcolor=#3a85ffff>「启智」</link>状态，持续2回合。"
+          "unlock_inner2": "伍級",
+          "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的0.75倍），施加<link type=buff value=700000791 bgcolor=#3a85ffff>「神護I」</link>狀態，持續2回合。對「咒師」「祝由」職業的目標額外施加<link type=buff value=741072135 bgcolor=#3a85ffff>「啟智」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1518",
-          "name": "忘时天法",
-          "type": "法攻伤害",
+          "name": "忘時天法",
+          "type": "法攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Xun",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成0.5倍伤害，反转1个「有益状态」，施加<link type=buff value=741072145 bgcolor=#3a85ffff>「忘时」</link>状态，持续2回合。"
+          "desc": "對範圍內所有敵人造成0.5倍傷害，反轉1個「增益狀態」，施加<link type=buff value=741072145 bgcolor=#3a85ffff>「忘時」</link>狀態，持續2回合。"
         }
       ],
       "weapon": [
         {
           "weapon": "瞿牧之",
-          "name": "无字书",
+          "name": "無字書",
           "img": "Weapon_107201",
           "qixue": "36",
           "magic": "38",
@@ -4032,50 +4706,50 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，人有精灵物,无字复无文。 <br/>天地之感，日月玄机，书文着墨，不得其要。然聚识于扇，无用繁文，山河灵曜，皆自心出。<br/>言，去虚得真识，灵引无字出。"
+          "desc": "載，人有精靈物,無字複無文。 <br/>天地之感，日月玄機，書文著墨，不得其要。然聚識於扇，無用繁文，山河靈曜，皆自心出。<br/>言，去虛得真識，靈引無字出。"
         },
         {
           "weapon": "瞿牧之",
-          "name": "闻君语",
+          "name": "聞君語",
           "img": "Weapon_107202",
           "qixue": "44",
           "magic": "47",
           "physical": "0",
-          "feature": "[决明]伤害提升5%",
+          "feature": "[決明]傷害提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，动言俱演道，语默尽神仙。<br/>仙贤聚，林中会。唯闻杯盏相击，虫鸣鸟语，声未盈而得识。后世望传习之，唯片扇画竹耳，真言难寻。<br/>言，君问识真意，空言闻竹风。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，動言俱演道，語默盡神仙。<br/>仙賢聚，林中會。唯聞杯盞相擊，蟲鳴鳥語，聲未盈而得識。後世望傳習之，唯片扇畫竹耳，真言難尋。<br/>言，君問識真意，空言聞竹風。"
         },
         {
           "weapon": "瞿牧之",
-          "name": "临光熏",
+          "name": "臨光熏",
           "img": "Weapon_107203",
           "qixue": "54",
           "magic": "58",
           "physical": "0",
-          "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，雍雍鸣雁,旭日始旦。<br/>天华集寸，光熏藏尺。扇开之时，耀辉炫目，乃是才情真显时，道途修行由此始。<br/>言，年华沉君才，光熏终难掩。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，雍雍鳴雁,旭日始旦。<br/>天華集寸，光熏藏尺。扇開之時，耀輝炫目，乃是才情真顯時，道途修行由此始。<br/>言，年華沉君才，光熏終難掩。"
         },
         {
           "weapon": "瞿牧之",
-          "name": "远山客",
+          "name": "遠山客",
           "img": "Weapon_107204",
           "qixue": "68",
           "magic": "73",
           "physical": "0",
-          "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，隐隐隔千里,巍巍知几重。<br/>君子有志，满腹经纶，而河山为途。虽为素面，然摇扇展图，万里宏光，千盛之像，皆发于心端，可兴国也。<br/>言，宏图万里志，纤纤扇中书。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，隱隱隔千里,巍巍知幾重。<br/>君子有志，滿腹經綸，而河山為途。雖為素面，然搖扇展圖，萬里宏光，千盛之像，皆發於心端，可興國也。<br/>言，宏圖萬里志，纖纖扇中書。"
         }
       ],
       "equipment": [
         {
           "equipment": "瞿牧之",
           "img": "Equip_xuansezhiguan",
-          "name": "玄色织冠",
+          "name": "玄色織冠",
           "rarity": "N",
           "part": "1",
           "qixue": "10",
@@ -4090,12 +4764,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
           "equipment": "瞿牧之",
           "img": "Equip_houzhizhangyi",
-          "name": "厚织长衣",
+          "name": "厚織長衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -4110,12 +4784,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
           "equipment": "瞿牧之",
           "img": "Equip_xuanjingxiudai",
-          "name": "玄经绣带",
+          "name": "玄經繡帶",
           "rarity": "N",
           "part": "3",
           "qixue": "12",
@@ -4130,12 +4804,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
         },
         {
           "equipment": "瞿牧之",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "11",
@@ -4155,54 +4829,41 @@
       ],
       "godclass_weapon": [
         {
-          "name": "星落金兰",
+          "name": "星落金蘭",
           "img": "Weapon_107205",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>5%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>5%</color></b>。觸發天賦再行動時獲得「激蕩」狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
-          "name": "星落金兰",
+          "name": "星落金蘭",
           "img": "Weapon_107205",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>6%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>6%</color></b>。觸發天賦再行動時獲得「激蕩」狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
-          "name": "星落金兰",
+          "name": "星落金蘭",
           "img": "Weapon_107205",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>7%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>7%</color></b>。觸發天賦再行動時獲得「激蕩」狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
-          "name": "星落金兰",
+          "name": "星落金蘭",
           "img": "Weapon_107205",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>8%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>8%</color></b>。觸發天賦再行動時獲得「激蕩」狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
-          "name": "星落金兰",
+          "name": "星落金蘭",
           "img": "Weapon_107205",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>10%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "攜帶「昌明」狀態時，傷害和法術免傷提高<b><color=#e4462c>10%</color></b>。觸發天賦再行動時獲得「激蕩」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "朱焰妖瞳·烟",
-          "percent": "0.15034965034965"
-        },
-        {
-          "name": "洛神玉菡",
-          "percent": "0.0961538461538462"
-        }
-      ],
-      "hero_ornaments_2": [],
-      "hero_ornaments_3": [],
-      "hero_ornaments_4": []
+      ]
     }
   ],
   [
@@ -5193,7 +5854,7 @@
           "relate3": "",
           "icon_center": "Hero1040_HeadIcon_Basic",
           "icon1": "electricity",
-          "icon2": "",
+          "icon2": "dusk",
           "icon3": "",
           "desc": "上陣劍魂·天尊和「雷」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若自身未攜帶「減益狀態」，「對戰中」傷害提高15%。"
         }
@@ -5875,7 +6536,7 @@
           "relate2": "",
           "relate3": "",
           "icon_center": "Hero1067_HeadIcon_Basic",
-          "icon1": "",
+          "icon1": "melee",
           "icon2": "guard",
           "icon3": "",
           "desc": "上陣月孛和「鬥將」，「鐵衛」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。與攜帶「屬性降低」類「減益狀態」的敵方「對戰中」傷害和免傷提高8%。"
@@ -6559,9 +7220,9 @@
           "relate3": "",
           "icon_center": "Hero1321_HeadIcon_Basic",
           "icon1": "fire",
-          "icon2": "",
+          "icon2": "dusk",
           "icon3": "",
-          "desc": "上陣太玄靈狐和「炎」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。目標氣血低於90%時，「對戰中」傷害提高8%；自身氣血低於90%時，「對戰中」免傷提高8%。"
+          "desc": "上陣太玄靈狐和「火」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。目標氣血低於90%時，「對戰中」傷害提高8%；自身氣血低於90%時，「對戰中」免傷提高8%。"
         }
       ],
       "godclass_weapon": [
@@ -9284,16 +9945,16 @@
       "strategy": [
         {
           "img": "BattleAsssit_044",
-          "relate3": "",
-          "relate2": "",
+          "name": "冰火絕獄陣",
           "unlock_condition": "陣眼羅淵女皇位階35級，五內魔陸級解鎖",
           "relate1": "",
-          "name": "冰火絕獄陣",
-          "icon3": "",
-          "icon1": "fire",
+          "relate2": "",
+          "relate3": "",
           "icon_center": "Hero1061_HeadIcon_Basic",
+          "icon1": "fire",
           "icon2": "ice",
-          "desc": "上陣羅淵女皇和「炎」「冰」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「增益狀態」時傷害提高8%。自身未攜帶「增益狀態」時免傷提高8%。"
+          "icon3": "",
+          "desc": "上陣羅淵女皇和「炎」，「冰」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「增益狀態」時傷害提高8%，自身未攜帶「增益狀態」時免傷提高8%。"
         }
       ],
       "godclass_weapon": [
@@ -13992,17 +14653,17 @@
       ],
       "strategy": [
         {
-          "unlock_condition": "陣眼阿秋位階35級，五內魔陸級解鎖",
-          "desc": "上陣阿秋和「炎」，「光」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，使用傷害絕學時，對處於自身直線位置的目標，暴擊率和傷害提高8%。<br/>",
-          "icon3": "",
-          "icon2": "light",
-          "icon1": "fire",
-          "name": "灼光雷鳴陣",
           "img": "BattleAsssit_037",
-          "icon_center": "Hero1043_HeadIcon_Basic",
-          "relate3": "",
+          "name": "灼光雷鳴陣",
+          "unlock_condition": "陣眼阿秋位階35級，五內魔陸級解鎖",
           "relate1": "",
-          "relate2": ""
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero1043_HeadIcon_Basic",
+          "icon1": "fire",
+          "icon2": "light",
+          "icon3": "",
+          "desc": "上陣阿秋和「炎」，「光」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，使用傷害絕學時，對處於自身直線位置的目標，暴擊率和傷害提高8%。<br/>。"
         }
       ],
       "godclass_weapon": [
@@ -18139,17 +18800,17 @@
       ],
       "strategy": [
         {
-          "unlock_condition": "陣眼白玉堂位階35級，五內魔陸級解鎖",
-          "desc": "上陣白玉堂和「暗」，「炎」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「增益狀態」時，傷害提高10%。",
-          "icon3": "",
-          "icon2": "fire",
-          "icon1": "shadow",
-          "name": "義鼠奪風陣",
           "img": "BattleAsssit_033",
-          "icon_center": "Hero2013_HeadIcon_Basic",
-          "relate3": "",
+          "name": "義鼠奪風陣",
+          "unlock_condition": "陣眼白玉堂位階35級，五內魔陸級解鎖",
           "relate1": "",
-          "relate2": ""
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero2013_HeadIcon_Basic",
+          "icon1": "shadow",
+          "icon2": "fire",
+          "icon3": "",
+          "desc": "上陣白玉堂和「暗」，「炎」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身攜帶「增益狀態」時，傷害提高10%。"
         }
       ],
       "godclass_weapon": [
@@ -21385,7 +22046,7 @@
           "icon1": "fire",
           "icon2": "ice",
           "icon3": "",
-          "desc": "上陣霍雍和「炎」，「冰」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若氣血高於50%且未攜帶「減益狀態」，傷害提高15%。"
+          "desc": "上陣霍雍和「炎」，「冰」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，若自身氣血高於50%且未攜帶「減益狀態」，傷害提高15%。"
         }
       ]
     }
@@ -22810,7 +23471,7 @@
           "icon1": "fire",
           "icon2": "electricity",
           "icon3": "",
-          "desc": "上陣奚歌和「炎」，「雷」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，單體絕學傷害提高10%。"
+          "desc": "上陣奚歌和「炎」，「雷」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，單體絕學傷害提高10%。"
         }
       ],
       "godclass_weapon": [
@@ -26558,7 +27219,7 @@
           "icon1": "fire",
           "icon2": "ice",
           "icon3": "",
-          "desc": "上陣召祐和「炎」，「冰」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格範圍內存在「炎」或「冰」屬相角色，傷害提高10%。"
+          "desc": "上陣召祐和「炎」，「冰」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，3格範圍內存在其他「炎」或「冰」屬相角色，傷害提高10%。"
         }
       ],
       "godclass_weapon": [
@@ -30354,7 +31015,7 @@
           "icon1": "female",
           "icon2": "female",
           "icon3": "",
-          "desc": "上陣殷無邪和至少2位「女性」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格範圍內存在女性角色時，傷害提高10%。"
+          "desc": "上陣殷無邪和至少2位「女性」英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，2格範圍內存在其他女性角色時，傷害提高10%。"
         }
       ],
       "godclass_weapon": [

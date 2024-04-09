@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "雪芝",
+        "is_new": "1",
+        "pinyin": "xuezhi",
+        "weight": "1230",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "鐵衛",
+        "hero_icon": "Hero1071_HeadIcon_Basic"
+      },
+      {
+        "name": "瞿牧之",
+        "is_new": "1",
+        "pinyin": "qumuzhi",
+        "weight": "1220",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1072_HeadIcon_Basic"
+      },
+      {
         "name": "朱槿",
         "is_new": "1",
         "pinyin": "zhujin",
@@ -1235,7 +1257,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-03-17 12:07:58"
+    "now": "2024-04-09 18:54:29"
   },
   "status": 1,
   "switch": null,
