@@ -337,7 +337,7 @@
       "icon": "Equip_qiongtonglingjie",
       "position": "4",
       "job": "1111111",
-      "type": "111101",
+      "type": "000001",
       "rarity": "SSR",
       "desc": "氣血+10%，免疫「禁療」「移動力降低」"
     },
@@ -760,7 +760,7 @@
       "icon": "Equip_feifengzhuishi",
       "position": "1",
       "job": "0100000",
-      "type": "100000",
+      "type": "000000",
       "rarity": "SSR",
       "desc": "普通攻擊時射程+1，同時傷害-10%\n僅羽士可用"
     },
