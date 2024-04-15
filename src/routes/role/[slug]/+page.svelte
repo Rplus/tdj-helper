@@ -1,7 +1,7 @@
 <script>
 import { onMount } from 'svelte';
 import { fetch_role_detail } from '$lib/fetch-data.js';
-// import { link } from '$lib/u.js';
+import { resize_img } from '$lib/u.js';
 
 import Role from '../Role.svelte';
 import Header from '$lib/Header.svelte';
@@ -11,11 +11,20 @@ let promise;
 onMount(() => {
 	promise = fetch_role_detail(data.role);
 });
+
 </script>
 
 <Header parent_path="/role" title="英靈：{data.role?.name}" />
 
 <Role data={data.role} type="card" />
+
+
+<a href={resize_img(`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`, 960)}
+	rel="noopener"
+	target="_img"
+>
+	large avater img
+</a>
 
 {#await promise}
 	<p>...waiting</p>
