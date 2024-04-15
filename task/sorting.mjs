@@ -176,6 +176,16 @@ op.ornaments = {
 
 		// fix data, workaround
 		switch (o.icon) {
+			// 飛鳳墜飾
+			case 'Equip_feifengzhuishi':
+				o.type = '000000'; // without any buff for property
+				break;
+
+			// 瓊瞳靈戒
+			case 'Equip_qiongtonglingjie':
+				o.type = '000001'; // 氣血only
+				break;
+
 			// 九色鹿冠
 			case 'Equip_jiuseluguan':
 				if (o.type === '001001') {
