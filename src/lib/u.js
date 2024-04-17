@@ -15,7 +15,7 @@ export function resize_img(url = '', size = 128) {
 
 const img_folders = {
 	cn: 'https://media.zlongame.com/media/news/cn/tdj/info/data',
-	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data'
+	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data',
 };
 
 export function get_img(type, name, size, lang = 'cn') {

@@ -8,23 +8,25 @@ const domains = {
 const PROXY = [
 	{
 		get_proxy_url: (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-		fetch: async (url) => fetch(url)
-			.then((r) => r.json())
-			.then((data) => {
-				data = JSON.parse(data?.contents);
-				console.log('fetch role.cn', data);
-				return data.data?.data[0];
-			}),
+		fetch: async (url) =>
+			fetch(url)
+				.then((r) => r.json())
+				.then((data) => {
+					data = JSON.parse(data?.contents);
+					console.log('fetch role.cn', data);
+					return data.data?.data[0];
+				}),
 	},
 	{
 		get_proxy_url: (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-		fetch: async (url) => fetch(url)
-			.then((r) => r.text())
-			.then((data) => {
-				data = JSON.parse(data);
-				console.log('fetch role.tw', data);
-				return data.data?.data[0];
-			}),
+		fetch: async (url) =>
+			fetch(url)
+				.then((r) => r.text())
+				.then((data) => {
+					data = JSON.parse(data);
+					console.log('fetch role.tw', data);
+					return data.data?.data[0];
+				}),
 	},
 ][0];
 

@@ -10,11 +10,11 @@ import { resize_img, get_img } from '$lib/u.js';
 // https://tw-media.game-beans.com/media/pictures/
 // https://media.zlongame.com/media/news/cn/
 // /tdj/info/data/skill/
-skills = handle_skills(skills)
+skills = handle_skills(skills);
 
 function handle_skills(skills) {
-	let powers = [undefined, ];
-	skills = skills.map(s => {
+	let powers = [undefined];
+	skills = skills.map((s) => {
 		let unlock_condition = +s.unlock_condition.match(/\d+/)?.[0] || 0;
 
 		switch (unlock_condition) {
@@ -34,7 +34,7 @@ function handle_skills(skills) {
 					powers.push(s.inner_power1);
 				}
 				s.grid_row = 3;
-				s.grid_col = (powers.indexOf(s.inner_power1) === 1) ? 5 : 1;
+				s.grid_col = powers.indexOf(s.inner_power1) === 1 ? 5 : 1;
 				break;
 
 			case 25:
@@ -47,7 +47,7 @@ function handle_skills(skills) {
 					powers.push(s.inner_power2);
 				}
 				s.grid_row = 5;
-				s.grid_col = (powers.indexOf(s.inner_power2) === 1) ? 4 : 2;
+				s.grid_col = powers.indexOf(s.inner_power2) === 1 ? 4 : 2;
 				break;
 
 			case 55:
@@ -59,40 +59,35 @@ function handle_skills(skills) {
 				break;
 		}
 		return s;
-
-	})
+	});
 
 	return skills;
 }
 
-
-const paths = {
-
-};
-
-
+const paths = {};
 </script>
 
 <hr />
 <hr />
 <hr />
 
-
 <div class="skills">
 	{#each skills as skill}
-		<div class="skill ai-c jc-c flex text-center"
-			style="--row: {skill.grid_row}; --col: {skill.grid_col};">
-
+		<div
+			class="skill ai-c jc-c flex text-center"
+			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
+		>
 			<details>
 				<summary>
 					{skill.name}
-					<br>
-					<img src={get_img('skill', skill.img, 96, lang)}
+					<br />
+					<img
+						src={get_img('skill', skill.img, 96, lang)}
 						alt={skill.name}
 						title={skill.name}
 						width="48"
 						height="48"
-					>
+					/>
 				</summary>
 				<pre>{JSON.stringify(skill, null, 2)}</pre>
 			</details>
@@ -100,15 +95,11 @@ const paths = {
 	{/each}
 </div>
 
-
 <hr />
 <hr />
 <hr />
-
-
 
 <style>
-
 .skills {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);

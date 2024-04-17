@@ -210,14 +210,14 @@ label.flex {
 	align-items: start;
 	cursor: pointer;
 	gap: 0.15em;
-	font-size: clamp(.7rem, 2.5vw, 1rem);
+	font-size: clamp(0.7rem, 2.5vw, 1rem);
 	line-height: 1.4;
 
 	& input {
 		width: 1em;
 		height: 1em;
-		margin-block-start: .3em;
-		font-size: clamp(.65rem, 2.5vw, .9rem);
+		margin-block-start: 0.3em;
+		font-size: clamp(0.65rem, 2.5vw, 0.9rem);
 	}
 
 	&:hover pre {

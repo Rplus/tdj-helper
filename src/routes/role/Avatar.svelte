@@ -30,7 +30,6 @@ function get_strategy(strategy) {
 		};
 	}
 }
-
 </script>
 
 <div class="box">

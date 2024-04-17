@@ -36,7 +36,6 @@ onMount(() => {
 {#if browser}
 	{#await promise}
 		<p>...waiting</p>
-
 	{:then detail_data}
 		{#if detail_data}
 			<Skills skills={detail_data.skill} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
@@ -44,13 +43,11 @@ onMount(() => {
 		<details>
 			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
 		</details>
-		<hr>
-		<hr>
-		<hr>
-
+		<hr />
+		<hr />
+		<hr />
 	{:catch error}
 		<p style="color: red">{error.message}</p>
-
 	{/await}
 {/if}
 
