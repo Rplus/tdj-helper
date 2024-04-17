@@ -200,7 +200,6 @@ textarea {
 pre {
 	margin: 0 0 0.25em;
 	padding: 0.15em 0.5em 0.25em;
-	font-size: min(1rem, 2.75vw);
 
 	&.option {
 		background: linear-gradient(to right, #9994, #0000);
@@ -211,9 +210,14 @@ label.flex {
 	align-items: start;
 	cursor: pointer;
 	gap: 0.15em;
+	font-size: clamp(.7rem, 2.5vw, 1rem);
+	line-height: 1.4;
 
 	& input {
-		margin-block-start: 0.65em;
+		width: 1em;
+		height: 1em;
+		margin-block-start: .3em;
+		font-size: clamp(.65rem, 2.5vw, .9rem);
 	}
 
 	&:hover pre {
