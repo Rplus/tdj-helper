@@ -13,6 +13,16 @@ export function resize_img(url = '', size = 128) {
 	return `https://wsrv.nl/?&w=${size}&h=${size}&we&il&output=webp&url=${url}`;
 }
 
+const img_folders = {
+	cn: 'https://media.zlongame.com/media/news/cn/tdj/info/data',
+	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data'
+};
+
+export function get_img(type, name, size, lang = 'cn') {
+	let src = `${img_folders[lang]}/${type}/${name}.png`;
+	return resize_img(src, size);
+}
+
 const STORAGE_KEY = 'TDJ-HELPER';
 export function saveItem(data) {
 	if (!data || !data.key) {
