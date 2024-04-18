@@ -28,7 +28,7 @@ const PROXY = [
 					return data.data?.data[0];
 				}),
 	},
-][0];
+][1];
 
 export async function fetch_role_detail(role) {
 	let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
