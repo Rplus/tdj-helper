@@ -18,6 +18,10 @@ const img_folders = {
 	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data',
 };
 
+export function remove_html_tag(html = '') {
+	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
+}
+
 export function get_img(type, name, size, lang = 'cn') {
 	let src = `${img_folders[lang]}/${type}/${name}.png`;
 	return resize_img(src, size);

@@ -67,10 +67,6 @@ function handle_skills(skills) {
 const paths = {};
 </script>
 
-<hr />
-<hr />
-<hr />
-
 <div class="skills">
 	{#each skills as skill}
 		<div
@@ -95,9 +91,7 @@ const paths = {};
 	{/each}
 </div>
 
-<hr />
-<hr />
-<hr />
+
 
 <style>
 .skills {

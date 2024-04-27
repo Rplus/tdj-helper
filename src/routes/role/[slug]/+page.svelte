@@ -6,6 +6,7 @@ import { browser } from '$app/environment';
 
 import Role from '../Role.svelte';
 import Skills from './Skills.svelte';
+import Stars from './Stars.svelte';
 import Header from '$lib/Header.svelte';
 
 export let data;
@@ -38,7 +39,28 @@ onMount(() => {
 		<p>...waiting</p>
 	{:then detail_data}
 		{#if detail_data}
+			<hr>
+
+			<Stars
+				stars={[
+					detail_data.star1,
+					detail_data.star2,
+					detail_data.star3,
+					detail_data.star4,
+					detail_data.star5,
+					detail_data.star6,
+				]}
+			/>
+
+			<hr />
+			<hr />
+			<hr />
+			<hr>
 			<Skills skills={detail_data.skill} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
+			<hr />
+			<hr />
+			<hr />
+
 		{/if}
 		<details>
 			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
