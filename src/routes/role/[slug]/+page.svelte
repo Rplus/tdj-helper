@@ -7,6 +7,7 @@ import { browser } from '$app/environment';
 import Role from '../Role.svelte';
 import Skills from './Skills.svelte';
 import Stars from './Stars.svelte';
+import Weapon from './Weapon.svelte';
 import Header from '$lib/Header.svelte';
 
 export let data;
@@ -54,10 +55,14 @@ onMount(() => {
 
 			<hr />
 			<hr />
-			<hr />
-			<hr>
+
 			<Skills skills={detail_data.skill} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
+
 			<hr />
+			<hr />
+
+			<Weapon weapon={detail_data.godclass_weapon} />
+
 			<hr />
 			<hr />
 
