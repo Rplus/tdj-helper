@@ -18,6 +18,10 @@ const img_folders = {
 	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data',
 };
 
+export function clear_html(html = '') {
+	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').replace(/。/g, '。\n');
+}
+
 export function remove_html_tag(html = '') {
 	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
 }

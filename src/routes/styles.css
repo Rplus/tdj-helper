@@ -151,6 +151,10 @@ button:not([disabled]) {
 	text-align: center;
 }
 
+.pre-line {
+	white-space: pre-line;
+}
+
 form.form {
 	& label {
 		cursor: pointer;
