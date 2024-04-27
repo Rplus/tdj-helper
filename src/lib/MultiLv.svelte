@@ -74,6 +74,7 @@ export let name = 'lv';
 		grid-area: desc;
 		margin-block-end: 0.5em;
 		visibility: hidden;
+		line-height: 1.35;
 	}
 
 	input:checked + .lv ~ .lv::before {
