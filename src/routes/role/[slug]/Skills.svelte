@@ -91,8 +91,6 @@ const paths = {};
 	{/each}
 </div>
 
-
-
 <style>
 .skills {
 	display: grid;

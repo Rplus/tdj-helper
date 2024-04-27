@@ -40,7 +40,7 @@ onMount(() => {
 		<p>...waiting</p>
 	{:then detail_data}
 		{#if detail_data}
-			<hr>
+			<hr />
 
 			<Stars
 				stars={[
@@ -65,7 +65,6 @@ onMount(() => {
 
 			<hr />
 			<hr />
-
 		{/if}
 		<details>
 			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
