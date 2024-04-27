@@ -1,7 +1,7 @@
 <script>
 export let skills = [];
 export let lang = 'tw';
-import { resize_img, get_img } from '$lib/u.js';
+import { resize_img, get_img, clear_html } from '$lib/u.js';
 // import { get_skill_img_url } from '$lib/fetch-data.js';
 
 // https://tw-media.game-beans.com/media/pictures/tdj/info/data/skill/EXSkill_1030.png
@@ -73,7 +73,7 @@ const paths = {};
 			class="skill ai-c jc-c flex text-center"
 			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
 		>
-			<details>
+			<details name="skill">
 				<summary>
 					{skill.name}
 					<br />
@@ -85,7 +85,22 @@ const paths = {};
 						height="48"
 					/>
 				</summary>
-				<pre>{JSON.stringify(skill, null, 2)}</pre>
+				<div class="desc">
+					<div class="pre-line">
+					{clear_html(skill.desc)}
+					<ul>
+						<li>cost: {skill.cost}</li>
+						<li>shoot: {skill.shoot}</li>
+						<li>cd: {skill.cd}</li>
+						<li>range: {skill.range}</li>
+						<li>type: {skill.type}</li>
+						<li>way: {skill.way}</li>
+					</ul>
+					</div>
+					<details>
+						<pre>{JSON.stringify(skill, null, 2)}</pre>
+					</details>
+				</div>
 			</details>
 		</div>
 	{/each}
@@ -109,7 +124,7 @@ const paths = {};
 	/* box-shadow: inset 0 0 0 1px, 0 0 0 1px; */
 	font-size: smaller;
 
-	& pre {
+	& .desc {
 		position: absolute;
 		width: 25em;
 		margin: 0;
