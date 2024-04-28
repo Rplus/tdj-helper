@@ -21,6 +21,7 @@ export let name = 'lv';
 			class="lv"
 			for="{name}-{index + 1}"
 			data-index={index + 1}
+			class:disabled={!lv}
 			style="--index: {index + 1}"
 		/>
 
@@ -68,6 +69,10 @@ export let name = 'lv';
 .lv {
 	grid-area: lvs;
 	margin-left: calc(1em * (var(--index) - 1));
+
+	&:not(.disabled) {
+		cursor: pointer;
+	}
 
 	&::before {
 		content: '★';
