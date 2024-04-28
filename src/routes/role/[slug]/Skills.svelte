@@ -51,9 +51,10 @@ const paths = {};
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(6, 5em);
-	gap: 0.5em;
-	background-image: linear-gradient(to right, #0001, #0001 calc(100% - 0.5em), #0000 0%);
-	background-size: calc((100% + 0.5em) / 5) 100%;
+	--gap: min(0.5em, .8vw);
+	gap: var(--gap);
+	background-image: linear-gradient(to right, #9991, #9991 calc(100% - var(--gap)), #0000 0%);
+	background-size: calc((100% + var(--gap)) / 5) 100%;
 }
 
 .skill {
@@ -90,5 +91,11 @@ const paths = {};
 img {
 	background-color: #3333;
 	border-radius: 50%;
+}
+
+summary {
+	font-size: smaller;
+	cursor: pointer;
+	text-indent: -1em;
 }
 </style>
