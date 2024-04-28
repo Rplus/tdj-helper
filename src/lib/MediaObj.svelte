@@ -16,6 +16,8 @@
 
 <style>
 .flex {
+	--img-size: 64px;
+
 	gap: 0.5em min(0.75em, 3vw);
 
 	@media (max-width: 480px) {
