@@ -49,4 +49,7 @@
 	white-space: nowrap;
 	font-size: var(--name-fz, 1em);
 }
+.info {
+	flex-grow: 1;
+}
 </style>
