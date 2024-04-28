@@ -38,8 +38,8 @@ let refs = [
 <style>
 .list {
 	padding: 0;
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr auto;
-	grid-template-columns: fit-content(80px) auto;
+	grid-template-columns: fit-content(80px) auto; */
 }
 </style>

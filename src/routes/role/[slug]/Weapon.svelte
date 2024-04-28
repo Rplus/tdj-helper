@@ -3,28 +3,27 @@ export let weapon = [];
 
 import { clear_html, get_img } from '$lib/u.js';
 import MultiLv from '$lib/MultiLv.svelte';
+import MediaObj from '$lib/MediaObj.svelte';
 
 let descs = weapon.map((w) => clear_html(w.desc));
 </script>
 
 {#if weapon && weapon[0]}
-	<div class="flex" style="gap: 1em;">
-		<div class="text-center">
-			<img src={get_img('weapon', weapon[0].img, 64)} alt={weapon[0].name} width="64" height="64" />
-			<br />
+	<MediaObj>
+		<img
+			slot="img"
+			src={get_img('weapon', weapon[0].img, 64)}
+			alt={weapon[0].name}
+			width="64"
+			height="64"
+		/>
+
+		<svelte:fragment slot="name">
 			{weapon[0].name}
-		</div>
+		</svelte:fragment>
 
-		<MultiLv lvs={descs} name="weapon" />
-	</div>
+		<svelte:fragment slot="info">
+			<MultiLv lvs={descs} name="weapon" />
+		</svelte:fragment>
+	</MediaObj>
 {/if}
-
-<style>
-.flex {
-	gap: 1em;
-
-	@media (max-width: 500px) {
-		flex-direction: column;
-	}
-}
-</style>

@@ -6,7 +6,7 @@ import { browser } from '$app/environment';
 
 import Role from '../Role.svelte';
 import Skills from './Skills.svelte';
-import Stars from './Stars.svelte';
+import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
 import Header from '$lib/Header.svelte';
 
@@ -42,7 +42,9 @@ onMount(() => {
 		{#if detail_data}
 			<hr />
 
-			<Stars
+			<Inherent
+				img={detail_data.inherent}
+				name={detail_data.inherent_name}
 				stars={[
 					detail_data.star1,
 					detail_data.star2,
