@@ -42,6 +42,8 @@ let refs = [
 		// 	target: '_biliwiki',
 	},
 ];
+
+$: grid_view = false;
 </script>
 
 <div class="workspace">
@@ -49,10 +51,15 @@ let refs = [
 
 	<Filter />
 
-	<hr />
+	<div class="hr">
+		<input class="visually-hidden" type="checkbox" bind:checked={grid_view} id="switcher" />
+
+		<label class="switcher" class:grid_view for="switcher" />
+	</div>
 
 	{@html sort_style}
-	<div class="list">
+
+	<div class="list" class:grid_view>
 		<div class="role role-head type-list">
 			<div
 				class="name text-center"
@@ -87,12 +94,53 @@ let refs = [
 <Footer time={true} {refs} />
 
 <style>
+.switcher {
+	font-size: 1.5rem;
+	font-family: monospace;
+	cursor: pointer;
+
+	&.grid_view {
+		--list: 0;
+		--grid: 1;
+	}
+
+	&::before {
+		content: '▦';
+		background-color: rgba(255, 255, 150, var(--grid, 0));
+	}
+	&::after {
+		content: '▤';
+		background-color: rgba(255, 255, 150, var(--list, 1));
+	}
+}
+
 .list {
 	display: grid;
 	grid-template-columns: 2fr repeat(6, 1fr);
 
 	@media (max-width: 700px) {
 		font-size: smaller;
+	}
+}
+
+.list.grid_view {
+	grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+
+	& .role-head {
+		display: none !important;
+	}
+
+	& .role {
+		grid-column: auto;
+		margin-bottom: 2em;
+
+		& .box {
+			flex-direction: column;
+
+			& ~ * {
+				display: none;
+			}
+		}
 	}
 }
 
