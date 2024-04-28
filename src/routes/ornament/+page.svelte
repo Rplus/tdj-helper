@@ -1,22 +1,12 @@
 <script>
+import { get_refs } from '$lib/fetch-data.js';
 import data from '$lib/data/ornaments.min.json';
+
 import Header from '$lib/Header.svelte';
 import Filter from './Filter.svelte';
 import Footer from '$lib/Footer.svelte';
 import Item from './Item.svelte';
 
-let refs = [
-	{
-		title: 'Official (zh-tw)',
-		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
-		target: '_officail_tw',
-	},
-	{
-		title: 'Official (zh-cn)',
-		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
-		target: '_officail_cn',
-	},
-];
 </script>
 
 <div class="workspace">
@@ -32,7 +22,7 @@ let refs = [
 		{/each}
 	</ul>
 
-	<Footer time={true} {refs} />
+	<Footer time={true} refs={get_refs([1, 1, 0])} />
 </div>
 
 <style>

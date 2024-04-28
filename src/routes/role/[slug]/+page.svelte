@@ -1,6 +1,6 @@
 <script>
 import { onMount } from 'svelte';
-import { fetch_role_detail } from '$lib/fetch-data.js';
+import { fetch_role_detail, get_refs } from '$lib/fetch-data.js';
 import { resize_img } from '$lib/u.js';
 import { browser } from '$app/environment';
 
@@ -9,6 +9,7 @@ import Skills from './Skills.svelte';
 import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
 import Header from '$lib/Header.svelte';
+import Footer from '$lib/Footer.svelte';
 
 export let data;
 
@@ -78,6 +79,8 @@ onMount(() => {
 		<p style="color: red">{error.message}</p>
 	{/await}
 {/if}
+
+<Footer time={true} refs={get_refs([1, 1, 0])} />
 
 <style>
 pre {

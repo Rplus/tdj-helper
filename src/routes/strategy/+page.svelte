@@ -1,5 +1,6 @@
 <script>
 import { strategy_data } from './strategy.js';
+import { get_refs } from '$lib/fetch-data.js';
 
 import Filter from '$lib//Filter.svelte';
 import Header from '$lib/Header.svelte';
@@ -34,19 +35,6 @@ function gen_desc(str = '') {
 	}
 	return str;
 }
-
-let refs = [
-	{
-		title: 'Official (zh-tw)',
-		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
-		target: '_officail_tw',
-	},
-	{
-		title: 'Official (zh-cn)',
-		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
-		target: '_officail_cn',
-	},
-];
 </script>
 
 <div class="workspace">
@@ -75,7 +63,7 @@ let refs = [
 		</div>
 	{/each}
 
-	<Footer time={true} {refs} />
+	<Footer time={true} refs={get_refs([1, 1, 0])} />
 </div>
 
 <style>

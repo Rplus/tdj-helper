@@ -1,5 +1,6 @@
 <script>
 import roles_data from '$lib/data/roles.min.json';
+import { get_refs } from '$lib/fetch-data.js';
 
 import Filter from './Filter.svelte';
 import Role from './Role.svelte';
@@ -25,23 +26,6 @@ function sort_by_prop(prop = '') {
 		order: calc(var(--${prop}) * ${sort_dir});
 	} </style>`;
 }
-
-let refs = [
-	{
-		title: 'Official (zh-tw)',
-		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
-		target: '_officail_tw',
-	},
-	{
-		title: 'Official (zh-cn)',
-		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
-		target: '_officail_cn',
-		// }, {
-		// 	title: 'Bili-Wiki',
-		// 	link: 'https://wiki.biligame.com/tdj/',
-		// 	target: '_biliwiki',
-	},
-];
 
 $: grid_view = false;
 </script>
@@ -91,7 +75,7 @@ $: grid_view = false;
 	</div>
 </div>
 
-<Footer time={true} {refs} />
+<Footer time={true} refs={get_refs([1, 1, 0])} />
 
 <style>
 .switcher {

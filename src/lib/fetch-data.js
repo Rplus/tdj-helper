@@ -5,6 +5,27 @@ const domains = {
 	// tw: 'tdj-activitytest.game-beans.com', // test
 };
 
+const refs = [
+	{
+		title: 'Official (zh-tw)',
+		link: 'https://www.game-beans.com/userinfo/tdj/index.html',
+		target: '_officail_tw',
+	},
+	{
+		title: 'Official (zh-cn)',
+		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
+		target: '_officail_cn',
+	}, {
+		title: 'Bili-Wiki',
+		link: 'https://wiki.biligame.com/tdj/',
+		target: '_biliwiki',
+	},
+];
+
+export function get_refs(io) {
+	return refs.filter((i, index) => io[index]);
+}
+
 const PROXY = [
 	{
 		get_proxy_url: (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
