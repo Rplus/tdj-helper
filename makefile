@@ -35,3 +35,9 @@ fetch-new: print-date
 
 data-sorting:
 	node ./task/sorting.mjs;
+
+parse-bili-skill:
+	bun ./task/parse-bili-skill.js;
+
+parse-bili-skill--new:
+	bun ./task/parse-bili-skill.js -- new=1;
