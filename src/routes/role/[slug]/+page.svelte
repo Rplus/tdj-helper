@@ -29,7 +29,8 @@ onMount(() => {
 		<p>...waiting</p>
 	{:then detail_data}
 		{#if detail_data}
-			<hr />
+
+			<div class="hr" style="--ratio: 0.125;">天賦</div>
 
 			<Inherent
 				img={detail_data.inherent}
@@ -44,7 +45,7 @@ onMount(() => {
 				]}
 			/>
 
-			<hr />
+			<div class="hr" style="--ratio: 0.125;">神兵</div>
 
 			<Weapon weapon={detail_data.godclass_weapon} />
 

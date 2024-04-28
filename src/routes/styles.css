@@ -98,7 +98,11 @@ button:not([disabled]) {
 	&::after {
 		content: '';
 		flex-grow: 1;
-		border-top: 1px inset;
+		border-top: 1px dotted;
+		opacity: 0.5;
+	}
+	&::before {
+		flex-grow: var(--ratio, 1);
 	}
 }
 
