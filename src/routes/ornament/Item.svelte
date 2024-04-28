@@ -21,7 +21,14 @@ $: position = keys.position[item.position];
 let imgs = get_imgs('accessories', item.icon, [64, 128]);
 </script>
 
-<li class="item">
+<!--  -->
+<li class="item"
+	data-rarity={item.rarity}
+	data-position={position}
+	data-type={types}
+	data-job={jobs}
+	data-search="{item.name} {item.desc}"
+>
 	<MediaObj>
 		<img
 			src={imgs[0]}
