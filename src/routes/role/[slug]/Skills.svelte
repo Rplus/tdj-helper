@@ -28,7 +28,7 @@ const paths = {};
 				<div class="desc">
 					<div class="pre-line">
 						{clear_html(skill.desc)}
-						<ul>
+						<ul class="list">
 							<li>cost: {skill.cost}</li>
 							<li>shoot: {skill.shoot}</li>
 							<li>cd: {skill.cd}</li>
@@ -66,7 +66,8 @@ const paths = {};
 
 	& .desc {
 		position: absolute;
-		width: 25em;
+		max-width: 20em;
+		min-width: 10em;
 		margin: 0;
 		padding: 1em;
 		overflow: auto;
@@ -79,6 +80,11 @@ const paths = {};
 			z-index: 11;
 		}
 	}
+}
+
+.list {
+	padding: 0;
+	padding-left: 1em;
 }
 
 img {
