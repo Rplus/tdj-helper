@@ -4,8 +4,8 @@ export let name = 'lv';
 </script>
 
 <input type="checkbox" class="swticher visually-hidden" id="swticher--{name}" />
-<div class="levels">
-	<label class="swticher-label" for="swticher--{name}" />
+<div class="levels pos-r">
+	<label class="swticher-label pos-a" for="swticher--{name}" />
 
 	{#each lvs as lv, index}
 		<input
@@ -43,6 +43,8 @@ export let name = 'lv';
 	cursor: pointer;
 	display: block;
 	width: fit-content;
+	top: 0;
+	right: 0;
 
 	&::before {
 		content: var(--switcher, '🙈');
