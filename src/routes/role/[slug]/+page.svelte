@@ -3,6 +3,7 @@ import { onMount } from 'svelte';
 import { fetch_role_detail, get_refs } from '$lib/fetch-data.js';
 import { resize_img } from '$lib/u.js';
 import { browser } from '$app/environment';
+import { handle_skills } from './skill.js';
 
 import Role from '../Role.svelte';
 import Skills from './Skills.svelte';
@@ -59,7 +60,7 @@ onMount(() => {
 			<hr />
 			<hr />
 
-			<Skills skills={detail_data.skill} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
+			<Skills skills={handle_skills(detail_data.skill)} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
 
 			<hr />
 			<hr />
