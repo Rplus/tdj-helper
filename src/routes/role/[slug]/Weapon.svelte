@@ -10,7 +10,7 @@ let descs = weapon.map((w) => clear_html(w.desc));
 {#if weapon && weapon[0]}
 	<div class="flex" style="gap: 1em;">
 		<div class="text-center">
-			<img src={get_img('weapon', weapon[0].img, 64)} alt={weapon[0].name} />
+			<img src={get_img('weapon', weapon[0].img, 64)} alt={weapon[0].name} width="64" height="64" />
 			<br />
 			{weapon[0].name}
 		</div>
