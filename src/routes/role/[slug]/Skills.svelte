@@ -87,15 +87,15 @@ const paths = {};
 				</summary>
 				<div class="desc">
 					<div class="pre-line">
-					{clear_html(skill.desc)}
-					<ul>
-						<li>cost: {skill.cost}</li>
-						<li>shoot: {skill.shoot}</li>
-						<li>cd: {skill.cd}</li>
-						<li>range: {skill.range}</li>
-						<li>type: {skill.type}</li>
-						<li>way: {skill.way}</li>
-					</ul>
+						{clear_html(skill.desc)}
+						<ul>
+							<li>cost: {skill.cost}</li>
+							<li>shoot: {skill.shoot}</li>
+							<li>cd: {skill.cd}</li>
+							<li>range: {skill.range}</li>
+							<li>type: {skill.type}</li>
+							<li>way: {skill.way}</li>
+						</ul>
 					</div>
 					<details>
 						<pre>{JSON.stringify(skill, null, 2)}</pre>
