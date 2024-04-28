@@ -6,7 +6,6 @@ import Header from '$lib/Header.svelte';
 import Filter from './Filter.svelte';
 import Footer from '$lib/Footer.svelte';
 import Item from './Item.svelte';
-
 </script>
 
 <div class="workspace">

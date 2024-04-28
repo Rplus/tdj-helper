@@ -21,8 +21,8 @@ $: position = keys.position[item.position];
 let imgs = get_imgs('accessories', item.icon, [64, 128]);
 </script>
 
-<!--  -->
-<li class="item"
+<li
+	class="item"
 	data-rarity={item.rarity}
 	data-position={position}
 	data-type={types}

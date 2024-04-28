@@ -15,7 +15,8 @@ const refs = [
 		title: 'Official (zh-cn)',
 		link: 'https://www.zlongame.com/userinfo/tdj/index.html',
 		target: '_officail_cn',
-	}, {
+	},
+	{
 		title: 'Bili-Wiki',
 		link: 'https://wiki.biligame.com/tdj/',
 		target: '_biliwiki',
