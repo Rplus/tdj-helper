@@ -6,7 +6,7 @@ import { link } from '$lib/u.js';
 let pages = [
 	{
 		path: link('/'),
-		title: '⮌',
+		title: '../',
 	},
 	// {
 	// 	path: link('/info'),
