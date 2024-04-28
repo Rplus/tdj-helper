@@ -24,19 +24,6 @@ onMount(() => {
 
 <Role data={data.role} type="card" />
 
-<hr />
-
-<a
-	href={resize_img(
-		`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
-		960,
-	)}
-	rel="noopener"
-	target="_img"
->
-	large avater img
-</a>
-
 {#if browser}
 	{#await promise}
 		<p>...waiting</p>
@@ -58,33 +45,39 @@ onMount(() => {
 			/>
 
 			<hr />
-			<hr />
-
-			<Skills skills={handle_skills(detail_data.skill)} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
-
-			<hr />
-			<hr />
 
 			<Weapon weapon={detail_data.godclass_weapon} />
 
 			<hr />
+
+			<Skills skills={handle_skills(detail_data.skill)} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
+
 			<hr />
 		{/if}
 		<details>
 			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
 		</details>
 		<hr />
-		<hr />
-		<hr />
 	{:catch error}
 		<p style="color: red">{error.message}</p>
 	{/await}
 {/if}
 
+<a
+	href={resize_img(
+		`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
+		960,
+	)}
+	rel="noopener"
+	target="_img"
+>
+	large avater img
+</a>
+
 <Footer time={true} refs={get_refs([1, 1, 0])} />
 
 <style>
 pre {
-	white-space: pre-wrap;
+	overflow: auto;
 }
 </style>
