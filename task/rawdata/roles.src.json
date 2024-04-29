@@ -200,6 +200,7 @@
     "hero_icon": "Hero2017_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "nike",
+    "pinyin_tw": "nike",
     "path": "%E5%A6%AE%E5%8F%AF",
     "pic": "Hero2017_img",
     "position": "遠攻",
@@ -222,6 +223,7 @@
     "hero_icon": "Hero2018_HeadIcon_Basic",
     "career": "鬥將",
     "pinyin": "lijing",
+    "pinyin_tw": "lijing",
     "path": "%E6%9D%8E%E9%9D%96",
     "pic": "Hero2018_img",
     "position": "近攻",
@@ -243,6 +245,7 @@
     "hero_icon": "Hero2019_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "saite",
+    "pinyin_tw": "saite",
     "path": "%E8%B5%9B%E7%89%B9",
     "pic": "Hero2019_img",
     "position": "近攻",
@@ -1518,7 +1521,7 @@
     }
   },
   {
-    "name": "寧採臣",
+    "name": "寧采臣",
     "rarity": "SSR",
     "prop": "光",
     "hero_icon": "Hero2008_HeadIcon_Basic",
@@ -1629,7 +1632,7 @@
     }
   },
   {
-    "name": "鮮於超",
+    "name": "鮮于超",
     "rarity": "SSR",
     "prop": "暗",
     "hero_icon": "Hero1208_HeadIcon_Basic",

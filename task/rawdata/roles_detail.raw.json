@@ -3338,15 +3338,15 @@
   [
     {
       "name": "妮可",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "nike",
-      "weight": "1280",
-      "source": "轩辕剑联动角色",
+      "weight": "1260",
+      "source": "軒轅劍聯動角色",
       "pic": "Hero2017_img",
       "prop_icon": "Shadow",
       "career_icon": "Rogue",
       "rarity": "SSR",
-      "position": "远攻",
+      "position": "遠攻",
       "prop": "暗",
       "career": "羽士",
       "range": "2",
@@ -3358,144 +3358,144 @@
       "physical_defense": "32",
       "huixin": "47",
       "inherent": "Gift_145",
-      "inherent_name": "蜕魔灭道",
+      "inherent_name": "蛻魔滅道",
       "star1": "",
       "star2": "",
-      "star3": "行动结束时，若相邻1格不存在其他友方，获得<link type=buff value=742017003 bgcolor=#3a85ffff>「挽弓」</link>状态，反之则获得<link type=buff value=742017006 bgcolor=#3a85ffff>「灭道」</link>状态。主动攻击目标后，有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742017055 bgcolor=#3a85ffff>「重击·散魂」</link>。",
-      "star4": "行动结束时，若相邻1格不存在其他友方，获得<link type=buff value=742017013 bgcolor=#3a85ffff>「挽弓」</link>状态，反之则获得<link type=buff value=742017016 bgcolor=#3a85ffff>「灭道」</link>状态。主动攻击目标后，有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742017055 bgcolor=#3a85ffff>「重击·散魂」</link>。",
-      "star5": "行动结束时，若相邻1格不存在其他友方，获得<link type=buff value=742017023 bgcolor=#3a85ffff>「挽弓」</link>状态，反之则获得<link type=buff value=742017026 bgcolor=#3a85ffff>「灭道」</link>状态。主动攻击目标后，有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742017065 bgcolor=#3a85ffff>「重击·散魂」</link>。",
-      "star6": "行动结束时，若相邻1格不存在其他友方，获得<link type=buff value=742017033 bgcolor=#3a85ffff>「挽弓」</link>状态，反之则获得<link type=buff value=742017036 bgcolor=#3a85ffff>「灭道」</link>状态。主动攻击目标后，有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742017065 bgcolor=#3a85ffff>「重击·散魂」</link>。",
+      "star3": "行動結束時，若相鄰1格不存在其他友方，獲得<link type=buff value=742017003 bgcolor=#3a85ffff>「挽弓」</link>狀態，反之則獲得<link type=buff value=742017006 bgcolor=#3a85ffff>「滅道」</link>狀態。主動攻擊目標後，有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742017055 bgcolor=#3a85ffff>「重擊·散魂」</link>。",
+      "star4": "行動結束時，若相鄰1格不存在其他友方，獲得<link type=buff value=742017013 bgcolor=#3a85ffff>「挽弓」</link>狀態，反之則獲得<link type=buff value=742017016 bgcolor=#3a85ffff>「滅道」</link>狀態。主動攻擊目標後，有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742017055 bgcolor=#3a85ffff>「重擊·散魂」</link>。",
+      "star5": "行動結束時，若相鄰1格不存在其他友方，獲得<link type=buff value=742017023 bgcolor=#3a85ffff>「挽弓」</link>狀態，反之則獲得<link type=buff value=742017026 bgcolor=#3a85ffff>「滅道」</link>狀態。主動攻擊目標後，有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742017065 bgcolor=#3a85ffff>「重擊·散魂」</link>。",
+      "star6": "行動結束時，若相鄰1格不存在其他友方，獲得<link type=buff value=742017033 bgcolor=#3a85ffff>「挽弓」</link>狀態，反之則獲得<link type=buff value=742017036 bgcolor=#3a85ffff>「滅道」</link>狀態。主動攻擊目標後，有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742017065 bgcolor=#3a85ffff>「重擊·散魂」</link>。",
       "story_name": "妖魂再世",
-      "story_content": "伏羲琴韵伏妖性，九十九载净魔魂。<br/>随行太师西国去，异乡留步再无归。<br/>流光七曜再现世，玲珑可爱闹乾坤。<br/>不识世事胡乱语，今生只为眼前人。",
+      "story_content": "伏羲琴韻伏妖性，九十九載淨魔魂。<br/>隨行太師西國去，異鄉留步再無歸。<br/>流光七曜再現世，玲瓏可愛鬧乾坤。<br/>不識世事胡亂語，今生只為眼前人。",
       "hero_icon": "Hero2017_HeadIcon_Basic",
       "skill": [
         {
           "img": "Skill_Ranger_1001",
-          "name": "逐风破",
-          "type": "物攻伤害",
+          "name": "逐風破",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "2格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.4倍伤害，对飞行角色额外造成20%伤害，「对战前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续2回合。"
+          "desc": "攻擊單個敵人，造成1.4倍傷害，對飛行角色額外造成20%傷害，「對戰前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虛損II」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1539",
-          "name": "汲魂灵咒",
+          "name": "汲魂靈咒",
           "type": "支援",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶3级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Mo",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "[被动]若自身气血大于等于80%，则主动普攻触发「连击」（0.4倍伤害）<br/>主动使用，获得<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>，持续3回合，并获得再行动（2格）"
+          "desc": "[被動]若自身氣血大於等於80%，則主動普攻觸發「連擊」（0.4倍傷害）<br/>主動使用，獲得<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>，持續3回合，並獲得再行動（2格）"
         },
         {
           "img": "Skill_Shadow_1001",
-          "name": "暗浊",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "暗濁",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "造成伤害后，对目标施加1个随机「有害状态」"
+          "desc": "造成傷害後，對目標施加1個隨機「減益狀態」"
         },
         {
           "img": "EXSkill_1540",
-          "name": "万蛊缠身",
-          "type": "物攻伤害",
+          "name": "萬蠱纏身",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "5格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对单个敌人造成0.5倍伤害，绝学后施加<link type=buff value=742017400 bgcolor=#3a85ffff>「残蛊」</link>状态，持续2回合"
+          "desc": "對單個敵人造成0.5倍傷害，絕學後施加<link type=buff value=742017400 bgcolor=#3a85ffff>「殘蠱」</link>狀態，持續2回合"
         },
         {
           "img": "GPassive_1011",
           "name": "吹角",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶25级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Mo",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+          "desc": "若自身氣血大於等於90%時，則物攻，物防提高10%。"
         },
         {
           "img": "EXSkill_1538",
           "name": "寒山月引",
-          "type": "物攻伤害",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Mo",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Hun",
-          "unlock_inner2": "伍级",
-          "desc": "攻击单个敌人，造成1.6倍伤害，「对战前」偷取2个「有益状态」，并施加<link type=buff value=742017203 bgcolor=#3a85ffff>「暗引」</link>状态，持续2回合。"
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，造成1.6倍傷害，「對戰前」偷取2個「增益狀態」，並施加<link type=buff value=742017203 bgcolor=#3a85ffff>「暗引」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1537",
-          "name": "灵箭幻舞",
-          "type": "物攻伤害",
+          "name": "靈箭幻舞",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Mo",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Xun",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人造成0.5倍伤害，施加<link type=buff value=700000881 bgcolor=#3a85ffff>「污秽」</link>，持续2回合，对飞行角色额外造成20%伤害，绝学后若自身相邻1格不存在其他友方，则获得再移动（3格）。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700000881 bgcolor=#3a85ffff>「污穢」</link>，持續2回合，對飛行角色額外造成20%傷害，絕學後若自身相鄰1格不存在其他友方，則獲得再移動（3格）。"
         },
         {
           "img": "EXSkill_1541",
-          "name": "无我灭境",
-          "type": "物攻伤害",
+          "name": "無我滅境",
+          "type": "物攻傷害",
           "cd": "4回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Mo",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成0.6倍伤害，对飞行角色额外造成20%伤害，技能范围内每多1个敌方，伤害提高5%（最多提高20%），绝学后恢复自身20%气血（最多恢复80%），并对敌方施加2个随机「有害状态」和2层<link type=buff value=741033001 bgcolor=#3a85ffff>「疫瘴」</link>状态。"
+          "desc": "對範圍內所有敵人造成0.6倍傷害，對飛行角色額外造成20%傷害，技能範圍內每多1個敵方，傷害提高5%（最多提高20%），絕學後恢復自身20%氣血（最多恢復80%），並對敵方施加2個隨機「減益狀態」和2層<link type=buff value=741033001 bgcolor=#3a85ffff>「疫瘴」</link>狀態。"
         }
       ],
       "weapon": [
@@ -3509,43 +3509,43 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，少暤生般，般是始为弓矢。<br/>古往今来，剑需力御，枪为技使。民削木为弓，虽非利器，御身尚可。<br/>言，力有不敌，弓无不克。"
+          "desc": "載，少暤生般，般是始為弓矢。<br/>古往今來，劍需力御，槍為技使。民削木為弓，雖非利器，禦身尚可。<br/>言，力有不敵，弓無不克。"
         },
         {
           "weapon": "妮可",
-          "name": "猎弓",
+          "name": "獵弓",
           "img": "Weapon_201702",
           "qixue": "46",
           "magic": "0",
           "physical": "45",
-          "feature": "[鹤唳]暴击率提升5%",
+          "feature": "[鶴唳]暴擊率提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，林暗草惊风，将军夜引弓。<br/>游猎之弓，强劲可弹。力威而毙兽于一矢。生民行伍，皆御之而出猎，盖知先民身家系此，有所获者，为祭为祀。<br/>言，韧弓不问主，田猎祭天翁。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，林暗草驚風，將軍夜引弓。<br/>遊獵之弓，強勁可彈。力威而斃獸於一矢。生民行伍，皆禦之而出獵，蓋知先民身家系此，有所獲者，為祭為祀。<br/>言，韌弓不問主，田獵祭天翁。"
         },
         {
           "weapon": "妮可",
-          "name": "阎魔弓",
+          "name": "閻魔弓",
           "img": "Weapon_201703",
           "qixue": "58",
           "magic": "0",
           "physical": "56",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，学剑无术，张弓为魔。<br/>阴寒奇弓，为极狱魔匠所制。利箭破空，穿甲裂刃，百里无人可还。然非魔界者，但闻弦鸣，不得视之。<br/>言，魔弓惊世，无形夺生。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，學劍無術，張弓為魔。<br/>陰寒奇弓，為極獄魔匠所製。利箭破空，穿甲裂刃，百里無人可還。然非魔界者，但聞弦鳴，不得視之。<br/>言，魔弓驚世，無形奪生。"
         },
         {
           "weapon": "妮可",
-          "name": "地涌",
+          "name": "地湧",
           "img": "Weapon_201704",
           "qixue": "72",
           "magic": "0",
           "physical": "70",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "言，轰轰昆昆乾坤动,万马雷声从地涌。<br/>古神兵也，百岁神匠所制，弓成而亡。其质玄奇，柔软如棉，而坚如寒铁。亦铠亦弓，张弦飞箭，御身为甲。<br/>言，地涌天雨箭，不动安如峰。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "言，轟轟昆昆乾坤動,萬馬雷聲從地湧。<br/>古神兵也，百歲神匠所製，弓成而亡。其質玄奇，柔軟如棉，而堅如寒鐵。亦鎧亦弓，張弦飛箭，禦身為甲。<br/>言，地湧天雨箭，不動安如峰。"
         }
       ],
       "equipment": [
@@ -3567,12 +3567,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
           "equipment": "妮可",
           "img": "Equip_ruangeliyi",
-          "name": "软革里衣",
+          "name": "軟革裏衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -3587,7 +3587,7 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
           "equipment": "妮可",
@@ -3607,12 +3607,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
         },
         {
           "equipment": "妮可",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "",
@@ -3633,8 +3633,8 @@
       "strategy": [
         {
           "img": "BattleAsssit_053",
-          "name": "牵灵慑魂阵",
-          "unlock_condition": "阵眼妮可位阶35级，五内魔陆级解锁",
+          "name": "牽靈懾魂陣",
+          "unlock_condition": "陣眼妮可位階35級，五內魔陸級解鎖",
           "relate1": "",
           "relate2": "",
           "relate3": "",
@@ -3642,88 +3642,44 @@
           "icon1": "swordsman",
           "icon2": "melee",
           "icon3": "",
-          "desc": "上阵妮可和「侠客」，「斗将」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，主动攻击时，伤害提高7%，技能范围内每多1个目标，伤害额外提高2%（最多额外提高8%）。"
+          "desc": "上陣妮可和「俠客」，「鬥將」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，主動攻擊時，傷害提高7%，技能範圍內每多1個目標，傷害額外提高2%（最多額外提高8%）。"
         }
       ],
       "godclass_weapon": [
         {
-          "name": "万钧神弩",
+          "name": "萬鈞神弩",
           "img": "Weapon_201705",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "携带「挽弓」状态时，物攻提高<b><color=#e4462c>5%</color></b>。携带「灭道」状态时，遭受攻击后恢复自身最大气血的<b><color=#e4462c>20%</color></b>并对攻击者施加「污秽」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>5%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>20%</color></b>並對攻擊者施加「污穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "万钧神弩",
+          "name": "萬鈞神弩",
           "img": "Weapon_201705",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "携带「挽弓」状态时，物攻提高<b><color=#e4462c>6%</color></b>。携带「灭道」状态时，遭受攻击后恢复自身最大气血的<b><color=#e4462c>20%</color></b>并对攻击者施加「污秽」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>6%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>20%</color></b>並對攻擊者施加「污穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "万钧神弩",
+          "name": "萬鈞神弩",
           "img": "Weapon_201705",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "携带「挽弓」状态时，物攻提高<b><color=#e4462c>7%</color></b>。携带「灭道」状态时，遭受攻击后恢复自身最大气血的<b><color=#e4462c>25%</color></b>并对攻击者施加「污秽」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>7%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>25%</color></b>並對攻擊者施加「污穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "万钧神弩",
+          "name": "萬鈞神弩",
           "img": "Weapon_201705",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "携带「挽弓」状态时，物攻提高<b><color=#e4462c>8%</color></b>。携带「灭道」状态时，遭受攻击后恢复自身最大气血的<b><color=#e4462c>25%</color></b>并对攻击者施加「污秽」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>8%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>25%</color></b>並對攻擊者施加「污穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "万钧神弩",
+          "name": "萬鈞神弩",
           "img": "Weapon_201705",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "携带「挽弓」状态时，物攻提高<b><color=#e4462c>10%</color></b>。携带「灭道」状态时，遭受攻击后恢复自身最大气血的<b><color=#e4462c>30%</color></b>并对攻击者施加「污秽」状态，持续<b><color=#e4462c>2</color></b>回合。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "冰蟾串珠·尘",
-          "percent": "0.126889663731457"
-        },
-        {
-          "name": "凤翼神坠",
-          "percent": "0.12121624017493"
-        },
-        {
-          "name": "冰蠺玉带·烟",
-          "percent": "0.115070031322025"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "御波灵戒",
-          "percent": "0.213698362980911"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "神秘斗篷",
-          "percent": "0.137527332899946"
-        },
-        {
-          "name": "护命神符·烟",
-          "percent": "0.111937828733526"
-        },
-        {
-          "name": "荆羽覆心",
-          "percent": "0.110460374682347"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "朝云横度",
-          "percent": "0.122516399739968"
-        },
-        {
-          "name": "天荆覆魂",
-          "percent": "0.117788546776195"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "攜帶「挽弓」狀態時，物攻提高<b><color=#e4462c>10%</color></b>。攜帶「滅道」狀態時，遭受攻擊後恢復自身最大氣血的<b><color=#e4462c>30%</color></b>並對攻擊者施加「污穢」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
       ]
     }
@@ -3731,17 +3687,17 @@
   [
     {
       "name": "李靖",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "lijing",
-      "weight": "1270",
-      "source": "轩辕剑联动角色",
+      "weight": "1250",
+      "source": "軒轅劍聯動角色",
       "pic": "Hero2018_img",
       "prop_icon": "Electricity",
       "career_icon": "Melee",
       "rarity": "SSR",
       "position": "近攻",
       "prop": "雷",
-      "career": "斗将",
+      "career": "鬥將",
       "range": "1",
       "speed": "4",
       "qixue": "179",
@@ -3751,150 +3707,150 @@
       "physical_defense": "36",
       "huixin": "28",
       "inherent": "Gift_143",
-      "inherent_name": "执法天将",
+      "inherent_name": "執法天將",
       "star1": "",
       "star2": "",
-      "star3": "自身3格内每存在1个敌方，法攻和法术免伤提高3%（最多提高9%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发1次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018013 bgcolor=#3a85ffff>「重击·神威」</link>。",
-      "star4": "自身3格内每存在1个敌方，法攻和法术免伤提高4%（最多提高12%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发1次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018014 bgcolor=#3a85ffff>「重击·神威」</link>。",
-      "star5": "自身3格内每存在1个敌方，法攻和法术免伤提高5%（最多提高15%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发2次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018015 bgcolor=#3a85ffff>「重击·神威」</link>。",
-      "star6": "自身3格内每存在1个敌方，法攻和法术免伤提高6%（最多提高18%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发2次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018016 bgcolor=#3a85ffff>「重击·神威」</link>。",
-      "story_name": "慧彦",
-      "story_content": "黑衣铁甲金戈乱，壮士客死魂断山。<br/>修行数载戒终破，独舍老身阻千军。<br/>红尘漫天云似血，孤岭埋骨意难酬。<br/>但使我徒存远志，太平治世犹可还！",
+      "star3": "自身3格內每存在1個敵方，法攻和法術免傷提高3%（最多提高9%）。敵方主動攻擊後若處於自身3格內，對攻擊者造成1次法術傷害（法攻的0.3倍）並施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合（每回合最多觸發1次）。主動攻擊或遭受對戰攻擊時有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742018013 bgcolor=#3a85ffff>「重擊·神威」</link>。",
+      "star4": "自身3格內每存在1個敵方，法攻和法術免傷提高4%（最多提高12%）。敵方主動攻擊後若處於自身3格內，對攻擊者造成1次法術傷害（法攻的0.3倍）並施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合（每回合最多觸發1次）。主動攻擊或遭受對戰攻擊時有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742018014 bgcolor=#3a85ffff>「重擊·神威」</link>。",
+      "star5": "自身3格內每存在1個敵方，法攻和法術免傷提高5%（最多提高15%）。敵方主動攻擊後若處於自身3格內，對攻擊者造成1次法術傷害（法攻的0.3倍）並施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合（每回合最多觸發2次）。主動攻擊或遭受對戰攻擊時有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742018015 bgcolor=#3a85ffff>「重擊·神威」</link>。",
+      "star6": "自身3格內每存在1個敵方，法攻和法術免傷提高6%（最多提高18%）。敵方主動攻擊後若處於自身3格內，對攻擊者造成1次法術傷害（法攻的0.3倍）並施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合（每回合最多觸發2次）。主動攻擊或遭受對戰攻擊時有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742018016 bgcolor=#3a85ffff>「重擊·神威」</link>。",
+      "story_name": "慧彥",
+      "story_content": "黑衣鐵甲金戈亂，壯士客死魂斷山。<br/>修行數載戒終破，獨舍老身阻千軍。<br/>紅塵漫天雲似血，孤嶺埋骨意難酬。<br/>但使我徒存遠志，太平治世猶可還！",
       "hero_icon": "Hero2018_HeadIcon_Basic",
       "skill": [
         {
           "img": "EXSkill_1531",
-          "name": "御法斗杀",
-          "type": "法攻伤害",
+          "name": "禦法鬥殺",
+          "type": "法攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.5倍伤害，「对战前」施加<link type=buff value=700001354 bgcolor=#3a85ffff>「失智II」</link>状态，持续2回合。"
+          "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰前」施加<link type=buff value=700001354 bgcolor=#3a85ffff>「失智II」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1526",
-          "name": "银焰穿心枪",
-          "type": "法攻伤害",
+          "name": "銀焰穿心槍",
+          "type": "法攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶3级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Shen",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.5倍伤害，「对战后」击退目标2格并对目标和携带<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态的敌方施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续2回合"
+          "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」擊退目標2格並對目標和攜帶<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態的敵方施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>狀態，持續2回合"
         },
         {
           "img": "Skill_Electricity_1004",
           "name": "雷之力",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "与携带<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态的目标对战，「对战中」伤害额外提高20%。"
+          "desc": "與攜帶<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態的目標對戰，「對戰中」傷害額外提高20%。"
         },
         {
           "img": "EXSkill_1529",
           "name": "真武神威",
-          "type": "法攻伤害",
+          "type": "法攻傷害",
           "cd": "3回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "4格",
           "range": "1圈",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Lie",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成0.3倍伤害，绝学前对被选取目标施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合，使目标在范围内发生「扰动」效果。<br/>「扰动」：位置发生随机变化"
+          "desc": "對範圍內所有敵人造成0.3倍傷害，絕學前對被選取目標施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合，使目標在範圍內發生「擾動」效果。<br/>「擾動」：位置發生隨機變化"
         },
         {
           "img": "GPassive_1010",
-          "name": "列阵",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶25级",
+          "name": "列陣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Shen",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+          "desc": "自身2格內每多1名友方，「對戰中」物防，法防提高4%（最多12%）。"
         },
         {
           "img": "EXSkill_1530",
-          "name": "护唐神将",
-          "type": "被动",
-          "cd": "无",
-          "cost": "2内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶40级",
+          "name": "護唐神將",
+          "type": "被動",
+          "cd": "無",
+          "cost": "2內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Hun",
-          "unlock_inner2": "伍级",
-          "desc": "主动普攻携带<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态的敌方触发「连击」（0.4倍伤害）。遭受携带「战引」状态的敌方攻击「对战中」暴击抗性提升20%且反击射程+1。"
+          "unlock_inner2": "伍級",
+          "desc": "主動普攻攜帶<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態的敵方觸發「連擊」（0.4倍傷害）。遭受攜帶「戰引」狀態的敵方攻擊「對戰中」暴擊抗性提升20%且反擊射程+1。"
         },
         {
           "img": "EXSkill_1527",
-          "name": "雨师兴浪",
-          "type": "法攻伤害",
+          "name": "雨師興浪",
+          "type": "法攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "直线4x3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "直線4x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Lie",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人造成0.5倍伤害，绝学前施加<link type=buff value=742018121 bgcolor=#3a85ffff>「惶乱」</link>状态，持续2回合，自身获得再移动（2格）。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成0.5倍傷害，絕學前施加<link type=buff value=742018121 bgcolor=#3a85ffff>「惶亂」</link>狀態，持續2回合，自身獲得再移動（2格）。"
         },
         {
           "img": "EXSkill_1528",
-          "name": "天将伏千军",
-          "type": "法攻伤害",
+          "name": "天將伏千軍",
+          "type": "法攻傷害",
           "cd": "4回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Shen",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成0.5倍伤害并造成「牵引」，施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合，自身获得<link type=buff value=742018130 bgcolor=#3a85ffff>「王者姿态」</link>状态，持续3回合。<br/>「牵引」：位移到离施加者最近的随机位置"
+          "desc": "對範圍內所有敵人造成0.5倍傷害並造成「牽引」，施加<link type=buff value=742018041 bgcolor=#3a85ffff>「戰引」</link>狀態，持續1回合，自身獲得<link type=buff value=742018130 bgcolor=#3a85ffff>「王者姿態」</link>狀態，持續3回合。<br/>「牽引」：位移到離施加者最近的隨機位置"
         }
       ],
       "weapon": [
         {
           "weapon": "李靖",
-          "name": "蒺藜枪",
+          "name": "蒺藜槍",
           "img": "Weapon_201801",
           "qixue": "38",
           "magic": "36",
@@ -3902,31 +3858,31 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，汉兵奋迅如霹雳,虏骑崩腾畏蒺藜。<br/>古枪制也，昔日汉军破胡阵，今有勇将惊神魔。枪首形似蒺藜，刺破敌躯、皮开肉绽，是以枪身未出，匪寇先降三分。<br/>言，棘刺为枪，溃敌千里。"
+          "desc": "載，漢兵奮迅如霹靂,虜騎崩騰畏蒺藜。<br/>古槍制也，昔日漢軍破胡陣，今有勇將驚神魔。槍首形似蒺藜，刺破敵軀、皮開肉綻，是以槍身未出，匪寇先降三分。<br/>言，棘刺為槍，潰敵千里。"
         },
         {
           "weapon": "李靖",
-          "name": "太宁笔枪",
+          "name": "太寧筆槍",
           "img": "Weapon_201802",
           "qixue": "46",
           "magic": "44",
           "physical": "0",
-          "feature": "[决明]伤害提升5%",
+          "feature": "[決明]傷害提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，尘土抛书卷,枪筹弄酒权。<br/>自古豪侠骁勇，秋毫舞墨、长枪咏志。今以兽须饰枪身，既为铁兵，亦为文宝。逸尘破阵、纵情诗书，乃是双全也。<br/>言，壮志无酬时，笔枪书百代。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，塵土拋書卷,槍籌弄酒權。<br/>自古豪俠驍勇，秋毫舞墨、長槍詠志。今以獸須飾槍身，既為鐵兵，亦為文寶。逸塵破陣、縱情詩書，乃是雙全也。<br/>言，壯志無酬時，筆槍書百代。"
         },
         {
           "weapon": "李靖",
-          "name": "钩镰枪",
+          "name": "鉤鐮槍",
           "img": "Weapon_201803",
           "qixue": "58",
           "magic": "55",
           "physical": "0",
-          "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%",
+          "feature": "[決明]傷害提升5%<br/>[真傳]全傷害減免提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，夷之以钩镰，迫切芟之也。<br/>形自农器，然易操使，可夺敌兵，钩敌行舟，攻守皆备也。乡民有持钩镰者众，聚为枪组，曰金枪队也。<br/>言，御后备前，万民皆兵。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，夷之以鉤鐮，迫切芟之也。<br/>形自農器，然易操使，可奪敵兵，鉤敵行舟，攻守皆備也。鄉民有持鉤鐮者眾，聚為槍組，曰金槍隊也。<br/>言，御後備前，萬民皆兵。"
         },
         {
           "weapon": "李靖",
@@ -3935,17 +3891,17 @@
           "qixue": "72",
           "magic": "69",
           "physical": "0",
-          "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[決明]傷害提升5%<br/>[真傳]全傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，开关勇士争赴敌，剑戟弓戈奋相缭。<br/>戟，古之仪兵，取象龙翔于天。以月牙刀附枪身，则为画戟；双面为刃，称方天戟，亦称青龙戟。似为繁饰，然无虚设，以伟力御之，四面皆可破敌。<br/>言，新月作戟刃，青龙倒山河。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，開關勇士爭赴敵，劍戟弓戈奮相繚。<br/>戟，古之儀兵，取象龍翔於天。以月牙刀附槍身，則為畫戟；雙面為刃，稱方天戟，亦稱青龍戟。似為繁飾，然無虛設，以偉力御之，四面皆可破敵。<br/>言，新月作戟刃，青龍倒山河。"
         }
       ],
       "equipment": [
         {
           "equipment": "李靖",
           "img": "Equip_xuansezhiguan",
-          "name": "玄色织冠",
+          "name": "玄色織冠",
           "rarity": "N",
           "part": "1",
           "qixue": "10",
@@ -3960,12 +3916,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
           "equipment": "李靖",
           "img": "Equip_ruangeliyi",
-          "name": "软革里衣",
+          "name": "軟革裏衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -3980,7 +3936,7 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
           "equipment": "李靖",
@@ -4000,12 +3956,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到攻击进入对战时，遭受伤害降低7%"
+          "effect": "[四件+9]受到攻擊進入對戰時，遭受傷害降低7%"
         },
         {
           "equipment": "李靖",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "11",
@@ -4025,89 +3981,57 @@
       ],
       "godclass_weapon": [
         {
-          "name": "撼天神枪",
+          "name": "撼天神槍",
           "img": "Weapon_201805",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>7%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>7%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         },
         {
-          "name": "撼天神枪",
+          "name": "撼天神槍",
           "img": "Weapon_201805",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>9%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>9%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         },
         {
-          "name": "撼天神枪",
+          "name": "撼天神槍",
           "img": "Weapon_201805",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>11%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>11%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         },
         {
-          "name": "撼天神枪",
+          "name": "撼天神槍",
           "img": "Weapon_201805",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>13%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>13%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         },
         {
-          "name": "撼天神枪",
+          "name": "撼天神槍",
           "img": "Weapon_201805",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>15%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "鹿鸣灵珠",
-          "percent": "0.113127902068383"
-        },
-        {
-          "name": "神乌饰坠·烟",
-          "percent": "0.104685521317011"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "赤霞玉戒·尘",
-          "percent": "0.10619527014952"
-        },
-        {
-          "name": "赤霞玉戒·烟",
-          "percent": "0.105003872043843"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "当路君星",
-          "percent": "0.108429141597664"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "玄阙腰带",
-          "percent": "0.107059033776136"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「戰引」狀態的敵方時，暴擊率和法防提高<b><color=#e4462c>15%</color></b>。主動攻擊攜帶「戰引」狀態的敵方「對戰後」隨機<b><color=#e4462c>1</color></b>個傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         }
       ]
     }
   ],
   [
     {
-      "name": "赛特",
-      "is_new": "0",
+      "name": "賽特",
+      "is_new": "1",
       "pinyin": "saite",
-      "weight": "1260",
-      "source": "轩辕剑联动角色",
+      "weight": "1240",
+      "source": "軒轅劍聯動角色",
       "pic": "Hero2019_img",
       "prop_icon": "Fire",
       "career_icon": "Swordsman",
       "rarity": "SSR",
       "position": "近攻",
       "prop": "炎",
-      "career": "侠客",
+      "career": "俠客",
       "range": "1",
       "speed": "3",
       "qixue": "207",
@@ -4117,150 +4041,150 @@
       "physical_defense": "36",
       "huixin": "24",
       "inherent": "Gift_144",
-      "inherent_name": "火神降临",
+      "inherent_name": "火神降臨",
       "star1": "",
       "star2": "",
-      "star3": "气血越高，伤害、炎属相免伤越高（最高10%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019042 bgcolor=#3a85ffff>「重击·崩山」</link>。",
-      "star4": "气血越高，伤害、炎属相免伤越高（最高15%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019042 bgcolor=#3a85ffff>「重击·崩山」</link>。",
-      "star5": "气血越高，伤害、炎属相免伤越高（最高20%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019043 bgcolor=#3a85ffff>「重击·崩山」</link>。",
-      "star6": "气血越高，伤害、炎属相免伤越高（最高25%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019043 bgcolor=#3a85ffff>「重击·崩山」</link>。",
-      "story_name": "异乡儿",
-      "story_content": "乌碧双瞳貌惊异，利刃出鞘斩不平。<br/>远道西来水乡客，为报君恩寻国法。<br/>神威志士乱神名，同为人子何相残？<br/>满目皆为不义事，我辈东行求天道！",
+      "star3": "氣血越高，傷害、炎屬相免傷越高（最高10%）。主動攻擊造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。主動攻擊「對戰中」有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742019042 bgcolor=#3a85ffff>「重擊·崩山」</link>。",
+      "star4": "氣血越高，傷害、炎屬相免傷越高（最高15%）。主動攻擊造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。主動攻擊「對戰中」有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742019042 bgcolor=#3a85ffff>「重擊·崩山」</link>。",
+      "star5": "氣血越高，傷害、炎屬相免傷越高（最高20%）。主動攻擊造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。主動攻擊「對戰中」有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742019043 bgcolor=#3a85ffff>「重擊·崩山」</link>。",
+      "star6": "氣血越高，傷害、炎屬相免傷越高（最高25%）。主動攻擊造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。主動攻擊「對戰中」有機率（氣血越高，機率越高（最高100%））觸發<link type=buff value=742019043 bgcolor=#3a85ffff>「重擊·崩山」</link>。",
+      "story_name": "異鄉兒",
+      "story_content": "烏碧雙瞳貌驚異，利刃出鞘斬不平。<br/>遠道西來水鄉客，為報君恩尋國法。<br/>神威志士亂神名，同為人子何相殘？<br/>滿目皆為不義事，我輩東行求天道！",
       "hero_icon": "Hero2019_HeadIcon_Basic",
       "skill": [
         {
           "img": "Skill_Swordsman_1004",
-          "name": "无方飞剑",
-          "type": "物攻伤害",
+          "name": "無方飛劍",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "2格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成1.5倍伤害。"
+          "desc": "攻擊單個敵人，造成1.5倍傷害。"
         },
         {
           "img": "Skill_Fire_1004",
           "name": "炎之力",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶3级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "与携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态的目标对战，「对战中」伤害额外提高20%。"
+          "desc": "與攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態的目標對戰，「對戰中」傷害額外提高20%。"
         },
         {
           "img": "EXSkill_1536",
-          "name": "蛟龙翻身",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "蛟龍翻身",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "暴击伤害提升7%，若本次攻击未造成暴击则获得<link type=buff value=742019035 bgcolor=#3a85ffff>「蓄劲」</link>状态。"
+          "desc": "暴擊傷害提升7%，若本次攻擊未造成暴擊則獲得<link type=buff value=742019035 bgcolor=#3a85ffff>「蓄勁」</link>狀態。"
         },
         {
           "img": "EXSkill_1535",
           "name": "炙炎旋流",
           "type": "支援",
           "cd": "3回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "自身",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Lie",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主动使用，对范围内的所有友方施加<link type=buff value=742019030 bgcolor=#3a85ffff>「火佑」</link>状态，炎属相友方额外获得<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>状态，持续3回合。"
+          "desc": "主動使用，對範圍內的所有友方施加<link type=buff value=742019030 bgcolor=#3a85ffff>「火佑」</link>狀態，炎屬相友方額外獲得<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續3回合。"
         },
         {
           "img": "EXSkill_1532",
-          "name": "虚影斩",
-          "type": "物攻伤害",
+          "name": "虛影斬",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "直线5格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶25级",
+          "range": "直線5格",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Hun",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "<br/>对范围内所有敌人造成0.4倍伤害，施加<link type=buff value=700000991 bgcolor=#3a85ffff>「麻痹」</link>状态，持续2回合。造成伤害后在目标附近召唤1个「分身」。（「分身」继承自身100%属性，携带「天狼巽闪」「霸王崩山劲」「蛟龙翻身」。「分身」死亡时，驱散召唤者2个「有害状态」并恢复50%气血，「分身」最多同时存在1个）。"
+          "desc": "<br/>對範圍內所有敵人造成0.4倍傷害，施加<link type=buff value=700000991 bgcolor=#3a85ffff>「麻痹」</link>狀態，持續2回合。造成傷害後在目標附近召喚1個「分身」。（「分身」繼承自身100%屬性，攜帶「天狼巽閃」「霸王崩山勁」「蛟龍翻身」。「分身」死亡時，驅散召喚者2個「減益狀態」並恢復50%氣血，「分身」最多同時存在1個）。"
         },
         {
           "img": "EXSkill_1533",
-          "name": "天狼巽闪",
-          "type": "物攻伤害",
+          "name": "天狼巽閃",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Hun",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Xun",
-          "unlock_inner2": "伍级",
-          "desc": "攻击单个敌人，造成1.4倍伤害，暴击伤害提升15%，本次攻击「对战中」若受到致命伤害免除死亡。「对战后」恢复100%气血，且可以从自身3格内，选择1个友方进行位置互换。"
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，造成1.4倍傷害，暴擊傷害提升15%，本次攻擊「對戰中」若受到致命傷害免除死亡。「對戰後」恢復100%氣血，且可以從自身3格內，選擇1個友方進行位置互換。"
         },
         {
           "img": "Skill_Fire_1011",
           "name": "流火",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶40级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Hun",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Lie",
-          "unlock_inner2": "伍级",
-          "desc": "造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。"
+          "unlock_inner2": "伍級",
+          "desc": "造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
         },
         {
           "img": "EXSkill_1534",
-          "name": "霸王崩山劲",
-          "type": "物攻伤害",
+          "name": "霸王崩山勁",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "两侧4x3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "range": "兩側4x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Hun",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成0.7倍伤害，暴击率提高30%，与目标距离每多1格，则伤害衰减10%，若目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态则暴击伤害额外提高15%。"
+          "desc": "對範圍內所有敵人造成0.7倍傷害，暴擊率提高30%，與目標距離每多1格，則傷害衰減10%，若目標攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態則暴擊傷害額外提高15%。"
         }
       ],
       "weapon": [
         {
-          "weapon": "赛特",
-          "name": "阔剑",
+          "weapon": "賽特",
+          "name": "闊劍",
           "img": "Weapon_201901",
           "qixue": "43",
           "magic": "0",
@@ -4268,50 +4192,50 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，二十四仗驱熊貔，长殳阔剑梢魍夔。<br/>身短如匕，而宽如剑身。古为达官显贵之证，今骁勇者皆可操使，灵巧可击，厚重可御，为强兵也。<br/>言，征人无归时，血涌染剑身。"
+          "desc": "載，二十四仗驅熊貔，長殳闊劍梢魍夔。<br/>身短如匕，而寬如劍身。古為達官顯貴之證，今驍勇者皆可操使，靈巧可擊，厚重可御，為強兵也。<br/>言，征人無歸時，血湧染劍身。"
         },
         {
-          "weapon": "赛特",
-          "name": "长剑",
+          "weapon": "賽特",
+          "name": "長劍",
           "img": "Weapon_201902",
           "qixue": "52",
           "magic": "0",
           "physical": "48",
-          "feature": "[决明]伤害提升5%",
+          "feature": "[決明]傷害提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，抚剑夜吟啸,雄心日千里。<br/>逾六尺，非两手不可制。善此兵者，巧腕如挥巾，定神如冥思，疾行赛东风。亡于剑下者，唯见银光突刺，血未寒而魂归矣。<br/>言，西来刃如霜，素匣藏流光。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，撫劍夜吟嘯,雄心日千里。<br/>逾六尺，非兩手不可制。善此兵者，巧腕如揮巾，定神如冥思，疾行賽東風。亡於劍下者，唯見銀光突刺，血未寒而魂歸矣。<br/>言，西來刃如霜，素匣藏流光。"
         },
         {
-          "weapon": "赛特",
-          "name": "龙泉",
+          "weapon": "賽特",
+          "name": "龍泉",
           "img": "Weapon_201903",
           "qixue": "65",
           "magic": "0",
           "physical": "60",
-          "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+          "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，金羁络骏马，锦带横龙泉。<br/>原名龙渊，古名匠欧冶子及干将共铸此剑，观其状，如登高山，临深渊，故得此名。斩铜剁铁，似削泥捣浆。后忌高祖之名，故改「渊」为「泉」。<br/>言，七星临池，剑指龙渊。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，金羈絡駿馬，錦帶橫龍泉。<br/>原名龍淵，古名匠歐冶子及干將共鑄此劍，觀其狀，如登高山，臨深淵，故得此名。斬銅剁鐵，似削泥搗漿。後忌高祖之名，故改「淵」為「泉」。<br/>言，七星臨池，劍指龍淵。"
         },
         {
-          "weapon": "赛特",
-          "name": "雪浪剑",
+          "weapon": "賽特",
+          "name": "雪浪劍",
           "img": "Weapon_201904",
           "qixue": "81",
           "magic": "0",
           "physical": "75",
-          "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，云涛雪浪渺无边，凛剑冰光似江寒。<br/>奇兵也，鲜有出鞘。刃出，则若早冬忽至，幽寒阵阵，剑气化霜，敌者未御，气衰三分。<br/>言，刃霜舞冰莹，雪浪沉天寒。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，雲濤雪浪渺無邊，凜劍冰光似江寒。<br/>奇兵也，鮮有出鞘。刃出，則若早冬忽至，幽寒陣陣，劍氣化霜，敵者未禦，氣衰三分。<br/>言，刃霜舞冰瑩，雪浪沉天寒。"
         }
       ],
       "equipment": [
         {
-          "equipment": "赛特",
+          "equipment": "賽特",
           "img": "Equip_huowenjinchai",
-          "name": "火纹金钗",
+          "name": "火紋金釵",
           "rarity": "N",
           "part": "1",
           "qixue": "14",
@@ -4326,12 +4250,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
-          "equipment": "赛特",
+          "equipment": "賽特",
           "img": "Equip_gangchenwuyi",
-          "name": "钢衬武衣",
+          "name": "鋼襯武衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -4346,12 +4270,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
-          "equipment": "赛特",
+          "equipment": "賽特",
           "img": "Equip_jingtieyaodai",
-          "name": "精铁腰带",
+          "name": "精鐵腰帶",
           "rarity": "N",
           "part": "3",
           "qixue": "13",
@@ -4366,12 +4290,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
         },
         {
-          "equipment": "赛特",
+          "equipment": "賽特",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "13",
@@ -4392,8 +4316,8 @@
       "strategy": [
         {
           "img": "BattleAsssit_054",
-          "name": "玄雷淬火阵",
-          "unlock_condition": "阵眼赛特位阶35级，五内魂陆级解锁",
+          "name": "玄雷淬火陣",
+          "unlock_condition": "陣眼賽特位階35級，五內魂陸級解鎖",
           "relate1": "",
           "relate2": "",
           "relate3": "",
@@ -4401,80 +4325,44 @@
           "icon1": "shadow",
           "icon2": "electricity",
           "icon3": "",
-          "desc": "上阵赛特和「暗」，「雷」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身气血越高，伤害和暴击率越高（最高8%）。"
+          "desc": "上陣賽特和「暗」，「雷」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身氣血越高，傷害和暴擊率越高（最高8%）。"
         }
       ],
       "godclass_weapon": [
         {
-          "name": "轩辕剑",
+          "name": "軒轅劍",
           "img": "Weapon_201905",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>5%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>20%</color></b>）。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>5%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>20%</color></b>）。"
         },
         {
-          "name": "轩辕剑",
+          "name": "軒轅劍",
           "img": "Weapon_201905",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>6%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>20%</color></b>）。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>6%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>20%</color></b>）。"
         },
         {
-          "name": "轩辕剑",
+          "name": "軒轅劍",
           "img": "Weapon_201905",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>7%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>25%</color></b>）。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>7%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>25%</color></b>）。"
         },
         {
-          "name": "轩辕剑",
+          "name": "軒轅劍",
           "img": "Weapon_201905",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>8%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>25%</color></b>）。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>8%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>25%</color></b>）。"
         },
         {
-          "name": "轩辕剑",
+          "name": "軒轅劍",
           "img": "Weapon_201905",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>10%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>30%</color></b>）。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "冰蠺玉带·烟",
-          "percent": "0.160793319415448"
-        },
-        {
-          "name": "定笔簪",
-          "percent": "0.153027139874739"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手镯·烟",
-          "percent": "0.117302052785924"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "灵越佩环·尘",
-          "percent": "0.145010438413361"
-        },
-        {
-          "name": "灵越佩环·烟",
-          "percent": "0.140584551148225"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "清光似水",
-          "percent": "0.143006263048016"
-        },
-        {
-          "name": "慈航普度",
-          "percent": "0.142338204592901"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在攜帶「燃燒」狀態的單位時，物攻提高<b><color=#e4462c>10%</color></b>。主動攻擊造成暴擊後恢復自身氣血（自身最大氣血的<b><color=#e4462c>30%</color></b>）。"
         }
       ]
     }

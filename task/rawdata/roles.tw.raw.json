@@ -2,6 +2,39 @@
   "data": {
     "data": [
       {
+        "name": "妮可",
+        "is_new": "1",
+        "pinyin": "nike",
+        "weight": "1260",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "羽士",
+        "hero_icon": "Hero2017_HeadIcon_Basic"
+      },
+      {
+        "name": "李靖",
+        "is_new": "1",
+        "pinyin": "lijing",
+        "weight": "1250",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鬥將",
+        "hero_icon": "Hero2018_HeadIcon_Basic"
+      },
+      {
+        "name": "賽特",
+        "is_new": "1",
+        "pinyin": "saite",
+        "weight": "1240",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero2019_HeadIcon_Basic"
+      },
+      {
         "name": "雪芝",
         "is_new": "1",
         "pinyin": "xuezhi",
@@ -1257,7 +1290,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-04-27 11:12:02"
+    "now": "2024-04-30 02:47:47"
   },
   "status": 1,
   "switch": null,
