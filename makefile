@@ -39,5 +39,5 @@ data-sorting:
 parse-bili-skill:
 	bun ./task/parse-bili-skill.js;
 
-parse-bili-skill--new:
+parse-bili-skill--new: print-date
 	bun ./task/parse-bili-skill.js -- new=1;
