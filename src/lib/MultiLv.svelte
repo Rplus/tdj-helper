@@ -69,6 +69,7 @@ export let name = 'lv';
 .lv {
 	grid-area: lvs;
 	margin-left: calc(1em * (var(--index) - 1));
+	width: fit-content;
 
 	&:not(.disabled) {
 		cursor: pointer;
@@ -84,6 +85,10 @@ export let name = 'lv';
 	margin-block-end: 0.5em;
 	visibility: hidden;
 	line-height: 1.35;
+	word-break: break-all;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	background-color: #aaa3;
 }
 
 input:checked + .lv ~ .lv::before {
@@ -92,5 +97,9 @@ input:checked + .lv ~ .lv::before {
 
 input:checked + .lv + .desc {
 	visibility: visible;
+}
+.swticher:focus-visible + .levels .swticher-label,
+input:focus-visible + label.lv {
+	outline: 1px dashed;
 }
 </style>
