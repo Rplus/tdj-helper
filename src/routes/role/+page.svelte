@@ -79,9 +79,10 @@ $: grid_view = false;
 
 <style>
 .switcher {
-	font-size: 1.5rem;
+	font-size: 2em;
 	font-family: monospace;
 	cursor: pointer;
+	gap: .5em;
 
 	&.grid_view {
 		--list: 0;
@@ -90,10 +91,12 @@ $: grid_view = false;
 
 	&::before {
 		content: '▦';
+		padding: 0.125em 0.25em;
 		background-color: rgba(255, 255, 150, var(--grid, 0));
 	}
 	&::after {
 		content: '▤';
+		padding: 0.125em 0.25em;
 		background-color: rgba(255, 255, 150, var(--list, 1));
 	}
 }
