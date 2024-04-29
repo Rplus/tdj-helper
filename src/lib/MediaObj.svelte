@@ -19,6 +19,7 @@
 	--img-size: 64px;
 
 	gap: 0.5em min(0.75em, 3vw);
+	margin-block-end: 1.5em;
 
 	@media (max-width: 480px) {
 		--img-size: 48px;
