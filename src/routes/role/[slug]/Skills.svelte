@@ -1,11 +1,28 @@
 <script>
 export let skills = [];
 export let lang = 'tw';
-import { resize_img, get_img, clear_html } from '$lib/u.js';
-import { handle_skills } from './skill.js';
+export let pinyin = '';
 
-const paths = {};
+import { get_img, clear_html } from '$lib/u.js';
+import { handle_skills } from './skill.js';
+import { find_adv_skills } from './skill.js';
+
+import AdvSkills from './AdvSkills.svelte';
+
+let adv_skills = find_adv_skills(pinyin)?.adv_skills || [];
+
+if (adv_skills.length && skills.length) {
+	adv_skills.forEach((adv_skill, index) => {
+		let skill = skills.find(s => s.name === adv_skill.name);
+		if (skill) {
+			adv_skills[index] = {...skill};
+		}
+	})
+}
+
 </script>
+
+<div class="hr">五內技能</div>
 
 <div class="skills">
 	{#each skills as skill}
@@ -45,6 +62,12 @@ const paths = {};
 		</div>
 	{/each}
 </div>
+
+<div class="mb-2" />
+
+{#if adv_skills.length}
+	<AdvSkills skills={adv_skills} />
+{/if}
 
 <style>
 .skills {

@@ -30,6 +30,8 @@ onMount(() => {
 	{:then detail_data}
 		{#if detail_data}
 
+			<div class="mb-2" />
+
 			<div class="hr" style="--ratio: 0.125;">天賦</div>
 
 			<Inherent
@@ -49,9 +51,14 @@ onMount(() => {
 
 			<Weapon weapon={detail_data.godclass_weapon} />
 
-			<hr />
 
-			<Skills skills={handle_skills(detail_data.skill)} lang={data.role.pinyin_tw ? 'tw' : 'cn'} />
+			<div class="mb-2" />
+
+			<Skills
+				pinyin={detail_data.pinyin}
+				skills={handle_skills(detail_data.skill)}
+				lang={data.role.pinyin_tw ? 'tw' : 'cn'}
+			/>
 
 			<hr />
 		{/if}

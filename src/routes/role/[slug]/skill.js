@@ -1,3 +1,9 @@
+import adv_skills_data from '$lib/data/role_with_adv_skills.min.json';
+
+export function find_adv_skills(role_pinyin = '') {
+	return adv_skills_data.find((item) => item.pinyin === role_pinyin);
+}
+
 export function handle_skills(skills) {
 	let powers = [undefined];
 	skills = skills.map((s) => {
