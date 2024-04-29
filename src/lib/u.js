@@ -23,7 +23,7 @@ const img_folders = {
 };
 
 export function clear_html(html = '') {
-	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').replace(/。+/g, '。\n');
+	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').replace(/。+(.)/g, '。\n$1');
 }
 
 export function remove_html_tag(html = '') {
