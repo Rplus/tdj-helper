@@ -51,11 +51,10 @@ onMount(() => {
 
 			<Weapon weapon={detail_data.godclass_weapon} />
 
-
 			<div class="mb-2" />
 
 			<Skills
-				pinyin={detail_data.pinyin}
+				pinyin={data.role.pinyin}
 				skills={handle_skills(detail_data.skill)}
 				lang={data.role.pinyin_tw ? 'tw' : 'cn'}
 			/>
