@@ -37,7 +37,7 @@ export let name = 'lv';
 	grid-template:
 		'lvs swticher' auto
 		'desc desc' auto / auto 1fr;
-	gap: 0 0.5em;
+	gap: 0.25em 0.5em;
 }
 
 .swticher-label {
@@ -54,7 +54,8 @@ export let name = 'lv';
 
 .swticher:checked + .levels {
 	--switcher: '🙊';
-	display: block;
+	display: flex;
+	flex-direction: column;
 
 	& .lv::after {
 		content: attr(data-index);

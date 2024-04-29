@@ -1,11 +1,11 @@
 <div class="flex">
 	<div class="avatar">
-		<div class="img-box">
-			<slot name="img" />
-		</div>
-
 		<div class="name">
 			<slot name="name" />
+		</div>
+
+		<div class="img-box">
+			<slot name="img" />
 		</div>
 	</div>
 
@@ -46,7 +46,7 @@
 	}
 }
 .name {
-	padding-top: 0.25em;
+	padding-bottom: 0.25em;
 	white-space: nowrap;
 	font-size: var(--name-fz, 1em);
 }
