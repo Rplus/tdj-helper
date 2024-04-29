@@ -82,7 +82,7 @@ onMount(() => {
 	large avater img
 </a>
 
-<Footer time={true} refs={get_refs([1, 1, 0])} />
+<Footer time={true} refs={get_refs([1, 1, 1])} />
 
 <style>
 pre {
