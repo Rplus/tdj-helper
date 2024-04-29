@@ -52,6 +52,7 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 
 			return {
 				name: sname,
+				// path: encodeURIComponent(sname),
 				cd: props['绝学冷却'],
 				cost: props['绝学消耗'],
 				shoot: props['绝学射程'],
