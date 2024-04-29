@@ -175,6 +175,13 @@ button:not([disabled]) {
 	white-space: pre-line;
 }
 
+.mb-1 {
+	margin-bottom: 1em;
+}
+.mb-2 {
+	margin-bottom: 2em;
+}
+
 form.form {
 	& label {
 		cursor: pointer;
