@@ -30,7 +30,7 @@ if (adv_skills.length && skills.length) {
 			class="skill ai-c jc-c flex text-center"
 			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
 		>
-			<details name="skill">
+			<details name="skill" class="pos-r">
 				<summary>
 					{skill.name}
 					<br />
@@ -42,7 +42,7 @@ if (adv_skills.length && skills.length) {
 						height="48"
 					/>
 				</summary>
-				<div class="desc">
+				<div class="desc" class:right={skill.grid_col > 3}>
 					<div class="pre-line">
 						{clear_html(skill.desc)}
 						<ul class="list">
@@ -90,8 +90,7 @@ if (adv_skills.length && skills.length) {
 
 	& .desc {
 		position: absolute;
-		max-width: 20em;
-		min-width: 10em;
+		width: 15em;
 		margin: 0;
 		padding: 1em;
 		overflow: auto;
@@ -99,6 +98,10 @@ if (adv_skills.length && skills.length) {
 		text-align: left;
 		background-color: color-mix(in srgb, var(--main-bgc) 90%, #fff0);
 		box-shadow: 0 0 3px;
+
+		&.right {
+			right: 0;
+		}
 
 		&:hover {
 			z-index: 11;
