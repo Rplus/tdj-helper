@@ -1,7 +1,7 @@
 <script>
 export let skills = [];
 
-import { resize_img, get_img, clear_html } from '$lib/u.js';
+import { get_img, clear_html } from '$lib/u.js';
 import MediaObj from '$lib/MediaObj.svelte';
 import MultiLv from '$lib/MultiLv.svelte';
 

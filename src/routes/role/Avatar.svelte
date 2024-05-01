@@ -1,7 +1,7 @@
 <script>
 export let role;
 
-import { link, resize_img, get_img } from '$lib/u.js';
+import { link, get_img } from '$lib/u.js';
 import strategy_data from '$lib/data/strategy.min.json';
 
 import Icon from './Icon.svelte';

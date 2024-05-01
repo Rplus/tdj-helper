@@ -2,7 +2,6 @@
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Table from './Table.svelte';
-import { onMount } from 'svelte';
 import { afterNavigate } from '$app/navigation';
 
 let gsheet_url =
@@ -14,9 +13,6 @@ function openIframe() {
 		iframe.src = gsheet_url;
 	}
 }
-
-let _style = '';
-$: injected_style = _style ? `<style>${_style}</style>` : '';
 
 let tabs;
 let init_tab;

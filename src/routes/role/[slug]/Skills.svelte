@@ -4,7 +4,6 @@ export let lang = 'tw';
 export let pinyin = '';
 
 import { get_img, clear_html } from '$lib/u.js';
-import { handle_skills } from './skill.js';
 import { find_adv_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';

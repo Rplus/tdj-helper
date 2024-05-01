@@ -2,7 +2,7 @@
 export let item = {};
 
 import { keys } from './ornament.js';
-import { get_img, get_imgs, resize_img } from '$lib/u.js';
+import { get_imgs } from '$lib/u.js';
 import Type from './Type.svelte';
 import Job from './Job.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
