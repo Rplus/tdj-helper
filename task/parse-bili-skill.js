@@ -102,7 +102,7 @@ outputJSON({
 });
 
 function remove_html_tag(html = '') {
-	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
+	return html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
 }
 
 async function fetch_name(name = '') {
