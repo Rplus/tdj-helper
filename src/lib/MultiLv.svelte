@@ -71,6 +71,7 @@ export let name = 'lv';
 	grid-area: lvs;
 	margin-left: calc(1em * (var(--index) - 1));
 	width: fit-content;
+	font-size: var(--name-fz, 1em);
 
 	&:not(.disabled) {
 		cursor: pointer;
