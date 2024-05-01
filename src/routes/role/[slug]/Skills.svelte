@@ -118,8 +118,11 @@ img {
 }
 
 summary {
-	font-size: smaller;
 	cursor: pointer;
 	text-indent: -1em;
+
+	@media (max-width: 700px) {
+		font-size: smaller;
+	}
 }
 </style>
