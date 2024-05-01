@@ -13,7 +13,7 @@ skills.forEach((s, index) => {
 	}
 	s.lvs = [
 		s.name,
-		clear_html(s.desc),
+		clear_html(s.desc) + '\n',
 		// `- 🔥 ${s.cost.replace(/\D/g, '')}`,
 		`- ⏳ ${s.cd}`,
 		`- 🏹 ${s.shoot}`,
