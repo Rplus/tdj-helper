@@ -27,17 +27,14 @@ init:
 print-date:
 	date +%FT%T%:::z > './src/lib/data/latest-fetch-time.txt';
 
-# fetch-new: print-date
-# 	node ./tasks/fetch-tdj-data.mjs -- dev=0;
+update-data--parse: print-date
+	bun ./task/fetch.mjs;
 
-fetch-new: print-date
-	node ./task/fetch.mjs;
+update-data--sorting:
+	bun ./task/sorting.mjs;
 
-data-sorting:
-	node ./task/sorting.mjs;
-
-parse-bili-skill:
-	bun ./task/parse-bili-skill.js;
-
-parse-bili-skill--new: print-date
+update-bili-data--parse-and-sorting: print-date
 	bun ./task/parse-bili-skill.js -- new=1;
+
+update-bili-data--sorting:
+	bun ./task/parse-bili-skill.js;
