@@ -29,7 +29,6 @@ onMount(() => {
 		<p>...waiting</p>
 	{:then detail_data}
 		{#if detail_data}
-
 			<div class="mb-2" />
 
 			<div class="hr" style="--ratio: 0.125;">天賦</div>

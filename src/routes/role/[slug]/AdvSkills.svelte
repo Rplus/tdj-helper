@@ -20,10 +20,8 @@ skills.forEach((s, index) => {
 		`- 🎯 ${s.range}`,
 	].join('\n');
 	skills_set[skills_set.length - 1].push(s);
-})
-
+});
 </script>
-
 
 <div class="hr">3C 技能</div>
 
@@ -43,10 +41,7 @@ skills.forEach((s, index) => {
 		</svelte:fragment>
 
 		<svelte:fragment slot="info">
-			<MultiLv
-				name={set[0].name}
-				lvs={set.map(s => s.lvs)}
-			/>
+			<MultiLv name={set[0].name} lvs={set.map((s) => s.lvs)} />
 		</svelte:fragment>
 	</MediaObj>
 {/each}

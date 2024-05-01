@@ -20,9 +20,11 @@ if (!parse_new && fs.existsSync(skills_file_name)) {
 				return {
 					name: role.name,
 					pinyin: role.pinyin,
-					adv_skills: _sss.query?.data.filter(i => i.property === '绝学化神')[0]?.dataitem?.map(i => i.item),
+					adv_skills: _sss.query?.data
+						.filter((i) => i.property === '绝学化神')[0]
+						?.dataitem?.map((i) => i.item),
 				};
-			})
+			}),
 	);
 
 	outputJSON({
@@ -35,7 +37,10 @@ if (!parse_new && fs.existsSync(skills_file_name)) {
 
 let adv_skills = skills
 	// .slice(20, 30)
-	.map(item => item.adv_skills).filter(Boolean).flat().filter(i => i && i.includes('·'));
+	.map((item) => item.adv_skills)
+	.filter(Boolean)
+	.flat()
+	.filter((i) => i && i.includes('·'));
 
 let adv_skills_file_name = './task/rawdata/_adv_skills_details.json';
 let adv_skills_details;
@@ -45,7 +50,7 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 	adv_skills_details = await Promise.all(
 		adv_skills.map(async (sname) => {
 			let info = await fetch_name(`绝学/${sname}`);
-			let props = info?.query.data.reduce((all, i)=> {
+			let props = info?.query.data.reduce((all, i) => {
 				all[i.property] = i.dataitem[0]?.item;
 				return all;
 			}, {});
@@ -60,7 +65,7 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 				type: props['绝学类别'],
 				desc: remove_html_tag(props['绝学描述']),
 			};
-		})
+		}),
 	);
 
 	outputJSON({
@@ -72,17 +77,16 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 }
 
 let role_with_adv_skills = skills
-	.filter(role => role.adv_skills)
-	.map(role => {
+	.filter((role) => role.adv_skills)
+	.map((role) => {
 		return {
 			pinyin: role.pinyin,
-			adv_skills: role.adv_skills.map(s => {
-				let target = adv_skills_details.find(i => i.name === s);
-				return target || { name: s, };
+			adv_skills: role.adv_skills.map((s) => {
+				let target = adv_skills_details.find((i) => i.name === s);
+				return target || { name: s };
 			}),
-		}
+		};
 	});
-
 
 outputJSON({
 	json: role_with_adv_skills,
@@ -97,23 +101,22 @@ outputJSON({
 	cn2tw: true,
 });
 
-
 function remove_html_tag(html = '') {
 	return html.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
 }
 
 async function fetch_name(name = '') {
 	let obj = {
-		'subject': decodeURIComponent(name),
-		'ns': 0,
-		'type': 'xml'
+		subject: decodeURIComponent(name),
+		ns: 0,
+		type: 'xml',
 	};
 	let res = await fetch('https://wiki.biligame.com/tdj/api.php', {
-		'headers': {
+		headers: {
 			'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
 		},
-		'body': `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
-		'method': 'POST',
+		body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
+		method: 'POST',
 	});
 
 	let raw = await res.json();

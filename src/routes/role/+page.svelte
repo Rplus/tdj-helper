@@ -82,7 +82,7 @@ $: grid_view = false;
 	font-size: 2em;
 	font-family: monospace;
 	cursor: pointer;
-	gap: .5em;
+	gap: 0.5em;
 
 	&.grid_view {
 		--list: 0;

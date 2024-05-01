@@ -13,13 +13,12 @@ let adv_skills = find_adv_skills(pinyin)?.adv_skills || [];
 
 if (adv_skills.length && skills.length) {
 	adv_skills.forEach((adv_skill, index) => {
-		let skill = skills.find(s => s.name === adv_skill.name);
+		let skill = skills.find((s) => s.name === adv_skill.name);
 		if (skill) {
-			adv_skills[index] = {...skill};
+			adv_skills[index] = { ...skill };
 		}
-	})
+	});
 }
-
 </script>
 
 <div class="hr">五內技能</div>
@@ -74,7 +73,7 @@ if (adv_skills.length && skills.length) {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(6, 5em);
-	--gap: min(0.5em, .8vw);
+	--gap: min(0.5em, 0.8vw);
 	gap: var(--gap);
 	background-image: linear-gradient(to right, #9991, #9991 calc(100% - var(--gap)), #0000 0%);
 	background-size: calc((100% + var(--gap)) / 5) 100%;
