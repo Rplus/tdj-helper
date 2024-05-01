@@ -44,9 +44,9 @@ if (adv_skills.length && skills.length) {
 					<div class="pre-line">
 						{clear_html(skill.desc)}
 						<ul class="list">
+							<li>cd: {skill.cd}</li>
 							<li>cost: {skill.cost}</li>
 							<li>shoot: {skill.shoot}</li>
-							<li>cd: {skill.cd}</li>
 							<li>range: {skill.range}</li>
 							<li>type: {skill.type}</li>
 							<li>way: {skill.way}</li>
