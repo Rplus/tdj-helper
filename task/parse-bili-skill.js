@@ -54,6 +54,21 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 				all[i.property] = i.dataitem[0]?.item;
 				return all;
 			}, {});
+			let desc = remove_html_tag(props['绝学描述']);
+
+			// workaround for switch-skills: combine sub adv_skills
+			if (desc.includes('选择1个绝学进行释放')) {
+				let sub_skills = desc.match(/「[^」]+」/g).map(i => i.replace(/[「」]/g, ''));
+				let sub_skills_desc = await Promise.all(
+					sub_skills.map(async (sub_skill) => {
+						let ss_info = await fetch_name(`绝学/${sub_skill}`);
+						let ss_desc = remove_html_tag(ss_info?.query.data.find(i => i.property === '绝学描述')?.dataitem[0]?.item);
+						return `※「${sub_skill}」：\n${ss_desc}`
+					})
+				)
+
+				desc += '\n\n' + sub_skills_desc.join('\n\n');
+			}
 
 			return {
 				name: sname,
@@ -63,7 +78,7 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 				shoot: props['绝学射程'],
 				range: props['绝学范围'],
 				type: props['绝学类别'],
-				desc: remove_html_tag(props['绝学描述']),
+				desc: desc,
 			};
 		}),
 	);
