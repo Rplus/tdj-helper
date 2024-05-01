@@ -2,11 +2,35 @@
   "data": {
     "data": [
       {
-        "name": "苏醒者",
+        "name": "玉觞",
         "is_new": "1",
+        "pinyin": "yushang",
+        "weight": "1390",
+        "expire": "45434",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒师",
+        "hero_icon": "Hero1066_HeadIcon_Basic",
+        "path": "%E7%8E%89%E8%A7%9E"
+      },
+      {
+        "name": "六歧",
+        "is_new": "1",
+        "pinyin": "liuqi",
+        "weight": "1380",
+        "expire": "45434",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "铁卫",
+        "hero_icon": "Hero1079_HeadIcon_Basic",
+        "path": "%E5%85%AD%E6%AD%A7"
+      },
+      {
+        "name": "苏醒者",
+        "is_new": "0",
         "pinyin": "suxingzhe",
         "weight": "1370",
-        "expire": "45406",
+        "expire": "",
         "rarity": "SSR",
         "prop": "幽",
         "career": "咒师",
@@ -15,12 +39,12 @@
       },
       {
         "name": "景乐齐",
-        "is_new": "1",
+        "is_new": "0",
         "pinyin": "jingleqi",
         "weight": "1360",
-        "expire": "45406",
+        "expire": "",
         "rarity": "SSR",
-        "prop": "火",
+        "prop": "炎",
         "career": "祝由",
         "hero_icon": "Hero1077_HeadIcon_Basic",
         "path": "%E6%99%AF%E4%B9%90%E9%BD%90"
@@ -1622,7 +1646,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-04-30 02:47:47"
+    "now": "2024-05-01 19:57:24"
   },
   "status": 1,
   "switch": null,

@@ -1,5 +1,48 @@
 [
   {
+    "name": "玉觴",
+    "rarity": "SSR",
+    "prop": "炎",
+    "hero_icon": "Hero1066_HeadIcon_Basic",
+    "career": "咒師",
+    "pinyin": "yushang",
+    "path": "%E7%8E%89%E8%A7%9E",
+    "pic": "Hero1066_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "status": {
+      "hp": 181,
+      "atk_mag": 103,
+      "atk_phy": 13,
+      "def_mag": 35,
+      "def_phy": 29,
+      "crit": 25
+    }
+  },
+  {
+    "name": "六歧",
+    "rarity": "SSR",
+    "prop": "冰",
+    "hero_icon": "Hero1079_HeadIcon_Basic",
+    "career": "鐵衛",
+    "pinyin": "liuqi",
+    "path": "%E5%85%AD%E6%AD%A7",
+    "pic": "Hero1079_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "strategy": "筆勾神意陣",
+    "status": {
+      "hp": 246,
+      "atk_mag": 12,
+      "atk_phy": 85,
+      "def_mag": 33,
+      "def_phy": 36,
+      "crit": 14
+    }
+  },
+  {
     "name": "甦醒者",
     "rarity": "SSR",
     "prop": "幽",
