@@ -25,9 +25,7 @@ export let name = 'lv';
 			style="--index: {index + 1}"
 		/>
 
-		<div class="desc pre-line">
-			{lv}
-		</div>
+		<div class="desc pre-line">{lv}</div>
 	{/each}
 </div>
 
@@ -91,6 +89,11 @@ export let name = 'lv';
 	padding: 0.5em;
 	border-radius: 0.25em;
 	background-color: #aaa3;
+	box-shadow: inset 2px 2px 8px #0002;
+
+	&:empty {
+		display: none;
+	}
 }
 
 input:checked + .lv ~ .lv::before {
