@@ -42,54 +42,17 @@ let adv_skills = skills
 	.flat()
 	.filter((i) => i && i.includes('·'));
 
-let adv_skills_file_name = './task/rawdata/_adv_skills_details.json';
+let adv_skills_file_name = './task/rawdata/_adv_skills_details_processed.json';
 let adv_skills_details;
 if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 	adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name, 'utf8'));
 } else {
-	adv_skills_details = await Promise.all(
-		adv_skills.map(async (sname) => {
-			let info = await fetch_name(`绝学/${sname}`);
-			let props = info?.query.data.reduce((all, i) => {
-				all[i.property] = i.dataitem[0]?.item;
-				return all;
-			}, {});
-			let desc = remove_html_tag(props['绝学描述']);
-
-			// workaround for switch-skills: combine sub adv_skills
-			if (desc.includes('选择1个绝学进行释放')) {
-				let sub_skills = desc.match(/「[^」]+」/g).map(i => i.replace(/[「」]/g, ''));
-				let sub_skills_desc = await Promise.all(
-					sub_skills.map(async (sub_skill) => {
-						let ss_info = await fetch_name(`绝学/${sub_skill}`);
-						let ss_desc = remove_html_tag(ss_info?.query.data.find(i => i.property === '绝学描述')?.dataitem[0]?.item);
-						return `※「${sub_skill}」：\n${ss_desc}`
-					})
-				)
-
-				desc += '\n\n' + sub_skills_desc.join('\n\n');
-			}
-
-			return {
-				name: sname,
-				// path: encodeURIComponent(sname),
-				cd: props['绝学冷却'],
-				cost: props['绝学消耗'],
-				shoot: props['绝学射程'],
-				range: props['绝学范围'],
-				type: props['绝学类别'],
-				desc: desc,
-			};
-		}),
-	);
-
-	outputJSON({
-		json: adv_skills_details,
-		fn: adv_skills_file_name,
-		space: 2,
-		// cn2tw: true,
-	});
+	adv_skills_details = await get_adv_skills();
+	adv_skills_details = await get_sub_skills();
 }
+	// // test
+	// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
+	// get_sub_skills();
 
 let role_with_adv_skills = skills
 	.filter((role) => role.adv_skills)
@@ -120,6 +83,26 @@ function remove_html_tag(html = '') {
 	return html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
 }
 
+	// https://wiki.biligame.com/tdj/rest.php/v1/page/绝学%2F寒剑封喉·贰式
+	// let res = await fetch(`https://wiki.biligame.com/tdj/rest.php/v1/page/${key}`)
+	// let data = handle_source(res.json()?.source);
+	// data.filter(i => i.startsWith('绝学化神'))
+	// 	.map(i => i.split('=')?.[1]?.split(','))
+
+	// function handle_source(source = '') {
+	// 	return source.replace(/[{}]/g, '')
+	// 		.split('|')
+	// 		.map(i => remove_html_tag(i).replace(/\s+$/g, ''))
+	// 		// .map(i => remove_html_tag(i).replace(/\s+$/g, '').split('='))
+	// 		// .reduce((all, i) => {
+	// 		// 	if (i[1]) {
+	// 		// 		all[i[0]] = i[1].includes(',') ? i[1].replace(/\n+$/gm, '').split(',') : i[1];
+	// 		// 	}
+	// 		// 	return all;
+	// 		// }, {});
+	// }
+
+// https://wiki.biligame.com/tdj/api.php
 async function fetch_name(name = '') {
 	let obj = {
 		subject: decodeURIComponent(name),
@@ -137,4 +120,71 @@ async function fetch_name(name = '') {
 	let raw = await res.json();
 
 	return raw;
+}
+
+async function get_adv_skills(fn = '') {
+	console.log('Get_Adv_Skills');
+	let _adv_skills_details = await Promise.all(
+		adv_skills.map(async (sname) => {
+			let info = await fetch_name(`绝学/${sname}`);
+			let props = info?.query.data.reduce((all, i) => {
+				all[i.property] = i.dataitem[0]?.item;
+				return all;
+			}, {});
+			let desc = remove_html_tag(props['绝学描述']);
+
+			return {
+				name: sname,
+				// path: encodeURIComponent(sname),
+				cd: props['绝学冷却'],
+				cost: props['绝学消耗'],
+				shoot: props['绝学射程'],
+				range: props['绝学范围'],
+				type: props['绝学类别'],
+				desc: desc,
+			};
+		}),
+	);
+
+	outputJSON({
+		json: _adv_skills_details,
+		fn: adv_skills_file_name.replace('_processed', '_raw'),
+		space: 2,
+		// cn2tw: true,
+	});
+
+	return _adv_skills_details;
+}
+
+async function get_sub_skills() {
+	console.log('Get_Sub_Skills');
+	let _adv_skills_details = await Promise.all(
+		adv_skills_details.map(async (skill) => {
+			if (skill.desc.includes('使用后切换为')) {
+				let sub_skills = skill.desc.match(/「[^」]+式」/g).map(i => i.replace(/[「」]/g, ''));
+				let sub_skills_desc = await Promise.all(
+					sub_skills.map(async (sub_skill) => {
+						let ss_info = await fetch_name(`绝学/${sub_skill}`);
+						let ss_desc = remove_html_tag(ss_info?.query.data.find(i => i.property === '绝学描述')?.dataitem[0]?.item);
+
+						return `※「${sub_skill}」：\n${ss_desc}`
+					})
+				)
+
+				skill.desc += '\n\n' + sub_skills_desc.join('\n\n');
+				return skill;
+			} else {
+				return skill;
+			}
+		})
+	);
+
+	outputJSON({
+		json: _adv_skills_details,
+		fn: adv_skills_file_name,
+		space: 2,
+		// cn2tw: true,
+	});
+
+	return _adv_skills_details;
 }
