@@ -52,7 +52,7 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 }
 	// // test
 	// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
-	// get_sub_skills();
+	// adv_skills_details = await get_sub_skills();
 
 let role_with_adv_skills = skills
 	.filter((role) => role.adv_skills)
@@ -61,6 +61,12 @@ let role_with_adv_skills = skills
 			pinyin: role.pinyin,
 			adv_skills: role.adv_skills.map((s) => {
 				let target = adv_skills_details.find((i) => i.name === s);
+				if (target) {
+					delete target.type;
+					target.sub_skills?.forEach(ss => {
+						delete ss.type;
+					})
+				}
 				return target || { name: s };
 			}),
 		};
@@ -162,20 +168,37 @@ async function get_sub_skills() {
 		adv_skills_details.map(async (skill) => {
 			if (skill.desc.includes('使用后切换为')) {
 				let sub_skills = skill.desc.match(/「[^」]+式」/g).map(i => i.replace(/[「」]/g, ''));
-				let sub_skills_desc = await Promise.all(
+				let sub_skills_data = await Promise.all(
 					sub_skills.map(async (sub_skill) => {
 						let ss_info = await fetch_name(`绝学/${sub_skill}`);
-						let ss_desc = remove_html_tag(ss_info?.query.data.find(i => i.property === '绝学描述')?.dataitem[0]?.item);
+						let ss_data = ss_info?.query.data;
+						let ss_desc = remove_html_tag(ss_data?.find(i => i.property === '绝学描述')?.dataitem[0]?.item);
+						let ss_shoot = ss_data?.find(i => i.property === '绝学射程')?.dataitem[0]?.item;
+						let ss_range = ss_data?.find(i => i.property === '绝学范围')?.dataitem[0]?.item;
+						let ss_type = ss_data?.find(i => i.property === '绝学类别')?.dataitem[0]?.item;
+						let ss_cd = ss_data?.find(i => i.property === '绝学冷却')?.dataitem[0]?.item;
 
-						return `※「${sub_skill}」：\n${ss_desc}`
+						// return `※「${sub_skill}」：\n${ss_desc}\n【🏹${ss_shoot} / 🎯 ${ss_range}】`
+						let op = {
+							name: sub_skill,
+							shoot: ss_shoot,
+							range: ss_range,
+							type: ss_type,
+							desc: ss_desc,
+						};
+
+						if (parseInt(ss_cd)) {
+							op.cd = ss_cd;
+						}
+
+						return op;
 					})
 				)
 
-				skill.desc += '\n\n' + sub_skills_desc.join('\n\n');
-				return skill;
-			} else {
-				return skill;
+				// skill.desc += '\n\n' + sub_skills_desc.join('\n\n');
+				skill.sub_skills = sub_skills_data;
 			}
+			return skill;
 		})
 	);
 
