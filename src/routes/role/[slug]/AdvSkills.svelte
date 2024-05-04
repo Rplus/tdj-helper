@@ -11,16 +11,28 @@ skills.forEach((s, index) => {
 	if (index % 3 === 0) {
 		skills_set.push([]);
 	}
-	s.lvs = [
-		s.name,
-		clear_html(s.desc) + '\n',
-		// `- 🔥 ${s.cost.replace(/\D/g, '')}`,
-		`- ⏳ ${s.cd}`,
-		`- 🏹 ${s.shoot}`,
-		`- 🎯 ${s.range}`,
-	].join('\n');
+
+	s.lvs = gen_skill_string(s);
+
+	if (s.sub_skills && s.sub_skills.length) {
+		s.sub_skills.forEach(ss => s.lvs.push('\n🔁 ' + gen_skill_string(ss).join('\n')));
+	}
+
+	s.lvs = s.lvs.join('\n');
+
 	skills_set[skills_set.length - 1].push(s);
 });
+
+function gen_skill_string(skill = {}) {
+	return [
+		skill.name,
+		clear_html(skill.desc),
+		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
+		skill.cd && `\n- ⏳ ${skill.cd}`,
+		`- 🏹 ${skill.shoot}`,
+		`- 🎯 ${skill.range}`,
+	].filter(Boolean);
+}
 </script>
 
 <div class="hr">3C 技能</div>
