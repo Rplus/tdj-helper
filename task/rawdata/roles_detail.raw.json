@@ -26247,8 +26247,36 @@
           "name": "月裳仙索",
           "img": "Weapon_yunchangxiansuo",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
-          "jiesuo-level": "神兵技能尚未解鎖",
-          "desc": ""
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。\n「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>10%</color></b>（「對戰後」移除）。"
+        },
+        {
+          "name": "月裳仙索",
+          "img": "Weapon_yunchangxiansuo",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。\n「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>15%</color></b>（「對戰後」移除）。"
+        },
+        {
+          "name": "月裳仙索",
+          "img": "Weapon_yunchangxiansuo",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。\n「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>20%</color></b>（「對戰後」移除）。"
+        },
+        {
+          "name": "月裳仙索",
+          "img": "Weapon_yunchangxiansuo",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>2</color></b>個「減益狀態」。\n「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>25%</color></b>（「對戰後」移除）。"
+        },
+        {
+          "name": "月裳仙索",
+          "img": "Weapon_yunchangxiansuo",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>2</color></b>個「減益狀態」。\n「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>30%</color></b>（「對戰後」移除）。"
         }
       ],
       "hero_ornaments_1": [
@@ -26974,8 +27002,36 @@
           "name": "紫電金戟",
           "img": "Weapon_zidianjinji",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
-          "jiesuo-level": "神兵技能尚未解鎖",
-          "desc": ""
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "每累計主動移動<b><color=#e4462c>9</color></b>格，獲得<b><color=#e4462c>1</color></b>層「沖陣」狀態，持續<b><color=#e4462c>2</color></b>回合，若已攜帶<b><color=#e4462c>2</color></b>層「沖陣」，則恢復自身<b><color=#e4462c>5%</color></b>氣血。行動結束時若<b><color=#e4462c>2</color></b>格內有<b><color=#e4462c>4</color></b>名其他友方，對範圍內所有其他友方施加「極意I」「神護I」狀態，並對自身施加「極意II」「神護II」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "紫電金戟",
+          "img": "Weapon_zidianjinji",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "每累計主動移動<b><color=#e4462c>8</color></b>格，獲得<b><color=#e4462c>1</color></b>層「沖陣」狀態，持續<b><color=#e4462c>2</color></b>回合，若已攜帶<b><color=#e4462c>2</color></b>層「沖陣」，則恢復自身<b><color=#e4462c>10%</color></b>氣血。行動結束時若<b><color=#e4462c>2</color></b>格內有<b><color=#e4462c>4</color></b>名其他友方，對範圍內所有其他友方施加「極意I」「神護I」狀態，並對自身施加「極意II」「神護II」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "紫電金戟",
+          "img": "Weapon_zidianjinji",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "每累計主動移動<b><color=#e4462c>7</color></b>格，獲得<b><color=#e4462c>1</color></b>層「沖陣」狀態，持續<b><color=#e4462c>2</color></b>回合，若已攜帶<b><color=#e4462c>2</color></b>層「沖陣」，則恢復自身<b><color=#e4462c>15%</color></b>氣血。行動結束時若<b><color=#e4462c>2</color></b>格內有<b><color=#e4462c>4</color></b>名其他友方，對範圍內所有其他友方施加「極意I」「神護I」狀態，並對自身施加「極意II」「神護II」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "紫電金戟",
+          "img": "Weapon_zidianjinji",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "每累計主動移動<b><color=#e4462c>7</color></b>格，獲得<b><color=#e4462c>1</color></b>層「沖陣」狀態，持續<b><color=#e4462c>2</color></b>回合，若已攜帶<b><color=#e4462c>2</color></b>層「沖陣」，則恢復自身<b><color=#e4462c>20%</color></b>氣血。行動結束時若<b><color=#e4462c>2</color></b>格內有<b><color=#e4462c>3</color></b>名其他友方，對範圍內所有其他友方施加「極意I」「神護I」狀態，並對自身施加「極意II」「神護II」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "紫電金戟",
+          "img": "Weapon_zidianjinji",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "每累計主動移動<b><color=#e4462c>6</color></b>格，獲得<b><color=#e4462c>1</color></b>層「沖陣」狀態，持續<b><color=#e4462c>2</color></b>回合，若已攜帶<b><color=#e4462c>2</color></b>層「沖陣」，則恢復自身<b><color=#e4462c>25%</color></b>氣血。行動結束時若<b><color=#e4462c>2</color></b>格內有<b><color=#e4462c>3</color></b>名其他友方，對範圍內所有其他友方施加「極意I」「神護I」狀態，並對自身施加「極意II」「神護II」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
       ],
       "hero_ornaments_1": [
@@ -31890,8 +31946,36 @@
           "name": "天霜雪走",
           "img": "weapon_tianshuangxuezou",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
-          "jiesuo-level": "神兵技能尚未解鎖",
-          "desc": ""
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "<b><color=#e4462c>2</color></b>格內有女性角色時，絕學傷害提高<b><color=#e4462c>8%</color></b>。若自身氣血大於等於<b><color=#e4462c>90%</color></b>，遭受攻擊「對戰前」使敵方身上<b><color=#e4462c>1</color></b>個「增益狀態」轉化為隨機「減益狀態」，若受到近戰攻擊，則多轉化<b><color=#e4462c>1</color></b>個「增益狀態」。"
+        },
+        {
+          "name": "天霜雪走",
+          "img": "weapon_tianshuangxuezou",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "<b><color=#e4462c>2</color></b>格內有女性角色時，絕學傷害提高<b><color=#e4462c>9%</color></b>。若自身氣血大於等於<b><color=#e4462c>80%</color></b>，遭受攻擊「對戰前」使敵方身上<b><color=#e4462c>1</color></b>個「增益狀態」轉化為隨機「減益狀態」，若受到近戰攻擊，則多轉化<b><color=#e4462c>1</color></b>個「增益狀態」。"
+        },
+        {
+          "name": "天霜雪走",
+          "img": "weapon_tianshuangxuezou",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "<b><color=#e4462c>2</color></b>格內有女性角色時，絕學傷害提高<b><color=#e4462c>10%</color></b>。若自身氣血大於等於<b><color=#e4462c>70%</color></b>，遭受攻擊「對戰前」使敵方身上<b><color=#e4462c>1</color></b>個「增益狀態」轉化為隨機「減益狀態」，若受到近戰攻擊，則多轉化<b><color=#e4462c>1</color></b>個「增益狀態」。"
+        },
+        {
+          "name": "天霜雪走",
+          "img": "weapon_tianshuangxuezou",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "<b><color=#e4462c>2</color></b>格內有女性角色時，絕學傷害提高<b><color=#e4462c>12%</color></b>。若自身氣血大於等於<b><color=#e4462c>60%</color></b>，遭受攻擊「對戰前」使敵方身上<b><color=#e4462c>1</color></b>個「增益狀態」轉化為隨機「減益狀態」，若受到近戰攻擊，則多轉化<b><color=#e4462c>1</color></b>個「增益狀態」。"
+        },
+        {
+          "name": "天霜雪走",
+          "img": "weapon_tianshuangxuezou",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "<b><color=#e4462c>2</color></b>格內有女性角色時，絕學傷害提高<b><color=#e4462c>15%</color></b>。若自身氣血大於等於<b><color=#e4462c>50%</color></b>，遭受攻擊「對戰前」使敵方身上<b><color=#e4462c>1</color></b>個「增益狀態」轉化為隨機「減益狀態」，若受到近戰攻擊，則多轉化<b><color=#e4462c>1</color></b>個「增益狀態」。"
         }
       ],
       "hero_ornaments_1": [
@@ -41890,8 +41974,36 @@
           "name": "千懼幻冰",
           "img": "weapon_qianjuhuanbing",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
-          "jiesuo-level": "神兵技能尚未解鎖",
-          "desc": ""
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "傷害提高<b><color=#e4462c>7%</color></b>。攜帶「吸魂索命」狀態時，行動結束時<b><color=#e4462c>60%</color></b>機率對<b><color=#e4462c>3</color></b>格內友方施加「禦魔」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "千懼幻冰",
+          "img": "weapon_qianjuhuanbing",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "傷害提高<b><color=#e4462c>9%</color></b>。攜帶「吸魂索命」狀態時，行動結束時<b><color=#e4462c>70%</color></b>機率對<b><color=#e4462c>3</color></b>格內友方施加「禦魔」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "千懼幻冰",
+          "img": "weapon_qianjuhuanbing",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "傷害提高<b><color=#e4462c>11%</color></b>。攜帶「吸魂索命」狀態時，行動結束時<b><color=#e4462c>80%</color></b>機率對<b><color=#e4462c>3</color></b>格內友方施加「禦魔」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "千懼幻冰",
+          "img": "weapon_qianjuhuanbing",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "傷害提高<b><color=#e4462c>13%</color></b>。攜帶「吸魂索命」狀態時，行動結束時<b><color=#e4462c>90%</color></b>機率對<b><color=#e4462c>3</color></b>格內友方施加「禦魔」狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "name": "千懼幻冰",
+          "img": "weapon_qianjuhuanbing",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "傷害提高<b><color=#e4462c>15%</color></b>。攜帶「吸魂索命」狀態時，行動結束時<b><color=#e4462c>100%</color></b>機率對<b><color=#e4462c>3</color></b>格內友方施加「禦魔」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
       ],
       "hero_ornaments_1": [
