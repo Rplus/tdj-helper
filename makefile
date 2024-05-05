@@ -36,6 +36,9 @@ update-data--sorting:
 update-bili-data--parse: print-date
 	bun ./task/bili-skill-parsing.js -- new=1;
 
+update-bili-data--parse--cached:
+	bun ./task/bili-skill-parsing.js;
+
 update-bili-data--sorting:
 	bun ./task/bili-skill-sorting.js;
 

@@ -1,40 +1,38 @@
 import fs from 'fs';
 import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
 
+let adv_skills_of_role = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_of_role.json', 'utf8'));
+let adv_skills = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_all.json', 'utf8'))
 
-let skills_file_name = './task/rawdata/_adv_skills.json';
-let skills = JSON.parse(fs.readFileSync(skills_file_name, 'utf8'));
-
-let adv_skills_file_name = './task/rawdata/_adv_skills_details_processed.json';
-let adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name, 'utf8'));
-
-let role_with_adv_skills = skills
+adv_skills_of_role = adv_skills_of_role
 	.filter((role) => role.adv_skills)
-	.map((role) => {
-		return {
-			pinyin: role.pinyin,
-			adv_skills: role.adv_skills.map((s) => {
-				let target = adv_skills_details.find((i) => i.name === s);
-				if (target) {
-					delete target.type;
-					target.sub_skills?.forEach(ss => {
-						delete ss.type;
-					})
-				}
-				return target || { name: s };
-			}),
-		};
-	});
+	.reduce((all, role) => {
+		all[role.pinyin] = role.adv_skills;
+		return all;
+	}, {});
 
 outputJSON({
-	json: role_with_adv_skills,
-	fn: './task/rawdata/role_with_adv_skills.json',
+	json: adv_skills_of_role,
+	fn: './task/rawdata/adv_skills_of_role.json',
 	space: 2,
 	cn2tw: true,
 });
 outputJSON({
-	json: role_with_adv_skills,
-	fn: './src/lib/data/role_with_adv_skills.min.json',
+	json: adv_skills_of_role,
+	fn: './src/lib/data/adv_skills_of_role.min.json',
+	space: 0,
+	cn2tw: true,
+});
+
+outputJSON({
+	json: adv_skills,
+	fn: './task/rawdata/adv_skills.json',
+	space: 2,
+	cn2tw: true,
+});
+outputJSON({
+	json: adv_skills,
+	fn: './src/lib/data/adv_skills.min.json',
 	space: 0,
 	cn2tw: true,
 });
