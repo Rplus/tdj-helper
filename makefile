@@ -33,8 +33,11 @@ update-data--parse: print-date
 update-data--sorting:
 	bun ./task/sorting.mjs;
 
-update-bili-data--parse-and-sorting: print-date
+update-bili-data--parse: print-date
 	bun ./task/bili-skill-parsing.js -- new=1;
 
 update-bili-data--sorting:
-	bun ./task/parse-bili-skill.js;
+	bun ./task/bili-skill-sorting.js;
+
+update-bili-data: update-bili-data--parse update-bili-data--sorting
+	echo 'hi';

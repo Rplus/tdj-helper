@@ -54,37 +54,6 @@ if (!parse_new && fs.existsSync(adv_skills_file_name)) {
 	// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
 	// adv_skills_details = await get_sub_skills();
 
-let role_with_adv_skills = skills
-	.filter((role) => role.adv_skills)
-	.map((role) => {
-		return {
-			pinyin: role.pinyin,
-			adv_skills: role.adv_skills.map((s) => {
-				let target = adv_skills_details.find((i) => i.name === s);
-				if (target) {
-					delete target.type;
-					target.sub_skills?.forEach(ss => {
-						delete ss.type;
-					})
-				}
-				return target || { name: s };
-			}),
-		};
-	});
-
-outputJSON({
-	json: role_with_adv_skills,
-	fn: './task/rawdata/role_with_adv_skills.json',
-	space: 2,
-	cn2tw: true,
-});
-outputJSON({
-	json: role_with_adv_skills,
-	fn: './src/lib/data/role_with_adv_skills.min.json',
-	space: 0,
-	cn2tw: true,
-});
-
 function remove_html_tag(html = '') {
 	return html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
 }
