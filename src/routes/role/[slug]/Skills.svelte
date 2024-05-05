@@ -8,16 +8,7 @@ import { find_adv_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
 
-let adv_skills = find_adv_skills(pinyin)?.adv_skills || [];
-
-if (adv_skills.length && skills.length) {
-	adv_skills.forEach((adv_skill, index) => {
-		let skill = skills.find((s) => s.name === adv_skill.name);
-		if (skill) {
-			adv_skills[index] = { ...skill };
-		}
-	});
-}
+let adv_skills = find_adv_skills(pinyin, skills);
 </script>
 
 <div class="hr">五內技能</div>

@@ -1,7 +1,31 @@
-import adv_skills_data from '$lib/data/role_with_adv_skills.min.json';
+import adv_skills_data from '$lib/data/adv_skills.min.json';
+import adv_skills_of_role from '$lib/data/adv_skills_of_role.min.json';
 
-export function find_adv_skills(role_pinyin = '') {
-	return adv_skills_data.find((item) => item.pinyin === role_pinyin);
+export function find_adv_skills(role_pinyin = '', basic_skills = []) {
+	let names = adv_skills_of_role[role_pinyin];
+	if (!names) {
+		return [];
+	}
+
+	let all_skills = adv_skills_data.concat(basic_skills);
+	return names.map((name) => {
+		let skill = all_skills.find(s => s.name === name);
+		if (!skill) {
+			return { name, };
+		}
+
+		if (skill.desc.match(/「[^」]+式」/)) {
+			let sub_skills = skill.desc.match(/「[^」]+式」/g)
+				.map(i => i.replace(/[「」]/g, ''))
+				.map(ss => all_skills.find(s => s.name === ss))
+				.filter(Boolean);
+
+			if (sub_skills && sub_skills.length) {
+				skill.sub_skills = sub_skills;
+			}
+		}
+		return skill;
+	})
 }
 
 export function handle_skills(skills) {
