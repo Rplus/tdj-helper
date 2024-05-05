@@ -28,9 +28,9 @@ function gen_skill_string(skill = {}) {
 		skill.name,
 		clear_html(skill.desc),
 		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
-		skill.cd && `\n- ⏳ ${skill.cd}`,
-		`- 🏹 ${skill.shoot}`,
-		`- 🎯 ${skill.range}`,
+		skill.cd && `　- ⏳ ${skill.cd}`,
+		skill.shoot !== '-' ? `　- 🏹 ${skill.shoot}` : '',
+		skill.range !== '-' ? `　- 🎯 ${skill.range}` : '',
 	].filter(Boolean);
 }
 </script>
