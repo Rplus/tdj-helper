@@ -34,7 +34,7 @@ update-data--sorting:
 	bun ./task/sorting.mjs;
 
 update-bili-data--parse-and-sorting: print-date
-	bun ./task/parse-bili-skill.js -- new=1;
+	bun ./task/bili-skill-parsing.js -- new=1;
 
 update-bili-data--sorting:
 	bun ./task/parse-bili-skill.js;
