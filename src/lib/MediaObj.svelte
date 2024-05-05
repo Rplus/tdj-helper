@@ -25,6 +25,11 @@
 		--img-size: 48px;
 		--name-fz: 0.8em;
 	}
+
+	@media (max-width: 420px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .avatar {
