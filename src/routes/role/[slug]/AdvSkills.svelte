@@ -35,7 +35,7 @@ function gen_skill_string(skill = {}) {
 }
 </script>
 
-<div class="hr">3C 技能</div>
+<div class="hr">絕學化神</div>
 
 {#each skills_set as set}
 	<MediaObj>
