@@ -1,4 +1,8 @@
-<div class="flex">
+<script>
+	export let mobile_align = '';
+</script>
+
+<div class="flex {mobile_align ? `mobile-align-${mobile_align}` : ''}">
 	<div class="avatar">
 		<div class="name">
 			<slot name="name" />
@@ -27,8 +31,10 @@
 	}
 
 	@media (max-width: 420px) {
-		flex-direction: column;
-		align-items: center;
+		&.mobile-align-center {
+			flex-direction: column;
+			align-items: center;
+		}
 	}
 }
 

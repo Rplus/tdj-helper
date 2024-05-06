@@ -38,7 +38,7 @@ function gen_skill_string(skill = {}) {
 <div class="hr">絕學化神</div>
 
 {#each skills_set as set}
-	<MediaObj>
+	<MediaObj mobile_align="center">
 		<img
 			slot="img"
 			src={get_img('skill', set[0].img, 96)}

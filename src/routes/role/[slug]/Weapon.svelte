@@ -9,7 +9,7 @@ let descs = weapon.map((w) => clear_html(w.desc));
 </script>
 
 {#if weapon && weapon[0]}
-	<MediaObj>
+	<MediaObj mobile_align="center">
 		<img
 			slot="img"
 			src={get_img('weapon', weapon[0].img, 64)}

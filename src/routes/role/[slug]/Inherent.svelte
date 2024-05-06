@@ -8,7 +8,7 @@ import MultiLv from '$lib/MultiLv.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 </script>
 
-<MediaObj>
+<MediaObj mobile_align="center">
 	<img slot="img" src={get_img('inherent', img, 64)} alt={name} width="64" height="64" />
 
 	<svelte:fragment slot="name">
