@@ -159,6 +159,86 @@ async function get_sub_skills() {
 	return adv_skills.data;
 }
 
+
+
+
+// SUMMONS
+// SUMMONS
+// SUMMONS
+{
+	let data = {
+		names: [],
+		summons: [],
+		skills: [],
+	};
+
+	let _res = await fetch('https://wiki.biligame.com/tdj/api.php?action=opensearch&search=召唤物&limit=50');
+	data.names = (await _res.json())?.[1];
+	data.names.sort();
+
+	{ // summons
+		data.summons = await Promise.all(
+			data.names.map(async (summon) => {
+				let _sss = await fetch_name(summon);
+				let props = bilidata_to_obj(_sss?.query.data);
+
+				let inherent_name = props['天赋'];
+				let inherent = await fetch_name('天赋/' + inherent_name);
+				let inherent_props = bilidata_to_obj(inherent?.query.data);
+
+				let skill_names = [].concat(props['绝学']);
+
+				let op = {
+					key: summon,
+					name: summon.replace('召唤物/', ''),
+					inherent_name,
+					inherent: remove_html_tag(inherent_props['天赋6星']),
+					range: props['射程'],
+					stats: props['属性'],
+					prop: props['属相'],
+					speed: props['移动'],
+					career: props['职业'],
+					skill_names,
+				};
+
+				return op;
+			})
+		);
+	}
+
+	{ // summon skills
+		data.skills = await Promise.all(
+			data.summons.map(sm => sm.skill_names).flat().uniq()
+				.map(async (skill_name) => {
+					let _skill = await fetch_name('绝学/' + skill_name);
+					let props = bilidata_to_obj(_skill?.query.data);
+					return {
+						name: skill_name,
+						cd: props['绝学冷却'],
+						cost: props['绝学消耗'],
+						shoot: props['绝学射程'],
+						range: props['绝学范围'],
+						type: props['绝学类别'],
+						desc: remove_html_tag(props['绝学描述']),
+					};
+				})
+		);
+	}
+
+	outputJSON({
+		json: data,
+		fn: './task/rawdata/summons.json',
+		space: 2,
+		// cn2tw: true,
+	});
+
+	outputJSON({
+		json: data,
+		fn: './src/lib/data/summons.min.json',
+		cn2tw: true,
+	});
+}
+
 // https://wiki.biligame.com/tdj/api.php
 async function fetch_name(name = '') {
 	let obj = {
