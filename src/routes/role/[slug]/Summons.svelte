@@ -15,5 +15,3 @@ import { link } from '$lib/u.js';
 		</li>
 	{/each}
 </ul>
-
-<hr>

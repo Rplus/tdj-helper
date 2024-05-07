@@ -4,6 +4,7 @@ import { link, clear_html } from '$lib/u.js';
 import { status_props } from '../summon.js';
 
 import Header from '$lib/Header.svelte';
+import NavItem from '$lib/NavItem.svelte';
 import Footer from '$lib/Footer.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 // import MultiLv from '$lib/MultiLv.svelte';
@@ -82,6 +83,13 @@ function gen_skill_string(skill = {}, with_name = false) {
 	</div>
 </div>
 
+
+<NavItem
+	prev={data.summon.siblings.prev}
+	next={data.summon.siblings.next}
+	cate="summon"
+/>
+
 <!-- <div class="hr" style="--ratio: 0.125;">天賦</div> -->
 
 <ul>
@@ -108,9 +116,6 @@ function gen_skill_string(skill = {}, with_name = false) {
 						<br>
 						🔁 <strong>{sub_skill.name}</strong>
 						<br>
-						<!--
-						{gen_skill_string(sub_skill, true)}
-						-->
 						{gen_skill_string(sub_skill)}
 					{/each}
 				{/if}

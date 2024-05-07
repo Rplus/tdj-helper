@@ -1,11 +1,23 @@
 import summons_data from '$lib/data/summons.min.json';
 
 export function find_summon(prop, value) {
-	let summon = summons_data.summons.find((item) => item?.[prop] === value);
+	let max_index = summons_data.summons.length - 1;
+
+	let summon_index = summons_data.summons.findIndex((item) => item?.[prop] === value);
+	let summon = summons_data.summons[summon_index];
+
+	let next_index = summon_index + 1;
+	let prev_index = summon_index - 1;
+
 	if (summon) {
 		summon.skills = summon.skill_names.map(skill_name => {
 			return summons_data.skills.find(skill => skill.name === skill_name);
 		});
+
+		summon.siblings = {
+			next: next_index <= max_index ? summons_data.summons[next_index].name : null,
+			prev: prev_index >= 0 ? summons_data.summons[prev_index].name : null,
+		};
 	}
 	return summon;
 }
