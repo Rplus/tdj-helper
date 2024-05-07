@@ -4,10 +4,11 @@ export let type = 'list';
 import Avatar from './Avatar.svelte';
 import { status_props } from './summon.js';
 
-let order_style = status_props.map((prop, index) => {
-	return `--${prop.prop}: ${data.stats[index]}`;
-}).join(';');
-
+let order_style = status_props
+	.map((prop, index) => {
+		return `--${prop.prop}: ${data.stats[index]}`;
+	})
+	.join(';');
 </script>
 
 <div

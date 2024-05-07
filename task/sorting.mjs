@@ -71,9 +71,9 @@ op.roles = roles_data.map((item) => {
 		},
 	};
 
-	let _summons = summons.summons.filter(summon => summon.owner[1] === item.pinyin);
+	let _summons = summons.summons.filter((summon) => summon.owner[1] === item.pinyin);
 	if (_summons.length) {
-		ooop.summons = _summons.map(s => s.name);
+		ooop.summons = _summons.map((s) => s.name);
 	}
 
 	return ooop;

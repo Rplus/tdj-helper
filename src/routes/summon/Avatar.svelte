@@ -1,10 +1,9 @@
 <script>
 export let role;
 
-import { link  } from '$lib/u.js';
+import { link } from '$lib/u.js';
 
 import Icon from './Icon.svelte';
-
 </script>
 
 <div class="box">

@@ -22,14 +22,12 @@ function gen_skill_string(skill = {}, with_name = false) {
 		skill.shoot && skill.shoot !== '-' ? `　- 🏹 ${skill.shoot}` : '',
 		skill.range && skill.range !== '-' ? `　- 🎯 ${skill.range}` : '',
 	]
-	.filter(Boolean)
-	.join('\n');
+		.filter(Boolean)
+		.join('\n');
 }
-
 </script>
 
 <Header parent_path="/summon" title="召喚物：{data.summon?.name}" />
-
 
 <div class="flex jc-sb">
 	<ul style="margin: 0;">
@@ -42,7 +40,7 @@ function gen_skill_string(skill = {}, with_name = false) {
 				<Icon role={data.summon} />
 				<div>
 					[ {data.summon.prop} ]
-					<br>
+					<br />
 					[{data.summon.career}]
 				</div>
 			</div>
@@ -83,12 +81,7 @@ function gen_skill_string(skill = {}, with_name = false) {
 	</div>
 </div>
 
-
-<NavItem
-	prev={data.summon.siblings.prev}
-	next={data.summon.siblings.next}
-	cate="summon"
-/>
+<NavItem prev={data.summon.siblings.prev} next={data.summon.siblings.next} cate="summon" />
 
 <!-- <div class="hr" style="--ratio: 0.125;">天賦</div> -->
 
@@ -113,9 +106,9 @@ function gen_skill_string(skill = {}, with_name = false) {
 
 				{#if skill.sub_skills}
 					{#each skill.sub_skills as sub_skill}
-						<br>
+						<br />
 						🔁 <strong>{sub_skill.name}</strong>
-						<br>
+						<br />
 						{gen_skill_string(sub_skill)}
 					{/each}
 				{/if}

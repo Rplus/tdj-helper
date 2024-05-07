@@ -1,7 +1,6 @@
 <script>
 export let summons = [];
 import { link } from '$lib/u.js';
-
 </script>
 
 <div class="hr">召喚物</div>

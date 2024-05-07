@@ -9,7 +9,7 @@ import Footer from '$lib/Footer.svelte';
 
 import { status_props } from './summon.js';
 
-let {names, summons, skills} = data;
+let { names, summons, skills } = data;
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -28,7 +28,6 @@ function sort_by_prop(prop = '') {
 		order: calc(var(--${prop}) * ${sort_dir});
 	} </style>`;
 }
-
 </script>
 
 <div class="workspace">

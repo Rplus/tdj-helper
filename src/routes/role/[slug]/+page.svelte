@@ -30,18 +30,12 @@ $: {
 
 <Role data={data.role} type="card" />
 
-<NavItem
-	prev={data.role.siblings.prev}
-	next={data.role.siblings.next}
-	cate="role"
-/>
+<NavItem prev={data.role.siblings.prev} next={data.role.siblings.next} cate="role" />
 
 {#if browser}
 	{#await promise}
 		<div class="mb-2"></div>
-		<div class="hr">
-			...waiting ⏳
-		</div>
+		<div class="hr">...waiting ⏳</div>
 		<div class="mb-2"></div>
 	{:then detail_data}
 		{#if detail_data}
@@ -73,13 +67,11 @@ $: {
 				skills={handle_skills(detail_data.skill)}
 				lang={data.role.pinyin_tw ? 'tw' : 'cn'}
 			/>
-
 		{/if}
 
 		{#if data.role?.summons}
 			<Summons summons={data.role.summons} />
 		{/if}
-
 
 		<hr />
 		<details>

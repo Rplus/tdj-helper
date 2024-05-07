@@ -10,8 +10,8 @@ export function find_summon(prop, value) {
 	let prev_index = summon_index - 1;
 
 	if (summon) {
-		summon.skills = summon.skill_names.map(skill_name => {
-			return summons_data.skills.find(skill => skill.name === skill_name);
+		summon.skills = summon.skill_names.map((skill_name) => {
+			return summons_data.skills.find((skill) => skill.name === skill_name);
 		});
 
 		summon.siblings = {

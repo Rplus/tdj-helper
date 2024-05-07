@@ -3,7 +3,6 @@ import { link } from '$lib/u.js';
 export let next = '';
 export let prev = '';
 export let cate = 'role';
-
 </script>
 
 <nav class="nav">

@@ -166,8 +166,6 @@ function remove_summon_syntax(str = '') {
 
 export function remove_html_tag(html = '') {
 	return remove_summon_syntax(
-		html
-			.replace(/<br\s?\/?>/g, '\n')
-			.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '')
+		html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, ''),
 	);
 }

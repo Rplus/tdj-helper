@@ -63,7 +63,7 @@ let sub_skills_list = [
 				owner: owner[summon] || '',
 				inherent_name,
 				inherent: remove_html_tag(inherent_props['天赋6星']),
-				stats: props['属性'].split(',').map(i => parseInt(i) || 0), // hp, atk_phy, atk_mag, atk_mag, atk_mag
+				stats: props['属性'].split(',').map((i) => parseInt(i) || 0), // hp, atk_phy, atk_mag, atk_mag, atk_mag
 				prop: props['属相'],
 				career: props['职业'],
 				range: +props['射程'],
@@ -98,31 +98,33 @@ let sub_skills_list = [
 				};
 
 				if (desc.match(/「[^」]+」/)) {
-					let sub_skills = desc.match(/「[^」]+」/gm	)
-						.filter(i => sub_skills_list.includes(i))
+					let sub_skills = desc
+						.match(/「[^」]+」/gm)
+						.filter((i) => sub_skills_list.includes(i))
 						.map((i) => i.replace(/[「」]/g, ''));
 					// let sub_skills = desc.match(/「[^」]+式」/g).map((i) => i.replace(/[「」]/g, ''));
 
 					if (sub_skills.length) {
-						op.sub_skills = await Promise.all(sub_skills.map(async (sub_skill) => {
-							let props = await fetch_bwiki_props_by_name(`绝学/${sub_skill}`);
-							let oop = {
-								name: sub_skill,
-								cost: props['绝学消耗'],
-								shoot: props['绝学射程'],
-								range: props['绝学范围'],
-								type: props['绝学类别'],
-								desc: remove_html_tag(props['绝学描述']),
-							};
+						op.sub_skills = await Promise.all(
+							sub_skills.map(async (sub_skill) => {
+								let props = await fetch_bwiki_props_by_name(`绝学/${sub_skill}`);
+								let oop = {
+									name: sub_skill,
+									cost: props['绝学消耗'],
+									shoot: props['绝学射程'],
+									range: props['绝学范围'],
+									type: props['绝学类别'],
+									desc: remove_html_tag(props['绝学描述']),
+								};
 
-							if (parseInt(props['绝学冷却'])) {
-								oop.cd = props['绝学冷却'];
-							}
+								if (parseInt(props['绝学冷却'])) {
+									oop.cd = props['绝学冷却'];
+								}
 
-							return oop;
-						}));
+								return oop;
+							}),
+						);
 					}
-
 				}
 
 				return op;
@@ -132,7 +134,7 @@ let sub_skills_list = [
 
 {
 	// workaround: fix 式鬼
-	let target = data.summons.find(i => i.name === '式鬼');
+	let target = data.summons.find((i) => i.name === '式鬼');
 	if (target) {
 		target.speed = 5;
 		target.range = 1;
@@ -188,7 +190,7 @@ let sub_skills_list = [
 {
 	data.summons.sort((a, b) => {
 		return a.owner[1].localeCompare(b.owner[1]);
-	})
+	});
 }
 
 outputJSON({
