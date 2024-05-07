@@ -88,6 +88,13 @@ async function get_adv_skills() {
 			let props = bilidata_to_obj(info?.query.data);
 			let desc = remove_html_tag(props['绝学描述']);
 
+			{
+				// workaround:
+				if (sname === '天剑圣裁·贰式') {
+					desc = desc.replace('召唤天剑', '召喚[[召喚物/天劍|天劍]]');
+				}
+			}
+
 			return {
 				name: sname,
 				// path: encodeURIComponent(sname),
@@ -223,6 +230,55 @@ async function get_sub_skills() {
 					};
 				})
 		);
+	}
+
+	{ // +劍聖的天劍資料
+		data.names.push('召喚物/天劍');
+		data.summons.push({
+		  'key': '召喚物/天劍',
+		  'name': '天劍',
+		  'inherent_name': '凶劍煬魂',
+		  'inherent': '行動時無視敵方角色阻擋。死亡時對周圍2格敵人施加「魂創」狀態，持續2回合，重置「天劍聖裁」冷卻時間。',
+		  'range': '1',
+		  'stats': '80%,80%,80%,80%,80%,80%',
+		  'prop': '光',
+		  'speed': '5',
+		  'career': '御風',
+		  'skill_names': [
+		    '鎮罪之儀',
+		    '逆轉乾坤‧天劍',
+		    '魂刻‧天劍'
+		  ]
+		});
+		data.skills = data.skills.concat([
+			{
+			  'name': '鎮罪之儀',
+			  'cd': '3回合',
+			  'cost': '-',
+			  'shoot': '自身',
+			  'range': '菱形3格',
+			  'type': '物攻傷害',
+			  'desc': '對範圍內所有敵人造成0.5倍傷害，施加2層「魂創」狀態，持續2回合。'
+			},
+			{
+			  'name': '逆轉乾坤‧天劍',
+			  'cd': '4回合',
+			  'cost': '-',
+			  'shoot': '3格',
+			  'range': '單體',
+			  'type': '支援',
+			  'desc': '和召喚者交換氣血，並轉移所有「減益狀態」到自身。'
+			},
+			{
+			  'name': '魂刻‧天劍',
+			  'cd': '-',
+			  'cost': '-',
+			  'shoot': '-',
+			  'range': '-',
+			  'type': '被動',
+			  'desc': '行動結束時恢復2格內的友方氣血（最大氣血的20%）。'
+			},
+		]);
 	}
 
 	outputJSON({
