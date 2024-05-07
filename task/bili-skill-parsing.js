@@ -235,6 +235,7 @@ async function get_sub_skills() {
 	outputJSON({
 		json: data,
 		fn: './src/lib/data/summons.min.json',
+		space: 0,
 		cn2tw: true,
 	});
 }
