@@ -9,6 +9,7 @@ import Role from '../Role.svelte';
 import Skills from './Skills.svelte';
 import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
+import Summons from './Summons.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 
@@ -26,7 +27,9 @@ onMount(() => {
 
 {#if browser}
 	{#await promise}
-		<p>...waiting</p>
+		<div class="hr">
+			...waiting ⏳
+		</div>
 	{:then detail_data}
 		{#if detail_data}
 			<div class="mb-2" />
@@ -67,6 +70,10 @@ onMount(() => {
 	{:catch error}
 		<p style="color: red">{error.message}</p>
 	{/await}
+{/if}
+
+{#if data.role?.summons}
+	<Summons summons={data.role.summons} />
 {/if}
 
 <a
