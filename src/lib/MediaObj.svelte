@@ -1,5 +1,5 @@
 <script>
-	export let mobile_align = '';
+export let mobile_align = '';
 </script>
 
 <div class="flex {mobile_align ? `mobile-align-${mobile_align}` : ''}">

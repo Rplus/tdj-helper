@@ -1,12 +1,19 @@
 import fs from 'fs';
-import { writeFile, outputJSON, getArgs, uniq, remove_html_tag, fetch_bwiki_props_by_name, } from './u.mjs';
+import {
+	writeFile,
+	outputJSON,
+	getArgs,
+	uniq,
+	remove_html_tag,
+	fetch_bwiki_props_by_name,
+} from './u.mjs';
 
 Array.prototype.uniq = uniq;
 
 let adv_skills_of_role = {
 	fn: './task/rawdata/_adv_skills_of_role.json',
 	data: [],
-}
+};
 
 let parse_new = getArgs()?.new;
 
@@ -37,7 +44,6 @@ if (!parse_new && fs.existsSync(adv_skills_of_role.fn)) {
 	});
 }
 
-
 let adv_skills = {
 	fn: './task/rawdata/_adv_skills_all.json',
 	data: [],
@@ -55,16 +61,14 @@ adv_skills.names = adv_skills_of_role.data
 	.uniq();
 
 if (!parse_new && fs.existsSync(adv_skills.fn)) {
-	adv_skills.data_raw = JSON.parse(fs.readFileSync(adv_skills.fn, 'utf8'))
+	adv_skills.data_raw = JSON.parse(fs.readFileSync(adv_skills.fn, 'utf8'));
 } else {
 	adv_skills.data_raw = await get_adv_skills();
 	adv_skills.data_raw = await get_sub_skills();
 }
-	// // test
-	// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
-	// adv_skills_details = await get_sub_skills();
-
-
+// // test
+// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
+// adv_skills_details = await get_sub_skills();
 
 async function get_adv_skills() {
 	console.log('Get_Adv_Skills');
@@ -107,7 +111,7 @@ function collect_sub_skills() {
 	let sub_skills_set = [];
 	adv_skills.data_raw.forEach((skill) => {
 		if (skill.desc.match(/「[^」]+式」/)) {
-			let sub_skills = skill.desc.match(/「[^」]+式」/g).map(i => i.replace(/[「」]/g, ''));
+			let sub_skills = skill.desc.match(/「[^」]+式」/g).map((i) => i.replace(/[「」]/g, ''));
 			sub_skills_set.push(sub_skills);
 		}
 	});
@@ -129,14 +133,14 @@ async function get_sub_skills() {
 				range: props['绝学范围'],
 				type: props['绝学类别'],
 				desc: remove_html_tag(props['绝学描述']),
-			}
+			};
 
 			if (parseInt(props['绝学冷却'])) {
 				op.cd = props['绝学冷却'];
 			}
 
 			return op;
-		})
+		}),
 	);
 
 	adv_skills.data = adv_skills.data_raw.concat(sub_skills_data);
@@ -157,7 +161,6 @@ async function get_sub_skills() {
 	// let data = handle_source(res.json()?.source);
 	// data.filter(i => i.startsWith('绝学化神'))
 	// 	.map(i => i.split('=')?.[1]?.split(','))
-
 	// function handle_source(source = '') {
 	// 	return source.replace(/[{}]/g, '')
 	// 		.split('|')

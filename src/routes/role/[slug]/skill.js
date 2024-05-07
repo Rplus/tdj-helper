@@ -9,15 +9,16 @@ export function find_adv_skills(role_pinyin = '', basic_skills = []) {
 
 	let all_skills = adv_skills_data.concat(basic_skills);
 	return names.map((name) => {
-		let skill = all_skills.find(s => s.name === name);
+		let skill = all_skills.find((s) => s.name === name);
 		if (!skill) {
-			return { name, };
+			return { name };
 		}
 
 		if (skill.desc.match(/「[^」]+式」/)) {
-			let sub_skills = skill.desc.match(/「[^」]+式」/g)
-				.map(i => i.replace(/[「」]/g, ''))
-				.map(ss => all_skills.find(s => s.name === ss))
+			let sub_skills = skill.desc
+				.match(/「[^」]+式」/g)
+				.map((i) => i.replace(/[「」]/g, ''))
+				.map((ss) => all_skills.find((s) => s.name === ss))
 				.filter(Boolean);
 
 			if (sub_skills && sub_skills.length) {
@@ -25,7 +26,7 @@ export function find_adv_skills(role_pinyin = '', basic_skills = []) {
 			}
 		}
 		return skill;
-	})
+	});
 }
 
 export function handle_skills(skills) {

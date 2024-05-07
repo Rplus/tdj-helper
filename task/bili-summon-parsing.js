@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { outputJSON, uniq, remove_html_tag, fetch_bwiki_props_by_name, } from './u.mjs';
+import { outputJSON, uniq, remove_html_tag, fetch_bwiki_props_by_name } from './u.mjs';
 
 Array.prototype.uniq = uniq;
 
@@ -9,11 +9,14 @@ let data = {
 	skills: [],
 };
 
-let _res = await fetch('https://wiki.biligame.com/tdj/api.php?action=opensearch&search=召唤物&limit=50');
+let _res = await fetch(
+	'https://wiki.biligame.com/tdj/api.php?action=opensearch&search=召唤物&limit=50',
+);
 data.names = (await _res.json())?.[1];
 data.names.sort();
 
-{ // summons
+{
+	// summons
 	data.summons = await Promise.all(
 		data.names.map(async (summon) => {
 			let props = await fetch_bwiki_props_by_name(summon);
@@ -37,13 +40,17 @@ data.names.sort();
 			};
 
 			return op;
-		})
+		}),
 	);
 }
 
-{ // summon skills
+{
+	// summon skills
 	data.skills = await Promise.all(
-		data.summons.map(sm => sm.skill_names).flat().uniq()
+		data.summons
+			.map((sm) => sm.skill_names)
+			.flat()
+			.uniq()
 			.map(async (skill_name) => {
 				let props = await fetch_bwiki_props_by_name('绝学/' + skill_name);
 
@@ -56,55 +63,53 @@ data.names.sort();
 					type: props['绝学类别'],
 					desc: remove_html_tag(props['绝学描述']),
 				};
-			})
+			}),
 	);
 }
 
-{ // workaround: add 劍聖|召喚物/天劍
+{
+	// workaround: add 劍聖|召喚物/天劍
 	data.names.push('召喚物/天劍');
 	data.summons.push({
-		'key': '召喚物/天劍',
-		'name': '天劍',
-		'inherent_name': '凶劍煬魂',
-		'inherent': '行動時無視敵方角色阻擋。死亡時對周圍2格敵人施加「魂創」狀態，持續2回合，重置「天劍聖裁」冷卻時間。',
-		'range': '1',
-		'stats': '80%,80%,80%,80%,80%,80%',
-		'prop': '光',
-		'speed': '5',
-		'career': '御風',
-		'skill_names': [
-			'鎮罪之儀',
-			'逆轉乾坤‧天劍',
-			'魂刻‧天劍'
-		]
+		key: '召喚物/天劍',
+		name: '天劍',
+		inherent_name: '凶劍煬魂',
+		inherent:
+			'行動時無視敵方角色阻擋。死亡時對周圍2格敵人施加「魂創」狀態，持續2回合，重置「天劍聖裁」冷卻時間。',
+		range: '1',
+		stats: '80%,80%,80%,80%,80%,80%',
+		prop: '光',
+		speed: '5',
+		career: '御風',
+		skill_names: ['鎮罪之儀', '逆轉乾坤‧天劍', '魂刻‧天劍'],
 	});
 	data.skills = data.skills.concat([
 		{
-			'name': '鎮罪之儀',
-			'cd': '3回合',
-			'cost': '-',
-			'shoot': '自身',
-			'range': '菱形3格',
-			'type': '物攻傷害',
-			'desc': '對範圍內所有敵人造成0.5倍傷害，施加2層「魂創」狀態，持續2回合。'
+			name: '鎮罪之儀',
+			cd: '3回合',
+			cost: '-',
+			shoot: '自身',
+			range: '菱形3格',
+			type: '物攻傷害',
+			desc: '對範圍內所有敵人造成0.5倍傷害，施加2層「魂創」狀態，持續2回合。',
 		},
 		{
-			'name': '逆轉乾坤‧天劍',
-			'cd': '4回合',
-			'cost': '-',
-			'shoot': '3格',
-			'range': '單體',
-			'type': '支援',
-			'desc': '和召喚者交換氣血，並轉移所有「減益狀態」到自身。'
+			name: '逆轉乾坤‧天劍',
+			cd: '4回合',
+			cost: '-',
+			shoot: '3格',
+			range: '單體',
+			type: '支援',
+			desc: '和召喚者交換氣血，並轉移所有「減益狀態」到自身。',
 		},
 		{
-			'name': '魂刻‧天劍',
-			'cd': '-',
-			'cost': '-',
-			'shoot': '-',
-			'range': '-',
-			'type': '被動',
-			'desc': '行動結束時恢復2格內的友方氣血（最大氣血的20%）。'
+			name: '魂刻‧天劍',
+			cd: '-',
+			cost: '-',
+			shoot: '-',
+			range: '-',
+			type: '被動',
+			desc: '行動結束時恢復2格內的友方氣血（最大氣血的20%）。',
 		},
 	]);
 }

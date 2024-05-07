@@ -1,8 +1,10 @@
 import fs from 'fs';
 import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
 
-let adv_skills_of_role = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_of_role.json', 'utf8'));
-let adv_skills = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_all.json', 'utf8'))
+let adv_skills_of_role = JSON.parse(
+	fs.readFileSync('./task/rawdata/_adv_skills_of_role.json', 'utf8'),
+);
+let adv_skills = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_all.json', 'utf8'));
 
 adv_skills_of_role = adv_skills_of_role
 	.filter((role) => role.adv_skills)
@@ -36,4 +38,3 @@ outputJSON({
 	space: 0,
 	cn2tw: true,
 });
-

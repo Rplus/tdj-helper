@@ -144,8 +144,8 @@ export async function fetch_name(name = '') {
 
 export function bilidata_to_obj(data = []) {
 	return data.reduce((all, i) => {
-		let items = i.dataitem?.map(i => i?.item);
-		all[i.property] = (items[0] && items.length > 1) ? items : items?.[0];
+		let items = i.dataitem?.map((i) => i?.item);
+		all[i.property] = items[0] && items.length > 1 ? items : items?.[0];
 		return all;
 	}, {});
 }

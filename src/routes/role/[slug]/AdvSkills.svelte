@@ -15,7 +15,7 @@ skills.forEach((s, index) => {
 	s.lvs = gen_skill_string(s);
 
 	if (s.sub_skills && s.sub_skills.length) {
-		s.sub_skills.forEach(ss => s.lvs.push('\n🔁 ' + gen_skill_string(ss).join('\n')));
+		s.sub_skills.forEach((ss) => s.lvs.push('\n🔁 ' + gen_skill_string(ss).join('\n')));
 	}
 
 	s.lvs = s.lvs.join('\n');
