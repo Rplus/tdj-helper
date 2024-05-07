@@ -42,5 +42,8 @@ update-bili-data--parse--cached:
 update-bili-data--sorting:
 	bun ./task/bili-skill-sorting.js;
 
-update-bili-data: update-bili-data--parse update-bili-data--sorting
-	echo 'hi';
+update-bili-data---parse-summon:
+	bun ./task/bili-summon-parsing.js;
+
+update-bili-data: update-bili-data--parse update-bili-data--sorting update-bili-data---parse-summon
+	echo 'bili-wiki parsing done!';

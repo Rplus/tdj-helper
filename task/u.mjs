@@ -121,3 +121,45 @@ export function pick_obj(obj, props = []) {
 		return all;
 	}, {});
 }
+
+// https://wiki.biligame.com/tdj/api.php
+export async function fetch_name(name = '') {
+	let obj = {
+		subject: decodeURIComponent(name),
+		ns: 0,
+		type: 'xml',
+	};
+	let res = await fetch('https://wiki.biligame.com/tdj/api.php', {
+		headers: {
+			'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+		},
+		body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
+		method: 'POST',
+	});
+
+	let raw = await res.json();
+
+	return raw;
+}
+
+export function bilidata_to_obj(data = []) {
+	return data.reduce((all, i) => {
+		let items = i.dataitem?.map(i => i?.item);
+		all[i.property] = (items[0] && items.length > 1) ? items : items?.[0];
+		return all;
+	}, {});
+}
+
+export async function fetch_bwiki_props_by_name(name = '') {
+	let raw = await fetch_name(name);
+	let props = bilidata_to_obj(raw?.query.data);
+	return props;
+}
+
+export function uniq() {
+	return [...new Set(this)];
+}
+
+export function remove_html_tag(html = '') {
+	return html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
+}
