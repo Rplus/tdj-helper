@@ -1,6 +1,8 @@
 import fs from 'fs';
 import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
 
+let summons = JSON.parse(fs.readFileSync('./task/rawdata/summons.json', 'utf8'));
+
 let roles_data;
 for (let type in raw_data) {
 	raw_data[type].rawdata = JSON.parse(fs.readFileSync(`${raw_data[type].fn}.op.json`, 'utf8'));
@@ -44,7 +46,7 @@ op.roles = roles_data.map((item) => {
 		item.prop = '炎';
 	}
 
-	return {
+	let ooop = {
 		...pick_obj(item, [
 			'name',
 			'rarity',
@@ -68,6 +70,13 @@ op.roles = roles_data.map((item) => {
 			crit: +detail.huixin,
 		},
 	};
+
+	let _summons = summons.summons.filter(summon => summon.owner[1] === item.pinyin);
+	if (_summons.length) {
+		ooop.summons = _summons.map(s => s.name);
+	}
+
+	return ooop;
 });
 
 //  ######  ######## ########     ###    ######## ########  ######   ##    ##

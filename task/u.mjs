@@ -160,6 +160,14 @@ export function uniq() {
 	return [...new Set(this)];
 }
 
+function remove_summon_syntax(str = '') {
+	return str.replace(/\[\[召[唤喚]物\/(.+)\|\1\]\]/gm, '$1');
+}
+
 export function remove_html_tag(html = '') {
-	return html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '');
+	return remove_summon_syntax(
+		html
+			.replace(/<br\s?\/?>/g, '\n')
+			.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '')
+	);
 }

@@ -78,10 +78,10 @@ async function get_adv_skills() {
 			let desc = remove_html_tag(props['绝学描述']);
 
 			{
-				// workaround:
-				if (sname === '天剑圣裁·贰式') {
-					desc = desc.replace('召唤天剑', '召喚[[召喚物/天劍|天劍]]');
-				}
+				// // workaround:
+				// if (sname === '天剑圣裁·贰式') {
+				// 	desc = desc.replace('召唤天剑', '召喚[[召喚物/天劍|天劍]]');
+				// }
 			}
 
 			return {
