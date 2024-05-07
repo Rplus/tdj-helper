@@ -23,6 +23,7 @@ export let cate = 'role';
 <style>
 .nav-link {
 	position: fixed;
+	top: 12%;
 	writing-mode: vertical-lr;
 	padding: 0.5em;
 	background-image: linear-gradient(#9996, #9996);
