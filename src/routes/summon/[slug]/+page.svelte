@@ -6,19 +6,17 @@ import { status_props } from '../summon.js';
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
 import Footer from '$lib/Footer.svelte';
-import MediaObj from '$lib/MediaObj.svelte';
+// import MediaObj from '$lib/MediaObj.svelte';
 // import MultiLv from '$lib/MultiLv.svelte';
 import Icon from '../Icon.svelte';
 
 export let data;
 
-let stats = data.summon.stats.map((stat, index) => `${status_props[index].prop}: ${stat}%`);
-
 function gen_skill_string(skill = {}, with_name = false) {
 	return [
 		with_name && '\n🔁 ' + skill.name,
 		clear_html(skill.desc),
-		skill.cd && skill.cd !== '-' && `　- ⏳ ${skill.cd}`,
+		skill.cd && skill.cd !== '-' ? `　- ⏳ ${skill.cd}` : '',
 		skill.shoot && skill.shoot !== '-' ? `　- 🏹 ${skill.shoot}` : '',
 		skill.range && skill.range !== '-' ? `　- 🎯 ${skill.range}` : '',
 	]
@@ -118,9 +116,3 @@ function gen_skill_string(skill = {}, with_name = false) {
 </ul>
 
 <Footer time={true} refs={get_refs([1, 1, 1])} />
-
-<style>
-pre {
-	overflow: auto;
-}
-</style>

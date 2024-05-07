@@ -10,7 +10,7 @@ import MediaObj from '$lib/MediaObj.svelte';
 function io2prop(io_str = '01', prop) {
 	return io_str
 		.split('')
-		.map((i, index) => (!!+i ? keys[prop][index] : ''))
+		.map((i, index) => (i === '1' ? keys[prop][index] : ''))
 		.filter(Boolean);
 }
 

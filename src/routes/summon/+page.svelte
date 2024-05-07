@@ -9,7 +9,7 @@ import Footer from '$lib/Footer.svelte';
 
 import { status_props } from './summon.js';
 
-let { names, summons, skills } = data;
+let { summons } = data;
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -72,13 +72,6 @@ function sort_by_prop(prop = '') {
 <Footer time={true} refs={get_refs([1, 1, 1])} />
 
 <style>
-.switcher {
-	font-size: 2em;
-	font-family: monospace;
-	cursor: pointer;
-	gap: 0.5em;
-}
-
 .list {
 	display: grid;
 	grid-template-columns: 2fr repeat(6, 1fr);

@@ -22,7 +22,7 @@ let order_style = status_props
 >
 	<Avatar role={data} />
 
-	{#each data.stats as stat, index}
+	{#each data.stats as stat}
 		<div class="text-right">
 			{#if stat > 100}
 				<strong>{stat}%</strong>
