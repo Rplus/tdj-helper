@@ -3,6 +3,7 @@ import { error } from '@sveltejs/kit';
 
 export const cache = new Map();
 
+// https://www.telerik.com/blogs/client-caching-sveltekit
 export async function cache_fetch(key = '', fetch_callback) {
 	if (browser && cache.has(key)) {
 		return cache.get(key);
