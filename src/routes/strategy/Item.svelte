@@ -52,6 +52,8 @@ let img = resize_img(
 	align-items: center;
 	justify-content: center;
 	background-color: #9993;
+	box-shadow: inset 2px 2px 8px #0003;
+	border-radius: 0.25em;
 
 	@media (max-width: 900px) {
 		width: 50px;
