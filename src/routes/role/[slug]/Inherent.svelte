@@ -10,13 +10,7 @@ import Img from '$lib/Img.svelte';
 </script>
 
 <MediaObj mobile_align="center">
-	<Img
-		slot="img"
-		src={get_img('inherent', img, 64)}
-		alt={name}
-		width="64"
-		height="64"
-	/>
+	<Img slot="img" src={get_img('inherent', img, 64)} alt={name} width="64" height="64" />
 
 	<svelte:fragment slot="name">
 		{name}

@@ -66,7 +66,7 @@ const PROXY = [
 					console.log('fetch role.tw', data);
 					return data.data?.data[0];
 				})
-				.catch(err => {
+				.catch((err) => {
 					throw error(err);
 				}),
 	},

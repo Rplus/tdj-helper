@@ -14,7 +14,6 @@ function handle_error() {
 		this.src = new_src;
 	}
 }
-
 </script>
 
 <img

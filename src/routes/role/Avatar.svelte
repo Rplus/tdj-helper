@@ -38,13 +38,7 @@ function get_strategy(strategy) {
 		<Icon {role} />
 
 		<a href={link(`/role/${role.name}`)}>
-			<Img
-				class="avatar"
-				width="50"
-				height="50"
-				src={img}
-				alt={role.name}
-			/>
+			<Img class="avatar" width="50" height="50" src={img} alt={role.name} />
 		</a>
 
 		{#if strategy}
