@@ -4,6 +4,7 @@ export let skills = [];
 import { get_img, clear_html } from '$lib/u.js';
 import MediaObj from '$lib/MediaObj.svelte';
 import MultiLv from '$lib/MultiLv.svelte';
+import Img from '$lib/Img.svelte';
 
 let skills_set = [];
 
@@ -39,11 +40,10 @@ function gen_skill_string(skill = {}) {
 
 {#each skills_set as set}
 	<MediaObj mobile_align="center">
-		<img
+		<Img
 			slot="img"
 			src={get_img('skill', set[0].img, 96)}
 			alt={set[0].name}
-			title={set[0].name}
 			width="96"
 			height="96"
 		/>

@@ -7,6 +7,7 @@ import { get_img, clear_html } from '$lib/u.js';
 import { find_adv_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
+import Img from '$lib/Img.svelte';
 
 let adv_skills = find_adv_skills(pinyin, skills);
 </script>
@@ -23,10 +24,9 @@ let adv_skills = find_adv_skills(pinyin, skills);
 				<summary>
 					{skill.name}
 					<br />
-					<img
+					<Img
 						src={get_img('skill', skill.img, 96, lang)}
 						alt={skill.name}
-						title={skill.name}
 						width="48"
 						height="48"
 					/>

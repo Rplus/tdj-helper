@@ -5,6 +5,7 @@ import { link, get_img } from '$lib/u.js';
 import strategy_data from '$lib/data/strategy.min.json';
 
 import Icon from './Icon.svelte';
+import Img from '$lib/Img.svelte';
 
 $: img = get_img('heroicon', role.hero_icon);
 
@@ -37,12 +38,10 @@ function get_strategy(strategy) {
 		<Icon {role} />
 
 		<a href={link(`/role/${role.name}`)}>
-			<img
+			<Img
 				class="avatar"
 				width="50"
 				height="50"
-				loading="lazy"
-				decording="async"
 				src={img}
 				alt={role.name}
 			/>
@@ -101,7 +100,7 @@ function get_strategy(strategy) {
 	}
 }
 
-.avatar {
+.pic :global(.avatar) {
 	display: block;
 	border-radius: 50%;
 	box-shadow: 1px 1px 3px 1px #3339;
@@ -138,8 +137,8 @@ a:not(:hover) {
 	opacity: 0.75;
 }
 .pic:hover + .name .links, /* TODO: click pic to show more role details */
-	.name:hover .links,
-	.name:focus-within .links {
+.name:hover .links,
+.name:focus-within .links {
 	visibility: visible;
 }
 

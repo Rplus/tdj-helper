@@ -3,6 +3,7 @@ import { resize_img } from '$lib/u.js';
 import { link } from '$lib/u.js';
 
 import Name from './Name.svelte';
+import Img from '$lib/Img.svelte';
 
 export let member = {};
 
@@ -23,7 +24,7 @@ let img = resize_img(
 <div class="member">
 	<div class="avatar">
 		{#if member.img}
-			<img decoding="async" loading="lazy" src={img} alt={member.name} width="64" height="64" />
+			<Img src={img} alt={member.name} width="64" height="64" />
 		{/if}
 	</div>
 
@@ -58,7 +59,7 @@ let img = resize_img(
 	}
 }
 
-.avatar img {
+.avatar :global(img) {
 	max-width: 90%;
 	max-height: 90%;
 }

@@ -6,6 +6,7 @@ import { get_imgs } from '$lib/u.js';
 import Type from './Type.svelte';
 import Job from './Job.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
+import Img from '$lib/Img.svelte';
 
 function io2prop(io_str = '01', prop) {
 	return io_str
@@ -30,14 +31,12 @@ let imgs = get_imgs('accessories', item.icon, [64, 128]);
 	data-search="{item.name} {item.desc}"
 >
 	<MediaObj>
-		<img
+		<Img
 			src={imgs[0]}
 			srcset="{imgs[0]} 1x, {imgs[1]} 2x"
 			alt={item.name}
 			width="64"
 			height="64"
-			loading="lazy"
-			decording="async"
 			slot="img"
 		/>
 

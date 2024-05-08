@@ -6,10 +6,17 @@ export let img = '';
 import { clear_html, get_img } from '$lib/u.js';
 import MultiLv from '$lib/MultiLv.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
+import Img from '$lib/Img.svelte';
 </script>
 
 <MediaObj mobile_align="center">
-	<img slot="img" src={get_img('inherent', img, 64)} alt={name} width="64" height="64" />
+	<Img
+		slot="img"
+		src={get_img('inherent', img, 64)}
+		alt={name}
+		width="64"
+		height="64"
+	/>
 
 	<svelte:fragment slot="name">
 		{name}

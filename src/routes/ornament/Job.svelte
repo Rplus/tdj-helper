@@ -1,5 +1,6 @@
 <script>
 import { get_icon_image } from './ornament.js';
+import Img from '$lib/Img.svelte';
 
 export let jobs = [];
 
@@ -19,7 +20,7 @@ let jobs_with_img = jobs.map((job) => {
 		<strong>通用</strong>
 	{:else}
 		{#each jobs_with_img as job}
-			<img src={job.img} alt={job.name} title={job.name} width="20" height="20" />
+			<Img src={job.img} alt={job.name} width="20" height="20" />
 		{/each}
 	{/if}
 </div>
