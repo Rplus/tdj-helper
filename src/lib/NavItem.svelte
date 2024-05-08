@@ -34,6 +34,7 @@ export let cate = 'role';
 
 	&:hover {
 		opacity: 0.75;
+		text-decoration: none;
 	}
 
 	&.nav-link--prev {
