@@ -1,0 +1,15 @@
+{
+  "short_name": "天地劫圖鑑",
+  "name": "天地劫圖鑑 by Rplus",
+  "icons": [
+    {
+      "src": "/tdj-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#eeeeee"
+}
