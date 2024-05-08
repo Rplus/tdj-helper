@@ -11,6 +11,6 @@ export const load = async ({ params }) => {
 			slug: params.slug,
 		};
 	} catch (err) {
-		error(404, err);
+		throw error(404, err);
 	}
 };

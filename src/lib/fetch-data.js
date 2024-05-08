@@ -1,3 +1,20 @@
+import { browser } from '$app/environment';
+import { error } from '@sveltejs/kit';
+
+export const cache = new Map();
+
+export async function cache_fetch(key = '', fetch_callback) {
+	if (browser && cache.has(key)) {
+		return cache.get(key);
+	}
+
+	const result = await fetch_callback();
+
+	cache.set(key, result);
+
+	return result;
+}
+
 const domains = {
 	cn: 'tdj-activity.zlongame.com',
 	// cn: 'tdj-activitytest.zlongame.com', // test
@@ -48,6 +65,9 @@ const PROXY = [
 					data = JSON.parse(data);
 					console.log('fetch role.tw', data);
 					return data.data?.data[0];
+				})
+				.catch(err => {
+					throw error(err);
 				}),
 	},
 ][1];
@@ -55,7 +75,9 @@ const PROXY = [
 export async function fetch_role_detail(role) {
 	let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
 
-	return PROXY.fetch(_url);
+	return cache_fetch(_url, () => PROXY.fetch(_url));
+
+	// return PROXY.fetch(_url);
 }
 
 function get_role_url(name, lang) {
