@@ -68,7 +68,11 @@ function handle_data(data = []) {
 			let value = row[prop];
 			let checkbox = n !== 4 && type === '靈門';
 			if (value !== '-' && value !== '草偶') {
-				value = checkbox ? value.split('\n').map((t) => t.trim()) : [value.trim()];
+				if (checkbox) {
+					value = value.split(value.indexOf('\n') !== -1 ? '\n' : ' ').map((t) => t.trim());
+				} else {
+					value = [value.trim()];
+				}
 			}
 
 			o.content.push({
