@@ -77,6 +77,11 @@ let adv_skills = find_adv_skills(pinyin, skills);
 	/* box-shadow: inset 0 0 0 1px, 0 0 0 1px; */
 	font-size: smaller;
 
+	& img {
+		background-color: #3333;
+		border-radius: 50%;
+	}
+
 	& .desc {
 		position: absolute;
 		width: 15em;
@@ -101,11 +106,6 @@ let adv_skills = find_adv_skills(pinyin, skills);
 .list {
 	padding: 0;
 	padding-left: 1em;
-}
-
-img {
-	background-color: #3333;
-	border-radius: 50%;
 }
 
 summary {
