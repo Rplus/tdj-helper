@@ -196,6 +196,10 @@ table {
 	width: 30em;
 	max-width: 100%;
 	background-color: #fff3;
+
+	@media print {
+		caption-side: bottom;
+	}
 }
 caption {
 	margin-bottom: 0.5em;
@@ -209,6 +213,11 @@ caption a[data-target='true'] {
 	border: 1px dotted;
 	border-width: 1px 1px 0 1px !important;
 }
+
+tr:nth-of-type(8n) {
+	break-after: column;
+}
+
 th {
 	background-color: #9996;
 }

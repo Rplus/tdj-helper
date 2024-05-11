@@ -91,10 +91,17 @@ afterNavigate(init);
 }
 @media print {
 	:global(body) {
-		columns: 2;
+		columns: 3;
 	}
-	:global(h1, footer) {
+	:global(h1, footer, nav, body > button) {
 		display: none;
+	}
+	:global(body) {
+		max-width: unset !important;
+	}
+	.footer-content {
+		width: auto;
+		max-width: unset !important;
 	}
 }
 @page {
