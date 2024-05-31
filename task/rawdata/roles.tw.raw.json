@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "律",
+        "is_new": "1",
+        "pinyin": "lvlv",
+        "weight": "1280",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "御風",
+        "hero_icon": "Hero1054_HeadIcon_Basic"
+      },
+      {
+        "name": "冰蟬玉劍",
+        "is_new": "1",
+        "pinyin": "bingchanyujian",
+        "weight": "1270",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1150_HeadIcon_Basic"
+      },
+      {
         "name": "妮可",
         "is_new": "1",
         "pinyin": "nike",
@@ -1290,7 +1312,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-05-04 09:46:50"
+    "now": "2024-05-31 17:54:04"
   },
   "status": 1,
   "switch": null,
