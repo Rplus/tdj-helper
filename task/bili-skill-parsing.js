@@ -6,6 +6,8 @@ import {
 	uniq,
 	remove_html_tag,
 	fetch_bwiki_props_by_name,
+	read_json_file,
+	sleep,
 } from './u.mjs';
 
 Array.prototype.uniq = uniq;
@@ -17,22 +19,29 @@ let adv_skills_of_role = {
 
 let parse_new = getArgs()?.new;
 
-let roles = JSON.parse(fs.readFileSync(`./task/rawdata/roles.op.json`, 'utf8'));
+let roles = read_json_file(`./task/rawdata/roles.op.json`);
 
 if (!parse_new && fs.existsSync(adv_skills_of_role.fn)) {
-	adv_skills_of_role.data = JSON.parse(fs.readFileSync(adv_skills_of_role.fn, 'utf8'));
+	adv_skills_of_role.data = read_json_file(adv_skills_of_role.fn);
 } else {
 	adv_skills_of_role.data = await Promise.all(
 		roles
-			// .slice(0, 5)
+			// .slice(0, 20) // for dev test
 			.map(async (role, index) => {
+				await sleep(index * 10);
 				let props = await fetch_bwiki_props_by_name(role.path);
 
-				return {
+				let op = {
 					name: role.name,
 					pinyin: role.pinyin,
 					adv_skills: props['绝学化神'],
 				};
+
+				if (!role.pinyin_tw) {
+					op.new = true;
+				}
+
+				return op;
 			}),
 	);
 
@@ -41,6 +50,12 @@ if (!parse_new && fs.existsSync(adv_skills_of_role.fn)) {
 		fn: adv_skills_of_role.fn,
 		space: 2,
 		// cn2tw: true,
+	});
+	outputJSON({
+		json: adv_skills_of_role.data,
+		fn: adv_skills_of_role.fn.replace('.json', '.tw.json'),
+		space: 2,
+		cn2tw: true,
 	});
 }
 
@@ -61,19 +76,20 @@ adv_skills.names = adv_skills_of_role.data
 	.uniq();
 
 if (!parse_new && fs.existsSync(adv_skills.fn)) {
-	adv_skills.data_raw = JSON.parse(fs.readFileSync(adv_skills.fn, 'utf8'));
+	adv_skills.data_raw = read_json_file(adv_skills.fn);
 } else {
 	adv_skills.data_raw = await get_adv_skills();
 	adv_skills.data_raw = await get_sub_skills();
 }
 // // test
-// adv_skills_details = JSON.parse(fs.readFileSync(adv_skills_file_name.replace('_processed', '_raw'), 'utf8'));
+// adv_skills_details = read_json_file(adv_skills_file_name.replace('_processed', '_raw'));
 // adv_skills_details = await get_sub_skills();
 
 async function get_adv_skills() {
 	console.log('Get_Adv_Skills');
 	let skills = await Promise.all(
-		adv_skills.names.map(async (sname) => {
+		adv_skills.names.map(async (sname, index) => {
+			await sleep(index * 10);
 			let props = await fetch_bwiki_props_by_name(`绝学/${sname}`);
 			let desc = remove_html_tag(props['绝学描述']);
 
@@ -123,7 +139,8 @@ async function get_sub_skills() {
 
 	let sub_skills_set = collect_sub_skills();
 	let sub_skills_data = await Promise.all(
-		sub_skills_set.map(async (skill) => {
+		sub_skills_set.map(async (skill, index) => {
+			await sleep(index * 10);
 			let props = await fetch_bwiki_props_by_name(`绝学/${skill}`);
 
 			let op = {

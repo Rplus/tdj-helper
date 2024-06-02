@@ -1,15 +1,32 @@
 import fs from 'fs';
-import { outputJSON } from './u.mjs';
+import { outputJSON, read_json_file } from './u.mjs';
 
-let adv_skills_of_role = JSON.parse(
-	fs.readFileSync('./task/rawdata/_adv_skills_of_role.json', 'utf8'),
-);
-let adv_skills = JSON.parse(fs.readFileSync('./task/rawdata/_adv_skills_all.json', 'utf8'));
+let raw_adv_skills_of_role = read_json_file('./task/rawdata/_adv_skills_of_role.json');
+// outputJSON({
+// 	json: raw_adv_skills_of_role,
+// 	fn: './task/rawdata/_adv_skills_of_role.tw.json',
+// 	space: 2,
+// 	cn2tw: true,
+// });
+let raw_adv_skills_of_role_tw = read_json_file('./task/rawdata/_adv_skills_of_role.tw.json');
 
-adv_skills_of_role = adv_skills_of_role
-	.filter((role) => role.adv_skills)
-	.reduce((all, role) => {
-		all[role.pinyin] = role.adv_skills;
+let adv_skills = read_json_file('./task/rawdata/_adv_skills_all.json');
+
+let adv_skills_of_role = raw_adv_skills_of_role
+	.reduce((all, role, index) => {
+		if (!role.adv_skills) {
+			return all;
+		}
+		let adv_skills = role.adv_skills;
+		if (role.new) {
+			adv_skills = adv_skills.map((skill, sindex) => {
+				if (skill.includes('·')) {
+					return raw_adv_skills_of_role_tw[index].adv_skills[sindex];
+				}
+				return skill
+			})
+		}
+		all[role.pinyin] = adv_skills;
 		return all;
 	}, {});
 
@@ -17,13 +34,13 @@ outputJSON({
 	json: adv_skills_of_role,
 	fn: './task/rawdata/adv_skills_of_role.json',
 	space: 2,
-	cn2tw: true,
+	// cn2tw: true,
 });
 outputJSON({
 	json: adv_skills_of_role,
 	fn: './src/lib/data/adv_skills_of_role.min.json',
 	space: 0,
-	cn2tw: true,
+	// cn2tw: true,
 });
 
 outputJSON({
