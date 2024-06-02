@@ -135,6 +135,7 @@ export async function fetch_name(name = '') {
 		},
 		body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
 		method: 'POST',
+		// verbose: true,
 	});
 
 	let raw = await res.json();
