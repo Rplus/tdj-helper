@@ -1,5 +1,48 @@
 [
   {
+    "name": "陸文生",
+    "rarity": "SSR",
+    "prop": "雷",
+    "hero_icon": "Hero1080_HeadIcon_Basic",
+    "career": "鬥將",
+    "pinyin": "luwensheng",
+    "path": "%E9%99%86%E6%96%87%E7%94%9F",
+    "pic": "Hero1080_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "4",
+    "strategy": "誅惡破魔陣",
+    "status": {
+      "hp": 188,
+      "atk_mag": 101,
+      "atk_phy": 13,
+      "def_mag": 28,
+      "def_phy": 35,
+      "crit": 30
+    }
+  },
+  {
+    "name": "驚飛羽",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero1081_HeadIcon_Basic",
+    "career": "鐵衛",
+    "pinyin": "jingfeiyu",
+    "path": "%E6%83%8A%E9%A3%9E%E7%BE%BD",
+    "pic": "Hero1081_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "status": {
+      "hp": 226,
+      "atk_mag": 14,
+      "atk_phy": 102,
+      "def_mag": 23,
+      "def_phy": 40,
+      "crit": 22
+    }
+  },
+  {
     "name": "玉觴",
     "rarity": "SSR",
     "prop": "炎",

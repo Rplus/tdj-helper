@@ -32,6 +32,33 @@
   },
   "items": [
     {
+      "name": "破風翎",
+      "icon": "Equip_pofengling",
+      "position": "1",
+      "job": "0100000",
+      "type": "100000",
+      "rarity": "SSR",
+      "desc": "物攻+10%，行動結束時，若本回合未造成過傷害，則獲得「括羽」狀態。\n「括羽」：單體絕學射程+1（使用單體絕學後消耗）\n僅羽士可用"
+    },
+    {
+      "name": "祺獸墜飾",
+      "icon": "Equip_zheshouzhuishi",
+      "position": "3",
+      "job": "1111111",
+      "type": "000101",
+      "rarity": "SSR",
+      "desc": "法防+7%、氣血+7%，行動結束時，如果本回合使用過絕學，則對自身周圍3格內物攻/法攻屬性最高的1個其他友方施加「極意I」，持續1回合。\n「極意I」：傷害+10%"
+    },
+    {
+      "name": "諸懷腕帶",
+      "icon": "Equip_zhuhuaiwandai",
+      "position": "4",
+      "job": "1010000",
+      "type": "111101",
+      "rarity": "SSR",
+      "desc": "移動力+1，主動攻擊「對戰中」傷害提升15%，若為普攻傷害額外提升10%。\n僅俠客、鐵衛可用"
+    },
+    {
       "name": "金翎神面",
       "icon": "Equip_jinlingshenmian",
       "position": "1",

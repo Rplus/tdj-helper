@@ -1,39 +1,80 @@
 [
   {
+    "name": "陆文生",
+    "pinyin": "luwensheng",
+    "adv_skills": [
+      "除恶务尽",
+      "除恶务尽·壹式",
+      "除恶务尽·贰式",
+      "雷法伏妖",
+      "雷法伏妖·壹式",
+      "雷法伏妖·贰式",
+      "千里诛邪",
+      "千里诛邪·壹式",
+      "千里诛邪·贰式"
+    ],
+    "new": true
+  },
+  {
+    "name": "惊飞羽",
+    "pinyin": "jingfeiyu",
+    "adv_skills": [
+      "煞戾诛邪",
+      "煞戾诛邪·壹式",
+      "煞戾诛邪·贰式",
+      "小而无相",
+      "小而无相·壹式",
+      "小而无相·贰式",
+      "怒心生莲",
+      "怒心生莲·壹式",
+      "怒心生莲·贰式"
+    ],
+    "new": true
+  },
+  {
     "name": "玉觞",
-    "pinyin": "yushang"
+    "pinyin": "yushang",
+    "new": true
   },
   {
     "name": "六歧",
-    "pinyin": "liuqi"
+    "pinyin": "liuqi",
+    "new": true
   },
   {
     "name": "苏醒者",
-    "pinyin": "suxingzhe"
+    "pinyin": "suxingzhe",
+    "new": true
   },
   {
     "name": "景乐齐",
-    "pinyin": "jingleqi"
+    "pinyin": "jingleqi",
+    "new": true
   },
   {
     "name": "禄存高皇君",
-    "pinyin": "lucungaohuangjun"
+    "pinyin": "lucungaohuangjun",
+    "new": true
   },
   {
     "name": "相胤",
-    "pinyin": "xiangyin"
+    "pinyin": "xiangyin",
+    "new": true
   },
   {
     "name": "波旬尉迟良",
-    "pinyin": "boxunyuchiliang"
+    "pinyin": "boxunyuchiliang",
+    "new": true
   },
   {
     "name": "苍狼",
-    "pinyin": "canglang"
+    "pinyin": "canglang",
+    "new": true
   },
   {
     "name": "白鹿",
-    "pinyin": "bailu"
+    "pinyin": "bailu",
+    "new": true
   },
   {
     "name": "律",

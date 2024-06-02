@@ -2,11 +2,35 @@
   "data": {
     "data": [
       {
-        "name": "玉觞",
+        "name": "陆文生",
         "is_new": "1",
+        "pinyin": "luwensheng",
+        "weight": "1410",
+        "expire": "45462",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "斗将",
+        "hero_icon": "Hero1080_HeadIcon_Basic",
+        "path": "%E9%99%86%E6%96%87%E7%94%9F"
+      },
+      {
+        "name": "惊飞羽",
+        "is_new": "1",
+        "pinyin": "jingfeiyu",
+        "weight": "1400",
+        "expire": "45462",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "铁卫",
+        "hero_icon": "Hero1081_HeadIcon_Basic",
+        "path": "%E6%83%8A%E9%A3%9E%E7%BE%BD"
+      },
+      {
+        "name": "玉觞",
+        "is_new": "0",
         "pinyin": "yushang",
         "weight": "1390",
-        "expire": "45434",
+        "expire": "",
         "rarity": "SSR",
         "prop": "炎",
         "career": "咒师",
@@ -15,10 +39,10 @@
       },
       {
         "name": "六歧",
-        "is_new": "1",
+        "is_new": "0",
         "pinyin": "liuqi",
         "weight": "1380",
-        "expire": "45434",
+        "expire": "",
         "rarity": "SSR",
         "prop": "冰",
         "career": "铁卫",
@@ -1646,7 +1670,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-05-31 17:54:04"
+    "now": "2024-06-02 12:10:34"
   },
   "status": 1,
   "switch": null,

@@ -2,6 +2,45 @@
   "data": {
     "data": [
       {
+        "name": "破风翎",
+        "icon": "Equip_pofengling",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+10%，行动结束时，若本回合未造成过伤害，则获得「括羽」状态。\n「括羽」：单体绝学射程+1（使用单体绝学后消耗）\n仅羽士可用",
+        "weight": "2300",
+        "Status": 1,
+        "status": 1,
+        "job": "0100000",
+        "type": "100000"
+      },
+      {
+        "name": "祺兽坠饰",
+        "icon": "Equip_zheshouzhuishi",
+        "position": "3",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "法防+7%、气血+7%，行动结束时，如果本回合使用过绝学，则对自身周围3格内物攻/法攻属性最高的1个其他友方施加「极意I」，持续1回合。\n「极意I」：伤害+10%",
+        "weight": "2290",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "000101"
+      },
+      {
+        "name": "诸怀腕带",
+        "icon": "Equip_zhuhuaiwandai",
+        "position": "4",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "移动力+1，主动攻击「对战中」伤害提升15%，若为普攻伤害额外提升10%。\n仅侠客、铁卫可用",
+        "weight": "2280",
+        "Status": 1,
+        "status": 1,
+        "job": "1010000",
+        "type": "111101"
+      },
+      {
         "name": "金翎神面",
         "icon": "Equip_jinlingshenmian",
         "position": "1",
@@ -2849,7 +2888,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-05-31 17:54:03"
+    "now": "2024-06-02 12:10:34"
   },
   "status": 1,
   "switch": null,
