@@ -97,11 +97,11 @@ export function getArgs() {
 	}, {});
 }
 
-export function readJsonFile(filePath) {
+export function read_json_file(file_path = './gg.txt') {
 	let content;
 	try {
 		// fs.unlinkSync(filename);
-		content = fs.readFileSync(filePath, 'utf8');
+		content = fs.readFileSync(file_path, 'utf8');
 		content = JSON.parse(content);
 		return content;
 	} catch (err) {
