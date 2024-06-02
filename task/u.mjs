@@ -142,6 +142,10 @@ export async function fetch_name(name = '') {
 	return raw;
 }
 
+export function sleep(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 export function bilidata_to_obj(data = []) {
 	return data.reduce((all, i) => {
 		let items = i.dataitem?.map((i) => i?.item);
