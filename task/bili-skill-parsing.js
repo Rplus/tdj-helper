@@ -21,6 +21,8 @@ let parse_new = getArgs()?.new;
 
 let roles = read_json_file(`./task/rawdata/roles.op.json`);
 
+let FORCE_FETCH = false;
+
 if (!parse_new && fs.existsSync(adv_skills_of_role.fn)) {
 	adv_skills_of_role.data = read_json_file(adv_skills_of_role.fn);
 } else {
@@ -28,8 +30,10 @@ if (!parse_new && fs.existsSync(adv_skills_of_role.fn)) {
 		roles
 			// .slice(0, 20) // for dev test
 			.map(async (role, index) => {
-				await sleep(index * 10);
-				let props = await fetch_bwiki_props_by_name(role.path);
+				if (FORCE_FETCH) {
+					await sleep(index * 10);
+				}
+				let props = await fetch_bwiki_props_by_name(role.path, FORCE_FETCH);
 
 				let op = {
 					name: role.name,
@@ -89,8 +93,10 @@ async function get_adv_skills() {
 	console.log('Get_Adv_Skills');
 	let skills = await Promise.all(
 		adv_skills.names.map(async (sname, index) => {
-			await sleep(index * 10);
-			let props = await fetch_bwiki_props_by_name(`绝学/${sname}`);
+			if (FORCE_FETCH) {
+				await sleep(index * 10);
+			}
+			let props = await fetch_bwiki_props_by_name(`绝学/${sname}`, FORCE_FETCH);
 			let desc = remove_html_tag(props['绝学描述']);
 
 			{
@@ -140,8 +146,10 @@ async function get_sub_skills() {
 	let sub_skills_set = collect_sub_skills();
 	let sub_skills_data = await Promise.all(
 		sub_skills_set.map(async (skill, index) => {
-			await sleep(index * 10);
-			let props = await fetch_bwiki_props_by_name(`绝学/${skill}`);
+			if (FORCE_FETCH) {
+				await sleep(index * 10);
+			}
+			let props = await fetch_bwiki_props_by_name(`绝学/${skill}`, FORCE_FETCH);
 
 			let op = {
 				name: skill,
