@@ -86,7 +86,7 @@ $: grid_view = false;
 
 	&.grid_view {
 		--list: 0;
-		--grid: 1;
+		--grid: .5;
 	}
 
 	&::before {
@@ -97,7 +97,7 @@ $: grid_view = false;
 	&::after {
 		content: '▤';
 		padding: 0.125em 0.25em;
-		background-color: rgba(255, 255, 150, var(--list, 1));
+		background-color: rgba(255, 255, 150, var(--list, .5));
 	}
 }
 
