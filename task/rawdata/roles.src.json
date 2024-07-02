@@ -1,5 +1,48 @@
 [
   {
+    "name": "天玄義劍",
+    "rarity": "SSR",
+    "prop": "光",
+    "hero_icon": "Hero1153_HeadIcon_Basic",
+    "career": "俠客",
+    "pinyin": "tianxuanyijian",
+    "path": "%E5%A4%A9%E7%8E%84%E4%B9%89%E5%89%91",
+    "pic": "Hero1153_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "strategy": "天玄義劍陣",
+    "status": {
+      "hp": 210,
+      "atk_mag": 13,
+      "atk_phy": 107,
+      "def_mag": 19,
+      "def_phy": 39,
+      "crit": 22
+    }
+  },
+  {
+    "name": "妙弋",
+    "rarity": "SSR",
+    "prop": "冰",
+    "hero_icon": "Hero1083_HeadIcon_Basic",
+    "career": "鬥將",
+    "pinyin": "miaoyi",
+    "path": "%E5%A6%99%E5%BC%8B",
+    "pic": "Hero1083_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "4",
+    "status": {
+      "hp": 184,
+      "atk_mag": 102,
+      "atk_phy": 13,
+      "def_mag": 30,
+      "def_phy": 34,
+      "crit": 25
+    }
+  },
+  {
     "name": "陸文生",
     "rarity": "SSR",
     "prop": "雷",
@@ -204,6 +247,7 @@
     "hero_icon": "Hero1075_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "canglang",
+    "pinyin_tw": "canglang",
     "path": "%E8%8B%8D%E7%8B%BC",
     "pic": "Hero1075_img",
     "position": "近攻",
@@ -226,6 +270,7 @@
     "hero_icon": "Hero1076_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "bailu",
+    "pinyin_tw": "bailu",
     "path": "%E7%99%BD%E9%B9%BF",
     "pic": "Hero1076_img",
     "position": "遠攻",

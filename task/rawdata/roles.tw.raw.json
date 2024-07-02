@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "蒼狼",
+        "is_new": "1",
+        "pinyin": "canglang",
+        "weight": "1300",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero1075_HeadIcon_Basic"
+      },
+      {
+        "name": "白鹿",
+        "is_new": "1",
+        "pinyin": "bailu",
+        "weight": "1290",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1076_HeadIcon_Basic"
+      },
+      {
         "name": "律",
         "is_new": "1",
         "pinyin": "lvlv",
@@ -1312,7 +1334,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-06-04 01:37:20"
+    "now": "2024-07-03 02:47:02"
   },
   "status": 1,
   "switch": null,

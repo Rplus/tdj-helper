@@ -2,11 +2,35 @@
   "data": {
     "data": [
       {
-        "name": "陆文生",
+        "name": "天玄义剑",
         "is_new": "1",
+        "pinyin": "tianxuanyijian",
+        "weight": "1430",
+        "expire": "45489",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "侠客",
+        "hero_icon": "Hero1153_HeadIcon_Basic",
+        "path": "%E5%A4%A9%E7%8E%84%E4%B9%89%E5%89%91"
+      },
+      {
+        "name": "妙弋",
+        "is_new": "1",
+        "pinyin": "miaoyi",
+        "weight": "1420",
+        "expire": "45489",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "斗将",
+        "hero_icon": "Hero1083_HeadIcon_Basic",
+        "path": "%E5%A6%99%E5%BC%8B"
+      },
+      {
+        "name": "陆文生",
+        "is_new": "0",
         "pinyin": "luwensheng",
         "weight": "1410",
-        "expire": "45462",
+        "expire": "",
         "rarity": "SSR",
         "prop": "雷",
         "career": "斗将",
@@ -15,10 +39,10 @@
       },
       {
         "name": "惊飞羽",
-        "is_new": "1",
+        "is_new": "0",
         "pinyin": "jingfeiyu",
         "weight": "1400",
-        "expire": "45462",
+        "expire": "",
         "rarity": "SSR",
         "prop": "暗",
         "career": "铁卫",
@@ -1670,7 +1694,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-06-04 01:37:20"
+    "now": "2024-07-03 02:47:02"
   },
   "status": 1,
   "switch": null,
