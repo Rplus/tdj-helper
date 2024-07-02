@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import { Converter } from 'opencc-js';
 import * as OpenCC from 'opencc-js';
 
@@ -82,11 +83,22 @@ export function writeFile(fileName = '', fileContent = '', cn2tw = false) {
 	if (cn2tw) {
 		fileContent = converter(fileContent);
 	}
+	ensureDirectoryExistence(fileName);
 	fs.writeFileSync(fileName, fileContent);
 	console.log(
 		'\x1b[46m%s\x1b[0m',
 		`Data saved as ${fileName}! ( ${fileContent.length / 1000} kb )`,
 	);
+}
+
+// ref: https://stackoverflow.com/a/34509653
+function ensureDirectoryExistence(filePath = '') {
+	var dirname = path.dirname(filePath);
+	if (fs.existsSync(dirname)) {
+		return true;
+	}
+	ensureDirectoryExistence(dirname);
+	fs.mkdirSync(dirname);
 }
 
 export function getArgs() {
@@ -155,9 +167,20 @@ export function bilidata_to_obj(data = []) {
 	}, {});
 }
 
-export async function fetch_bwiki_props_by_name(name = '') {
-	let raw = await fetch_name(name);
-	let props = bilidata_to_obj(raw?.query.data);
+export async function fetch_bwiki_props_by_name(name = '', force = false) {
+	let props;
+	let fn = `./task/rawdata/bili-wiki/${decodeURIComponent(name)}.txt`;
+
+	if (fs.existsSync(fn) && !force) {
+		props = await read_json_file(fn);
+	} else {
+		console.log('parsing: ', decodeURIComponent(name));
+
+		let raw = await fetch_name(name);
+		props = bilidata_to_obj(raw?.query.data);
+		writeFile(fn, JSON.stringify(props));
+	}
+
 	return props;
 }
 
