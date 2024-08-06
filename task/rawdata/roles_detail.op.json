@@ -1,8 +1,1025 @@
 [
   [
     {
-      "name": "天玄義劍",
+      "name": "悟空",
       "is_new": "1",
+      "pinyin": "wukong",
+      "weight": "1460",
+      "source": "國風企劃西遊篇登場角色",
+      "pic": "Hero2021_img",
+      "prop_icon": "Fire",
+      "career_icon": "Guard",
+      "rarity": "SSR",
+      "position": "近攻",
+      "prop": "炎",
+      "career": "鐵衛",
+      "range": "1",
+      "speed": "3",
+      "qixue": "229",
+      "magic_attack": "14",
+      "physical_attack": "103",
+      "magic_defense": "21",
+      "physical_defense": "42",
+      "huixin": "20",
+      "inherent": "Gift_165",
+      "inherent_name": "造化會元",
+      "star1": "",
+      "star2": "",
+      "star3": "主動攻擊傷害、暴擊率提升10%。<br/>主動攻擊每造成1次傷害後，獲得1根<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>，遭受攻擊受到傷害後損失1根「毫毛」。<br/>若本次行動未發起攻擊，則行動結束前可選擇使用絕學<link type=skill value=61202101 bgcolor=#3a85ffff>「七十二變」</link>（變身期間除氣血外全屬性降低30%，間隔6回合觸發）",
+      "star4": "主動攻擊傷害、暴擊率提升13%。<br/>主動攻擊每造成1次傷害後，獲得1根<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>，遭受攻擊受到傷害後損失1根「毫毛」。<br/>若本次行動未發起攻擊，則行動結束前可選擇使用絕學<link type=skill value=61202101 bgcolor=#3a85ffff>「七十二變」</link>（變身期間除氣血外全屬性降低30%，間隔6回合觸發）",
+      "star5": "主動攻擊傷害、暴擊率提升16%。<br/>主動攻擊每造成1次傷害後，獲得1根<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>，遭受攻擊受到傷害後損失1根「毫毛」。<br/>若本次行動未發起攻擊，則行動結束前可選擇使用絕學<link type=skill value=61202101 bgcolor=#3a85ffff>「七十二變」</link>（變身期間除氣血外全屬性降低15%，間隔5回合觸發）",
+      "star6": "主動攻擊傷害、暴擊率提升20%。<br/>主動攻擊每造成1次傷害後，獲得1根<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>，遭受攻擊受到傷害後損失1根「毫毛」。<br/>若本次行動未發起攻擊，則行動結束前可選擇使用絕學<link type=skill value=61202101 bgcolor=#3a85ffff>「七十二變」</link>（間隔4回合觸發）",
+      "story_name": "石猴",
+      "story_content": "昔時花果山間有仙石，毓天真地秀，感日月精華，遂有靈通之意。<br/>地久天長，竟化而生出一個石猴。<br/>他覓山果，飲澗泉，友獐鹿，親獼猿，無拘無束。<br/>又在這仙山福地、古洞神州之間，率眾猴而稱王，享樂天真。<br/>而那石猴朝遊花果山，暮宿水簾洞，縱自由無縛，卻仍心有遠憂。<br/>百年間，山中草長花枯，眼前的猴兒們也如樹上的葉子般換了幾輪，老葉落了再長新芽。<br/>可原先凋零的，又歸向了何處？<br/>石猴望著化為塵泥的枯葉堆，兀自慨嘆。<br/>「這裡雖然快活，但逃不得輪迴網，躲不過閻君難。如此這般，怎麼稱得上自由？」<br/>東方既白時，海上波生，自花果山巔遙望而去，似有仙山縹緲。<br/>石猴坐於樹頂，極目而眺。<br/>他知道，是時候該離開這座花果山了。",
+      "hero_icon": "Hero2021_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1663",
+          "name": "當頭一棒",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>0.6</color></b>倍傷害，並發動「追擊」（<b><color=#e4462c>1</color></b>倍傷害），「對戰前」驅散目標<b><color=#e4462c>2</color></b>個「有益狀態」，「對戰後」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1664",
+          "name": "金剛不壞",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "自身氣血大於80%，回合開始時，獲得1根<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>和<link type=buff value=742021030 bgcolor=#3a85ffff>「金身」</link>狀態。<br/>攜帶3根「毫毛」時，受到致命傷害時免除死亡，觸發免死時氣血恢復30%，並移除所有「毫毛」。（每隔3回合觸發1次）"
+        },
+        {
+          "img": "Skill_Guard_1013",
+          "name": "狂怒",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Xun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "自身氣血每損失10%，物攻提高5%，最多提高20%。"
+        },
+        {
+          "img": "Skill_Guard_1005",
+          "name": "撞陣衝軍",
+          "type": "物攻傷害",
+          "cd": "1回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Lie",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>0.8</color></b>倍傷害，擊退<b><color=#e4462c>2</color></b>格。施加<link type=buff value=700000730 bgcolor=#3a85ffff>「遲緩II」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+        },
+        {
+          "img": "Skill_Guard_1011",
+          "name": "剛烈破",
+          "type": "物攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蝕御I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1665",
+          "name": "法天象地",
+          "type": "被動",
+          "cd": "無",
+          "cost": "2內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Xun",
+          "unlock_inner2": "伍級",
+          "desc": "主動普攻觸發「追擊」（0.5倍傷害）。主動攻擊「對戰後」驅散目標自身攜帶<link type=buff value=742021006 bgcolor=#3a85ffff>「毫毛」</link>數量的「有益狀態」。<br/>主動攻擊每造成1次傷害後，獲得1層<link type=buff value=742021043 bgcolor=#3a85ffff>「鬥戰」</link>狀態，「鬥戰」達到2層後消耗並獲得<link type=buff value=742021047 bgcolor=#3a85ffff>「齊天」</link>狀態，持續3回合。"
+        },
+        {
+          "img": "EXSkill_1662",
+          "name": "火眼金睛",
+          "type": "主動",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "5格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Lie",
+          "unlock_inner2": "伍級",
+          "desc": "主動使用，驅散目標<b><color=#e4462c>2</color></b>個「有益狀態」，並施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link><link type=buff value=742021023 bgcolor=#3a85ffff>「現形」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1661",
+          "name": "推山移嶺",
+          "type": "物攻傷害",
+          "cd": "4回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "直線4*3",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.6</color></b>倍傷害，驅散<b><color=#e4462c>2</color></b>個「有益狀態」，清除攻擊範圍內的敵方機關，推開兩側目標<b><color=#e4462c>1</color></b>格，對處於中間直線範圍的敵人施加<link type=buff value=700019020 bgcolor=#3a85ffff>「壓制」</link>狀態。"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "悟空",
+          "name": "金箍棒·真如",
+          "img": "Weapon_202101",
+          "qixue": "45",
+          "magic": "0",
+          "physical": "37",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，須彌一點塵，萬劫一彈指。<br/>傳，昔有古神兵能定乾坤，落於須彌山，化為天柱，有字曰「真如」。若天地有動，則重現於世，能隨訣換形，長短無定。<br/>言，無起無生滅，體一真如同。"
+        },
+        {
+          "weapon": "悟空",
+          "name": "金箍棒·戒定",
+          "img": "Weapon_202102",
+          "qixue": "55",
+          "magic": "0",
+          "physical": "46",
+          "feature": "[破空]反擊傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，舍利藏精光，佛跡隨梵音。<br/>傳，昔有金剛發舍利者，色黑而質堅，藏於金塔七寶龕中，為後世神匠偶得，鑲於神兵，佛光炟赫，邪祟不敢近，得名曰「戒定」。<br/>言，了知無性滅無明，空慧須從戒定生。"
+        },
+        {
+          "weapon": "悟空",
+          "name": "金箍棒·登雲",
+          "img": "Weapon_202103",
+          "qixue": "69",
+          "magic": "0",
+          "physical": "57",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，祥飆卷層雲，迅羽凌九天。<br/>傳，丹穴之山，其上多金玉，有鳳棲梧桐，銜金啄木，積於醴泉之間。久而靈氣化聚，金芒乍生，鳳羽翽翽，銜此神兵乘雲而飛霄漢。<br/>言，翕如翔雲會，金芒燁燁真。"
+        },
+        {
+          "weapon": "悟空",
+          "name": "金箍棒·定海",
+          "img": "Weapon_202104",
+          "qixue": "86",
+          "magic": "0",
+          "physical": "71",
+          "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，禹王求得號神珍，四海八河為定驗。<br/>傳，昔大禹治水時，曾用神珍鐵定江海淺深，後鎮於海藏之間。其由九轉鑌鐵煉得，自老君爐中鍛造，可定海息波，護生民無虞。<br/>言，物泰民熙沾雨露，河清海晏息風雷。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "悟空",
+          "img": "Equip_xuantiekui",
+          "name": "玄鐵盔",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "9",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "悟空",
+          "img": "Equip_baoganghuanjia",
+          "name": "薄鋼環甲",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "17",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "10",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "悟空",
+          "img": "Equip_jingtieyaodai",
+          "name": "精鐵腰帶",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "13",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "7",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "悟空",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "15",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "7",
+          "phyatt_attr": "atn",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "strategy": [
+        {
+          "img": "BattleAsssit_064",
+          "name": "無量自在陣",
+          "unlock_condition": "陣眼悟空位階35級，五內神陸級解鎖",
+          "relate1": "",
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero2021_HeadIcon_Basic",
+          "icon1": "ice",
+          "icon2": "dusk",
+          "icon3": "",
+          "desc": "上陣悟空和「冰」，「幽」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，主動攻擊若目標未攜帶「有益狀態」傷害、暴擊率提高8%。"
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "如意金箍棒",
+          "img": "Weapon_202105",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "主動攻擊物攻提高<b><color=#e4462c>5%</color></b>，攜帶「毫毛」時，移動力<b><color=#e4462c>+1</color></b>，移動無視敵方角色阻擋且獲得輕功能力。"
+        },
+        {
+          "name": "如意金箍棒",
+          "img": "Weapon_202105",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "主動攻擊物攻提高<b><color=#e4462c>6%</color></b>，攜帶「毫毛」時，移動力<b><color=#e4462c>+1</color></b>，移動無視敵方角色阻擋且獲得輕功能力。"
+        },
+        {
+          "name": "如意金箍棒",
+          "img": "Weapon_202105",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "主動攻擊物攻提高<b><color=#e4462c>7%</color></b>，攜帶「毫毛」時，移動力<b><color=#e4462c>+1</color></b>，移動無視敵方角色阻擋且獲得輕功能力。"
+        },
+        {
+          "name": "如意金箍棒",
+          "img": "Weapon_202105",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "主動攻擊物攻提高<b><color=#e4462c>8%</color></b>，攜帶「毫毛」時，移動力<b><color=#e4462c>+1</color></b>，移動無視敵方角色阻擋且獲得輕功能力。"
+        },
+        {
+          "name": "如意金箍棒",
+          "img": "Weapon_202105",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "主動攻擊物攻提高<b><color=#e4462c>10%</color></b>，攜帶「毫毛」時，移動力<b><color=#e4462c>+1</color></b>，移動無視敵方角色阻擋且獲得輕功能力。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "白骨夫人",
+      "is_new": "1",
+      "pinyin": "baigufuren",
+      "weight": "1450",
+      "source": "國風企劃西遊篇登場角色",
+      "pic": "Hero2022_img",
+      "prop_icon": "Dusk",
+      "career_icon": "Melee",
+      "rarity": "SSR",
+      "position": "近攻",
+      "prop": "幽",
+      "career": "鬥將",
+      "range": "1",
+      "speed": "4",
+      "qixue": "181",
+      "magic_attack": "103",
+      "physical_attack": "13",
+      "magic_defense": "28",
+      "physical_defense": "36",
+      "huixin": "25",
+      "inherent": "Gift_164",
+      "inherent_name": "以骨化形",
+      "star1": "",
+      "star2": "",
+      "star3": "主動攻擊時，法攻和法術穿透提高8%。<br/>行動結束前，可選擇釋放絕學<link type=skill value=61202205 bgcolor=#3a85ffff>「以骨化形」</link>（間隔4回合觸發）。<br/>遭受非剋制攻擊受到傷害後，奪取攻擊者1個「有益狀態」並對其施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續2回合。",
+      "star4": "主動攻擊時，法攻和法術穿透提高10%。<br/>行動結束前，可選擇釋放絕學<link type=skill value=61202205 bgcolor=#3a85ffff>「以骨化形」</link>（間隔3回合觸發）。<br/>遭受非剋制攻擊受到傷害後，奪取攻擊者1個「有益狀態」並對其施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續2回合。",
+      "star5": "主動攻擊時，法攻和法術穿透提高12%。<br/>行動結束前，可選擇釋放絕學<link type=skill value=61202205 bgcolor=#3a85ffff>「以骨化形」</link>（間隔3回合觸發）。<br/>遭受非剋制攻擊受到傷害後，奪取攻擊者1個「有益狀態」並對其施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續2回合。",
+      "star6": "主動攻擊時，法攻和法術穿透提高15%。<br/>行動結束前，可選擇釋放絕學<link type=skill value=61202205 bgcolor=#3a85ffff>「以骨化形」</link>（間隔2回合觸發）。<br/>遭受非剋制攻擊受到傷害後，奪取攻擊者1個「有益狀態」並對其施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續2回合。",
+      "story_name": "白骨",
+      "story_content": "是夜，白虎嶺。<br/>風雨如磐，迷途客步履蹣跚。<br/>亂骨荒塋，青磷幽幽，似聞足音，亦步亦趨。<br/>一息——<br/>燈籠傾覆，豆燭盡滅。<br/>二息——<br/>悽風厲影，腥意驟襲。<br/>三息——<br/>倏然間足音有頓，魅影已至眼前。<br/>卻是紅粉佳人，眼波流轉，宛然含情。<br/>「你……究竟是人，還是鬼？！」<br/>「呵呵……都不是。」<br/>話音甫落，利爪濺血。<br/>森森殘骸，豔豔如生。<br/>她饜足地舔淨指尖殘猩，若有所思，輕聲呢喃。<br/>「不是人，也不是鬼。我只是……這山間一具無名白骨。」",
+      "hero_icon": "Hero2022_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1655",
+          "name": "化形無常",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.4</color></b>倍傷害，「對戰後」使目標所有「有害狀態」等級提升<b><color=#e4462c>1</color></b>級。<br/>若目標被自身屬相剋制，該絕學變為自身屬相。"
+        },
+        {
+          "img": "EXSkill_1431",
+          "name": "虛蝕亂熵",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰後」使目標身周<b><color=#e4462c>1</color></b>圈內所有敵人的「有益狀態」持續時間減少<b><color=#e4462c>1</color></b>回合且等級降低<b><color=#e4462c>1</color></b>級。"
+        },
+        {
+          "img": "EXSkill_1658",
+          "name": "斷魂汲髓",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "1內力",
+          "shoot": "4格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對單個敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，若目標已攜帶「幽寂」狀態則額外降低目標<b><color=#e4462c>2</color></b>點氣力。"
+        },
+        {
+          "img": "GPassive_1044",
+          "name": "幽之力",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Xun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若攜帶的「有益狀態」大於目標，則「對戰中」傷害額外提高20%。"
+        },
+        {
+          "img": "EXSkill_1623",
+          "name": "叫陣",
+          "type": "主動",
+          "cd": "2回合",
+          "cost": "1內力",
+          "shoot": "5格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主動使用，對目標施加<link type=buff value=711144130 bgcolor=#3a85ffff>「決鬥」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1659",
+          "name": "幽骨護魂",
+          "type": "主動",
+          "cd": "2回合",
+          "cost": "1內力",
+          "shoot": "3格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Hun",
+          "unlock_inner2": "伍級",
+          "desc": "[被動]護盾獲得加成提高<b><color=#e4462c>20%</color></b>。<br/>[主動]主動使用，對單個友方和自身施加<link type=buff value=741062095 bgcolor=#3a85ffff>「幽鎧」</link>狀態，若目標為自身則額外使自身天賦冷卻時間<b><color=#e4462c>-2</color></b>。"
+        },
+        {
+          "img": "EXSkill_1657",
+          "name": "噬魂骨牢",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Xun",
+          "unlock_inner2": "伍級",
+          "desc": "選擇<b><color=#e4462c>1</color></b>個格子釋放，對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，施加<link type=buff value=700001701 bgcolor=#3a85ffff>「幽寂」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，在技能範圍的邊緣空格製造「骨牢」機關，持續<b><color=#e4462c>2</color></b>回合。<br/>「骨牢」：具有「限制區域」：敵方角色經過時移動力消耗<b><color=#e4462c>+1</color></b>"
+        },
+        {
+          "img": "EXSkill_1656",
+          "name": "勾魂攝魄",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.7</color></b>倍傷害，「對戰前」施加<link type=buff value=742022125 bgcolor=#3a85ffff>「孑身」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，奪取目標最多<b><color=#e4462c>3</color></b>個「有益狀態」，若奪取數量達上限則傷害提高<b><color=#e4462c>20%</color></b>。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放技能。（每造成<b><color=#e4462c>1</color></b>次傷害，受到傷害均可累積<b><color=#e4462c>1</color></b>點氣力）"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "白骨夫人",
+          "name": "寒幽刺",
+          "img": "Weapon_202201",
+          "qixue": "38",
+          "magic": "36",
+          "physical": "0",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，銀冰碎波泠，峭風拂寒破。                           傳，幽谷之間，爰有寒泉。天生異象，朔氣悽悕，素冰彌澤。如是數年，泉中凝而化物，似鬼魅幽爪，倏然匿跡。<br/>言，寒芒凝幽，朔氣無形。                         "
+        },
+        {
+          "weapon": "白骨夫人",
+          "name": "索夢刺",
+          "img": "Weapon_202202",
+          "qixue": "46",
+          "magic": "44",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，琥珀夢濃貪伏枕，璃琉光冷怪當窗。<br/>傳，夜有魅生，索夢而至。夢中但有幽影，纖手奉盞，勸飲瓊漿。悚然回首，燭影照壁，妖形詭譎， 柔荑化厲，夢魂俱銷。<br/>言，惘夢紛幻，魂斷寐終。"
+        },
+        {
+          "weapon": "白骨夫人",
+          "name": "魑血怨",
+          "img": "Weapon_202203",
+          "qixue": "58",
+          "magic": "55",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[真傳]全傷害減免提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，玉樓宴歌舞，哀野千里哭。<br/>傳，古有巨賈，窮奢極欲，役使鄉野之民，大造第舍園林。只見朱門酒肉、堆金積玉，不聞泣血哀聲，餓殍千里。魑魅飢餐渴飲，亦染其怨，利爪銜恨，血色斑斑。 <br/>言，吞恨飲怨，泣血如訴。"
+        },
+        {
+          "weapon": "白骨夫人",
+          "name": "蝕骨愴",
+          "img": "Weapon_202204",
+          "qixue": "72",
+          "magic": "69",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[真傳]全傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，髑髏以蓬穿之，則夜語矣，凡百先徵，無不相告。<br/>傳，人言髑髏夜語能辨兇吉，爭相刨掘求之。骨曝於野，鬼燐悽悽，邪祟聚生其中，化而為骸爪，夜行索仇。<br/>言，孤魄滯野，魂泣幽語。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "白骨夫人",
+          "img": "Equip_shuilingzhuhua",
+          "name": "水靈珠花",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "10",
+          "qixue_attr": "hp",
+          "maigc_defense": "7",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "白骨夫人",
+          "img": "Equip_ruangeliyi",
+          "name": "軟革裡衣",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "7",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "8",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "白骨夫人",
+          "img": "Equip_subushuyao",
+          "name": "素布束腰",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "16",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "6",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到攻擊進入對戰時，遭受傷害降低7%"
+        },
+        {
+          "equipment": "白骨夫人",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "12",
+          "magatt_attr": "magatn",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "離魂思魅",
+          "img": "Weapon_202205",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在與自身屬相相同的其他友方時，傷害和法術免傷提高<b><color=#e4462c>5%</color></b>。主動攻擊後，行動結束時奪取<b><color=#e4462c>3</color></b>格內與自身屬相相同的所有敵方<b><color=#e4462c>1</color></b>個「有益狀態」。"
+        },
+        {
+          "name": "離魂思魅",
+          "img": "Weapon_202205",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在與自身屬相相同的其他友方時，傷害和法術免傷提高<b><color=#e4462c>6%</color></b>。主動攻擊後，行動結束時奪取<b><color=#e4462c>3</color></b>格內與自身屬相相同的所有敵方<b><color=#e4462c>1</color></b>個「有益狀態」。"
+        },
+        {
+          "name": "離魂思魅",
+          "img": "Weapon_202205",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在與自身屬相相同的其他友方時，傷害和法術免傷提高<b><color=#e4462c>7%</color></b>。主動攻擊後，行動結束時奪取<b><color=#e4462c>3</color></b>格內與自身屬相相同的所有敵方<b><color=#e4462c>1</color></b>個「有益狀態」。"
+        },
+        {
+          "name": "離魂思魅",
+          "img": "Weapon_202205",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在與自身屬相相同的其他友方時，傷害和法術免傷提高<b><color=#e4462c>8%</color></b>。主動攻擊後，行動結束時奪取<b><color=#e4462c>3</color></b>格內與自身屬相相同的所有敵方<b><color=#e4462c>1</color></b>個「有益狀態」。"
+        },
+        {
+          "name": "離魂思魅",
+          "img": "Weapon_202205",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "<b><color=#e4462c>3</color></b>格內存在與自身屬相相同的其他友方時，傷害和法術免傷提高<b><color=#e4462c>10%</color></b>。主動攻擊後，行動結束時奪取<b><color=#e4462c>3</color></b>格內與自身屬相相同的所有敵方<b><color=#e4462c>2</color></b>個「有益狀態」。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "地仙羅剎",
+      "is_new": "1",
+      "pinyin": "dixianluocha",
+      "weight": "1440",
+      "source": "國風企劃西遊篇登場角色",
+      "pic": "Hero2023_img",
+      "prop_icon": "Ice",
+      "career_icon": "Warlock",
+      "rarity": "SSR",
+      "position": "遠攻",
+      "prop": "冰",
+      "career": "咒師",
+      "range": "2",
+      "speed": "3",
+      "qixue": "182",
+      "magic_attack": "102",
+      "physical_attack": "13",
+      "magic_defense": "41",
+      "physical_defense": "24",
+      "huixin": "22",
+      "inherent": "Gift_163",
+      "inherent_name": "扇罷天清",
+      "star1": "",
+      "star2": "",
+      "star3": "法攻、範圍傷害提高8%。若攻擊目標攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態或處於「真炎」地形上，傷害額外提升10%。<br/>主動攻擊或使用絕學後，清除範圍內敵方的地形和機關。",
+      "star4": "法攻、範圍傷害提高10%。若攻擊目標攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態或處於「真炎」地形上，傷害額外提升10%。<br/>主動攻擊或使用絕學後，清除範圍內敵方的地形和機關。",
+      "star5": "法攻、範圍傷害提高12%。若攻擊目標攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態或處於「真炎」地形上，傷害額外提升10%。<br/>主動攻擊或使用絕學後，清除範圍內敵方的地形和機關。",
+      "star6": "法攻、範圍傷害提高15%。若攻擊目標攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態或處於「真炎」地形上，傷害額外提升10%。<br/>主動攻擊或使用絕學後，清除範圍內敵方的地形和機關。",
+      "story_name": "羅剎",
+      "story_content": "深林蔽日，幽泉無聲。<br/>泣聲斷續，似聒噪的蚊鳴，嚶嚶不休，縈在風間。<br/>濃綠的芭蕉葉晃盪日影，聚起昨夜的露水，淋漓地滾落。<br/>「真吵啊……」<br/>高高的芭蕉葉上一陣窸窣，那層疊的碧影間，竟臥了一個人。<br/>「小丫頭，就是你擾人好夢？」<br/>那人身鍍流光，搖著翠扇，朱唇輕啟，看呆了滿臉淚痕的女娃。<br/>「仙女姐姐……？！」<br/>「呵，我可不是仙女，我是羅剎。」<br/>「羅剎，是什麼？」<br/>「惡鬼。」<br/>她倚坐在蕉葉間，漫不經心地吐出那兩個字。<br/>「羅剎、惡鬼……原來仙女姐姐還有這麼特別的名字啊。」<br/>女娃恍然大悟，虔誠萬分，捧起懷中浸透露水的紅果。<br/>「仙女姐姐，這些野果子很好吃！我把它們送給你，你能告訴我回家的路嗎？」<br/>「咦，仙女姐姐？」<br/>「仙女姐姐……去哪了，嗚……」<br/>飛鳥驚起，哀哭聲再次響徹林間。<br/>匿在碧影間的那人折返而來，不耐地搖搖扇子。<br/>「不是要回家嗎，還不快跟上。」",
+      "hero_icon": "Hero2023_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1651",
+          "name": "揚扇熄焰",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.4</color></b>倍傷害，「對戰前」驅散目標<b><color=#e4462c>2</color></b>個「有益狀態」，「對戰後」施加<link type=buff value=742023001 bgcolor=#3a85ffff>「風牢」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+        },
+        {
+          "img": "Skill_Ice_1001",
+          "name": "天霜雪舞",
+          "type": "法攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰前」對敵方施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蝕魔I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1652",
+          "name": "搖扇生風",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "扇形4格",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Lie",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，擊退目標<b><color=#e4462c>2</color></b>格，施加<link type=buff value=700000850 bgcolor=#3a85ffff>「封脈」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。如果擊退路線被阻擋，則施加<link type=buff value=700001320 bgcolor=#3a85ffff>「定身」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+        },
+        {
+          "img": "GPassive_1012",
+          "name": "神念",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若自身氣血大於等於90%，法攻、法防提高10%。"
+        },
+        {
+          "img": "Skill_Ice_1003",
+          "name": "冰華之陣",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形2格",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，施加<link type=buff value=700001301 bgcolor=#3a85ffff>「遲緩I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "Skill_Ice_1012",
+          "name": "寒氣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Lie",
+          "unlock_inner2": "伍級",
+          "desc": "造成傷害後，對目標施加<link type=buff value=700001301 bgcolor=#3a85ffff>「遲緩I」</link>狀態，持續2回合。"
+        },
+        {
+          "img": "EXSkill_1653",
+          "name": "撫扇降澤",
+          "type": "支援",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Shen",
+          "unlock_inner2": "伍級",
+          "desc": "[協攻]自身<b><color=#e4462c>3</color></b>格範圍內，友方角色主動發起對戰且優先攻擊時，在「對戰前」為其驅散<b><color=#e4462c>1</color></b>個「有害狀態」且使其「對戰中」穿透提高<b><color=#e4462c>15%</color></b>。（<b><color=#e4462c>1</color></b>回合限定發動<b><color=#e4462c>2</color></b>次）<br/>[主動]主動使用，為範圍內所有友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000790 bgcolor=#3a85ffff>「神護I」</link>狀態，持續<b><color=#e4462c>3</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1654",
+          "name": "風雲開闔",
+          "type": "法攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形4格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.7</color></b>倍傷害，在範圍內敵人周身<b><color=#e4462c>1</color></b>格內佈置<b><color=#e4462c>2</color></b>枚「冽風凝」陷阱，持續<b><color=#e4462c>2</color></b>回合。若命中目標大於等於<b><color=#e4462c>3</color></b>，每多<b><color=#e4462c>1</color></b>個，則額外佈置<b><color=#e4462c>1</color></b>枚（最多共計佈置<b><color=#e4462c>4</color></b>枚陷阱）。絕學後，可選擇<b><color=#e4462c>1</color></b>個施法方向，在下一回合開始時，將全場敵人朝該方向擊退<b><color=#e4462c>1</color></b>格。<br/>「冽風凝」：敵人進入陷阱<b><color=#e4462c>1</color></b>圈範圍內，則立刻觸發，對範圍內所有敵人造成<b><color=#e4462c>1</color></b>次「固定傷害」（當前氣血的<b><color=#e4462c>20%</color></b>），並施加<link type=buff value=741336023 bgcolor=#3a85ffff>「冰霜」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放絕學。（每造成<b><color=#e4462c>1</color></b>次傷害累積<b><color=#e4462c>1</color></b>點氣力）"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "地仙羅剎",
+          "name": "瓊露扇",
+          "img": "Weapon_202301",
+          "qixue": "36",
+          "magic": "38",
+          "physical": "0",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，空外明霞飄不墮，只天光海色搖銀扇。<br/>傳，銀漢星遙，碧海青天，瑤池飲宴，仙子銜卮，芳樽共醉，不期跌扇落雲。其扇面銀波微漾，似染瓊漿，濃香萬斛。<br/>言，碧落雲依，瓊酴露濃。"
+        },
+        {
+          "weapon": "地仙羅剎",
+          "name": "金飈扇",
+          "img": "Weapon_202302",
+          "qixue": "44",
+          "magic": "47",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，正銀河高瀉，金風作扇，冰輪將滿，火傘初收。<br/>傳，初秋之時，清商乍肅，乃知風師卷太清。霜颸在天，朔氣激飛，旋聚於地，氣承金扇。其扇底涵光，爍爍流金，寒若商秋也。<br/>言，氣挾金飆，光搖玉宇。"
+        },
+        {
+          "weapon": "地仙羅剎",
+          "name": "玉屏芭蕉扇",
+          "img": "Weapon_202303",
+          "qixue": "54",
+          "magic": "58",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，月傍銀河移扇影，天留絲雨洗香塵。<br/>傳，雨母山間，築有祠壇。鄉民若有所禱，無不降澤。邑中曾有大旱之讖謠，是夜祠間光現，神女捧扇而出，隨之雲雨滂沱，連月不能止。後神女匿，惟留其扇。<br/>言，甘霖虔祀，澤被萬物。"
+        },
+        {
+          "weapon": "地仙羅剎",
+          "name": "浮翠芭蕉扇",
+          "img": "Weapon_202304",
+          "qixue": "68",
+          "magic": "73",
+          "physical": "0",
+          "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，皋稽，八風神之一，閶闔風之所生。<br/>傳，皋稽巡人間，一息而行萬里，倦臥翠山之下，吐納之氣，漫卷寰宇。林中芭蕉折墮，積靈籟而化翠扇，憑風起而搖太虛。<br/>言，喚風閶闔，翠波淵旋。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "地仙羅剎",
+          "img": "Equip_shuilingzhuhua",
+          "name": "水靈珠花",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "10",
+          "qixue_attr": "hp",
+          "maigc_defense": "7",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "地仙羅剎",
+          "img": "Equip_baijuanwuxiu",
+          "name": "白絹舞袖",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "9",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "7",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "地仙羅剎",
+          "img": "Equip_xuanjingxiudai",
+          "name": "玄經繡帶",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "12",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "5",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "地仙羅剎",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "11",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "12",
+          "magatt_attr": "magatn",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "玄陰芭蕉扇",
+          "img": "Weapon_202305",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "若自身周圍1圈內無其他敵方，傷害提高<b><color=#e4462c>5%</color></b>。若本回合未發起攻擊，則行動結束時獲得「風息」狀態，持續1回合。\n「風息」：「對戰中」免傷提高<b><color=#e4462c>15%</color></b>。使用傷害絕學後使該絕學冷卻時間-1。"
+        },
+        {
+          "name": "玄陰芭蕉扇",
+          "img": "Weapon_202305",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "若自身周圍1圈內無其他敵方，傷害提高<b><color=#e4462c>6%</color></b>。若本回合未發起攻擊，則行動結束時獲得「風息」狀態，持續1回合。\n「風息」：「對戰中」免傷提高<b><color=#e4462c>15%</color></b>。使用傷害絕學後使該絕學冷卻時間-1。"
+        },
+        {
+          "name": "玄陰芭蕉扇",
+          "img": "Weapon_202305",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "若自身周圍1圈內無其他敵方，傷害提高<b><color=#e4462c>7%</color></b>。若本回合未發起攻擊，則行動結束時獲得「風息」狀態，持續1回合。\n「風息」：「對戰中」免傷提高<b><color=#e4462c>15%</color></b>。使用傷害絕學後使該絕學冷卻時間-1。"
+        },
+        {
+          "name": "玄陰芭蕉扇",
+          "img": "Weapon_202305",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "若自身周圍1圈內無其他敵方，傷害提高<b><color=#e4462c>8%</color></b>。若本回合未發起攻擊，則行動結束時獲得「風息」狀態，持續1回合。\n「風息」：「對戰中」免傷提高<b><color=#e4462c>15%</color></b>。使用傷害絕學後使該絕學冷卻時間-1。"
+        },
+        {
+          "name": "玄陰芭蕉扇",
+          "img": "Weapon_202305",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "若自身周圍1圈內無其他敵方，傷害提高<b><color=#e4462c>10%</color></b>。若本回合未發起攻擊，則行動結束時獲得「風息」狀態，持續1回合。\n「風息」：「對戰中」免傷提高<b><color=#e4462c>15%</color></b>。使用傷害絕學後使該絕學冷卻時間-1。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "天玄義劍",
+      "is_new": "0",
       "pinyin": "tianxuanyijian",
       "weight": "1430",
       "source": "天地劫幽城再臨原創角色",
@@ -351,7 +1368,7 @@
   [
     {
       "name": "妙弋",
-      "is_new": "1",
+      "is_new": "0",
       "pinyin": "miaoyi",
       "weight": "1420",
       "source": "天地劫幽城再臨原創角色",
@@ -678,6 +1695,30 @@
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攜帶護盾或氣血不滿時，雙防提高<b><color=#e4462c>10%</color></b>。護盾破碎時，對<b><color=#e4462c>2</color></b>格範圍敵人造成<b><color=#e4462c>1</color></b>次法術傷害（法攻的<b><color=#e4462c>30%</color></b>）。"
+        }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "",
+          "percent": ""
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "",
+          "percent": ""
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "",
+          "percent": ""
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "",
+          "percent": ""
         }
       ]
     }
@@ -1028,6 +2069,70 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "若<b><color=#e4462c>3</color></b>格內存在攜帶「懾印」狀態的敵方，暴擊傷害提高<b><color=#e4462c>10%</color></b>，且行動結束時隨機傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.144021739130435"
+        },
+        {
+          "name": "神烏飾墜·煙",
+          "percent": "0.114130434782609"
+        },
+        {
+          "name": "玉蝶黛翠",
+          "percent": "0.111413043478261"
+        },
+        {
+          "name": "八荒靈石·影",
+          "percent": "0.10054347826087"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "血參靈玉·煙",
+          "percent": "0.114130434782609"
+        },
+        {
+          "name": "赤霞玉戒·塵",
+          "percent": "0.0978260869565217"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "靈越佩環·霧",
+          "percent": "0.203804347826087"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.103260869565217"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.0978260869565217"
+        },
+        {
+          "name": "靈越佩環·煙",
+          "percent": "0.0951086956521739"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "和光同塵",
+          "percent": "0.116847826086957"
+        },
+        {
+          "name": "夜雨·霧",
+          "percent": "0.108695652173913"
+        },
+        {
+          "name": "清光似水",
+          "percent": "0.105978260869565"
+        },
+        {
+          "name": "夜雨·煙",
+          "percent": "0.10054347826087"
+        }
       ]
     }
   ],
@@ -1362,6 +2467,50 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "自身滿血時雙防提高<b><color=#e4462c>10%</color></b>，反之移動力<b><color=#e4462c>+1</color></b>。處於「嗜虐」狀態時「對戰後」恢復自身氣血，恢復量為本次傷害的<b><color=#e4462c>50%</color></b>。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.14080774084981"
+        },
+        {
+          "name": "八荒靈石·塵",
+          "percent": "0.139966344131257"
+        },
+        {
+          "name": "定筆簪",
+          "percent": "0.138704249053428"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.152587294909549"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "鑲蛇銀佩·塵",
+          "percent": "0.134497265460664"
+        },
+        {
+          "name": "靈越佩環·煙",
+          "percent": "0.133655868742111"
+        },
+        {
+          "name": "靈越佩環·塵",
+          "percent": "0.132814472023559"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "煙霞百相",
+          "percent": "0.142911232646192"
+        },
+        {
+          "name": "杏花疏影",
+          "percent": "0.138704249053428"
+        }
       ]
     }
   ],
@@ -1695,6 +2844,46 @@
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
           "desc": "主動攻擊攜帶「燃燒」狀態的敵人時，傷害、暴擊率提高<b><color=#e4462c>10%</color></b>。自身<b><color=#e4462c>5</color></b>格範圍內攜帶「燃燒」狀態的敵方暴擊率降低<b><color=#e4462c>20%</color></b>。"
+        }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "朱焰妖瞳·煙",
+          "percent": "0.16798866855524"
+        },
+        {
+          "name": "火紋硅玉",
+          "percent": "0.155240793201133"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "赤霞玉戒·塵",
+          "percent": "0.15099150141643"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.165155807365439"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.148158640226628"
+        },
+        {
+          "name": "護命神符·煙",
+          "percent": "0.139660056657223"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.16798866855524"
+        },
+        {
+          "name": "鮫人悲歌·霧",
+          "percent": "0.132577903682719"
         }
       ]
     }
@@ -2045,6 +3234,42 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "遭受攻擊「對戰中」免傷提高<b><color=#e4462c>10%</color></b>且「對戰後」驅散自身<b><color=#e4462c>1</color></b>個「有害狀態」並獲得<b><color=#e4462c>1</color></b>層「破邪符」狀態，持續<b><color=#e4462c>3</color></b>回合。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "飛泉鳴玉",
+          "percent": "0.102632644795463"
+        },
+        {
+          "name": "八荒靈石·塵",
+          "percent": "0.102025111381125"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "瓊瞳靈戒",
+          "percent": "0.2016200891049"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "摩尼寶珠",
+          "percent": "0.103290805994329"
+        },
+        {
+          "name": "鑲蛇銀佩·塵",
+          "percent": "0.101974483596597"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "煙霞百相",
+          "percent": "0.104759011745646"
+        },
+        {
+          "name": "玄闕腰帶",
+          "percent": "0.101316322397731"
+        }
       ]
     }
   ],
@@ -2378,6 +3603,50 @@
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攜帶「有益狀態」時，法攻提高<b><color=#e4462c>10%</color></b>。使用絕學後，使絕學作用的友方目標擴散隨機<b><color=#e4462c>1</color></b>個「有益狀態」給<b><color=#e4462c>2</color></b>格範圍內其他友方；使絕學作用的敵方目標擴散隨機<b><color=#e4462c>1</color></b>個「有害狀態」給<b><color=#e4462c>2</color></b>格範圍內其他敵方。"
+        }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "天河硃砂",
+          "percent": "0.111254880943266"
+        },
+        {
+          "name": "洛神玉菡",
+          "percent": "0.109021769644999"
+        },
+        {
+          "name": "神烏飾墜·煙",
+          "percent": "0.104108924788811"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "重曜玉鐲",
+          "percent": "0.208205088941632"
+        },
+        {
+          "name": "赤霞玉戒·煙",
+          "percent": "0.10527014266391"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "清神淨玉",
+          "percent": "0.206010259551336"
+        },
+        {
+          "name": "化魄法令",
+          "percent": "0.104134446060791"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.206125105275246"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.104708674680346"
         }
       ]
     }
@@ -2728,16 +3997,64 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "<b><color=#e4462c>3</color></b>格範圍內存在攜帶「酒」狀態的友方時，治療效果和免傷提高<b><color=#e4462c>10%</color></b>。<b><color=#e4462c>3</color></b>格範圍內攜帶<b><color=#e4462c>2</color></b>層「酒」狀態的友方使用絕學或普攻後，行動結束時於所在格生成「酒池」地形，持續<b><color=#e4462c>2</color></b>回合。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "龍骨項鍊·塵",
+          "percent": "0.104643438177874"
+        },
+        {
+          "name": "九色鹿冠",
+          "percent": "0.104304501084598"
+        },
+        {
+          "name": "龍骨項鍊·煙",
+          "percent": "0.104202819956616"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "鳳紋靈鐲·煙",
+          "percent": "0.207626084598698"
+        },
+        {
+          "name": "幽杳袖環",
+          "percent": "0.103016540130151"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "護命神符·煙",
+          "percent": "0.103304636659436"
+        },
+        {
+          "name": "辟邪玉佩·煙",
+          "percent": "0.103118221258134"
+        },
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.102982646420824"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.105117950108459"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.103677467462039"
+        }
       ]
     }
   ],
   [
     {
       "name": "祿存高皇君",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "lucungaohuangjun",
-      "weight": "1350",
-      "source": "幽城幻劍錄登場角色",
+      "weight": "1310",
+      "source": "寰神結登場角色",
       "pic": "Hero1336_img",
       "prop_icon": "Ice",
       "career_icon": "Warlock",
@@ -2859,7 +4176,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Xun",
           "unlock_inner2": "伍級",
-          "desc": "[被動]<b><color=#e4462c>3</color></b>格範圍內友方若處於友方「霜凍」地形上，則「固定傷害」減免提高<b><color=#e4462c>50%</color></b><br/>[主動]恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>0.75</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「有害狀態」，製造「霜凍」地形，持續<b><color=#e4462c>2</color></b>回合。<br/>「霜凍」：霜凍內的敵方角色，移動力<b><color=#e4462c>-1</color></b>"
+          "desc": "[被動]<b><color=#e4462c>3</color></b>格範圍內友方若處於友方「霜凍」地形上，則「固定傷害」減免提高<b><color=#e4462c>50%</color></b><br/>[主動]恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>0.75</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「減益狀態」，製造「霜凍」地形，持續<b><color=#e4462c>2</color></b>回合。<br/>「霜凍」：霜凍內的敵方角色，移動力<b><color=#e4462c>-1</color></b>"
         },
         {
           "img": "EXSkill_1567",
@@ -3077,47 +4394,15 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "處於自身「結界」時，傷害提升<b><color=#e4462c>10%</color></b>，射程<b><color=#e4462c>+1</color></b>。行動結束時，恢復處於友方「霜凍」地形上所有友方最大氣血的<b><color=#e4462c>20%</color></b>。"
         }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "朱焰妖瞳·煙",
-          "percent": "0.184184715978749"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "朝露戒·煙",
-          "percent": "0.234736411932979"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.158847568451164"
-        },
-        {
-          "name": "鳳繡香囊·塵",
-          "percent": "0.133919084593379"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "鮫人悲歌·煙",
-          "percent": "0.140049039640376"
-        },
-        {
-          "name": "鮫人悲歌·影",
-          "percent": "0.137188393951777"
-        }
       ]
     }
   ],
   [
     {
       "name": "相胤",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "xiangyin",
-      "weight": "1340",
+      "weight": "1320",
       "source": "幽城幻劍錄登場角色",
       "pic": "Hero1151_img",
       "prop_icon": "Electricity",
@@ -3138,10 +4423,10 @@
       "inherent_name": "萬象化形",
       "star1": "",
       "star2": "",
-      "star3": "主動攻擊「對戰中」物攻和暴擊提升8%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔6回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1只「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
-      "star4": "主動攻擊「對戰中」物攻和暴擊提升10%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔5回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1只「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
-      "star5": "主動攻擊「對戰中」物攻和暴擊提升12%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔5回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1只「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
-      "star6": "主動攻擊「對戰中」物攻和暴擊提升15%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔4回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1只「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
+      "star3": "主動攻擊「對戰中」物攻和暴擊提升8%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔6回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1隻「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
+      "star4": "主動攻擊「對戰中」物攻和暴擊提升10%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔5回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1隻「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
+      "star5": "主動攻擊「對戰中」物攻和暴擊提升12%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔5回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1隻「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
+      "star6": "主動攻擊「對戰中」物攻和暴擊提升15%。<br/>行動結束時，可選擇釋放絕學「召喚封豨」或「召喚昂昴」。（間隔4回合觸發，若「封豨」或「昂昴」存活，則不會觸發。「封豨」的氣血繼承召喚者對應屬性的150%，其他屬性繼承召喚者對應屬性的100%，「昂昴」繼承召喚者屬性的100%，場上最多隻能存在1隻「封豨」或「昂昴」）<br/>遭受攻擊死亡時，對目標施加<link type=buff value=741151006 bgcolor=#3a85ffff>「血龍壁」</link>狀態，持續2回合。",
       "story_name": "天·道",
       "story_content": "萬事皆有其道，天界仙人神將者眾，亦不逃此法。<br/>為天界永世安泰，相胤鞠躬盡瘁，事必親舉，萬般奸邪，莫能阻他一人也。<br/>因此，當下他無法理解武曲星為何擋在身前，守護此生僅有一面之緣的女娃。<br/>「……玄女說那孩子，會致天界陷落，神明衰亡。」<br/>「汝等自稱神明，卻如懦夫一般畏死，願為了一個預兆誅殺幼童。如此神明……當還不如衰亡罷了。」<br/>神將聞言，手便自然搭在了劍鞘之上。<br/>「那你也該知道若我方才出手，你斷是無法攔住我們的。」<br/>「或許吧，但你一定會死。」劍聖亦無退讓之意。<br/>神將與劍聖，同為天人，何以困於凡人之生死，乃至以存亡論定？<br/>第一次，相胤問天，而天……給不了他答案。",
       "hero_icon": "Hero1151_HeadIcon_Basic",
@@ -3298,7 +4583,7 @@
           "feature": "[鶴唳]暴擊率提升5%",
           "rarity": "R",
           "jiesuo": "英靈位階25",
-          "desc": "傳，青鋼劍乃先祖寶物，受其主所鍾愛，隨之入殮。後遭竊，盜賊走水路，船翻，其沉撫仙湖。<br/>經世，乃以「列星」復現之。<br/>傳，外泛綠光，可蘊靈力，質輕順手，受一般習劍者所偏愛。傳，有人以昔日天界所修心法御之，成御劍飛仙之能。"
+          "desc": "傳，青鋼劍乃先祖寶物，受其主所鍾愛，隨之入殮。後遭竊，盜賊走水路，船翻，其沉撫仙湖。<br/>經世，乃以「列星」複現之。<br/>傳，外泛綠光，可蘊靈力，質輕順手，受一般習劍者所偏愛。傳，有人以昔日天界所修心法御之，成御劍飛仙之能。"
         },
         {
           "weapon": "相胤",
@@ -3310,7 +4595,7 @@
           "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
           "jiesuo": "列星迴響消耗45點天魂之力",
-          "desc": "載，劍舞秋風意，雲飛天外情。<br/>神武觀不聞於世者，精於御風劍術，獨諳劍譜。金云為乘，浩行百里，非凡世功法也。後歸隱，劍法亦失也，獨留金雲劍耳。<br/>言，獨劍御金雲，藏功百無一。"
+          "desc": "載，劍舞秋風意，雲飛天外情。<br/>神武觀不聞於世者，精於御風劍術，獨諳劍譜。金雲為乘，浩行百里，非凡世功法也。後歸隱，劍法亦失也，獨留金雲劍耳。<br/>言，獨劍御金雲，藏功百無一。"
         },
         {
           "weapon": "相胤",
@@ -3322,7 +4607,7 @@
           "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
           "jiesuo": "列星迴響消耗74點天魂之力",
-          "desc": "載，珍重東平入鳳城，錦箋雙羽蹙南征。<br/>世有黑白雙羽刃，其年亂，黑劍南去，素劍北存。兩軍徵於淮，雙劍飲血，戰無餘生，獨留雙雄。棄劍相嘆，熔雙劍合一，名雙羽刃，相與田居。<br/>言，赤濁雙羽暗，棄劍復明潔。"
+          "desc": "載，珍重東平入鳳城，錦箋雙羽蹙南征。<br/>世有黑白雙羽刃，其年亂，黑劍南去，素劍北存。兩軍徵於淮，雙劍飲血，戰無餘生，獨留雙雄。棄劍相歎，熔雙劍合一，名雙羽刃，相與田居。<br/>言，赤濁雙羽暗，棄劍復明潔。"
         }
       ],
       "equipment": [
@@ -3443,52 +4728,16 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "場上存在「封豨」或「昂昴」時，傷害提高<b><color=#e4462c>10%</color></b>。行動結束時，若處於敵方危險範圍外則獲得「踏風」狀態，持續<b><color=#e4462c>2</color></b>回合（間隔<b><color=#e4462c>2</color></b>回合觸發）。\n「踏風」：移動力<b><color=#e4462c>+1</color></b>，在友方「雷場」地形上移動時不消耗移動力。"
         }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "八荒靈石·影",
-          "percent": "0.112042612320518"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手鐲·煙",
-          "percent": "0.113710050949513"
-        },
-        {
-          "name": "血參靈玉·塵",
-          "percent": "0.108429828624363"
-        },
-        {
-          "name": "烏光燧珏·煙",
-          "percent": "0.107781380268642"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.10926354793886"
-        },
-        {
-          "name": "靈越佩環·塵",
-          "percent": "0.107503473830477"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "薰風",
-          "percent": "0.20991199629458"
-        }
       ]
     }
   ],
   [
     {
       "name": "波旬尉遲良",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "boxunyuchiliang",
       "weight": "1330",
-      "source": "天地劫幽城再臨原創角色",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1073_img",
       "prop_icon": "Dusk",
       "career_icon": "Swordsman",
@@ -3530,7 +4779,7 @@
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.6</color></b>倍傷害，<br/>若本次為近戰攻擊，「對戰前」奪取目標<b><color=#e4462c>2</color></b>個「有益狀態」，當奪取到<b><color=#e4462c>2</color></b>個「有益狀態」時，自身所有「有益狀態」等級提升<b><color=#e4462c>1</color></b>級；<br/>若本次為遠程攻擊，「對戰後」施加<link type=buff value=700000423 bgcolor=#3a85ffff>「禁閉」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.6</color></b>倍傷害，<br/>若本次為近戰攻擊，「對戰前」奪取目標<b><color=#e4462c>2</color></b>個「增益狀態」，當奪取到<b><color=#e4462c>2</color></b>個「增益狀態」時，自身所有「增益狀態」等級提升<b><color=#e4462c>1</color></b>級；<br/>若本次為遠程攻擊，「對戰後」施加<link type=buff value=700000423 bgcolor=#3a85ffff>「禁閉」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
           "img": "Skill_Swordsman_1009",
@@ -3578,7 +4827,7 @@
           "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "[被動]遭受攻擊時，若敵方「有益狀態」大於等於<b><color=#e4462c>2</color></b>個，則「對戰中」發動「先攻」。<br/>[主動]對目標施加<link type=buff value=741073150 bgcolor=#3a85ffff>「訛心」</link><link type=buff value=700001061 bgcolor=#3a85ffff>「封穴」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+          "desc": "[被動]遭受攻擊時，若敵方「增益狀態」大於等於<b><color=#e4462c>2</color></b>個，則「對戰中」發動「先攻」。<br/>[主動]對目標施加<link type=buff value=741073150 bgcolor=#3a85ffff>「訛心」</link><link type=buff value=700001061 bgcolor=#3a85ffff>「封穴」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
           "img": "EXSkill_1585",
@@ -3594,7 +4843,7 @@
           "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，奪取所有目標<b><color=#e4462c>1</color></b>個「有益狀態」；<br/>若已處於「波旬降臨」狀態，則奪取所有目標<b><color=#e4462c>2</color></b>個「有益狀態」，且當目標被奪取<b><color=#e4462c>2</color></b>個「有益狀態」後，使目標所有「有害狀態」等級提升<b><color=#e4462c>1</color></b>級。"
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，奪取所有目標<b><color=#e4462c>1</color></b>個「增益狀態」；<br/>若已處於「波旬降臨」狀態，則奪取所有目標<b><color=#e4462c>2</color></b>個「增益狀態」，且當目標被奪取<b><color=#e4462c>2</color></b>個「增益狀態」後，使目標所有「減益狀態」等級提升<b><color=#e4462c>1</color></b>級。"
         },
         {
           "img": "EXSkill_1588",
@@ -3610,7 +4859,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Xun",
           "unlock_inner2": "伍級",
-          "desc": "暴擊率提高10%。場上有角色死亡時，獲得其所有「有益狀態」。"
+          "desc": "暴擊率提高10%。場上有角色死亡時，獲得其所有「增益狀態」。"
         },
         {
           "img": "EXSkill_1586",
@@ -3626,7 +4875,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Hun",
           "unlock_inner2": "伍級",
-          "desc": "主動使用，獲得再行動（<b><color=#e4462c>2</color></b>格，本次行動「有益狀態」和「波旬降臨」持續時間不減少）；<br/>若已處於「波旬降臨」狀態則所有「有益狀態」等級提升<b><color=#e4462c>1</color></b>級。"
+          "desc": "主動使用，獲得再行動（<b><color=#e4462c>2</color></b>格，本次行動「增益狀態」和「波旬降臨」持續時間不減少）；<br/>若已處於「波旬降臨」狀態則所有「增益狀態」等級提升<b><color=#e4462c>1</color></b>級。"
         },
         {
           "img": "Skill_Swordsman_1015",
@@ -3827,54 +5076,6 @@
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
           "desc": "處於「波旬降臨」狀態，行動結束時若自身氣血百分比大於等於攜帶「鏈鎖」狀態的敵方，<b><color=#e4462c>100%</color></b>機率使自身隨機主動絕學冷卻時間<b><color=#e4462c>-2</color></b>，反之與其平衡氣血百分比。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "綺羅天香·霧",
-          "percent": "0.148103552077062"
-        },
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.136757128134661"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手鐲·煙",
-          "percent": "0.103675712813466"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "靈越佩環·塵",
-          "percent": "0.131844726897973"
-        },
-        {
-          "name": "靈越佩環·煙",
-          "percent": "0.130264513912744"
-        },
-        {
-          "name": "寰光佩環",
-          "percent": "0.127756784610099"
-        },
-        {
-          "name": "鳳繡香囊·塵",
-          "percent": "0.124733768464445"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "無邊落木·煙",
-          "percent": "0.132119546547578"
-        },
-        {
-          "name": "清光似水",
-          "percent": "0.131295087598763"
-        },
-        {
-          "name": "無邊落木·塵",
-          "percent": "0.107275850223291"
         }
       ]
     }

@@ -2,6 +2,39 @@
   "data": {
     "data": [
       {
+        "name": "波旬尉遲良",
+        "is_new": "1",
+        "pinyin": "boxunyuchiliang",
+        "weight": "1330",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "俠客",
+        "hero_icon": "Hero1073_HeadIcon_Basic"
+      },
+      {
+        "name": "相胤",
+        "is_new": "1",
+        "pinyin": "xiangyin",
+        "weight": "1320",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "御風",
+        "hero_icon": "Hero1151_HeadIcon_Basic"
+      },
+      {
+        "name": "祿存高皇君",
+        "is_new": "1",
+        "pinyin": "lucungaohuangjun",
+        "weight": "1310",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "咒師",
+        "hero_icon": "Hero1336_HeadIcon_Basic"
+      },
+      {
         "name": "蒼狼",
         "is_new": "1",
         "pinyin": "canglang",
@@ -1334,7 +1367,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-07-03 02:47:02"
+    "now": "2024-08-07 06:29:17"
   },
   "status": 1,
   "switch": null,

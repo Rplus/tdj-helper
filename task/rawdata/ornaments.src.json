@@ -32,6 +32,33 @@
   },
   "items": [
     {
+      "name": "鳳翅紫金冠",
+      "icon": "Equip_fengchizijinguan",
+      "position": "1",
+      "job": "1010000",
+      "type": "100001",
+      "rarity": "SSR",
+      "desc": "物攻+7%，氣血+7%，主動攻擊「對戰中」傷害提升10%，剋制攻擊加成額外提升10%\n僅俠客、鐵衛可用"
+    },
+    {
+      "name": "幌金繩",
+      "icon": "Equip_huangjinsheng",
+      "position": "2",
+      "job": "1111111",
+      "type": "000001",
+      "rarity": "SSR",
+      "desc": "氣血+5%，行動結束時，如果本回合造成擊殺，則對自身周圍3格內的1個敵人施加「定身」狀態，持續1回合。\n「定身」： 無法移動，無法護衛"
+    },
+    {
+      "name": "定風珠",
+      "icon": "Equip_dingfengzhu",
+      "position": "4",
+      "job": "1111111",
+      "type": "000001",
+      "rarity": "SSR",
+      "desc": "氣血+10%，免疫「封脈」「移動力降低」狀態"
+    },
+    {
       "name": "破風翎",
       "icon": "Equip_pofengling",
       "position": "1",

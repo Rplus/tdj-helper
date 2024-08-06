@@ -1,5 +1,53 @@
 [
   {
+    "name": "悟空",
+    "pinyin": "wukong",
+    "adv_skills": [
+      "當頭一棒",
+      "當頭一棒·壹式",
+      "當頭一棒·貳式",
+      "推山移嶺",
+      "推山移嶺·壹式",
+      "推山移嶺·貳式",
+      "火眼金睛",
+      "火眼金睛·壹式",
+      "火眼金睛·貳式"
+    ],
+    "new": true
+  },
+  {
+    "name": "白骨夫人",
+    "pinyin": "baigufuren",
+    "adv_skills": [
+      "勾魂攝魄",
+      "勾魂攝魄·壹式",
+      "勾魂攝魄·貳式",
+      "化形無常",
+      "化形無常·壹式",
+      "化形無常·貳式",
+      "噬魂骨牢",
+      "噬魂骨牢·壹式",
+      "噬魂骨牢·貳式"
+    ],
+    "new": true
+  },
+  {
+    "name": "地仙羅剎",
+    "pinyin": "dixianluocha",
+    "adv_skills": [
+      "揚扇熄焰",
+      "揚扇熄焰·壹式",
+      "揚扇熄焰·貳式",
+      "撫扇降澤",
+      "撫扇降澤·壹式",
+      "撫扇降澤·貳式",
+      "風雲開闔",
+      "風雲開闔·壹式",
+      "風雲開闔·貳式"
+    ],
+    "new": true
+  },
+  {
     "name": "天玄義劍",
     "pinyin": "tianxuanyijian",
     "adv_skills": [
@@ -85,18 +133,15 @@
   },
   {
     "name": "祿存高皇君",
-    "pinyin": "lucungaohuangjun",
-    "new": true
+    "pinyin": "lucungaohuangjun"
   },
   {
     "name": "相胤",
-    "pinyin": "xiangyin",
-    "new": true
+    "pinyin": "xiangyin"
   },
   {
     "name": "波旬尉遲良",
-    "pinyin": "boxunyuchiliang",
-    "new": true
+    "pinyin": "boxunyuchiliang"
   },
   {
     "name": "蒼狼",
