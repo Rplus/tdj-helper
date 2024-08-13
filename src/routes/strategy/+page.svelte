@@ -29,11 +29,18 @@ function search_cb(kwd) {
 }
 
 function gen_desc(str = '') {
+	let [, basic, detail] = str.split(/^(攻防.+)\n/gm);
+	let op = {
+		basic,
+		detail,
+	}
+
 	if (search_kwd.length) {
 		let reg = new RegExp(`(${search_kwd})`, 'g');
-		return str.replace(reg, `<mark>$1</mark>`);
+		op.detail = op.detail.replace(reg, `<mark>$1</mark>`);
 	}
-	return str;
+
+	return op;
 }
 </script>
 
@@ -45,10 +52,13 @@ function gen_desc(str = '') {
 	<hr />
 
 	{#each strategy_data as strategy (strategy.name)}
+
+		{@const info = gen_desc(strategy.desc_html, search_kwd)}
+
 		<div
 			class="row flex"
 			data-prop={strategy.members.map((i) => !i.img && i.name).filter(Boolean)}
-			data-search={strategy.desc_html}
+			data-search={info.detail}
 			id={strategy.name}
 		>
 			<div class="members flex">
@@ -59,7 +69,7 @@ function gen_desc(str = '') {
 				{/each}
 			</div>
 
-			<div class="info">{@html gen_desc(strategy.desc_html, search_kwd)}</div>
+			<div class="info" data-basic={info.basic}>{@html info.detail}</div>
 		</div>
 	{/each}
 
@@ -92,7 +102,9 @@ function gen_desc(str = '') {
 	align-self: flex-start;
 	white-space: pre-wrap;
 
-	&::first-line {
+	&::before {
+		content: attr(data-basic);
+		display: block;
 		color: #999c;
 	}
 
