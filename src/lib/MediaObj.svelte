@@ -43,7 +43,6 @@ export let mobile_align = '';
 }
 .img-box {
 	aspect-ratio: 1;
-	padding: 0.5em;
 	border-radius: 0.25em;
 	background-color: #9993;
 	box-shadow: inset 2px 2px 8px #0003;
@@ -51,6 +50,7 @@ export let mobile_align = '';
 
 	& img {
 		display: block;
+		margin: 0.5em;
 		width: var(--img-size);
 		height: var(--img-size);
 		filter: drop-shadow(2px 2px 3px #333c);
