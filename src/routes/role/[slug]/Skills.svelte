@@ -8,15 +8,43 @@ import { find_adv_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
 import Img from '$lib/Img.svelte';
+import MediaObj from '$lib/MediaObj.svelte';
+import Switcher from '$lib/Switcher.svelte';
 
 let adv_skills = find_adv_skills(pinyin, skills);
+
+let grid_mode = false;
+
+
+function gen_skill_string(skill = {}) {
+	return [
+		// skill.name,
+		skill.cost ? '🔥'.repeat(parseFloat(skill.cost) || 1) : '🔥',
+		clear_html(skill.desc),
+		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
+		// skill.cost && `　- 🔥 ${skill.cost}`,
+		skill.cd && `　- ⏳ ${skill.cd}`,
+		skill.shoot !== '-' && `　- 🏹 ${skill.shoot}`,
+		skill.range !== '-' && `　- 🎯 ${skill.range}`,
+	].filter(Boolean);
+}
+
 </script>
 
-<div class="hr">五內技能</div>
+<div class="hr">
+	五內技能
 
-<div class="skills">
+	<Switcher
+		left_label="▦"
+		right_label="▤"
+		bind:checked={grid_mode}
+	/>
+</div>
+
+<div class="skills" class:grid={grid_mode}>
 	{#each skills as skill}
 		<div
+			hidden={!grid_mode}
 			class="skill ai-c jc-c flex text-center"
 			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
 		>
@@ -31,6 +59,7 @@ let adv_skills = find_adv_skills(pinyin, skills);
 						height="48"
 					/>
 				</summary>
+
 				<div class="desc" class:right={skill.grid_col > 3}>
 					<div class="pre-line">
 						{clear_html(skill.desc)}
@@ -43,12 +72,42 @@ let adv_skills = find_adv_skills(pinyin, skills);
 							<li>way: {skill.way}</li>
 						</ul>
 					</div>
+					<!--
 					<details>
 						<pre>{JSON.stringify(skill, null, 2)}</pre>
 					</details>
+					-->
 				</div>
 			</details>
 		</div>
+
+		<div hidden={grid_mode}>
+			<MediaObj mobile_align="center">
+				<div
+					slot="img"
+					class="flex"
+					style="background-color: #0ff5;"
+				>
+					<Img
+						src={get_img('skill', skill.img, 96, lang)}
+						alt={skill.name}
+						width="48"
+						height="48"
+					/>
+				</div>
+
+				<svelte:fragment slot="name">
+					{skill.name}
+				</svelte:fragment>
+
+				<svelte:fragment slot="info">
+					<div class="pre-line">
+						{gen_skill_string(skill).join('\n')}
+					</div>
+				</svelte:fragment>
+			</MediaObj>
+		</div>
+
 	{/each}
 </div>
 
@@ -59,7 +118,7 @@ let adv_skills = find_adv_skills(pinyin, skills);
 {/if}
 
 <style>
-.skills {
+.skills.grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(6, 5em);
@@ -67,53 +126,55 @@ let adv_skills = find_adv_skills(pinyin, skills);
 	gap: var(--gap);
 	background-image: linear-gradient(to right, #9991, #9991 calc(100% - var(--gap)), #0000 0%);
 	background-size: calc((100% + var(--gap)) / 5) 100%;
-}
 
-.skill {
-	grid-row: var(--row) / span 1;
-	grid-column: var(--col) / span 1;
-	padding: 0.25em;
-	background-color: #9993;
-	/* box-shadow: inset 0 0 0 1px, 0 0 0 1px; */
-	font-size: smaller;
-
-	& img {
-		background-color: #3333;
-		border-radius: 50%;
-	}
-
-	& .desc {
-		position: absolute;
-		width: 15em;
-		margin: 0;
-		padding: 1em;
-		overflow: auto;
-		z-index: 10;
-		text-align: left;
-		background-color: color-mix(in srgb, var(--main-bgc) 90%, #fff0);
-		box-shadow: 0 0 3px;
-
-		&.right {
-			right: 0;
-		}
-
-		&:hover {
-			z-index: 11;
-		}
-	}
-}
-
-.list {
-	padding: 0;
-	padding-left: 1em;
-}
-
-summary {
-	cursor: pointer;
-	text-indent: -1em;
-
-	@media (max-width: 700px) {
+	& .skill {
+		grid-row: var(--row) / span 1;
+		grid-column: var(--col) / span 1;
+		padding: 0.25em;
+		background-color: #9993;
+		/* box-shadow: inset 0 0 0 1px, 0 0 0 1px; */
 		font-size: smaller;
+
+		& img {
+			background-color: #3333;
+			border-radius: 50%;
+		}
+
+		& .desc {
+			position: absolute;
+			width: 15em;
+			margin: 0;
+			padding: 1em;
+			overflow: auto;
+			z-index: 10;
+			text-align: left;
+			background-color: color-mix(in srgb, var(--main-bgc) 90%, #fff0);
+			box-shadow: 0 0 3px;
+
+			&.right {
+				right: 0;
+			}
+
+			&:hover {
+				z-index: 11;
+			}
+		}
+	}
+
+	& .list {
+		padding: 0;
+		padding-left: 1em;
+	}
+
+	& summary {
+		cursor: pointer;
+		text-indent: -1em;
+
+		@media (max-width: 700px) {
+			font-size: smaller;
+		}
 	}
 }
+
+
 </style>
