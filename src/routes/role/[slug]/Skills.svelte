@@ -25,6 +25,8 @@ function gen_skill_string(skill = {}) {
 		skill.cd && `　- ⏳ ${skill.cd}`,
 		skill.shoot !== '-' && `　- 🏹 ${skill.shoot}`,
 		skill.range !== '-' && `　- 🎯 ${skill.range}`,
+		skill.type && `　- 🏷️ ${skill.type}`,
+		'　- ' + (skill.way === '被動' ? '💤' : '👊') + ` ${skill.way}`,
 	].filter(Boolean);
 }
 </script>
@@ -91,8 +93,22 @@ function gen_skill_string(skill = {}) {
 				</svelte:fragment>
 
 				<svelte:fragment slot="info">
-					<div class="pre-line">
+					<div class="pre-line skill-info">
+						<div style="padding-bottom: 0.25em;">
+							{'🔥'.repeat(parseFloat(skill.cost) || 1)}
+						</div>
+
+						<div>{clear_html(skill.desc)}</div>
+						<div class="skill-meta">
+							<div>　- ⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
+							<div>　- 🏹 {skill.shoot}</div>
+							<div>　- 🎯 {skill.range}</div>
+							<div>　- 🏷️ {skill.type && `${skill.type}`}</div>
+							<div>　- {skill.way === '被動' ? '💤' : '👊'} {skill.way}</div>
+						</div>
+						<!--
 						{gen_skill_string(skill).join('\n')}
+						-->
 					</div>
 				</svelte:fragment>
 			</MediaObj>
@@ -163,5 +179,15 @@ function gen_skill_string(skill = {}) {
 			font-size: smaller;
 		}
 	}
+}
+
+.skill-info {
+	line-height: 1.3;
+}
+
+.skill-meta {
+	margin-top: 0.25em;
+	opacity: 0.75;
+	font-size: smaller;
 }
 </style>
