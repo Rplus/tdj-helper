@@ -6,6 +6,7 @@ import Filter from './Filter.svelte';
 import Role from './Role.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
+import Switcher from '$lib/Switcher.svelte';
 
 import { status_props } from './role.js';
 
@@ -35,10 +36,14 @@ $: grid_view = false;
 
 	<Filter />
 
-	<div class="hr">
-		<input class="visually-hidden" type="checkbox" bind:checked={grid_view} id="switcher" />
 
-		<label class="switcher" class:grid_view for="switcher" />
+
+	<div class="hr">
+		<Switcher
+			left_label="▦"
+			right_label="▤"
+			bind:checked={grid_view}
+		/>
 	</div>
 
 	{@html sort_style}
@@ -78,28 +83,6 @@ $: grid_view = false;
 <Footer time={true} refs={get_refs([1, 1, 0])} />
 
 <style>
-.switcher {
-	font-size: 2em;
-	font-family: monospace;
-	cursor: pointer;
-	gap: 0.5em;
-
-	&.grid_view {
-		--list: 0;
-		--grid: .5;
-	}
-
-	&::before {
-		content: '▦';
-		padding: 0.125em 0.25em;
-		background-color: rgba(255, 255, 150, var(--grid, 0));
-	}
-	&::after {
-		content: '▤';
-		padding: 0.125em 0.25em;
-		background-color: rgba(255, 255, 150, var(--list, .5));
-	}
-}
 
 .list {
 	display: grid;
