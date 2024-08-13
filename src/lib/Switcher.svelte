@@ -3,21 +3,17 @@ export let left_label = '';
 export let right_label = '';
 export let checked = false;
 import { link } from '$lib/u.js';
-
 </script>
 
+<input class="visually-hidden" type="checkbox" bind:checked id="switcher" />
 
-
-<input class="visually-hidden" type="checkbox" bind:checked={checked} id="switcher" />
-
-<label class="switcher"
+<label
+	class="switcher"
 	class:active={checked}
 	data-left-label={left_label}
 	data-right-label={right_label}
 	for="switcher"
 />
-
-
 
 <style>
 .switcher {
@@ -28,7 +24,7 @@ import { link } from '$lib/u.js';
 
 	&.active {
 		--left: 0;
-		--right: .5;
+		--right: 0.5;
 	}
 
 	&::before {
@@ -39,7 +35,7 @@ import { link } from '$lib/u.js';
 	&::after {
 		content: attr(data-right-label);
 		padding: 0.125em 0.25em;
-		background-color: rgba(255, 255, 150, var(--left, .5));
+		background-color: rgba(255, 255, 150, var(--left, 0.5));
 	}
 }
 </style>

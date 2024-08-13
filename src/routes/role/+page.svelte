@@ -36,14 +36,8 @@ $: grid_view = false;
 
 	<Filter />
 
-
-
 	<div class="hr">
-		<Switcher
-			left_label="▦"
-			right_label="▤"
-			bind:checked={grid_view}
-		/>
+		<Switcher left_label="▦" right_label="▤" bind:checked={grid_view} />
 	</div>
 
 	{@html sort_style}
@@ -83,7 +77,6 @@ $: grid_view = false;
 <Footer time={true} refs={get_refs([1, 1, 0])} />
 
 <style>
-
 .list {
 	display: grid;
 	grid-template-columns: 2fr repeat(6, 1fr);

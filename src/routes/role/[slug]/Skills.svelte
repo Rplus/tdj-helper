@@ -15,7 +15,6 @@ let adv_skills = find_adv_skills(pinyin, skills);
 
 let grid_mode = false;
 
-
 function gen_skill_string(skill = {}) {
 	return [
 		// skill.name,
@@ -28,17 +27,12 @@ function gen_skill_string(skill = {}) {
 		skill.range !== '-' && `　- 🎯 ${skill.range}`,
 	].filter(Boolean);
 }
-
 </script>
 
 <div class="hr">
 	五內技能
 
-	<Switcher
-		left_label="▦"
-		right_label="▤"
-		bind:checked={grid_mode}
-	/>
+	<Switcher left_label="▦" right_label="▤" bind:checked={grid_mode} />
 </div>
 
 <div class="skills" class:grid={grid_mode}>
@@ -83,11 +77,7 @@ function gen_skill_string(skill = {}) {
 
 		<div hidden={grid_mode}>
 			<MediaObj mobile_align="center">
-				<div
-					slot="img"
-					class="flex"
-					style="background-color: #0ff5;"
-				>
+				<div slot="img" class="flex" style="background-color: #0ff5;">
 					<Img
 						src={get_img('skill', skill.img, 96, lang)}
 						alt={skill.name}
@@ -107,7 +97,6 @@ function gen_skill_string(skill = {}) {
 				</svelte:fragment>
 			</MediaObj>
 		</div>
-
 	{/each}
 </div>
 
@@ -175,6 +164,4 @@ function gen_skill_string(skill = {}) {
 		}
 	}
 }
-
-
 </style>

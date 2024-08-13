@@ -40,17 +40,8 @@ function gen_skill_string(skill = {}) {
 
 {#each skills_set as set}
 	<MediaObj mobile_align="center">
-		<div
-			slot="img"
-			class="flex"
-			style="background-color: #ff02;"
-		>
-			<Img
-				src={get_img('skill', set[0].img, 96)}
-				alt={set[0].name}
-				width="96"
-				height="96"
-			/>
+		<div slot="img" class="flex" style="background-color: #ff02;">
+			<Img src={get_img('skill', set[0].img, 96)} alt={set[0].name} width="96" height="96" />
 		</div>
 
 		<svelte:fragment slot="name">

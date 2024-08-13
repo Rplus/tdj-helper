@@ -12,24 +12,23 @@ let raw_adv_skills_of_role_tw = read_json_file('./task/rawdata/_adv_skills_of_ro
 
 let adv_skills = read_json_file('./task/rawdata/_adv_skills_all.json');
 
-let adv_skills_of_role = raw_adv_skills_of_role
-	.reduce((all, role, index) => {
-		if (!role.adv_skills) {
-			return all;
-		}
-		let _adv_skills = raw_adv_skills_of_role_tw[index].adv_skills;
-
-		if (role.new) {
-			_adv_skills = role.adv_skills.map((skill, sindex) => {
-				if (skill.includes('·')) {
-					return raw_adv_skills_of_role_tw[index].adv_skills[sindex];
-				}
-				return skill
-			});
-		}
-		all[role.pinyin] = _adv_skills;
+let adv_skills_of_role = raw_adv_skills_of_role.reduce((all, role, index) => {
+	if (!role.adv_skills) {
 		return all;
-	}, {});
+	}
+	let _adv_skills = raw_adv_skills_of_role_tw[index].adv_skills;
+
+	if (role.new) {
+		_adv_skills = role.adv_skills.map((skill, sindex) => {
+			if (skill.includes('·')) {
+				return raw_adv_skills_of_role_tw[index].adv_skills[sindex];
+			}
+			return skill;
+		});
+	}
+	all[role.pinyin] = _adv_skills;
+	return all;
+}, {});
 
 outputJSON({
 	json: adv_skills_of_role,

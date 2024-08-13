@@ -157,7 +157,7 @@ export async function fetch_name(name = '') {
 }
 
 export function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
+	return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export function bilidata_to_obj(data = []) {

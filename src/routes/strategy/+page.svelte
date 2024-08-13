@@ -33,7 +33,7 @@ function gen_desc(str = '') {
 	let op = {
 		basic,
 		detail,
-	}
+	};
 
 	if (search_kwd.length) {
 		let reg = new RegExp(`(${search_kwd})`, 'g');
@@ -52,7 +52,6 @@ function gen_desc(str = '') {
 	<hr />
 
 	{#each strategy_data as strategy (strategy.name)}
-
 		{@const info = gen_desc(strategy.desc_html, search_kwd)}
 
 		<div
