@@ -123,13 +123,11 @@
   },
   {
     "name": "甦醒者",
-    "pinyin": "suxingzhe",
-    "new": true
+    "pinyin": "suxingzhe"
   },
   {
     "name": "景樂齊",
-    "pinyin": "jingleqi",
-    "new": true
+    "pinyin": "jingleqi"
   },
   {
     "name": "祿存高皇君",
@@ -277,7 +275,18 @@
   },
   {
     "name": "歸棹",
-    "pinyin": "guizhao"
+    "pinyin": "guizhao",
+    "adv_skills": [
+      "踏浪前行",
+      "踏浪前行·壹式",
+      "踏浪前行·貳式",
+      "鳴槍宣言",
+      "鳴槍宣言·壹式",
+      "鳴槍宣言·貳式",
+      "禁術滅擊",
+      "禁術滅擊·壹式",
+      "禁術滅擊·貳式"
+    ]
   },
   {
     "name": "羅淵女皇",

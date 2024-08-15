@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "甦醒者",
+        "is_new": "1",
+        "pinyin": "suxingzhe",
+        "weight": "1350",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "幽",
+        "career": "咒師",
+        "hero_icon": "Hero1152_HeadIcon_Basic"
+      },
+      {
+        "name": "景樂齊",
+        "is_new": "1",
+        "pinyin": "jingleqi",
+        "weight": "1340",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "祝由",
+        "hero_icon": "Hero1077_HeadIcon_Basic"
+      },
+      {
         "name": "波旬尉遲良",
         "is_new": "1",
         "pinyin": "boxunyuchiliang",
@@ -1367,7 +1389,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-08-13 08:51:42"
+    "now": "2024-08-15 19:34:47"
   },
   "status": 1,
   "switch": null,

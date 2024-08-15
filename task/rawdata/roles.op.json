@@ -108,27 +108,29 @@
     "path": "%E5%85%AD%E6%AD%A7"
   },
   {
-    "name": "苏醒者",
-    "is_new": "0",
+    "name": "甦醒者",
+    "is_new": "1",
     "pinyin": "suxingzhe",
-    "weight": "1370",
+    "weight": "1350",
     "expire": "",
     "rarity": "SSR",
     "prop": "幽",
-    "career": "咒师",
+    "career": "咒師",
     "hero_icon": "Hero1152_HeadIcon_Basic",
+    "pinyin_tw": "suxingzhe",
     "path": "%E8%8B%8F%E9%86%92%E8%80%85"
   },
   {
-    "name": "景乐齐",
-    "is_new": "0",
+    "name": "景樂齊",
+    "is_new": "1",
     "pinyin": "jingleqi",
-    "weight": "1360",
+    "weight": "1340",
     "expire": "",
     "rarity": "SSR",
     "prop": "炎",
     "career": "祝由",
     "hero_icon": "Hero1077_HeadIcon_Basic",
+    "pinyin_tw": "jingleqi",
     "path": "%E6%99%AF%E4%B9%90%E9%BD%90"
   },
   {
