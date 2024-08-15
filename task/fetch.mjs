@@ -1,5 +1,9 @@
 import fs from 'fs';
-import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
+import pLimit from 'p-limit';
+import { raw_data, writeFile, outputJSON, read_json_file } from './u.mjs';
+
+const FORCE_FETCH = false;
+const fetch_limit = pLimit(5);
 
 //
 //  #######  ########  ##    ##    ###    ##     ## ######## ##    ## ########  ######
@@ -77,6 +81,9 @@ outputJSON({
 // role's details
 
 let roles_data = raw_data.roles.rawdata || [];
+
+console.log('total roles length', roles_data.length);
+
 raw_data.role_deatil.rawdata = await Promise.all(
 	roles_data.slice(0).map((i) => fetch_role_detail(i)),
 );
@@ -102,13 +109,29 @@ outputJSON({
 //
 
 async function fetch_role_detail(role) {
-	let _url = role.pinyin_tw
-		? raw_data.role_deatil.url(role.pinyin_tw, 'tw')
-		: raw_data.role_deatil.url(role.pinyin, 'cn');
+	let _lang = role.pinyin_tw ? 'tw' : 'cn';
+	let _pinyin = _lang === 'tw' ? role.pinyin_tw : role.pinyin;
+	let _url = raw_data.role_deatil.url(_pinyin, _lang);
 
-	return fetch(_url)
-		.then((r) => r.json())
-		.then((data) => {
-			return data?.data?.data;
+	let fn = `./task/rawdata/tdj/${role.name}.${_lang}.json`;
+	let op;
+
+	if (fs.existsSync(fn) && !FORCE_FETCH) {
+		// console.log('load-ing: ', fn);
+		op = await read_json_file(fn);
+	} else {
+		op = await fetch_limit(() => {
+			console.log('parsing: ', role.name);
+
+			return fetch(_url)
+				.then((r) => r.json())
+				.then((raw) => {
+					let _op = raw.data?.data;
+					writeFile(fn, JSON.stringify(_op, null, 2));
+					return _op;
+				});
 		});
+	}
+
+	return op;
 }
