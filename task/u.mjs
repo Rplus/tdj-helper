@@ -169,7 +169,6 @@ export function bilidata_to_obj(data = []) {
 	}, {});
 }
 
-
 const fetch_limit = pLimit(5);
 export async function fetch_bwiki_props_by_name(name = '', force = false) {
 	let props;
