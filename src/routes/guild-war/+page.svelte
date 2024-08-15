@@ -25,8 +25,14 @@ let full_qs = '';
 $: full_qs = gen_qs(output);
 
 function gen_text(arr) {
-	let date = (day.toLocaleDateString()).slice(5);
-	let title = date + ' ' + arr.map((i, index) => i && `${index + 1}.${i.name}`).filter(Boolean).join(' ');
+	let date = day.toLocaleDateString().slice(5);
+	let title =
+		date +
+		' ' +
+		arr
+			.map((i, index) => i && `${index + 1}.${i.name}`)
+			.filter(Boolean)
+			.join(' ');
 	let content = arr.map((i, index) => i && `#${index + 1} ${i.name}:\n${i.member}\n\n`).join('');
 	return title + '\n\n' + content;
 }
