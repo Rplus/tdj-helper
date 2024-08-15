@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { Converter } from 'opencc-js';
 import * as OpenCC from 'opencc-js';
+import pLimit from 'p-limit';
 
 const customDict = [
 	['於小雪', '于小雪'],
@@ -168,6 +169,8 @@ export function bilidata_to_obj(data = []) {
 	}, {});
 }
 
+
+const fetch_limit = pLimit(5);
 export async function fetch_bwiki_props_by_name(name = '', force = false) {
 	let props;
 	let fn = `./task/rawdata/bili-wiki/${decodeURIComponent(name)}.txt`;
@@ -177,7 +180,7 @@ export async function fetch_bwiki_props_by_name(name = '', force = false) {
 	} else {
 		console.log('parsing: ', decodeURIComponent(name));
 
-		let raw = await fetch_name(name);
+		let raw = await fetch_limit(() => fetch_name(name));
 		props = bilidata_to_obj(raw?.query.data);
 		writeFile(fn, JSON.stringify(props));
 	}
