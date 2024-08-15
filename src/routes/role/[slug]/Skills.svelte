@@ -94,7 +94,7 @@ function gen_skill_string(skill = {}) {
 
 				<svelte:fragment slot="info">
 					<div class="pre-line skill-info">
-						<div style="padding-bottom: 0.25em;">
+						<div>
 							{'🔥'.repeat(parseFloat(skill.cost) || 1)}
 						</div>
 
