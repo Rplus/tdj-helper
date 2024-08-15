@@ -100,11 +100,11 @@ function gen_skill_string(skill = {}) {
 
 						<div>{clear_html(skill.desc)}</div>
 						<div class="skill-meta">
-							<div>　- ⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
-							<div>　- 🏹 {skill.shoot}</div>
-							<div>　- 🎯 {skill.range}</div>
-							<div>　- 🏷️ {skill.type && `${skill.type}`}</div>
-							<div>　- {skill.way === '被動' ? '💤' : '👊'} {skill.way}</div>
+							<div data-cd>⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
+							<div data-shoot={skill.shoot}>🏹 {skill.shoot}</div>
+							<div data-range={skill.range}>🎯 {skill.range}</div>
+							<div data-type={skill.type} data-way={skill.way}>🏷️ {skill.type}</div>
+							<div data-way={skill.way}>{skill.way === '被動' ? '💤' : '👊'} {skill.way}</div>
 						</div>
 						<!--
 						{gen_skill_string(skill).join('\n')}
@@ -186,8 +186,25 @@ function gen_skill_string(skill = {}) {
 }
 
 .skill-meta {
-	margin-top: 0.25em;
+	margin-block-start: 0.25em;
+	margin-inline-start: 1em;
 	opacity: 0.75;
 	font-size: smaller;
+
+	& > div {
+		&[data-type^="主"][data-way^="主"],
+		&[data-type^="被"][data-way^="被"],
+		&[data-range="無"],
+		&[data-range="无"],
+		&[data-shoot="無"],
+		&[data-shoot="无"] {
+			display: none;
+		}
+
+		&::before {
+			content: '- ';
+		}
+	}
+
 }
 </style>
