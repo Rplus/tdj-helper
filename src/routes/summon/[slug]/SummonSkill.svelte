@@ -6,7 +6,6 @@ import SummonSkill from './SummonSkill.svelte';
 console.log(111, skill);
 </script>
 
-
 <strong>{skill.name}</strong>
 
 <div class="pre-line skill-info">
@@ -28,10 +27,8 @@ console.log(111, skill);
 		{#if skill.type}
 			<div data-type={skill.type} data-way={skill.way}>🏷️ {skill.type}</div>
 		{/if}
-
 	</div>
 </div>
-
 
 {#if skill.sub_skills}
 	{#each skill.sub_skills as sub_skill}
@@ -41,7 +38,6 @@ console.log(111, skill);
 	{/each}
 {/if}
 
-
 <style>
 .skill-meta {
 	margin-block-start: 0.25em;
@@ -50,9 +46,9 @@ console.log(111, skill);
 	font-size: smaller;
 
 	& > div {
-		&[data-cd="-"],
-		&[data-range="-"],
-		&[data-shoot="-"] {
+		&[data-cd='-'],
+		&[data-range='-'],
+		&[data-shoot='-'] {
 			display: none;
 		}
 

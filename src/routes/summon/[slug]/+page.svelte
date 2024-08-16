@@ -12,7 +12,6 @@ import Icon from '../Icon.svelte';
 import SummonSkill from './SummonSkill.svelte';
 
 export let data;
-
 </script>
 
 <Header parent_path="/summon" title="召喚物：{data.summon?.name}" />
@@ -87,16 +86,15 @@ export let data;
 
 	{#each data.summon.skills as skill}
 		<li class="mb-2">
-			<SummonSkill skill={skill} />
+			<SummonSkill {skill} />
 		</li>
 	{/each}
 </ul>
 
 <Footer time={true} refs={get_refs([1, 1, 1])} />
 
-
 <style>
-	ul {
-		padding-left: 1em;
-	}
+ul {
+	padding-left: 1em;
+}
 </style>

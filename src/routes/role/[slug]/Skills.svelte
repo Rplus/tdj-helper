@@ -188,12 +188,12 @@ function gen_skill_string(skill = {}) {
 	font-size: smaller;
 
 	& > div {
-		&[data-type^="主"][data-way^="主"],
-		&[data-type^="被"][data-way^="被"],
-		&[data-range="無"],
-		&[data-range="无"],
-		&[data-shoot="無"],
-		&[data-shoot="无"] {
+		&[data-type^='主'][data-way^='主'],
+		&[data-type^='被'][data-way^='被'],
+		&[data-range='無'],
+		&[data-range='无'],
+		&[data-shoot='無'],
+		&[data-shoot='无'] {
 			display: none;
 		}
 
@@ -201,6 +201,5 @@ function gen_skill_string(skill = {}) {
 			content: '- ';
 		}
 	}
-
 }
 </style>
