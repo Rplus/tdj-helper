@@ -181,10 +181,6 @@ function gen_skill_string(skill = {}) {
 	}
 }
 
-.skill-info {
-	line-height: 1.3;
-}
-
 .skill-meta {
 	margin-block-start: 0.25em;
 	margin-inline-start: 1em;
