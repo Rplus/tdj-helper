@@ -34,9 +34,11 @@ $: {
 
 {#if browser}
 	{#await promise}
-		<div class="mb-2"></div>
-		<div class="hr">...waiting ⏳</div>
-		<div class="mb-2"></div>
+		<div style="min-height: 80vh;">
+			<div class="mb-2"></div>
+			<div class="hr">...waiting ⏳</div>
+			<div class="mb-2"></div>
+		</div>
 	{:then detail_data}
 		{#if detail_data}
 			<div class="mb-2" />
