@@ -183,6 +183,10 @@ button:not([disabled]) {
 	margin-bottom: 2em;
 }
 
+img {
+	font-size: smaller;
+}
+
 form.form {
 	& label {
 		cursor: pointer;
