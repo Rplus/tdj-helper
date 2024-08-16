@@ -16,7 +16,7 @@ function switch_tab(title) {
 }
 
 let _style = '';
-$: injected_style = _style ? `<style>${_style}</style>` : '';
+$: injected_style = _style || '';
 
 function mark_dup() {
 	console.log('mark_dup');
@@ -88,7 +88,7 @@ function handle_data(data = []) {
 }
 </script>
 
-<div>{@html injected_style}</div>
+<svelte:element this='style'>{injected_style}</svelte:element>
 
 <form
 	id="tableForm"

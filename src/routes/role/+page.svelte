@@ -23,9 +23,9 @@ function sort_by_prop(prop = '') {
 		sort_prop = prop;
 		sort_dir = -1;
 	}
-	sort_style = `<style> .role {
+	sort_style = `.role {
 		order: calc(var(--${prop}) * ${sort_dir});
-	} </style>`;
+	}`;
 }
 
 $: grid_view = false;
@@ -40,7 +40,7 @@ $: grid_view = false;
 		<Switcher left_label="▦" right_label="▤" bind:checked={grid_view} />
 	</div>
 
-	{@html sort_style}
+	<svelte:element this='style'>{sort_style}</svelte:element>
 
 	<div class="list" class:grid_view>
 		<div class="role role-head type-list">

@@ -34,8 +34,8 @@ let search_kwd = '';
 let input_value = (browser && new URLSearchParams(location.search).get(query_param)) || '';
 let is_composing = false;
 
-$: filter_style = `<style>${gen_filter_style(filters)}</style>`;
-$: search_style = search_kwd ? `<style>${gen_search_style(search_kwd)}</style>` : '';
+$: filter_style = `${gen_filter_style(filters)}`;
+$: search_style = search_kwd ? `${gen_search_style(search_kwd)}` : '';
 
 // $: console.log({filters});
 
@@ -185,8 +185,8 @@ function allow_submit_next_time(e) {
 	{/each}
 
 	<div>
-		{@html filter_style}
-		{@html search_style}
+		<svelte:element this='style'>{filter_style}</svelte:element>
+		<svelte:element this='style'>{search_style}</svelte:element>
 	</div>
 </form>
 

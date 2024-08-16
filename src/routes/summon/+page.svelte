@@ -14,19 +14,22 @@ let { summons } = data;
 let sort_prop = '';
 let sort_dir = -1;
 let sort_style = ``;
+
 function sort_by_prop(prop = '') {
 	if (!prop) {
 		sort_style = '';
 	}
+
 	if (sort_prop === prop) {
 		sort_dir = -sort_dir;
 	} else {
 		sort_prop = prop;
 		sort_dir = -1;
 	}
-	sort_style = `<style> .role {
+
+	sort_style = `.role {
 		order: calc(var(--${prop}) * ${sort_dir});
-	} </style>`;
+	}`;
 }
 </script>
 
@@ -35,7 +38,7 @@ function sort_by_prop(prop = '') {
 
 	<Filter />
 
-	{@html sort_style}
+	<svelte:element this="style">{sort_style}</svelte:element>
 
 	<div class="list">
 		<div class="role role-head type-list">

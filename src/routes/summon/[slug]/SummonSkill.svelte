@@ -3,7 +3,6 @@ export let skill = {};
 
 import { clear_html } from '$lib/u.js';
 import SummonSkill from './SummonSkill.svelte';
-console.log(111, skill);
 </script>
 
 <strong>{skill.name}</strong>
