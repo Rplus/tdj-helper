@@ -32,6 +32,12 @@ $: {
 
 <NavItem prev={data.role.siblings.prev} next={data.role.siblings.next} cate="role" />
 
+<div class="hr">
+	射程 🏹 {data.role.range}
+	<br>
+	移動 👣 {data.role.speed}
+</div>
+
 {#if browser}
 	{#await promise}
 		<div style="min-height: 80vh;">
