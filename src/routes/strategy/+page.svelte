@@ -10,6 +10,7 @@ import Item from './Item.svelte';
 
 let filter_cates = [
 	{
+		// prop: 'career',
 		prop: 'prop',
 		title: '職業',
 		multi: true,
