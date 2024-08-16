@@ -6,6 +6,8 @@ export let gen_selector = (prop, value, multi) => `[data-${prop}${multi ? '*' : 
 export let search_cb = null;
 
 import { browser } from '$app/environment';
+import { replaceState } from '$app/navigation';
+import { onMount } from 'svelte';
 
 // ### filter_cates sample
 // # TODO: values contain (value, title)?
@@ -37,6 +39,44 @@ let is_composing = false;
 $: filter_style = `${gen_filter_style(filters)}`;
 $: search_style = search_kwd ? `${gen_search_style(search_kwd)}` : '';
 
+let loaded = false;
+
+$: {
+	update_state('?' + gen_qs(filters, search_kwd));
+}
+
+onMount(() => {
+	loaded = true;
+});
+
+function update_state(qs = '') {
+	if (loaded) {
+		replaceState(qs);
+	}
+}
+
+function gen_qs(filters, search_kwd = '') {
+	let qs = filters
+		.map((cate) => {
+			let keys = cate.options
+				.map((option) => {
+					return option.checked ? option.key : null;
+				})
+				.filter(Boolean)
+				.join('|');
+
+			return keys.length ? `${cate.prop}=${keys}` : null;
+		})
+		.filter(Boolean)
+		.join('&');
+
+	if (search_kwd) {
+		qs += `&q=${search_kwd}`;
+	}
+
+	return qs;
+}
+
 // $: console.log({filters});
 
 $: {
@@ -50,11 +90,17 @@ $: {
 
 // ∪ &cup; ∩ &cap;
 function init_filters() {
-	return filter_cates.map((cate) => ({
+	let preset_filters = get_qs();
+
+	let filter_mapping = {};
+
+	let init_filters = filter_cates.map((cate, cate_index) => ({
 		prop: cate.prop,
 		title: cate.title,
 		multi: cate.multi,
 		options: cate.values.map((key, index) => {
+			filter_mapping[`${cate.prop}.${key}`] = [cate_index, index];
+
 			return {
 				key,
 				checked: false,
@@ -62,6 +108,29 @@ function init_filters() {
 			};
 		}),
 	}));
+
+	// set filter init value follow with qs
+	preset_filters.forEach((i) => {
+		if (!filter_mapping[i] || !filter_mapping[i].length) {
+			return;
+		}
+
+		let matched_index = filter_mapping[i];
+		init_filters[matched_index[0]].options[matched_index[1]].checked = true;
+	});
+
+	return init_filters;
+}
+
+function get_qs() {
+	let qs;
+	if (browser) {
+		qs = new URLSearchParams(location.search);
+	}
+	if (!qs) {
+		return [];
+	}
+	return [...qs].map((i) => i[1].split('|').map((key) => `${i[0]}.${key}`)).flat();
 }
 
 function gen_not_selector(selector_str) {
