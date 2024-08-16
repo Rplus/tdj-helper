@@ -25,7 +25,7 @@ let full_qs = '';
 $: full_qs = gen_qs(output);
 
 function gen_text(arr) {
-	let date = day.toLocaleDateString().slice(5);
+	let date = (new Date()).toLocaleDateString().slice(5);
 	let title =
 		date +
 		' ' +
