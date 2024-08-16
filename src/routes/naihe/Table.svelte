@@ -88,7 +88,7 @@ function handle_data(data = []) {
 }
 </script>
 
-<svelte:element this='style'>{injected_style}</svelte:element>
+<svelte:element this="style">{injected_style}</svelte:element>
 
 <form
 	id="tableForm"

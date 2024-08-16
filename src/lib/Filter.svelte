@@ -185,8 +185,8 @@ function allow_submit_next_time(e) {
 	{/each}
 
 	<div>
-		<svelte:element this='style'>{filter_style}</svelte:element>
-		<svelte:element this='style'>{search_style}</svelte:element>
+		<svelte:element this="style">{filter_style}</svelte:element>
+		<svelte:element this="style">{search_style}</svelte:element>
 	</div>
 </form>
 

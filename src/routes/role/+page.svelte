@@ -40,7 +40,7 @@ $: grid_view = false;
 		<Switcher left_label="▦" right_label="▤" bind:checked={grid_view} />
 	</div>
 
-	<svelte:element this='style'>{sort_style}</svelte:element>
+	<svelte:element this="style">{sort_style}</svelte:element>
 
 	<div class="list" class:grid_view>
 		<div class="role role-head type-list">
