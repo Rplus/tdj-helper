@@ -9,20 +9,10 @@ import Footer from '$lib/Footer.svelte';
 // import MediaObj from '$lib/MediaObj.svelte';
 // import MultiLv from '$lib/MultiLv.svelte';
 import Icon from '../Icon.svelte';
+import SummonSkill from './SummonSkill.svelte';
 
 export let data;
 
-function gen_skill_string(skill = {}, with_name = false) {
-	return [
-		with_name && '\n🔁 ' + skill.name,
-		clear_html(skill.desc),
-		skill.cd && skill.cd !== '-' ? `　- ⏳ ${skill.cd}` : '',
-		skill.shoot && skill.shoot !== '-' ? `　- 🏹 ${skill.shoot}` : '',
-		skill.range && skill.range !== '-' ? `　- 🎯 ${skill.range}` : '',
-	]
-		.filter(Boolean)
-		.join('\n');
-}
 </script>
 
 <Header parent_path="/summon" title="召喚物：{data.summon?.name}" />
@@ -97,22 +87,16 @@ function gen_skill_string(skill = {}, with_name = false) {
 
 	{#each data.summon.skills as skill}
 		<li class="mb-2">
-			<strong>{skill.name}</strong>
-
-			<div class="pre-line">
-				{gen_skill_string(skill)}
-
-				{#if skill.sub_skills}
-					{#each skill.sub_skills as sub_skill}
-						<br />
-						🔁 <strong>{sub_skill.name}</strong>
-						<br />
-						{gen_skill_string(sub_skill)}
-					{/each}
-				{/if}
-			</div>
+			<SummonSkill skill={skill} />
 		</li>
 	{/each}
 </ul>
 
 <Footer time={true} refs={get_refs([1, 1, 1])} />
+
+
+<style>
+	ul {
+		padding-left: 1em;
+	}
+</style>
