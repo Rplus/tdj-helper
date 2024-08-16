@@ -28,7 +28,7 @@ function gen_text(arr) {
 	let date = (new Date()).toLocaleDateString().slice(5);
 	let title =
 		date +
-		' ' +
+		' 公會打野 ' +
 		arr
 			.map((i, index) => i && `${index + 1}.${i.name}`)
 			.filter(Boolean)
