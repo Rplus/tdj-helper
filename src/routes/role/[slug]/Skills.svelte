@@ -100,7 +100,7 @@ function gen_skill_string(skill = {}) {
 
 						<div>{clear_html(skill.desc)}</div>
 						<div class="skill-meta">
-							<div data-cd>⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
+							<div data-cd data-way={skill.way}>⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
 							<div data-shoot={skill.shoot}>🏹 {skill.shoot}</div>
 							<div data-range={skill.range}>🎯 {skill.range}</div>
 							<div data-type={skill.type} data-way={skill.way}>🏷️ {skill.type}</div>
@@ -188,6 +188,7 @@ function gen_skill_string(skill = {}) {
 	font-size: smaller;
 
 	& > div {
+		&[data-cd][data-way^='被'],
 		&[data-type^='主'][data-way^='主'],
 		&[data-type^='被'][data-way^='被'],
 		&[data-range='無'],
