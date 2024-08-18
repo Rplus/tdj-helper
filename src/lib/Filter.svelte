@@ -89,9 +89,7 @@ $: {
 }
 
 // ∪ &cup; ∩ &cap;
-function init_filters() {
-	let preset_filters = get_qs();
-
+function init_filters(init_with_qs = true) {
 	let filter_mapping = {};
 
 	let init_filters = filter_cates.map((cate, cate_index) => ({
@@ -108,6 +106,12 @@ function init_filters() {
 			};
 		}),
 	}));
+
+	if (!init_with_qs) {
+		return init_filters;
+	}
+
+	let preset_filters = get_qs();
 
 	// set filter init value follow with qs
 	preset_filters.forEach((i) => {
@@ -185,7 +189,7 @@ function gen_search_style(_kwd) {
 }
 
 function reset_filter() {
-	filters = init_filters();
+	filters = init_filters(false);
 	input_value = '';
 }
 
