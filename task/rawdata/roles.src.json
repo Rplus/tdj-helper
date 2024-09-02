@@ -1,5 +1,48 @@
 [
   {
+    "name": "朧夢嫿妖",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero1084_HeadIcon_Basic",
+    "career": "祝由",
+    "pinyin": "longmenghuayao",
+    "path": "%E8%83%A7%E6%A2%A6%E5%A9%B3%E5%A6%96",
+    "pic": "Hero1084_img",
+    "position": "治療",
+    "range": "2",
+    "speed": "3",
+    "status": {
+      "hp": 184,
+      "atk_mag": 83,
+      "atk_phy": 12,
+      "def_mag": 42,
+      "def_phy": 31,
+      "crit": 22
+    }
+  },
+  {
+    "name": "桑然",
+    "rarity": "SSR",
+    "prop": "雷",
+    "hero_icon": "Hero1085_HeadIcon_Basic",
+    "career": "鐵衛",
+    "pinyin": "sangran",
+    "path": "%E6%A1%91%E7%84%B6",
+    "pic": "Hero1085_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "strategy": "蒼原林嘯陣",
+    "status": {
+      "hp": 245,
+      "atk_mag": 12,
+      "atk_phy": 85,
+      "def_mag": 34,
+      "def_phy": 36,
+      "crit": 16
+    }
+  },
+  {
     "name": "悟空",
     "rarity": "SSR",
     "prop": "炎",

@@ -1,10 +1,34 @@
 [
   {
-    "name": "悟空",
+    "name": "胧梦婳妖",
     "is_new": "1",
+    "pinyin": "longmenghuayao",
+    "weight": "1480",
+    "expire": "45546",
+    "rarity": "SSR",
+    "prop": "暗",
+    "career": "祝由",
+    "hero_icon": "Hero1084_HeadIcon_Basic",
+    "path": "%E8%83%A7%E6%A2%A6%E5%A9%B3%E5%A6%96"
+  },
+  {
+    "name": "桑然",
+    "is_new": "1",
+    "pinyin": "sangran",
+    "weight": "1470",
+    "expire": "45546",
+    "rarity": "SSR",
+    "prop": "雷",
+    "career": "铁卫",
+    "hero_icon": "Hero1085_HeadIcon_Basic",
+    "path": "%E6%A1%91%E7%84%B6"
+  },
+  {
+    "name": "悟空",
+    "is_new": "",
     "pinyin": "wukong",
     "weight": "1460",
-    "expire": "45518",
+    "expire": "",
     "rarity": "SSR",
     "prop": "炎",
     "career": "铁卫",
@@ -13,10 +37,10 @@
   },
   {
     "name": "白骨夫人",
-    "is_new": "1",
+    "is_new": "",
     "pinyin": "baigufuren",
     "weight": "1450",
-    "expire": "45518",
+    "expire": "",
     "rarity": "SSR",
     "prop": "幽",
     "career": "斗将",
@@ -25,10 +49,10 @@
   },
   {
     "name": "地仙罗刹",
-    "is_new": "1",
+    "is_new": "",
     "pinyin": "dixianluocha",
     "weight": "1440",
-    "expire": "45518",
+    "expire": "",
     "rarity": "SSR",
     "prop": "冰",
     "career": "咒师",
@@ -37,7 +61,7 @@
   },
   {
     "name": "天玄义剑",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "tianxuanyijian",
     "weight": "1430",
     "expire": "",
@@ -49,7 +73,7 @@
   },
   {
     "name": "妙弋",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "miaoyi",
     "weight": "1420",
     "expire": "",
@@ -61,7 +85,7 @@
   },
   {
     "name": "陆文生",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "luwensheng",
     "weight": "1410",
     "expire": "",
@@ -73,7 +97,7 @@
   },
   {
     "name": "惊飞羽",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "jingfeiyu",
     "weight": "1400",
     "expire": "",
@@ -85,7 +109,7 @@
   },
   {
     "name": "玉觞",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "yushang",
     "weight": "1390",
     "expire": "",
@@ -97,7 +121,7 @@
   },
   {
     "name": "六歧",
-    "is_new": "0",
+    "is_new": "",
     "pinyin": "liuqi",
     "weight": "1380",
     "expire": "",

@@ -2,6 +2,84 @@
   "data": {
     "data": [
       {
+        "name": "天罡盔",
+        "icon": "Equip_tiangangkui",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+7%，暴击率+7%。主动攻击，对遭受暴击的目标追加一次「固定伤害」（物攻的15%）\n仅侠客、铁卫、御风、羽士可用",
+        "weight": "2390",
+        "Status": 1,
+        "status": 1,
+        "job": "1110010",
+        "type": "100000"
+      },
+      {
+        "name": "清灵护身",
+        "icon": "Equip_qinglinghushen",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物防+5%，气血+5%，遭受单体攻击时，若自身满血则免伤提高20%\n仅羽士、咒师、祝由可用",
+        "weight": "2380",
+        "Status": 1,
+        "status": 1,
+        "job": "0101100",
+        "type": "010001"
+      },
+      {
+        "name": "星斗挪移",
+        "icon": "Equip_xingdounuoyi",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物防+5%，气血+5%，行动结束时，如果本回合造成过伤害，则清除自身1圈范围内敌方机关，并对自身周围3格内的1个敌人施加「疲弱I」状态，持续1回合\n「疲弱I」：物攻，法攻-20%\n仅侠客、铁卫、御风、斗将可用",
+        "weight": "2370",
+        "Status": 1,
+        "status": 1,
+        "job": "1010011",
+        "type": "010001"
+      },
+      {
+        "name": "芙蕖异馥",
+        "icon": "Equip_fuquyifu",
+        "position": "3",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "法防+7%，气血+7%，行动结束时，如果本回合使用过绝学，则对自身3格范围内物攻/法攻属性最高的2个其他友方施加「神睿I」状态，持续1回合。\n「神睿I」：物攻、法攻+20%\n仅羽士、咒师、祝由可用",
+        "weight": "2360",
+        "Status": 1,
+        "status": 1,
+        "job": "0101100",
+        "type": "000101"
+      },
+      {
+        "name": "裂金断玉",
+        "icon": "Equip_liejinduanyu",
+        "position": "4",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+7%，气血+7%，主动攻击「对战中」伤害、穿透提升8%。若目标未携带「有益状态」「对战中」伤害、穿透额外提高8%。\n仅侠客、铁卫、羽士、御风可用",
+        "weight": "2350",
+        "Status": 1,
+        "status": 1,
+        "job": "1110010",
+        "type": "100001"
+      },
+      {
+        "name": "苍翠如意",
+        "icon": "Equip_cangcuiruyi",
+        "position": "4",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "治疗效果+12%，免疫「移动力降低」「封咒」状态",
+        "weight": "2340",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "000010"
+      },
+      {
         "name": "凤翅紫金冠",
         "icon": "Equip_fengchizijinguan",
         "position": "1",
@@ -2927,7 +3005,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-08-15 19:34:43"
+    "now": "2024-09-02 19:31:18"
   },
   "status": 1,
   "switch": null,

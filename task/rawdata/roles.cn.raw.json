@@ -2,11 +2,35 @@
   "data": {
     "data": [
       {
-        "name": "悟空",
+        "name": "胧梦婳妖",
         "is_new": "1",
+        "pinyin": "longmenghuayao",
+        "weight": "1480",
+        "expire": "45546",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "祝由",
+        "hero_icon": "Hero1084_HeadIcon_Basic",
+        "path": "%E8%83%A7%E6%A2%A6%E5%A9%B3%E5%A6%96"
+      },
+      {
+        "name": "桑然",
+        "is_new": "1",
+        "pinyin": "sangran",
+        "weight": "1470",
+        "expire": "45546",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "铁卫",
+        "hero_icon": "Hero1085_HeadIcon_Basic",
+        "path": "%E6%A1%91%E7%84%B6"
+      },
+      {
+        "name": "悟空",
+        "is_new": "",
         "pinyin": "wukong",
         "weight": "1460",
-        "expire": "45518",
+        "expire": "",
         "rarity": "SSR",
         "prop": "炎",
         "career": "铁卫",
@@ -15,10 +39,10 @@
       },
       {
         "name": "白骨夫人",
-        "is_new": "1",
+        "is_new": "",
         "pinyin": "baigufuren",
         "weight": "1450",
-        "expire": "45518",
+        "expire": "",
         "rarity": "SSR",
         "prop": "幽",
         "career": "斗将",
@@ -27,10 +51,10 @@
       },
       {
         "name": "地仙罗刹",
-        "is_new": "1",
+        "is_new": "",
         "pinyin": "dixianluocha",
         "weight": "1440",
-        "expire": "45518",
+        "expire": "",
         "rarity": "SSR",
         "prop": "冰",
         "career": "咒师",
@@ -39,7 +63,7 @@
       },
       {
         "name": "天玄义剑",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "tianxuanyijian",
         "weight": "1430",
         "expire": "",
@@ -51,7 +75,7 @@
       },
       {
         "name": "妙弋",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "miaoyi",
         "weight": "1420",
         "expire": "",
@@ -63,7 +87,7 @@
       },
       {
         "name": "陆文生",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "luwensheng",
         "weight": "1410",
         "expire": "",
@@ -75,7 +99,7 @@
       },
       {
         "name": "惊飞羽",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "jingfeiyu",
         "weight": "1400",
         "expire": "",
@@ -87,7 +111,7 @@
       },
       {
         "name": "玉觞",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "yushang",
         "weight": "1390",
         "expire": "",
@@ -99,7 +123,7 @@
       },
       {
         "name": "六歧",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "liuqi",
         "weight": "1380",
         "expire": "",
@@ -111,7 +135,7 @@
       },
       {
         "name": "苏醒者",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "suxingzhe",
         "weight": "1370",
         "expire": "",
@@ -123,7 +147,7 @@
       },
       {
         "name": "景乐齐",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "jingleqi",
         "weight": "1360",
         "expire": "",
@@ -135,7 +159,7 @@
       },
       {
         "name": "禄存高皇君",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "lucungaohuangjun",
         "weight": "1350",
         "expire": "",
@@ -147,7 +171,7 @@
       },
       {
         "name": "相胤",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "xiangyin",
         "weight": "1340",
         "expire": "",
@@ -159,7 +183,7 @@
       },
       {
         "name": "波旬尉迟良",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "boxunyuchiliang",
         "weight": "1330",
         "expire": "",
@@ -171,7 +195,7 @@
       },
       {
         "name": "苍狼",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "canglang",
         "weight": "1320",
         "expire": "",
@@ -183,7 +207,7 @@
       },
       {
         "name": "白鹿",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "bailu",
         "weight": "1310",
         "expire": "",
@@ -195,7 +219,7 @@
       },
       {
         "name": "律",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "lvlv",
         "weight": "1300",
         "expire": "",
@@ -207,7 +231,7 @@
       },
       {
         "name": "冰蝉玉剑",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "bingchanyujian",
         "weight": "1290",
         "expire": "",
@@ -219,7 +243,7 @@
       },
       {
         "name": "妮可",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "nike",
         "weight": "1280",
         "expire": "",
@@ -231,7 +255,7 @@
       },
       {
         "name": "李靖",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "lijing",
         "weight": "1270",
         "expire": "",
@@ -243,7 +267,7 @@
       },
       {
         "name": "赛特",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "saite",
         "weight": "1260",
         "expire": "",
@@ -255,7 +279,7 @@
       },
       {
         "name": "雪芝",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "xuezhi",
         "weight": "1250",
         "expire": "",
@@ -267,7 +291,7 @@
       },
       {
         "name": "瞿牧之",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "qumuzhi",
         "weight": "1240",
         "expire": "",
@@ -279,7 +303,7 @@
       },
       {
         "name": "瑶姬",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "yaoji",
         "weight": "1230",
         "expire": "",
@@ -291,7 +315,7 @@
       },
       {
         "name": "双曜冰璃",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "shuangyaobingli",
         "weight": "1220",
         "expire": "",
@@ -303,7 +327,7 @@
       },
       {
         "name": "剑魂·天尊",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "jianhuntianzun",
         "weight": "1210",
         "expire": "",
@@ -315,7 +339,7 @@
       },
       {
         "name": "朱槿",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "zhujin",
         "weight": "1200",
         "expire": "",
@@ -327,7 +351,7 @@
       },
       {
         "name": "月孛",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "yuebo",
         "weight": "1190",
         "expire": "",
@@ -339,7 +363,7 @@
       },
       {
         "name": "萧熇",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "xiaohe",
         "weight": "1180",
         "expire": "",
@@ -351,7 +375,7 @@
       },
       {
         "name": "太玄灵狐",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "taixuanlinghu",
         "weight": "1170",
         "expire": "",
@@ -363,7 +387,7 @@
       },
       {
         "name": "九色鹿",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "jiuselu",
         "weight": "1160",
         "expire": "",
@@ -375,7 +399,7 @@
       },
       {
         "name": "伎乐飞天",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "jiyuefeitian",
         "weight": "1150",
         "expire": "",
@@ -387,7 +411,7 @@
       },
       {
         "name": "安逸",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "anyi",
         "weight": "1140",
         "expire": "",
@@ -399,7 +423,7 @@
       },
       {
         "name": "御卿",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "yuqing",
         "weight": "1130",
         "expire": "",
@@ -411,7 +435,7 @@
       },
       {
         "name": "霸熊高戚",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "baxionggaoqi",
         "weight": "1120",
         "expire": "",
@@ -423,7 +447,7 @@
       },
       {
         "name": "双双",
-        "is_new": "0",
+        "is_new": "",
         "pinyin": "shuangshuang",
         "weight": "1110",
         "expire": "",
@@ -435,7 +459,7 @@
       },
       {
         "name": "归棹",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1100",
         "pinyin": "guizhao",
         "hero_icon": "Hero1060_HeadIcon_Basic",
@@ -447,7 +471,7 @@
       },
       {
         "name": "罗渊女皇",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1090",
         "pinyin": "luoyuannvhuang",
         "hero_icon": "Hero1061_HeadIcon_Basic",
@@ -459,7 +483,7 @@
       },
       {
         "name": "幽篁",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1080",
         "pinyin": "youhuang",
         "rarity": "SSR",
@@ -471,7 +495,7 @@
       },
       {
         "name": "朝歌",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1070",
         "pinyin": "zhaoge",
         "rarity": "SSR",
@@ -483,7 +507,7 @@
       },
       {
         "name": "露葵",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1060",
         "pinyin": "lukui",
         "rarity": "SSR",
@@ -495,7 +519,7 @@
       },
       {
         "name": "胧夜",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1050",
         "pinyin": "longye",
         "rarity": "SSR",
@@ -507,7 +531,7 @@
       },
       {
         "name": "殷千炀",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1040",
         "pinyin": "yinqianyang",
         "rarity": "SSR",
@@ -519,7 +543,7 @@
       },
       {
         "name": "少侠应奉仁",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1030",
         "pinyin": "shaoxiayingfengren",
         "rarity": "SSR",
@@ -531,7 +555,7 @@
       },
       {
         "name": "公孙七月",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1020",
         "pinyin": "gongsunqiyue",
         "rarity": "SSR",
@@ -543,7 +567,7 @@
       },
       {
         "name": "傅雅鱼",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1010",
         "pinyin": "fuyayu",
         "rarity": "SSR",
@@ -555,7 +579,7 @@
       },
       {
         "name": "西莉亚",
-        "is_new": "0",
+        "is_new": "",
         "weight": "1000",
         "pinyin": "xiliya",
         "rarity": "SSR",
@@ -567,7 +591,7 @@
       },
       {
         "name": "星占贤者",
-        "is_new": "0",
+        "is_new": "",
         "weight": "990",
         "pinyin": "xingzhanxianzhe",
         "rarity": "SSR",
@@ -579,7 +603,7 @@
       },
       {
         "name": "白素贞",
-        "is_new": "0",
+        "is_new": "",
         "weight": "980",
         "pinyin": "baisuzhen",
         "rarity": "SSR",
@@ -591,7 +615,7 @@
       },
       {
         "name": "青",
-        "is_new": "0",
+        "is_new": "",
         "weight": "970",
         "pinyin": "qing",
         "rarity": "SSR",
@@ -603,7 +627,7 @@
       },
       {
         "name": "法海",
-        "is_new": "0",
+        "is_new": "",
         "weight": "960",
         "pinyin": "fahai",
         "rarity": "SSR",
@@ -615,7 +639,7 @@
       },
       {
         "name": "阿秋",
-        "is_new": "0",
+        "is_new": "",
         "weight": "950",
         "pinyin": "aqiu",
         "rarity": "SSR",
@@ -627,7 +651,7 @@
       },
       {
         "name": "呼延朔",
-        "is_new": "0",
+        "is_new": "",
         "weight": "940",
         "pinyin": "huyanshuo",
         "rarity": "SSR",
@@ -639,7 +663,7 @@
       },
       {
         "name": "卓尔",
-        "is_new": "0",
+        "is_new": "",
         "weight": "930",
         "pinyin": "zhuoer",
         "rarity": "SSR",
@@ -651,7 +675,7 @@
       },
       {
         "name": "巴艾迩",
-        "is_new": "0",
+        "is_new": "",
         "weight": "920",
         "pinyin": "baaier",
         "rarity": "SSR",
@@ -663,7 +687,7 @@
       },
       {
         "name": "神阙青衣",
-        "is_new": "0",
+        "is_new": "",
         "weight": "910",
         "pinyin": "shenqueqingyi",
         "rarity": "SSR",
@@ -675,7 +699,7 @@
       },
       {
         "name": "真胤",
-        "is_new": "0",
+        "is_new": "",
         "weight": "900",
         "pinyin": "zhenyin",
         "rarity": "SSR",
@@ -687,7 +711,7 @@
       },
       {
         "name": "魔化皇甫申",
-        "is_new": "0",
+        "is_new": "",
         "weight": "890",
         "pinyin": "mohuahuangfushen",
         "rarity": "SSR",
@@ -699,7 +723,7 @@
       },
       {
         "name": "允迦",
-        "is_new": "0",
+        "is_new": "",
         "weight": "880",
         "pinyin": "yunjia",
         "rarity": "SSR",
@@ -711,7 +735,7 @@
       },
       {
         "name": "尉迟良",
-        "is_new": "0",
+        "is_new": "",
         "weight": "870",
         "pinyin": "yuchiliang",
         "rarity": "N",
@@ -723,7 +747,7 @@
       },
       {
         "name": "虞兮",
-        "is_new": "0",
+        "is_new": "",
         "weight": "860",
         "pinyin": "yuxi",
         "rarity": "N",
@@ -735,7 +759,7 @@
       },
       {
         "name": "鹿昭依",
-        "is_new": "0",
+        "is_new": "",
         "weight": "850",
         "pinyin": "luzhaoyi",
         "rarity": "N",
@@ -747,7 +771,7 @@
       },
       {
         "name": "展昭",
-        "is_new": "0",
+        "is_new": "",
         "weight": "840",
         "pinyin": "zhanzhao",
         "rarity": "SSR",
@@ -759,7 +783,7 @@
       },
       {
         "name": "白玉堂",
-        "is_new": "0",
+        "is_new": "",
         "weight": "830",
         "pinyin": "baiyutang",
         "rarity": "SSR",
@@ -771,7 +795,7 @@
       },
       {
         "name": "憛香",
-        "is_new": "0",
+        "is_new": "",
         "weight": "820",
         "pinyin": "tanxiang",
         "rarity": "SSR",
@@ -783,7 +807,7 @@
       },
       {
         "name": "隋酒",
-        "is_new": "0",
+        "is_new": "",
         "weight": "810",
         "pinyin": "suijiu",
         "rarity": "SSR",
@@ -795,7 +819,7 @@
       },
       {
         "name": "无相·弭服",
-        "is_new": "0",
+        "is_new": "",
         "weight": "800",
         "pinyin": "wuxiangmifu",
         "rarity": "SSR",
@@ -807,7 +831,7 @@
       },
       {
         "name": "白复归",
-        "is_new": "0",
+        "is_new": "",
         "weight": "790",
         "pinyin": "baifugui",
         "rarity": "SSR",
@@ -819,7 +843,7 @@
       },
       {
         "name": "云衣宫主",
-        "is_new": "0",
+        "is_new": "",
         "weight": "780",
         "pinyin": "yunyigongzhu",
         "rarity": "SSR",
@@ -831,7 +855,7 @@
       },
       {
         "name": "灵鼩",
-        "is_new": "0",
+        "is_new": "",
         "weight": "770",
         "pinyin": "lingqu",
         "rarity": "SSR",
@@ -843,7 +867,7 @@
       },
       {
         "name": "银玛",
-        "is_new": "0",
+        "is_new": "",
         "weight": "760",
         "pinyin": "yinma",
         "rarity": "SSR",
@@ -855,7 +879,7 @@
       },
       {
         "name": "任断离",
-        "is_new": "0",
+        "is_new": "",
         "weight": "750",
         "pinyin": "renduanli",
         "rarity": "SSR",
@@ -867,7 +891,7 @@
       },
       {
         "name": "霍雍",
-        "is_new": "0",
+        "is_new": "",
         "weight": "740",
         "pinyin": "huoyong",
         "rarity": "SSR",
@@ -879,7 +903,7 @@
       },
       {
         "name": "九阴",
-        "is_new": "0",
+        "is_new": "",
         "weight": "730",
         "pinyin": "jiuyin",
         "rarity": "SSR",
@@ -891,7 +915,7 @@
       },
       {
         "name": "高皇君",
-        "is_new": "0",
+        "is_new": "",
         "weight": "720",
         "pinyin": "gaohuangjun",
         "rarity": "SSR",
@@ -903,7 +927,7 @@
       },
       {
         "name": "春兰",
-        "is_new": "0",
+        "is_new": "",
         "weight": "710",
         "pinyin": "chunlan",
         "rarity": "SSR",
@@ -915,7 +939,7 @@
       },
       {
         "name": "奚歌",
-        "is_new": "0",
+        "is_new": "",
         "weight": "700",
         "pinyin": "xige",
         "rarity": "SSR",
@@ -927,7 +951,7 @@
       },
       {
         "name": "宁采臣",
-        "is_new": "0",
+        "is_new": "",
         "weight": "690",
         "pinyin": "ningcaichen",
         "rarity": "SSR",
@@ -939,7 +963,7 @@
       },
       {
         "name": "聂小倩",
-        "is_new": "0",
+        "is_new": "",
         "weight": "680",
         "pinyin": "niexiaoqian",
         "rarity": "SSR",
@@ -951,7 +975,7 @@
       },
       {
         "name": "燕赤霞",
-        "is_new": "0",
+        "is_new": "",
         "weight": "670",
         "pinyin": "yanchixia",
         "rarity": "SSR",
@@ -963,7 +987,7 @@
       },
       {
         "name": "玄羽",
-        "is_new": "0",
+        "is_new": "",
         "weight": "660",
         "pinyin": "xuanyu",
         "rarity": "SSR",
@@ -975,7 +999,7 @@
       },
       {
         "name": "云襄",
-        "is_new": "0",
+        "is_new": "",
         "weight": "650",
         "pinyin": "yunxiang",
         "rarity": "SSR",
@@ -987,7 +1011,7 @@
       },
       {
         "name": "鲜于超",
-        "is_new": "0",
+        "is_new": "",
         "weight": "640",
         "pinyin": "xianyuchao",
         "rarity": "SSR",
@@ -999,7 +1023,7 @@
       },
       {
         "name": "上官远",
-        "is_new": "0",
+        "is_new": "",
         "weight": "630",
         "pinyin": "shangguanyuan",
         "rarity": "SSR",
@@ -1011,7 +1035,7 @@
       },
       {
         "name": "方芸",
-        "is_new": "0",
+        "is_new": "",
         "weight": "620",
         "pinyin": "fangyun",
         "rarity": "SSR",
@@ -1023,7 +1047,7 @@
       },
       {
         "name": "铁手夏侯仪",
-        "is_new": "0",
+        "is_new": "",
         "weight": "610",
         "pinyin": "tieshouxiahouyi",
         "rarity": "SSR",
@@ -1035,7 +1059,7 @@
       },
       {
         "name": "召祐",
-        "is_new": "0",
+        "is_new": "",
         "weight": "600",
         "pinyin": "zhaoyou",
         "rarity": "SSR",
@@ -1047,7 +1071,7 @@
       },
       {
         "name": "赤炼",
-        "is_new": "0",
+        "is_new": "",
         "weight": "590",
         "pinyin": "chilian",
         "rarity": "SSR",
@@ -1059,7 +1083,7 @@
       },
       {
         "name": "武英仲",
-        "is_new": "0",
+        "is_new": "",
         "weight": "580",
         "pinyin": "wuyingzhong",
         "rarity": "SSR",
@@ -1071,7 +1095,7 @@
       },
       {
         "name": "舞蝶",
-        "is_new": "0",
+        "is_new": "",
         "weight": "570",
         "pinyin": "wudie",
         "rarity": "SSR",
@@ -1083,7 +1107,7 @@
       },
       {
         "name": "于小雪",
-        "is_new": "0",
+        "is_new": "",
         "weight": "560",
         "pinyin": "yuxiaoxue",
         "rarity": "SSR",
@@ -1095,7 +1119,7 @@
       },
       {
         "name": "宇文拓",
-        "is_new": "0",
+        "is_new": "",
         "weight": "550",
         "pinyin": "yuwentuo",
         "rarity": "SSR",
@@ -1107,7 +1131,7 @@
       },
       {
         "name": "李逍遥",
-        "is_new": "0",
+        "is_new": "",
         "weight": "540",
         "pinyin": "lixiaoyao",
         "rarity": "SSR",
@@ -1119,7 +1143,7 @@
       },
       {
         "name": "赵灵儿",
-        "is_new": "0",
+        "is_new": "",
         "weight": "530",
         "pinyin": "zhaolinger",
         "rarity": "SSR",
@@ -1131,7 +1155,7 @@
       },
       {
         "name": "林月如",
-        "is_new": "0",
+        "is_new": "",
         "weight": "520",
         "pinyin": "linyueru",
         "rarity": "SSR",
@@ -1143,7 +1167,7 @@
       },
       {
         "name": "诸葛艾",
-        "is_new": "0",
+        "is_new": "",
         "weight": "510",
         "pinyin": "zhugeai",
         "rarity": "SSR",
@@ -1155,7 +1179,7 @@
       },
       {
         "name": "殷无邪",
-        "is_new": "0",
+        "is_new": "",
         "weight": "500",
         "pinyin": "yinwuxie",
         "rarity": "SSR",
@@ -1167,7 +1191,7 @@
       },
       {
         "name": "宇韶容",
-        "is_new": "0",
+        "is_new": "",
         "weight": "490",
         "pinyin": "yushaorong",
         "rarity": "SSR",
@@ -1179,7 +1203,7 @@
       },
       {
         "name": "剑邪",
-        "is_new": "0",
+        "is_new": "",
         "weight": "480",
         "pinyin": "jianxie",
         "rarity": "SSR",
@@ -1191,7 +1215,7 @@
       },
       {
         "name": "黎幽",
-        "is_new": "0",
+        "is_new": "",
         "weight": "470",
         "pinyin": "liyou",
         "rarity": "SSR",
@@ -1203,7 +1227,7 @@
       },
       {
         "name": "曹沁",
-        "is_new": "0",
+        "is_new": "",
         "weight": "460",
         "pinyin": "caoqin",
         "rarity": "SSR",
@@ -1215,7 +1239,7 @@
       },
       {
         "name": "秦惟刚",
-        "is_new": "0",
+        "is_new": "",
         "weight": "450",
         "pinyin": "qinweigang",
         "rarity": "SSR",
@@ -1227,7 +1251,7 @@
       },
       {
         "name": "紫枫",
-        "is_new": "0",
+        "is_new": "",
         "weight": "440",
         "pinyin": "zifeng",
         "rarity": "SSR",
@@ -1239,7 +1263,7 @@
       },
       {
         "name": "冰璃",
-        "is_new": "0",
+        "is_new": "",
         "weight": "430",
         "pinyin": "bingli",
         "rarity": "SSR",
@@ -1251,7 +1275,7 @@
       },
       {
         "name": "郸阴",
-        "is_new": "0",
+        "is_new": "",
         "weight": "420",
         "pinyin": "danyin",
         "rarity": "SSR",
@@ -1263,7 +1287,7 @@
       },
       {
         "name": "封寒月",
-        "is_new": "0",
+        "is_new": "",
         "weight": "410",
         "pinyin": "fenghanyue",
         "rarity": "SSR",
@@ -1275,7 +1299,7 @@
       },
       {
         "name": "封铃笙",
-        "is_new": "0",
+        "is_new": "",
         "weight": "400",
         "pinyin": "fenglingsheng",
         "rarity": "SSR",
@@ -1287,7 +1311,7 @@
       },
       {
         "name": "葛云衣",
-        "is_new": "0",
+        "is_new": "",
         "weight": "390",
         "pinyin": "geyunyi",
         "rarity": "SSR",
@@ -1299,7 +1323,7 @@
       },
       {
         "name": "古伦德",
-        "is_new": "0",
+        "is_new": "",
         "weight": "380",
         "pinyin": "gulunde",
         "rarity": "SSR",
@@ -1311,7 +1335,7 @@
       },
       {
         "name": "韩千秀",
-        "is_new": "0",
+        "is_new": "",
         "weight": "370",
         "pinyin": "hanqianxiu",
         "rarity": "SSR",
@@ -1323,7 +1347,7 @@
       },
       {
         "name": "皇甫申",
-        "is_new": "0",
+        "is_new": "",
         "weight": "360",
         "pinyin": "huangfushen",
         "rarity": "SSR",
@@ -1335,7 +1359,7 @@
       },
       {
         "name": "解臾",
-        "is_new": "0",
+        "is_new": "",
         "weight": "350",
         "pinyin": "xieyu",
         "rarity": "SSR",
@@ -1347,7 +1371,7 @@
       },
       {
         "name": "慕容璇玑",
-        "is_new": "0",
+        "is_new": "",
         "weight": "340",
         "pinyin": "murongxuanji",
         "rarity": "SSR",
@@ -1359,7 +1383,7 @@
       },
       {
         "name": "夏侯仪",
-        "is_new": "0",
+        "is_new": "",
         "weight": "330",
         "pinyin": "xiahouyi",
         "rarity": "SSR",
@@ -1371,7 +1395,7 @@
       },
       {
         "name": "燕明蓉",
-        "is_new": "0",
+        "is_new": "",
         "weight": "320",
         "pinyin": "yanmingrong",
         "rarity": "SSR",
@@ -1383,7 +1407,7 @@
       },
       {
         "name": "阴歙",
-        "is_new": "0",
+        "is_new": "",
         "weight": "310",
         "pinyin": "yinxi",
         "rarity": "SSR",
@@ -1395,7 +1419,7 @@
       },
       {
         "name": "殷剑平",
-        "is_new": "0",
+        "is_new": "",
         "weight": "300",
         "pinyin": "yinjianping",
         "rarity": "SSR",
@@ -1407,7 +1431,7 @@
       },
       {
         "name": "白菀",
-        "is_new": "0",
+        "is_new": "",
         "weight": "290",
         "pinyin": "baiwan",
         "rarity": "SR",
@@ -1419,7 +1443,7 @@
       },
       {
         "name": "常逸风",
-        "is_new": "0",
+        "is_new": "",
         "weight": "280",
         "pinyin": "changyifeng",
         "rarity": "SR",
@@ -1431,7 +1455,7 @@
       },
       {
         "name": "高戚",
-        "is_new": "0",
+        "is_new": "",
         "weight": "270",
         "pinyin": "gaoqi",
         "rarity": "SR",
@@ -1443,7 +1467,7 @@
       },
       {
         "name": "韩无砂",
-        "is_new": "0",
+        "is_new": "",
         "weight": "260",
         "pinyin": "hanwusha",
         "rarity": "SR",
@@ -1455,7 +1479,7 @@
       },
       {
         "name": "赫兰铁罕",
-        "is_new": "0",
+        "is_new": "",
         "weight": "250",
         "pinyin": "helantiehan",
         "rarity": "SR",
@@ -1467,7 +1491,7 @@
       },
       {
         "name": "幻镜胧妖",
-        "is_new": "0",
+        "is_new": "",
         "weight": "240",
         "pinyin": "huanjinglongyao",
         "rarity": "SR",
@@ -1479,7 +1503,7 @@
       },
       {
         "name": "李盈凤",
-        "is_new": "0",
+        "is_new": "",
         "weight": "230",
         "pinyin": "liyingfeng",
         "rarity": "SR",
@@ -1491,7 +1515,7 @@
       },
       {
         "name": "慕容筝",
-        "is_new": "0",
+        "is_new": "",
         "weight": "220",
         "pinyin": "murongzheng",
         "rarity": "SR",
@@ -1503,7 +1527,7 @@
       },
       {
         "name": "司徒缨",
-        "is_new": "0",
+        "is_new": "",
         "weight": "210",
         "pinyin": "situying",
         "rarity": "SR",
@@ -1515,7 +1539,7 @@
       },
       {
         "name": "太渊隐逸",
-        "is_new": "0",
+        "is_new": "",
         "weight": "200",
         "pinyin": "taiyuanyinyi",
         "rarity": "SR",
@@ -1527,7 +1551,7 @@
       },
       {
         "name": "相桓子",
-        "is_new": "0",
+        "is_new": "",
         "weight": "190",
         "pinyin": "xianghuanzi",
         "rarity": "SR",
@@ -1539,7 +1563,7 @@
       },
       {
         "name": "阳寰",
-        "is_new": "0",
+        "is_new": "",
         "weight": "180",
         "pinyin": "yanghuan",
         "rarity": "SR",
@@ -1551,7 +1575,7 @@
       },
       {
         "name": "杨云佐",
-        "is_new": "0",
+        "is_new": "",
         "weight": "170",
         "pinyin": "yangyunzuo",
         "rarity": "SR",
@@ -1563,7 +1587,7 @@
       },
       {
         "name": "应奉仁",
-        "is_new": "0",
+        "is_new": "",
         "weight": "160",
         "pinyin": "yingfengren",
         "rarity": "SR",
@@ -1575,7 +1599,7 @@
       },
       {
         "name": "周崇",
-        "is_new": "0",
+        "is_new": "",
         "weight": "150",
         "pinyin": "zhouchong",
         "rarity": "SR",
@@ -1587,7 +1611,7 @@
       },
       {
         "name": "朱缳",
-        "is_new": "0",
+        "is_new": "",
         "weight": "140",
         "pinyin": "zhuhuan",
         "rarity": "SR",
@@ -1599,7 +1623,7 @@
       },
       {
         "name": "紫蕴",
-        "is_new": "0",
+        "is_new": "",
         "weight": "130",
         "pinyin": "ziyun",
         "rarity": "SR",
@@ -1611,7 +1635,7 @@
       },
       {
         "name": "阿尔泰巴",
-        "is_new": "0",
+        "is_new": "",
         "weight": "120",
         "pinyin": "aertaiba",
         "rarity": "R",
@@ -1623,7 +1647,7 @@
       },
       {
         "name": "高世津",
-        "is_new": "0",
+        "is_new": "",
         "weight": "110",
         "pinyin": "gaoshijin",
         "rarity": "R",
@@ -1635,7 +1659,7 @@
       },
       {
         "name": "呼延崇",
-        "is_new": "0",
+        "is_new": "",
         "weight": "100",
         "pinyin": "huyanchong",
         "rarity": "R",
@@ -1647,7 +1671,7 @@
       },
       {
         "name": "青萝",
-        "is_new": "0",
+        "is_new": "",
         "weight": "90",
         "pinyin": "qingluo",
         "rarity": "R",
@@ -1659,7 +1683,7 @@
       },
       {
         "name": "韦胜",
-        "is_new": "0",
+        "is_new": "",
         "weight": "80",
         "pinyin": "weisheng",
         "rarity": "R",
@@ -1671,7 +1695,7 @@
       },
       {
         "name": "希维亚",
-        "is_new": "0",
+        "is_new": "",
         "weight": "70",
         "pinyin": "xiweiya",
         "rarity": "R",
@@ -1683,7 +1707,7 @@
       },
       {
         "name": "雅布斯",
-        "is_new": "0",
+        "is_new": "",
         "weight": "60",
         "pinyin": "yabusi",
         "rarity": "R",
@@ -1695,7 +1719,7 @@
       },
       {
         "name": "伊丝朶",
-        "is_new": "0",
+        "is_new": "",
         "weight": "50",
         "pinyin": "yisiduo",
         "rarity": "R",
@@ -1707,7 +1731,7 @@
       },
       {
         "name": "应灵华",
-        "is_new": "0",
+        "is_new": "",
         "weight": "40",
         "pinyin": "yinglinghua",
         "rarity": "R",
@@ -1719,7 +1743,7 @@
       },
       {
         "name": "朱浩",
-        "is_new": "0",
+        "is_new": "",
         "weight": "30",
         "pinyin": "zhuhao",
         "rarity": "R",
@@ -1730,7 +1754,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-08-15 19:34:47"
+    "now": "2024-09-02 19:31:18"
   },
   "status": 1,
   "switch": null,
