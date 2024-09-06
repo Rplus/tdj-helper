@@ -185,6 +185,11 @@ op.ornaments = {
 
 		// fix data, workaround
 		switch (o.icon) {
+			// 淵魚金令
+			case 'Equip_yuanyujinling':
+				o.type = '000000'; // without any buff for property
+				break;
+
 			// 飛鳳墜飾
 			case 'Equip_feifengzhuishi':
 				o.type = '000000'; // without any buff for property
