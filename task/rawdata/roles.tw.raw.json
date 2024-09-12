@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "玉觴",
+        "is_new": "1",
+        "pinyin": "yushang",
+        "weight": "1370",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1066_HeadIcon_Basic"
+      },
+      {
+        "name": "六歧",
+        "is_new": "1",
+        "pinyin": "liuqi",
+        "weight": "1360",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "鐵衛",
+        "hero_icon": "Hero1079_HeadIcon_Basic"
+      },
+      {
         "name": "甦醒者",
         "is_new": "1",
         "pinyin": "suxingzhe",
@@ -1389,7 +1411,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-09-06 03:07:55"
+    "now": "2024-09-12 09:50:56"
   },
   "status": 1,
   "switch": null,

@@ -108,27 +108,29 @@
     "path": "%E6%83%8A%E9%A3%9E%E7%BE%BD"
   },
   {
-    "name": "玉觞",
-    "is_new": "",
+    "name": "玉觴",
+    "is_new": "1",
     "pinyin": "yushang",
-    "weight": "1390",
+    "weight": "1370",
     "expire": "",
     "rarity": "SSR",
     "prop": "炎",
-    "career": "咒师",
+    "career": "咒師",
     "hero_icon": "Hero1066_HeadIcon_Basic",
+    "pinyin_tw": "yushang",
     "path": "%E7%8E%89%E8%A7%9E"
   },
   {
     "name": "六歧",
-    "is_new": "",
+    "is_new": "1",
     "pinyin": "liuqi",
-    "weight": "1380",
+    "weight": "1360",
     "expire": "",
     "rarity": "SSR",
     "prop": "冰",
-    "career": "铁卫",
+    "career": "鐵衛",
     "hero_icon": "Hero1079_HeadIcon_Basic",
+    "pinyin_tw": "liuqi",
     "path": "%E5%85%AD%E6%AD%A7"
   },
   {
