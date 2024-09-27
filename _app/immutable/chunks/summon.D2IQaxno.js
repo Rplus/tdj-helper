@@ -1,4 +1,4 @@
-import{s as h,e as g,b as A,t as y,f as d,d as i,u as p,i as _,n as l}from"./scheduler.B4IQQT9J.js";import{S as B,i as k}from"./index.B_Q0Z5DJ.js";import{l as u}from"./u.DzwXUXt4.js";const F=[{key:"%E5%8F%AC%E5%94%A4%E7%89%A9%2F%E7%8B%AC%E8%A7%92%E4%BB%99",name:"獨角仙",owner:["阿秋","aqiu"],inherent_name:"機巧甲仙",inherent:`移動力+1，自身免傷提高20%，死亡時,在3格範圍內的空格上隨機散落3個零件（「機巧·獨角」、「機巧·械軀」、「機巧·堅殼」），持續3回合。（零件拾取後消失）
+import{s as h,e as g,b as A,t as y,f as d,d as i,u as p,i as _,n as l}from"./scheduler.B4IQQT9J.js";import{S as B,i as k}from"./index.B_Q0Z5DJ.js";import{l as u}from"./u.DMqUv_IL.js";const F=[{key:"%E5%8F%AC%E5%94%A4%E7%89%A9%2F%E7%8B%AC%E8%A7%92%E4%BB%99",name:"獨角仙",owner:["阿秋","aqiu"],inherent_name:"機巧甲仙",inherent:`移動力+1，自身免傷提高20%，死亡時,在3格範圍內的空格上隨機散落3個零件（「機巧·獨角」、「機巧·械軀」、「機巧·堅殼」），持續3回合。（零件拾取後消失）
 「機巧·獨角」：友方「阿秋」行動結束時拾取，獲得「蓄電」狀態、「神睿I」狀態，持續2回合。
 「機巧·械軀」：友方「阿秋」行動結束時拾取，主動絕學冷卻時間-1，若本回合未使用氣力技，獲得3氣力。
 「機巧·堅殼」：友方「阿秋」行動結束時拾取，恢復自身氣血50%，獲得「甲力」狀態。
