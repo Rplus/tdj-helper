@@ -1,5 +1,48 @@
 [
   {
+    "name": "四象明月",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero1154_HeadIcon_Basic",
+    "career": "御風",
+    "pinyin": "sixiangmingyue",
+    "path": "%E5%9B%9B%E8%B1%A1%E6%98%8E%E6%9C%88",
+    "pic": "Hero1154_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "5",
+    "strategy": "華月掠影陣",
+    "status": {
+      "hp": 180,
+      "atk_mag": 14,
+      "atk_phy": 107,
+      "def_mag": 32,
+      "def_phy": 34,
+      "crit": 49
+    }
+  },
+  {
+    "name": "瑤空",
+    "rarity": "SSR",
+    "prop": "雷",
+    "hero_icon": "Hero1086_HeadIcon_Basic",
+    "career": "羽士",
+    "pinyin": "yaokong",
+    "path": "%E7%91%B6%E7%A9%BA",
+    "pic": "Hero1086_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "status": {
+      "hp": 179,
+      "atk_mag": 13,
+      "atk_phy": 105,
+      "def_mag": 23,
+      "def_phy": 32,
+      "crit": 40
+    }
+  },
+  {
     "name": "朧夢嫿妖",
     "rarity": "SSR",
     "prop": "暗",

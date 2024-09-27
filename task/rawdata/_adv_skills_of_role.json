@@ -1,5 +1,15 @@
 [
   {
+    "name": "四象明月",
+    "pinyin": "sixiangmingyue",
+    "new": true
+  },
+  {
+    "name": "瑶空",
+    "pinyin": "yaokong",
+    "new": true
+  },
+  {
     "name": "胧梦婳妖",
     "pinyin": "longmenghuayao",
     "adv_skills": [
@@ -144,14 +154,12 @@
     "new": true
   },
   {
-    "name": "玉觞",
-    "pinyin": "yushang",
-    "new": true
+    "name": "玉觴",
+    "pinyin": "yushang"
   },
   {
     "name": "六歧",
-    "pinyin": "liuqi",
-    "new": true
+    "pinyin": "liuqi"
   },
   {
     "name": "甦醒者",
