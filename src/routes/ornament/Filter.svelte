@@ -1,6 +1,6 @@
 <script>
 import Filter from '$lib//Filter.svelte';
-import { get_icon_image } from './ornament.js';
+import { get_icon_image } from '$lib/u.js';
 
 export let keys = {};
 

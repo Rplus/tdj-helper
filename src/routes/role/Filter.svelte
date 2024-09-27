@@ -1,5 +1,8 @@
 <script>
 import Filter from '$lib//Filter.svelte';
+import { get_icon_image } from '$lib/u.js';
+
+const careers = ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'];
 
 let filter_cates = [
 	{
@@ -10,7 +13,8 @@ let filter_cates = [
 	{
 		prop: 'career',
 		title: '職業',
-		values: ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'],
+		values: careers,
+		icons: careers.map((i) => get_icon_image(i)),
 	},
 	{
 		prop: 'prop',
