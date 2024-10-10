@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "驚飛羽",
+        "is_new": "1",
+        "pinyin": "jingfeiyu",
+        "weight": "1390",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "鐵衛",
+        "hero_icon": "Hero1081_HeadIcon_Basic"
+      },
+      {
+        "name": "陸文生",
+        "is_new": "1",
+        "pinyin": "luwensheng",
+        "weight": "1380",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鬥將",
+        "hero_icon": "Hero1080_HeadIcon_Basic"
+      },
+      {
         "name": "玉觴",
         "is_new": "1",
         "pinyin": "yushang",
@@ -1411,7 +1433,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-09-28 00:03:57"
+    "now": "2024-10-10 11:40:53"
   },
   "status": 1,
   "switch": null,

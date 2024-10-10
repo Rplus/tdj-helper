@@ -2,6 +2,48 @@
   "data": {
     "data": [
       {
+        "name": "破風翎",
+        "icon": "Equip_pofengling",
+        "position": "1",
+        "quality": "SSR",
+        "Melee": "",
+        "currency": "0",
+        "description": "物攻+10%，行動結束時，若本回合未造成過傷害，則獲得「括羽」狀態。\n「括羽」：單體絕學射程+1（使用單體絕學後消耗）\n僅羽士可用",
+        "weight": "2310",
+        "Status": 1,
+        "status": 1,
+        "job": "010000",
+        "type": "100000"
+      },
+      {
+        "name": "祺獸墜飾",
+        "icon": "Equip_zheshouzhuishi",
+        "position": "3",
+        "quality": "SSR",
+        "Melee": "Melee",
+        "currency": "0",
+        "description": "法防+7%、氣血+7%，行動結束時，如果本回合使用過絕學，則對自身周圍3格內物攻/法攻屬性最高的1個其他友方施加「極意I」，持續1回合。\n「極意I」：傷害+10%",
+        "weight": "2300",
+        "Status": 1,
+        "status": 1,
+        "job": "111111",
+        "type": "000101"
+      },
+      {
+        "name": "諸懷腕帶",
+        "icon": "Equip_zhuhuaiwandai",
+        "position": "4",
+        "quality": "SSR",
+        "Melee": "",
+        "currency": "0",
+        "description": "移動力+1，主動攻擊「對戰中」傷害提升15%，若為普攻傷害額外提升10%。\n僅俠客、鐵衛可用",
+        "weight": "2290",
+        "Status": 1,
+        "status": 1,
+        "job": "101000",
+        "type": "111101"
+      },
+      {
         "name": "化魄法令",
         "icon": "Equip_huapofaling",
         "position": "2",
@@ -3068,7 +3110,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-09-28 00:03:57"
+    "now": "2024-10-10 11:40:53"
   },
   "status": 1,
   "switch": null,

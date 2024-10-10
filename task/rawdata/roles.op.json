@@ -108,27 +108,29 @@
     "path": "%E5%A6%99%E5%BC%8B"
   },
   {
-    "name": "陆文生",
-    "is_new": "",
+    "name": "陸文生",
+    "is_new": "1",
     "pinyin": "luwensheng",
-    "weight": "1410",
+    "weight": "1380",
     "expire": "",
     "rarity": "SSR",
     "prop": "雷",
-    "career": "斗将",
+    "career": "鬥將",
     "hero_icon": "Hero1080_HeadIcon_Basic",
+    "pinyin_tw": "luwensheng",
     "path": "%E9%99%86%E6%96%87%E7%94%9F"
   },
   {
-    "name": "惊飞羽",
-    "is_new": "",
+    "name": "驚飛羽",
+    "is_new": "1",
     "pinyin": "jingfeiyu",
-    "weight": "1400",
+    "weight": "1390",
     "expire": "",
     "rarity": "SSR",
     "prop": "暗",
-    "career": "铁卫",
+    "career": "鐵衛",
     "hero_icon": "Hero1081_HeadIcon_Basic",
+    "pinyin_tw": "jingfeiyu",
     "path": "%E6%83%8A%E9%A3%9E%E7%BE%BD"
   },
   {

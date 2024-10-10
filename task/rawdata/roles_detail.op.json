@@ -3132,10 +3132,10 @@
   [
     {
       "name": "陸文生",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "luwensheng",
-      "weight": "1410",
-      "source": "天地劫幽城再臨原創角色",
+      "weight": "1380",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1080_img",
       "prop_icon": "Electricity",
       "career_icon": "Melee",
@@ -3160,7 +3160,7 @@
       "star5": "主動攻擊「對戰中」傷害提高17%。<br/>若自身氣血小於等於目標，主動攻擊「對戰前」獲得護盾（自身最大氣血的30%）。<br/>回合開始時，對5格內氣血最高的1個敵方非召喚物和所有敵方召喚物施加<link type=buff value=741080050 bgcolor=#3a85ffff>「懾印」</link>狀態。",
       "star6": "主動攻擊「對戰中」傷害提高20%。<br/>若自身氣血小於等於目標，主動攻擊「對戰前」獲得護盾（自身最大氣血的30%）。<br/>回合開始時，對5格內氣血最高的1個敵方非召喚物和所有敵方召喚物施加<link type=buff value=741080050 bgcolor=#3a85ffff>「懾印」</link>狀態。",
       "story_name": "九黎",
-      "story_content": "在趙瑚兒問他身份的那一刻，陸文生忽然想起，自己曾經也是一個九黎族人。<br/>他曾誓死追隨那位以扶桑為印的幽都之主。因為他覺得和那些長老、冥帝、幽姬不同。那位大人永遠是理性而公平的。<br/>善惡、正邪、對錯。一切自諸生慾念而起，都隨時間流逝而消。永恆不變的惟有冰冷無情的律法。<br/>他願作為那位大人的前卒，秉持天地律法，維繫萬物生滅——縱使放棄血脈，縱使會在永生之中反覆忘卻自己。<br/>但律法不滅，天地永存。",
+      "story_content": "在趙瑚兒問他身份的那一刻，陸文生忽然想起，自己曾經也是一個九黎族人。<br/>他曾誓死追隨那位以扶桑為印的幽都之主。因為他覺得和那些長老、冥帝、幽姬不同。那位大人永遠是理性而公平的。<br/>善惡、正邪、對錯。一切自諸生慾念而起，都隨時間流逝而消。永恆不變的惟有冰冷無情的律法。<br/>他願作為那位大人的前卒，秉持天地律法，維繫萬物生滅——縱使放棄血脈，縱使會在永生之中反復忘卻自己。<br/>但律法不滅，天地永存。",
       "hero_icon": "Hero1080_HeadIcon_Basic",
       "skill": [
         {
@@ -3225,7 +3225,7 @@
           "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "護盾獲得加成提高20%。回合開始時，反轉自身1個「有害狀態」為<link type=buff value=700001001 bgcolor=#3a85ffff>「刺骨I」</link>狀態，持續2回合。"
+          "desc": "護盾獲得加成提高20%。回合開始時，反轉自身1個「減益狀態」為<link type=buff value=700001001 bgcolor=#3a85ffff>「刺骨I」</link>狀態，持續2回合。"
         },
         {
           "img": "GPassive_1043",
@@ -3475,80 +3475,16 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "若<b><color=#e4462c>3</color></b>格內存在攜帶「懾印」狀態的敵方，暴擊傷害提高<b><color=#e4462c>10%</color></b>，且行動結束時隨機傷害絕學冷卻時間<b><color=#e4462c>-1</color></b>。"
         }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "朱焰妖瞳·煙",
-          "percent": "0.144021739130435"
-        },
-        {
-          "name": "神烏飾墜·煙",
-          "percent": "0.114130434782609"
-        },
-        {
-          "name": "玉蝶黛翠",
-          "percent": "0.111413043478261"
-        },
-        {
-          "name": "八荒靈石·影",
-          "percent": "0.10054347826087"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "血參靈玉·煙",
-          "percent": "0.114130434782609"
-        },
-        {
-          "name": "赤霞玉戒·塵",
-          "percent": "0.0978260869565217"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "靈越佩環·霧",
-          "percent": "0.203804347826087"
-        },
-        {
-          "name": "龍涎香囊·霧",
-          "percent": "0.103260869565217"
-        },
-        {
-          "name": "鳳繡香囊·塵",
-          "percent": "0.0978260869565217"
-        },
-        {
-          "name": "靈越佩環·煙",
-          "percent": "0.0951086956521739"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "和光同塵",
-          "percent": "0.116847826086957"
-        },
-        {
-          "name": "夜雨·霧",
-          "percent": "0.108695652173913"
-        },
-        {
-          "name": "清光似水",
-          "percent": "0.105978260869565"
-        },
-        {
-          "name": "夜雨·煙",
-          "percent": "0.10054347826087"
-        }
       ]
     }
   ],
   [
     {
       "name": "驚飛羽",
-      "is_new": "0",
+      "is_new": "1",
       "pinyin": "jingfeiyu",
-      "weight": "1400",
-      "source": "天地劫幽城再臨原創角色",
+      "weight": "1390",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1081_img",
       "prop_icon": "Shadow",
       "career_icon": "Guard",
@@ -3686,7 +3622,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Xun",
           "unlock_inner2": "伍級",
-          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蝕御I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蝕禦I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
           "img": "EXSkill_1628",
@@ -3702,7 +3638,7 @@
           "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.8</color></b>倍傷害，「對戰前」偷取目標<b><color=#e4462c>2</color></b>個「有益狀態」並施加<b><color=#e4462c>2</color></b>個隨機「有害狀態」，且自身獲得<link type=buff value=741081503 bgcolor=#3a85ffff>「兇羅」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。若擊殺目標或目標觸發「抵擋致命傷害」的效果，則絕學後可直接使用<b><color=#e4462c>1</color></b>次絕學<link type=skill value=61108103 bgcolor=#3a85ffff>「追身縱切」</link><b><color=#e4462c>/</color></b><link type=skill value=61108104 bgcolor=#3a85ffff>「追身橫斬」</link>。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放絕學。（每造成<b><color=#e4462c>1</color></b>次傷害或遭受<b><color=#e4462c>1</color></b>次傷害均可累積<b><color=#e4462c>1</color></b>點氣力）"
+          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.8</color></b>倍傷害，「對戰前」偷取目標<b><color=#e4462c>2</color></b>個「增益狀態」並施加<b><color=#e4462c>2</color></b>個隨機「減益狀態」，且自身獲得<link type=buff value=741081503 bgcolor=#3a85ffff>「兇羅」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。若擊殺目標或目標觸發「抵擋致命傷害」的效果，則絕學後可直接使用<b><color=#e4462c>1</color></b>次絕學<link type=skill value=61108103 bgcolor=#3a85ffff>「追身縱切」</link><b><color=#e4462c>/</color></b><link type=skill value=61108104 bgcolor=#3a85ffff>「追身橫斬」</link>。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放絕學。（每造成<b><color=#e4462c>1</color></b>次傷害或遭受<b><color=#e4462c>1</color></b>次傷害均可累積<b><color=#e4462c>1</color></b>點氣力）"
         }
       ],
       "weapon": [
@@ -3716,7 +3652,7 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "橫刀之名出自於《唐六典·卷十六·衛尉宗正寺》：“刀之制有四：一曰儀刀，二曰鄣刀，三曰橫刀，四曰陌刀。<br/>言：刀末曰‘鋒’，其本曰‘環’。"
+          "desc": "橫刀之名出自於《唐六典·卷十六·衛尉宗正寺》：“刀之製有四：一曰儀刀，二曰鄣刀，三曰橫刀，四曰陌刀。<br/>言：刀末曰‘鋒’，其本曰‘環’。"
         },
         {
           "weapon": "驚飛羽",
@@ -3740,7 +3676,7 @@
           "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
           "rarity": "SR",
           "jiesuo": "列星迴響消耗45點天魂之力",
-          "desc": "載：鑌鐵，出西番。面上有旋螺花者，有芝麻雪花者。凡刀劍器打磨光淨，用金絲礬礬之，其花則見。價值過於銀。古語云，識鐵強如識金。假造者是黑花。<br/>言：或摹法相雕旃檀，或範慈容鑄鑌鐵。"
+          "desc": "載：鑌鐵，出西番。面上有旋螺花者，有芝麻雪花者。凡刀劍器打磨光淨，用金絲礬礬之，其花則見。價值過於銀。古語雲，識鐵強如識金。假造者是黑花。<br/>言：或摹法相雕旃檀，或範慈容鑄鑌鐵。"
         },
         {
           "weapon": "驚飛羽",
@@ -3872,50 +3808,6 @@
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
           "desc": "自身滿血時雙防提高<b><color=#e4462c>10%</color></b>，反之移動力<b><color=#e4462c>+1</color></b>。處於「嗜虐」狀態時「對戰後」恢復自身氣血，恢復量為本次傷害的<b><color=#e4462c>50%</color></b>。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "冰蠺玉帶·煙",
-          "percent": "0.14080774084981"
-        },
-        {
-          "name": "八荒靈石·塵",
-          "percent": "0.139966344131257"
-        },
-        {
-          "name": "定筆簪",
-          "percent": "0.138704249053428"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手鐲·煙",
-          "percent": "0.152587294909549"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "鑲蛇銀佩·塵",
-          "percent": "0.134497265460664"
-        },
-        {
-          "name": "靈越佩環·煙",
-          "percent": "0.133655868742111"
-        },
-        {
-          "name": "靈越佩環·塵",
-          "percent": "0.132814472023559"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "煙霞百相",
-          "percent": "0.142911232646192"
-        },
-        {
-          "name": "杏花疏影",
-          "percent": "0.138704249053428"
         }
       ]
     }
