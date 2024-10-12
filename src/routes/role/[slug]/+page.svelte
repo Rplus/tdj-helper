@@ -34,7 +34,7 @@ $: {
 
 <div class="hr">
 	射程 🏹 {data.role.range}
-	<br>
+	<br />
 	移動 👣 {data.role.speed}
 </div>
 
