@@ -94,13 +94,11 @@ function sort_by_prop(prop = '') {
 <style>
 table {
 	& img {
+		width: 48px;
+		height: 48px;
 		pointer-events: none;
+		background: radial-gradient(closest-side, #0009, #0000);
 	}
-}
-table img {
-	width: 48px;
-	height: 48px;
-	background: radial-gradient(closest-side, #0009, #0000);
 }
 thead {
 	position: sticky;
