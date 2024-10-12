@@ -4,6 +4,7 @@
 	color-scheme: light;
 
 	--main-color: #333;
+	--main-color-rgb: 51, 51, 51;
 	--main-bgc: #eee;
 	--link-color: rgb(0, 100, 200);
 	--link-visited-color: rgb(0, 80, 160);
