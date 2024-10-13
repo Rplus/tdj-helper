@@ -103,8 +103,10 @@ table {
 thead {
 	position: sticky;
 	top: 0;
+	z-index: 1;
 	background-color: var(--main-bgc);
 	user-select: none;
+	border-bottom: 1px solid #6666;
 }
 thead,
 tbody {
@@ -156,6 +158,9 @@ th {
 	font-size: smaller;
 
 	&:nth-child(1) {
+		@media (max-width: 700px) {
+			grid-column: 1 / 3;
+		}
 	}
 
 	&:nth-child(2),
@@ -169,11 +174,35 @@ th {
 	&:nth-child(7) {
 		place-content: center;
 	}
-	&:nth-child(8) {
-		padding-right: 0.5em;
-	}
 	&[data-value='0'] {
-		color: #0003;
+		color: #0002;
+	}
+}
+
+
+@media (max-width: 700px) {
+	thead,
+	tbody {
+		grid-template-columns: repeat(7, 1fr);
+	}
+	th:nth-child(1) {
+		padding: 0;
+		place-content: center;
+	}
+	th:nth-child(7),
+	th:nth-child(8) {
+		display: none;
+	}
+
+	td:nth-child(1) {
+		grid-row: 1 / 4;
+		flex-direction: column;
+	}
+	td:nth-child(7),
+	td:nth-child(8) {
+		opacity: 0.7;
+		place-content: inherit;
+		grid-column: 3 / -1;
 	}
 }
 </style>
