@@ -75,6 +75,13 @@ adv_skills.names = adv_skills_of_role.data
 	.filter((i) => i && i.includes('·'))
 	.uniq();
 
+
+adv_skills.names = adv_skills.names.concat([
+	'诸灵退散',
+	'妖氛镇魄',
+	'玄晔破封',
+]);
+
 if (!parse_new && fs.existsSync(adv_skills.fn)) {
 	adv_skills.data_raw = read_json_file(adv_skills.fn);
 } else {
