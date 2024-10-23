@@ -4,7 +4,7 @@ export let lang = 'tw';
 export let pinyin = '';
 
 import { get_img, clear_html } from '$lib/u.js';
-import { find_adv_skills } from './skill.js';
+import { find_adv_skills, get_special_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
 import Img from '$lib/Img.svelte';
@@ -29,6 +29,12 @@ function gen_skill_string(skill = {}) {
 		'　- ' + (skill.way === '被動' ? '💤' : '👊') + ` ${skill.way}`,
 	].filter(Boolean);
 }
+
+// dirty hack for special skills
+let sp_skills = get_special_skills(pinyin);
+if (sp_skills) {
+	skills = skills.concat(sp_skills);
+}
 </script>
 
 <div class="hr">
@@ -40,7 +46,7 @@ function gen_skill_string(skill = {}) {
 <div class="skills" class:grid={grid_mode}>
 	{#each skills as skill}
 		<div
-			hidden={!grid_mode}
+			hidden={!grid_mode || skill.special}
 			class="skill ai-c jc-c flex text-center"
 			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
 		>
@@ -81,7 +87,7 @@ function gen_skill_string(skill = {}) {
 			<MediaObj mobile_align="center">
 				<div slot="img" class="flex" style="background-color: #0ff5;">
 					<Img
-						src={get_img('skill', skill.img, 96, lang)}
+						src={skill.special ? skill.img : get_img('skill', skill.img, 96, lang)}
 						alt={skill.name}
 						width="48"
 						height="48"
