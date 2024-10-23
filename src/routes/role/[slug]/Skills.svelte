@@ -3,7 +3,7 @@ export let skills = [];
 export let lang = 'tw';
 export let pinyin = '';
 
-import { get_img, clear_html } from '$lib/u.js';
+import { get_img, clear_html, resize_img } from '$lib/u.js';
 import { find_adv_skills, get_special_skills } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
@@ -87,7 +87,9 @@ if (sp_skills) {
 			<MediaObj mobile_align="center">
 				<div slot="img" class="flex" style="background-color: #0ff5;">
 					<Img
-						src={skill.special ? skill.img : get_img('skill', skill.img, 96, lang)}
+						src={skill.special
+							? resize_img(skill.img)
+							: get_img('skill', skill.img, 96, lang)}
 						alt={skill.name}
 						width="48"
 						height="48"
