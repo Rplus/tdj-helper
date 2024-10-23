@@ -2,11 +2,23 @@
   "data": {
     "data": [
       {
-        "name": "四象明月",
+        "name": "双魂虞兮",
         "is_new": "1",
+        "pinyin": "shuanghunyuxi",
+        "weight": "1510",
+        "expire": "45602",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero2502_HeadIcon_Basic",
+        "path": "%E5%8F%8C%E9%AD%82%E8%99%9E%E5%85%AE"
+      },
+      {
+        "name": "四象明月",
+        "is_new": "",
         "pinyin": "sixiangmingyue",
         "weight": "1500",
-        "expire": "45574",
+        "expire": "",
         "rarity": "SSR",
         "prop": "暗",
         "career": "御风",
@@ -15,10 +27,10 @@
       },
       {
         "name": "瑶空",
-        "is_new": "1",
+        "is_new": "",
         "pinyin": "yaokong",
         "weight": "1490",
-        "expire": "45574",
+        "expire": "",
         "rarity": "SSR",
         "prop": "雷",
         "career": "羽士",
@@ -1778,7 +1790,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-10-10 11:40:53"
+    "now": "2024-10-24 00:27:00"
   },
   "status": 1,
   "switch": null,

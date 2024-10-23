@@ -2,6 +2,45 @@
   "data": {
     "data": [
       {
+        "name": "莲玉冠",
+        "icon": "Equip_lianyuguan",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "治疗效果+7%，气血+7%，使用治疗绝学时，若对目标造成「过量治疗」则对其施加1个随机「有益状态」。\n「过量治疗」：使用治疗绝学时，治疗量超出了受治疗者的生命恢复上限\n仅咒师、祝由、斗将可用",
+        "weight": "2420",
+        "Status": 1,
+        "status": 1,
+        "job": "0001101",
+        "type": "000011"
+      },
+      {
+        "name": "云雷护心",
+        "icon": "Equip_yunleihuxinjing",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "气血+5%，，每携带1个「有益状态」时，双防提升5%（最高15%），携带大于等于3个「有益状态」时，免疫敌方造成的「传送」效果。\n仅侠客、铁卫、御风、斗将可用",
+        "weight": "2410",
+        "Status": 1,
+        "status": 1,
+        "job": "1010011",
+        "type": "010101"
+      },
+      {
+        "name": "锁龙环",
+        "icon": "Equip_suolonghuan",
+        "position": "4",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+7%，暴击率+7%，主动攻击时，攻击范围内每多一个敌人，伤害提升5%（最高提升15%）",
+        "weight": "2400",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "100000"
+      },
+      {
         "name": "天罡盔",
         "icon": "Equip_tiangangkui",
         "position": "1",
@@ -3005,7 +3044,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-10-10 11:40:53"
+    "now": "2024-10-24 00:26:59"
   },
   "status": 1,
   "switch": null,

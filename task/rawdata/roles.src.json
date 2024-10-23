@@ -1,5 +1,27 @@
 [
   {
+    "name": "雙魂虞兮",
+    "rarity": "SSR",
+    "prop": "光",
+    "hero_icon": "Hero2502_HeadIcon_Basic",
+    "career": "祝由",
+    "pinyin": "shuanghunyuxi",
+    "path": "%E5%8F%8C%E9%AD%82%E8%99%9E%E5%85%AE",
+    "pic": "Hero2500_img",
+    "position": "治療",
+    "range": "2",
+    "speed": "3",
+    "strategy": "乾坤吐曜陣",
+    "status": {
+      "hp": 180,
+      "atk_mag": 87,
+      "atk_phy": 13,
+      "def_mag": 37,
+      "def_phy": 33,
+      "crit": 20
+    }
+  },
+  {
     "name": "四象明月",
     "rarity": "SSR",
     "prop": "暗",
