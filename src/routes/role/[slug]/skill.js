@@ -18,8 +18,8 @@ export function find_adv_skills(role_pinyin = '', basic_skills = []) {
 			let sub_skills = skill.desc
 				.match(/「[^」]+式」/g)
 				.map((i) => i.replace(/[「」]/g, ''))
-				.map((ss) => !ss.includes('臥雲流星散') && all_skills.find((s) => s.name === ss))
-				.filter(Boolean);
+				.map((ss) => all_skills.find((s) => s.name === ss))
+				.filter((s) => s?.name !== skill.name)
 
 			if (sub_skills && sub_skills.length) {
 				skill.sub_skills = sub_skills;
