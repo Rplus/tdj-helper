@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "天玄義劍",
+        "is_new": "1",
+        "pinyin": "tianxuanyijian",
+        "weight": "1410",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "俠客",
+        "hero_icon": "Hero1153_HeadIcon_Basic"
+      },
+      {
+        "name": "妙弋",
+        "is_new": "1",
+        "pinyin": "miaoyi",
+        "weight": "1400",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "鬥將",
+        "hero_icon": "Hero1083_HeadIcon_Basic"
+      },
+      {
         "name": "驚飛羽",
         "is_new": "1",
         "pinyin": "jingfeiyu",
@@ -1433,7 +1455,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-10-25 23:52:58"
+    "now": "2024-11-08 01:16:42"
   },
   "status": 1,
   "switch": null,
