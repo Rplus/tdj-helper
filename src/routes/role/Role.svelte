@@ -4,10 +4,16 @@ export let type = 'list';
 import Avatar from './Avatar.svelte';
 import NumberBar from './NumberBar.svelte';
 import { max_status } from './role.js';
+import { filter_cates } from './filter.js';
 
 let order_style = Object.keys(data.status)
 	.map((prop) => `--${prop}: ${data.status[prop]}`)
 	.join(';');
+
+let table_rc_style = `;
+	--ci: ${filter_cates[1].values.indexOf(data.career) + 1};
+	--pi: ${filter_cates[2].values.indexOf(data.prop) + 1};
+`
 </script>
 
 <div
@@ -17,7 +23,7 @@ let order_style = Object.keys(data.status)
 	data-career={data.career}
 	data-prop={data.prop}
 	data-search={data.name}
-	style={order_style}
+	style={order_style + table_rc_style}
 >
 	<Avatar role={data} />
 

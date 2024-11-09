@@ -245,7 +245,7 @@ function allow_submit_next_time(e) {
 
 			{#each filter.options as option}
 				<label class="filer-option-label" hidden={!option.key}>
-					<input type="checkbox" bind:checked={option.checked} />
+					<input type="checkbox" bind:checked={option.checked} title={option.key} />
 
 					{option.key}
 
