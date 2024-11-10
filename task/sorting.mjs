@@ -76,6 +76,11 @@ op.roles = roles_data.map((item) => {
 		ooop.summons = _summons.map((s) => s.name);
 	}
 
+	// attackive_tank
+	if ((detail.career === '铁卫' || detail.career === '鐵衛') && detail.equipment?.[3]?.physical_attack) {
+		ooop.career2 = '猛士';
+	}
+
 	return ooop;
 });
 

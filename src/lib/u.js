@@ -16,6 +16,7 @@ export const icons = {
 	幽: 'Dusk',
 	俠客: 'Swordsman',
 	鐵衛: 'Guard',
+	猛士: 'Guard',
 	祝由: 'Physician',
 	咒師: 'Warlock',
 	羽士: 'Rogue',
