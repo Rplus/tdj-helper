@@ -84,7 +84,12 @@ $: grid_view = !false;
 		<div class="hr"></div>
 	</div>
 
-	<div class="list" class:grid_view>
+	<div class="list" class:grid_view
+		style="
+			--career-count: {filter_cates[1].values.length};
+			--prop-count: {filter_cates[2].values.length};
+		"
+	>
 		<div class="role role-head type-list">
 			<div
 				class="name text-center"
@@ -159,7 +164,7 @@ $: grid_view = !false;
 	}
 
 	& .list.grid_view {
-		grid-template-columns: repeat(7, 1fr);
+		grid-template-columns: repeat(var(--career-count), 1fr);
 		grid-auto-flow: row dense;
 
 		& .role {
@@ -175,7 +180,7 @@ $: grid_view = !false;
 	}
 
 	& .list.grid_view {
-		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(var(--prop-count), 1fr);
 		grid-auto-flow: row dense;
 
 		& .role {
