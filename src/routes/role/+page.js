@@ -40,6 +40,14 @@ export const load = ({ params }) => {
 	// 	}).join(' + ') + ');';
 	// });
 
+	// // 鐵衛轉猛士
+	// roles_data.forEach(role => {
+	// 	if (role.career2) {
+	// 		role.ori_career = role.career;
+	// 		role.career = role.career2;
+	// 	}
+	// })
+
 	return {
 		roles: roles_data,
 		// props,
