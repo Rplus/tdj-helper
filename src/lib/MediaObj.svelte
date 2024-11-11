@@ -47,6 +47,7 @@ export let mobile_align = '';
 	background-color: #9993;
 	box-shadow: inset 2px 2px 8px #0003;
 	overflow: hidden;
+	width: fit-content;
 
 	& img {
 		display: block;
@@ -57,6 +58,7 @@ export let mobile_align = '';
 	}
 }
 .name {
+	max-width: calc(var(--img-size) + 1em);
 	padding-bottom: 0.25em;
 	white-space: nowrap;
 	font-size: var(--name-fz, 1em);
