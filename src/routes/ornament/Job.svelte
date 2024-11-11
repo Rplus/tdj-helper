@@ -29,7 +29,7 @@ let jobs_with_img = jobs.map((job) => {
 .job {
 	width: fit-content;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	gap: 0.25em;
 	color: #666a;
 }

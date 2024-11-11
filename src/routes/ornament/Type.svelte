@@ -15,7 +15,7 @@ export let types = [''];
 }
 
 .btns button {
-	font-size: small;
+	font-size: 0.8em;
 	line-height: 1;
 	white-space: nowrap;
 }

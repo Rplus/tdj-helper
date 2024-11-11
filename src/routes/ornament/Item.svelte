@@ -93,6 +93,16 @@ let imgs = get_imgs('accessories', item.icon, [64, 128]);
 	border-bottom: 1px dashed #6663;
 	font-size: smaller;
 	color: #666a;
+
+	& img {
+		max-width: var(--img-size);
+		max-height: var(--img-size);
+	}
+
+	@media (max-width: 480px) {
+		--img-size: 1em;
+		font-size: 0.8em;
+	}
 }
 details {
 	font-size: smaller;
