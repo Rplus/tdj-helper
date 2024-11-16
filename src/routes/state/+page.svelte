@@ -38,7 +38,7 @@ function sort_by_prop(prop = '') {
 let order = {
 	name: [],
 	cate: [],
-	desc: [],
+	// desc: [],
 	dispellable: [],
 	extendable: [],
 	stealable: [],
@@ -46,7 +46,7 @@ let order = {
 
 data.forEach(item => {
 	for (let prop in item) {
-		order[prop].push(item[prop]);
+		order[prop]?.push(item[prop]);
 	}
 });
 
@@ -104,10 +104,8 @@ function get_index(prop, value) {
 				偷取
 			</div>
 
-			<div
-				class="desc"
-				class:active={sort_prop === 'desc'}
-				on:click={() => sort_by_prop('desc')}
+			<div class="desc"
+				on:click={() => sort_by_prop()}
 			>
 				描述
 			</div>
@@ -119,7 +117,6 @@ function get_index(prop, value) {
 			style="--dispellable:{Number(item.dispellable)};--extendable:{Number(item.extendable)};--stealable:{Number(item.stealable)};
 				--name:{get_index('name', item.name)};
 				--cate:{get_index('cate', item.cate)};
-				--desc:{get_index('desc', item.desc)};
 			"
 		>
 			<div class="name text-left">{item.name}</div>
