@@ -32,6 +32,10 @@ import { link } from '$lib/u.js';
 			<li>
 				<a href={link('/rune')}>魂石圖鑑</a>
 			</li>
+
+			<li>
+				<a href={link('/state')}>狀態列表</a>
+			</li>
 		</ul>
 	</fieldset>
 
