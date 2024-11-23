@@ -2,12 +2,36 @@
   "data": {
     "data": [
       {
-        "name": "双魂虞兮",
+        "name": "岭外飞燕",
         "is_new": "1",
+        "pinyin": "lingwaifeiyan",
+        "weight": "1530",
+        "expire": "45630",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "侠客",
+        "hero_icon": "Hero1087_HeadIcon_Basic",
+        "path": "%E5%B2%AD%E5%A4%96%E9%A3%9E%E7%87%95"
+      },
+      {
+        "name": "闻任宇",
+        "is_new": "1",
+        "pinyin": "wenrenyu",
+        "weight": "1520",
+        "expire": "45630",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "御风",
+        "hero_icon": "Hero1088_HeadIcon_Basic",
+        "path": "%E9%97%BB%E4%BB%BB%E5%AE%87"
+      },
+      {
+        "name": "双魂虞兮",
+        "is_new": "",
         "pinyin": "shuanghunyuxi",
         "weight": "1510",
-        "expire": "45602",
-        "rarity": "SSR",
+        "expire": "",
+        "rarity": "ULR",
         "prop": "光",
         "career": "祝由",
         "hero_icon": "Hero2502_HeadIcon_Basic",
@@ -1790,7 +1814,7 @@
         "path": "%E6%9C%B1%E6%B5%A9"
       }
     ],
-    "now": "2024-11-08 01:16:43"
+    "now": "2024-11-24 00:02:33"
   },
   "status": 1,
   "switch": null,
