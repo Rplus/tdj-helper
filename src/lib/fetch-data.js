@@ -75,10 +75,20 @@ const PROXY = [
 
 export async function fetch_role_detail(role) {
 	let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
+	// return cache_fetch(_url, () => PROXY.fetch(_url));
 
-	return cache_fetch(_url, () => PROXY.fetch(_url));
+	if (browser && cache.has(_url)) {
+		return cache.get(_url);
+	}
 
-	// return PROXY.fetch(_url);
+	let _data = await PROXY.fetch(_url);
+	if (role.pinyin_tw && !_data) {
+		_data = await PROXY.fetch(get_role_url(role.pinyin, 'cn'));
+	}
+
+	cache.set(_url, _data);
+
+	return _data;
 }
 
 function get_role_url(name, lang) {
