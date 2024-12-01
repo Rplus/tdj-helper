@@ -1,5 +1,37 @@
 [
   {
+    "name": "岭外飞燕",
+    "pinyin": "lingwaifeiyan",
+    "adv_skills": [
+      "卷火焚巢",
+      "卷火焚巢·壹式",
+      "卷火焚巢·贰式",
+      "燕落故巢",
+      "燕落故巢·壹式",
+      "燕落故巢·贰式",
+      "双环天弧",
+      "双环天弧·壹式",
+      "双环天弧·贰式"
+    ],
+    "new": true
+  },
+  {
+    "name": "闻任宇",
+    "pinyin": "wenrenyu",
+    "adv_skills": [
+      "抛竿为棍",
+      "抛竿为棍·壹式",
+      "抛竿为棍·贰式",
+      "淌海钓霜",
+      "淌海钓霜·壹式",
+      "淌海钓霜·贰式",
+      "鱼涌破网",
+      "鱼涌破网·壹式",
+      "鱼涌破网·贰式"
+    ],
+    "new": true
+  },
+  {
     "name": "双魂虞兮",
     "pinyin": "shuanghunyuxi",
     "adv_skills": [
@@ -649,7 +681,7 @@
     ]
   },
   {
-    "name": "尉遲良",
+    "name": "尉迟良",
     "pinyin": "yuchiliang",
     "adv_skills": [
       "矩子之域",
@@ -661,7 +693,8 @@
       "蓄势化形",
       "蓄势化形·壹式",
       "蓄势化形·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "虞兮",
@@ -676,7 +709,8 @@
       "物华休",
       "物华休·壹式",
       "物华休·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "鹿昭依",
@@ -691,7 +725,8 @@
       "泼风斩",
       "泼风斩·壹式",
       "泼风斩·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "展昭",
@@ -1009,7 +1044,7 @@
     ]
   },
   {
-    "name": "上官遠",
+    "name": "上官远",
     "pinyin": "shangguanyuan",
     "adv_skills": [
       "刚烈破冲",
@@ -1021,7 +1056,8 @@
       "列阵待发",
       "列阵待发·壹式",
       "列阵待发·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "方芸",
@@ -1134,7 +1170,7 @@
     "pinyin": "linyueru"
   },
   {
-    "name": "諸葛艾",
+    "name": "诸葛艾",
     "pinyin": "zhugeai",
     "adv_skills": [
       "司音辨曲",
@@ -1146,10 +1182,11 @@
       "希光回音",
       "希光回音·壹式",
       "希光回音·贰式"
-    ]
+    ],
+    "new": true
   },
   {
-    "name": "殷無邪",
+    "name": "殷无邪",
     "pinyin": "yinwuxie",
     "adv_skills": [
       "霜天剑匣",
@@ -1161,7 +1198,8 @@
       "剑绝岱宗",
       "剑绝岱宗·壹式",
       "剑绝岱宗·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "宇韶容",
@@ -1176,7 +1214,8 @@
       "无相气旋斩",
       "无相气旋斩·壹式",
       "无相气旋斩·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "劍邪",
@@ -1206,7 +1245,8 @@
       "销骨鞭罚",
       "销骨鞭罚·壹式",
       "销骨鞭罚·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "曹沁",
@@ -1221,7 +1261,8 @@
       "一字炎斩",
       "一字炎斩·壹式",
       "一字炎斩·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "秦惟剛",
@@ -1266,7 +1307,8 @@
       "灭剑血胧",
       "灭剑血胧·壹式",
       "灭剑血胧·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "鄲陰",
@@ -1299,7 +1341,7 @@
     ]
   },
   {
-    "name": "封鈴笙",
+    "name": "封铃笙",
     "pinyin": "fenglingsheng",
     "adv_skills": [
       "瞬霎神仪",
@@ -1311,7 +1353,8 @@
       "神华天舞",
       "神华天舞·壹式",
       "神华天舞·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "葛雲衣",
@@ -1329,7 +1372,7 @@
     ]
   },
   {
-    "name": "古倫德",
+    "name": "古伦德",
     "pinyin": "gulunde",
     "adv_skills": [
       "轰雷斩",
@@ -1341,7 +1384,8 @@
       "天将奔烈",
       "天将奔烈·壹式",
       "天将奔烈·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "韓千秀",
@@ -1371,7 +1415,8 @@
       "风卷残云",
       "风卷残云·壹式",
       "风卷残云·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "解臾",
@@ -1389,7 +1434,7 @@
     ]
   },
   {
-    "name": "慕容璇璣",
+    "name": "慕容璇玑",
     "pinyin": "murongxuanji",
     "adv_skills": [
       "引雷真诀",
@@ -1401,10 +1446,11 @@
       "千煌雷烈",
       "千煌雷烈·壹式",
       "千煌雷烈·贰式"
-    ]
+    ],
+    "new": true
   },
   {
-    "name": "夏侯儀",
+    "name": "夏侯仪",
     "pinyin": "xiahouyi",
     "adv_skills": [
       "焚火真炎",
@@ -1416,7 +1462,8 @@
       "九俱焚灭",
       "九俱焚灭·壹式",
       "九俱焚灭·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "燕明蓉",
@@ -1449,7 +1496,7 @@
     ]
   },
   {
-    "name": "殷劍平",
+    "name": "殷剑平",
     "pinyin": "yinjianping",
     "adv_skills": [
       "火灵神剑",
@@ -1461,7 +1508,8 @@
       "融会贯通",
       "融会贯通·壹式",
       "融会贯通·贰式"
-    ]
+    ],
+    "new": true
   },
   {
     "name": "白菀",
@@ -1480,8 +1528,9 @@
     "pinyin": "hanwusha"
   },
   {
-    "name": "赫蘭鐵罕",
-    "pinyin": "helantiehan"
+    "name": "赫兰铁罕",
+    "pinyin": "helantiehan",
+    "new": true
   },
   {
     "name": "幻鏡朧妖",
@@ -1492,8 +1541,9 @@
     "pinyin": "liyingfeng"
   },
   {
-    "name": "慕容箏",
-    "pinyin": "murongzheng"
+    "name": "慕容筝",
+    "pinyin": "murongzheng",
+    "new": true
   },
   {
     "name": "司徒纓",
@@ -1521,19 +1571,23 @@
   },
   {
     "name": "周崇",
-    "pinyin": "zhouchong"
+    "pinyin": "zhouchong",
+    "new": true
   },
   {
-    "name": "朱繯",
-    "pinyin": "zhuhuan"
+    "name": "朱缳",
+    "pinyin": "zhuhuan",
+    "new": true
   },
   {
-    "name": "紫蘊",
-    "pinyin": "ziyun"
+    "name": "紫蕴",
+    "pinyin": "ziyun",
+    "new": true
   },
   {
-    "name": "阿爾泰巴",
-    "pinyin": "aertaiba"
+    "name": "阿尔泰巴",
+    "pinyin": "aertaiba",
+    "new": true
   },
   {
     "name": "高世津",
@@ -1544,8 +1598,9 @@
     "pinyin": "huyanchong"
   },
   {
-    "name": "青蘿",
-    "pinyin": "qingluo"
+    "name": "青萝",
+    "pinyin": "qingluo",
+    "new": true
   },
   {
     "name": "韋勝",
@@ -1569,6 +1624,7 @@
   },
   {
     "name": "朱浩",
-    "pinyin": "zhuhao"
+    "pinyin": "zhuhao",
+    "new": true
   }
 ]

@@ -682,6 +682,7 @@
     "hero_icon": "Hero1070_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "yaoji",
+    "pinyin_tw": "yaoji",
     "path": "%E7%91%B6%E5%A7%AC",
     "pic": "Hero1070_img",
     "position": "治療",
@@ -703,6 +704,7 @@
     "hero_icon": "Hero1051_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "shuangyaobingli",
+    "pinyin_tw": "shuangyaobingli",
     "path": "%E5%8F%8C%E6%9B%9C%E5%86%B0%E7%92%83",
     "pic": "Hero1051_img",
     "position": "近攻",
@@ -726,6 +728,7 @@
     "hero_icon": "Hero1040_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "jianhuntianzun",
+    "pinyin_tw": "jianhuntianzun",
     "path": "%E5%89%91%E9%AD%82%C2%B7%E5%A4%A9%E5%B0%8A",
     "pic": "Hero1040_img",
     "position": "近攻",
@@ -793,6 +796,7 @@
     "hero_icon": "Hero1320_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xiaohe",
+    "pinyin_tw": "xiaohe",
     "path": "%E8%90%A7%E7%86%87",
     "pic": "Hero1320_img",
     "position": "坦克",
@@ -814,6 +818,7 @@
     "hero_icon": "Hero1321_HeadIcon_Basic",
     "career": "鬥將",
     "pinyin": "taixuanlinghu",
+    "pinyin_tw": "taixuanlinghu",
     "path": "%E5%A4%AA%E7%8E%84%E7%81%B5%E7%8B%90",
     "pic": "Hero1321_img",
     "position": "近攻",
@@ -836,6 +841,7 @@
     "hero_icon": "Hero1063_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "jiuselu",
+    "pinyin_tw": "jiuselu",
     "path": "%E4%B9%9D%E8%89%B2%E9%B9%BF",
     "pic": "Hero1063_img",
     "position": "近攻",
@@ -858,6 +864,7 @@
     "hero_icon": "Hero1064_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "jiyuefeitian",
+    "pinyin_tw": "jiyuefeitian",
     "path": "%E4%BC%8E%E4%B9%90%E9%A3%9E%E5%A4%A9",
     "pic": "Hero1064_img",
     "position": "遠攻",
@@ -879,6 +886,7 @@
     "hero_icon": "Hero1048_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "anyi",
+    "pinyin_tw": "anyi",
     "path": "%E5%AE%89%E9%80%B8",
     "pic": "Hero1048_img",
     "position": "近攻",
@@ -886,9 +894,9 @@
     "speed": "3",
     "strategy": "劍灼焰染陣",
     "status": {
-      "hp": 210,
-      "atk_mag": 14,
-      "atk_phy": 106,
+      "hp": 209,
+      "atk_mag": 13,
+      "atk_phy": 105,
       "def_mag": 19,
       "def_phy": 40,
       "crit": 24
@@ -901,16 +909,17 @@
     "hero_icon": "Hero1057_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "yuqing",
+    "pinyin_tw": "yuqing",
     "path": "%E5%BE%A1%E5%8D%BF",
     "pic": "Hero1057_img",
     "position": "治療",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 181,
-      "atk_mag": 84,
-      "atk_phy": 13,
-      "def_mag": 39,
+      "hp": 180,
+      "atk_mag": 83,
+      "atk_phy": 12,
+      "def_mag": 38,
       "def_phy": 32,
       "crit": 21
     }
@@ -922,6 +931,7 @@
     "hero_icon": "Hero1055_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "baxionggaoqi",
+    "pinyin_tw": "baxionggaoqi",
     "path": "%E9%9C%B8%E7%86%8A%E9%AB%98%E6%88%9A",
     "pic": "Hero1055_img",
     "position": "坦克",
@@ -943,6 +953,7 @@
     "hero_icon": "Hero1056_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "shuangshuang",
+    "pinyin_tw": "shuangshuang",
     "path": "%E5%8F%8C%E5%8F%8C",
     "pic": "Hero1056_img",
     "position": "遠攻",
@@ -965,6 +976,7 @@
     "hero_icon": "Hero1060_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "guizhao",
+    "pinyin_tw": "guizhao",
     "path": "%E5%BD%92%E6%A3%B9",
     "pic": "Hero1060_img",
     "position": "近攻",
@@ -986,6 +998,7 @@
     "hero_icon": "Hero1061_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "luoyuannvhuang",
+    "pinyin_tw": "luoyuannvhuang",
     "path": "%E7%BD%97%E6%B8%8A%E5%A5%B3%E7%9A%87",
     "pic": "Hero1061_img",
     "position": "近攻",
@@ -1008,6 +1021,7 @@
     "hero_icon": "Hero1062_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "youhuang",
+    "pinyin_tw": "youhuang",
     "path": "%E5%B9%BD%E7%AF%81",
     "pic": "Hero1062_img",
     "position": "遠攻",
@@ -1029,6 +1043,7 @@
     "hero_icon": "Hero1039_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "zhaoge",
+    "pinyin_tw": "zhaoge",
     "path": "%E6%9C%9D%E6%AD%8C",
     "pic": "Hero1039_img",
     "position": "遠攻",
@@ -1050,6 +1065,7 @@
     "hero_icon": "Hero1052_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "lukui",
+    "pinyin_tw": "lukui",
     "path": "%E9%9C%B2%E8%91%B5",
     "pic": "Hero1052_img",
     "position": "遠攻",
@@ -1072,6 +1088,7 @@
     "hero_icon": "Hero1301_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "longye",
+    "pinyin_tw": "longye",
     "path": "%E8%83%A7%E5%A4%9C",
     "pic": "Hero1301_img",
     "position": "法攻",
@@ -1094,6 +1111,7 @@
     "hero_icon": "Hero1302_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "yinqianyang",
+    "pinyin_tw": "yinqianyang",
     "path": "%E6%AE%B7%E5%8D%83%E7%82%80",
     "pic": "Hero1302_img",
     "position": "近攻",
@@ -1116,6 +1134,7 @@
     "hero_icon": "Hero1319_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "shaoxiayingfengren",
+    "pinyin_tw": "shaoxiayingfengren",
     "path": "%E5%B0%91%E4%BE%A0%E5%BA%94%E5%A5%89%E4%BB%81",
     "pic": "Hero1319_img",
     "position": "近攻",
@@ -1137,6 +1156,7 @@
     "hero_icon": "Hero1047_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "gongsunqiyue",
+    "pinyin_tw": "gongsunqiyue",
     "path": "%E5%85%AC%E5%AD%99%E4%B8%83%E6%9C%88",
     "pic": "Hero1047_img",
     "position": "遠攻",
@@ -1158,6 +1178,7 @@
     "hero_icon": "Hero1049_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "fuyayu",
+    "pinyin_tw": "fuyayu",
     "path": "%E5%82%85%E9%9B%85%E9%B1%BC",
     "pic": "Hero1049_img",
     "position": "治療",
@@ -1180,6 +1201,7 @@
     "hero_icon": "Hero1046_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xiliya",
+    "pinyin_tw": "xiliya",
     "path": "%E8%A5%BF%E8%8E%89%E4%BA%9A",
     "pic": "Hero1046_img",
     "position": "坦克",
@@ -1187,11 +1209,11 @@
     "speed": "3",
     "status": {
       "hp": 235,
-      "atk_mag": 13,
-      "atk_phy": 89,
-      "def_mag": 22,
-      "def_phy": 45,
-      "crit": 24
+      "atk_mag": 14,
+      "atk_phy": 90,
+      "def_mag": 23,
+      "def_phy": 46,
+      "crit": 25
     }
   },
   {
@@ -1201,6 +1223,7 @@
     "hero_icon": "Hero1050_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "xingzhanxianzhe",
+    "pinyin_tw": "xingzhanxianzhe",
     "path": "%E6%98%9F%E5%8D%A0%E8%B4%A4%E8%80%85",
     "pic": "Hero1050_img",
     "position": "法攻",
@@ -1210,8 +1233,8 @@
     "status": {
       "hp": 179,
       "atk_mag": 99,
-      "atk_phy": 12,
-      "def_mag": 36,
+      "atk_phy": 13,
+      "def_mag": 37,
       "def_phy": 29,
       "crit": 37
     }
@@ -1223,6 +1246,7 @@
     "hero_icon": "Hero2016_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "baisuzhen",
+    "pinyin_tw": "baisuzhen",
     "path": "%E7%99%BD%E7%B4%A0%E8%B4%9E",
     "pic": "Hero2016_img",
     "position": "法攻",
@@ -1230,11 +1254,11 @@
     "speed": "3",
     "status": {
       "hp": 170,
-      "atk_mag": 102,
-      "atk_phy": 13,
-      "def_mag": 37,
+      "atk_mag": 103,
+      "atk_phy": 14,
+      "def_mag": 38,
       "def_phy": 30,
-      "crit": 36
+      "crit": 37
     }
   },
   {
@@ -1244,6 +1268,7 @@
     "hero_icon": "Hero2015_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "qing",
+    "pinyin_tw": "qing",
     "path": "%E9%9D%92",
     "pic": "Hero2015_img",
     "position": "近攻",
@@ -1251,11 +1276,11 @@
     "speed": "3",
     "strategy": "佛口蛇心陣",
     "status": {
-      "hp": 202,
-      "atk_mag": 13,
+      "hp": 203,
+      "atk_mag": 14,
       "atk_phy": 107,
       "def_mag": 27,
-      "def_phy": 35,
+      "def_phy": 36,
       "crit": 35
     }
   },
@@ -1266,16 +1291,17 @@
     "hero_icon": "Hero2014_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "fahai",
+    "pinyin_tw": "fahai",
     "path": "%E6%B3%95%E6%B5%B7",
     "pic": "Hero2014_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 221,
-      "atk_mag": 13,
+      "hp": 222,
+      "atk_mag": 14,
       "atk_phy": 98,
-      "def_mag": 31,
+      "def_mag": 32,
       "def_phy": 35,
       "crit": 20
     },
@@ -1288,6 +1314,7 @@
     "hero_icon": "Hero1043_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "aqiu",
+    "pinyin_tw": "aqiu",
     "path": "%E9%98%BF%E7%A7%8B",
     "pic": "Hero1043_img",
     "position": "遠攻",
@@ -1296,7 +1323,7 @@
     "strategy": "灼光雷鳴陣",
     "status": {
       "hp": 175,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 104,
       "def_mag": 26,
       "def_phy": 30,
@@ -1315,6 +1342,7 @@
     "hero_icon": "Hero1044_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "huyanshuo",
+    "pinyin_tw": "huyanshuo",
     "path": "%E5%91%BC%E5%BB%B6%E6%9C%94",
     "pic": "Hero1044_img",
     "position": "近攻",
@@ -1322,11 +1350,11 @@
     "speed": "5",
     "status": {
       "hp": 180,
-      "atk_mag": 12,
-      "atk_phy": 97,
-      "def_mag": 27,
-      "def_phy": 35,
-      "crit": 45
+      "atk_mag": 13,
+      "atk_phy": 98,
+      "def_mag": 28,
+      "def_phy": 36,
+      "crit": 46
     }
   },
   {
@@ -1336,18 +1364,19 @@
     "hero_icon": "Hero1042_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "zhuoer",
+    "pinyin_tw": "zhuoer",
     "path": "%E5%8D%93%E5%B0%94",
     "pic": "Hero1042_img",
     "position": "法攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 175,
+      "hp": 176,
       "atk_mag": 106,
-      "atk_phy": 13,
+      "atk_phy": 14,
       "def_mag": 34,
-      "def_phy": 32,
-      "crit": 31
+      "def_phy": 33,
+      "crit": 32
     }
   },
   {
@@ -1357,6 +1386,7 @@
     "hero_icon": "Hero1034_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "baaier",
+    "pinyin_tw": "baaier",
     "path": "%E5%B7%B4%E8%89%BE%E8%BF%A9",
     "pic": "Hero1034_img",
     "position": "近攻",
@@ -1364,12 +1394,12 @@
     "speed": "5",
     "strategy": "流靄絕殺陣",
     "status": {
-      "hp": 182,
-      "atk_mag": 12,
-      "atk_phy": 98,
+      "hp": 183,
+      "atk_mag": 13,
+      "atk_phy": 99,
       "def_mag": 30,
-      "def_phy": 34,
-      "crit": 40
+      "def_phy": 35,
+      "crit": 41
     }
   },
   {
@@ -1379,18 +1409,19 @@
     "hero_icon": "Hero1041_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "shenqueqingyi",
+    "pinyin_tw": "shenqueqingyi",
     "path": "%E7%A5%9E%E9%98%99%E9%9D%92%E8%A1%A3",
     "pic": "Hero1041_img",
     "position": "近攻",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 204,
-      "atk_mag": 13,
+      "hp": 205,
+      "atk_mag": 14,
       "atk_phy": 107,
       "def_mag": 26,
       "def_phy": 33,
-      "crit": 25
+      "crit": 26
     }
   },
   {
@@ -1400,6 +1431,7 @@
     "hero_icon": "Hero1210_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "zhenyin",
+    "pinyin_tw": "zhenyin",
     "path": "%E7%9C%9F%E8%83%A4",
     "pic": "Hero1210_img",
     "position": "坦克",
@@ -1407,10 +1439,10 @@
     "speed": "3",
     "strategy": "三身通智陣",
     "status": {
-      "hp": 239,
-      "atk_mag": 12,
-      "atk_phy": 88,
-      "def_mag": 22,
+      "hp": 240,
+      "atk_mag": 13,
+      "atk_phy": 89,
+      "def_mag": 23,
       "def_phy": 44,
       "crit": 30
     },
@@ -1425,17 +1457,18 @@
     "hero_icon": "Hero1149_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "mohuahuangfushen",
+    "pinyin_tw": "mohuahuangfushen",
     "path": "%E9%AD%94%E5%8C%96%E7%9A%87%E7%94%AB%E7%94%B3",
     "pic": "Hero1149_img",
     "position": "近攻",
     "range": "1",
     "speed": "5",
     "status": {
-      "hp": 191,
-      "atk_mag": 14,
-      "atk_phy": 109,
+      "hp": 192,
+      "atk_mag": 15,
+      "atk_phy": 110,
       "def_mag": 32,
-      "def_phy": 32,
+      "def_phy": 33,
       "crit": 43
     }
   },
@@ -1446,6 +1479,7 @@
     "hero_icon": "Hero1036_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "yunjia",
+    "pinyin_tw": "yunjia",
     "path": "%E5%85%81%E8%BF%A6",
     "pic": "Hero1036_img",
     "position": "遠攻",
@@ -1453,12 +1487,12 @@
     "speed": "3",
     "strategy": "附星擢升陣",
     "status": {
-      "hp": 180,
-      "atk_mag": 13,
+      "hp": 181,
+      "atk_mag": 14,
       "atk_phy": 103,
       "def_mag": 26,
       "def_phy": 30,
-      "crit": 45
+      "crit": 46
     }
   },
   {
@@ -1536,6 +1570,7 @@
     "hero_icon": "Hero2012_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "zhanzhao",
+    "pinyin_tw": "zhanzhao",
     "path": "%E5%B1%95%E6%98%AD",
     "pic": "Hero2012_img",
     "position": "近攻",
@@ -1543,11 +1578,11 @@
     "speed": "3",
     "status": {
       "hp": 206,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 106,
-      "def_mag": 21,
+      "def_mag": 22,
       "def_phy": 39,
-      "crit": 26
+      "crit": 27
     }
   },
   {
@@ -1557,6 +1592,7 @@
     "hero_icon": "Hero2013_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "baiyutang",
+    "pinyin_tw": "baiyutang",
     "path": "%E7%99%BD%E7%8E%89%E5%A0%82",
     "pic": "Hero2013_img",
     "position": "近攻",
@@ -1565,8 +1601,8 @@
     "strategy": "義鼠奪風陣",
     "status": {
       "hp": 184,
-      "atk_mag": 12,
-      "atk_phy": 99,
+      "atk_mag": 13,
+      "atk_phy": 100,
       "def_mag": 31,
       "def_phy": 32,
       "crit": 45
@@ -1579,6 +1615,7 @@
     "hero_icon": "Hero1037_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "tanxiang",
+    "pinyin_tw": "tanxiang",
     "path": "%E6%86%9B%E9%A6%99",
     "pic": "Hero1037_img",
     "position": "法攻",
@@ -1588,9 +1625,9 @@
     "status": {
       "hp": 170,
       "atk_mag": 98,
-      "atk_phy": 12,
-      "def_mag": 37,
-      "def_phy": 32,
+      "atk_phy": 13,
+      "def_mag": 38,
+      "def_phy": 33,
       "crit": 36
     }
   },
@@ -1601,18 +1638,19 @@
     "hero_icon": "Hero1038_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "suijiu",
+    "pinyin_tw": "suijiu",
     "path": "%E9%9A%8B%E9%85%92",
     "pic": "Hero1038_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 237,
-      "atk_mag": 12,
-      "atk_phy": 87,
+      "hp": 238,
+      "atk_mag": 13,
+      "atk_phy": 88,
       "def_mag": 28,
       "def_phy": 42,
-      "crit": 17
+      "crit": 18
     }
   },
   {
@@ -1622,18 +1660,19 @@
     "hero_icon": "Hero1032_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "wuxiangmifu",
+    "pinyin_tw": "wuxiangmifu",
     "path": "%E6%97%A0%E7%9B%B8%C2%B7%E5%BC%AD%E6%9C%8D",
     "pic": "Hero1032_img",
     "position": "近攻",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 210,
-      "atk_mag": 13,
-      "atk_phy": 98,
-      "def_mag": 36,
+      "hp": 214,
+      "atk_mag": 14,
+      "atk_phy": 97,
+      "def_mag": 37,
       "def_phy": 33,
-      "crit": 17
+      "crit": 18
     },
     "career2": "猛士"
   },
@@ -1644,6 +1683,7 @@
     "hero_icon": "Hero1033_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "baifugui",
+    "pinyin_tw": "baifugui",
     "path": "%E7%99%BD%E5%A4%8D%E5%BD%92",
     "pic": "Hero1033_img",
     "position": "治療",
@@ -1651,12 +1691,12 @@
     "speed": "3",
     "strategy": "墨染冬月陣",
     "status": {
-      "hp": 180,
-      "atk_mag": 84,
-      "atk_phy": 13,
+      "hp": 181,
+      "atk_mag": 85,
+      "atk_phy": 14,
       "def_mag": 41,
       "def_phy": 32,
-      "crit": 20
+      "crit": 21
     }
   },
   {
@@ -1666,6 +1706,7 @@
     "hero_icon": "Hero1147_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "yunyigongzhu",
+    "pinyin_tw": "yunyigongzhu",
     "path": "%E4%BA%91%E8%A1%A3%E5%AE%AB%E4%B8%BB",
     "pic": "Hero1147_img",
     "position": "法攻",
@@ -1673,12 +1714,12 @@
     "speed": "3",
     "strategy": "神觀天掣陣",
     "status": {
-      "hp": 166,
-      "atk_mag": 103,
-      "atk_phy": 13,
-      "def_mag": 36,
+      "hp": 167,
+      "atk_mag": 104,
+      "atk_phy": 14,
+      "def_mag": 37,
       "def_phy": 29,
-      "crit": 45
+      "crit": 46
     }
   },
   {
@@ -1688,6 +1729,7 @@
     "hero_icon": "Hero1148_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "lingqu",
+    "pinyin_tw": "lingqu",
     "path": "%E7%81%B5%E9%BC%A9",
     "pic": "Hero1148_img",
     "position": "近攻",
@@ -1695,9 +1737,9 @@
     "speed": "5",
     "status": {
       "hp": 188,
-      "atk_mag": 12,
-      "atk_phy": 101,
-      "def_mag": 32,
+      "atk_mag": 13,
+      "atk_phy": 102,
+      "def_mag": 33,
       "def_phy": 31,
       "crit": 46
     }
@@ -1709,18 +1751,19 @@
     "hero_icon": "Hero1030_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "yinma",
+    "pinyin_tw": "yinma",
     "path": "%E9%93%B6%E7%8E%9B",
     "pic": "Hero1030_img",
     "position": "遠攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 179,
-      "atk_mag": 12,
-      "atk_phy": 99,
+      "hp": 180,
+      "atk_mag": 13,
+      "atk_phy": 100,
       "def_mag": 26,
       "def_phy": 31,
-      "crit": 53
+      "crit": 54
     },
     "summons": [
       "嘯霜"
@@ -1733,18 +1776,19 @@
     "hero_icon": "Hero1031_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "renduanli",
+    "pinyin_tw": "renduanli",
     "path": "%E4%BB%BB%E6%96%AD%E7%A6%BB",
     "pic": "Hero1031_img",
     "position": "近攻",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 203,
+      "hp": 204,
       "atk_mag": 107,
-      "atk_phy": 13,
+      "atk_phy": 14,
       "def_mag": 27,
-      "def_phy": 35,
-      "crit": 20
+      "def_phy": 36,
+      "crit": 21
     }
   },
   {
@@ -1754,6 +1798,7 @@
     "hero_icon": "Hero1146_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "huoyong",
+    "pinyin_tw": "huoyong",
     "path": "%E9%9C%8D%E9%9B%8D",
     "pic": "Hero1146_img",
     "position": "法攻",
@@ -1761,10 +1806,10 @@
     "speed": "3",
     "strategy": "幽寰天契陣",
     "status": {
-      "hp": 173,
+      "hp": 174,
       "atk_mag": 106,
-      "atk_phy": 13,
-      "def_mag": 36,
+      "atk_phy": 14,
+      "def_mag": 37,
       "def_phy": 30,
       "crit": 29
     }
@@ -1776,6 +1821,7 @@
     "hero_icon": "Hero1028_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "jiuyin",
+    "pinyin_tw": "jiuyin",
     "path": "%E4%B9%9D%E9%98%B4",
     "pic": "Hero1028_img",
     "position": "近攻",
@@ -1784,10 +1830,10 @@
     "strategy": "朝花夕夢陣",
     "status": {
       "hp": 225,
-      "atk_mag": 13,
-      "atk_phy": 96,
+      "atk_mag": 14,
+      "atk_phy": 97,
       "def_mag": 26,
-      "def_phy": 37,
+      "def_phy": 38,
       "crit": 37
     },
     "career2": "猛士"
@@ -1799,6 +1845,7 @@
     "hero_icon": "Hero1314_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "gaohuangjun",
+    "pinyin_tw": "gaohuangjun",
     "path": "%E9%AB%98%E7%9A%87%E5%90%9B",
     "pic": "Hero1314_img",
     "position": "法攻",
@@ -1806,11 +1853,11 @@
     "speed": "3",
     "status": {
       "hp": 170,
-      "atk_mag": 101,
-      "atk_phy": 12,
+      "atk_mag": 102,
+      "atk_phy": 13,
       "def_mag": 40,
       "def_phy": 29,
-      "crit": 25
+      "crit": 26
     }
   },
   {
@@ -1820,16 +1867,17 @@
     "hero_icon": "Hero1026_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "chunlan",
+    "pinyin_tw": "chunlan",
     "path": "%E6%98%A5%E5%85%B0",
     "pic": "Hero1026_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 207,
-      "atk_mag": 13,
-      "atk_phy": 89,
-      "def_mag": 38,
+      "hp": 208,
+      "atk_mag": 14,
+      "atk_phy": 90,
+      "def_mag": 39,
       "def_phy": 34,
       "crit": 34
     }
@@ -1841,6 +1889,7 @@
     "hero_icon": "Hero1027_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "xige",
+    "pinyin_tw": "xige",
     "path": "%E5%A5%9A%E6%AD%8C",
     "pic": "Hero1027_img",
     "position": "近攻",
@@ -1849,9 +1898,9 @@
     "strategy": "俠風洗刃陣",
     "status": {
       "hp": 179,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 101,
-      "def_mag": 33,
+      "def_mag": 34,
       "def_phy": 33,
       "crit": 50
     }
@@ -1863,6 +1912,7 @@
     "hero_icon": "Hero2008_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "ningcaichen",
+    "pinyin_tw": "ningcaichen",
     "path": "%E5%AE%81%E9%87%87%E8%87%A3",
     "pic": "Hero2008_img",
     "position": "治療",
@@ -1870,10 +1920,10 @@
     "speed": "3",
     "status": {
       "hp": 184,
-      "atk_mag": 77,
+      "atk_mag": 78,
       "atk_phy": 11,
-      "def_mag": 39,
-      "def_phy": 34,
+      "def_mag": 40,
+      "def_phy": 35,
       "crit": 22
     }
   },
@@ -1884,17 +1934,18 @@
     "hero_icon": "Hero2009_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "niexiaoqian",
+    "pinyin_tw": "niexiaoqian",
     "path": "%E8%81%82%E5%B0%8F%E5%80%A9",
     "pic": "Hero2009_img",
     "position": "法攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 172,
-      "atk_mag": 102,
-      "atk_phy": 13,
+      "hp": 173,
+      "atk_mag": 103,
+      "atk_phy": 14,
       "def_mag": 41,
-      "def_phy": 24,
+      "def_phy": 25,
       "crit": 30
     }
   },
@@ -1905,6 +1956,7 @@
     "hero_icon": "Hero2010_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "yanchixia",
+    "pinyin_tw": "yanchixia",
     "path": "%E7%87%95%E8%B5%A4%E9%9C%9E",
     "pic": "Hero2010_img",
     "position": "近攻",
@@ -1913,10 +1965,10 @@
     "strategy": "劍膽星馳陣",
     "status": {
       "hp": 208,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 107,
-      "def_mag": 23,
-      "def_phy": 35,
+      "def_mag": 24,
+      "def_phy": 36,
       "crit": 39
     }
   },
@@ -1927,6 +1979,7 @@
     "hero_icon": "Hero1025_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "xuanyu",
+    "pinyin_tw": "xuanyu",
     "path": "%E7%8E%84%E7%BE%BD",
     "pic": "Hero1025_img",
     "position": "遠攻",
@@ -1934,10 +1987,10 @@
     "speed": "3",
     "status": {
       "hp": 177,
-      "atk_mag": 14,
-      "atk_phy": 105,
-      "def_mag": 24,
-      "def_phy": 34,
+      "atk_mag": 15,
+      "atk_phy": 106,
+      "def_mag": 25,
+      "def_phy": 35,
       "crit": 47
     }
   },
@@ -1948,6 +2001,7 @@
     "hero_icon": "Hero1024_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "yunxiang",
+    "pinyin_tw": "yunxiang",
     "path": "%E4%BA%91%E8%A5%84",
     "pic": "Hero1024_img",
     "position": "法攻",
@@ -1956,7 +2010,7 @@
     "status": {
       "hp": 164,
       "atk_mag": 104,
-      "atk_phy": 13,
+      "atk_phy": 14,
       "def_mag": 39,
       "def_phy": 28,
       "crit": 31
@@ -1969,6 +2023,7 @@
     "hero_icon": "Hero1208_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xianyuchao",
+    "pinyin_tw": "xianyuchao",
     "path": "%E9%B2%9C%E4%BA%8E%E8%B6%85",
     "pic": "Hero1208_img",
     "position": "近攻",
@@ -1976,12 +2031,12 @@
     "speed": "3",
     "strategy": "鬼冥煉獄陣",
     "status": {
-      "hp": 227,
-      "atk_mag": 14,
-      "atk_phy": 101,
+      "hp": 228,
+      "atk_mag": 15,
+      "atk_phy": 102,
       "def_mag": 25,
-      "def_phy": 38,
-      "crit": 23
+      "def_phy": 39,
+      "crit": 24
     },
     "career2": "猛士"
   },
@@ -2014,6 +2069,7 @@
     "hero_icon": "Hero1223_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "fangyun",
+    "pinyin_tw": "fangyun",
     "path": "%E6%96%B9%E8%8A%B8",
     "pic": "Hero1223_img",
     "position": "遠攻",
@@ -2021,20 +2077,21 @@
     "speed": "3",
     "status": {
       "hp": 176,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 102,
       "def_mag": 27,
       "def_phy": 30,
-      "crit": 48
+      "crit": 49
     }
   },
   {
-    "name": "鐵手夏侯儀",
+    "name": "魔化夏侯儀",
     "rarity": "SSR",
     "prop": "暗",
     "hero_icon": "Hero1201_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "tieshouxiahouyi",
+    "pinyin_tw": "mohuaxiahouyi",
     "path": "%E9%93%81%E6%89%8B%E5%A4%8F%E4%BE%AF%E4%BB%AA",
     "pic": "Hero1201_img",
     "position": "法攻",
@@ -2043,11 +2100,11 @@
     "strategy": "萬念輪迴陣",
     "status": {
       "hp": 171,
-      "atk_mag": 108,
-      "atk_phy": 14,
+      "atk_mag": 109,
+      "atk_phy": 15,
       "def_mag": 35,
       "def_phy": 30,
-      "crit": 27
+      "crit": 28
     }
   },
   {
@@ -2057,6 +2114,7 @@
     "hero_icon": "Hero1016_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "zhaoyou",
+    "pinyin_tw": "zhaoyou",
     "path": "%E5%8F%AC%E7%A5%90",
     "pic": "Hero1016_img",
     "position": "坦克",
@@ -2065,8 +2123,8 @@
     "strategy": "元龍兩儀陣",
     "status": {
       "hp": 219,
-      "atk_mag": 12,
-      "atk_phy": 87,
+      "atk_mag": 13,
+      "atk_phy": 88,
       "def_mag": 41,
       "def_phy": 36,
       "crit": 17
@@ -2079,6 +2137,7 @@
     "hero_icon": "Hero1022_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "chilian",
+    "pinyin_tw": "chilian",
     "path": "%E8%B5%A4%E7%82%BC",
     "pic": "Hero1022_img",
     "position": "近攻",
@@ -2086,11 +2145,11 @@
     "speed": "5",
     "status": {
       "hp": 184,
-      "atk_mag": 12,
+      "atk_mag": 13,
       "atk_phy": 96,
-      "def_mag": 27,
-      "def_phy": 35,
-      "crit": 45
+      "def_mag": 28,
+      "def_phy": 36,
+      "crit": 46
     }
   },
   {
@@ -2100,6 +2159,7 @@
     "hero_icon": "Hero1224_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "wuyingzhong",
+    "pinyin_tw": "wuyingzhong",
     "path": "%E6%AD%A6%E8%8B%B1%E4%BB%B2",
     "pic": "Hero1224_img",
     "position": "近攻",
@@ -2107,11 +2167,11 @@
     "speed": "3",
     "strategy": "乾坤流燁陣",
     "status": {
-      "hp": 195,
-      "atk_mag": 13,
-      "atk_phy": 105,
+      "hp": 196,
+      "atk_mag": 14,
+      "atk_phy": 106,
       "def_mag": 26,
-      "def_phy": 36,
+      "def_phy": 37,
       "crit": 21
     },
     "summons": [
@@ -2126,18 +2186,19 @@
     "hero_icon": "Hero1023_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "wudie",
+    "pinyin_tw": "wudie",
     "path": "%E8%88%9E%E8%9D%B6",
     "pic": "Hero1023_img",
     "position": "治療",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 181,
+      "hp": 182,
       "atk_mag": 73,
       "atk_phy": 10,
       "def_mag": 41,
-      "def_phy": 35,
-      "crit": 23
+      "def_phy": 36,
+      "crit": 24
     }
   },
   {
@@ -2147,6 +2208,7 @@
     "hero_icon": "Hero2003_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "yuxiaoxue",
+    "pinyin_tw": "yuxiaoxue",
     "path": "%E4%BA%8E%E5%B0%8F%E9%9B%AA",
     "pic": "Hero2003_img",
     "position": "治療",
@@ -2156,10 +2218,10 @@
     "status": {
       "hp": 185,
       "atk_mag": 79,
-      "atk_phy": 11,
-      "def_mag": 37,
-      "def_phy": 34,
-      "crit": 18
+      "atk_phy": 12,
+      "def_mag": 38,
+      "def_phy": 35,
+      "crit": 19
     }
   },
   {
@@ -2169,6 +2231,7 @@
     "hero_icon": "Hero2004_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "yuwentuo",
+    "pinyin_tw": "yuwentuo",
     "path": "%E5%AE%87%E6%96%87%E6%8B%93",
     "pic": "Hero2004_img",
     "position": "近攻",
@@ -2176,11 +2239,11 @@
     "speed": "3",
     "status": {
       "hp": 200,
-      "atk_mag": 13,
-      "atk_phy": 105,
-      "def_mag": 21,
+      "atk_mag": 14,
+      "atk_phy": 106,
+      "def_mag": 22,
       "def_phy": 38,
-      "crit": 33
+      "crit": 34
     }
   },
   {
@@ -2190,6 +2253,7 @@
     "hero_icon": "Hero2000_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "lixiaoyao",
+    "pinyin_tw": "lixiaoyao",
     "path": "%E6%9D%8E%E9%80%8D%E9%81%A5",
     "pic": "Hero2000_img",
     "position": "近攻",
@@ -2198,10 +2262,10 @@
     "strategy": "醉夢紅塵陣",
     "status": {
       "hp": 198,
-      "atk_mag": 12,
-      "atk_phy": 103,
+      "atk_mag": 13,
+      "atk_phy": 104,
       "def_mag": 25,
-      "def_phy": 37,
+      "def_phy": 38,
       "crit": 20
     }
   },
@@ -2212,6 +2276,7 @@
     "hero_icon": "Hero2001_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "zhaolinger",
+    "pinyin_tw": "zhaolinger",
     "path": "%E8%B5%B5%E7%81%B5%E5%84%BF",
     "pic": "Hero2001_img",
     "position": "法攻",
@@ -2220,10 +2285,10 @@
     "status": {
       "hp": 161,
       "atk_mag": 96,
-      "atk_phy": 11,
-      "def_mag": 37,
-      "def_phy": 32,
-      "crit": 38
+      "atk_phy": 12,
+      "def_mag": 38,
+      "def_phy": 33,
+      "crit": 39
     }
   },
   {
@@ -2233,15 +2298,16 @@
     "hero_icon": "Hero2002_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "linyueru",
+    "pinyin_tw": "linyueru",
     "path": "%E6%9E%97%E6%9C%88%E5%A6%82",
     "pic": "Hero2002_img",
     "position": "近攻",
     "range": "1",
     "speed": "5",
     "status": {
-      "hp": 180,
-      "atk_mag": 12,
-      "atk_phy": 98,
+      "hp": 181,
+      "atk_mag": 13,
+      "atk_phy": 99,
       "def_mag": 30,
       "def_phy": 32,
       "crit": 49
@@ -2318,6 +2384,7 @@
     "hero_icon": "Hero1204_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "jianxie",
+    "pinyin_tw": "jianxie",
     "path": "%E5%89%91%E9%82%AA",
     "pic": "Hero1204_img",
     "position": "近攻",
@@ -2326,11 +2393,11 @@
     "strategy": "天魔萬象陣",
     "status": {
       "hp": 186,
-      "atk_mag": 14,
-      "atk_phy": 108,
-      "def_mag": 33,
-      "def_phy": 32,
-      "crit": 55
+      "atk_mag": 15,
+      "atk_phy": 109,
+      "def_mag": 34,
+      "def_phy": 33,
+      "crit": 56
     }
   },
   {
@@ -2383,18 +2450,19 @@
     "hero_icon": "Hero1118_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "qinweigang",
+    "pinyin_tw": "qinweigang",
     "path": "%E7%A7%A6%E6%83%9F%E5%88%9A",
     "pic": "Hero1118_img",
     "position": "遠攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 170,
-      "atk_mag": 13,
+      "hp": 171,
+      "atk_mag": 14,
       "atk_phy": 103,
       "def_mag": 27,
       "def_phy": 30,
-      "crit": 40
+      "crit": 41
     }
   },
   {
@@ -2404,6 +2472,7 @@
     "hero_icon": "Hero1206_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "zifeng",
+    "pinyin_tw": "zifeng",
     "path": "%E7%B4%AB%E6%9E%AB",
     "pic": "Hero1206_img",
     "position": "法攻",
@@ -2411,12 +2480,12 @@
     "speed": "3",
     "strategy": "瓊華飛仙陣",
     "status": {
-      "hp": 167,
-      "atk_mag": 100,
-      "atk_phy": 12,
-      "def_mag": 38,
+      "hp": 168,
+      "atk_mag": 101,
+      "atk_phy": 13,
+      "def_mag": 39,
       "def_phy": 29,
-      "crit": 37
+      "crit": 38
     }
   },
   {
@@ -2447,17 +2516,18 @@
     "hero_icon": "Hero1143_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "danyin",
+    "pinyin_tw": "danyin",
     "path": "%E9%83%B8%E9%98%B4",
     "pic": "Hero1143_img",
     "position": "法攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 178,
+      "hp": 179,
       "atk_mag": 95,
-      "atk_phy": 12,
-      "def_mag": 38,
-      "def_phy": 25,
+      "atk_phy": 13,
+      "def_mag": 39,
+      "def_phy": 26,
       "crit": 20
     },
     "summons": [
@@ -2475,6 +2545,7 @@
     "hero_icon": "Hero1200_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "fenghanyue",
+    "pinyin_tw": "fenghanyue",
     "path": "%E5%B0%81%E5%AF%92%E6%9C%88",
     "pic": "Hero1200_img",
     "position": "法攻",
@@ -2483,11 +2554,11 @@
     "strategy": "弦月封霜陣",
     "status": {
       "hp": 162,
-      "atk_mag": 102,
-      "atk_phy": 13,
+      "atk_mag": 103,
+      "atk_phy": 14,
       "def_mag": 40,
-      "def_phy": 25,
-      "crit": 34
+      "def_phy": 26,
+      "crit": 35
     }
   },
   {
@@ -2518,15 +2589,16 @@
     "hero_icon": "Hero1125_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "geyunyi",
+    "pinyin_tw": "geyunyi",
     "path": "%E8%91%9B%E4%BA%91%E8%A1%A3",
     "pic": "Hero1125_img",
     "position": "治療",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 179,
+      "hp": 180,
       "atk_mag": 78,
-      "atk_phy": 11,
+      "atk_phy": 12,
       "def_mag": 40,
       "def_phy": 33,
       "crit": 23
@@ -2561,6 +2633,7 @@
     "hero_icon": "Hero1212_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "hanqianxiu",
+    "pinyin_tw": "hanqianxiu",
     "path": "%E9%9F%A9%E5%8D%83%E7%A7%80",
     "pic": "Hero1212_img",
     "position": "遠攻",
@@ -2568,12 +2641,12 @@
     "speed": "3",
     "strategy": "飛燕驚鴻陣",
     "status": {
-      "hp": 173,
-      "atk_mag": 13,
-      "atk_phy": 100,
-      "def_mag": 24,
+      "hp": 174,
+      "atk_mag": 14,
+      "atk_phy": 101,
+      "def_mag": 25,
       "def_phy": 32,
-      "crit": 54
+      "crit": 55
     }
   },
   {
@@ -2604,6 +2677,7 @@
     "hero_icon": "Hero1132_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xieyu",
+    "pinyin_tw": "xieyu",
     "path": "%E8%A7%A3%E8%87%BE",
     "pic": "Hero1132_img",
     "position": "坦克",
@@ -2611,7 +2685,7 @@
     "speed": "3",
     "status": {
       "hp": 250,
-      "atk_mag": 13,
+      "atk_mag": 14,
       "atk_phy": 90,
       "def_mag": 26,
       "def_phy": 43,
@@ -2669,6 +2743,7 @@
     "hero_icon": "Hero1144_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "yanmingrong",
+    "pinyin_tw": "yanmingrong",
     "path": "%E7%87%95%E6%98%8E%E8%93%89",
     "pic": "Hero1144_img",
     "position": "近攻",
@@ -2676,11 +2751,11 @@
     "speed": "5",
     "status": {
       "hp": 178,
-      "atk_mag": 11,
+      "atk_mag": 12,
       "atk_phy": 93,
       "def_mag": 31,
-      "def_phy": 33,
-      "crit": 58
+      "def_phy": 34,
+      "crit": 59
     }
   },
   {
@@ -2690,17 +2765,18 @@
     "hero_icon": "Hero1134_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "yinxi",
+    "pinyin_tw": "yinxi",
     "path": "%E9%98%B4%E6%AD%99",
     "pic": "Hero1134_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 245,
-      "atk_mag": 12,
-      "atk_phy": 86,
-      "def_mag": 23,
-      "def_phy": 45,
+      "hp": 246,
+      "atk_mag": 13,
+      "atk_phy": 87,
+      "def_mag": 24,
+      "def_phy": 46,
       "crit": 21
     }
   },
@@ -2733,6 +2809,7 @@
     "hero_icon": "Hero1109_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "baiwan",
+    "pinyin_tw": "baiwan",
     "path": "%E7%99%BD%E8%8F%80",
     "pic": "Hero1109_img",
     "position": "治療",
@@ -2741,10 +2818,10 @@
     "strategy": "神闕靈繁陣",
     "status": {
       "hp": 155,
-      "atk_mag": 63,
-      "atk_phy": 7,
-      "def_mag": 32,
-      "def_phy": 29,
+      "atk_mag": 64,
+      "atk_phy": 8,
+      "def_mag": 33,
+      "def_phy": 30,
       "crit": 14
     }
   },
@@ -2755,6 +2832,7 @@
     "hero_icon": "Hero1119_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "changyifeng",
+    "pinyin_tw": "changyifeng",
     "path": "%E5%B8%B8%E9%80%B8%E9%A3%8E",
     "pic": "Hero1119_img",
     "position": "近攻",
@@ -2765,8 +2843,8 @@
       "atk_mag": 9,
       "atk_phy": 84,
       "def_mag": 25,
-      "def_phy": 27,
-      "crit": 45
+      "def_phy": 28,
+      "crit": 46
     }
   },
   {
@@ -2776,17 +2854,18 @@
     "hero_icon": "Hero1306_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "gaoqi",
+    "pinyin_tw": "gaoqi",
     "path": "%E9%AB%98%E6%88%9A",
     "pic": "Hero1306_img",
     "position": "近攻",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 193,
+      "hp": 194,
       "atk_mag": 10,
-      "atk_phy": 84,
+      "atk_phy": 85,
       "def_mag": 20,
-      "def_phy": 31,
+      "def_phy": 32,
       "crit": 21
     },
     "career2": "猛士"
@@ -2798,6 +2877,7 @@
     "hero_icon": "Hero1145_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "hanwusha",
+    "pinyin_tw": "hanwusha",
     "path": "%E9%9F%A9%E6%97%A0%E7%A0%82",
     "pic": "Hero1145_img",
     "position": "法攻",
@@ -2805,11 +2885,11 @@
     "speed": "3",
     "strategy": "暗香迷情陣",
     "status": {
-      "hp": 140,
-      "atk_mag": 89,
+      "hp": 141,
+      "atk_mag": 90,
       "atk_phy": 11,
       "def_mag": 35,
-      "def_phy": 25,
+      "def_phy": 26,
       "crit": 22
     }
   },
@@ -2841,6 +2921,7 @@
     "hero_icon": "Hero1133_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "huanjinglongyao",
+    "pinyin_tw": "huanjinglongyao",
     "path": "%E5%B9%BB%E9%95%9C%E8%83%A7%E5%A6%96",
     "pic": "Hero1133_img",
     "position": "法攻",
@@ -2848,12 +2929,12 @@
     "speed": "3",
     "strategy": "幻冰凝霜陣",
     "status": {
-      "hp": 137,
+      "hp": 138,
       "atk_mag": 86,
       "atk_phy": 9,
-      "def_mag": 32,
-      "def_phy": 25,
-      "crit": 29
+      "def_mag": 33,
+      "def_phy": 26,
+      "crit": 30
     }
   },
   {
@@ -2863,18 +2944,19 @@
     "hero_icon": "Hero1127_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "liyingfeng",
+    "pinyin_tw": "liyingfeng",
     "path": "%E6%9D%8E%E7%9B%88%E5%87%A4",
     "pic": "Hero1127_img",
     "position": "遠攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 141,
+      "hp": 142,
       "atk_mag": 10,
       "atk_phy": 89,
       "def_mag": 20,
       "def_phy": 26,
-      "crit": 45
+      "crit": 46
     }
   },
   {
@@ -2906,17 +2988,18 @@
     "hero_icon": "Hero1312_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "situying",
+    "pinyin_tw": "situying",
     "path": "%E5%8F%B8%E5%BE%92%E7%BC%A8",
     "pic": "Hero1312_img",
     "position": "治療",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 151,
-      "atk_mag": 65,
-      "atk_phy": 8,
-      "def_mag": 33,
-      "def_phy": 27,
+      "hp": 152,
+      "atk_mag": 66,
+      "atk_phy": 9,
+      "def_mag": 34,
+      "def_phy": 28,
       "crit": 18
     }
   },
@@ -2927,6 +3010,7 @@
     "hero_icon": "Hero1304_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "taiyuanyinyi",
+    "pinyin_tw": "taiyuanyinyi",
     "path": "%E5%A4%AA%E6%B8%8A%E9%9A%90%E9%80%B8",
     "pic": "Hero1304_img",
     "position": "治療",
@@ -2948,6 +3032,7 @@
     "hero_icon": "Hero1129_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "xianghuanzi",
+    "pinyin_tw": "xianghuanzi",
     "path": "%E7%9B%B8%E6%A1%93%E5%AD%90",
     "pic": "Hero1129_img",
     "position": "法攻",
@@ -2955,10 +3040,10 @@
     "speed": "3",
     "status": {
       "hp": 149,
-      "atk_mag": 81,
-      "atk_phy": 7,
+      "atk_mag": 82,
+      "atk_phy": 8,
       "def_mag": 34,
-      "def_phy": 25,
+      "def_phy": 26,
       "crit": 21
     }
   },
@@ -2969,6 +3054,7 @@
     "hero_icon": "Hero1135_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "yanghuan",
+    "pinyin_tw": "yanghuan",
     "path": "%E9%98%B3%E5%AF%B0",
     "pic": "Hero1135_img",
     "position": "法攻",
@@ -2976,10 +3062,10 @@
     "speed": "3",
     "status": {
       "hp": 150,
-      "atk_mag": 83,
-      "atk_phy": 8,
-      "def_mag": 29,
-      "def_phy": 28,
+      "atk_mag": 84,
+      "atk_phy": 9,
+      "def_mag": 30,
+      "def_phy": 29,
       "crit": 22
     }
   },
@@ -2990,6 +3076,7 @@
     "hero_icon": "Hero1130_HeadIcon_Basic",
     "career": "御風",
     "pinyin": "yangyunzuo",
+    "pinyin_tw": "yangyunzuo",
     "path": "%E6%9D%A8%E4%BA%91%E4%BD%90",
     "pic": "Hero1130_img",
     "position": "近攻",
@@ -2998,10 +3085,10 @@
     "status": {
       "hp": 153,
       "atk_mag": 10,
-      "atk_phy": 89,
-      "def_mag": 26,
-      "def_phy": 25,
-      "crit": 45
+      "atk_phy": 90,
+      "def_mag": 27,
+      "def_phy": 26,
+      "crit": 46
     }
   },
   {
@@ -3011,6 +3098,7 @@
     "hero_icon": "Hero1318_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "yingfengren",
+    "pinyin_tw": "yingfengren",
     "path": "%E5%BA%94%E5%A5%89%E4%BB%81",
     "pic": "Hero1318_img",
     "position": "近攻",
@@ -3021,8 +3109,8 @@
       "atk_mag": 9,
       "atk_phy": 88,
       "def_mag": 19,
-      "def_phy": 31,
-      "crit": 27
+      "def_phy": 32,
+      "crit": 28
     }
   },
   {
@@ -3118,6 +3206,7 @@
     "hero_icon": "Hero1335_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "gaoshijin",
+    "pinyin_tw": "gaoshijin",
     "path": "%E9%AB%98%E4%B8%96%E6%B4%A5",
     "pic": "Hero1335_img",
     "position": "近攻",
@@ -3125,11 +3214,11 @@
     "speed": "3",
     "status": {
       "hp": 144,
-      "atk_mag": 7,
-      "atk_phy": 80,
-      "def_mag": 15,
+      "atk_mag": 8,
+      "atk_phy": 81,
+      "def_mag": 16,
       "def_phy": 26,
-      "crit": 25
+      "crit": 26
     }
   },
   {
@@ -3139,6 +3228,7 @@
     "hero_icon": "Hero1142_HeadIcon_Basic",
     "career": "羽士",
     "pinyin": "huyanchong",
+    "pinyin_tw": "huyanchong",
     "path": "%E5%91%BC%E5%BB%B6%E5%B4%87",
     "pic": "Hero1142_img",
     "position": "遠攻",
@@ -3146,11 +3236,11 @@
     "speed": "3",
     "status": {
       "hp": 120,
-      "atk_mag": 6,
-      "atk_phy": 75,
-      "def_mag": 17,
-      "def_phy": 22,
-      "crit": 39
+      "atk_mag": 7,
+      "atk_phy": 76,
+      "def_mag": 18,
+      "def_phy": 23,
+      "crit": 40
     }
   },
   {
@@ -3181,16 +3271,17 @@
     "hero_icon": "Hero1218_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "weisheng",
+    "pinyin_tw": "weisheng",
     "path": "%E9%9F%A6%E8%83%9C",
     "pic": "Hero1218_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 178,
-      "atk_mag": 7,
-      "atk_phy": 64,
-      "def_mag": 17,
+      "hp": 179,
+      "atk_mag": 8,
+      "atk_phy": 65,
+      "def_mag": 18,
       "def_phy": 29,
       "crit": 15
     }
@@ -3202,16 +3293,17 @@
     "hero_icon": "Hero1137_HeadIcon_Basic",
     "career": "鐵衛",
     "pinyin": "xiweiya",
+    "pinyin_tw": "xiweiya",
     "path": "%E5%B8%8C%E7%BB%B4%E4%BA%9A",
     "pic": "Hero1137_img",
     "position": "坦克",
     "range": "1",
     "speed": "3",
     "status": {
-      "hp": 181,
-      "atk_mag": 6,
-      "atk_phy": 61,
-      "def_mag": 16,
+      "hp": 182,
+      "atk_mag": 7,
+      "atk_phy": 62,
+      "def_mag": 17,
       "def_phy": 31,
       "crit": 13
     }
@@ -3223,18 +3315,19 @@
     "hero_icon": "Hero1136_HeadIcon_Basic",
     "career": "咒師",
     "pinyin": "yabusi",
+    "pinyin_tw": "yabusi",
     "path": "%E9%9B%85%E5%B8%83%E6%96%AF",
     "pic": "Hero1136_img",
     "position": "法攻",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 116,
-      "atk_mag": 76,
-      "atk_phy": 6,
+      "hp": 117,
+      "atk_mag": 77,
+      "atk_phy": 7,
       "def_mag": 27,
-      "def_phy": 20,
-      "crit": 28
+      "def_phy": 21,
+      "crit": 29
     }
   },
   {
@@ -3244,17 +3337,18 @@
     "hero_icon": "Hero1131_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "yisiduo",
+    "pinyin_tw": "yisiduo",
     "path": "%E4%BC%8A%E4%B8%9D%E6%9C%B6",
     "pic": "Hero1131_img",
     "position": "治療",
     "range": "2",
     "speed": "3",
     "status": {
-      "hp": 131,
+      "hp": 132,
       "atk_mag": 56,
-      "atk_phy": 6,
+      "atk_phy": 7,
       "def_mag": 29,
-      "def_phy": 22,
+      "def_phy": 23,
       "crit": 15
     }
   },
@@ -3265,6 +3359,7 @@
     "hero_icon": "Hero1217_HeadIcon_Basic",
     "career": "俠客",
     "pinyin": "yinglinghua",
+    "pinyin_tw": "yinglinghua",
     "path": "%E5%BA%94%E7%81%B5%E5%8D%8E",
     "pic": "Hero1217_img",
     "position": "近攻",
@@ -3272,9 +3367,9 @@
     "speed": "3",
     "status": {
       "hp": 146,
-      "atk_mag": 6,
-      "atk_phy": 78,
-      "def_mag": 16,
+      "atk_mag": 7,
+      "atk_phy": 79,
+      "def_mag": 17,
       "def_phy": 27,
       "crit": 19
     }
