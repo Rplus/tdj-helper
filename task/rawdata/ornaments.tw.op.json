@@ -2,6 +2,45 @@
   "data": {
     "data": [
       {
+        "name": "鳳翅紫金冠",
+        "icon": "Equip_fengchizijinguan",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+7%，氣血+7%，主動攻擊「對戰中」傷害提升10%，剋制攻擊加成額外提升10%\n僅俠客、鐵衛可用",
+        "weight": "2340",
+        "Status": 1,
+        "status": 1,
+        "job": "1010000",
+        "type": "100001"
+      },
+      {
+        "name": "幌金繩",
+        "icon": "Equip_huangjinsheng",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "氣血+5%，行動結束時，如果本回合造成擊殺，則對自身周圍3格內的1個敵人施加「定身」狀態，持續1回合。\n「定身」： 無法移動，無法護衛",
+        "weight": "2330",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "000001"
+      },
+      {
+        "name": "定風珠",
+        "icon": "Equip_dingfengzhu",
+        "position": "4",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "氣血+10%，免疫「封脈」「移動力降低」狀態",
+        "weight": "2320",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "000001"
+      },
+      {
         "name": "破風翎",
         "icon": "Equip_pofengling",
         "position": "1",
@@ -2888,7 +2927,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-12-02 00:29:03"
+    "now": "2024-12-05 13:14:51"
   },
   "status": 1,
   "switch": null,
