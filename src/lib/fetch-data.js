@@ -58,7 +58,7 @@ const PROXY = [
 				}),
 	},
 	{
-		get_proxy_url: (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+		get_proxy_url: (url) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
 		fetch: async (url) =>
 			fetch(url)
 				.then((r) => r.text())
