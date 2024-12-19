@@ -992,6 +992,14 @@
     "stealable": false
   },
   {
+    "name": "息哀",
+    "cate": "有害",
+    "desc": "受治療效果、除氣血外全屬性降低20%，回合開始時，「有益狀態」等級-1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "惶亂",
     "cate": "有害",
     "desc": "遭受攻擊受到暴擊後，獲得1個隨機「有害狀態」，並對施加者施加1個隨機「有益狀態」（不可驅散）",
@@ -2184,6 +2192,14 @@
     "stealable": false
   },
   {
+    "name": "眷佑",
+    "cate": "有益",
+    "desc": "遭受攻擊受到傷害後使自身「有害狀態」持續時間-1（遭受攻擊受到傷害後消失）。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
     "name": "瞬擊",
     "cate": "其他",
     "desc": "近戰攻擊「對戰前」對目標造成1次「固定傷害」（物攻的30%），並反轉目標2個「有益狀態」為「亂神II」和「斷刺I」狀態，持續2回合（不可驅散）\n「亂神II」：傷害-20%\n「斷刺I」：暴擊率-20%",
@@ -2368,6 +2384,14 @@
     "stealable": false
   },
   {
+    "name": "移動力限制",
+    "cate": "其他",
+    "desc": "移動力限制效果包含「移動力降低」「無法移動」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "移時",
     "cate": "其他",
     "desc": "最多儲存自身最大氣血的100%，「對戰後」若自身未滿血則恢復氣血（儲存總量的100%）（觸發後消失）",
@@ -2400,6 +2424,14 @@
     "stealable": false
   },
   {
+    "name": "符禁",
+    "cate": "其他",
+    "desc": "選擇敵方作為目標時只能選中施加者，且與「楊戩」或「哮天犬」作戰時，暴擊率、暴擊抗性降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "策厲",
     "cate": "其他",
     "desc": "法攻+15%，自身相鄰1格開啟「引導區域」：「俠客」「鐵衛」職業的友方移動力消耗-1",
@@ -2427,6 +2459,14 @@
     "name": "絕心",
     "cate": "其他",
     "desc": "每層「絕心」狀態，全屬性提高4% （不可驅散）。若達到5層，則轉化為「執戮」狀態。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "綾縛",
+    "cate": "有害",
+    "desc": "無法移動，遭受攻擊受到傷害後轉化自身1個「有益狀態」為「燃燒」狀態，持續2回合。若自身死亡則將「綾縛」狀態傳遞給2格範圍1名其他友方。（其他友方行動結束若處於自身1圈範圍降低1回合持續時間）",
     "dispellable": false,
     "extendable": false,
     "stealable": false
@@ -3088,6 +3128,14 @@
     "stealable": false
   },
   {
+    "name": "鎩羽",
+    "cate": "其他",
+    "desc": "遭受「楊戩」/「哮天犬」攻擊時免傷降低10%（下回合開始時或觸發後移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "鏈鎖",
     "cate": "其他",
     "desc": "只可朝施加者移動，行動結束時若處於施加者3格外則將「鏈鎖」替換為「禁閉」，持續1回合。",
@@ -3107,6 +3155,14 @@
     "name": "鏡朦朧",
     "cate": "其他",
     "desc": "氣血以外的全屬性提高6%（上限4層）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "長明燈",
+    "cate": "其他",
+    "desc": "回合開始時，恢復1圈內友方氣血（恢復量為施術者法攻的0.5倍）並使「有害狀態」等級-1（無法疊加生效）。敵方拾取後自身「有益狀態」等級-1。敵方落位或妲己死亡後消失。",
     "dispellable": false,
     "extendable": false,
     "stealable": false

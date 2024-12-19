@@ -992,6 +992,14 @@
     "stealable": false
   },
   {
+    "name": "息哀",
+    "cate": "有害",
+    "desc": "受治疗效果、除气血外全属性降低20%，回合开始时，「有益状态」等级-1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "惶乱",
     "cate": "有害",
     "desc": "遭受攻击受到暴击后，获得1个随机「有害状态」，并对施加者施加1个随机「有益状态」（不可驱散）",
@@ -2184,6 +2192,14 @@
     "stealable": false
   },
   {
+    "name": "眷佑",
+    "cate": "有益",
+    "desc": "遭受攻击受到伤害后使自身「有害状态」持续时间-1（遭受攻击受到伤害后消失）。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
     "name": "瞬击",
     "cate": "其他",
     "desc": "近战攻击「对战前」对目标造成1次「固定伤害」（物攻的30%），并反转目标2个「有益状态」为「乱神II」和「断刺I」状态，持续2回合（不可驱散）\n「乱神II」：伤害-20%\n「断刺I」：暴击率-20%",
@@ -2368,6 +2384,14 @@
     "stealable": false
   },
   {
+    "name": "移动力限制",
+    "cate": "其他",
+    "desc": "移动力限制效果包含「移动力降低」「无法移动」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "移时",
     "cate": "其他",
     "desc": "最多储存自身最大气血的100%，「对战后」若自身未满血则恢复气血（储存总量的100%）（触发后消失）",
@@ -2400,6 +2424,14 @@
     "stealable": false
   },
   {
+    "name": "符禁",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，且与「杨戬」或「哮天犬」作战时，暴击率、暴击抗性降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "策厉",
     "cate": "其他",
     "desc": "法攻+15%，自身相邻1格开启「引导区域」：「侠客」「铁卫」职业的友方移动力消耗-1",
@@ -2427,6 +2459,14 @@
     "name": "绝心",
     "cate": "其他",
     "desc": "每层「绝心」状态，全属性提高4% （不可驱散）。若达到5层，则转化为「执戮」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "绫缚",
+    "cate": "有害",
+    "desc": "无法移动，遭受攻击受到伤害后转化自身1个「有益状态」为「燃烧」状态，持续2回合。若自身死亡则将「绫缚」状态传递给2格范围1名其他友方。（其他友方行动结束若处于自身1圈范围降低1回合持续时间）",
     "dispellable": false,
     "extendable": false,
     "stealable": false
@@ -3088,6 +3128,14 @@
     "stealable": false
   },
   {
+    "name": "铩羽",
+    "cate": "其他",
+    "desc": "遭受「杨戬」/「哮天犬」攻击时免伤降低10%（下回合开始时或触发后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "链锁",
     "cate": "其他",
     "desc": "只可朝施加者移动，行动结束时若处于施加者3格外则将「链锁」替换为「禁闭」，持续1回合。",
@@ -3107,6 +3155,14 @@
     "name": "镜朦胧",
     "cate": "其他",
     "desc": "气血以外的全属性提高6%（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "长明灯",
+    "cate": "其他",
+    "desc": "回合开始时，恢复1圈内友方气血（恢复量为施术者法攻的0.5倍）并使「有害状态」等级-1（无法叠加生效）。敌方拾取后自身「有益状态」等级-1。敌方落位或妲己死亡后消失。",
     "dispellable": false,
     "extendable": false,
     "stealable": false

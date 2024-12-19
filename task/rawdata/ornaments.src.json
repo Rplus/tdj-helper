@@ -32,6 +32,33 @@
   },
   "items": [
     {
+      "name": "陰陽劍",
+      "icon": "Equip_yinyangjian",
+      "position": "1",
+      "job": "0100010",
+      "type": "100000",
+      "rarity": "SSR",
+      "desc": "物攻+7%，會心+30%，主動攻擊「對戰前」若會心高於目標，則傷害提升10%，且本次攻擊無視閃避。\n僅羽士、御風可用"
+    },
+    {
+      "name": "掃霞衣",
+      "icon": "Equip_saoxiayi",
+      "position": "2",
+      "job": "1111111",
+      "type": "010001",
+      "rarity": "SSR",
+      "desc": "物防+5%，氣血+5%，主動攻擊若擊殺目標或目標觸發「抵擋致命傷害」的效果則自身所有「有害狀態」持續時間減少2回合，反之主動攻擊後驅散自身1個「有害狀態」"
+    },
+    {
+      "name": "玲瓏寶塔",
+      "icon": "Equip_linglongbaota",
+      "position": "3",
+      "job": "1111111",
+      "type": "000001",
+      "rarity": "SSR",
+      "desc": "氣血+5%，自身1格範圍內存在其他友方時，遭受暴擊率、「固定傷害」降低25%"
+    },
+    {
       "name": "蓮玉冠",
       "icon": "Equip_lianyuguan",
       "position": "1",

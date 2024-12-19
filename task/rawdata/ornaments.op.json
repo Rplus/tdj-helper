@@ -2,6 +2,45 @@
   "data": {
     "data": [
       {
+        "name": "阴阳剑",
+        "icon": "Equip_yinyangjian",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物攻+7%，会心+30%，主动攻击「对战前」若会心高于目标，则伤害提升10%，且本次攻击无视闪避。\n仅羽士、御风可用",
+        "weight": "2450",
+        "Status": 1,
+        "status": 1,
+        "job": "0100010",
+        "type": "100000"
+      },
+      {
+        "name": "扫霞衣",
+        "icon": "Equip_saoxiayi",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物防+5%，气血+5%，主动攻击若击杀目标或目标触发「抵挡致命伤害」的效果则自身所有「有害状态」持续时间减少2回合，反之主动攻击后驱散自身1个「有害状态」",
+        "weight": "2440",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "010001"
+      },
+      {
+        "name": "玲珑宝塔",
+        "icon": "Equip_linglongbaota",
+        "position": "3",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "气血+5%，自身1格范围内存在其他友方时，遭受暴击率、「固定伤害」降低25%",
+        "weight": "2430",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "000001"
+      },
+      {
         "name": "莲玉冠",
         "icon": "Equip_lianyuguan",
         "position": "1",
@@ -3044,7 +3083,7 @@
         "type": "000001"
       }
     ],
-    "now": "2024-12-05 13:14:51"
+    "now": "2024-12-19 20:27:56"
   },
   "status": 1,
   "switch": null,

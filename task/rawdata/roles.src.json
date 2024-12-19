@@ -1,5 +1,73 @@
 [
   {
+    "name": "哪吒",
+    "rarity": "SSR",
+    "prop": "炎",
+    "hero_icon": "Hero2025_HeadIcon_Basic",
+    "career": "御風",
+    "pinyin": "nezha",
+    "path": "%E5%93%AA%E5%90%92",
+    "pic": "Hero2025_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "5",
+    "strategy": "三壇海會陣",
+    "status": {
+      "hp": 183,
+      "atk_mag": 13,
+      "atk_phy": 106,
+      "def_mag": 31,
+      "def_phy": 31,
+      "crit": 51
+    }
+  },
+  {
+    "name": "蘇妲己",
+    "rarity": "SSR",
+    "prop": "幽",
+    "hero_icon": "Hero2026_HeadIcon_Basic",
+    "career": "祝由",
+    "pinyin": "sudaji",
+    "path": "%E8%8B%8F%E5%A6%B2%E5%B7%B1",
+    "pic": "Hero2026_img",
+    "position": "治療",
+    "range": "2",
+    "speed": "3",
+    "status": {
+      "hp": 181,
+      "atk_mag": 84,
+      "atk_phy": 13,
+      "def_mag": 39,
+      "def_phy": 31,
+      "crit": 30
+    }
+  },
+  {
+    "name": "楊戩",
+    "rarity": "SSR",
+    "prop": "光",
+    "hero_icon": "Hero2024_HeadIcon_Basic",
+    "career": "鬥將",
+    "pinyin": "yangjian",
+    "path": "%E6%9D%A8%E6%88%AC",
+    "pic": "Hero2024_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "4",
+    "strategy": "神威凌曜陣",
+    "status": {
+      "hp": 177,
+      "atk_mag": 102,
+      "atk_phy": 13,
+      "def_mag": 28,
+      "def_phy": 37,
+      "crit": 25
+    },
+    "summons": [
+      "哮天犬"
+    ]
+  },
+  {
     "name": "嶺外飛燕",
     "rarity": "SSR",
     "prop": "炎",
