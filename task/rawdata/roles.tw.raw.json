@@ -908,6 +908,16 @@
         "hero_icon": "Hero1223_HeadIcon_Basic"
       },
       {
+        "name": "上官遠",
+        "is_new": "0",
+        "weight": "580",
+        "pinyin": "shangguanyuan",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1101_HeadIcon_Basic"
+      },
+      {
         "name": "李逍遙",
         "is_new": 1,
         "weight": "570",
@@ -938,6 +948,26 @@
         "hero_icon": "Hero2002_HeadIcon_Basic"
       },
       {
+        "name": "殷無邪",
+        "is_new": "0",
+        "weight": "540",
+        "pinyin": "yinwuxie",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1009_HeadIcon_Basic"
+      },
+      {
+        "name": "諸葛艾",
+        "is_new": "0",
+        "weight": "530",
+        "pinyin": "zhugeai",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1001_HeadIcon_Basic"
+      },
+      {
         "name": "于小雪",
         "is_new": 1,
         "weight": "520",
@@ -958,6 +988,16 @@
         "hero_icon": "Hero2004_HeadIcon_Basic"
       },
       {
+        "name": "宇韶容",
+        "is_new": "0",
+        "weight": "500",
+        "pinyin": "yushaorong",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "鐵衛",
+        "hero_icon": "Hero1020_HeadIcon_Basic"
+      },
+      {
         "name": "劍邪",
         "is_new": 1,
         "weight": "490",
@@ -966,6 +1006,56 @@
         "prop": "暗",
         "career": "御風",
         "hero_icon": "Hero1204_HeadIcon_Basic"
+      },
+      {
+        "name": "黎幽",
+        "is_new": "0",
+        "weight": "480",
+        "pinyin": "liyou",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "咒師",
+        "hero_icon": "Hero1014_HeadIcon_Basic"
+      },
+      {
+        "name": "曹沁",
+        "is_new": "0",
+        "weight": "470",
+        "pinyin": "caoqin",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "御風",
+        "hero_icon": "Hero1019_HeadIcon_Basic"
+      },
+      {
+        "name": "尉遲良",
+        "is_new": "0",
+        "weight": "460",
+        "pinyin": "yuchiliang",
+        "rarity": "N",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero1000_HeadIcon_Basic"
+      },
+      {
+        "name": "虞兮",
+        "is_new": "0",
+        "weight": "450",
+        "pinyin": "yuxi",
+        "rarity": "N",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1002_HeadIcon_Basic"
+      },
+      {
+        "name": "鹿昭依",
+        "is_new": "0",
+        "weight": "440",
+        "pinyin": "luzhaoyi",
+        "rarity": "N",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1007_HeadIcon_Basic"
       },
       {
         "name": "秦惟剛",
@@ -988,6 +1078,16 @@
         "hero_icon": "Hero1206_HeadIcon_Basic"
       },
       {
+        "name": "冰璃",
+        "is_new": "0",
+        "weight": "410",
+        "pinyin": "bingli",
+        "rarity": "SSR",
+        "prop": "冰",
+        "career": "俠客",
+        "hero_icon": "Hero1103_HeadIcon_Basic"
+      },
+      {
         "name": "鄲陰",
         "is_new": "0",
         "weight": "400",
@@ -1008,6 +1108,16 @@
         "hero_icon": "Hero1200_HeadIcon_Basic"
       },
       {
+        "name": "封鈴笙",
+        "is_new": "0",
+        "weight": "380",
+        "pinyin": "fenglingsheng",
+        "rarity": "SSR",
+        "prop": "光",
+        "career": "祝由",
+        "hero_icon": "Hero1105_HeadIcon_Basic"
+      },
+      {
         "name": "葛雲衣",
         "is_new": "0",
         "weight": "370",
@@ -1016,6 +1126,16 @@
         "prop": "雷",
         "career": "祝由",
         "hero_icon": "Hero1125_HeadIcon_Basic"
+      },
+      {
+        "name": "古倫德",
+        "is_new": "0",
+        "weight": "360",
+        "pinyin": "gulunde",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1116_HeadIcon_Basic"
       },
       {
         "name": "韓千秀",
@@ -1028,6 +1148,16 @@
         "hero_icon": "Hero1212_HeadIcon_Basic"
       },
       {
+        "name": "皇甫申",
+        "is_new": "0",
+        "weight": "340",
+        "pinyin": "huangfushen",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "俠客",
+        "hero_icon": "Hero1113_HeadIcon_Basic"
+      },
+      {
         "name": "解臾",
         "is_new": "0",
         "weight": "330",
@@ -1036,6 +1166,26 @@
         "prop": "暗",
         "career": "鐵衛",
         "hero_icon": "Hero1132_HeadIcon_Basic"
+      },
+      {
+        "name": "慕容璇璣",
+        "is_new": "0",
+        "weight": "320",
+        "pinyin": "murongxuanji",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "咒師",
+        "hero_icon": "Hero1104_HeadIcon_Basic"
+      },
+      {
+        "name": "夏侯儀",
+        "is_new": "0",
+        "weight": "310",
+        "pinyin": "xiahouyi",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1102_HeadIcon_Basic"
       },
       {
         "name": "燕明蓉",
@@ -1056,6 +1206,16 @@
         "prop": "冰",
         "career": "鐵衛",
         "hero_icon": "Hero1134_HeadIcon_Basic"
+      },
+      {
+        "name": "殷劍平",
+        "is_new": "0",
+        "weight": "280",
+        "pinyin": "yinjianping",
+        "rarity": "SSR",
+        "prop": "炎",
+        "career": "俠客",
+        "hero_icon": "Hero1100_HeadIcon_Basic"
       },
       {
         "name": "白菀",
@@ -1098,6 +1258,16 @@
         "hero_icon": "Hero1145_HeadIcon_Basic"
       },
       {
+        "name": "赫蘭鐵罕",
+        "is_new": "0",
+        "weight": "230",
+        "pinyin": "helantiehan",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "鐵衛",
+        "hero_icon": "Hero1107_HeadIcon_Basic"
+      },
+      {
         "name": "幻鏡朧妖",
         "is_new": "0",
         "weight": "220",
@@ -1116,6 +1286,16 @@
         "prop": "光",
         "career": "羽士",
         "hero_icon": "Hero1127_HeadIcon_Basic"
+      },
+      {
+        "name": "慕容箏",
+        "is_new": "0",
+        "weight": "200",
+        "pinyin": "murongzheng",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "咒師",
+        "hero_icon": "Hero1108_HeadIcon_Basic"
       },
       {
         "name": "司徒纓",
@@ -1178,6 +1358,46 @@
         "hero_icon": "Hero1318_HeadIcon_Basic"
       },
       {
+        "name": "周崇",
+        "is_new": "0",
+        "weight": "130",
+        "pinyin": "zhouchong",
+        "rarity": "SR",
+        "prop": "暗",
+        "career": "俠客",
+        "hero_icon": "Hero1114_HeadIcon_Basic"
+      },
+      {
+        "name": "朱繯",
+        "is_new": "0",
+        "weight": "120",
+        "pinyin": "zhuhuan",
+        "rarity": "SR",
+        "prop": "炎",
+        "career": "羽士",
+        "hero_icon": "Hero1112_HeadIcon_Basic"
+      },
+      {
+        "name": "紫蘊",
+        "is_new": "0",
+        "weight": "110",
+        "pinyin": "ziyun",
+        "rarity": "SR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1111_HeadIcon_Basic"
+      },
+      {
+        "name": "阿爾泰巴",
+        "is_new": "0",
+        "weight": "100",
+        "pinyin": "aertaiba",
+        "rarity": "R",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1106_HeadIcon_Basic"
+      },
+      {
         "name": "高世津",
         "is_new": 1,
         "weight": "90",
@@ -1196,6 +1416,16 @@
         "prop": "暗",
         "career": "羽士",
         "hero_icon": "Hero1142_HeadIcon_Basic"
+      },
+      {
+        "name": "青蘿",
+        "is_new": "0",
+        "weight": "70",
+        "pinyin": "qingluo",
+        "rarity": "R",
+        "prop": "冰",
+        "career": "御風",
+        "hero_icon": "Hero1110_HeadIcon_Basic"
       },
       {
         "name": "韋勝",
@@ -1246,9 +1476,19 @@
         "prop": "炎",
         "career": "俠客",
         "hero_icon": "Hero1217_HeadIcon_Basic"
+      },
+      {
+        "name": "朱浩",
+        "is_new": "0",
+        "weight": "10",
+        "pinyin": "zhuhao",
+        "rarity": "R",
+        "prop": "光",
+        "career": "咒師",
+        "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-12-19 20:27:57"
+    "now": "2024-12-25 22:39:02"
   },
   "status": 1,
   "switch": null,
