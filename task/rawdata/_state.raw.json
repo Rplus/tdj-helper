@@ -984,6 +984,14 @@
     "stealable": false
   },
   {
+    "name": "怵惕·颤",
+    "cate": "其他",
+    "desc": "每层伤害、暴击率-20%，携带者主动攻击后，叠加1层（上限3层，不可驱散）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "恩念",
     "cate": "其他",
     "desc": "主动攻击「对战后」自身受到1次「固定伤害」（当前气血的50%）（不可驱散）",
@@ -1984,6 +1992,14 @@
     "stealable": false
   },
   {
+    "name": "煞火",
+    "cate": "其他",
+    "desc": "治疗效果、受治疗效果降低10%，达到3层时，立刻驱散自身1个「有益状态」并受到1次「固定伤害」（最大气血*12%），并对自身和2格范围友方施加「燃烧」状态，持续2回合。（触发后移除，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "煽动",
     "cate": "其他",
     "desc": "主动攻击「对战前」对自身2格范围内其他角色施加1个随机「有害状态」，并造成1次法术伤害（施术者法攻30%）（无法驱散）",
@@ -2344,6 +2360,14 @@
     "stealable": false
   },
   {
+    "name": "禁咒烨域·封",
+    "cate": "其他",
+    "desc": "3格范围内敌方释放法术伤害绝学时法攻降低50%，且绝学后获得「封咒」状态，持续1回合。\n「封咒」：无法使用主动「绝学」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "禁疗",
     "cate": "有害",
     "desc": "无法被治疗。",
@@ -2539,6 +2563,14 @@
     "name": "花火",
     "cate": "其他",
     "desc": "「花火」：每层提高3%/4%/5%/6%法攻。主动释放绝学后，减少一层「花火」。行动结束时，如果未释放绝学，增加一层「花火」。每当有敌方角色死亡后，刷新至最大层数。（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "苏生",
+    "cate": "其他",
+    "desc": "射程+1，伤害+6%（上限3层），处于自身「结界」时，受到致命伤害免除死亡，恢复30%气血（触发后移除所有「苏生」状态）",
     "dispellable": false,
     "extendable": false,
     "stealable": false

@@ -984,6 +984,14 @@
     "stealable": false
   },
   {
+    "name": "怵惕·顫",
+    "cate": "其他",
+    "desc": "每層傷害、暴擊率-20%，攜帶者主動攻擊後，疊加1層（上限3層，不可驅散）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "恩念",
     "cate": "其他",
     "desc": "主動攻擊「對戰後」自身受到1次「固定傷害」（當前氣血的50%）（不可驅散）",
@@ -1984,6 +1992,14 @@
     "stealable": false
   },
   {
+    "name": "煞火",
+    "cate": "其他",
+    "desc": "治療效果、受治療效果降低10%，達到3層時，立刻驅散自身1個「有益狀態」並受到1次「固定傷害」（最大氣血*12%），並對自身和2格範圍友方施加「燃燒」狀態，持續2回合。（觸發後移除，不可驅散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "煽動",
     "cate": "其他",
     "desc": "主動攻擊「對戰前」對自身2格範圍內其他角色施加1個隨機「有害狀態」，並造成1次法術傷害（施術者法攻30%）（無法驅散）",
@@ -2344,6 +2360,14 @@
     "stealable": false
   },
   {
+    "name": "禁咒燁域·封",
+    "cate": "其他",
+    "desc": "3格範圍內敵方釋放法術傷害絕學時法攻降低50%，且絕學後獲得「封咒」狀態，持續1回合。\n「封咒」：無法使用主動「絕學」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "禁療",
     "cate": "有害",
     "desc": "無法被治療。",
@@ -2539,6 +2563,14 @@
     "name": "花火",
     "cate": "其他",
     "desc": "「花火」：每層提高3%/4%/5%/6%法攻。主動釋放絕學後，減少一層「花火」。行動結束時，如果未釋放絕學，增加一層「花火」。每當有敵方角色死亡後，刷新至最大層數。（上限4層）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蘇生",
+    "cate": "其他",
+    "desc": "射程+1，傷害+6%（上限3層），處於自身「結界」時，受到致命傷害免除死亡，恢復30%氣血（觸發後移除所有「蘇生」狀態）",
     "dispellable": false,
     "extendable": false,
     "stealable": false

@@ -1034,7 +1034,7 @@
   [
     {
       "name": "嶺外飛燕",
-      "is_new": "1",
+      "is_new": "",
       "pinyin": "lingwaifeiyan",
       "weight": "1530",
       "source": "天地劫幽城再臨原創角色",
@@ -1377,13 +1377,73 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "自身攜帶「起手式」狀態時，物攻提高<b><color=#e4462c>10%</color></b>。觸發「旋刃」狀態後恢復<b><color=#e4462c>30%</color></b>氣血。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.239709443099274"
+        },
+        {
+          "name": "八荒靈石·塵",
+          "percent": "0.208232445520581"
+        },
+        {
+          "name": "冰蠺玉帶·霧",
+          "percent": "0.171912832929782"
+        },
+        {
+          "name": "八荒靈石·煙",
+          "percent": "0.121065375302663"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.227602905569007"
+        },
+        {
+          "name": "血參靈玉·煙",
+          "percent": "0.150121065375303"
+        },
+        {
+          "name": "烏光燧珏·煙",
+          "percent": "0.121065375302663"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.138014527845036"
+        },
+        {
+          "name": "靈越佩環·塵",
+          "percent": "0.123486682808717"
+        },
+        {
+          "name": "五尊神令",
+          "percent": "0.106537530266344"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "薰風",
+          "percent": "0.135593220338983"
+        },
+        {
+          "name": "夜雨·塵",
+          "percent": "0.130750605326877"
+        },
+        {
+          "name": "和光同塵",
+          "percent": "0.130750605326877"
+        }
       ]
     }
   ],
   [
     {
       "name": "聞任宇",
-      "is_new": "1",
+      "is_new": "",
       "pinyin": "wenrenyu",
       "weight": "1520",
       "source": "天地劫幽城再臨原創角色",
@@ -1711,20 +1771,68 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "「對戰中」敵方氣血不滿時，傷害提高<b><color=#e4462c>10%</color></b>。行動結束前，可選擇在下次觸發「上鉤」時必定釣取「金鱘」（間隔<b><color=#e4462c>4</color></b>回合觸發）。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.147884187082405"
+        },
+        {
+          "name": "八荒靈石·影",
+          "percent": "0.1456570155902"
+        },
+        {
+          "name": "冰蟾串珠·塵",
+          "percent": "0.13674832962138"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.148997772828507"
+        },
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.146770601336302"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "龍涎香囊·霧",
+          "percent": "0.240089086859688"
+        },
+        {
+          "name": "鳳繡香囊·塵",
+          "percent": "0.233407572383073"
+        },
+        {
+          "name": "靈越佩環·煙",
+          "percent": "0.126726057906458"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "夜雨·霧",
+          "percent": "0.238975501113585"
+        },
+        {
+          "name": "薰風",
+          "percent": "0.137861915367483"
+        }
       ]
     }
   ],
   [
     {
       "name": "雙魂虞兮",
-      "is_new": "1",
+      "is_new": "",
       "pinyin": "shuanghunyuxi",
       "weight": "1510",
       "source": "天地劫幽城再臨原創角色",
       "pic": "Hero2500_img",
       "prop_icon": "Light",
       "career_icon": "Physician",
-      "rarity": "SSR",
+      "rarity": "ULR",
       "position": "治療",
       "prop": "光",
       "career": "祝由",
@@ -2060,13 +2168,69 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "攜帶護盾時，除氣血外全屬性提升<b><color=#e4462c>10%</color></b>。\n護盾破碎時，若處於「人魂」狀態，恢復<b><color=#e4462c>2</color></b>格範圍內友方氣血（恢復量為施術者法攻的<b><color=#e4462c>0.5</color></b>倍）並驅散<b><color=#e4462c>1</color></b>個「有害狀態」，若處於「妖魂」狀態，對<b><color=#e4462c>2</color></b>格範圍敵人造成<b><color=#e4462c>1</color></b>次法術傷害（法攻的<b><color=#e4462c>30%</color></b>）並施加<b><color=#e4462c>1</color></b>個隨機「有害狀態」。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "天河硃砂",
+          "percent": "0.408513728387024"
+        },
+        {
+          "name": "神烏飾墜·煙",
+          "percent": "0.208088041967672"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "鳳紋靈鐲·煙",
+          "percent": "0.208113082345281"
+        },
+        {
+          "name": "赤霞玉戒·塵",
+          "percent": "0.206836023087228"
+        },
+        {
+          "name": "赤霞玉戒·煙",
+          "percent": "0.104557348724818"
+        },
+        {
+          "name": "黑玉蛇戒",
+          "percent": "0.103593294186876"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "清神淨玉",
+          "percent": "0.206823502898423"
+        },
+        {
+          "name": "護命神符·煙",
+          "percent": "0.206598139499943"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.106197493458201"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.207712436303539"
+        },
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.206836023087228"
+        },
+        {
+          "name": "天荊覆魂",
+          "percent": "0.104682550612863"
+        }
       ]
     }
   ],
   [
     {
       "name": "四象明月",
-      "is_new": "1",
+      "is_new": "",
       "pinyin": "sixiangmingyue",
       "weight": "1500",
       "source": "天地劫幽城再臨原創角色",
@@ -2412,42 +2576,58 @@
       ],
       "hero_ornaments_1": [
         {
-          "name": "八荒靈石·煙",
-          "percent": "0.5"
+          "name": "冰蟾串珠·塵",
+          "percent": "0.314191279034507"
         },
         {
-          "name": "綺羅天香·煙",
-          "percent": "0.112990491495915"
+          "name": "御刃金佩",
+          "percent": "0.00624658863484747"
+        },
+        {
+          "name": "冰蠺玉帶·煙",
+          "percent": "0.105882709685244"
         }
       ],
       "hero_ornaments_2": [
         {
-          "name": "雲龍雕環",
-          "percent": "0.25"
+          "name": "流光手鐲·煙",
+          "percent": "0.249885378130875"
         },
         {
-          "name": "紫霄戒·霧",
-          "percent": "0.2"
+          "name": "白焰玉鐲·煙",
+          "percent": "0.109400206198071"
+        },
+        {
+          "name": "鎖龍環",
+          "percent": "0.107065316271453"
         }
       ],
       "hero_ornaments_3": [
         {
-          "name": "龍涎香囊·煙",
-          "percent": "0.300133922592741"
+          "name": "靈越佩環·塵",
+          "percent": "0.206762083813451"
         },
         {
-          "name": "暮雲合璧",
-          "percent": "0.221025847060399"
+          "name": "御刃金佩",
+          "percent": "0.206246588634847"
+        },
+        {
+          "name": "靈越佩環·煙",
+          "percent": "0.105124628540238"
         }
       ],
       "hero_ornaments_4": [
         {
-          "name": "甘霖·塵",
-          "percent": "0.3"
+          "name": "慈航普度",
+          "percent": "0.307793074170659"
         },
         {
-          "name": "夜雨·塵",
-          "percent": "0.12"
+          "name": "天荊覆魂",
+          "percent": "0.206337558372248"
+        },
+        {
+          "name": "無邊落木·煙",
+          "percent": "0.105245921523439"
         }
       ]
     }
@@ -2455,7 +2635,7 @@
   [
     {
       "name": "瑤空",
-      "is_new": "1",
+      "is_new": "",
       "pinyin": "yaokong",
       "weight": "1490",
       "source": "天地劫幽城再臨原創角色",
@@ -2783,6 +2963,62 @@
           "jiesuo-level": "星之晶等級和60+",
           "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>10%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
+      ],
+      "hero_ornaments_1": [
+        {
+          "name": "鳳翼神墜",
+          "percent": "0.220237062734894"
+        },
+        {
+          "name": "冰蟾串珠·塵",
+          "percent": "0.119947961838681"
+        },
+        {
+          "name": "綺羅天香·霧",
+          "percent": "0.117779705117085"
+        }
+      ],
+      "hero_ornaments_2": [
+        {
+          "name": "流光手鐲·煙",
+          "percent": "0.230237062734894"
+        },
+        {
+          "name": "御波靈戒",
+          "percent": "0.134165943914426"
+        },
+        {
+          "name": "血參靈玉·塵",
+          "percent": "0.108239375542064"
+        }
+      ],
+      "hero_ornaments_3": [
+        {
+          "name": "辟邪玉佩·煙",
+          "percent": "0.200118531367447"
+        },
+        {
+          "name": "護命神符·塵",
+          "percent": "0.192512286788089"
+        },
+        {
+          "name": "護命神符·煙",
+          "percent": "0.189621277825961"
+        }
+      ],
+      "hero_ornaments_4": [
+        {
+          "name": "鮫人悲歌·影",
+          "percent": "0.213298641225787"
+        },
+        {
+          "name": "鮫人悲歌·煙",
+          "percent": "0.109829430471234"
+        },
+        {
+          "name": "萬佛朝宗·霧",
+          "percent": "0.107227522405319"
+        }
       ]
     }
   ],
@@ -2791,8 +3027,8 @@
       "name": "朧夢嫿妖",
       "is_new": "1",
       "pinyin": "longmenghuayao",
-      "weight": "1480",
-      "source": "天地劫幽城再臨原創角色",
+      "weight": "1460",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1084_img",
       "prop_icon": "Shadow",
       "career_icon": "Physician",
@@ -2834,7 +3070,7 @@
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主動使用，驅散範圍內所有友方身上<b><color=#e4462c>3</color></b>個「有害狀態」，並恢復其氣血。（恢復量為施術者法攻的<b><color=#e4462c>0.5</color></b>倍）"
+          "desc": "主動使用，驅散範圍內所有友方身上<b><color=#e4462c>3</color></b>個「減益狀態」，並恢復其氣血。（恢復量為施術者法攻的<b><color=#e4462c>0.5</color></b>倍）"
         },
         {
           "img": "EXSkill_1671",
@@ -2850,7 +3086,7 @@
           "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "選擇<b><color=#e4462c>1</color></b>個格子釋放，恢復範圍內所有友方氣血（共恢復施術者法攻的<b><color=#e4462c>1.8</color></b>倍），使每個目標轉移<b><color=#e4462c>1</color></b>個「有害狀態」給各自<b><color=#e4462c>1</color></b>圈內隨機<b><color=#e4462c>1</color></b>個敵方。"
+          "desc": "選擇<b><color=#e4462c>1</color></b>個格子釋放，恢復範圍內所有友方氣血（共恢復施術者法攻的<b><color=#e4462c>1.8</color></b>倍），使每個目標轉移<b><color=#e4462c>1</color></b>個「減益狀態」給各自<b><color=#e4462c>1</color></b>圈內隨機<b><color=#e4462c>1</color></b>個敵方。"
         },
         {
           "img": "EXSkill_1669",
@@ -2866,7 +3102,7 @@
           "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1</color></b>倍），<br/>若造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>，絕學後對目標十字<b><color=#e4462c>5</color></b>格上最近的<b><color=#e4462c>1</color></b>個敵方造成<b><color=#e4462c>1</color></b>次傷害（本次過量治療量的<b><color=#e4462c>50%</color></b>）並轉移目標<b><color=#e4462c>1</color></b>個「有害狀態」給該敵方。"
+          "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1</color></b>倍），<br/>若造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>，絕學後對目標十字<b><color=#e4462c>5</color></b>格上最近的<b><color=#e4462c>1</color></b>個敵方造成<b><color=#e4462c>1</color></b>次傷害（本次過量治療量的<b><color=#e4462c>50%</color></b>）並轉移目標<b><color=#e4462c>1</color></b>個「減益狀態」給該敵方。"
         },
         {
           "img": "Skill_None_1002",
@@ -2898,7 +3134,7 @@
           "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1.5</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「有害狀態」。"
+          "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1.5</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「減益狀態」。"
         },
         {
           "img": "EXSkill_1667",
@@ -2914,11 +3150,11 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Hun",
           "unlock_inner2": "伍級",
-          "desc": "[協攻]若隊友主動攻擊自身<b><color=#e4462c>3</color></b>格範圍內的<b><color=#e4462c>1</color></b>個敵人且優先攻擊時，「對戰中」目標每攜帶<b><color=#e4462c>1</color></b>個「有害狀態」雙防降低<b><color=#e4462c>10%</color></b>（最多降低<b><color=#e4462c>30%</color></b>，<b><color=#e4462c>1</color></b>回合限定發動<b><color=#e4462c>2</color></b>次）。<br/>[主動]主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>0.75</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「有害狀態」，<br/>對自身<b><color=#e4462c>3</color></b>格內敵方（數量為本次造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>的次數）施加<b><color=#e4462c>1</color></b>個隨機「有害狀態」。"
+          "desc": "[協攻]若隊友主動攻擊自身<b><color=#e4462c>3</color></b>格範圍內的<b><color=#e4462c>1</color></b>個敵人且優先攻擊時，「對戰中」目標每攜帶<b><color=#e4462c>1</color></b>個「減益狀態」雙防降低<b><color=#e4462c>10%</color></b>（最多降低<b><color=#e4462c>30%</color></b>，<b><color=#e4462c>1</color></b>回合限定發動<b><color=#e4462c>2</color></b>次）。<br/>[主動]主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>0.75</color></b>倍），驅散<b><color=#e4462c>1</color></b>個「減益狀態」，<br/>對自身<b><color=#e4462c>3</color></b>格內敵方（數量為本次造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>的次數）施加<b><color=#e4462c>1</color></b>個隨機「減益狀態」。"
         },
         {
           "img": "EXSkill_1670",
-          "name": "指鑑移時",
+          "name": "指鑒移時",
           "type": "治療",
           "cd": "2回合",
           "cost": "2內力",
@@ -2930,7 +3166,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Mo",
           "unlock_inner2": "伍級",
-          "desc": "[被動]使用單體治療絕學若造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>，絕學後為目標<b><color=#e4462c>3</color></b>格範圍內的友方恢復氣血（恢復量為本次過量治療量的<b><color=#e4462c>50%</color></b>）<br/>[主動]主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1.5</color></b>倍），使目標所有「有害狀態」持續時間減少<b><color=#e4462c>1</color></b>回合，轉化本次過量治療量為<link type=buff value=741084145 bgcolor=#3a85ffff>「移時」</link>施加給目標，持續<b><color=#e4462c>2</color></b>回合。"
+          "desc": "[被動]使用單體治療絕學若造成<link type=buff value=700000076 bgcolor=#3a85ffff>「過量治療」</link>，絕學後為目標<b><color=#e4462c>3</color></b>格範圍內的友方恢復氣血（恢復量為本次過量治療量的<b><color=#e4462c>50%</color></b>）<br/>[主動]主動使用，恢復單個角色氣血（恢復量為施術者法攻的<b><color=#e4462c>1.5</color></b>倍），使目標所有「減益狀態」持續時間減少<b><color=#e4462c>1</color></b>回合，轉化本次過量治療量為<link type=buff value=741084145 bgcolor=#3a85ffff>「移時」</link>施加給目標，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
           "img": "EXSkill_1668",
@@ -2946,7 +3182,7 @@
           "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>1</color></b>倍），驅散<b><color=#e4462c>2</color></b>個「有害狀態」並施加<link type=buff value=710010760 bgcolor=#3a85ffff>「暗鎧」</link>狀態，自身獲得<link type=buff value=741084122 bgcolor=#3a85ffff>「共影」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+          "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的<b><color=#e4462c>1</color></b>倍），驅散<b><color=#e4462c>2</color></b>個「減益狀態」並施加<link type=buff value=710010760 bgcolor=#3a85ffff>「暗鎧」</link>狀態，自身獲得<link type=buff value=741084122 bgcolor=#3a85ffff>「共影」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
         }
       ],
       "weapon": [
@@ -2984,7 +3220,7 @@
           "feature": "[丹陽]治療效果提升5%<br/>[真傳]全傷害減免提升5%",
           "rarity": "SR",
           "jiesuo": "列星迴響消耗45點天魂之力",
-          "desc": "載，在山泉水清，出山泉水濁。<br/>傳，此鏡乃山泉之精華所凝，凡人對之，只見泉湧不息。然，品性高潔者，得見清泉之澄澈；品行不端者，唯見汙水之渾濁。<br/>言，天成異鏡，人心之鑑。"
+          "desc": "載，在山泉水清，出山泉水濁。<br/>傳，此鏡乃山泉之精華所凝，凡人對之，只見泉湧不息。然，品性高潔者，得見清泉之澄澈；品行不端者，唯見汙水之渾濁。<br/>言，天成異鏡，人心之鑒。"
         },
         {
           "weapon": "朧夢嫿妖",
@@ -3058,7 +3294,7 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到攻擊進入對戰時，遭受傷害降低7%"
+          "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
         },
         {
           "equipment": "朧夢嫿妖",
@@ -3125,8 +3361,8 @@
       "name": "桑然",
       "is_new": "1",
       "pinyin": "sangran",
-      "weight": "1470",
-      "source": "天地劫幽城再臨原創角色",
+      "weight": "1450",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1085_img",
       "prop_icon": "Electricity",
       "career_icon": "Guard",
@@ -3146,10 +3382,10 @@
       "inherent_name": "甄目現野",
       "star1": "",
       "star2": "",
-      "star3": "自身氣血越高，免傷和雙防越高，最多提高10%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發1次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高8%，「對戰前」驅散目標1個「有益狀態」。",
-      "star4": "自身氣血越高，免傷和雙防越高，最多提高13%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發1次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高10%，「對戰前」驅散目標1個「有益狀態」。",
-      "star5": "自身氣血越高，免傷和雙防越高，最多提高16%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發2次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高12%，「對戰前」驅散目標1個「有益狀態」。",
-      "star6": "自身氣血越高，免傷和雙防越高，最多提高20%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發2次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高15%，「對戰前」驅散目標1個「有益狀態」。",
+      "star3": "自身氣血越高，免傷和雙防越高，最多提高10%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發1次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高8%，「對戰前」驅散目標1個「增益狀態」。",
+      "star4": "自身氣血越高，免傷和雙防越高，最多提高13%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發1次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高10%，「對戰前」驅散目標1個「增益狀態」。",
+      "star5": "自身氣血越高，免傷和雙防越高，最多提高16%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發2次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高12%，「對戰前」驅散目標1個「增益狀態」。",
+      "star6": "自身氣血越高，免傷和雙防越高，最多提高20%。若自身氣血100%，暴擊抗性額外提高15%。戰鬥開始時，開啟2格範圍的領域<link type=buff value=741085609 bgcolor=#3a85ffff>「先祖庇佑」</link>，代替自身範圍內友方承受所有攻擊（護衛範圍同「先祖庇佑」作用範圍大小）。<br/>行動結束前，可選擇將「先祖庇佑」的作用範圍擴大或縮小1格。<br/>遭受「先祖庇佑」範圍內敵方攻擊，「對戰後」使目標傳送到自身範圍內的1個隨機位置（傳送範圍同「先祖庇佑」作用範圍大小），並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。（每回合最多觸發2次）<br/>遭受「先祖庇佑」範圍外敵方攻擊，雙防提高15%，「對戰前」驅散目標1個「增益狀態」。",
       "story_name": "長生泉",
       "story_content": "沒有人知道，這個泉眼汩汩不斷多少年，它實在是過於不起眼，伴隨著滄海桑田，執著又長情地流動，將微弱的養分滲透入這片土地。<br/>直到第一個人飲下泉水，他再也未能奔赴死亡，可明明破敗的他、窮困的他、流亡的他，已經連初生都是一種難以逃避的厄運。<br/>他臥倒在泉水之旁，像一根匍匐的冬草。<br/>八百年後，他和春風一起醒來。<br/>他步履蹣跚走進一個小村莊，漫無目的找到一戶人家，他無聲走入，感受著灶臺的溫熱，聆聽著人與人的溫語，在恍惚間意識到自己不再被世人所看見的一霎那，他如同一縷曦光，炸裂飄散於這個村莊。<br/>這個村莊的所有人在那一晚做了同一個夢。<br/>鷹唳遏雲，長生泉在天端流淌，天上百神為村落降下福祉，他們看見了一個背影，不停地行走卻始終無法離開原地。<br/>他們尊稱這個背影為自己的先祖，將自己歸為神的子民，他們將世世代代被明靄上神庇佑，直到神鷹不再在上空盤旋。",
       "hero_icon": "Hero1085_HeadIcon_Basic",
@@ -3306,7 +3542,7 @@
           "feature": "[破空]反擊傷害提升5%",
           "rarity": "R",
           "jiesuo": "英靈位階25",
-          "desc": "載，登山不以艱難而止，則必至乎峻嶺矣。<br/>傳，曾有修士以山精鑄此傘，留于山巔，眾人皆欲攀登以得，然多半途而廢。唯有一俠士，不畏艱辛攀至絕頂，卻見空山無物。然俠士無怨，泰然處之，賞景於斯。頃之，傘竟憑空而出。<br/>言，登山嶽者，然後知蹊徑之崎嶇。"
+          "desc": "載，登山不以艱難而止，則必至乎峻嶺矣。<br/>傳，曾有修士以山精鑄此傘，留於山巔，眾人皆欲攀登以得，然多半途而廢。唯有一俠士，不畏艱辛攀至絕頂，卻見空山無物。然俠士無怨，泰然處之，賞景於斯。傾之，傘竟憑空而出。<br/>言，登山嶽者，然後知蹊徑之崎嶇。"
         },
         {
           "weapon": "桑然",
@@ -3318,7 +3554,7 @@
           "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
           "rarity": "SR",
           "jiesuo": "列星迴響消耗45點天魂之力",
-          "desc": "載，八蜡開祭，萬物合祀。<br/>傳，嘗有一族，祀於高山，祈禱神明之靈應，製備豐盛之祭品及舞樂，持續三日三夜。迨眾人慾離去時，忽聽山中鼓聲盪漾，有傘立於道中，眾皆欣喜，以為神明回應，因而名曰「連鼓」。<br/>言，有靈有祇，鹹希來止。"
+          "desc": "載，八蠟開祭，萬物合祀。<br/>傳，嘗有一族，祀於高山，祈禱神明之靈應，製備豐盛之祭品及舞樂，持續三日三夜。迨眾人慾離去時，忽聽山中鼓聲蕩漾，有傘立於道中，眾皆欣喜，以為神明回應，因而名曰「連鼓」。<br/>言，有靈有祇，鹹希來止。"
         },
         {
           "weapon": "桑然",
@@ -3436,35 +3672,35 @@
           "img": "Weapon_108505",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "神兵強化中習得",
-          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>7%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「有益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
+          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>7%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「增益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
           "name": "憑靈神傘",
           "img": "Weapon_108505",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和15+",
-          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>9%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「有益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
+          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>9%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「增益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
           "name": "憑靈神傘",
           "img": "Weapon_108505",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和30+",
-          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>11%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「有益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
+          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>11%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「增益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
           "name": "憑靈神傘",
           "img": "Weapon_108505",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和45+",
-          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>13%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「有益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
+          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>13%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「增益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
         },
         {
           "name": "憑靈神傘",
           "img": "Weapon_108505",
           "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
           "jiesuo-level": "星之晶等級和60+",
-          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>15%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「有益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
+          "desc": "遭受攻擊「對戰中」物理免傷提高<b><color=#e4462c>15%</color></b>。若未遭受暴擊，則「對戰後」恢復<b><color=#e4462c>30%</color></b>氣血並獲得<b><color=#e4462c>2</color></b>個隨機「增益狀態」（每回合最多觸發<b><color=#e4462c>1</color></b>次）"
         }
       ]
     }
@@ -19196,7 +19432,7 @@
   [
     {
       "name": "西莉亞",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "980",
       "pinyin": "xiliya",
       "source": "天地劫手遊原創角色",
@@ -19518,7 +19754,7 @@
   [
     {
       "name": "星占賢者",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "970",
       "pinyin": "xingzhanxianzhe",
       "source": "天地劫手遊原創角色",
@@ -19855,7 +20091,7 @@
   [
     {
       "name": "白素貞",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "940",
       "pinyin": "baisuzhen",
       "source": "國風企劃青蛇篇登場角色",
@@ -20177,7 +20413,7 @@
   [
     {
       "name": "青",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "950",
       "pinyin": "qing",
       "source": "國風企劃青蛇篇登場角色",
@@ -20514,7 +20750,7 @@
   [
     {
       "name": "法海",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "960",
       "pinyin": "fahai",
       "source": "國風企劃青蛇篇登場角色",
@@ -20836,7 +21072,7 @@
   [
     {
       "name": "阿秋",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "930",
       "pinyin": "aqiu",
       "source": "天地劫手遊原創角色",
@@ -21173,7 +21409,7 @@
   [
     {
       "name": "呼延朔",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "920",
       "pinyin": "huyanshuo",
       "source": "天地劫手遊原創角色",
@@ -21495,7 +21731,7 @@
   [
     {
       "name": "卓爾",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "900",
       "pinyin": "zhuoer",
       "source": "天地劫手遊原創角色",
@@ -21817,7 +22053,7 @@
   [
     {
       "name": "巴艾邇",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "910",
       "pinyin": "baaier",
       "source": "天地劫手遊原創角色",
@@ -22154,7 +22390,7 @@
   [
     {
       "name": "神闕青衣",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "880",
       "pinyin": "shenqueqingyi",
       "source": "天地劫手遊原創角色",
@@ -22476,7 +22712,7 @@
   [
     {
       "name": "真胤",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "890",
       "pinyin": "zhenyin",
       "source": "神魔至尊傳登場角色",
@@ -22813,7 +23049,7 @@
   [
     {
       "name": "魔化皇甫申",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "870",
       "pinyin": "mohuahuangfushen",
       "source": "幽城幻劍錄登場角色",
@@ -23135,7 +23371,7 @@
   [
     {
       "name": "允迦",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "860",
       "pinyin": "yunjia",
       "source": "天地劫手遊原創角色",
@@ -24661,7 +24897,7 @@
   [
     {
       "name": "展昭",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "840",
       "pinyin": "zhanzhao",
       "source": "國風企劃三俠五義篇登場角色",
@@ -24983,7 +25219,7 @@
   [
     {
       "name": "白玉堂",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "850",
       "pinyin": "baiyutang",
       "source": "國風企劃三俠五義篇登場角色",
@@ -25320,7 +25556,7 @@
   [
     {
       "name": "憛香",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "830",
       "pinyin": "tanxiang",
       "source": "天地劫手遊原創角色",
@@ -25650,7 +25886,7 @@
   [
     {
       "name": "隋酒",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "820",
       "pinyin": "suijiu",
       "source": "天地劫手遊原創角色",
@@ -25972,7 +26208,7 @@
   [
     {
       "name": "無相·弭服",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "810",
       "pinyin": "wuxiangmifu",
       "source": "天地劫手遊原創角色",
@@ -26294,7 +26530,7 @@
   [
     {
       "name": "白復歸",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "800",
       "pinyin": "baifugui",
       "source": "天地劫手遊原創角色",
@@ -26631,7 +26867,7 @@
   [
     {
       "name": "雲衣宮主",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "780",
       "pinyin": "yunyigongzhu",
       "source": "幽城幻劍錄登場角色",
@@ -27020,7 +27256,7 @@
   [
     {
       "name": "靈鼩",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "790",
       "pinyin": "lingqu",
       "source": "神魔至尊傳登場角色",
@@ -27390,7 +27626,7 @@
   [
     {
       "name": "銀瑪",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "760",
       "pinyin": "yinma",
       "source": "天地劫手遊原創角色",
@@ -27760,7 +27996,7 @@
   [
     {
       "name": "任斷離",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "770",
       "pinyin": "renduanli",
       "source": "天地劫手遊原創角色",
@@ -28138,7 +28374,7 @@
   [
     {
       "name": "霍雍",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "750",
       "pinyin": "huoyong",
       "source": "幽城幻劍錄登場角色",
@@ -28519,7 +28755,7 @@
   [
     {
       "name": "九陰",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "740",
       "pinyin": "jiuyin",
       "source": "天地劫手遊原創角色",
@@ -28900,7 +29136,7 @@
   [
     {
       "name": "高皇君",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "730",
       "pinyin": "gaohuangjun",
       "source": "幽城幻劍錄登場角色",
@@ -29278,7 +29514,7 @@
   [
     {
       "name": "春蘭",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "710",
       "pinyin": "chunlan",
       "source": "天地劫手遊原創角色",
@@ -29644,7 +29880,7 @@
   [
     {
       "name": "奚歌",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "720",
       "pinyin": "xige",
       "source": "天地劫手遊原創角色",
@@ -30033,7 +30269,7 @@
   [
     {
       "name": "寧采臣",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "700",
       "pinyin": "ningcaichen",
       "source": "國風企劃聶小倩篇登場角色",
@@ -30419,7 +30655,7 @@
   [
     {
       "name": "聶小倩",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "690",
       "pinyin": "niexiaoqian",
       "source": "國風企劃聶小倩篇登場角色",
@@ -30801,7 +31037,7 @@
   [
     {
       "name": "燕赤霞",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "680",
       "pinyin": "yanchixia",
       "source": "國風企劃聶小倩篇登場角色",
@@ -31190,7 +31426,7 @@
   [
     {
       "name": "玄羽",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "670",
       "pinyin": "xuanyu",
       "source": "天地劫手遊原創角色",
@@ -31560,7 +31796,7 @@
   [
     {
       "name": "雲襄",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "660",
       "pinyin": "yunxiang",
       "source": "天地劫手遊原創角色",
@@ -31934,7 +32170,7 @@
   [
     {
       "name": "鮮于超",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "650",
       "pinyin": "xianyuchao",
       "source": "神魔至尊傳登場角色",
@@ -32689,7 +32925,7 @@
   [
     {
       "name": "方芸",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "590",
       "pinyin": "fangyun",
       "source": "神魔至尊傳登場角色",
@@ -33063,7 +33299,7 @@
   [
     {
       "name": "魔化夏侯儀",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "600",
       "pinyin": "mohuaxiahouyi",
       "source": "神魔至尊傳登場角色",
@@ -33448,7 +33684,7 @@
   [
     {
       "name": "召祐",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "620",
       "pinyin": "zhaoyou",
       "source": "天地劫手遊原創角色",
@@ -33829,7 +34065,7 @@
   [
     {
       "name": "赤煉",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "610",
       "pinyin": "chilian",
       "source": "天地劫手遊原創角色",
@@ -34207,7 +34443,7 @@
   [
     {
       "name": "武英仲",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "630",
       "pinyin": "wuyingzhong",
       "source": "神魔至尊傳登場角色",
@@ -34504,39 +34740,39 @@
       ],
       "godclass_weapon": [
         {
-          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>10%</color></b>（不可驅散，「對戰後」移除）。",
+          "img": "weapon_qixinglongyuanjian",
           "jiesuo-level": "神兵強化中習得",
-          "name": "月裳仙索",
-          "img": "Weapon_yunchangxiansuo",
-          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+          "name": "龍牙劍",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "desc": "主動攻擊未攜帶「增益狀態」的目標，傷害提高<b><color=#e4462c>5%</color></b>。自身的召喚物釋放絕學後，為召喚者添加隨機<b><color=#e4462c>1</color></b>個「增益狀態」。"
         },
         {
-          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>15%</color></b>（不可驅散，「對戰後」移除）。",
+          "img": "weapon_qixinglongyuanjian",
           "jiesuo-level": "星之晶等級和15+",
-          "name": "月裳仙索",
-          "img": "Weapon_yunchangxiansuo",
-          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+          "name": "龍牙劍",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "desc": "主動攻擊未攜帶「增益狀態」的目標，傷害提高<b><color=#e4462c>6%</color></b>。自身的召喚物釋放絕學後，為召喚者添加隨機<b><color=#e4462c>1</color></b>個「增益狀態」。"
         },
         {
-          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>1</color></b>個「減益狀態」。「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>20%</color></b>（不可驅散，「對戰後」移除）。",
+          "img": "weapon_qixinglongyuanjian",
           "jiesuo-level": "星之晶等級和30+",
-          "name": "月裳仙索",
-          "img": "Weapon_yunchangxiansuo",
-          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+          "name": "龍牙劍",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "desc": "主動攻擊未攜帶「增益狀態」的目標，傷害提高<b><color=#e4462c>7%</color></b>。自身的召喚物釋放絕學後，為召喚者添加隨機<b><color=#e4462c>1</color></b>個「增益狀態」。"
         },
         {
-          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>2</color></b>個「減益狀態」。「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>25%</color></b>（不可驅散，「對戰後」移除）。",
+          "img": "weapon_qixinglongyuanjian",
           "jiesuo-level": "星之晶等級和45+",
-          "name": "月裳仙索",
-          "img": "Weapon_yunchangxiansuo",
-          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+          "name": "龍牙劍",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "desc": "主動攻擊未攜帶「增益狀態」的目標，傷害提高<b><color=#e4462c>8%</color></b>。自身的召喚物釋放絕學後，為召喚者添加隨機<b><color=#e4462c>1</color></b>個「增益狀態」。"
         },
         {
-          "desc": "回合開始時，若十字<b><color=#e4462c>7</color></b>格內有攜帶「燃燒」狀態的敵方，獲得「爍金」狀態，若已攜帶「爍金」狀態，則驅散自身<b><color=#e4462c>2</color></b>個「減益狀態」。「爍金」：移動力<b><color=#e4462c>+1</color></b>，「對戰中」傷害減免提高<b><color=#e4462c>30%</color></b>（不可驅散，「對戰後」移除）。",
+          "img": "weapon_qixinglongyuanjian",
           "jiesuo-level": "星之晶等級和60+",
-          "name": "月裳仙索",
-          "img": "Weapon_yunchangxiansuo",
-          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+          "name": "龍牙劍",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "desc": "主動攻擊未攜帶「增益狀態」的目標，傷害提高<b><color=#e4462c>10%</color></b>。自身的召喚物釋放絕學後，為召喚者添加隨機<b><color=#e4462c>2</color></b>個「增益狀態」。"
         }
       ],
       "hero_ornaments_1": [
@@ -34592,7 +34828,7 @@
   [
     {
       "name": "舞蝶",
-      "is_new": "1",
+      "is_new": 1,
       "weight": "640",
       "pinyin": "wudie",
       "source": "天地劫手遊原創角色",
@@ -34970,7 +35206,7 @@
   [
     {
       "name": "于小雪",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "520",
       "pinyin": "yuxiaoxue",
       "source": "軒轅劍聯動角色",
@@ -35359,7 +35595,7 @@
   [
     {
       "name": "宇文拓",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "510",
       "pinyin": "yuwentuo",
       "source": "軒轅劍聯動角色",
@@ -35733,7 +35969,7 @@
   [
     {
       "name": "李逍遙",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "570",
       "pinyin": "lixiaoyao",
       "source": "仙劍奇俠傳聯動角色",
@@ -36122,7 +36358,7 @@
   [
     {
       "name": "趙靈兒",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "560",
       "pinyin": "zhaolinger",
       "source": "仙劍奇俠傳聯動角色",
@@ -36488,7 +36724,7 @@
   [
     {
       "name": "林月如",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "550",
       "pinyin": "linyueru",
       "source": "仙劍奇俠傳聯動角色",
@@ -37999,7 +38235,7 @@
   [
     {
       "name": "劍邪",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "490",
       "pinyin": "jianxie",
       "source": "神魔至尊傳登場角色",
@@ -39549,7 +39785,7 @@
   [
     {
       "name": "紫楓",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "420",
       "pinyin": "zifeng",
       "source": "神魔至尊傳登場角色",
@@ -42300,7 +42536,7 @@
   [
     {
       "name": "韓千秀",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "350",
       "pinyin": "hanqianxiu",
       "source": "神魔至尊傳登場角色",
@@ -46143,7 +46379,7 @@
   [
     {
       "name": "高戚",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "250",
       "pinyin": "gaoqi",
       "source": "神魔至尊傳登場角色",
@@ -46505,7 +46741,7 @@
   [
     {
       "name": "韓無砂",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "240",
       "pinyin": "hanwusha",
       "source": "神魔至尊傳登場角色",
@@ -48412,7 +48648,7 @@
   [
     {
       "name": "司徒纓",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "190",
       "pinyin": "situying",
       "source": "寰神結登場角色",
@@ -48774,7 +49010,7 @@
   [
     {
       "name": "太淵隱逸",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "180",
       "pinyin": "taiyuanyinyi",
       "source": "寰神結登場角色",
@@ -52010,7 +52246,7 @@
   [
     {
       "name": "高世津",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "90",
       "pinyin": "gaoshijin",
       "source": "神魔至尊傳登場角色",
@@ -54161,7 +54397,7 @@
   [
     {
       "name": "應靈華",
-      "is_new": "0",
+      "is_new": 1,
       "weight": "20",
       "pinyin": "yinglinghua",
       "source": "神魔至尊傳登場角色",

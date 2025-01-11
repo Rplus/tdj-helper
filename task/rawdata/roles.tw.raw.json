@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "朧夢嫿妖",
+        "is_new": "1",
+        "pinyin": "longmenghuayao",
+        "weight": "1460",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "祝由",
+        "hero_icon": "Hero1084_HeadIcon_Basic"
+      },
+      {
+        "name": "桑然",
+        "is_new": "1",
+        "pinyin": "sangran",
+        "weight": "1450",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "鐵衛",
+        "hero_icon": "Hero1085_HeadIcon_Basic"
+      },
+      {
         "name": "悟空",
         "is_new": "1",
         "pinyin": "wukong",
@@ -1488,7 +1510,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2024-12-25 22:39:02"
+    "now": "2025-01-11 12:29:47"
   },
   "status": 1,
   "switch": null,

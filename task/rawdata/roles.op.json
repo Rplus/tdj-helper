@@ -96,27 +96,29 @@
     "path": "%E7%91%B6%E7%A9%BA"
   },
   {
-    "name": "胧梦婳妖",
-    "is_new": "",
+    "name": "朧夢嫿妖",
+    "is_new": "1",
     "pinyin": "longmenghuayao",
-    "weight": "1480",
+    "weight": "1460",
     "expire": "",
     "rarity": "SSR",
     "prop": "暗",
     "career": "祝由",
     "hero_icon": "Hero1084_HeadIcon_Basic",
+    "pinyin_tw": "longmenghuayao",
     "path": "%E8%83%A7%E6%A2%A6%E5%A9%B3%E5%A6%96"
   },
   {
     "name": "桑然",
-    "is_new": "",
+    "is_new": "1",
     "pinyin": "sangran",
-    "weight": "1470",
+    "weight": "1450",
     "expire": "",
     "rarity": "SSR",
     "prop": "雷",
-    "career": "铁卫",
+    "career": "鐵衛",
     "hero_icon": "Hero1085_HeadIcon_Basic",
+    "pinyin_tw": "sangran",
     "path": "%E6%A1%91%E7%84%B6"
   },
   {
