@@ -192,21 +192,31 @@ op.ornaments = {
 		switch (o.icon) {
 			// 淵魚金令
 			case 'Equip_yuanyujinling':
+				// old 010100
 				o.type = '000000'; // without any buff for property
 				break;
 
 			// 飛鳳墜飾
 			case 'Equip_feifengzhuishi':
+				// old 100000
 				o.type = '000000'; // without any buff for property
 				break;
 
 			// 瓊瞳靈戒
 			case 'Equip_qiongtonglingjie':
+				// old '111101'
 				o.type = '000001'; // 氣血only
+				break;
+
+			// 諸懷腕帶
+			case 'Equip_zhuhuaiwandai':
+				// old: 111101
+				o.type = '000000'; // without any buff for property
 				break;
 
 			// 九色鹿冠
 			case 'Equip_jiuseluguan':
+				// old 000010
 				if (o.type === '001001') {
 					console.log(1111, '竟然更新修正了！');
 				}
