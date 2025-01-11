@@ -144,6 +144,11 @@ function get_index(prop, value) {
 		grid-template-columns: 100px 6em repeat(3, 4em) 1fr;
 	}
 
+	.title {
+		position: sticky;
+		top: 0;
+	}
+
 	.title.item {
 		white-space: nowrap;
 		background-color: #ccc;
@@ -205,7 +210,7 @@ function get_index(prop, value) {
 		}
 
 		&[data-cate="有害"]::before {
-			content: '☠️ debuff';
+			content: '☣️ debuff';
 		}
 		&[data-cate="有益"]::before {
 			content: '❤️ buff';
