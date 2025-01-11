@@ -24,6 +24,10 @@ let pages = [
 		path: link('/ornament'),
 		title: '飾品',
 	},
+	{
+		path: link('/state'),
+		title: '狀態',
+	},
 ];
 
 let details;
