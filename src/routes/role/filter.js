@@ -7,7 +7,7 @@ export const filter_cates = [
 	{
 		prop: 'rarity',
 		title: '稀有度',
-		values: ['N', 'R', 'SR', 'SSR'],
+		values: ['N', 'R', 'SR', 'SSR', 'ULR'],
 	},
 	{
 		prop: 'career',
