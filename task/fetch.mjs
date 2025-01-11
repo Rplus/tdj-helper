@@ -83,6 +83,7 @@ outputJSON({
 let roles_data = raw_data.roles.rawdata || [];
 
 console.log('total roles length', roles_data.length);
+console.log('zh-tw roles length', roles_data.filter(i => i.pinyin_tw).length);
 
 raw_data.role_deatil.rawdata = await Promise.all(
 	roles_data.slice(0).map((i) => fetch_role_detail(i)),
