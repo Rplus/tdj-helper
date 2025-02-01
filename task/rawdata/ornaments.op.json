@@ -2,6 +2,45 @@
   "data": {
     "data": [
       {
+        "name": "凤尾簪",
+        "icon": "Equip_fengweizan",
+        "position": "1",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "法攻+8%，气血+8%。主动攻击「对战中」每携带1个「有益状态」伤害、免伤，提升5%（最高15%）",
+        "weight": "2480",
+        "Status": 1,
+        "status": 1,
+        "job": "1111111",
+        "type": "001001"
+      },
+      {
+        "name": "流云羽衣",
+        "icon": "Equip_liuyunyuyi",
+        "position": "2",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "物防、气血+5%，满血时，遭受暴击概率降低25%，反之遭受「固定伤害」降低50%。\n仅羽士、咒师、祝由可用",
+        "weight": "2470",
+        "Status": 1,
+        "status": 1,
+        "job": "0101100",
+        "type": "010001"
+      },
+      {
+        "name": "连环合璧",
+        "icon": "Equip_lianhuanhebi",
+        "position": "3",
+        "quality": "SSR",
+        "currency": "0",
+        "description": "法防+7%，气血+7%，行动结束时，对自己2格范围内1个其他友方角色施加「辟眩」「辟护」状态，持续1回合。\n「辟眩」：免疫「晕眩」\n「辟护」：免疫「固定伤害」\n仅羽士、咒师、祝由可用",
+        "weight": "2460",
+        "Status": 1,
+        "status": 1,
+        "job": "0101100",
+        "type": "000101"
+      },
+      {
         "name": "阴阳剑",
         "icon": "Equip_yinyangjian",
         "position": "1",
@@ -3083,7 +3122,7 @@
         "type": "000001"
       }
     ],
-    "now": "2025-01-11 12:29:47"
+    "now": "2025-02-01 22:57:01"
   },
   "status": 1,
   "switch": null,

@@ -1,5 +1,27 @@
 [
   {
+    "name": "赤妭韓無砂",
+    "rarity": "ULR",
+    "prop": "炎",
+    "hero_icon": "Hero2503_HeadIcon_Basic",
+    "career": "咒師",
+    "pinyin": "chibahanwusha",
+    "path": "%E8%B5%A4%E5%A6%AD%E9%9F%A9%E6%97%A0%E7%A0%82",
+    "pic": "Hero2503_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "strategy": "煞蛇煌炎陣",
+    "status": {
+      "hp": 184,
+      "atk_mag": 105,
+      "atk_phy": 13,
+      "def_mag": 35,
+      "def_phy": 31,
+      "crit": 20
+    }
+  },
+  {
     "name": "哪吒",
     "rarity": "SSR",
     "prop": "炎",
