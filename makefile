@@ -48,5 +48,5 @@ update-bili-data--parse-summon:
 update-bili-data--parse-state:
 	bun ./task/bili-state-parsing.js;
 
-update-bili-data: update-bili-data--parse-state update-bili-data--parse-state update-bili-data--parse-summon update-bili-data--parse update-bili-data--sorting
+update-bili-data: update-bili-data--parse-state update-bili-data--parse-summon update-bili-data--parse update-bili-data--sorting
 	echo 'bili-wiki parsing done!';
