@@ -2579,17 +2579,17 @@
   [
     {
       "name": "四象明月",
-      "is_new": "",
+      "is_new": "1",
       "pinyin": "sixiangmingyue",
-      "weight": "1500",
-      "source": "天地劫幽城再临原创角色",
+      "weight": "1480",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1154_img",
       "prop_icon": "Shadow",
       "career_icon": "Assassin",
       "rarity": "SSR",
       "position": "近攻",
       "prop": "暗",
-      "career": "御风",
+      "career": "御風",
       "range": "1",
       "speed": "5",
       "qixue": "180",
@@ -2599,150 +2599,150 @@
       "physical_defense": "34",
       "huixin": "49",
       "inherent": "Gift_169",
-      "inherent_name": "两仪四象",
+      "inherent_name": "兩儀四象",
       "star1": "",
       "star2": "",
-      "star3": "自身气血越高/低，物攻/免伤越高，最多提高10%。行动结束时，对自身十字5格最近1名其他友方/敌方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「阴」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「阳」</link>状态，转移携带「阴」/「阳」状态友方/敌方2个「有害状态」/「有益状态」给携带「阳」/「阴」状态的敌方/友方。主动攻击造成伤害，可无视敌人阻挡再移动3格（场上最多存在1个携带「阴」/「阳」状态的友方/敌方。「四象明月」或携带「阴」/「阳」状态的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「离场」</link>时或携带「阴」状态友方遭受携带「阳」状态敌方攻击后将移除「阴」/「阳」状态）。",
-      "star4": "自身气血越高/低，物攻/免伤越高，最多提高13%。行动结束时，对自身十字5格最近1名其他友方/敌方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「阴」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「阳」</link>状态，转移携带「阴」/「阳」状态友方/敌方2个「有害状态」/「有益状态」给携带「阳」/「阴」状态的敌方/友方。主动攻击造成伤害，可无视敌人阻挡再移动3格（场上最多存在1个携带「阴」/「阳」状态的友方/敌方。「四象明月」或携带「阴」/「阳」状态的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「离场」</link>时或携带「阴」状态友方遭受携带「阳」状态敌方攻击后将移除「阴」/「阳」状态）。",
-      "star5": "自身气血越高/低，物攻/免伤越高，最多提高16%。行动结束时，对自身十字5格最近1名其他友方/敌方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「阴」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「阳」</link>状态，转移携带「阴」/「阳」状态友方/敌方3个「有害状态」/「有益状态」给携带「阳」/「阴」状态的敌方/友方。主动攻击造成伤害，可无视敌人阻挡再移动3格（场上最多存在1个携带「阴」/「阳」状态的友方/敌方。「四象明月」或携带「阴」/「阳」状态的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「离场」</link>时或携带「阴」状态友方遭受携带「阳」状态敌方攻击后将移除「阴」/「阳」状态）。",
-      "star6": "自身气血越高/低，物攻/免伤越高，最多提高20%。行动结束时，对自身十字5格最近1名其他友方/敌方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「阴」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「阳」</link>状态，转移携带「阴」/「阳」状态友方/敌方3个「有害状态」/「有益状态」给携带「阳」/「阴」状态的敌方/友方。主动攻击造成伤害，可无视敌人阻挡再移动3格（场上最多存在1个携带「阴」/「阳」状态的友方/敌方。「四象明月」或携带「阴」/「阳」状态的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「离场」</link>时或携带「阴」状态友方遭受携带「阳」状态敌方攻击后将移除「阴」/「阳」状态）。",
+      "star3": "自身氣血越高/低，物攻/免傷越高，最多提高10%。行動結束時，對自身十字5格最近1名其他友方/敵方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「陰」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「陽」</link>狀態，轉移攜帶「陰」/「陽」狀態友方/敵方2個「減益狀態」/「增益狀態」給攜帶「陽」/「陰」狀態的敵方/友方。主動攻擊造成傷害，可無視敵人阻擋再移動3格（場上最多存在1個攜帶「陰」/「陽」狀態的友方/敵方。「四象明月」或攜帶「陰」/「陽」狀態的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「離場」</link>時或攜帶「陰」狀態友方遭受攜帶「陽」狀態敵方攻擊後將移除「陰」/「陽」狀態）。",
+      "star4": "自身氣血越高/低，物攻/免傷越高，最多提高13%。行動結束時，對自身十字5格最近1名其他友方/敵方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「陰」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「陽」</link>狀態，轉移攜帶「陰」/「陽」狀態友方/敵方2個「減益狀態」/「增益狀態」給攜帶「陽」/「陰」狀態的敵方/友方。主動攻擊造成傷害，可無視敵人阻擋再移動3格（場上最多存在1個攜帶「陰」/「陽」狀態的友方/敵方。「四象明月」或攜帶「陰」/「陽」狀態的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「離場」</link>時或攜帶「陰」狀態友方遭受攜帶「陽」狀態敵方攻擊後將移除「陰」/「陽」狀態）。",
+      "star5": "自身氣血越高/低，物攻/免傷越高，最多提高16%。行動結束時，對自身十字5格最近1名其他友方/敵方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「陰」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「陽」</link>狀態，轉移攜帶「陰」/「陽」狀態友方/敵方3個「減益狀態」/「增益狀態」給攜帶「陽」/「陰」狀態的敵方/友方。主動攻擊造成傷害，可無視敵人阻擋再移動3格（場上最多存在1個攜帶「陰」/「陽」狀態的友方/敵方。「四象明月」或攜帶「陰」/「陽」狀態的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「離場」</link>時或攜帶「陰」狀態友方遭受攜帶「陽」狀態敵方攻擊後將移除「陰」/「陽」狀態）。",
+      "star6": "自身氣血越高/低，物攻/免傷越高，最多提高20%。行動結束時，對自身十字5格最近1名其他友方/敵方施加<link type=buff value=741154001 bgcolor=#3a85ffff>「陰」</link>/<link type=buff value=741154003 bgcolor=#3a85ffff>「陽」</link>狀態，轉移攜帶「陰」/「陽」狀態友方/敵方3個「減益狀態」/「增益狀態」給攜帶「陽」/「陰」狀態的敵方/友方。主動攻擊造成傷害，可無視敵人阻擋再移動3格（場上最多存在1個攜帶「陰」/「陽」狀態的友方/敵方。「四象明月」或攜帶「陰」/「陽」狀態的角色<link type=buff value=741154905 bgcolor=#3a85ffff>「離場」</link>時或攜帶「陰」狀態友方遭受攜帶「陽」狀態敵方攻擊後將移除「陰」/「陽」狀態）。",
       "story_name": "暗夜",
-      "story_content": "暗巷泥泞，晦月如霜。<br/>漫长的梆子声悠然回荡，惊起停驻在黑色枝桠间的鸦群。<br/>华灯靡丽的朱楼方才仍丝竹热烈、莺语秾艳。<br/>而眼下却已杯倾盘覆、一片狼藉。<br/>「你、你究竟是谁？！又是怎么找到这儿来的……」<br/>男人心惊胆碎，蜷在一角，避无可避。<br/>而来人隐在影中，默然不语。<br/>霜华映在剑刃，寒意无声。<br/>「你要是敢、那位大人绝不会放过……！」<br/>猩色溅起，落下一道斑驳。<br/>万籁无声。<br/>那人拭去覆面上沾染的秽猩，只手将剑入鞘。<br/>她的眼眸中映着亘古如霜的月华。<br/>「下一个，便轮到你那位大人了。」",
+      "story_content": "暗巷泥濘，晦月如霜。<br/>漫長的梆子聲悠然回蕩，驚起停駐在黑色枝椏間的鴉群。<br/>華燈靡麗的朱樓方才仍絲竹熱烈、鶯語穠豔。<br/>而眼下卻已杯傾盤覆、一片狼藉。<br/>「你、你究竟是誰？！又是怎麼找到這兒來的……」<br/>男人心驚膽碎，蜷在一角，避無可避。<br/>而來人隱在影中，默然不語。<br/>霜華映在劍刃，寒意無聲。<br/>「你要是敢、那位大人絕不會放過……！」<br/>猩色濺起，落下一道斑駁。<br/>萬籟無聲。<br/>那人拭去覆面上沾染的穢猩，隻手將劍入鞘。<br/>她的眼眸中映著亙古如霜的月華。<br/>「下一個，便輪到你那位大人了。」",
       "hero_icon": "Hero1154_HeadIcon_Basic",
       "skill": [
         {
           "img": "EXSkill_1687",
           "name": "踏月而行",
-          "type": "物攻伤害",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "直线5格",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "直線5格",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>5</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000520 bgcolor=#3a85ffff>「逆阙」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "desc": "向前穿刺並到達作用範圍（<b><color=#e4462c>5</color></b>格）最遠可到達的格子上，對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，施加<link type=buff value=700000520 bgcolor=#3a85ffff>「逆闕」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
           "img": "EXSkill_1691",
           "name": "聚意",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶3级",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Shen",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "会心提升20%，若自身会心值大于目标，则「对战中」触发闪避且「对战后」恢复自身30%最大气血（每回合最多触发2次）。"
+          "desc": "會心提升20%，若自身會心值大於目標，則「對戰中」觸發閃避且「對戰後」恢復自身30%最大氣血（每回合最多觸發2次）。"
         },
         {
           "img": "Skill_Shadow_1001",
-          "name": "暗浊",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "暗濁",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "造成伤害后，对目标施加1个随机「有害状态」。"
+          "desc": "造成傷害後，對目標施加1個隨機「減益狀態」。"
         },
         {
           "img": "Skill_Assassin_1010",
-          "name": "封魂缚掠",
-          "type": "物攻伤害",
+          "name": "封魂縛掠",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Mo",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "无视护卫攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，暴击率<b><color=#e4462c>+20%</color></b>。"
+          "desc": "無視護衛攻擊單個敵人，造成<b><color=#e4462c>1.3</color></b>倍傷害，暴擊率<b><color=#e4462c>+20%</color></b>。"
         },
         {
           "img": "EXSkill_1689",
           "name": "血月引魂",
-          "type": "物攻伤害",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "自身",
-          "range": "直线4x3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶25级",
+          "range": "直線4x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Shen",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，施加<link type=buff value=700000880 bgcolor=#3a85ffff>「污秽」</link>状态，持续<b><color=#e4462c>2</color></b>回合，并使两侧敌人向绝学作用范围中心格「依次拉拽」。<br/>「依次拉拽」：按照施法方向左右依次拉拽。"
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.3</color></b>倍傷害，施加<link type=buff value=700000880 bgcolor=#3a85ffff>「污穢」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，並使兩側敵人向絕學作用範圍中心格「依次拉拽」。<br/>「依次拉拽」：按照施法方向左右依次拉拽。"
         },
         {
           "img": "EXSkill_1688",
-          "name": "诛影戮晦",
-          "type": "物攻伤害",
+          "name": "誅影戮晦",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Xun",
-          "unlock_inner2": "伍级",
-          "desc": "选择<b><color=#e4462c>1</color></b>格空格进行跳跃，对<b><color=#e4462c>3</color></b>格范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，绝学后施加<link type=buff value=700000930 bgcolor=#3a85ffff>「禁疗」</link>状态，持续<b><color=#e4462c>2</color></b>回合，制造「影狱」地形，持续<b><color=#e4462c>2</color></b>回合。<br/>「影狱」：影狱内的敌方角色，移动力<b><color=#e4462c>-1</color></b>，行动结束时，若已携带「禁疗」状态则施加<link type=buff value=700000520 bgcolor=#3a85ffff>「逆阙」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "unlock_inner2": "伍級",
+          "desc": "選擇<b><color=#e4462c>1</color></b>格空格進行跳躍，對<b><color=#e4462c>3</color></b>格範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，絕學後施加<link type=buff value=700000930 bgcolor=#3a85ffff>「禁療」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，製造「影獄」地形，持續<b><color=#e4462c>2</color></b>回合。<br/>「影獄」：影獄內的敵方角色，移動力<b><color=#e4462c>-1</color></b>，行動結束時，若已攜帶「禁療」狀態則施加<link type=buff value=700000520 bgcolor=#3a85ffff>「逆闕」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
           "img": "GPassive_1013",
-          "name": "孤胆",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶40级",
+          "name": "孤膽",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Mo",
-          "unlock_inner2": "伍级",
-          "desc": "自身2格内无其他友方，则物攻，物防+10%。"
+          "unlock_inner2": "伍級",
+          "desc": "自身2格內無其他友方，則物攻，物防+10%。"
         },
         {
           "img": "EXSkill_1690",
-          "name": "寒辉逐刃",
-          "type": "物攻伤害",
+          "name": "寒輝逐刃",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "1格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Shen",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700001060 bgcolor=#3a85ffff>「封穴」</link>效果，持续<b><color=#e4462c>1</color></b>回合。若目标周围<b><color=#e4462c>1</color></b>格没有友方则本次攻击无视护卫且暴击率、暴击伤害提升<b><color=#e4462c>10%</color></b>。"
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰前」施加<link type=buff value=700001060 bgcolor=#3a85ffff>「封穴」</link>效果，持續<b><color=#e4462c>1</color></b>回合。若目標周圍<b><color=#e4462c>1</color></b>格沒有友方則本次攻擊無視護衛且暴擊率、暴擊傷害提升<b><color=#e4462c>10%</color></b>。"
         }
       ],
       "weapon": [
         {
           "weapon": "四象明月",
-          "name": "精钢短剑",
+          "name": "精鋼短劍",
           "img": "Weapon_115401",
           "qixue": "39",
           "magic": "0",
@@ -2750,31 +2750,31 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，百炼钢刀破新竹，万里长风振枯槁。<br/>传，古有名匠，隐于山野间，善冶锻神兵。每取精铁，锻之百余火，每锻称之，一锻一轻，至累锻而斤两不减，虽百炼不耗矣。终成精钢短剑，莹彻可鉴毛发。<br/>言，坚钢出百炼，苔色古且幽。"
+          "desc": "載，百煉鋼刀破新竹，萬里長風振枯槁。<br/>傳，古有名匠，隱於山野間，善冶鍛神兵。每取精鐵，鍛之百餘火，每鍛稱之，一鍛一輕，至累鍛而斤兩不減，雖百煉不耗矣。終成精鋼短劍，瑩徹可鑒毛髮。<br/>言，堅鋼出百煉，苔色古且幽。"
         },
         {
           "weapon": "四象明月",
-          "name": "朱纶祭剑",
+          "name": "朱綸祭劍",
           "img": "Weapon_115402",
           "qixue": "48",
           "magic": "0",
           "physical": "44",
-          "feature": "[鹤唳]暴击率提升5%",
+          "feature": "[鶴唳]暴擊率提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，舞剑划若掣电惊，扬旗欻见飞星度。<br/>传，昔时军前祭酒，剑斩牛首，血落旌旄，士卒喧呼，金鼓齐鸣。祭剑染赤衔朱，凛气迸发，更兼有激昂之势，壮人意气。<br/>言，剑气射云天，鼓声振原隰。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，舞劍劃若掣電驚，揚旗欻見飛星度。<br/>傳，昔時軍前祭酒，劍斬牛首，血落旌旄，士卒喧呼，金鼓齊鳴。祭劍染赤銜朱，凜氣迸發，更兼有激昂之勢，壯人意氣。<br/>言，劍氣射雲天，鼓聲振原隰。"
         },
         {
           "weapon": "四象明月",
-          "name": "朱刃血剑",
+          "name": "朱刃血劍",
           "img": "Weapon_115403",
           "qixue": "59",
           "magic": "0",
           "physical": "55",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，朱刃夺众景，夜星失长辉。<br/>传，断刃浸殷血而赤红，曾凭寄生魂幽思、故旧眷想。于十五既望之夜，刃上残力引动幽氛，以意铸形，敛聚阴华，化而为血剑。<br/>言，刃上凝赤芒，月寒赫幽光。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，朱刃奪眾景，夜星失長輝。<br/>傳，斷刃浸殷血而赤紅，曾憑寄生魂幽思、故舊眷想。於十五既望之夜，刃上殘力引動幽氛，以意鑄形，斂聚陰華，化而為血劍。<br/>言，刃上凝赤芒，月寒赫幽光。"
         },
         {
           "weapon": "四象明月",
@@ -2783,10 +2783,10 @@
           "qixue": "74",
           "magic": "0",
           "physical": "69",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，水月心方寂，云霞思独玄。<br/>传，古有神蛟蛰于寒潭间，潜鸣不息，风动古木。是夜明月映于潭中，浮波澄碧，但见神蛟乍醒，飞而冲天，金鳞落而化神兵，浸明月之华，含碧水之色。<br/>言，碧潭落月明，剑意含太清。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，水月心方寂，雲霞思獨玄。<br/>傳，古有神蛟蟄於寒潭間，潛鳴不息，風動古木。是夜明月映於潭中，浮波澄碧，但見神蛟乍醒，飛而沖天，金鱗落而化神兵，浸明月之華，含碧水之色。<br/>言，碧潭落月明，劍意含太清。"
         }
       ],
       "equipment": [
@@ -2808,12 +2808,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
           "equipment": "四象明月",
           "img": "Equip_ruangeliyi",
-          "name": "软革里衣",
+          "name": "軟革裏衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -2828,7 +2828,7 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
           "equipment": "四象明月",
@@ -2848,12 +2848,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
         },
         {
           "equipment": "四象明月",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "",
@@ -2874,8 +2874,8 @@
       "strategy": [
         {
           "img": "BattleAsssit_066",
-          "name": "华月掠影阵",
-          "unlock_condition": "阵眼四象明月位阶35级，五内神陆级解锁",
+          "name": "華月掠影陣",
+          "unlock_condition": "陣眼四象明月位階35級，五內神陸級解鎖",
           "relate1": "",
           "relate2": "",
           "relate3": "",
@@ -2883,116 +2883,60 @@
           "icon1": "light",
           "icon2": "electricity",
           "icon3": "",
-          "desc": "上阵四象明月和「光」，「雷」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身气血越高/低，伤害/免伤越高，最多提高10%。"
+          "desc": "上陣四象明月和「光」，「雷」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，自身氣血越高/低，傷害/免傷越高，最多提高10%。"
         }
       ],
       "godclass_weapon": [
         {
-          "name": "梦想无双",
+          "name": "夢想無雙",
           "img": "Weapon_115405",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "我方行动时，伤害提升<b><color=#e4462c>5%</color></b>，敌方行动时，免伤提升<b><color=#e4462c>5%</color></b>。行动结束时，若自身<b><color=#e4462c>2</color></b>格范围内没有敌人则获得「隐迹」状态。（间隔<b><color=#e4462c>1</color></b>回合触发）\n「隐迹」：移动力<b><color=#e4462c>+1</color></b>，躲闪对战中的<b><color=#e4462c>1</color></b>次攻击（不可驱散，触发后消失）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "我方行動時，傷害提升<b><color=#e4462c>5%</color></b>，敵方行動時，免傷提升<b><color=#e4462c>5%</color></b>。行動結束時，若自身<b><color=#e4462c>2</color></b>格範圍內沒有敵人則獲得「隱跡」狀態。（間隔<b><color=#e4462c>1</color></b>回合觸發）\n「隱跡」：移動力<b><color=#e4462c>+1</color></b>，躲閃對戰中的<b><color=#e4462c>1</color></b>次攻擊（不可驅散，觸發後消失）"
         },
         {
-          "name": "梦想无双",
+          "name": "夢想無雙",
           "img": "Weapon_115405",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "我方行动时，伤害提升<b><color=#e4462c>6%</color></b>，敌方行动时，免伤提升<b><color=#e4462c>6%</color></b>。行动结束时，若自身<b><color=#e4462c>2</color></b>格范围内没有敌人则获得「隐迹」状态。（间隔<b><color=#e4462c>1</color></b>回合触发）\n「隐迹」：移动力<b><color=#e4462c>+1</color></b>，躲闪对战中的<b><color=#e4462c>1</color></b>次攻击（不可驱散，触发后消失）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "我方行動時，傷害提升<b><color=#e4462c>6%</color></b>，敵方行動時，免傷提升<b><color=#e4462c>6%</color></b>。行動結束時，若自身<b><color=#e4462c>2</color></b>格範圍內沒有敵人則獲得「隱跡」狀態。（間隔<b><color=#e4462c>1</color></b>回合觸發）\n「隱跡」：移動力<b><color=#e4462c>+1</color></b>，躲閃對戰中的<b><color=#e4462c>1</color></b>次攻擊（不可驅散，觸發後消失）"
         },
         {
-          "name": "梦想无双",
+          "name": "夢想無雙",
           "img": "Weapon_115405",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "我方行动时，伤害提升<b><color=#e4462c>7%</color></b>，敌方行动时，免伤提升<b><color=#e4462c>7%</color></b>。行动结束时，若自身<b><color=#e4462c>2</color></b>格范围内没有敌人则获得「隐迹」状态。（间隔<b><color=#e4462c>1</color></b>回合触发）\n「隐迹」：移动力<b><color=#e4462c>+1</color></b>，躲闪对战中的<b><color=#e4462c>1</color></b>次攻击（不可驱散，触发后消失）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "我方行動時，傷害提升<b><color=#e4462c>7%</color></b>，敵方行動時，免傷提升<b><color=#e4462c>7%</color></b>。行動結束時，若自身<b><color=#e4462c>2</color></b>格範圍內沒有敵人則獲得「隱跡」狀態。（間隔<b><color=#e4462c>1</color></b>回合觸發）\n「隱跡」：移動力<b><color=#e4462c>+1</color></b>，躲閃對戰中的<b><color=#e4462c>1</color></b>次攻擊（不可驅散，觸發後消失）"
         },
         {
-          "name": "梦想无双",
+          "name": "夢想無雙",
           "img": "Weapon_115405",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "我方行动时，伤害提升<b><color=#e4462c>8%</color></b>，敌方行动时，免伤提升<b><color=#e4462c>8%</color></b>。行动结束时，若自身<b><color=#e4462c>2</color></b>格范围内没有敌人则获得「隐迹」状态。（间隔<b><color=#e4462c>1</color></b>回合触发）\n「隐迹」：移动力<b><color=#e4462c>+1</color></b>，躲闪对战中的<b><color=#e4462c>1</color></b>次攻击（不可驱散，触发后消失）"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "我方行動時，傷害提升<b><color=#e4462c>8%</color></b>，敵方行動時，免傷提升<b><color=#e4462c>8%</color></b>。行動結束時，若自身<b><color=#e4462c>2</color></b>格範圍內沒有敵人則獲得「隱跡」狀態。（間隔<b><color=#e4462c>1</color></b>回合觸發）\n「隱跡」：移動力<b><color=#e4462c>+1</color></b>，躲閃對戰中的<b><color=#e4462c>1</color></b>次攻擊（不可驅散，觸發後消失）"
         },
         {
-          "name": "梦想无双",
+          "name": "夢想無雙",
           "img": "Weapon_115405",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "我方行动时，伤害提升<b><color=#e4462c>10%</color></b>，敌方行动时，免伤提升<b><color=#e4462c>10%</color></b>。行动结束时，若自身<b><color=#e4462c>2</color></b>格范围内没有敌人则获得「隐迹」状态。（间隔<b><color=#e4462c>1</color></b>回合触发）\n「隐迹」：移动力<b><color=#e4462c>+1</color></b>，躲闪对战中的<b><color=#e4462c>1</color></b>次攻击（不可驱散，触发后消失）"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "冰蟾串珠·尘",
-          "percent": "0.314191279034507"
-        },
-        {
-          "name": "御刃金佩",
-          "percent": "0.00624658863484747"
-        },
-        {
-          "name": "冰蠺玉带·烟",
-          "percent": "0.105882709685244"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手镯·烟",
-          "percent": "0.249885378130875"
-        },
-        {
-          "name": "白焰玉镯·烟",
-          "percent": "0.109400206198071"
-        },
-        {
-          "name": "锁龙环",
-          "percent": "0.107065316271453"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "灵越佩环·尘",
-          "percent": "0.206762083813451"
-        },
-        {
-          "name": "御刃金佩",
-          "percent": "0.206246588634847"
-        },
-        {
-          "name": "灵越佩环·烟",
-          "percent": "0.105124628540238"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "慈航普度",
-          "percent": "0.307793074170659"
-        },
-        {
-          "name": "天荆覆魂",
-          "percent": "0.206337558372248"
-        },
-        {
-          "name": "无边落木·烟",
-          "percent": "0.105245921523439"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "我方行動時，傷害提升<b><color=#e4462c>10%</color></b>，敵方行動時，免傷提升<b><color=#e4462c>10%</color></b>。行動結束時，若自身<b><color=#e4462c>2</color></b>格範圍內沒有敵人則獲得「隱跡」狀態。（間隔<b><color=#e4462c>1</color></b>回合觸發）\n「隱跡」：移動力<b><color=#e4462c>+1</color></b>，躲閃對戰中的<b><color=#e4462c>1</color></b>次攻擊（不可驅散，觸發後消失）"
         }
       ]
     }
   ],
   [
     {
-      "name": "瑶空",
-      "is_new": "",
+      "name": "瑤空",
+      "is_new": "1",
       "pinyin": "yaokong",
-      "weight": "1490",
-      "source": "天地劫幽城再临原创角色",
+      "weight": "1470",
+      "source": "天地劫手遊原創角色",
       "pic": "Hero1086_img",
       "prop_icon": "Electricity",
       "career_icon": "Rogue",
       "rarity": "SSR",
-      "position": "远攻",
+      "position": "遠攻",
       "prop": "雷",
       "career": "羽士",
       "range": "2",
@@ -3004,149 +2948,149 @@
       "physical_defense": "32",
       "huixin": "40",
       "inherent": "Gift_168",
-      "inherent_name": "逸羽轻云",
+      "inherent_name": "逸羽輕雲",
       "star1": "",
       "star2": "",
-      "star3": "行动结束前，自身每有1点剩余移动力，获得1层<link type=buff value=741086016 bgcolor=#3a85ffff>「振翎」</link>状态，持续2回合；若携带2层「振翎」状态，则可选择绝学<link type=skill value=61108605 bgcolor=#3a85ffff>「扶摇霄汉」</link>进行释放（间隔4回合触发）。",
-      "star4": "行动结束前，自身每有1点剩余移动力，获得1层<link type=buff value=741086017 bgcolor=#3a85ffff>「振翎」</link>状态，持续2回合；若携带2层「振翎」状态，则可选择绝学<link type=skill value=61108605 bgcolor=#3a85ffff>「扶摇霄汉」</link>进行释放（间隔3回合触发）。",
-      "star5": "行动结束前，自身每有1点剩余移动力，获得1层<link type=buff value=741086018 bgcolor=#3a85ffff>「振翎」</link>状态，持续2回合；若携带2层「振翎」状态，则可选择绝学<link type=skill value=61108605 bgcolor=#3a85ffff>「扶摇霄汉」</link>进行释放（间隔3回合触发）。",
-      "star6": "行动结束前，自身每有1点剩余移动力，获得1层<link type=buff value=741086019 bgcolor=#3a85ffff>「振翎」</link>状态，持续2回合；若携带2层「振翎」状态，则可选择绝学<link type=skill value=61108605 bgcolor=#3a85ffff>「扶摇霄汉」</link>进行释放（间隔2回合触发）。",
+      "star3": "行動結束前，自身每有1點剩餘移動力，獲得1層<link type=buff value=741086016 bgcolor=#3a85ffff>「振翎」</link>狀態，持續2回合；若攜帶2層「振翎」狀態，則可選擇絕學<link type=skill value=61108605 bgcolor=#3a85ffff>「扶搖霄漢」</link>進行釋放（間隔4回合觸發）。",
+      "star4": "行動結束前，自身每有1點剩餘移動力，獲得1層<link type=buff value=741086017 bgcolor=#3a85ffff>「振翎」</link>狀態，持續2回合；若攜帶2層「振翎」狀態，則可選擇絕學<link type=skill value=61108605 bgcolor=#3a85ffff>「扶搖霄漢」</link>進行釋放（間隔3回合觸發）。",
+      "star5": "行動結束前，自身每有1點剩餘移動力，獲得1層<link type=buff value=741086018 bgcolor=#3a85ffff>「振翎」</link>狀態，持續2回合；若攜帶2層「振翎」狀態，則可選擇絕學<link type=skill value=61108605 bgcolor=#3a85ffff>「扶搖霄漢」</link>進行釋放（間隔3回合觸發）。",
+      "star6": "行動結束前，自身每有1點剩餘移動力，獲得1層<link type=buff value=741086019 bgcolor=#3a85ffff>「振翎」</link>狀態，持續2回合；若攜帶2層「振翎」狀態，則可選擇絕學<link type=skill value=61108605 bgcolor=#3a85ffff>「扶搖霄漢」</link>進行釋放（間隔2回合觸發）。",
       "story_name": "羽仙",
-      "story_content": "凡俗之众皆希求长生。<br/>上至王侯贵卿，下至贩夫皁隶，无不梦着千秋万岁、寿与天齐的极乐。<br/>这自鸿蒙之初而来的幻梦升腾、攒合，似龛前的香，袅袅不绝。<br/>香雾炽热，愿心纷繁，弥散于九天，化而无形迹。<br/>千生万劫，愿念不竭。<br/>不朽的梦寐化生为神祇，于云霞华光之间垂羽而现。<br/>世人皆言，名为瑶空的羽仙踏风而行、餐霞漱瀣，游于云崖之巅，栖于神木之下；赐凡俗以仙草，引生魂而登仙。<br/>众生如蜉蝣，朝生而暮死，然龛前的祷颂却万代绵延。<br/>他们始终笃信，在万物寂灭之刻，那流溢着耀目华光的金翎双翼，终会温情脉脉地覆盖整片寰宇。",
+      "story_content": "凡俗之眾皆希求長生。<br/>上至王侯貴卿，下至販夫皁隸，無不夢著千秋萬歲、壽與天齊的極樂。<br/>這自鴻蒙之初而來的幻夢升騰、攢合，似龕前的香，嫋嫋不絕。<br/>香霧熾熱，願心紛繁，彌散於九天，化而無形跡。<br/>千生萬劫，願念不竭。<br/>不朽的夢寐化生為神祇，於雲霞華光之間垂羽而現。<br/>世人皆言，名為瑤空的羽仙踏風而行、餐霞漱瀣，遊於雲崖之巔，棲於神木之下；賜凡俗以仙草，引生魂而登仙。<br/>眾生如蜉蝣，朝生而暮死，然龕前的禱頌卻萬代綿延。<br/>他們始終篤信，在萬物寂滅之刻，那流溢著耀目華光的金翎雙翼，終會溫情脈脈地覆蓋整片寰宇。",
       "hero_icon": "Hero1086_HeadIcon_Basic",
       "skill": [
         {
           "img": "Skill_Ranger_1001",
-          "name": "逐风破",
-          "type": "物攻伤害",
+          "name": "逐風破",
+          "type": "物攻傷害",
           "cd": "2回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "2格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵初始技能",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
           "inner_power1": "",
           "unlock_inner1": "",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，「对战前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.4</color></b>倍傷害，對飛行角色額外造成<b><color=#e4462c>20%</color></b>傷害，「對戰前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虛損II」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
           "img": "EXSkill_1683",
-          "name": "疾羽连驰",
+          "name": "疾羽連馳",
           "type": "支援",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "5格",
-          "range": "单体",
-          "way": "主动",
-          "unlock_condition": "英灵位阶3级",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
           "inner_power1": "Shen",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "[被动]若自身携带「振翎」状态，主动普攻触发「连击」（「振翎」层数<b><color=#e4462c>*0.3</color></b>倍伤害）。<br/>[主动]主动使用，与所选的友方进行位置互换，自身每有<b><color=#e4462c>1</color></b>层「振翎」状态为目标恢复最大气血的<b><color=#e4462c>20%</color></b>，自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+          "desc": "[被動]若自身攜帶「振翎」狀態，主動普攻觸發「連擊」（「振翎」層數<b><color=#e4462c>*0.3</color></b>倍傷害）。<br/>[主動]主動使用，與所選的友方進行位置互換，自身每有<b><color=#e4462c>1</color></b>層「振翎」狀態為目標恢復最大氣血的<b><color=#e4462c>20%</color></b>，自身獲得再行動（<b><color=#e4462c>2</color></b>格）。"
         },
         {
           "img": "GPassive_1002",
-          "name": "奋力",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶15级",
+          "name": "奮力",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Xun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主动攻击「对战中」物攻提高12%。"
+          "desc": "主動攻擊「對戰中」物攻提高12%。"
         },
         {
           "img": "EXSkill_1684",
-          "name": "意凌太虚",
+          "name": "意凌太虛",
           "type": "支援",
           "cd": "3回合",
-          "cost": "1内力",
+          "cost": "1內力",
           "shoot": "自身",
           "range": "菱形2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶15级",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
           "inner_power1": "Hun",
-          "unlock_inner1": "壹级",
+          "unlock_inner1": "壹級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "主动使用，为范围内所有友方施加<link type=buff value=700001372 bgcolor=#3a85ffff>「信步」</link>状态，持续<b><color=#e4462c>3</color></b>回合，对飞行友方额外施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+          "desc": "主動使用，為範圍內所有友方施加<link type=buff value=700001372 bgcolor=#3a85ffff>「信步」</link>狀態，持續<b><color=#e4462c>3</color></b>回合，對飛行友方額外施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續<b><color=#e4462c>3</color></b>回合。"
         },
         {
           "img": "EXSkill_1685",
-          "name": "乘风驭气",
-          "type": "被动",
-          "cd": "无",
-          "cost": "1内力",
-          "shoot": "无",
-          "range": "无",
-          "way": "被动",
-          "unlock_condition": "英灵位阶25级",
+          "name": "乘風馭氣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
           "inner_power1": "Shen",
-          "unlock_inner1": "肆级",
+          "unlock_inner1": "肆級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "暴击率提高7%。遭受非飞行角色攻击时，免伤提高15%（每回合最多触发1次）。"
+          "desc": "暴擊率提高7%。遭受非飛行角色攻擊時，免傷提高15%（每回合最多觸發1次）。"
         },
         {
           "img": "EXSkill_1681",
           "name": "垂翎庇世",
-          "type": "主动",
+          "type": "主動",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "自身",
-          "range": "直线(2-5)*3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "range": "直線(2-5)*3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Xun",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人施加<link type=buff value=700001402 bgcolor=#3a85ffff>「断步I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，警戒目标区域，自身获得<link type=buff value=741086110 bgcolor=#3a85ffff>「羽敕」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人施加<link type=buff value=700001402 bgcolor=#3a85ffff>「斷步I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，警戒目的地區域，自身獲得<link type=buff value=741086110 bgcolor=#3a85ffff>「羽敕」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
         },
         {
           "img": "Skill_Ranger_1004",
           "name": "漫天箭雨",
-          "type": "物攻伤害",
+          "type": "物攻傷害",
           "cd": "3回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形2格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶40级",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
           "inner_power1": "Shen",
-          "unlock_inner1": "柒级",
+          "unlock_inner1": "柒級",
           "inner_power2": "Hun",
-          "unlock_inner2": "伍级",
-          "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害。使目标<b><color=#e4462c>1</color></b>个随机属性降低。"
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，對飛行角色額外造成<b><color=#e4462c>20%</color></b>傷害。使目標<b><color=#e4462c>1</color></b>個隨機屬性降低。"
         },
         {
           "img": "EXSkill_1682",
-          "name": "羽惊碧落",
-          "type": "物攻伤害",
+          "name": "羽驚碧落",
+          "type": "物攻傷害",
           "cd": "4回合",
-          "cost": "2内力",
+          "cost": "2內力",
           "shoot": "3格",
           "range": "菱形3格",
-          "way": "主动",
-          "unlock_condition": "英灵位阶55级",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
           "inner_power1": "Shen",
-          "unlock_inner1": "拾级",
+          "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，使目标在范围内发生<b><color=#e4462c>3</color></b>格内「扰动」效果，施加<b><color=#e4462c>2</color></b>个「属性降低」类「有害状态」。若目标存在飞行角色则该绝学冷却时间减少<b><color=#e4462c>1</color></b>回合。"
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.6</color></b>倍傷害，對飛行角色額外造成<b><color=#e4462c>20%</color></b>傷害，使目標在範圍內發生<b><color=#e4462c>3</color></b>格內「擾動」效果，絕學後施加<b><color=#e4462c>2</color></b>個「屬性降低」類「減益狀態」。若目標存在飛行角色則該絕學冷卻時間減少<b><color=#e4462c>1</color></b>回合。"
         }
       ],
       "weapon": [
         {
-          "weapon": "瑶空",
+          "weapon": "瑤空",
           "name": "金羽翎",
           "img": "Weapon_108601",
           "qixue": "38",
@@ -3155,48 +3099,48 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "载，昂藏立清晓，起舞金翎新。<br/>传，古有仙鹤，常沐于高山寒泉间。樵夫误入幽境，见其鹤惊而凭风起，乘云引清吭，万壑留松声。少顷，云间杳然无迹，惟余一支金羽。<br/>言，仙鹤云声缈，松影落阶前。"
+          "desc": "載，昂藏立清曉，起舞金翎新。<br/>傳，古有仙鶴，常沐於高山寒泉間。樵夫誤入幽境，見其鶴驚而憑風起，乘雲引清吭，萬壑留松聲。少頃，雲間杳然無跡，惟餘一支金羽。<br/>言，仙鶴雲聲緲，松影落階前。"
         },
         {
-          "weapon": "瑶空",
-          "name": "青织翎",
+          "weapon": "瑤空",
+          "name": "青織翎",
           "img": "Weapon_108602",
           "qixue": "46",
           "magic": "0",
           "physical": "45",
-          "feature": "[鹤唳]暴击率提升5%",
+          "feature": "[鶴唳]暴擊率提升5%",
           "rarity": "R",
-          "jiesuo": "英灵位阶25",
-          "desc": "载，裁云落新羽，织锦度鸣梭。<br/>传，九天之上， 有织女机杼年年，撷青霞而裁雾縠，掇云霓而织罗裳，又间缀以鸾羽。其羽色青碧，如蓬莱海天之色，得之可御风乘云。<br/>言，风归碧海夕，羽没青天时。"
+          "jiesuo": "英靈位階25",
+          "desc": "載，裁雲落新羽，織錦度鳴梭。<br/>傳，九天之上， 有織女機杼年年，擷青霞而裁霧谷，掇雲霓而織羅裳，又間綴以鸞羽。其羽色青碧，如蓬萊海天之色，得之可御風乘雲。<br/>言，風歸碧海夕，羽沒青天時。"
         },
         {
-          "weapon": "瑶空",
-          "name": "刻琼镂羽",
+          "weapon": "瑤空",
+          "name": "刻瓊鏤羽",
           "img": "Weapon_108603",
           "qixue": "58",
           "magic": "0",
           "physical": "56",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
-          "jiesuo": "列星回响消耗45点天魂之力",
-          "desc": "载，宝匣初开映冰蟾，琼羽流华照虚碧。<br/>传，昔时有名士好古，于四海之间网罗奇珍，偶得一异邦宝匣，形制素朴，隐然涵光。是夜明月初升，宝匣乍然而启，匣中飞出一羽，刻琼镶翠，映照玄华，然不过顷刻，便凭风而逝。<br/>言，长夜澄氛霭，凌羽月华临。"
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，寶匣初開映冰蟾，瓊羽流華照虛碧。<br/>傳，昔時有名士好古，於四海之間網羅奇珍，偶得一異邦寶匣，形制素樸，隱然涵光。是夜明月初升，寶匣乍然而啟，匣中飛出一羽，刻瓊鑲翠，映照玄華，然不過傾刻，便憑風而逝。<br/>言，長夜澄氛靄，凌羽月華臨。"
         },
         {
-          "weapon": "瑶空",
-          "name": "绮色堆珍",
+          "weapon": "瑤空",
+          "name": "綺色堆珍",
           "img": "Weapon_108604",
           "qixue": "72",
           "magic": "0",
           "physical": "70",
-          "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "jiesuo": "列星回响消耗74点天魂之力",
-          "desc": "载，流波锵金玉，仙踪泛露霞。<br/>传，海上仙山缥缈，奇峰翠横，藏有无尽之宝。凡俗之人乘星槎而寻仙踪，迷于津波之间，不知昼夜。俄见仙鸟垂翼，为其引路，翎羽金玉烁目，绮色惑心。<br/>言，蓬莱咫尺间，云间逐风至。"
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，流波鏘金玉，仙蹤泛露霞。<br/>傳，海上仙山縹緲，奇峰翠橫，藏有無盡之寶。凡俗之人乘星槎而尋仙蹤，迷於津波之間，不知晝夜。俄見仙鳥垂翼，為其引路，翎羽金玉爍目，綺色惑心。<br/>言，蓬萊咫尺間，雲間逐風至。"
         }
       ],
       "equipment": [
         {
-          "equipment": "瑶空",
+          "equipment": "瑤空",
           "img": "Equip_zhuhuamuzan",
           "name": "珠花木簪",
           "rarity": "N",
@@ -3213,12 +3157,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+3]基础气血上限增加10%"
+          "effect": "[四件+3]基礎氣血上限增加10%"
         },
         {
-          "equipment": "瑶空",
+          "equipment": "瑤空",
           "img": "Equip_ruangeliyi",
-          "name": "软革里衣",
+          "name": "軟革裏衣",
           "rarity": "N",
           "part": "2",
           "qixue": "",
@@ -3233,10 +3177,10 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+6]基础物防和基础法防增加10%"
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
         },
         {
-          "equipment": "瑶空",
+          "equipment": "瑤空",
           "img": "Equip_subushuyao",
           "name": "素布束腰",
           "rarity": "N",
@@ -3253,12 +3197,12 @@
           "phyatt_attr": "",
           "huixin": "",
           "huixin_attr": "",
-          "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
         },
         {
-          "equipment": "瑶空",
+          "equipment": "瑤空",
           "img": "Equip_subuhushou",
-          "name": "素布护手",
+          "name": "素布護手",
           "rarity": "N",
           "part": "4",
           "qixue": "",
@@ -3278,95 +3222,39 @@
       ],
       "godclass_weapon": [
         {
-          "name": "浮金跃云",
+          "name": "浮金躍雲",
           "img": "Weapon_108605",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "神兵强化中习得",
-          "desc": "与飞行角色「对战中」或自身处于仅飞行角色可停留的地块上时，暴击伤害提高<b><color=#e4462c>5%</color></b>。回合开始时，若场上存在其他飞行角色，获得<b><color=#e4462c>1</color></b>层「振翎」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>5%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "浮金跃云",
+          "name": "浮金躍雲",
           "img": "Weapon_108605",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和15+",
-          "desc": "与飞行角色「对战中」或自身处于仅飞行角色可停留的地块上时，暴击伤害提高<b><color=#e4462c>6%</color></b>。回合开始时，若场上存在其他飞行角色，获得<b><color=#e4462c>1</color></b>层「振翎」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>6%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "浮金跃云",
+          "name": "浮金躍雲",
           "img": "Weapon_108605",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和30+",
-          "desc": "与飞行角色「对战中」或自身处于仅飞行角色可停留的地块上时，暴击伤害提高<b><color=#e4462c>7%</color></b>。回合开始时，若场上存在其他飞行角色，获得<b><color=#e4462c>1</color></b>层「振翎」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>7%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "浮金跃云",
+          "name": "浮金躍雲",
           "img": "Weapon_108605",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和45+",
-          "desc": "与飞行角色「对战中」或自身处于仅飞行角色可停留的地块上时，暴击伤害提高<b><color=#e4462c>8%</color></b>。回合开始时，若场上存在其他飞行角色，获得<b><color=#e4462c>1</color></b>层「振翎」状态，持续<b><color=#e4462c>2</color></b>回合。"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>8%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         },
         {
-          "name": "浮金跃云",
+          "name": "浮金躍雲",
           "img": "Weapon_108605",
-          "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
-          "jiesuo-level": "星之晶等级和60+",
-          "desc": "与飞行角色「对战中」或自身处于仅飞行角色可停留的地块上时，暴击伤害提高<b><color=#e4462c>10%</color></b>。回合开始时，若场上存在其他飞行角色，获得<b><color=#e4462c>1</color></b>层「振翎」状态，持续<b><color=#e4462c>2</color></b>回合。"
-        }
-      ],
-      "hero_ornaments_1": [
-        {
-          "name": "凤翼神坠",
-          "percent": "0.220237062734894"
-        },
-        {
-          "name": "冰蟾串珠·尘",
-          "percent": "0.119947961838681"
-        },
-        {
-          "name": "绮罗天香·雾",
-          "percent": "0.117779705117085"
-        }
-      ],
-      "hero_ornaments_2": [
-        {
-          "name": "流光手镯·烟",
-          "percent": "0.230237062734894"
-        },
-        {
-          "name": "御波灵戒",
-          "percent": "0.134165943914426"
-        },
-        {
-          "name": "血参灵玉·尘",
-          "percent": "0.108239375542064"
-        }
-      ],
-      "hero_ornaments_3": [
-        {
-          "name": "辟邪玉佩·烟",
-          "percent": "0.200118531367447"
-        },
-        {
-          "name": "护命神符·尘",
-          "percent": "0.192512286788089"
-        },
-        {
-          "name": "护命神符·烟",
-          "percent": "0.189621277825961"
-        }
-      ],
-      "hero_ornaments_4": [
-        {
-          "name": "鲛人悲歌·影",
-          "percent": "0.213298641225787"
-        },
-        {
-          "name": "鲛人悲歌·烟",
-          "percent": "0.109829430471234"
-        },
-        {
-          "name": "万佛朝宗·雾",
-          "percent": "0.107227522405319"
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "與飛行角色「對戰中」或自身處於僅飛行角色可停留的地塊上時，暴擊傷害提高<b><color=#e4462c>10%</color></b>。回合開始時，若場上存在其他飛行角色，獲得<b><color=#e4462c>1</color></b>層「振翎」狀態，持續<b><color=#e4462c>2</color></b>回合。"
         }
       ]
     }

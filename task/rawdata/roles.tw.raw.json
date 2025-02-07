@@ -2,6 +2,28 @@
   "data": {
     "data": [
       {
+        "name": "四象明月",
+        "is_new": "1",
+        "pinyin": "sixiangmingyue",
+        "weight": "1480",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "暗",
+        "career": "御風",
+        "hero_icon": "Hero1154_HeadIcon_Basic"
+      },
+      {
+        "name": "瑤空",
+        "is_new": "1",
+        "pinyin": "yaokong",
+        "weight": "1470",
+        "expire": "",
+        "rarity": "SSR",
+        "prop": "雷",
+        "career": "羽士",
+        "hero_icon": "Hero1086_HeadIcon_Basic"
+      },
+      {
         "name": "朧夢嫿妖",
         "is_new": "1",
         "pinyin": "longmenghuayao",
@@ -1510,7 +1532,7 @@
         "hero_icon": "Hero1115_HeadIcon_Basic"
       }
     ],
-    "now": "2025-02-01 22:57:17"
+    "now": "2025-02-07 22:33:28"
   },
   "status": 1,
   "switch": null,
