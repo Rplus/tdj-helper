@@ -2,6 +2,7 @@
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Img from '$lib/Img.svelte';
+import { onMount } from 'svelte';
 
 import { resize_img } from '$lib/u.js';
 
@@ -59,6 +60,16 @@ for (let prop in order) {
 function get_index(prop, value) {
 	return order[prop].indexOf(value);
 }
+
+onMount(() => {
+	if (location.hash) {
+		let target = document.querySelector(decodeURIComponent(location.hash));
+		let title_height = document.querySelector('.title.item').offsetHeight;
+		window.scrollTo(0, target.offsetTop - title_height);
+		// console.log(123, target.offsetTop, title_height);
+		// document.querySelector(decodeURIComponent(location.hash))?.scrollIntoView();
+	}
+})
 
 </script>
 
