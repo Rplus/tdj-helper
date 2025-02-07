@@ -113,6 +113,7 @@ function get_index(prop, value) {
 	{#each data as item}
 		<li
 			id={item.name}
+			name={item.name}
 			class="item"
 			style="--dispellable:{Number(item.dispellable)};--extendable:{Number(item.extendable)};--stealable:{Number(item.stealable)};
 				--name:{get_index('name', item.name)};

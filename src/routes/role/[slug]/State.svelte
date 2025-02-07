@@ -1,6 +1,7 @@
 <script>
 import { onMount } from 'svelte';
 import states from '$lib/data/state.min.json';
+import { link, } from '$lib/u.js';
 
 // console.log(11, states);
 
@@ -75,9 +76,9 @@ onMount(() => {
 <div class="hint" style="left:{pos.left}px; top:{pos.top}px;"
 	data-hidden={state_name}
 	bind:this={dom}>
-	<div class="name">
+	<a class="name" href={link(`/state/#${state_name}`)}>
 		{state_name}
-	</div>
+	</a>
 	<div class="desc">
 		{state_desc}
 	</div>
@@ -111,6 +112,7 @@ onMount(() => {
 .name {
 	border-bottom: 1px dashed #0003;
 	margin-bottom: 0.25em;
+	pointer-events: initial;
 }
 
 .desc {
