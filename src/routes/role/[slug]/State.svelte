@@ -7,22 +7,19 @@ import { link, } from '$lib/u.js';
 
 let dom;
 
-let o_pos = {};
-let pos = {
-	top: 0,
-	left: 0,
-};
+let pos_top = 0;
+let pos_left = 0;
 
-$: state_string = '';
 
 $: state_name = '';
 $: state_desc = '';
+
+let p_pos;
 
 function show_state(str = '', rect) {
 }
 
 function hide_state() {
-	state_string = '';
 	state_name = '';
 	state_desc = '';
 }
@@ -43,16 +40,22 @@ function onselectionchange() {
 		hide_state();
 		return;
 	}
-	state_string = str;
 	state_name = state.name;
 	state_desc = state.desc;
 
-
 	// position
 	let clientRects = selectObj.getRangeAt(0).getClientRects()[0];
-	// console.log(22, clientRects);
-	pos.left = clientRects.x - o_pos.x;
-	pos.top = clientRects.y - o_pos.y + clientRects.height + window.scrollY;
+
+	pos_left = clientRects.x - p_pos.left + window.pageXOffset;
+	pos_top = clientRects.y - p_pos.top + window.pageYOffset + clientRects.height;
+}
+
+function getOffset(el) {
+	const rect = el.getBoundingClientRect();
+	return {
+		left: rect.left + window.scrollX,
+		top: rect.top + window.scrollY,
+	};
 }
 
 function find_state(name = '') {
@@ -64,16 +67,15 @@ function find_state(name = '') {
 	return target;
 }
 
-
 onMount(() => {
-	o_pos = dom.getBoundingClientRect();
+	p_pos = getOffset(dom.parentElement);
 });
+
 </script>
 
 <svelte:document on:selectionchange={onselectionchange} />
 
-
-<div class="hint" style="left:{pos.left}px; top:{pos.top}px;"
+<div class="hint" style="left:{pos_left}px; top:{pos_top}px;"
 	data-hidden={state_name}
 	bind:this={dom}>
 	<a class="name" href={link(`/state/#${state_name}`)}>
@@ -93,9 +95,8 @@ onMount(() => {
 	max-width: 15rem;
 	z-index: 100;
 	padding: .5em;
-	background-color: #fff;
+	background-color: #fffd;
 	border: 1px solid #000;
-	opacity: 0.8;
 	user-select: none;
 	pointer-events: none;
 
@@ -106,7 +107,8 @@ onMount(() => {
 }
 
 :global(.dark-theme) .hint {
-	background-color: #444;
+	background-color: #333d;
+	border-color: #fff3;
 }
 
 .name {
