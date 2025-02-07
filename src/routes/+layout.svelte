@@ -6,7 +6,7 @@ import './styles.css';
 <div class="app">
 	<Nav />
 
-	<main>
+	<main class="pos-r">
 		<slot />
 	</main>
 </div>

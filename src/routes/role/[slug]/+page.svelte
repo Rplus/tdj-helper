@@ -11,6 +11,7 @@ import Skills from './Skills.svelte';
 import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
 import Summons from './Summons.svelte';
+import StateHint from './State.svelte';
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
 import Footer from '$lib/Footer.svelte';
@@ -27,6 +28,8 @@ $: {
 </script>
 
 <Header parent_path="/role" title="英靈：{data.role?.name}" />
+
+<StateHint />
 
 <Role data={data.role} type="card" />
 
