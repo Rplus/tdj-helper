@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { raw_data, writeFile, outputJSON, pick_obj, getArgs } from './u.mjs';
+import { raw_data, writeFile, outputJSON, pick_obj, getArgs, remove_html_tag } from './u.mjs';
 
 let summons = JSON.parse(fs.readFileSync('./task/rawdata/summons.json', 'utf8'));
 
@@ -82,6 +82,40 @@ op.roles = roles_data.map((item) => {
 	}
 
 	return ooop;
+});
+
+// ROLE DETAILS WITH SKILLS
+op.role_details = op.roles.map(role => {
+	let detail = roles_detail_data.find((j) => j.hero_icon === role.hero_icon);
+	role.inherent = {
+		name: detail.inherent_name,
+		icon: detail.inherent,
+		stars: [
+			detail.star1,
+			detail.star2,
+			detail.star3,
+			detail.star4,
+			detail.star5,
+			detail.star6,
+		].map(remove_html_tag),
+	};
+	role.skills = detail.skill.map(i => {
+		i.desc = remove_html_tag(i.desc);
+		for (let prop in i) {
+			if (!i[prop]) {
+				delete i[prop];
+			}
+		}
+		return i;
+	});
+	if (detail.godclass_weapon) {
+		role.godclass_weapon = {
+			name: detail.godclass_weapon[0].name,
+			icon: detail.godclass_weapon[0].img,
+			stars: detail.godclass_weapon.map(i => remove_html_tag(i.desc)),
+		}
+	}
+	return role;
 });
 
 //  ######  ######## ########     ###    ######## ########  ######   ##    ##
@@ -270,6 +304,18 @@ outputJSON({
 	// space: 0,
 	cn2tw: true,
 });
+outputJSON({
+	json: op.role_details,
+	fn: './task/rawdata/role_details.src.json',
+	// space: 0,
+	cn2tw: true,
+});
+// outputJSON({
+// 	json: op.role_details,
+// 	fn: './task/rawdata/_role_details.min.json',
+// 	space: 0,
+// 	cn2tw: true,
+// });
 outputJSON({
 	json: op.roles,
 	fn: './src/lib/data/roles.min.json',
