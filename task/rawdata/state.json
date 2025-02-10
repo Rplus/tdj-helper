@@ -240,6 +240,14 @@
     "stealable": false
   },
   {
+    "name": "憑魂",
+    "cate": "其他",
+    "desc": "回合開始時，若友方「九黎悍士」數量小於2，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "刺骨I",
     "cate": "有益",
     "desc": "暴擊率+20%",
@@ -480,6 +488,14 @@
     "stealable": false
   },
   {
+    "name": "塑魂",
+    "cate": "其他",
+    "desc": "「塑魂」等級每提升1級，夜無陵專屬絕學會獲得強化且免傷提升5%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "處刑",
     "cate": "其他",
     "desc": "射程和移動力+1，主動攻擊後使目標攜帶的「有害狀態」等級提升1級。",
@@ -627,6 +643,14 @@
     "name": "審判·貳",
     "cate": "其他",
     "desc": "當敵方行動結束時，如果在警戒範圍內，則立刻對其1圈範圍內所有敵人造成0.5倍物攻傷害，反轉1個「有益狀態」（累積觸發3次後消失，每觸發1次降低「彌伽誡喻」1回合冷卻）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "宿曜幽力",
+    "cate": "其他",
+    "desc": "施加者的主動攻擊或使用絕學可以無視射程限制以3格範圍內的目標釋放（施加者「離場」時移除）。",
     "dispellable": false,
     "extendable": false,
     "stealable": false
@@ -856,6 +880,14 @@
     "stealable": false
   },
   {
+    "name": "異心·悖",
+    "cate": "其他",
+    "desc": "3格內每有1名其他友方行動結束時攜帶者受到1次「固定傷害」（當前氣血的30%）並獲得1個隨機「有害狀態」，自身行動結束時，所有「有害狀態」等級提升1級。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "引靈",
     "cate": "其他",
     "desc": "選擇敵方作為目標時只能選中施加者，主動攻擊施加者時傷害降低20%，若本回合沒有發起攻擊，則被施加1個隨機「有害狀態」。",
@@ -872,9 +904,25 @@
     "stealable": false
   },
   {
+    "name": "歸依·恪",
+    "cate": "其他",
+    "desc": "行動結束時，使施加者恢復自身和施加者3格內施加者友方的氣血（恢復量為施加者法攻的1倍）並施加1個隨機「有益狀態」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
     "name": "影遁",
     "cate": "其他",
     "desc": "傷害和暴擊率提高12%，無法被敵人普通攻擊及絕學鎖定為目標（遭受1次範圍傷害或造成傷害後，或行動結束時，自身2格範圍內存在敵人時，該狀態消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "徇義",
+    "cate": "其他",
+    "desc": "除氣血外全屬性提高2%。",
     "dispellable": false,
     "extendable": false,
     "stealable": false
@@ -1371,6 +1419,14 @@
     "name": "無摧·封勁",
     "cate": "有害",
     "desc": "主動絕學射程-1（不可驅散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "無摧·封穴",
+    "cate": "有害",
+    "desc": "無法發動「連擊」「追擊」和「閃避」（不可驅散）",
     "dispellable": false,
     "extendable": false,
     "stealable": false
@@ -1900,6 +1956,22 @@
     "cate": "有益",
     "desc": "移動力+1，可跨越障礙，免疫「移動力降低」。",
     "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "災滅",
+    "cate": "其他",
+    "desc": "當敵方行動結束時，如果在警戒範圍內，則立刻對其1圈範圍內所有敵人造成0.4倍物攻傷害，所有「有害狀態」等級提升1級（累積觸發3次後消失）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "災滅·厄",
+    "cate": "其他",
+    "desc": "當敵方行動結束時，如果在警戒範圍內，則立刻對其1圈範圍內所有敵人造成0.5倍物攻傷害，反轉1個「有益狀態」，並使所有「有害狀態」等級提升1級（累積觸發3次後消失）。",
+    "dispellable": false,
     "extendable": false,
     "stealable": false
   },
@@ -2579,6 +2651,14 @@
     "name": "苦咒",
     "cate": "其他",
     "desc": "法術穿透提高20%，造成傷害後，對目標施加1個隨機「有害狀態」（不可驅散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "落曜",
+    "cate": "其他",
+    "desc": "會心提升30%，使用傷害絕學後，對選取的目標周圍1圈範圍內所有敵方造成1次物理傷害（0.3倍物攻），若選取的目標處於自身直線位置，絕學後自身被反向擊退1格，自身所有「有益狀態」等級提升1級（使用傷害絕學後移除）。",
     "dispellable": false,
     "extendable": false,
     "stealable": false

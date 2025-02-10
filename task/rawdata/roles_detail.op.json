@@ -1,6 +1,689 @@
 [
   [
     {
+      "name": "夜無陵",
+      "is_new": "1",
+      "pinyin": "yewuling",
+      "weight": "1590",
+      "source": "天地劫幽城再臨原創角色",
+      "pic": "Hero1089_img",
+      "prop_icon": "Shadow",
+      "career_icon": "Swordsman",
+      "rarity": "SSR",
+      "position": "近攻",
+      "prop": "暗",
+      "career": "俠客",
+      "range": "1",
+      "speed": "3",
+      "qixue": "209",
+      "magic_attack": "13",
+      "physical_attack": "108",
+      "magic_defense": "23",
+      "physical_defense": "38",
+      "huixin": "22",
+      "inherent": "Gift_179",
+      "inherent_name": "九黎恩榮",
+      "star1": "",
+      "star2": "",
+      "star3": "物攻、物防提升15%。場上每個召喚物死亡時，自身獲得1級<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級（最多3級）。<br/>進入戰鬥時，在自己身邊召喚2個「九黎悍士」。<br/>（繼承召喚者對應屬性的100%，「九黎悍士」最多同時存在2個）。",
+      "star4": "物攻、物防提升15%。場上每個召喚物死亡時，自身獲得1級<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級（最多3級）。<br/>進入戰鬥時，在自己身邊召喚2個「九黎悍士」。<br/>（繼承召喚者對應屬性的100%，「九黎悍士」最多同時存在2個）。",
+      "star5": "物攻、物防提升15%。場上每個召喚物死亡時，自身獲得1級<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級（最多3級）。<br/>進入戰鬥時，在自己身邊召喚2個「九黎悍士」。<br/>（繼承召喚者對應屬性的100%，「九黎悍士」最多同時存在2個）。",
+      "star6": "物攻、物防提升15%。場上每個召喚物死亡時，自身獲得1級<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級（最多3級）。<br/>進入戰鬥時，在自己身邊召喚2個「九黎悍士」。<br/>（繼承召喚者對應屬性的100%，「九黎悍士」最多同時存在2個）。",
+      "story_name": "九黎",
+      "story_content": "天地初創，三界澄明。陰靄在上神的凝視中抽身而退，餘下曾被庇佑的九黎子民，倉惶之間流離失所，大地不再屬於他們，曾擁有的風、雨、鮮活的一切，都被滯留於過往。<br/>「去化荒吧。」上神們如此說道。<br/>於是他們匆匆趕去。<br/>時間該如何度量呢？<br/>一日，一月，一載，使人忐忑，又使人厭倦。永遠不會停留在當時一瞬間的心緒，最後無聲化為一灘死水，任誰也掀不起一絲波瀾——它總是這樣。<br/>漸漸的，老一輩的九黎族人死去，濃烈的仇恨被稀釋，變作一種象徵、回憶和九黎族人共同擁有的某種東西。<br/>觀天台能窺見的天光就是全部了嗎？<br/>後來，大部分九黎族人從未到過地上去。",
+      "hero_icon": "Hero1089_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "Skill_Swordsman_1006",
+          "name": "避實就虛",
+          "type": "物攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>0.6</color></b>倍傷害，並發動「追擊」（<b><color=#e4462c>1</color></b>倍傷害），「對戰前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1753",
+          "name": "捲土歸淵",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "直線4x3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，根據當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級，對範圍內敵人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>（<b><color=#e4462c>30/50/70/100%</color></b>機率），<link type=buff value=700000880 bgcolor=#3a85ffff>「汙穢」</link>（<b><color=#e4462c>30/50/70/100%</color></b>機率），<link type=buff value=700000680 bgcolor=#3a85ffff>「虛損I」</link>狀態（<b><color=#e4462c>30/50/70/100%</color></b>機率），持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "GPassive_1005",
+          "name": "共進",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Lie",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "自身周圍2格內，每多1名友軍，物攻，法攻+4%（最多12%）。"
+        },
+        {
+          "img": "EXSkill_1751",
+          "name": "血魂之契",
+          "type": "主動",
+          "cd": "4回合",
+          "cost": "2內力",
+          "shoot": "自身",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Hun",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "[被動]主動普攻觸發「追擊」（<b><color=#e4462c>0.5</color></b>倍傷害）。「對戰中」根據當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級，傷害提高<b><color=#e4462c>0/5/10/15%</color></b>。<br/>[主動]獻祭全部「九黎悍士」，獲得其所有「有益狀態」並恢復自身氣血（自身最大氣血的<b><color=#e4462c>100%</color></b>）。每獻祭<b><color=#e4462c>1</color></b>名「九黎悍士」，自身獲得<b><color=#e4462c>2</color></b>層<link type=buff value=741089107 bgcolor=#3a85ffff>「徇義」</link>狀態（上限<b><color=#e4462c>15</color></b>層），並獲得再行動（<b><color=#e4462c>2</color></b>格）。"
+        },
+        {
+          "img": "EXSkill_1752",
+          "name": "眾望所歸",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "根據當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級，暴擊率提升5/8/11/15%。若2個「九黎悍士」均存活，施放絕學後額外獲得1層<link type=buff value=741089107 bgcolor=#3a85ffff>「徇義」</link>狀態（上限15層）。"
+        },
+        {
+          "img": "EXSkill_1754",
+          "name": "魔剎無道",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "1格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Lie",
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，根據當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級造成<b><color=#e4462c>1.1/1.3/1.5/1.7</color></b>倍傷害，並施加<b><color=#e4462c>1/1/1/2</color></b>個隨機「有害狀態」。"
+        },
+        {
+          "img": "Skill_None_1018",
+          "name": "血刃之陣",
+          "type": "支援",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形2格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Hun",
+          "unlock_inner2": "伍級",
+          "desc": "主動使用，對範圍內的所有友方施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>狀態，持續<b><color=#e4462c>3</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1755",
+          "name": "劍凌化荒",
+          "type": "物攻傷害",
+          "cd": "4回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "根據當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級，對範圍內所有敵人造成<b><color=#e4462c>0.5/0.6/0.7/0.8</color></b>倍傷害，施加<link type=buff value=700000930 bgcolor=#3a85ffff>「禁療」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。若當前<link type=buff value=741089024 bgcolor=#3a85ffff>「塑魂」</link>等級大於等於<b><color=#e4462c>2</color></b>，額外施加<b><color=#e4462c>2</color></b>層<link type=buff value=741033001 bgcolor=#3a85ffff>「疫瘴」</link>狀態，自身獲得<b><color=#e4462c>1</color></b>層<link type=buff value=741089501 bgcolor=#3a85ffff>「憑魂」</link>狀態（上限<b><color=#e4462c>2</color></b>層）。"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "夜無陵",
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "qixue": "43",
+          "magic": "0",
+          "physical": "40",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，身既死兮神以靈，魂魄毅兮為鬼雄。<br/>傳，化荒千魂之窟血化為碧，生靈晶，作九黎先民流離之魂的藏身之處。年深歲久，妖剎鬼煌皆納於中，以靈晶為身，化作劍形，認主冥帝。<br/>言：玄陰結煞，暗氛湧動，唯有化荒四方諸魂所認命定之人方可持之。"
+        },
+        {
+          "weapon": "夜無陵",
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "qixue": "52",
+          "magic": "0",
+          "physical": "48",
+          "feature": "[決明]傷害提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，身既死兮神以靈，魂魄毅兮為鬼雄。<br/>傳，化荒千魂之窟血化為碧，生靈晶，作九黎先民流離之魂的藏身之處。年深歲久，妖剎鬼煌皆納於中，以靈晶為身，化作劍形，認主冥帝。<br/>言：玄陰結煞，暗氛湧動，唯有化荒四方諸魂所認命定之人方可持之。"
+        },
+        {
+          "weapon": "夜無陵",
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "qixue": "65",
+          "magic": "0",
+          "physical": "60",
+          "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，身既死兮神以靈，魂魄毅兮為鬼雄。<br/>傳，化荒千魂之窟血化為碧，生靈晶，作九黎先民流離之魂的藏身之處。年深歲久，妖剎鬼煌皆納於中，以靈晶為身，化作劍形，認主冥帝。<br/>言：玄陰結煞，暗氛湧動，唯有化荒四方諸魂所認命定之人方可持之。"
+        },
+        {
+          "weapon": "夜無陵",
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "qixue": "81",
+          "magic": "0",
+          "physical": "75",
+          "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，身既死兮神以靈，魂魄毅兮為鬼雄。<br/>傳，化荒千魂之窟血化為碧，生靈晶，作九黎先民流離之魂的藏身之處。年深歲久，妖剎鬼煌皆納於中，以靈晶為身，化作劍形，認主冥帝。<br/>言：玄陰結煞，暗氛湧動，唯有化荒四方諸魂所認命定之人方可持之。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "夜無陵",
+          "img": "Equip_huowenjinchai",
+          "name": "火紋金釵",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "14",
+          "qixue_attr": "hp",
+          "maigc_defense": "4",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "夜無陵",
+          "img": "Equip_gangchenwuyi",
+          "name": "鋼襯武衣",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "5",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "9",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "夜無陵",
+          "img": "Equip_jingtieyaodai",
+          "name": "精鐵腰帶",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "13",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "6",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "夜無陵",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "13",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "12",
+          "phyatt_attr": "atn",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": ""
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "自身周圍<b><color=#e4462c>3</color></b>格內存在其他暗屬相單位時傷害、物理免傷提高<b><color=#e4462c>5%</color></b>。場上每有<b><color=#e4462c>1</color></b>個敵方死亡時，自身獲得<b><color=#e4462c>1</color></b>層「憑魂」狀態。\n「憑魂」：回合開始時，若友方「九黎悍士」數量小於<b><color=#e4462c>2</color></b>，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。上限<b><color=#e4462c>2</color></b>層。"
+        },
+        {
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "自身周圍<b><color=#e4462c>3</color></b>格內存在其他暗屬相單位時傷害、物理免傷提高<b><color=#e4462c>6%</color></b>。場上每有<b><color=#e4462c>1</color></b>個敵方死亡時，自身獲得<b><color=#e4462c>1</color></b>層「憑魂」狀態。\n「憑魂」：回合開始時，若友方「九黎悍士」數量小於<b><color=#e4462c>2</color></b>，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。上限<b><color=#e4462c>2</color></b>層。"
+        },
+        {
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "自身周圍<b><color=#e4462c>3</color></b>格內存在其他暗屬相單位時傷害、物理免傷提高<b><color=#e4462c>7%</color></b>。場上每有<b><color=#e4462c>1</color></b>個敵方死亡時，自身獲得<b><color=#e4462c>1</color></b>層「憑魂」狀態。\n「憑魂」：回合開始時，若友方「九黎悍士」數量小於<b><color=#e4462c>2</color></b>，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。上限<b><color=#e4462c>2</color></b>層。"
+        },
+        {
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "自身周圍<b><color=#e4462c>3</color></b>格內存在其他暗屬相單位時傷害、物理免傷提高<b><color=#e4462c>8%</color></b>。場上每有<b><color=#e4462c>1</color></b>個敵方死亡時，自身獲得<b><color=#e4462c>1</color></b>層「憑魂」狀態。\n「憑魂」：回合開始時，若友方「九黎悍士」數量小於<b><color=#e4462c>2</color></b>，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。上限<b><color=#e4462c>2</color></b>層。"
+        },
+        {
+          "name": "千魂撼嶽",
+          "img": "Weapon_108905",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "自身周圍<b><color=#e4462c>3</color></b>格內存在其他暗屬相單位時傷害、物理免傷提高<b><color=#e4462c>10%</color></b>。場上每有<b><color=#e4462c>1</color></b>個敵方死亡時，自身獲得<b><color=#e4462c>1</color></b>層「憑魂」狀態。\n「憑魂」：回合開始時，若友方「九黎悍士」數量小於<b><color=#e4462c>2</color></b>，則消耗「憑魂」層數召喚對應數量的「九黎悍士」。上限<b><color=#e4462c>2</color></b>層。"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "紫炁",
+      "is_new": "1",
+      "pinyin": "ziqi",
+      "weight": "1580",
+      "source": "天地劫幽城再臨原創角色",
+      "pic": "Hero1090_img",
+      "prop_icon": "Dusk",
+      "career_icon": "Rogue",
+      "rarity": "SSR",
+      "position": "遠攻",
+      "prop": "幽",
+      "career": "羽士",
+      "range": "2",
+      "speed": "3",
+      "qixue": "178",
+      "magic_attack": "14",
+      "physical_attack": "106",
+      "magic_defense": "26",
+      "physical_defense": "31",
+      "huixin": "47",
+      "inherent": "Gift_178",
+      "inherent_name": "幽寰紫曜",
+      "star1": "",
+      "star2": "",
+      "star3": "主動攻擊傷害提高10%。<br/>行動結束前，可選擇使用絕學<link type=skill value=61109090 bgcolor=#3a85ffff>「幽爍憑神」</link>（間隔4回合觸發）。<br/>若本次行動未使用傷害絕學，獲得<link type=buff value=741090053 bgcolor=#3a85ffff>「落曜」</link>狀態。",
+      "star4": "主動攻擊傷害提高13%。<br/>行動結束前，可選擇使用絕學<link type=skill value=61109090 bgcolor=#3a85ffff>「幽爍憑神」</link>（間隔3回合觸發）。<br/>若本次行動未使用傷害絕學，獲得<link type=buff value=741090054 bgcolor=#3a85ffff>「落曜」</link>狀態。",
+      "star5": "主動攻擊傷害提高16%。<br/>行動結束前，可選擇使用絕學<link type=skill value=61109090 bgcolor=#3a85ffff>「幽爍憑神」</link>（間隔3回合觸發）。<br/>若本次行動未使用傷害絕學，獲得<link type=buff value=741090055 bgcolor=#3a85ffff>「落曜」</link>狀態。",
+      "star6": "主動攻擊傷害提高20%。<br/>行動結束前，可選擇使用絕學<link type=skill value=61109090 bgcolor=#3a85ffff>「幽爍憑神」</link>（間隔2回合觸發）。<br/>若本次行動未使用傷害絕學，獲得<link type=buff value=741090056 bgcolor=#3a85ffff>「落曜」</link>狀態。",
+      "story_name": "計都",
+      "story_content": "華氛細碎的光暈施施而行，慢慢彌散在幽深角落，糾纏著虛空中的混沌一齊緩緩沒入幽垠的地表。這是比新生更加偉大的壯舉，是一切的始源——<br/>創世。<br/>計都一直隱匿於黑暗，和三神彼此都稱不上同類。祂無法被賦予神的字眼，只因未曾有用純粹的擁躉者。<br/>祂或許在開始並不清楚「創世」的意義，就像是所有事情都存在的第一次，只是一個偶然、一次因果的妥協。<br/>這並不是一件壞事。<br/>祂模糊地意識到。<br/>總歸是因為媧皇、伏羲和羅睺三神的存在，在幽垠的計都城中誕生了新的生靈。計都理所應當地認為，這些新的造物應該歸於祂的麾下，是祂的眷族。<br/>或許是這一批造物並不合三神的意，他們輕描淡寫離開，正如他們無聲無息降臨。",
+      "hero_icon": "Hero1090_HeadIcon_Basic",
+      "skill": [
+        {
+          "img": "EXSkill_1746",
+          "name": "千辰蝕神",
+          "type": "物攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈初始技能",
+          "inner_power1": "",
+          "unlock_inner1": "",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.5</color></b>倍傷害，「對戰後」使目標周圍<b><color=#e4462c>1</color></b>圈範圍內所有敵人的「有益狀態」等級降低<b><color=#e4462c>1</color></b>級且持續時間<b><color=#e4462c>-1</color></b>。目標處於自身直線位置則本次攻擊物理穿透提高<b><color=#e4462c>30%</color></b>。"
+        },
+        {
+          "img": "EXSkill_1747",
+          "name": "逆元魂儀",
+          "type": "主動",
+          "cd": "3回合",
+          "cost": "1內力",
+          "shoot": "5格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階3級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主動使用，選擇<b><color=#e4462c>1</color></b>個敵方，奪取目標<b><color=#e4462c>2</color></b>個「有益狀態」，獲得再行動（<b><color=#e4462c>2</color></b>格），若奪取到<b><color=#e4462c>2</color></b>個「有益狀態」則本次行動「有益狀態」持續時間不減少。"
+        },
+        {
+          "img": "GPassive_1011",
+          "name": "吹角",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Lie",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "若自身氣血大於等於90%時，則物攻，物防提高10%。"
+        },
+        {
+          "img": "Skill_Assassin_1026",
+          "name": "披雲訣",
+          "type": "被動",
+          "cd": "無",
+          "cost": "1內力",
+          "shoot": "無",
+          "range": "無",
+          "way": "被動",
+          "unlock_condition": "英靈位階15級",
+          "inner_power1": "Shen",
+          "unlock_inner1": "壹級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "傷害提高7%。主動攻擊「對戰後」獲得再移動（2格）（間隔1回合觸發）。"
+        },
+        {
+          "img": "EXSkill_1748",
+          "name": "移曜引靈",
+          "type": "支援",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階25級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "肆級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "主動使用，將<b><color=#e4462c>1</color></b>個其他友方傳送至範圍內任意空位格，若目標攜帶<link type=buff value=741090060 bgcolor=#3a85ffff>「宿曜幽力」</link>，則將目標十字<b><color=#e4462c>4</color></b>格範圍的敵方拉近<b><color=#e4462c>1</color></b>格。<br/>傳送範圍：以目標為中心的<b><color=#e4462c>7</color></b>格菱形範圍"
+        },
+        {
+          "img": "Skill_Ranger_1001",
+          "name": "逐風破",
+          "type": "物攻傷害",
+          "cd": "2回合",
+          "cost": "2內力",
+          "shoot": "2格",
+          "range": "單體",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Lie",
+          "unlock_inner2": "伍級",
+          "desc": "攻擊單個敵人，造成<b><color=#e4462c>1.4</color></b>倍傷害，對飛行角色額外造成<b><color=#e4462c>20%</color></b>傷害，「對戰前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虛損II」</link>狀態，持續<b><color=#e4462c>2</color></b>回合。"
+        },
+        {
+          "img": "EXSkill_1749",
+          "name": "斷乾覆厄",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形2格",
+          "way": "主動",
+          "unlock_condition": "英靈位階40級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "柒級",
+          "inner_power2": "Shen",
+          "unlock_inner2": "伍級",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.5</color></b>倍傷害，施加<link type=buff value=700001402 bgcolor=#3a85ffff>「斷步I」</link>狀態，持續<b><color=#e4462c>2</color></b>回合，若目標處於友方「宿曜幽力」領域內則額外使其所有「有害狀態」等級提升<b><color=#e4462c>1</color></b>級。"
+        },
+        {
+          "img": "EXSkill_1750",
+          "name": "玄極災滅",
+          "type": "物攻傷害",
+          "cd": "4回合",
+          "cost": "2內力",
+          "shoot": "3格",
+          "range": "菱形3格",
+          "way": "主動",
+          "unlock_condition": "英靈位階55級",
+          "inner_power1": "Mo",
+          "unlock_inner1": "拾級",
+          "inner_power2": "",
+          "unlock_inner2": "",
+          "desc": "對範圍內所有敵人造成<b><color=#e4462c>0.6</color></b>倍傷害，對飛行角色額外造成<b><color=#e4462c>20%</color></b>傷害，施加<b><color=#e4462c>2</color></b>個「屬性降低」類「有害狀態」。警戒目標區域及自身施加的<link type=buff value=741090060 bgcolor=#3a85ffff>「宿曜幽力」</link>區域，自身獲得<link type=buff value=741090120 bgcolor=#3a85ffff>「災滅」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。"
+        }
+      ],
+      "weapon": [
+        {
+          "weapon": "紫炁",
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "qixue": "38",
+          "magic": "0",
+          "physical": "37",
+          "feature": "",
+          "rarity": "N",
+          "jiesuo": "",
+          "desc": "載，欲界眾生不修正道，不知有五行推運，十一曜照臨，主其災福。<br/>傳，天有隱曜，誕於幽界。上神以幽垠、華氛及混沌，捏就其伴生之物，又以計都、羅睺無上神力賦以幽炎。聚幽化魂，銷骨吐魄，持者可洞天幕，改換星軌。<br/>言：蝕神降幽，星河凶蕩，唯有屬「紫炁」之名者，能持之，以實現尊神偉願。"
+        },
+        {
+          "weapon": "紫炁",
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "qixue": "46",
+          "magic": "0",
+          "physical": "45",
+          "feature": "[鶴唳]暴擊率提升5%",
+          "rarity": "R",
+          "jiesuo": "英靈位階25",
+          "desc": "載，欲界眾生不修正道，不知有五行推運，十一曜照臨，主其災福。<br/>傳，天有隱曜，誕於幽界。上神以幽垠、華氛及混沌，捏就其伴生之物，又以計都、羅睺無上神力賦以幽炎。聚幽化魂，銷骨吐魄，持者可洞天幕，改換星軌。<br/>言：蝕神降幽，星河凶蕩，唯有屬「紫炁」之名者，能持之，以實現尊神偉願。"
+        },
+        {
+          "weapon": "紫炁",
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "qixue": "58",
+          "magic": "0",
+          "physical": "56",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+          "rarity": "SR",
+          "jiesuo": "列星迴響消耗45點天魂之力",
+          "desc": "載，欲界眾生不修正道，不知有五行推運，十一曜照臨，主其災福。<br/>傳，天有隱曜，誕於幽界。上神以幽垠、華氛及混沌，捏就其伴生之物，又以計都、羅睺無上神力賦以幽炎。聚幽化魂，銷骨吐魄，持者可洞天幕，改換星軌。<br/>言：蝕神降幽，星河凶蕩，唯有屬「紫炁」之名者，能持之，以實現尊神偉願。"
+        },
+        {
+          "weapon": "紫炁",
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "qixue": "72",
+          "magic": "0",
+          "physical": "70",
+          "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+          "rarity": "SSR",
+          "jiesuo": "列星迴響消耗74點天魂之力",
+          "desc": "載，欲界眾生不修正道，不知有五行推運，十一曜照臨，主其災福。<br/>傳，天有隱曜，誕於幽界。上神以幽垠、華氛及混沌，捏就其伴生之物，又以計都、羅睺無上神力賦以幽炎。聚幽化魂，銷骨吐魄，持者可洞天幕，改換星軌。<br/>言：蝕神降幽，星河凶蕩，唯有屬「紫炁」之名者，能持之，以實現尊神偉願。"
+        }
+      ],
+      "equipment": [
+        {
+          "equipment": "紫炁",
+          "img": "Equip_yuejinhue",
+          "name": "月錦抹額",
+          "rarity": "N",
+          "part": "1",
+          "qixue": "15",
+          "qixue_attr": "hp",
+          "maigc_defense": "5",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+3]基礎氣血上限增加10%"
+        },
+        {
+          "equipment": "紫炁",
+          "img": "Equip_ruangeliyi",
+          "name": "軟革裡衣",
+          "rarity": "N",
+          "part": "2",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "5",
+          "magdef_attr": "magdef",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "8",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+6]基礎物防和基礎法防增加10%"
+        },
+        {
+          "equipment": "紫炁",
+          "img": "Equip_subushuyao",
+          "name": "素布束腰",
+          "rarity": "N",
+          "part": "3",
+          "qixue": "14",
+          "qixue_attr": "hp",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "6",
+          "phydef_attr": "phydef",
+          "physical_attack": "",
+          "phyatt_attr": "",
+          "huixin": "",
+          "huixin_attr": "",
+          "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+        },
+        {
+          "equipment": "紫炁",
+          "img": "Equip_subuhushou",
+          "name": "素布護手",
+          "rarity": "N",
+          "part": "4",
+          "qixue": "",
+          "qixue_attr": "",
+          "maigc_defense": "",
+          "magdef_attr": "",
+          "magic_attack": "",
+          "magatt_attr": "",
+          "physical_defense": "",
+          "phydef_attr": "",
+          "physical_attack": "11",
+          "phyatt_attr": "atn",
+          "huixin": "7",
+          "huixin_attr": "ctr",
+          "effect": ""
+        }
+      ],
+      "strategy": [
+        {
+          "img": "BattleAsssit_072",
+          "name": "幽氛萬瀚陣",
+          "unlock_condition": "陣眼紫炁位階35級，五內魔陸級解鎖",
+          "relate1": "",
+          "relate2": "",
+          "relate3": "",
+          "icon_center": "Hero1090_HeadIcon_Basic",
+          "icon1": "swordsman",
+          "icon2": "physician",
+          "icon3": "",
+          "desc": "上陣紫炁和「俠客」，「祝由」英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%。自身十字7格位置存在敵方時，傷害提高10%。"
+        }
+      ],
+      "godclass_weapon": [
+        {
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "神兵強化中習得",
+          "desc": "友方「宿曜幽力」內每有<b><color=#e4462c>1</color></b>個敵方，物攻、物理免傷提高<b><color=#e4462c>1%</color></b>（最多提高<b><color=#e4462c>5%</color></b>）。\n觸發「落曜」狀態後，行動結束時複製自身<b><color=#e4462c>2</color></b>個「有益狀態」給攜帶「宿曜幽力」的友方。"
+        },
+        {
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和15+",
+          "desc": "友方「宿曜幽力」內每有<b><color=#e4462c>1</color></b>個敵方，物攻、物理免傷提高<b><color=#e4462c>1%</color></b>（最多提高<b><color=#e4462c>5%</color></b>）。\n觸發「落曜」狀態後，行動結束時複製自身<b><color=#e4462c>2</color></b>個「有益狀態」給攜帶「宿曜幽力」的友方。"
+        },
+        {
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和30+",
+          "desc": "友方「宿曜幽力」內每有<b><color=#e4462c>1</color></b>個敵方，物攻、物理免傷提高<b><color=#e4462c>2%</color></b>（最多提高<b><color=#e4462c>10%</color></b>）。\n觸發「落曜」狀態後，行動結束時複製自身<b><color=#e4462c>2</color></b>個「有益狀態」給攜帶「宿曜幽力」的友方。"
+        },
+        {
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和45+",
+          "desc": "友方「宿曜幽力」內每有<b><color=#e4462c>1</color></b>個敵方，物攻、物理免傷提高<b><color=#e4462c>2%</color></b>（最多提高<b><color=#e4462c>10%</color></b>）。\n觸發「落曜」狀態後，行動結束時複製自身<b><color=#e4462c>2</color></b>個「有益狀態」給攜帶「宿曜幽力」的友方。"
+        },
+        {
+          "name": "紫元幽曜",
+          "img": "Weapon_109005",
+          "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+          "jiesuo-level": "星之晶等級和60+",
+          "desc": "友方「宿曜幽力」內每有<b><color=#e4462c>1</color></b>個敵方，物攻、物理免傷提高<b><color=#e4462c>3%</color></b>（最多提高<b><color=#e4462c>15%</color></b>）。\n觸發「落曜」狀態後，行動結束時複製自身<b><color=#e4462c>2</color></b>個「有益狀態」給攜帶「宿曜幽力」的友方。"
+        }
+      ]
+    }
+  ],
+  [
+    {
       "name": "赤妭韓無砂",
       "is_new": "1",
       "pinyin": "chibahanwusha",
@@ -4501,7 +5184,7 @@
           "feature": "[決明]傷害提升5%<br/>[真傳]全傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
           "jiesuo": "列星迴響消耗74點天魂之力",
-          "desc": "載，髑髏以蓬穿之，則夜語矣，凡百先徵，無不相告。<br/>傳，人言髑髏夜語能辨兇吉，爭相刨掘求之。骨曝於野，鬼燐淒淒，邪祟聚生其中，化而為骸爪，夜行索仇。<br/>言，孤魄滯野，魂泣幽語。"
+          "desc": "載，髑髏以蓬穿之，則夜語矣，凡百先徵，無不相告。<br/>傳，人言髑髏夜語能辨凶吉，爭相刨掘求之。骨曝於野，鬼燐淒淒，邪祟聚生其中，化而為骸爪，夜行索仇。<br/>言，孤魄滯野，魂泣幽語。"
         }
       ],
       "equipment": [
@@ -6151,7 +6834,7 @@
           "unlock_inner1": "拾級",
           "inner_power2": "",
           "unlock_inner2": "",
-          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.8</color></b>倍傷害，「對戰前」偷取目標<b><color=#e4462c>2</color></b>個「增益狀態」並施加<b><color=#e4462c>2</color></b>個隨機「減益狀態」，且自身獲得<link type=buff value=741081503 bgcolor=#3a85ffff>「兇羅」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。若擊殺目標或目標觸發「抵擋致命傷害」的效果，則絕學後可直接使用<b><color=#e4462c>1</color></b>次絕學<link type=skill value=61108103 bgcolor=#3a85ffff>「追身縱切」</link><b><color=#e4462c>/</color></b><link type=skill value=61108104 bgcolor=#3a85ffff>「追身橫斬」</link>。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放絕學。（每造成<b><color=#e4462c>1</color></b>次傷害或遭受<b><color=#e4462c>1</color></b>次傷害均可累積<b><color=#e4462c>1</color></b>點氣力）"
+          "desc": "消耗自身氣血<b><color=#e4462c>20%</color></b>（無法免疫），攻擊單個敵人，造成<b><color=#e4462c>1.8</color></b>倍傷害，「對戰前」偷取目標<b><color=#e4462c>2</color></b>個「增益狀態」並施加<b><color=#e4462c>2</color></b>個隨機「減益狀態」，且自身獲得<link type=buff value=741081503 bgcolor=#3a85ffff>「凶羅」</link>狀態，持續<b><color=#e4462c>1</color></b>回合。若擊殺目標或目標觸發「抵擋致命傷害」的效果，則絕學後可直接使用<b><color=#e4462c>1</color></b>次絕學<link type=skill value=61108103 bgcolor=#3a85ffff>「追身縱切」</link><b><color=#e4462c>/</color></b><link type=skill value=61108104 bgcolor=#3a85ffff>「追身橫斬」</link>。<br/>[氣力技]消耗<b><color=#e4462c>3</color></b>點氣力，才可釋放絕學。（每造成<b><color=#e4462c>1</color></b>次傷害或遭受<b><color=#e4462c>1</color></b>次傷害均可累積<b><color=#e4462c>1</color></b>點氣力）"
         }
       ],
       "weapon": [
@@ -6356,7 +7039,7 @@
       "star5": "自身1圈內不存在光屬相敵人時，法攻、免傷提升12%。<br/>回合開始時，對自身5格範圍內的4個敵人施加1層<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。若範圍內敵方主動攻擊前攜帶「燃燒」狀態，則戰前對其施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>狀態，持續2回合。<br/>行動結束時，對自身5格範圍內攜帶「燃燒」狀態的敵人造成1次「固定傷害」（「燃燒」狀態層數*12%的最大氣血）。",
       "star6": "自身1圈內不存在光屬相敵人時，法攻、免傷提升15%。<br/>回合開始時，對自身5格範圍內的5個敵人施加1層<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。若範圍內敵方主動攻擊前攜帶「燃燒」狀態，則戰前對其施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>狀態，持續2回合。<br/>行動結束時，對自身5格範圍內攜帶「燃燒」狀態的敵人造成1次「固定傷害」（「燃燒」狀態層數*12%的最大氣血）。",
       "story_name": "照火願",
-      "story_content": "她的神識從七仞天火中萌發，隨翻湧的煌焰迸濺、流淌，逐漸凝聚成形，得見依稀可辨的影像。<br/>第一眼，她看到了喪魂野。詭異的幽煌將族人裹入黑霧之中，時而吐出白骨，時而拋出腐肉，又或將人異化作屍魔術士，再添屠戮。<br/>第二眼，她看到了寰神山。只因媧皇的一次試煉，人族得九鼎與神劍相庇，又因人神的一場謀易，九黎一族被壓入黯淵鬼域，不見天穹。<br/>第三眼，她看到了蚩尤。隱匿於幻海之中的魔神先祖將仇怨的藤蔓伸進後代體內，挑撥明界戰事，引鮮血滋養蟄伏的兇魂。<br/>第四眼，她看到了九如塔，從中引出細密的蛛絲，挑化荒陰謀詭譎，催九黎再興風雨。<br/>她不願再看這些影像了。她別過身，望見火影在巖壁上斑駁閃爍，一如千年來的九黎，被看不見的手操持，在無邊的黑暗中扭曲、掙扎，濺得滿牆鮮紅。<br/>她知道自己為何而生，也知道一個甲子後須面對的宿命。但在這之間，她應還有時間去結束九黎這或為魔神刀俎，或為神人魚肉的命運。<br/>她回過身，掬一捧熾熱天炎。天炎聚成一面鏡，為她照見了路，一條浴火而行，貫通三界的路。",
+      "story_content": "她的神識從七仞天火中萌發，隨翻湧的煌焰迸濺、流淌，逐漸凝聚成形，得見依稀可辨的影像。<br/>第一眼，她看到了喪魂野。詭異的幽煌將族人裹入黑霧之中，時而吐出白骨，時而拋出腐肉，又或將人異化作屍魔術士，再添屠戮。<br/>第二眼，她看到了寰神山。只因媧皇的一次試煉，人族得九鼎與神劍相庇，又因人神的一場謀易，九黎一族被壓入黯淵鬼域，不見天穹。<br/>第三眼，她看到了蚩尤。隱匿於幻海之中的魔神先祖將仇怨的藤蔓伸進後代體內，挑撥明界戰事，引鮮血滋養蟄伏的凶魂。<br/>第四眼，她看到了九如塔，從中引出細密的蛛絲，挑化荒陰謀詭譎，催九黎再興風雨。<br/>她不願再看這些影像了。她別過身，望見火影在巖壁上斑駁閃爍，一如千年來的九黎，被看不見的手操持，在無邊的黑暗中扭曲、掙扎，濺得滿牆鮮紅。<br/>她知道自己為何而生，也知道一個甲子後須面對的宿命。但在這之間，她應還有時間去結束九黎這或為魔神刀俎，或為神人魚肉的命運。<br/>她回過身，掬一捧熾熱天炎。天炎聚成一面鏡，為她照見了路，一條浴火而行，貫通三界的路。",
       "hero_icon": "Hero1066_HeadIcon_Basic",
       "skill": [
         {
@@ -6511,7 +7194,7 @@
           "feature": "[決明]傷害提升5%",
           "rarity": "R",
           "jiesuo": "英靈位階25",
-          "desc": "載，皓月飛銀鏡，長橋偃玉虹。<br/>九黎之地晦暗無光，兇獸四伏。有能者以明石鑄盤，其色如月，可祛兇邪而不灼膚髮，其光雖微，可照足下而百里不消。銀盤所照，九黎愛戴。<br/>言：夜明祛暗邪，鏡照聚人心。"
+          "desc": "載，皓月飛銀鏡，長橋偃玉虹。<br/>九黎之地晦暗無光，凶獸四伏。有能者以明石鑄盤，其色如月，可祛凶邪而不灼膚髮，其光雖微，可照足下而百里不消。銀盤所照，九黎愛戴。<br/>言：夜明祛暗邪，鏡照聚人心。"
         },
         {
           "weapon": "玉觴",
@@ -12282,7 +12965,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Lie",
           "unlock_inner2": "伍級",
-          "desc": "攻擊範圍內所有敵人，造成0.3倍傷害，擊退2格，命中2個及以上目標時，獲得再行動（5格，且本次行動「增益狀態」和「幽霜」持續時間不減少）。<br/>使用後切換為「絕劍兇號」。<br/>「絕劍兇號」：消耗自身當前氣血20%（無法免疫），攻擊單個敵人，造成1.6倍傷害，施加「禁閉」狀態，持續1回合。使用後切換為「幽劍鬼獄」。<br/>「禁閉」：無法行動，且在對戰中無法進行反擊。行動結束時，對周圍2格內所有友方施加1個隨機「減益狀態」（隊友行動結束若處於自身1格範圍移除）<br/>"
+          "desc": "攻擊範圍內所有敵人，造成0.3倍傷害，擊退2格，命中2個及以上目標時，獲得再行動（5格，且本次行動「增益狀態」和「幽霜」持續時間不減少）。<br/>使用後切換為「絕劍凶號」。<br/>「絕劍凶號」：消耗自身當前氣血20%（無法免疫），攻擊單個敵人，造成1.6倍傷害，施加「禁閉」狀態，持續1回合。使用後切換為「幽劍鬼獄」。<br/>「禁閉」：無法行動，且在對戰中無法進行反擊。行動結束時，對周圍2格內所有友方施加1個隨機「減益狀態」（隊友行動結束若處於自身1格範圍移除）<br/>"
         },
         {
           "img": "EXSkill_1512",
@@ -12340,7 +13023,7 @@
         },
         {
           "weapon": "雙曜冰璃",
-          "name": "兇魔幻劍",
+          "name": "凶魔幻劍",
           "img": "Weapon_105104",
           "qixue": "86",
           "magic": "0",
@@ -12348,7 +13031,7 @@
           "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
           "jiesuo": "列星迴響消耗74點天魂之力",
-          "desc": "傳，此界有幽寒之地，至若窮陰凝閉，凜冽海隅，有積雪沒脛，堅冰在須。深藏冰魄，為無上力之一種。<br/>於「列星」中可見，幻劍之覺醒。以致劍身剔透如冰，周圍縈繞寒緲霧氣。日月相蝕，劍使入隙，幽火灼身而不滅，幻劍亦然，其冰愈透，質愈堅，論為兇魔者也。<br/>言：其輕捷鋒利，且具以寒氣封凍敵體之能。"
+          "desc": "傳，此界有幽寒之地，至若窮陰凝閉，凜冽海隅，有積雪沒脛，堅冰在須。深藏冰魄，為無上力之一種。<br/>於「列星」中可見，幻劍之覺醒。以致劍身剔透如冰，周圍縈繞寒緲霧氣。日月相蝕，劍使入隙，幽火灼身而不滅，幻劍亦然，其冰愈透，質愈堅，論為凶魔者也。<br/>言：其輕捷鋒利，且具以寒氣封凍敵體之能。"
         }
       ],
       "equipment": [
@@ -12980,7 +13663,7 @@
           "unlock_inner1": "柒級",
           "inner_power2": "Hun",
           "unlock_inner2": "伍級",
-          "desc": "主動使用，對目標施加<link type=buff value=741059402 bgcolor=#3a85ffff>「對決」</link>狀態，持續2回合，自身獲得護盾（最大氣血的50%）。使用後切換為<link type=skill value=61105940 bgcolor=#3a85ffff>「炎燼裂兇」</link>。"
+          "desc": "主動使用，對目標施加<link type=buff value=741059402 bgcolor=#3a85ffff>「對決」</link>狀態，持續2回合，自身獲得護盾（最大氣血的50%）。使用後切換為<link type=skill value=61105940 bgcolor=#3a85ffff>「炎燼裂凶」</link>。"
         },
         {
           "img": "EXSkill_1497",
@@ -14582,7 +15265,7 @@
       "star5": "3格範圍內存在其他友方時法攻、會心提升12%。自身為雷/光屬相時啟動領域<link type=buff value=741064040 bgcolor=#3a85ffff>「天鼓法華」</link>/<link type=buff value=741064042 bgcolor=#3a85ffff>「嘆妙摩耶」</link>。行動結束前，可額外使用絕學<link type=skill value=61106481 bgcolor=#3a85ffff>「光·自在」</link>/<link type=skill value=61106480 bgcolor=#3a85ffff>「雷·自在」</link>（間隔3回合觸發，使用後將切換所有專屬絕學並刷新冷卻時間且保留當前氣力）",
       "star6": "3格範圍內存在其他友方時法攻、會心提升15%。自身為雷/光屬相時啟動領域<link type=buff value=741064040 bgcolor=#3a85ffff>「天鼓法華」</link>/<link type=buff value=741064042 bgcolor=#3a85ffff>「嘆妙摩耶」</link>。行動結束前，可額外使用絕學<link type=skill value=61106481 bgcolor=#3a85ffff>「光·自在」</link>/<link type=skill value=61106480 bgcolor=#3a85ffff>「雷·自在」</link>（間隔2回合觸發，使用後將切換所有專屬絕學並刷新冷卻時間且保留當前氣力）",
       "story_name": "初生",
-      "story_content": "香音和釋樂的「存在」，是從意識到自己存在的那一刻開始的。凡人們稱之為「天生」。<br/>所以，香音和釋樂是天生起便善歌舞，自天生起就為佛陀而在。<br/>舉起手腕，柔荑婉轉。攆動腰肢，勾起足尖。捏起雙指，輕輕地啄一啄太陽——舞就開始了。<br/>跳啊，跳，跳個不停。像羽毛一樣，像泉落石澗一樣。那締造世界的佛陀見了這舞，滿心歡喜。佛陀歡喜，世間也皆大歡喜，天地中充滿了妙喜的空氣。山泉開始流淌，清風在岩石間遊蕩。小小世界就會誕生在佛陀的掌心裡。<br/>可是，這個佛陀與世上任何一個佛陀都不一樣。<br/>香音與釋樂向他獻舞，他不為所動。<br/>香音與釋樂向他奏唱，他視若罔聞。<br/>他額上顯著惡眼，眼中蘊有兇光。兇光的深處，隱隱浮現著大哀之兆。<br/>她們戰戰兢兢地詢問他：佛陀啊，你發願的，是怎樣的樂土？<br/>樂土？佛陀問。他端詳著手裡的寶珠，眼神顯出一絲不祥的痴迷。<br/>她們告訴他樂土就是永恆之境，萬事萬物都會在其中永垂不朽。聽完，他黯淡的眼睛忽然亮了亮。",
+      "story_content": "香音和釋樂的「存在」，是從意識到自己存在的那一刻開始的。凡人們稱之為「天生」。<br/>所以，香音和釋樂是天生起便善歌舞，自天生起就為佛陀而在。<br/>舉起手腕，柔荑婉轉。攆動腰肢，勾起足尖。捏起雙指，輕輕地啄一啄太陽——舞就開始了。<br/>跳啊，跳，跳個不停。像羽毛一樣，像泉落石澗一樣。那締造世界的佛陀見了這舞，滿心歡喜。佛陀歡喜，世間也皆大歡喜，天地中充滿了妙喜的空氣。山泉開始流淌，清風在岩石間遊蕩。小小世界就會誕生在佛陀的掌心裡。<br/>可是，這個佛陀與世上任何一個佛陀都不一樣。<br/>香音與釋樂向他獻舞，他不為所動。<br/>香音與釋樂向他奏唱，他視若罔聞。<br/>他額上顯著惡眼，眼中蘊有凶光。凶光的深處，隱隱浮現著大哀之兆。<br/>她們戰戰兢兢地詢問他：佛陀啊，你發願的，是怎樣的樂土？<br/>樂土？佛陀問。他端詳著手裡的寶珠，眼神顯出一絲不祥的痴迷。<br/>她們告訴他樂土就是永恆之境，萬事萬物都會在其中永垂不朽。聽完，他黯淡的眼睛忽然亮了亮。",
       "hero_icon": "Hero1064_HeadIcon_Basic",
       "skill": [
         {
@@ -15770,7 +16453,7 @@
         },
         {
           "weapon": "霸熊高戚",
-          "name": "湮魂兇爪",
+          "name": "湮魂凶爪",
           "img": "Weapon_105504",
           "qixue": "93",
           "magic": "0",
@@ -16986,7 +17669,7 @@
         },
         {
           "img": "EXSkill_1429",
-          "name": "兇魂凝聚",
+          "name": "凶魂凝聚",
           "type": "支援",
           "cd": "2回合",
           "cost": "2內力",
@@ -17082,7 +17765,7 @@
         },
         {
           "img": "EXSkill_1427",
-          "name": "奪魄兇咒",
+          "name": "奪魄凶咒",
           "type": "法攻傷害",
           "cd": "2回合",
           "cost": "2內力",
@@ -18323,7 +19006,7 @@
       "physical_defense": "35",
       "huixin": "37",
       "inherent": "Gift_120",
-      "inherent_name": "荒神兇魄",
+      "inherent_name": "荒神凶魄",
       "star1": "",
       "star2": "",
       "star3": "若氣血大於等於50%，物攻和暴擊率提高9%，與攜帶「懾服」狀態的敵方「對戰中」觸發閃避。使用主動絕學後，行動結束時對十字5格範圍內物攻/法攻屬性最高的1個敵方施加<link type=buff value=741302021 bgcolor=#3a85ffff>「懾服」</link>狀態，持續2回合。",
@@ -18510,7 +19193,7 @@
           "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
           "jiesuo": "",
-          "desc": "載，悠悠生死別經年，魂魄不曾來入夢。<br/>曾有大能者，曾融化百戰重甲與天外異石煉製奇劍，以無上秘法封入五荒化魄，又將水靈天珠鑲嵌其上錮其戾氣。雖外形怪異，但可提升操持者咒法抗性，為天地少見之兇器。<br/>言：骨肉消散盡，魂魄幾凋零。"
+          "desc": "載，悠悠生死別經年，魂魄不曾來入夢。<br/>曾有大能者，曾融化百戰重甲與天外異石煉製奇劍，以無上秘法封入五荒化魄，又將水靈天珠鑲嵌其上錮其戾氣。雖外形怪異，但可提升操持者咒法抗性，為天地少見之凶器。<br/>言：骨肉消散盡，魂魄幾凋零。"
         }
       ],
       "equipment": [
@@ -18598,7 +19281,7 @@
       "strategy": [
         {
           "img": "BattleAsssit_041",
-          "name": "兇星鎮荒陣",
+          "name": "凶星鎮荒陣",
           "unlock_condition": "陣眼殷千煬位階35級，五內神陸級解鎖",
           "relate1": "",
           "relate2": "",
@@ -18847,7 +19530,7 @@
           "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%",
           "rarity": "SR",
           "jiesuo": "",
-          "desc": "載，慷慨雙龍劍，飄零一酒樽。<br/>兇險江湖，豪俠相見於途。劍凜嘯嘯，銀刃金鋒雜錯其間。戰至天明，勝負無果。兩人相視而笑，相約鑄雙劍為一體。操習之，攻守一同，力速相合，未習兩劍譜者不可使御。豪俠何處往？務農南山下。<br/>言：雙鉤鑄一魂，嘯嘯吟龍聲。"
+          "desc": "載，慷慨雙龍劍，飄零一酒樽。<br/>凶險江湖，豪俠相見於途。劍凜嘯嘯，銀刃金鋒雜錯其間。戰至天明，勝負無果。兩人相視而笑，相約鑄雙劍為一體。操習之，攻守一同，力速相合，未習兩劍譜者不可使御。豪俠何處往？務農南山下。<br/>言：雙鉤鑄一魂，嘯嘯吟龍聲。"
         },
         {
           "weapon": "少俠應奉仁",
@@ -19014,7 +19697,7 @@
       "star5": "物攻提高12%。行動結束前，若3格範圍內有敵方，選擇<link type=skill value=61104702 bgcolor=#3a85ffff>「橫財」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷竅」</link>中一個技能釋放。行動結束時，如果處於敵方危險範圍內且未造成傷害（「橫財」「迷竅」除外），則獲得再行動（間隔2回合觸發）。",
       "star6": "物攻提高15%。行動結束前，若3格範圍內有敵方，選擇<link type=skill value=61104702 bgcolor=#3a85ffff>「橫財」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷竅」</link>中一個技能釋放。行動結束時，如果處於敵方危險範圍內且未造成傷害（「橫財」「迷竅」除外），則獲得再行動（間隔2回合觸發）。",
       "story_name": "七月傳-採寶",
-      "story_content": "「嵩陽門有七月，諸位可要問了，哪沒有七月？<br/>這七月可不是那炎夏時令，而是嵩陽門生意的主理人，名喚公孫七月。<br/>那這七月，有什麼能耐，能找我陳笙草著書立傳呢？<br/>你且焚香沏茶，聽我娓娓道來。<br/>這姑娘奇異處之一，便是對金銀財寶極其敏感，一旦靠近，哪怕這財寶被嵌在頑石鐵塊裡，她也能心生感應。<br/>起因呢，是嵩陽門接了主顧生意——私人定製一套寶石劍匣。指定要雲南寶井裡碧透原石來鑲嵌，若能如意，價錢隨便開。<br/>這七月即刻連絡人，鎖定了位於雲南保山茂林深處的一口寶井，連夜帶著身邊小廝去同當地採寶人匯合，等待下井採寶。<br/>您可能要問了，何謂寶井？何謂採寶？<br/>在西域以及雲南金齒衛一帶深山密林之中，常有無水之井，其內深不見底，井壁之上兀自生出怪石，形狀各異，大小不一。需開石之人仔細琢磨開，才能知道其內是頑石一塊，還是暗藏稀世珍寶。公孫七月此行採寶，求的便是一枚貓眼石，好為主顧定製一方耀眼劍匣。<br/>而能下井採寶之人，往往打小練就一雙狠毒的招子，能看到這靠天賦，也靠勤修。但這行當，說白了便是向天討飯，就算有了這雙招子，也要知收斂，因為但凡有寶之地，必有窮兇極惡之物相護，採寶勁敵，便是那如霧的寶氣，氤氳井中，人久食其氣多致死。<br/>故而採寶人下井，身上帶著裝寶的口袋，腰間懸一鈴鐺，每當寶氣逼不得過，則急搖其鈴。井上人聞聲則引繩提上。其人即無恙，但已昏矇，寶囊內石料亦不過半。只能用清水入口解救，且三日之內不得進食糧，靜待調理平復。<br/>公孫七月一到保山境內，即刻僱傭最好的採寶小隊，專選境內最荒最野之山。尤其是能看到寶氣的採寶之人，更是優中選優。可天不遂人願，一進山林，三名採寶人，一個被蛇咬了，一個讓馬蜂蟄腫了眼，還有一個，下去之後直接昏迷。<br/>若是此時折返，從保山縣到這密林，一來回怎地也要十天半月，勢必誤了工期，七月小腰一插，思忖片刻，採寶人身上解下鈴鐺，系在自己腰間，又三下五除二在腰間打了個繩結，將長繩另一頭遞給井上留守之人。井上人瞠目結舌，心裡盤算，這大小姐衣來伸手、飯來張口，沿途全靠一紅衣壯漢和碎嘴奶媽照看，又從未練過招子，下去怕不是找死？哪知身旁的紅衣壯漢搖了搖頭，示意他接應好大小姐即可，不必驚慌。井上人一個晃神間，但覺手中一緊，七月三兩下已躍至井下。<br/>一炷香……<br/>兩柱香……<br/>你要說這小姑奶奶是被寶氣侵染暈了吧？偏生還能感覺到繩子在一點點下移，直到第三炷香開點，井下才傳來搖鈴聲。<br/>但見少女閉目，一雙小手，虔誠捧著一大口袋石頭，井上人嚇了一跳，好貪心的人，但不知其間有多少石頭藏寶。<br/>七日，七月足足昏睡了七日。<br/>八成，那一口袋石頭八成有寶。<br/>採寶隊驚了，這丫頭就算打孃胎裡練招子，懷胎十年，對於常人也只是入門而已，難不成是天賦異稟？<br/>七月醒來，但見採寶隊一眾人雙手合十跪拜，紛紛詢問七月是如何練就這一雙採寶之眼的。<br/>七月見慣了大場面，倒也不慌不忙，只答了句，什麼看寶氣？我閉眼下去的。<br/>眾人驚慌，那你是如何辨別哪塊石頭中有寶石的？總不至於胡亂抓摸吧？莫非是——祖師爺顯靈？<br/>幾人叩拜更是虔誠。<br/>只聞得頭上悠悠傳來一句話——<br/>祖師爺？你也太小看我了，姑奶奶我是財神顯聖，一靠近財寶便心內小鹿亂撞，如是靈顯。<br/>好傢伙，只見那採寶隊轉身便設壇奉香，若不是七月身旁得紅衣壯漢和奶孃連夜將其帶走，七月便險些被這些人當財神供了起來。<br/>有人要問了，公孫七月當真是財神轉世？都說天機不可洩露，具體情狀，從其出生之日可窺見一二。<br/>預知後續，且聽下回分解。」<br/>——陳笙草",
+      "story_content": "「嵩陽門有七月，諸位可要問了，哪沒有七月？<br/>這七月可不是那炎夏時令，而是嵩陽門生意的主理人，名喚公孫七月。<br/>那這七月，有什麼能耐，能找我陳笙草著書立傳呢？<br/>你且焚香沏茶，聽我娓娓道來。<br/>這姑娘奇異處之一，便是對金銀財寶極其敏感，一旦靠近，哪怕這財寶被嵌在頑石鐵塊裡，她也能心生感應。<br/>起因呢，是嵩陽門接了主顧生意——私人定製一套寶石劍匣。指定要雲南寶井裡碧透原石來鑲嵌，若能如意，價錢隨便開。<br/>這七月即刻連絡人，鎖定了位於雲南保山茂林深處的一口寶井，連夜帶著身邊小廝去同當地採寶人匯合，等待下井採寶。<br/>您可能要問了，何謂寶井？何謂採寶？<br/>在西域以及雲南金齒衛一帶深山密林之中，常有無水之井，其內深不見底，井壁之上兀自生出怪石，形狀各異，大小不一。需開石之人仔細琢磨開，才能知道其內是頑石一塊，還是暗藏稀世珍寶。公孫七月此行採寶，求的便是一枚貓眼石，好為主顧定製一方耀眼劍匣。<br/>而能下井採寶之人，往往打小練就一雙狠毒的招子，能看到這靠天賦，也靠勤修。但這行當，說白了便是向天討飯，就算有了這雙招子，也要知收斂，因為但凡有寶之地，必有窮凶極惡之物相護，採寶勁敵，便是那如霧的寶氣，氤氳井中，人久食其氣多致死。<br/>故而採寶人下井，身上帶著裝寶的口袋，腰間懸一鈴鐺，每當寶氣逼不得過，則急搖其鈴。井上人聞聲則引繩提上。其人即無恙，但已昏矇，寶囊內石料亦不過半。只能用清水入口解救，且三日之內不得進食糧，靜待調理平復。<br/>公孫七月一到保山境內，即刻僱傭最好的採寶小隊，專選境內最荒最野之山。尤其是能看到寶氣的採寶之人，更是優中選優。可天不遂人願，一進山林，三名採寶人，一個被蛇咬了，一個讓馬蜂蟄腫了眼，還有一個，下去之後直接昏迷。<br/>若是此時折返，從保山縣到這密林，一來回怎地也要十天半月，勢必誤了工期，七月小腰一插，思忖片刻，採寶人身上解下鈴鐺，系在自己腰間，又三下五除二在腰間打了個繩結，將長繩另一頭遞給井上留守之人。井上人瞠目結舌，心裡盤算，這大小姐衣來伸手、飯來張口，沿途全靠一紅衣壯漢和碎嘴奶媽照看，又從未練過招子，下去怕不是找死？哪知身旁的紅衣壯漢搖了搖頭，示意他接應好大小姐即可，不必驚慌。井上人一個晃神間，但覺手中一緊，七月三兩下已躍至井下。<br/>一炷香……<br/>兩柱香……<br/>你要說這小姑奶奶是被寶氣侵染暈了吧？偏生還能感覺到繩子在一點點下移，直到第三炷香開點，井下才傳來搖鈴聲。<br/>但見少女閉目，一雙小手，虔誠捧著一大口袋石頭，井上人嚇了一跳，好貪心的人，但不知其間有多少石頭藏寶。<br/>七日，七月足足昏睡了七日。<br/>八成，那一口袋石頭八成有寶。<br/>採寶隊驚了，這丫頭就算打孃胎裡練招子，懷胎十年，對於常人也只是入門而已，難不成是天賦異稟？<br/>七月醒來，但見採寶隊一眾人雙手合十跪拜，紛紛詢問七月是如何練就這一雙採寶之眼的。<br/>七月見慣了大場面，倒也不慌不忙，只答了句，什麼看寶氣？我閉眼下去的。<br/>眾人驚慌，那你是如何辨別哪塊石頭中有寶石的？總不至於胡亂抓摸吧？莫非是——祖師爺顯靈？<br/>幾人叩拜更是虔誠。<br/>只聞得頭上悠悠傳來一句話——<br/>祖師爺？你也太小看我了，姑奶奶我是財神顯聖，一靠近財寶便心內小鹿亂撞，如是靈顯。<br/>好傢伙，只見那採寶隊轉身便設壇奉香，若不是七月身旁得紅衣壯漢和奶孃連夜將其帶走，七月便險些被這些人當財神供了起來。<br/>有人要問了，公孫七月當真是財神轉世？都說天機不可洩露，具體情狀，從其出生之日可窺見一二。<br/>預知後續，且聽下回分解。」<br/>——陳笙草",
       "hero_icon": "Hero1047_HeadIcon_Basic",
       "skill": [
         {
@@ -19491,7 +20174,7 @@
           "feature": "",
           "rarity": "N",
           "jiesuo": "",
-          "desc": "民間載，劍，身開雙刃，通直頭尖，橫豎可傷人，擊刺可透甲。<br/>習劍者所佩之大小長短，皆須量人而定。不善力者，常以輕鐵鑄之，不重劈砍制敵，然其攜之輕便迅捷，佩之神采如飛。<br/>言：劍兇幾尺寒，生而為斷殺。"
+          "desc": "民間載，劍，身開雙刃，通直頭尖，橫豎可傷人，擊刺可透甲。<br/>習劍者所佩之大小長短，皆須量人而定。不善力者，常以輕鐵鑄之，不重劈砍制敵，然其攜之輕便迅捷，佩之神采如飛。<br/>言：劍凶幾尺寒，生而為斷殺。"
         },
         {
           "weapon": "傅雅魚",
@@ -19838,7 +20521,7 @@
           "physical": "36",
           "feature": "",
           "rarity": "N",
-          "desc": "據傳西方聖槍為傳說之物，有指引命運之力，引無數弄權者趨之若鶩。然，聖槍似有靈智，擇主而生，唯有聖槍承認者方可持之揮舞。無主之時，聖槍鏽斑全覆，重有千金，如兇獸之骸。<br/>言：虔心祈天下，槍出萬物骸。"
+          "desc": "據傳西方聖槍為傳說之物，有指引命運之力，引無數弄權者趨之若鶩。然，聖槍似有靈智，擇主而生，唯有聖槍承認者方可持之揮舞。無主之時，聖槍鏽斑全覆，重有千金，如凶獸之骸。<br/>言：虔心祈天下，槍出萬物骸。"
         },
         {
           "name": "聖槍·寂",
@@ -20160,7 +20843,7 @@
           "physical": "0",
           "feature": "",
           "rarity": "N",
-          "desc": "載，青金黃玉丹砂良，獸皮鳥羽不足當。<br/>相傳在古國戰火時期，聖人所下命令文書，材質常為兇獸之皮。研磨玄石為粉，將之以草汁混合錯捏製為筆，用之在獸皮上書寫，字畫永不脫落，且無法更改，可留於後世之人保存。<br/>言：聖諭九傳世，獸皮篆箴言。"
+          "desc": "載，青金黃玉丹砂良，獸皮鳥羽不足當。<br/>相傳在古國戰火時期，聖人所下命令文書，材質常為凶獸之皮。研磨玄石為粉，將之以草汁混合錯捏製為筆，用之在獸皮上書寫，字畫永不脫落，且無法更改，可留於後世之人保存。<br/>言：聖諭九傳世，獸皮篆箴言。"
         },
         {
           "name": "石板書",
@@ -21478,7 +22161,7 @@
           "physical": "37",
           "feature": "",
           "rarity": "N",
-          "desc": "《釋兵》中載：弩，怒也，有執怒也。弓弩為兇器，其柄曰臂，鉤弦者曰牙，牙外曰郭，含括之口曰機，言如機之巧也。<br/>有能工巧匠製弩，以精木為良材。精木質地輕且堅韌，單人能持，可射三百四十餘步，故而為世間多見之形製，軍中常備之。<br/>言：放身千步遠，入榆沒半箭。"
+          "desc": "《釋兵》中載：弩，怒也，有執怒也。弓弩為凶器，其柄曰臂，鉤弦者曰牙，牙外曰郭，含括之口曰機，言如機之巧也。<br/>有能工巧匠製弩，以精木為良材。精木質地輕且堅韌，單人能持，可射三百四十餘步，故而為世間多見之形製，軍中常備之。<br/>言：放身千步遠，入榆沒半箭。"
         },
         {
           "name": "縛鐵弩",
@@ -21491,14 +22174,14 @@
           "desc": "據傳，有弩於兩軍對戰之時，以一箭之力毀攻城之械，猶有鬼神相助，其後，染血上千，葬亡魂無數。後有修道者查其戾氣過重，故用「玄靈鐵」製成封咒之鏈，以縛其血煞之氣。此後，該器使用時，鎖鏈無風而動，伶仃作響，如同怨魂呻吟，可令敵心生恐懼，不戰而退。<br/>言：百戰深縛靈，一箭定殘旌。"
         },
         {
-          "name": "隕骨兇弩",
+          "name": "隕骨凶弩",
           "img": "weapon_yunguxionggong",
           "qixue": "58",
           "magic": "0",
           "physical": "56",
           "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
-          "desc": "據傳，墨矩因朝廷有禦敵之需，故造靈弩，稱「隕骨兇弩」。此物採用玄海深處妖獸之骨製成，妖獸之筋成弦。業火難焚，天霜難侵，故而能流傳至今，為墨矩子弟研究仿製。然，後世子弟皆不能複刻此物。<br/>因其雙層弓身，故而其重非凡，箭出有千鈞之勢，可裂山河，被驚破肝膽者千千萬。<br/>言：荒古泣玄風，千鈞枕幽魂。"
+          "desc": "據傳，墨矩因朝廷有禦敵之需，故造靈弩，稱「隕骨凶弩」。此物採用玄海深處妖獸之骨製成，妖獸之筋成弦。業火難焚，天霜難侵，故而能流傳至今，為墨矩子弟研究仿製。然，後世子弟皆不能複刻此物。<br/>因其雙層弓身，故而其重非凡，箭出有千鈞之勢，可裂山河，被驚破肝膽者千千萬。<br/>言：荒古泣玄風，千鈞枕幽魂。"
         },
         {
           "name": "造天神弩",
@@ -26473,7 +27156,7 @@
       "star5": "回合開始時，若自身不攜帶<link type=buff value=741032055 bgcolor=#3a85ffff>「暴怒」</link>狀態，則獲得<link type=buff value=741032025 bgcolor=#3a85ffff>「空性」</link>狀態。行動結束時，若1格範圍內存在敵人，則獲得<link type=buff value=741032055 bgcolor=#3a85ffff>「暴怒」</link>狀態，持續2回合。若場上本方隊伍只存在自身時，則獲得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>狀態，持續1回合。",
       "star6": "回合開始時，若自身不攜帶<link type=buff value=741032056 bgcolor=#3a85ffff>「暴怒」</link>狀態，則獲得<link type=buff value=741032026 bgcolor=#3a85ffff>「空性」</link>狀態。行動結束時，若1格範圍內存在敵人，則獲得<link type=buff value=741032056 bgcolor=#3a85ffff>「暴怒」</link>狀態，持續2回合。若場上本方隊伍只存在自身時，則獲得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>狀態，持續1回合。",
       "story_name": "祭祀",
-      "story_content": "「……主祭，時誤，則神不歆。」<br/>「啟。」<br/>一跪，敬尤。<br/>——族人不事天地，所祭為尊。<br/>二跪，祈尤。<br/>——但求趨吉避兇，降福免災。<br/>三跪，問尤。<br/>——兵主今安在否，可下神諭？<br/>九黎祭祀一族，凡是大典，唯有主祭得以跪神。<br/>今朝這主祭，左右打量不過一小姑娘。但族上有規，得了蚩尤大神的眷顧，領了神通之人，定司主祭之職。<br/>族人皆信，<br/>主祭能聞神諭，是祭祀儀式必不可缺的一塊壇石。<br/>那，一具小姑娘的瘦弱身軀，亦或者耄耋老人的鬆弛骨肉，皆無差別。<br/>「神諭已下。」<br/>她是主祭，<br/>是神之眼，是神之耳，是神之侍。<br/>唯獨不是阿服。<br/>",
+      "story_content": "「……主祭，時誤，則神不歆。」<br/>「啟。」<br/>一跪，敬尤。<br/>——族人不事天地，所祭為尊。<br/>二跪，祈尤。<br/>——但求趨吉避凶，降福免災。<br/>三跪，問尤。<br/>——兵主今安在否，可下神諭？<br/>九黎祭祀一族，凡是大典，唯有主祭得以跪神。<br/>今朝這主祭，左右打量不過一小姑娘。但族上有規，得了蚩尤大神的眷顧，領了神通之人，定司主祭之職。<br/>族人皆信，<br/>主祭能聞神諭，是祭祀儀式必不可缺的一塊壇石。<br/>那，一具小姑娘的瘦弱身軀，亦或者耄耋老人的鬆弛骨肉，皆無差別。<br/>「神諭已下。」<br/>她是主祭，<br/>是神之眼，是神之耳，是神之侍。<br/>唯獨不是阿服。<br/>",
       "hero_icon": "Hero1032_HeadIcon_Basic",
       "skill": [
         {
@@ -26614,7 +27297,7 @@
           "physical": "36",
           "feature": "",
           "rarity": "N",
-          "desc": "傳，虔信者有杵為器，外狀之巨，難以指量。上端有三股，下端為三稜帶尖之形。<br/>以百年古銀製成，斑駁成色，附有驅魔之效，世間少見。<br/>古銀之杵，唯有心志堅定者能悟其內蘊，若心無雜念，則有法術之能，可驅兇避邪，持者可加持庇佑，金光內斂護體。<br/>言：三稜銜古色，金光佑真身。"
+          "desc": "傳，虔信者有杵為器，外狀之巨，難以指量。上端有三股，下端為三稜帶尖之形。<br/>以百年古銀製成，斑駁成色，附有驅魔之效，世間少見。<br/>古銀之杵，唯有心志堅定者能悟其內蘊，若心無雜念，則有法術之能，可驅凶避邪，持者可加持庇佑，金光內斂護體。<br/>言：三稜銜古色，金光佑真身。"
         },
         {
           "name": "赤金杵",
@@ -27682,7 +28365,7 @@
           "physical": "58",
           "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
           "rarity": "SR",
-          "desc": "據上古殘卷載：有獸焉，其狀如狼，赤首鼠目，其音有異，名曰猲狙，是食人。<br/>有大能者於深林伏兇獸，兇獸長嘯化障，幸有靈相助藉光破之，得以勝。兇獸精魄凝於齒，靈以掌鎮之，可化戾為己用，救疾於膏肓，可謂世間少見。<br/>言：迷林畏淨光，破兇以照芒。"
+          "desc": "據上古殘卷載：有獸焉，其狀如狼，赤首鼠目，其音有異，名曰猲狙，是食人。<br/>有大能者於深林伏凶獸，凶獸長嘯化障，幸有靈相助藉光破之，得以勝。凶獸精魄凝於齒，靈以掌鎮之，可化戾為己用，救疾於膏肓，可謂世間少見。<br/>言：迷林畏淨光，破凶以照芒。"
         },
         {
           "name": "山君",
@@ -28780,7 +29463,7 @@
           "physical": "0",
           "feature": "",
           "rarity": "N",
-          "desc": "據傳，一失落古國有祭神習俗，其人上下皆習驅邪避兇，祭祀用典皆備銀器。有祭祀者，臂帶銀環，以附神靈之力，然，歲月流轉，江河反覆運算，此物多用於祭典禮器，不知其真效。<br/>古籍載，若無氣運者，此物放置家宅之中則不祥，幸而世俗不多見真品，故免除其災。<br/>言：祭神多纏銀，隨沙燼埋深。<br/>"
+          "desc": "據傳，一失落古國有祭神習俗，其人上下皆習驅邪避凶，祭祀用典皆備銀器。有祭祀者，臂帶銀環，以附神靈之力，然，歲月流轉，江河反覆運算，此物多用於祭典禮器，不知其真效。<br/>古籍載，若無氣運者，此物放置家宅之中則不祥，幸而世俗不多見真品，故免除其災。<br/>言：祭神多纏銀，隨沙燼埋深。<br/>"
         },
         {
           "name": "隕金環",
@@ -28800,7 +29483,7 @@
           "physical": "0",
           "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
           "rarity": "SR",
-          "desc": "相傳，上古有雙頭之妖，蛇身龍鱗，吞蛟為食，其性兇悍嗜殺為天下之禍，無人能匹。然，蛇欲化龍，雙頭起紛爭，各欲向行南北，骨裂而亡。其妖之精魄化為靈石，存有荒古戾氣，大能者恐成滅世之物，故聯手煉化其為環，稱之為「雙蛇靈環」。<br/>「雙蛇靈環」經天地動盪，流轉上千年，不見其蹤。<br/>言：蛇鱗颳風色，荒古冰河生。"
+          "desc": "相傳，上古有雙頭之妖，蛇身龍鱗，吞蛟為食，其性凶悍嗜殺為天下之禍，無人能匹。然，蛇欲化龍，雙頭起紛爭，各欲向行南北，骨裂而亡。其妖之精魄化為靈石，存有荒古戾氣，大能者恐成滅世之物，故聯手煉化其為環，稱之為「雙蛇靈環」。<br/>「雙蛇靈環」經天地動盪，流轉上千年，不見其蹤。<br/>言：蛇鱗颳風色，荒古冰河生。"
         },
         {
           "name": "降幽龍環",
@@ -29542,7 +30225,7 @@
           "physical": "0",
           "feature": "",
           "rarity": "N",
-          "desc": "載，蜀中早有以未染的生絲織成的綢索，不但質輕堅韌，更具有驅兇辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶成兵，有癒傷和咒法多能。<br/>後其武學亦傳入天瑤派，為女弟子精修。<br/>言：仙舞難複收，軟絲驅邪流。"
+          "desc": "載，蜀中早有以未染的生絲織成的綢索，不但質輕堅韌，更具有驅凶辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶成兵，有癒傷和咒法多能。<br/>後其武學亦傳入天瑤派，為女弟子精修。<br/>言：仙舞難複收，軟絲驅邪流。"
         },
         {
           "name": "渾玉輕綢",
@@ -29950,7 +30633,7 @@
           "physical": "69",
           "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "desc": "載：當時乍見驚心目，凝視諦聽殊未足。<br/>此鈴上雕兇獸，內蘊百聲，搖之可見男女老少之音俶然起伏，俄而狂笑，俄而痛哭。傳此鈴為地府收納冤喊鬼哭而作，若有冤情反復，其中證詞可做分辨，腕間搖晃，可知人前百情矣。<br/>言：怯怯不敢語，切切刺骨聲。"
+          "desc": "載：當時乍見驚心目，凝視諦聽殊未足。<br/>此鈴上雕凶獸，內蘊百聲，搖之可見男女老少之音俶然起伏，俄而狂笑，俄而痛哭。傳此鈴為地府收納冤喊鬼哭而作，若有冤情反復，其中證詞可做分辨，腕間搖晃，可知人前百情矣。<br/>言：怯怯不敢語，切切刺骨聲。"
         }
       ],
       "equipment": [
@@ -30289,14 +30972,14 @@
           "desc": "載，古有近身善戰者，習以進攻格擋之術，皆以「刺」為器。此器難馭，唯有擅長者能獲制敵之力，攻可出其不意，守有反擊之傷。<br/>黑鋼刺材質堅韌，久用不鈍，數戰見鋒銳，被刺中者，創傷難愈，血流不止。<br/>言：迅影掠玄空，血濺驚鳥林。"
         },
         {
-          "name": "兇牙刺",
+          "name": "凶牙刺",
           "img": "Weapon_xiongyaci",
           "qixue": "48",
           "magic": "0",
           "physical": "44",
           "feature": "[鶴唳]暴擊率提升5%",
           "rarity": "R",
-          "desc": "傳，上古有兇獸修煉千載，兇狠殘虐，嗜血為生，後為其所禍之生靈圍攻之，其遭分食而亡，僅留利齒於天地。<br/>後有能匠斂其齒，合以地心玄鐵鑄刺之器一套，稱之為「兇牙刺」，此物戾氣纏繞，動則難收，可索敵之命至毀身覆魂，唯有心志堅定者方能持。<br/>言：殘魂蓋棺色，兇刺破人心。"
+          "desc": "傳，上古有凶獸修煉千載，凶狠殘虐，嗜血為生，後為其所禍之生靈圍攻之，其遭分食而亡，僅留利齒於天地。<br/>後有能匠斂其齒，合以地心玄鐵鑄刺之器一套，稱之為「凶牙刺」，此物戾氣纏繞，動則難收，可索敵之命至毀身覆魂，唯有心志堅定者方能持。<br/>言：殘魂蓋棺色，凶刺破人心。"
         },
         {
           "name": "蘊靈鬼刺",
@@ -38500,7 +39183,7 @@
       "star5": "行動時無視敵方角色阻擋。周圍2圈內每存在1個敵人，自身除氣血外全屬性提高6%（最多18%）。自身釋放絕學後，獲得「天魔護鎧」。（間隔3回合觸發）<br/>「天魔護鎧」：免傷提高50%（不可驅散，受到傷害後消失）",
       "star6": "行動時無視敵方角色阻擋。周圍3圈內每存在1個敵人，自身除氣血外全屬性提高7%（最多21%）。自身釋放絕學後，獲得「天魔護鎧」。（間隔2回合觸發）<br/>「天魔護鎧」：免傷提高50%（不可驅散，受到傷害後消失）",
       "story_name": "七殺轉世",
-      "story_content": "「你乃七殺星轉世，體內更有荒神兇魄，十分危險……」<br/>「願拜方掌門為師。」<br/>「你我既遇，便是命數，且留下吧。在我這天玄門，還能助你抑制體內的邪性。」<br/>「徒兒拜見師父。」<br/>自他踏入山門的那刻起，<br/>便沒有走的打算。<br/>什麼七殺轉世，荒神兇魄，<br/>在他看來不過些胡謅的命理之說罷了……<br/>練武御劍，<br/>這才是他拜謁山門的唯一目的。<br/>他何曾想過，出生農戶，<br/>因何會陡起執劍的念頭？<br/>命數的恐怖就在於此，<br/>他踏入山門，<br/>怎會只是他的選擇那麼簡單？",
+      "story_content": "「你乃七殺星轉世，體內更有荒神凶魄，十分危險……」<br/>「願拜方掌門為師。」<br/>「你我既遇，便是命數，且留下吧。在我這天玄門，還能助你抑制體內的邪性。」<br/>「徒兒拜見師父。」<br/>自他踏入山門的那刻起，<br/>便沒有走的打算。<br/>什麼七殺轉世，荒神凶魄，<br/>在他看來不過些胡謅的命理之說罷了……<br/>練武御劍，<br/>這才是他拜謁山門的唯一目的。<br/>他何曾想過，出生農戶，<br/>因何會陡起執劍的念頭？<br/>命數的恐怖就在於此，<br/>他踏入山門，<br/>怎會只是他的選擇那麼簡單？",
       "hero_icon": "Hero1204_HeadIcon_Basic",
       "skill": [
         {
@@ -39052,7 +39735,7 @@
           "physical": "0",
           "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
           "rarity": "SSR",
-          "desc": "載，陰陽不可與，莽莽而無垠，煉骨同蟬蛻，何必待龍鬚。<br/>其鑄法於「列星」可見。<br/>傳，幽垠幻骨鞭，誕生於幽垠的殺器。鞭頭黑刃乃以魔血開刃，威力無窮，鞭身附有幽垠蝕氣，並刻兇咒，閃猩紅之光，揮舞時可聞兇戾怨鬼的哀嚎之響。<br/>言，幽垠幻骨，銷魂斷罪，無垠惡寐。"
+          "desc": "載，陰陽不可與，莽莽而無垠，煉骨同蟬蛻，何必待龍鬚。<br/>其鑄法於「列星」可見。<br/>傳，幽垠幻骨鞭，誕生於幽垠的殺器。鞭頭黑刃乃以魔血開刃，威力無窮，鞭身附有幽垠蝕氣，並刻凶咒，閃猩紅之光，揮舞時可聞凶戾怨鬼的哀嚎之響。<br/>言，幽垠幻骨，銷魂斷罪，無垠惡寐。"
         }
       ],
       "equipment": [
@@ -40191,7 +40874,7 @@
           "physical": "0",
           "feature": "",
           "rarity": "N",
-          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅兇辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶雖成兵，再以良材打造。而仙宮之神女，人稱神似紫楓。<br/>傳，見其亦持綢索為兵，令人不由浮想其與神女之關聯矣。"
+          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅凶辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶雖成兵，再以良材打造。而仙宮之神女，人稱神似紫楓。<br/>傳，見其亦持綢索為兵，令人不由浮想其與神女之關聯矣。"
         },
         {
           "name": "凝玉紗索",
@@ -41753,7 +42436,7 @@
           "physical": "0",
           "feature": "",
           "rarity": "N",
-          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅兇辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶成兵，有愈傷和咒法多能。<br/>後其武學亦傳入天瑤派，為女弟子精修。"
+          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅凶辟邪之力。然，鮮有習武者以索帶為兵練。<br/>傳，蜀中一仙宮，有神女像持綢索，時活現，舞之，為拜謁者習得。索帶成兵，有愈傷和咒法多能。<br/>後其武學亦傳入天瑤派，為女弟子精修。"
         },
         {
           "name": "凝玉紗索",
@@ -43190,7 +43873,7 @@
       "star5": "物攻的75%額外附加到法攻上。行動結束時，自身獲得「執念」狀態。<br/>「執念」：傷害提高5%，暴擊率提高5%（上限4層，無法驅散）",
       "star6": "物攻的75%額外附加到法攻上。行動結束時，自身獲得「執念」狀態。<br/>「執念」：傷害提高6%，暴擊率提高6%（上限4層，無法驅散）",
       "story_name": "天瑤",
-      "story_content": "天瑤門曾是皇甫申的家，<br/>但皇甫申從未覺得那是他的家。<br/>不是因為師父與師兄說，他是兇星。<br/>也不是因為最終他被逐出師門。<br/>只是皇甫申覺得，自己不屬於那裡。<br/>就像他一直覺得，自己不屬於人間。",
+      "story_content": "天瑤門曾是皇甫申的家，<br/>但皇甫申從未覺得那是他的家。<br/>不是因為師父與師兄說，他是凶星。<br/>也不是因為最終他被逐出師門。<br/>只是皇甫申覺得，自己不屬於那裡。<br/>就像他一直覺得，自己不屬於人間。",
       "hero_icon": "Hero1113_HeadIcon_Basic",
       "skill": [
         {
@@ -43331,7 +44014,7 @@
           "physical": "40",
           "feature": "",
           "rarity": "N",
-          "desc": "載，劍勢兇猛兮如虺蛇，疾風而行兮揚塵沙。<br/>經後世巧匠鍛造而成。<br/>傳，其現於「列星」，刀柄如蛇身，彎曲自如，乃雙頭劍操使者的入門之物。有人得之，以雷引術御之，遂增其能，不容小覷。"
+          "desc": "載，劍勢凶猛兮如虺蛇，疾風而行兮揚塵沙。<br/>經後世巧匠鍛造而成。<br/>傳，其現於「列星」，刀柄如蛇身，彎曲自如，乃雙頭劍操使者的入門之物。有人得之，以雷引術御之，遂增其能，不容小覷。"
         },
         {
           "name": "血髓蛇劍",
@@ -43677,7 +44360,7 @@
         },
         {
           "img": "EXSkill_1003",
-          "name": "龍焰兇號",
+          "name": "龍焰凶號",
           "type": "物攻傷害",
           "cd": "2回合",
           "cost": "2內力",
@@ -44327,7 +45010,7 @@
       "star5": "氣血大於50%時，法攻提升12%。遭受傷害後自身氣血低於50%，則氣血恢復100%，獲得「幽煌邪焰」狀態，持續2回合（間隔3回合觸發）。<br/>「幽煌邪焰」：除氣血外所有屬性提高10%（無法驅散）",
       "star6": "氣血大於50%時，法攻提升15%。遭受傷害後自身氣血低於50%，則氣血恢復100%，獲得「幽煌邪焰」狀態，持續2回合（間隔2回合觸發）。<br/>「幽煌邪焰」：除氣血外所有屬性提高10%（無法驅散）",
       "story_name": "幾時還鄉？",
-      "story_content": "夏侯儀只是個河州鎮的少年。<br/>但他不知道，一切的開始，其實從來就不在這安寧的小鎮，前世，已經決定了今生。<br/>是命運，讓他離開了河州鎮吧，但看上去，一切只是因為「高老丈」病倒了，<br/>甚至比以往更嚴重……<br/>夏侯儀踏上了宿命的旅途，至此，他似乎就成了這個小鎮內流傳的傳說——<br/>有人說他被漂亮的女妖怪魅走了，<br/>有人說他被惡煞般的兇獸吃掉了，<br/>還有人說他是娶了公主成了駙馬……<br/>但沒有人知道，他脫口而出的——是你！<br/>沒人知道，他終會走向他命定的世界，走向蒼茫的大漠深處，走進那古老的城……",
+      "story_content": "夏侯儀只是個河州鎮的少年。<br/>但他不知道，一切的開始，其實從來就不在這安寧的小鎮，前世，已經決定了今生。<br/>是命運，讓他離開了河州鎮吧，但看上去，一切只是因為「高老丈」病倒了，<br/>甚至比以往更嚴重……<br/>夏侯儀踏上了宿命的旅途，至此，他似乎就成了這個小鎮內流傳的傳說——<br/>有人說他被漂亮的女妖怪魅走了，<br/>有人說他被惡煞般的凶獸吃掉了，<br/>還有人說他是娶了公主成了駙馬……<br/>但沒有人知道，他脫口而出的——是你！<br/>沒人知道，他終會走向他命定的世界，走向蒼茫的大漠深處，走進那古老的城……",
       "hero_icon": "Hero1102_HeadIcon_Basic",
       "skill": [
         {
@@ -49064,7 +49747,7 @@
           "physical": "0",
           "feature": "[丹陽]治療效果提升5%",
           "rarity": "R",
-          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅兇辟邪之力。然，鮮有習武者以索帶為兵練。<br/>經良材打造而成，其鑄法今存世可見。<br/>傳，黃纏明錦乃生絲一支，又經文火之法而成，以習御火為咒術者所持法器。"
+          "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅凶辟邪之力。然，鮮有習武者以索帶為兵練。<br/>經良材打造而成，其鑄法今存世可見。<br/>傳，黃纏明錦乃生絲一支，又經文火之法而成，以習御火為咒術者所持法器。"
         },
         {
           "name": "破魔朱綾",

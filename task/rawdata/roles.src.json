@@ -1,5 +1,48 @@
 [
   {
+    "name": "夜無陵",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero1089_HeadIcon_Basic",
+    "career": "俠客",
+    "pinyin": "yewuling",
+    "path": "%E5%A4%9C%E6%97%A0%E9%99%B5",
+    "pic": "Hero1089_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "status": {
+      "hp": 209,
+      "atk_mag": 13,
+      "atk_phy": 108,
+      "def_mag": 23,
+      "def_phy": 38,
+      "crit": 22
+    }
+  },
+  {
+    "name": "紫炁",
+    "rarity": "SSR",
+    "prop": "幽",
+    "hero_icon": "Hero1090_HeadIcon_Basic",
+    "career": "羽士",
+    "pinyin": "ziqi",
+    "path": "%E7%B4%AB%E7%82%81",
+    "pic": "Hero1090_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "strategy": "幽氛萬瀚陣",
+    "status": {
+      "hp": 178,
+      "atk_mag": 14,
+      "atk_phy": 106,
+      "def_mag": 26,
+      "def_phy": 31,
+      "crit": 47
+    }
+  },
+  {
     "name": "赤妭韓無砂",
     "rarity": "ULR",
     "prop": "炎",
@@ -1214,7 +1257,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
-    "strategy": "兇星鎮荒陣",
+    "strategy": "凶星鎮荒陣",
     "status": {
       "hp": 207,
       "atk_mag": 12,
