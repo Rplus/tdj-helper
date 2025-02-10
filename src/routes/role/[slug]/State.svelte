@@ -13,6 +13,9 @@ let pos_left = 0;
 
 $: state_name = '';
 $: state_desc = '';
+$: state_stealable = false;
+$: state_extendable = false;
+$: state_dispellable = false;
 
 let p_pos;
 
@@ -42,6 +45,9 @@ function onselectionchange() {
 	}
 	state_name = state.name;
 	state_desc = state.desc;
+	state_stealable = state.stealable;
+	state_extendable = state.extendable;
+	state_dispellable = state.dispellable;
 
 	// position
 	let clientRects = selectObj.getRangeAt(0).getClientRects()[0];
@@ -78,9 +84,16 @@ onMount(() => {
 <div class="hint" style="left:{pos_left}px; top:{pos_top}px;"
 	data-hidden={state_name}
 	bind:this={dom}>
-	<a class="name" href={link(`/state/#${state_name}`)}>
-		{state_name}
-	</a>
+	<div class="flex jc-sb" style="gap:1em;">
+		<a class="name" href={link(`/state/#${state_name}`)}>
+			{state_name}
+		</a>
+		<sup class="meta">
+			<span class="boolean" class:active={state_stealable}>偷取</span>
+			<span class="boolean" class:active={state_extendable}>擴散</span>
+			<span class="boolean" class:active={state_dispellable}>驅散</span>
+		</sup>
+	</div>
 	<div class="desc">
 		{state_desc}
 	</div>
@@ -119,5 +132,12 @@ onMount(() => {
 
 .desc {
 	padding-left: 0.5em;
+}
+.hint:not(:hover) .meta {
+	visibility: hidden;
+}
+.boolean:not(.active) {
+	opacity: 0.5;
+	text-decoration: line-through;
 }
 </style>
