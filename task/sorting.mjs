@@ -312,7 +312,7 @@ outputJSON({
 });
 // outputJSON({
 // 	json: op.role_details,
-// 	fn: './task/rawdata/_role_details.min.json',
+// 	fn: './task/rawdata/role_details.min.json',
 // 	space: 0,
 // 	cn2tw: true,
 // });
