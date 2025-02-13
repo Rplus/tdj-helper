@@ -12,5 +12,4 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 /task/try.js
 /task/try.json
-/task/rawdata/tdj
-/task/rawdata/bili-wiki
+/task/rawdata
