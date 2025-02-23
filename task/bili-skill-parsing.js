@@ -76,11 +76,17 @@ adv_skills.names = adv_skills_of_role.data
 	.uniq();
 
 
-adv_skills.names = adv_skills.names.concat([
+let unconfirmed_new_skills = [
 	'诸灵退散',
 	'妖氛镇魄',
 	'玄晔破封',
-]);
+];
+
+unconfirmed_new_skills.forEach(s => {
+	console.log(s, adv_skills.names.includes(s));
+});
+
+adv_skills.names = adv_skills.names.concat(unconfirmed_new_skills);
 
 if (!parse_new && fs.existsSync(adv_skills.fn)) {
 	adv_skills.data_raw = read_json_file(adv_skills.fn);
