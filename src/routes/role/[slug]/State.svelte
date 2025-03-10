@@ -133,9 +133,20 @@ onMount(() => {
 .desc {
 	padding-left: 0.5em;
 }
+
+.meta {
+	font-size: x-small;
+
+	& span {
+		border: 1px solid #9999;
+		padding: 2px;
+	}
+}
+/*
 .hint:not(:hover) .meta {
 	visibility: hidden;
 }
+*/
 .boolean:not(.active) {
 	opacity: 0.5;
 	text-decoration: line-through;
