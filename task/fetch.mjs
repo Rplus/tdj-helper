@@ -39,6 +39,7 @@ outputJSON({
 // role basic info
 let roles_tw = await fetch(raw_data.roles.url('tw')).then((r) => r.json());
 let roles_cn = await fetch(raw_data.roles.url('cn')).then((r) => r.json());
+// console.log(raw_data.roles.url('cn'));
 
 raw_data.roles.rawdata = roles_cn?.data?.data.map((role) => {
 	let role_tw = roles_tw?.data?.data.find((_role) => _role.hero_icon === role.hero_icon);
