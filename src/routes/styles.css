@@ -12,7 +12,7 @@
 	&.dark-theme {
 		color-scheme: dark;
 
-		--main-color: #fff;
+		--main-color: #ddd;
 		--main-bgc: #000;
 
 		--link-color: #0a61aa;
