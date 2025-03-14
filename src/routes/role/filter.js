@@ -18,6 +18,6 @@ export const filter_cates = [
 	{
 		prop: 'prop',
 		title: '屬相',
-		values: ['炎', '雷', '冰', '光', '暗', '幽'],
+		values: ['炎', '雷', '冰', '光', '暗', '幽', '神', '魔'],
 	},
 ];
