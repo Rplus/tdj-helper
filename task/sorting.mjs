@@ -132,6 +132,8 @@ let icons_mapping = {
 	female: '女',
 	male: '男',
 	strategy_core: '陣眼',
+	'fire/ice/electricity': '炎冰雷',
+	'light/shadow/dusk': '光暗幽',
 };
 
 op.strategy = op.strategy.map((item) => {
