@@ -34,7 +34,7 @@ op.roles = roles_data.map((item) => {
 
 	let _strategy = detail.strategy?.[0];
 	let strategy;
-	if (_strategy) {
+	if (_strategy && _strategy.name) {
 		delete _strategy.unlock_condition;
 		op.strategy.push(_strategy);
 		strategy = _strategy.name;
