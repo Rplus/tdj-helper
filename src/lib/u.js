@@ -14,6 +14,8 @@ export const icons = {
 	光: 'Light',
 	暗: 'Shadow',
 	幽: 'Dusk',
+	神: 'God',
+	魔: 'Demon',
 	俠客: 'Swordsman',
 	鐵衛: 'Guard',
 	猛士: 'Guard',
