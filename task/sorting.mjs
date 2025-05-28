@@ -175,17 +175,42 @@ let sources = [...new Set(op.roles.map((i) => i.source))];
 // console.log(111, sources);
 
 // orna data checking
-raw_data.ornaments.rawdata.data.data.forEach((orna_cn) => {
-	let _ornas_tw = raw_data.ornaments_tw.rawdata.data.data;
-	let orna_tw = _ornas_tw.find((_orna) => _orna.icon === orna_cn.icon);
-	if (!orna_tw) {
-		return;
-	}
+function reorder_array(arr, nameOrder) {
+  const nameMap = new Map(nameOrder.map((name, index) => [name, index]));
 
-	if (orna_cn.type !== orna_tw.type) {
-		console.log(111, 'orna type gg', orna_cn.name);
-	}
-});
+  arr.sort((a, b) => {
+    const indexA = nameMap.get(a.icon);
+    const indexB = nameMap.get(b.icon);
+
+    if (indexA === undefined) return 1;
+    if (indexB === undefined) return -1;
+
+    return indexA - indexB;
+  });
+
+  return arr;
+}
+
+let new_ornaments_name = raw_data.ornaments.rawdata.data.data
+	.filter(orna_cn => {
+		return !raw_data.ornaments_tw.rawdata.data.data.find((orna_tw) => orna_tw.icon === orna_cn.icon);
+	})
+	.map(orna => orna.icon)
+	.concat(raw_data.ornaments_tw.rawdata.data.data.map(o => o.icon));
+
+let ornaments = reorder_array(raw_data.ornaments.rawdata.data.data, new_ornaments_name);
+
+// raw_data.ornaments.rawdata.data.data.forEach((orna_cn) => {
+// 	let _ornas_tw = raw_data.ornaments_tw.rawdata.data.data;
+// 	let orna_tw = _ornas_tw.find((_orna) => _orna.icon === orna_cn.icon);
+// 	if (!orna_tw) {
+// 		return;
+// 	}
+
+// 	if (orna_cn.type !== orna_tw.type) {
+// 		console.log(111, 'orna type gg', orna_cn.name);
+// 	}
+// });
 
 //
 //  #######  ########  ##    ##    ###    ##     ## ######## ##    ## ########  ######
@@ -211,7 +236,8 @@ op.ornaments = {
 		// type: ['physical_attack','physical_defense','magic_attack','magic_defense','treatment','qixue','currency'];
 		type: ['物攻', '物防', '法攻', '法防', '治療', '氣血'],
 	},
-	items: raw_data.ornaments.rawdata.data.data.map((item) => {
+	// items: raw_data.ornaments.rawdata.data.data.map((item) => {
+	items: ornaments.map((item) => {
 		let o = pick_obj(item, [
 			'name',
 			'icon',
@@ -250,14 +276,14 @@ op.ornaments = {
 				o.type = '000000'; // without any buff for property
 				break;
 
-			// 九色鹿冠
-			case 'Equip_jiuseluguan':
-				// old 000010
-				if (o.type === '001001') {
-					console.log(1111, '竟然更新修正了！');
-				}
-				o.type = '001001'; // 000010 => 001001
-				break;
+			// // 九色鹿冠
+			// case 'Equip_jiuseluguan':
+			// 	// old 000010
+			// 	if (o.type === '001001') {
+			// 		console.log(1111, '竟然更新修正了！');
+			// 	}
+			// 	o.type = '001001'; // 000010 => 001001
+			// 	break;
 
 			// 荊羽護元
 			case 'Equip_jingyuyanlin':
