@@ -50,3 +50,6 @@ update-bili-data--parse-state:
 
 update-bili-data: update-bili-data--parse-state update-bili-data--parse-summon update-bili-data--parse update-bili-data--sorting
 	echo 'bili-wiki parsing done!';
+
+genarate-addintion-skills:
+	bun ./task/addition_skills.js;

@@ -326,6 +326,24 @@ op.ornaments = {
 	}),
 };
 
+
+// temp
+let role_inherents = op.role_details.map(rrr => {
+	let obj = pick_obj(rrr, [
+		'name',
+		'pinyin',
+		'pinyin_tw',
+	])
+	obj.inherent = rrr.inherent.stars?.[rrr.inherent.stars.length - 1];
+	return obj;
+})
+outputJSON({
+	json: role_inherents,
+	fn: './task/rawdata/role_inherents.src.json',
+	// space: 0,
+	// cn2tw: true,
+});
+
 outputJSON({
 	json: op.roles,
 	fn: './task/rawdata/roles.src.json',

@@ -8,6 +8,7 @@ import {
 	fetch_bwiki_props_by_name,
 	read_json_file,
 } from './u.mjs';
+import { get_addition_skills_cn_names, } from './addition_skills.js';
 
 Array.prototype.uniq = uniq;
 
@@ -76,11 +77,24 @@ adv_skills.names = adv_skills_of_role.data
 	.uniq();
 
 
-let unconfirmed_new_skills = [
-	'诸灵退散',
-	'妖氛镇魄',
-	'玄晔破封',
-];
+let unconfirmed_new_skills = get_addition_skills_cn_names();
+// let unconfirmed_new_skills = [
+// 	'扶摇霄汉',
+
+// 	'一世愿·戒忌',
+// 	'二世愿·守护',
+// 	'三世愿·共念',
+
+// 	'洞若观火·杀伐',
+// 	'洞若观火·谋算',
+// 	'洞若观火·蛰伏',
+
+// 	'妖携影',
+// 	'灵返光',
+// 	'诸灵退散',
+// 	'妖氛镇魄',
+// 	'玄晔破封',
+// ];
 
 unconfirmed_new_skills.forEach(s => {
 	console.log(s, adv_skills.names.includes(s));
