@@ -33,7 +33,7 @@ update-data--parse: print-date
 update-data--sorting:
 	bun ./task/sorting.mjs;
 
-update-bili-data--parse: print-date
+update-bili-data--parse: print-date genarate-addition-skills
 	bun ./task/bili-skill-parsing.js -- new=1;
 
 update-bili-data--parse--cached:
@@ -51,5 +51,5 @@ update-bili-data--parse-state:
 update-bili-data: update-bili-data--parse-state update-bili-data--parse-summon update-bili-data--parse update-bili-data--sorting
 	echo 'bili-wiki parsing done!';
 
-genarate-addintion-skills:
+genarate-addition-skills:
 	bun ./task/addition_skills.js;
