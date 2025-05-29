@@ -85,7 +85,9 @@ if (sp_skills) {
 
 		<div hidden={grid_mode}>
 			<MediaObj mobile_align="center">
-				<div slot="img" class="flex" style="background-color: #0ff5;">
+				<div slot="img" class="flex"
+					style="background-color: {skill.special ? `#f003` : `#0ff5`};"
+				>
 					<Img
 						src={skill.special
 							? resize_img(skill.img)
