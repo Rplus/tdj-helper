@@ -88,6 +88,14 @@ let data = [
 				name: '洞若觀火·蟄伏',
 				img: 'https://patchwiki.biligame.com/images/tdj/thumb/0/03/oxixjk66jckd60unbv6fd59wbu6b5dd.png/80px-绝学_洞若观火·蛰伏.png',
 			},
+			{
+				name: '烈炙封剎',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png/80px-绝学_洞若观火·杀伐.png',
+			},
+			{
+				name: '殞火如織',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png/80px-绝学_洞若观火·杀伐.png',
+			},
 		],
 	},
 	{
