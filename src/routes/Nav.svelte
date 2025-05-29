@@ -58,6 +58,7 @@ details {
 	line-height: 1.3;
 	z-index: 10;
 	color: color-mix(in srgb, var(--main-color) 40%, #0000);
+	backdrop-filter: blur(.5em);
 }
 
 summary {
