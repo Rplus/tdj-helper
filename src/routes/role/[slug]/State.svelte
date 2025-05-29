@@ -81,8 +81,10 @@ onMount(() => {
 
 <svelte:document on:selectionchange={onselectionchange} />
 
-<div class="hint" style="left:{pos_left}px; top:{pos_top}px;"
-	data-hidden={state_name}
+<div class="hint_anchor" style="left:{pos_left}px; top:{pos_top}px;"></div>
+
+<div class="hint"
+	hidden={!state_name}
 	bind:this={dom}>
 	<div class="flex jc-sb" style="gap:1em;">
 		<a class="name" href={link(`/state/#${state_name}`)}>
@@ -101,10 +103,17 @@ onMount(() => {
 
 
 <style>
+.hint_anchor {
+	position: absolute;
+	anchor-name: --hint-anchor;
+}
+
 .hint {
 	position: absolute;
-	top: 0;
-	left: 0;
+  position-anchor: --hint-anchor;
+  position-area: right bottom;
+  position-try-fallbacks: left bottom;
+	position-try-order: most-width;
 	max-width: 15rem;
 	z-index: 100;
 	padding: .5em;
