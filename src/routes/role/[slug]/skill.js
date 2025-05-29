@@ -1,5 +1,6 @@
 import adv_skills_data from '$lib/data/adv_skills.min.json';
 import adv_skills_of_role from '$lib/data/adv_skills_of_role.min.json';
+import special_skills from '$lib/data/addition_skills.min.json';
 
 export function find_adv_skills(role_pinyin = '', basic_skills = []) {
 	let names = adv_skills_of_role[role_pinyin];
@@ -29,26 +30,6 @@ export function find_adv_skills(role_pinyin = '', basic_skills = []) {
 	});
 }
 
-const special_skills = {
-	'shuanghunyuxi': [
-		{
-			name: '諸靈退散',
-			img: 'https://patchwiki.biligame.com/images/tdj/thumb/f/f6/q6fvjmpblg6pa65hnmlbu67zipuftor.png/80px-绝学_诸灵退散.png',
-			way: '主動',
-		},
-		{
-			name: '妖氛鎮魄',
-			img: 'https://patchwiki.biligame.com/images/tdj/thumb/a/af/hya680sc8x7w6wnsuprxv0urqfkbvd2.png/80px-绝学_妖氛镇魄.png',
-			way: '主動',
-		},
-		{
-			name: '玄曄破封',
-			img: 'https://patchwiki.biligame.com/images/tdj/thumb/6/62/dhnq4ppq1t4zh6avy2qf4fcp813b285.png/80px-绝学_玄晔破封.png',
-			way: '主動',
-		},
-	],
-};
-
 export function get_special_skills(pinyin) {
 	let sp_skills = special_skills[pinyin];
 	if (!sp_skills) {
@@ -59,8 +40,8 @@ export function get_special_skills(pinyin) {
 		let data = adv_skills_data.find(i => i.name === sk.name);
 		return {
 			...data,
-			way: sk.way,
-			img: sk.img,
+			way: sk.way || '主動',
+			img: sk.img ? `https://patchwiki.biligame.com/images/tdj` + sk.img : '',
 			special: true,
 		};
 	});
