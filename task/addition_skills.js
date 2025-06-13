@@ -9,6 +9,16 @@ const converter_tw_to_cn = OpenCC
 
 let data = [
 	{
+		pinyin: 'huanhaiminghuang',
+		name: '幻海冥皇',
+		skills: [
+			{
+				name: '魔戾渊相',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/8/86/4vm9fto5dgqt11hvi7gxlib32c3riuo.png/80px-%E7%BB%9D%E5%AD%A6_%E9%AD%94%E6%88%BE%E6%B8%8A%E7%9B%B8.png',
+			},
+		],
+	},
+	{
 		pinyin: 'dierying',
 		name: '第二瑛',
 		skills: [

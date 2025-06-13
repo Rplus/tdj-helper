@@ -36,6 +36,7 @@ let owner = {
 	'召唤物/秽土灵俑·壹': ['鄲陰', 'danyin'],
 	'召唤物/秽土灵俑·贰': ['鄲陰', 'danyin'],
 	'召唤物/哮天犬': ['楊戩', 'yangjian'],
+	'召唤物/冥渊魁王': ['幻海冥皇', 'huanhaiminghuang'],
 };
 
 let sub_skills_list = [
@@ -137,12 +138,18 @@ let sub_skills_list = [
 
 {
 	// workaround: fix 式鬼
-	let target = data.summons.find((i) => i.name === '式鬼');
-	if (target) {
-		target.speed = 5;
-		target.range = 1;
-		target.career = '御风';
-	}
+	let target = data.summons.find((i) => i.name?.startsWith('式鬼'));
+	data.summons.forEach(sss => {
+		if (sss.name?.startsWith('式鬼')) {
+			sss.speed = 5;
+			sss.range = 1;
+			sss.career = '御风';
+		}
+
+		if (sss.name === '冥渊魁王') {
+			sss.career = 'boss';
+		}
+	});
 }
 
 {
