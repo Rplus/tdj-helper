@@ -1,5 +1,35 @@
 [
 	{
+		"name": "咒首蜈蚣",
+		"hp": 1433,
+		"atk": 0,
+		"matk": 767,
+		"def": 242,
+		"mdef": 323,
+		"collab": ["法攻+5%", "使用傷害絕學時傷害提升10%。氣血不滿時，穿透、護盾獲得加成提升15%。"],
+		"img": "https://patchwiki.biligame.com/images/tdj/thumb/c/cd/31qwy8n029lil82ekm5oi0p20zzvt4z.png/60px-%E9%AD%82%E7%9F%B3_%E5%92%92%E9%A6%96%E8%9C%88%E8%9A%A3.png"
+	},
+	{
+		"name": "羽魅",
+		"hp": 1615,
+		"atk": 767,
+		"matk": 0,
+		"def": 282,
+		"mdef": 242,
+		"collab": ["物攻+5%", "若自身2格沒有其他友方角色，則傷害、免傷提高12%。"],
+		"img": "https://patchwiki.biligame.com/images/tdj/thumb/6/6b/h5opntl8whyjlhyk1l4fsntz1kwzx1y.png/60px-%E9%AD%82%E7%9F%B3_%E7%BE%BD%E9%AD%85.png"
+	},
+	{
+		"name": "妖將",
+		"hp": 1978,
+		"atk": 686,
+		"matk": 0,
+		"def": 363,
+		"mdef": 202,
+		"collab": ["氣血+10%", "氣血大於等於70%時，暴擊抗性提高15%，若戰後氣血低於70%，則恢復已損失氣血的50%（每回合只能觸發1次）"],
+		"img": "https://patchwiki.biligame.com/images/tdj/thumb/3/34/hqifp72d4p1cfzp1yhcz0u69sivfgfn.png/60px-%E9%AD%82%E7%9F%B3_%E5%A6%96%E5%B0%86.png"
+	},
+	{
 		"name": "杌晷",
 		"hp": 1615,
 		"atk": 766,
