@@ -52,6 +52,31 @@ names.sort();
 	);
 }
 
+{
+	// hotfix
+
+	// data.push({
+	// 	name: '䔄毒',
+	// 	desc: '攻擊前每移動1格，暴擊率降低15%（最多降低30%），行動結束時，損失10%最大氣血，若攻擊前每多移動1格，則額外損失10%最大氣血（最多額外20%）',
+	// 	dispellable: true,
+	// 	extendable: false,
+	// 	stealable: false,
+	// })
+
+	data.forEach(i => {
+		switch (i.name) {
+			case '压制':
+				i.dispellable = false;
+				break;
+			case '蛇毒':
+				i.cate = '有害';
+				break;
+			default:
+				break;
+		}
+	})
+}
+
 outputJSON({
 	json: data,
 	fn: './task/rawdata/_state.raw.json',
