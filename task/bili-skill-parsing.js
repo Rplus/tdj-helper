@@ -185,7 +185,9 @@ async function get_sub_skills() {
 		}),
 	);
 
-	adv_skills.data = adv_skills.data_raw.concat(sub_skills_data);
+	adv_skills.data = adv_skills.data_raw
+		.concat(sub_skills_data)
+		.concat(custom_skills());
 
 	outputJSON({
 		json: adv_skills.data,
@@ -195,6 +197,36 @@ async function get_sub_skills() {
 	});
 
 	return adv_skills.data;
+}
+
+function custom_skills() {
+	let skills_1 = [
+		['天樞', '消耗2點「星屑」，使「搖光破軍界」開啟時，友方光屬相英靈所有絕學冷卻-1回合'],
+		['天權', '消耗2點「星屑」，使「搖光破軍界」持續時，友方光屬相英靈使用絕學後為全場氣血百分比最低的1個其他友方驅散2個「有害狀態」並恢復氣血（最大氣血的40%）'],
+		['玉衡', '消耗2點「星屑」，使「搖光破軍界」開啟時，結界持續回合數額外+1回合'],
+		['開陽', '消耗2點「星屑」，使「搖光破軍界」持續時，敵方使用絕學後，對其施加「封咒」狀態，持續1回合'],
+	];
+
+	return [
+		...skills_1.map(i => ({
+			'name': i[0],
+			'cd': '-',
+			'cost': '-',
+			'shoot': '自身',
+			'range': '單體',
+			'type': '主動',
+			'desc': i[1],
+		})),
+		// {
+		// 	'name': '',
+		// 	'cd': '-',
+		// 	'cost': '-',
+		// 	'shoot': '自身',
+		// 	'range': '單體',
+		// 	'type': '主動',
+		// 	'desc': '',
+		// },
+	];
 }
 
 {

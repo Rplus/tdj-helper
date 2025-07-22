@@ -389,6 +389,13 @@ let op_data = data.reduce((all, role) => {
 // 	})
 // })
 
+op_data['xingzhanxianzhe'] = [
+	{ name: '天樞', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+	{ name: '天權', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+	{ name: '玉衡', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+	{ name: '開陽', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+];
+
 outputJSON({
 	json: op_data,
 	fn: './task/rawdata/addition_skills.json',
