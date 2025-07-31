@@ -65,6 +65,10 @@ names.sort();
 
 	data.forEach(i => {
 		switch (i.name) {
+			case '断寸I':
+				i.dispellable = false;
+				i.stealable = false;
+				break;
 			case '压制':
 				i.dispellable = false;
 				break;
