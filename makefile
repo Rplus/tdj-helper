@@ -53,3 +53,5 @@ update-bili-data: update-bili-data--parse-state update-bili-data--parse-summon u
 
 genarate-addition-skills:
 	bun ./task/addition_skills.js;
+
+update: update-data--parse update-data--sorting update-bili-data
