@@ -42,16 +42,20 @@ let data = [
 			}
 		],
 	},
-	{
-		pinyin: 'yinchuangongzhu',
-		name: '银川公主',
-		skills: [
-			{
-				name: '鳳起九遐',
-				img: '',
-			}
-		],
-	},
+	// {
+	// 	pinyin: 'yinchuangongzhu',
+	// 	name: '銀川公主',
+	// 	skills: [
+	// 		{
+	// 			name: '鳳起九遐',
+	// 			img: 'https://patchwiki.biligame.com/images/tdj/thumb/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png/80px-%E5%A4%A9%E8%B5%8B_%E4%BB%AA%E5%87%A4%E6%9B%9C%E5%AE%B8.png',
+	// 		},
+	// 		{
+	// 			name: '鳳鳴於野',
+	// 			img: 'https://patchwiki.biligame.com/images/tdj/thumb/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png/80px-%E5%A4%A9%E8%B5%8B_%E4%BB%AA%E5%87%A4%E6%9B%9C%E5%AE%B8.png',
+	// 		}
+	// 	],
+	// },
 	{
 		pinyin: 'youjiluzhaoyi',
 		name: '幽姬鹿昭依',
@@ -394,6 +398,11 @@ op_data['xingzhanxianzhe'] = [
 	{ name: '天權', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
 	{ name: '玉衡', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
 	{ name: '開陽', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+];
+
+op_data['yinchuangongzhu'] = [
+	{ name: '鳳起九遐', img: '/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png', },
+	{ name: '鳳鳴於野', img: '/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png', },
 ];
 
 outputJSON({
