@@ -9,6 +9,16 @@ const converter_tw_to_cn = OpenCC
 
 let data = [
 	{
+		pinyin: 'liuwu',
+		name: '流舞',
+		skills: [
+			{
+				name: '裂空·流風',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/1/10/iarvyf7hil0tf4nub5ds2sh4up559o9.png/80px-%E7%BB%9D%E5%AD%A6_%E8%A3%82%E7%A9%BA%C2%B7%E6%B5%81%E9%A3%8E.png',
+			},
+		],
+	},
+	{
 		pinyin: 'huanhaiminghuang',
 		name: '幻海冥皇',
 		skills: [
@@ -403,6 +413,14 @@ op_data['xingzhanxianzhe'] = [
 op_data['yinchuangongzhu'] = [
 	{ name: '鳳起九遐', img: '/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png', },
 	{ name: '鳳鳴於野', img: '/6/6c/s3lq932sq67qyuwaou60o2grt5l17yp.png', },
+];
+
+op_data['shangguanyue'] = [
+	{ name: '凝雷聚形', img: '/d/d3/rpqffdxh0aem8i8gugompfh51vs2r4e.png', },
+];
+
+op_data['zhaoyun'] = [
+	{ name: '無雙戰魂', img: '/2/28/sq6jkqog6j0o7j2rd1lfpd4t9yt7mbz.png', },
 ];
 
 outputJSON({
