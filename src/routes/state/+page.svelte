@@ -61,6 +61,33 @@ function get_index(prop, value) {
 	return order[prop].indexOf(value);
 }
 
+let filter_name = '';
+let filter_desc = '';
+let filter_style = '';
+
+$: {
+	filter_row(filter_name, filter_desc);
+}
+
+function filter_row(filter_name, filter_desc) {
+	if (!filter_name && !filter_desc) {
+		filter_style = ''
+		return;
+	}
+
+	let _style_name = '';
+	let _style_desc = '';
+	if (filter_name) {
+		_style_name = `.item.data:not([name*="${filter_name}"]) { display: none; }`;
+	}
+
+	if (filter_desc) {
+		_style_desc = `.item.data:not([data-desc*="${filter_desc}"]) { display: none; }`;
+	}
+
+	filter_style = _style_name + _style_desc;
+}
+
 onMount(() => {
 	if (location.hash) {
 		let target = document.querySelector(decodeURIComponent(location.hash));
@@ -76,6 +103,16 @@ onMount(() => {
 <div class="workspace">
 	<Header title="狀態列表" />
 	<svelte:element this="style">{sort_style}</svelte:element>
+	<svelte:element this="style">{filter_style}</svelte:element>
+
+	<div class="filter flex jc-sb mb-1">
+		<div>
+			<input type="search" name="name" bind:value={filter_name} placeholder="🔍︎ 名稱">
+		</div>
+		<div>
+			<input type="search" name="desc" bind:value={filter_desc} placeholder="🔍︎描述">
+		</div>
+	</div>
 
 	<ul class="list" data-dir={sort_dir}
 		style="--dir-char: '{sort_dir === 1 ? '▲' : '▼' }'">
@@ -125,7 +162,8 @@ onMount(() => {
 		<li
 			id={item.name}
 			name={item.name}
-			class="item"
+			data-desc={item.desc}
+			class="item data"
 			style="--dispellable:{Number(item.dispellable)};--extendable:{Number(item.extendable)};--stealable:{Number(item.stealable)};
 				--name:{get_index('name', item.name)};
 				--cate:{get_index('cate', item.cate)};
