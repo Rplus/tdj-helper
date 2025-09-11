@@ -96,9 +96,18 @@ let unconfirmed_new_skills = get_addition_skills_cn_names();
 // 	'玄晔破封',
 // ];
 
+let log_未納進階技能 = [];
+let log_已納進階技能 = [];
 unconfirmed_new_skills.forEach(s => {
-	console.log(s, adv_skills.names.includes(s));
+	if (adv_skills.names.includes(s)) {
+		log_已納進階技能.push(s);
+	} else {
+		log_未納進階技能.push(s);
+	}
 });
+
+console.log('log_已納進階技能', log_已納進階技能);
+console.log('log_未納進階技能', log_未納進階技能);
 
 adv_skills.names = adv_skills.names.concat(unconfirmed_new_skills);
 
