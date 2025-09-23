@@ -356,6 +356,12 @@ outputJSON({
 	// space: 0,
 	cn2tw: true,
 });
+outputJSON({
+	json: op.role_details,
+	fn: './src/lib/data/role_details.min.json',
+	space: 0,
+	cn2tw: true,
+});
 // outputJSON({
 // 	json: op.role_details,
 // 	fn: './task/rawdata/role_details.min.json',
