@@ -29,11 +29,11 @@ import { onMount } from 'svelte';
 // 	},
 // ];
 
-const query_param = 'query';
+const query_param = 'q';
 
 let filters = init_filters();
-let search_kwd = '';
 let input_value = (browser && new URLSearchParams(location.search).get(query_param)) || '';
+let search_kwd = input_value ||'';
 let is_composing = false;
 
 $: filter_style = `${gen_filter_style(filters)}`;
@@ -71,7 +71,7 @@ function gen_qs(filters, search_kwd = '') {
 		.join('&');
 
 	if (search_kwd) {
-		qs += `&q=${search_kwd}`;
+		qs += `&${query_param}=${search_kwd}`;
 	}
 
 	return qs;
