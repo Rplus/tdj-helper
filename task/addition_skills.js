@@ -408,6 +408,7 @@ op_data['xingzhanxianzhe'] = [
 	{ name: '天權', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
 	{ name: '玉衡', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
 	{ name: '開陽', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
+	{ name: '瑤光', img: '/2/2a/5b9knp5ywnyuepnq6pjrmw2recvi9qf.png', },
 ];
 
 op_data['yinchuangongzhu'] = [
