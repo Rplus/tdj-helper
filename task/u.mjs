@@ -73,7 +73,13 @@ function get_url(qs_obj = {}, lang = 'cn') {
 		qs.set(key, qs_obj[key]);
 	}
 
-	return `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
+	let _url = `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
+
+	if (lang === 'cn') {
+		console.log('cn use proxy');
+		return `https://corsproxy.io/?url=${_url}`;
+	}
+	return _url;
 }
 
 const converter = OpenCC
