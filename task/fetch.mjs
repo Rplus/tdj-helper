@@ -44,7 +44,7 @@ let roles_cn = await fetch(raw_data.roles.url('cn')).then((r) => r.json());
 raw_data.roles.rawdata = roles_cn?.data?.data.map((role) => {
 	let role_tw = roles_tw?.data?.data.find((_role) => _role.hero_icon === role.hero_icon);
 	role.path = encodeURIComponent(role.name);
-	return role_tw
+	let op = role_tw
 		? {
 				...role_tw,
 				pinyin_tw: role_tw.pinyin, // tw_only
@@ -52,6 +52,12 @@ raw_data.roles.rawdata = roles_cn?.data?.data.map((role) => {
 				path: role.path,
 			}
 		: role;
+
+	if (role.pinyin === 'yuwentuo') {
+		op.pinyin_tw = null;
+	}
+
+	return op;
 });
 
 outputJSON({
