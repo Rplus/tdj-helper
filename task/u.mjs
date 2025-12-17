@@ -162,9 +162,20 @@ export async function fetch_name(name = '') {
 			'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
 		},
 		body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
+		// body: new URLSearchParams({
+		// 	action: 'smwbrowse',
+		// 	format: 'json',
+		// 	browse: 'subject',
+		// 	params: JSON.stringify({
+		// 		subject: name, // 頁面標題
+		// 		ns: 0,           // namespace 0 = 主條目
+		// 		// type: 'xml'
+		// 	}),
+		// }),
 		method: 'POST',
 		// verbose: true,
 	});
+	// console.log(res, `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`);
 
 	let raw = await res.json();
 
@@ -194,7 +205,7 @@ export async function fetch_bwiki_props_by_name(name = '', force = false) {
 		console.log('parsing: ', decodeURIComponent(name));
 
 		let raw = await fetch_limit(() => fetch_name(name));
-		props = bilidata_to_obj(raw?.query.data);
+		props = bilidata_to_obj(raw?.query?.data);
 		writeFile(fn, JSON.stringify(props));
 	}
 
