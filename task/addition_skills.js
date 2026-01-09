@@ -9,6 +9,26 @@ const converter_tw_to_cn = OpenCC
 
 let data = [
 	{
+		pinyin: 'chengying',
+		name: '承影',
+		skills: [
+			{
+				name: '冥蝶寄羽',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/5/5e/50ch9vosoqre17vh8ulid18qnxhbd36.png/80px-%E7%BB%9D%E5%AD%A6_%E5%86%A5%E8%9D%B6%E5%AF%84%E7%BE%BD.png',
+			},
+		],
+	},
+	{
+		pinyin: 'jianxinwuxie',
+		name: '劍心無邪',
+		skills: [
+			{
+				name: '醉歌點妝',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/9/9f/iphgg2nfy7quodih5x2xd1d6thodpaz.png/80px-%E7%BB%9D%E5%AD%A6_%E9%86%89%E6%AD%8C%E7%82%B9%E5%A6%86.png',
+			},
+		],
+	},
+	{
 		pinyin: 'liuwu',
 		name: '流舞',
 		skills: [
