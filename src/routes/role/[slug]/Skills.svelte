@@ -129,7 +129,7 @@ if (sp_skills) {
 <div class="mb-2" />
 
 {#if adv_skills.length}
-	<AdvSkills skills={adv_skills} />
+	<AdvSkills skills={adv_skills} {lang} />
 {/if}
 
 <style>
