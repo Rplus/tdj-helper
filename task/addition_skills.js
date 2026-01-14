@@ -9,6 +9,28 @@ const converter_tw_to_cn = OpenCC
 
 let data = [
 	{
+		pinyin: 'anyaoyanghuan',
+		name: '暗曜陽寰',
+		skills: [
+			{
+				name: '逆曜轮回',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/a/aa/g33rj3vx0juqa0dipr98r9uzqv337fw.png/80px-%E7%BB%9D%E5%AD%A6_%E9%80%86%E6%9B%9C%E8%BD%AE%E5%9B%9E.png',
+			},
+			{
+				name: '飞槊贯云',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/e/ec/i1r4r8rbm42bl63v1zs9g5mil1toqs1.png/80px-%E7%BB%9D%E5%AD%A6_%E9%A3%9E%E6%A7%8A%E8%B4%AF%E4%BA%91.png',
+			},
+			{
+				name: '冥影焚灭',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/9/9a/bog3dbz70egbcciy9umw85j538iywnt.png/80px-%E7%BB%9D%E5%AD%A6_%E5%86%A5%E5%BD%B1%E7%84%9A%E7%81%AD.png',
+			},
+			{
+				name: '暗帷',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/1/1e/b6njqkqlj6zxqlokjrdge26p25csys4.png/80px-%E7%BB%9D%E5%AD%A6_%E6%9A%97%E5%B8%B7.png',
+			},
+		],
+	},
+	{
 		pinyin: 'chengying',
 		name: '承影',
 		skills: [
