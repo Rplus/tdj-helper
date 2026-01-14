@@ -1,5 +1,5 @@
 <script>
-import { get_icon_image } from './ornament.js';
+import { get_icon_image } from '$lib/u.js';
 import Img from '$lib/Img.svelte';
 
 export let jobs = [];
