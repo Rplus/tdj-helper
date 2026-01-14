@@ -55,10 +55,11 @@ export function get_icon_image(icon = '', size = 32) {
 	if (!icons[icon]) {
 		return '';
 	}
-	return resize_img(
-		`https://media.zlongame.com/media/pictures/cn/userinfo/tdj/img/data/career/${icons[icon]}.png`,
-		size,
-	);
+	return `/tdj-helper/icon/${icons[icon]}.png`;
+	// return resize_img(
+	// 	`https://media.zlongame.com/media/pictures/cn/userinfo/tdj/img/data/career/${icons[icon]}.png`,
+	// 	size,
+	// );
 }
 
 // sanitize html
