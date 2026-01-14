@@ -24,6 +24,7 @@ export const icons = {
 	羽士: 'Rogue',
 	御風: 'Assassin',
 	鬥將: 'Melee',
+	破軍: 'Rider',
 };
 
 const img_folders = {

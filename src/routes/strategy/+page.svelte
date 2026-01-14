@@ -10,7 +10,7 @@ import Item from './Item.svelte';
 
 import { get_icon_image } from '$lib/u.js';
 
-const careers = ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將'];
+const careers = ['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', '破軍'];
 
 let filter_cates = [
 	{

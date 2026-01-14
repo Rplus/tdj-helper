@@ -15,6 +15,7 @@ export const icons = {
 	羽士: 'Rogue',
 	御風: 'Assassin',
 	鬥將: 'Melee',
+	破軍: 'Rider',
 };
 
 export function get_icon_image(icon = '', size = 32) {
