@@ -6,10 +6,10 @@ deploy: build deploy-rawdata
 deploy-rawdata:
 	@sh -c '\
 		if ! git diff-index --quiet HEAD --; then \
-    	echo "有未 commit 的變更，請先處理再切 branch"; \
-    	exit 1; \
+			echo "有未 commit 的變更，請先處理再切 branch"; \
+			exit 1; \
 		fi; \
-		git checkout official-rawdata || git checkout --orphan official-rawdata;; \
+		git checkout official-rawdata || git checkout --orphan official-rawdata; \
 		git reset --hard; \
 		git add task/rawdata/tdj; \
 		git commit -m "Deploy rawdata update" || echo "No changes"; \
