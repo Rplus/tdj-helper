@@ -75,10 +75,10 @@ function get_url(qs_obj = {}, lang = 'cn') {
 
 	let _url = `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
 
-	if (lang === 'cn') {
-		console.log('cn use proxy');
-		return `https://corsproxy.io/?url=${_url}`;
-	}
+	// if (lang === 'cn') {
+	// 	console.log('cn use proxy');
+	// 	return `https://corsproxy.io/?url=${_url}`;
+	// }
 	return _url;
 }
 

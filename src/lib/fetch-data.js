@@ -71,7 +71,21 @@ const PROXY = [
 					throw error(err);
 				}),
 	},
-][1];
+	{ // direct
+		get_proxy_url: (url) => url,
+		fetch: async (url) =>
+			fetch(url)
+				.then((r) => r.text())
+				.then((data) => {
+					data = JSON.parse(data);
+					// console.log('fetch role.tw', data);
+					return data.data?.data[0];
+				})
+				.catch((err) => {
+					throw error(err);
+				}),
+	},
+][2];
 
 export async function fetch_role_detail(role) {
 	let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
