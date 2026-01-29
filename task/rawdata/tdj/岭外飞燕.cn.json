@@ -1,0 +1,409 @@
+[
+  {
+    "name": "岭外飞燕",
+    "is_new": "",
+    "pinyin": "lingwaifeiyan",
+    "weight": "1530",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1087_img",
+    "prop_icon": "Fire",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "212",
+    "magic_attack": "12",
+    "physical_attack": "104",
+    "magic_defense": "22",
+    "physical_defense": "37",
+    "huixin": "24",
+    "inherent": "Gift_172",
+    "inherent_name": "旧燕南飞",
+    "star1": "",
+    "star2": "",
+    "star3": "气血大于等于50%时，伤害、暴击率提高10%且回合开始时获得<link type=buff value=741087034 bgcolor=#3a85ffff>「起手式」</link>状态。主动攻击造成伤害后，对目标施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续2回合。遭受攻击后，若自身3格范围内存在敌方，则触发1次<link type=buff value=741087000 bgcolor=#3a85ffff>「旋刃」</link>状态（最多弹射2次，每回合最多触发1次）。",
+    "star4": "气血大于等于50%时，伤害、暴击率提高13%且回合开始时获得<link type=buff value=741087035 bgcolor=#3a85ffff>「起手式」</link>状态。主动攻击造成伤害后，对目标施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续2回合。遭受攻击后，若自身3格范围内存在敌方，则触发1次<link type=buff value=741087000 bgcolor=#3a85ffff>「旋刃」</link>状态（最多弹射3次，每回合最多触发1次）。",
+    "star5": "气血大于等于50%时，伤害、暴击率提高16%且回合开始时获得<link type=buff value=741087036 bgcolor=#3a85ffff>「起手式」</link>状态。主动攻击造成伤害后，对目标施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续2回合。遭受攻击后，若自身3格范围内存在敌方，则触发1次<link type=buff value=741087000 bgcolor=#3a85ffff>「旋刃」</link>状态（最多弹射3次，每回合最多触发2次）。",
+    "star6": "气血大于等于50%时，伤害、暴击率提高20%且回合开始时获得<link type=buff value=741087037 bgcolor=#3a85ffff>「起手式」</link>状态。主动攻击造成伤害后，对目标施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续2回合。遭受攻击后，若自身3格范围内存在敌方，则触发1次<link type=buff value=741087000 bgcolor=#3a85ffff>「旋刃」</link>状态（最多弹射4次，每回合最多触发2次）。",
+    "story_name": "飞燕门",
+    "story_content": "飞燕门在岭南当地小有名气，三分靠人，七分靠传闻。<br/>老掌门严苛，收徒不过几人，倒是女儿在外行走，将刀轮的影子凿刻在江湖岩壁上，窸窣落下几两飞尘。<br/>外人听起来，捕风捉影的事情更吸引人，若是无人澄清，那便是江湖的正史，飞燕门接着这股东风一路向前，竟也偶尔能和中原五大派掰掰手腕。<br/>只是那些慕名而来之人，往往都把闭门羹吃了个饱。<br/>「武学传承在于藏私，若是人人都会，如何称得上是绝学？」<br/>刀轮，刀轮。<br/>韩千秀在闯荡江湖之前，总是与她的刀轮日夜相伴。她如此喜爱自己手中的武器，愿意为此抽出自己的芯，换做刀轮的铁浆注入其中。",
+    "hero_icon": "Hero1087_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1708",
+        "name": "回光斩",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，基于当前被弹射目标的<b><color=#e4462c>2</color></b>格范围进行弹射，施加<link type=buff value=700001540 bgcolor=#3a85ffff>「罔效I」</link><link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续<b><color=#e4462c>2</color></b>回合。（最多弹射<b><color=#e4462c>4</color></b>次，优先未被弹射过且在弹射范围内距离最近的目标，弹射目标无法重复，若没有弹射目标，则立刻中断）"
+      },
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1009",
+        "name": "蓄势",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时若本回合未进入对战，自身获得<link type=buff value=700000760 bgcolor=#3a85ffff>「起势」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Gskill_1001",
+        "name": "移形",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战前」使目标身上1个「有益状态」变为随机「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1711",
+        "name": "振鼓而行",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，反转自身<b><color=#e4462c>2</color></b>个「有害状态」并获得<link type=buff value=743001541 bgcolor=#3a85ffff>「炎铠」</link>状态。自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1709",
+        "name": "卷火焚巢",
+        "type": "陷阱",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，在指定格子布置「火巢」，持续<b><color=#e4462c>2</color></b>回合。<br/>「火巢」：<b><color=#e4462c>2</color></b>格范围内的友方主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续<b><color=#e4462c>2</color></b>回合。友方行动结束时若处于「火巢」<b><color=#e4462c>2</color></b>格内，获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。（无法再生成其他地形，不可停留）"
+      },
+      {
+        "img": "EXSkill_1710",
+        "name": "燕落故巢",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]遭受攻击后，获得<b><color=#e4462c>1</color></b>层<link type=buff value=741087300 bgcolor=#3a85ffff>「燕鸣」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[主动]获得<link type=buff value=741087301 bgcolor=#3a85ffff>「护巢」</link><link type=buff value=700000793 bgcolor=#3a85ffff>「神护II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1712",
+        "name": "双环天弧",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害，「对战前」驱散目标<b><color=#e4462c>4</color></b>个「有益状态」，若目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>或<link type=buff value=700001311 bgcolor=#3a85ffff>「流血」</link>则伤害提高<b><color=#e4462c>20%</color></b>。本次攻击不移除「起手式」。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放技能。（每遭受<b><color=#e4462c>1</color></b>次伤害或造成<b><color=#e4462c>1</color></b>次伤害均可累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "岭外飞燕",
+        "name": "韩家双镰",
+        "img": "Weapon_108701",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，镰，锲也。 <br/>传，飞燕门韩氏有一门绝技，善使刀轮，寻四方工匠为其铸趁手之兵而不得，亲力而为。镰有回刃，质重而刃锋，此为胚而锻之。使用者以独门绝技操练之，可得调其质重，可打多段，乃称唯一。<br/>言：飞镰若转月，拂水生连珠。"
+      },
+      {
+        "weapon": "岭外飞燕",
+        "name": "燕返刃",
+        "img": "Weapon_108702",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，燕子逞翱翔。微志在雕梁。碧云举翮千里，其奈有鸾皇。自时降住，一切天魔，扫地焚香。<br/>传，飞燕门继承者，可得刀轮名为燕返，其形似双燕，虽为赤金所制，但操持轻盈而多变。锋利无比，来去自如，又名无情刃。<br/>言：江烟追碧云，清明燕子归。"
+      },
+      {
+        "weapon": "岭外飞燕",
+        "name": "星幻鳞刃",
+        "img": "Weapon_108703",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，星星仙语人听尽，却向五云翻翅飞。<br/>传，定土之边有深崖，曾有星辰坠入其中，而后燃大火百年，崖下玄石炼出鳞纹。有能匠取其为材，打造为双手刀轮，挥之有火焰破空，能灼身而不灭。<br/>言，流星透云幕，鳞光灼长身。"
+      },
+      {
+        "weapon": "岭外飞燕",
+        "name": "弦月云刀",
+        "img": "Weapon_108704",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，日月光华。弘于一人。日月有常。星辰有行。<br/>传，明霭有上神，居于月下，常采撷月光为刃，赠以定土良将，平天下纷乱。后此物流传于世，自寻良主。持之有上神魂灵庇佑，流光在肩，可劈山裂地，慑妖鬼之道。<br/>言，刃寒光走月，回炎灼行云。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "岭外飞燕",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "岭外飞燕",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "岭外飞燕",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "岭外飞燕",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_068",
+        "name": "东山归鸿阵",
+        "unlock_condition": "阵眼岭外飞燕位阶35级，五内烈陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1087_HeadIcon_Basic",
+        "icon1": "assassin",
+        "icon2": "guard",
+        "icon3": "",
+        "desc": "上阵岭外飞燕和「御风」，「铁卫」英灵至少各一名时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提升15%，主动攻击「对战后」额外附加1次「固定伤害」（目标当前气血*20%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "回光银环",
+        "img": "Weapon_108705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "自身携带「起手式」状态时，物攻提高<b><color=#e4462c>5%</color></b>。触发「旋刃」状态后恢复<b><color=#e4462c>30%</color></b>气血。"
+      },
+      {
+        "name": "回光银环",
+        "img": "Weapon_108705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "自身携带「起手式」状态时，物攻提高<b><color=#e4462c>6%</color></b>。触发「旋刃」状态后恢复<b><color=#e4462c>30%</color></b>气血。"
+      },
+      {
+        "name": "回光银环",
+        "img": "Weapon_108705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "自身携带「起手式」状态时，物攻提高<b><color=#e4462c>7%</color></b>。触发「旋刃」状态后恢复<b><color=#e4462c>30%</color></b>气血。"
+      },
+      {
+        "name": "回光银环",
+        "img": "Weapon_108705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "自身携带「起手式」状态时，物攻提高<b><color=#e4462c>8%</color></b>。触发「旋刃」状态后恢复<b><color=#e4462c>30%</color></b>气血。"
+      },
+      {
+        "name": "回光银环",
+        "img": "Weapon_108705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "自身携带「起手式」状态时，物攻提高<b><color=#e4462c>10%</color></b>。触发「旋刃」状态后恢复<b><color=#e4462c>30%</color></b>气血。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "绮罗天香·雾",
+        "percent": "0.239709443099274"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.208232445520581"
+      },
+      {
+        "name": "冰蠺玉带·雾",
+        "percent": "0.171912832929782"
+      },
+      {
+        "name": "八荒灵石·烟",
+        "percent": "0.121065375302663"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.227602905569007"
+      },
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.150121065375303"
+      },
+      {
+        "name": "乌光燧珏·烟",
+        "percent": "0.121065375302663"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.138014527845036"
+      },
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.123486682808717"
+      },
+      {
+        "name": "五尊神令",
+        "percent": "0.106537530266344"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "熏风",
+        "percent": "0.135593220338983"
+      },
+      {
+        "name": "夜雨·尘",
+        "percent": "0.130750605326877"
+      },
+      {
+        "name": "和光同尘",
+        "percent": "0.130750605326877"
+      }
+    ]
+  }
+]

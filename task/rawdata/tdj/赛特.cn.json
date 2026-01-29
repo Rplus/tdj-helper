@@ -1,0 +1,409 @@
+[
+  {
+    "name": "赛特",
+    "is_new": "",
+    "pinyin": "saite",
+    "weight": "1260",
+    "source": "轩辕剑联动角色",
+    "pic": "Hero2019_img",
+    "prop_icon": "Fire",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "207",
+    "magic_attack": "13",
+    "physical_attack": "108",
+    "magic_defense": "22",
+    "physical_defense": "36",
+    "huixin": "24",
+    "inherent": "Gift_144",
+    "inherent_name": "火神降临",
+    "star1": "",
+    "star2": "",
+    "star3": "气血越高，伤害、炎属相免伤越高（最高10%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019042 bgcolor=#3a85ffff>「重击·崩山」</link>。",
+    "star4": "气血越高，伤害、炎属相免伤越高（最高15%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019042 bgcolor=#3a85ffff>「重击·崩山」</link>。",
+    "star5": "气血越高，伤害、炎属相免伤越高（最高20%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019043 bgcolor=#3a85ffff>「重击·崩山」</link>。",
+    "star6": "气血越高，伤害、炎属相免伤越高（最高25%）。主动攻击造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。主动攻击「对战中」有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742019043 bgcolor=#3a85ffff>「重击·崩山」</link>。",
+    "story_name": "异乡儿",
+    "story_content": "乌碧双瞳貌惊异，利刃出鞘斩不平。<br/>远道西来水乡客，为报君恩寻国法。<br/>神威志士乱神名，同为人子何相残？<br/>满目皆为不义事，我辈东行求天道！",
+    "hero_icon": "Hero2019_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1004",
+        "name": "无方飞剑",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。"
+      },
+      {
+        "img": "Skill_Fire_1004",
+        "name": "炎之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态的目标对战，「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1536",
+        "name": "蛟龙翻身",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴击伤害提升7%，若本次攻击未造成暴击则获得<link type=buff value=742019035 bgcolor=#3a85ffff>「蓄劲」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1535",
+        "name": "炙炎旋流",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对范围内的所有友方施加<link type=buff value=742019030 bgcolor=#3a85ffff>「火佑」</link>状态，炎属相友方额外获得<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1532",
+        "name": "虚影斩",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "<br/>对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，施加<link type=buff value=700000991 bgcolor=#3a85ffff>「麻痹」</link>状态，持续<b><color=#e4462c>2</color></b>回合。造成伤害后在目标附近召唤<b><color=#e4462c>1</color></b>个「分身」。（「分身」继承自身<b><color=#e4462c>100%</color></b>属性，携带「天狼巽闪」「霸王崩山劲」「蛟龙翻身」。「分身」死亡时，驱散召唤者<b><color=#e4462c>2</color></b>个「有害状态」并恢复<b><color=#e4462c>50%</color></b>气血，「分身」最多同时存在<b><color=#e4462c>1</color></b>个）。"
+      },
+      {
+        "img": "EXSkill_1533",
+        "name": "天狼巽闪",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，暴击伤害提升<b><color=#e4462c>15%</color></b>，本次攻击「对战中」若受到致命伤害免除死亡。「对战后」恢复<b><color=#e4462c>100%</color></b>气血，且可以从自身<b><color=#e4462c>3</color></b>格内，选择<b><color=#e4462c>1</color></b>个友方进行位置互换。"
+      },
+      {
+        "img": "Skill_Fire_1011",
+        "name": "流火",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1534",
+        "name": "霸王崩山劲",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "两侧4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害，暴击率提高<b><color=#e4462c>30%</color></b>，与目标距离每多<b><color=#e4462c>1</color></b>格，则伤害衰减<b><color=#e4462c>10%</color></b>，若目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态则暴击伤害额外提高<b><color=#e4462c>15%</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "赛特",
+        "name": "阔剑",
+        "img": "Weapon_201901",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，二十四仗驱熊貔，长殳阔剑梢魍夔。<br/>身短如匕，而宽如剑身。古为达官显贵之证，今骁勇者皆可操使，灵巧可击，厚重可御，为强兵也。<br/>言，征人无归时，血涌染剑身。"
+      },
+      {
+        "weapon": "赛特",
+        "name": "长剑",
+        "img": "Weapon_201902",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，抚剑夜吟啸,雄心日千里。<br/>逾六尺，非两手不可制。善此兵者，巧腕如挥巾，定神如冥思，疾行赛东风。亡于剑下者，唯见银光突刺，血未寒而魂归矣。<br/>言，西来刃如霜，素匣藏流光。"
+      },
+      {
+        "weapon": "赛特",
+        "name": "龙泉",
+        "img": "Weapon_201903",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，金羁络骏马，锦带横龙泉。<br/>原名龙渊，古名匠欧冶子及干将共铸此剑，观其状，如登高山，临深渊，故得此名。斩铜剁铁，似削泥捣浆。后忌高祖之名，故改「渊」为「泉」。<br/>言，七星临池，剑指龙渊。"
+      },
+      {
+        "weapon": "赛特",
+        "name": "雪浪剑",
+        "img": "Weapon_201904",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，云涛雪浪渺无边，凛剑冰光似江寒。<br/>奇兵也，鲜有出鞘。刃出，则若早冬忽至，幽寒阵阵，剑气化霜，敌者未御，气衰三分。<br/>言，刃霜舞冰莹，雪浪沉天寒。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "赛特",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "赛特",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "赛特",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "赛特",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_054",
+        "name": "玄雷淬火阵",
+        "unlock_condition": "阵眼赛特位阶35级，五内魂陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero2019_HeadIcon_Basic",
+        "icon1": "shadow",
+        "icon2": "electricity",
+        "icon3": "",
+        "desc": "上阵赛特和「暗」，「雷」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身气血越高，伤害和暴击率越高（最高8%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "轩辕剑",
+        "img": "Weapon_201905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>5%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>20%</color></b>）。"
+      },
+      {
+        "name": "轩辕剑",
+        "img": "Weapon_201905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>6%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>20%</color></b>）。"
+      },
+      {
+        "name": "轩辕剑",
+        "img": "Weapon_201905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>7%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>25%</color></b>）。"
+      },
+      {
+        "name": "轩辕剑",
+        "img": "Weapon_201905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>8%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>25%</color></b>）。"
+      },
+      {
+        "name": "轩辕剑",
+        "img": "Weapon_201905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「燃烧」状态的单位时，物攻提高<b><color=#e4462c>10%</color></b>。主动攻击造成暴击后恢复自身气血（自身最大气血的<b><color=#e4462c>30%</color></b>）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.29532403609516"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.274815422477441"
+      },
+      {
+        "name": "寰光剑玉",
+        "percent": "0.128794093519278"
+      },
+      {
+        "name": "冰蟾串珠·烟",
+        "percent": "0.125512715340443"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.222313371616079"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.103970390309556"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.214737550471063"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.183781965006729"
+      },
+      {
+        "name": "天穹剑印",
+        "percent": "0.178398384925975"
+      },
+      {
+        "name": "寰光佩环",
+        "percent": "0.159555854643337"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.213289581624282"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.15422477440525"
+      },
+      {
+        "name": "藏龙玉带",
+        "percent": "0.137817883511075"
+      }
+    ]
+  }
+]

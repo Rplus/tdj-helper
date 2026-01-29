@@ -1,0 +1,382 @@
+[
+  {
+    "name": "春兰",
+    "is_new": "",
+    "weight": "710",
+    "pinyin": "chunlan",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1026_img",
+    "prop_icon": "Fire",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "炎",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "207",
+    "magic_attack": "13",
+    "physical_attack": "89",
+    "magic_defense": "38",
+    "physical_defense": "34",
+    "huixin": "34",
+    "inherent": "Gift_080",
+    "inherent_name": "福灵顺意",
+    "star1": "",
+    "star2": "",
+    "star3": "替相邻2格内友方承受所有攻击。回合开始时，若自身2格范围内存在其他友方，则获得<link type=buff value=741102620 bgcolor=#3a85ffff>「福灵」</link>状态，持续3回合。（间隔2回合触发）",
+    "star4": "替相邻2格内友方承受所有攻击。回合开始时，若自身2格范围内存在其他友方，则获得<link type=buff value=741102630 bgcolor=#3a85ffff>「福灵」</link>状态，持续3回合。（间隔2回合触发）",
+    "star5": "替相邻2格内友方承受所有攻击。回合开始时，若自身2格范围内存在其他友方，则获得<link type=buff value=741102640 bgcolor=#3a85ffff>「福灵」</link>状态，持续3回合。（间隔2回合触发）",
+    "star6": "替相邻2格内友方承受所有攻击。回合开始时，若自身3格范围内存在其他友方，则获得<link type=buff value=741102650 bgcolor=#3a85ffff>「福灵」</link>状态，持续3回合。（间隔2回合触发）",
+    "story_name": "镜中花",
+    "story_content": "金陵雨季，檐下如瀑。<br/>雅座上座无虚席，大堂里倒是空旷得多。<br/>达官贵人出入华盖，照样夜夜笙歌，囊中平平的风流冤家倒是来客寥寥。<br/>春兰拿着把纱扇，掩着半张艳若桃李的小脸，在屏风后吃吃一笑，是了，浑身湿透怎能见得姑娘？人越是落魄，才越不肯露怯呢。<br/>楼上红粉佳人一曲靡靡，楼下白衣书生驻足听赏，春兰斜眼，随手投出个果子，险些将那红纸伞面砸穿。<br/>果子滴溜溜转到地上，被旁边的小乞儿捡走，他只顾着擦擦雨水狼吞虎咽，却忘了抬头见见眼前人。<br/>「公子~既然来了，何不进来瞧瞧？」春兰倚在窗边，扇子挥得欲拒还迎，「就是花费不起，好歹，把咱们老板娘的伞还回来呀~」<br/>纸伞一抬，那白衣书生却没有脸，似乎只是混沌的一团形容，一会儿变成老板娘，一会儿变成小乞儿，最后变成了楼里有名的小红牌。<br/>不施粉黛，不佩钗环，端庄空灵，是春兰，却更似楼里供的菩萨。<br/>那真正红牌手里跌扇，哎唷一声，一把推开窗格，带掉了支窗的叉竿：「好你个陈笙草！居然作弄起奴家来了，你上来，我叫你知道什么是谛听的手段！」<br/>那乞儿一惊，抬头见那书生捏指一笑，对楼上的女子说：「嘤嘤嘤~对自己也要下重手，姑娘真是好狠好狠的心呐！」",
+    "hero_icon": "Hero1026_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1210",
+        "name": "携善奉行",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前冲锋，攻击范围内所有敌人，造成<b><color=#e4462c>0.3</color></b>倍伤害。冲锋开始时携带起始点自身<b><color=#e4462c>1</color></b>格范围内物攻<b><color=#e4462c>/</color></b>法攻最高的<b><color=#e4462c>1</color></b>名友方，自身落在绝学射程最远可到达的格子上，并在后方放下，且共同获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1003",
+        "name": "冲锋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "进入「对战前」，每移动1格，物攻提高5%。（最多15%）"
+      },
+      {
+        "img": "Skill_Guard_1031",
+        "name": "回风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1211",
+        "name": "片言折狱",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]遭受攻击「对战前」，驱散目标<b><color=#e4462c>2</color></b>个「有益状态」（每回合触发<b><color=#e4462c>1</color></b>次）。<br/>对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，驱散<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "img": "EXSkill_1214",
+        "name": "破魅退魍",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」触发<link type=buff value=743003822 bgcolor=#3a85ffff>「撕裂」</link>状态，立刻造成<b><color=#e4462c>1</color></b>次伤害（「撕裂」状态层数<b><color=#e4462c>*</color></b>施加者<b><color=#e4462c>70%</color></b>的物攻）并施加<b><color=#e4462c>2</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1213",
+        "name": "瑶踏芳尘",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "遭受攻击「对战中」自身免伤提高15%（间隔1回合触发）。造成伤害后，若有剩余移动力，可再次移动。"
+      },
+      {
+        "img": "GPassive_1017",
+        "name": "地御符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，使相邻1格内物防属性最高的1个其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1212",
+        "name": "九气护象",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，护卫范围提高至<b><color=#e4462c>3</color></b>格，且自身周围<b><color=#e4462c>3</color></b>格张开领域<link type=buff value=743003801 bgcolor=#3a85ffff>「护象」</link>，持续<b><color=#e4462c>2</color></b>回合。<br/>"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "春兰",
+        "name": "白银铃",
+        "img": "Weapon_baiyinling",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，《阿弥陀经》中记载：金、银、琉璃、珊瑚、砗磲、赤珠、玛瑙乃佛教七宝。其中银器之光色可息灾难免难，因此若家中诞有幼儿，常在百日或周岁时饰以银锁祈祷平安，又名长命锁。此银铃受佛前供奉，佛荫笼罩，若以此驱邪避灾常有奇效。<br/>言：脆响久不散，振振唱平安。"
+      },
+      {
+        "weapon": "春兰",
+        "name": "暗金铃",
+        "img": "Weapon_anjinling",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，《阿弥陀经》中记载：金、银、琉璃、珊瑚、砗磲、赤珠、玛瑙乃佛教七宝。其中金乃平安康健之意，庙中佛祖菩萨常铸金身，表示“金身护体，百病不侵”。金光意为神佛法光，诸鬼辟易不能侵扰，可辟邪驱魔。<br/>言：旧金蕴典，静音希声。"
+      },
+      {
+        "weapon": "春兰",
+        "name": "御火石铃",
+        "img": "Weapon_yuhuoshiling",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "《山海经·西山经》载： 符禺之山 ，其兽多葱聋，其状如羊而赤鬣。其鸟多鴖，其状如翠而赤喙，可以御火。 <br/>符禺遗迹年久不可考，然有山民觅古鴖鸟骨骸，质轻，若凿阙，风过可听喁喁鸟鸣，铸成石铃可以音退火，乃不可多得之旷世奇珍。<br/>言：骨轻过火海，伶仃传清鸣。"
+      },
+      {
+        "weapon": "春兰",
+        "name": "百音摇魂",
+        "img": "Weapon_baiyinyaohun",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载：当时乍见惊心目，凝视谛听殊未足。<br/>此铃上雕凶兽，内蕴百声，摇之可见男女老少之音俶然起伏，俄而狂笑，俄而痛哭。传此铃为地府收纳冤喊鬼哭而作，若有冤情反复，其中证词可做分辨，腕间摇晃，可知人前百情矣。<br/>言：怯怯不敢语，切切刺骨声。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "春兰",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "春兰",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "春兰",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "春兰",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "卧听阑声",
+        "img": "Weapon_yetunwangshu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "遭受攻击时，若自身移动力大于敌方，「对战中」免伤提高<b><color=#e4462c>5%</color></b>。造成伤害后额外施加<b><color=#e4462c>1</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "卧听阑声",
+        "img": "Weapon_yetunwangshu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "遭受攻击时，若自身移动力大于敌方，「对战中」免伤提高<b><color=#e4462c>6%</color></b>。造成伤害后额外施加<b><color=#e4462c>1</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "卧听阑声",
+        "img": "Weapon_yetunwangshu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "遭受攻击时，若自身移动力大于敌方，「对战中」免伤提高<b><color=#e4462c>7%</color></b>，且反击射程<b><color=#e4462c>+1</color></b>。造成伤害后额外施加<b><color=#e4462c>1</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "卧听阑声",
+        "img": "Weapon_yetunwangshu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "遭受攻击时，若自身移动力大于敌方，「对战中」免伤提高<b><color=#e4462c>8%</color></b>，且反击射程<b><color=#e4462c>+1</color></b>。造成伤害后额外施加<b><color=#e4462c>1</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "卧听阑声",
+        "img": "Weapon_yetunwangshu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "遭受攻击时，若自身移动力大于敌方，「对战中」免伤提高<b><color=#e4462c>10%</color></b>，且反击射程<b><color=#e4462c>+1</color></b>。造成伤害后额外施加<b><color=#e4462c>1</color></b>层「撕裂」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.311023622047244"
+      },
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.104330708661417"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.369094488188976"
+      },
+      {
+        "name": "寒月玉镯",
+        "percent": "0.101377952755906"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.30511811023622"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.167913385826771"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.16003937007874"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.28255033557047"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.158389261744966"
+      },
+      {
+        "name": "刹那·烟",
+        "percent": "0.148228346456692"
+      }
+    ]
+  }
+]

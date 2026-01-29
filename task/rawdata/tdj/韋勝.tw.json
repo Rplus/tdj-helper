@@ -1,0 +1,305 @@
+[
+  {
+    "name": "韋勝",
+    "is_new": "0",
+    "weight": "60",
+    "pinyin": "weisheng",
+    "source": "神魔至尊傳登場角色",
+    "pic": "Hero1218_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Guard",
+    "rarity": "R",
+    "position": "坦克",
+    "prop": "雷",
+    "career": "鐵衛",
+    "range": "1",
+    "speed": "3",
+    "qixue": "179",
+    "magic_attack": "8",
+    "physical_attack": "65",
+    "magic_defense": "18",
+    "physical_defense": "29",
+    "huixin": "15",
+    "inherent": "Gift_047",
+    "inherent_name": "驍勇善戰",
+    "star1": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升5%。",
+    "star2": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升6%。",
+    "star3": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升8%。",
+    "star4": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升10%。",
+    "star5": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升12%。",
+    "star6": "替周圍2格友方承受攻擊。<br/>若自身2格有隊友，則遭受攻擊「對戰中」物攻和物防提升15%。",
+    "story_name": "掌印",
+    "story_content": "<br/>韋勝天生就是將才——<br/>三歲從文，四歲習武，鄉裡聞名。<br/>十七參軍，十八戍邊，一戰成名。<br/>他渴望戎馬一生，<br/>渴望同鄉會裡英傑輩出，能相協遠征，戰死無悔。<br/>他渾身鐵骨錚錚，<br/>人人稱服，卻為鋒芒畢露而遭到無情打擊……<br/>他才明白，軍中生涯遠非他所想的那麼簡單。<br/>直到他闖進大帳，<br/>親眼目睹這一切——<br/>弟兄們浴血殺敵，將領們卻在帳中歡飲。<br/>……<br/>大帳內傾灑一地的，並非葡萄美酒。<br/>這殷紅的，波動的，流淌的，<br/>是吹角聲中護旗兵揮舞著的大宋軍旗。<br/>軍中漸漸傳開，大將因通敵敗露以死謝罪，<br/>眾軍推舉韋勝掌印。<br/>有人倒下，就有人站起來，<br/>不過有個秘密，暫時要由韋勝獨自保管了……",
+    "hero_icon": "Hero1218_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破衝",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，自身獲得<link type=buff value=700000551 bgcolor=#3a85ffff>「復仇」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Electricity_1012",
+        "name": "傳導",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成傷害後，對目標施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1006",
+        "name": "犀甲",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「對戰中」物防提高7%。"
+      },
+      {
+        "img": "GPassive_1029",
+        "name": "貫甲奇謀",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，對自身3格範圍內物攻/法攻屬性最高的2個敵人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蝕禦」</link>，持續1回合。"
+      },
+      {
+        "img": "Skill_Guard_1004",
+        "name": "破陣威壓",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成的1倍傷害，「對戰前」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄勢化甲",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[氣力技]若遭受近戰攻擊前已有2點氣力，則消耗所有氣力觸發：減免本次對戰傷害40%。<br/>[氣力獲得]每遭受1次傷害累積1點氣力"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "鑌鐵雙鐧",
+        "img": "weapon_xuantieshuangjian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，雙鐧，冷兵也。其質重，非力大之人不能運用自如，殺傷力十分可觀。形似硬鞭，狀如竹節，其重因操持者而異。<br/>經良材打造而成，其鑄法現存世可見。<br/>傳，鑌鐵雙鐧，為操持鐧武者入門之兵，至奇能異士之手，以修雷心得運用至雙鐧之中，故威力增強，不容小覷。"
+      },
+      {
+        "name": "青鋼雙鐧",
+        "img": "weapon_pojinshuangjian",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反擊傷害提升5%",
+        "rarity": "R",
+        "desc": "載，開府剛腸破金鐧，將軍直氣壓群才。<br/>經「烏金玄鐵」打造而成，其鑄法於「列星」可見。<br/>傳，青鋼雙鐧，鑄法神奇，其質堅而勢沉，擊覆甲之人可震裂其五臟六腑。其乃萬軍之首操持之兵。言：千軍獨掃人共驚，八面俱來我何懼。"
+      },
+      {
+        "name": "玄鐵雙鐧",
+        "img": "weapon_zidianshuangjian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
+        "rarity": "SR",
+        "desc": "載，紫電龍光飛武庫，雕甍甲第列侯家。<br/>經「化淵玉鋼」打造而成，其鑄法於「列星」可見。<br/>傳，玄鐵雙鐧，鑄煉時曾引入紫電之氣，成焰色。操持者，可運其灼然，兼具使敵體身受電灼麻痹之效。"
+      },
+      {
+        "name": "修羅雙鐧",
+        "img": "weapon_xiuluoshuangjian",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，紫電龍光飛武庫，雕甍甲第列侯家。<br/>經「化淵玉鋼」打造而成，其鑄法於「列星」可見。<br/>傳，紫電雙鐧，因鑄煉時引入紫電之氣，鍍雙鐧紫煞之色，故得紫電之名。操持者，可運紫電灼然，兼具使敵體身受電灼麻痹之效。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_xuantiekui",
+        "name": "玄鐵盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baoganghuanjia",
+        "name": "薄鋼環甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_jingtieyaodai",
+        "name": "精鐵腰帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·霧",
+        "percent": "0.3077"
+      },
+      {
+        "name": "八荒靈石·塵",
+        "percent": "0.3077"
+      },
+      {
+        "name": "朱焰妖瞳·霧",
+        "percent": "0.1538"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "紫霄戒·塵",
+        "percent": "0.2143"
+      },
+      {
+        "name": "血參靈玉·塵",
+        "percent": "0.2143"
+      },
+      {
+        "name": "紫霄戒·煙",
+        "percent": "0.1429"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龍涎香囊·煙",
+        "percent": "0.3636"
+      },
+      {
+        "name": "紫月香囊·煙",
+        "percent": "0.2727"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "夜雨·霧",
+        "percent": "0.4167"
+      },
+      {
+        "name": "熏風",
+        "percent": "0.25"
+      },
+      {
+        "name": "夜雨·煙",
+        "percent": "0.1667"
+      }
+    ]
+  }
+]

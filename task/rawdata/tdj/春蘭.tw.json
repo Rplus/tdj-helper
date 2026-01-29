@@ -1,0 +1,366 @@
+[
+  {
+    "name": "春蘭",
+    "is_new": 1,
+    "weight": "710",
+    "pinyin": "chunlan",
+    "source": "天地劫手遊原創角色",
+    "pic": "Hero1026_img",
+    "prop_icon": "Fire",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "炎",
+    "career": "鐵衛",
+    "range": "1",
+    "speed": "3",
+    "qixue": "208",
+    "magic_attack": "14",
+    "physical_attack": "90",
+    "magic_defense": "39",
+    "physical_defense": "34",
+    "huixin": "34",
+    "inherent": "Gift_080",
+    "inherent_name": "福靈順意",
+    "star1": "",
+    "star2": "",
+    "star3": "替相鄰2格內友方承受所有攻擊。回合開始時，若自身2格範圍內存在其他友方，則獲得「福靈」狀態，持續3回合。（間隔2回合觸發）<br/>「福靈」：移動力+1，可跨越障礙，物攻的10%附加至物防、法防上（無法驅散）",
+    "star4": "替相鄰2格內友方承受所有攻擊。回合開始時，若自身2格範圍內存在其他友方，則獲得「福靈」狀態，持續3回合。（間隔2回合觸發）<br/>「福靈」：移動力+1，可跨越障礙，物攻的11%附加至物防、法防上（無法驅散）",
+    "star5": "替相鄰2格內友方承受所有攻擊。回合開始時，若自身2格範圍內存在其他友方，則獲得「福靈」狀態，持續3回合。（間隔2回合觸發）<br/>「福靈」：移動力+2，可跨越障礙，物攻的13%附加至物防、法防上（無法驅散）",
+    "star6": "替相鄰2格內友方承受所有攻擊。回合開始時，若自身3格範圍內存在其他友方，則獲得「福靈」狀態，持續3回合。（間隔2回合觸發）<br/>「福靈」：移動力+2，可跨越障礙，物攻的15%附加至物防、法防上（無法驅散）",
+    "story_name": "鏡中花",
+    "story_content": "金陵雨季，簷下如瀑。<br/>雅座上座無虛席，大堂裡倒是空曠得多。<br/>達官貴人出入華蓋，照樣夜夜笙歌，囊中平平的風流冤家倒是來客寥寥。<br/>春蘭拿著把紗扇，掩著半張豔若桃李的小臉，在屏風後吃吃一笑，是了，渾身濕透怎能見得姑娘？人越是落魄，才越不肯露怯呢。<br/>樓上紅粉佳人一曲靡靡，樓下白衣書生駐足聽賞，春蘭斜眼，隨手投出個果子，險些將那紅紙傘面砸穿。<br/>果子滴溜溜轉到地上，被旁邊的小乞兒撿走，他只顧著擦擦雨水狼吞虎嚥，卻忘了抬頭見見眼前人。<br/>「公子~既然來了，何不進來瞧瞧？」春蘭倚在窗邊，扇子揮得欲拒還迎，「就是花費不起，好歹，把咱們老闆娘的傘還回來呀~」<br/>紙傘一抬，那白衣書生卻沒有臉，似乎只是混沌的一團形容，一會兒變成老闆娘，一會兒變成小乞兒，最後變成了樓裡有名的小紅牌。<br/>不施粉黛，不佩釵環，端莊空靈，是春蘭，卻更似樓裡供的菩薩。<br/>那真正紅牌手裡跌扇，哎唷一聲，一把推開窗格，帶掉了支窗的叉竿：「好你個陳笙草！居然作弄起奴家來了，你上來，我叫你知道什麼是諦聽的手段！」<br/>那乞兒一驚，抬頭見那書生捏指一笑，對樓上的女子說：「嚶嚶嚶~對自己也要下重手，姑娘真是好狠好狠的心呐！」",
+    "hero_icon": "Hero1026_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1210",
+        "name": "攜善奉行",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線5格",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前衝鋒，攻擊範圍內所有敵人，造成0.3倍傷害。衝鋒開始時攜帶起始點自身1格範圍內物攻/法攻最高的1名友方，自身落在絕學射程最遠可到達的格子上，並在後方放下，且共同獲得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1003",
+        "name": "衝鋒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "進入「對戰前」，每移動1格，物攻提高5%。（最多15%）"
+      },
+      {
+        "img": "Skill_Guard_1031",
+        "name": "回風斬",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1211",
+        "name": "片言折獄",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被動]遭受攻擊「對戰前」，驅散目標2個「增益狀態」（每回合觸發1次）。<br/>對範圍內所有敵人造成0.5倍傷害，驅散1個「增益狀態」。"
+      },
+      {
+        "img": "EXSkill_1214",
+        "name": "破魅退魍",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，「對戰後」觸發「撕裂」狀態，立刻造成1次傷害（「撕裂」狀態層數*施加者70%的物攻）並施加2層「撕裂」狀態，持續2回合。<br/>「撕裂」：行動結束時，遭受1次傷害（施加者物攻的70%，上限7層，期間受到施加者的攻擊傷害，可疊加1層，無法擴散）"
+      },
+      {
+        "img": "EXSkill_1213",
+        "name": "瑤踏芳塵",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍級",
+        "desc": "遭受攻擊「對戰中」自身免傷提高15%（間隔1回合觸發）。造成傷害後，若有剩餘移動力，可再次移動。"
+      },
+      {
+        "img": "GPassive_1017",
+        "name": "地禦符",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "行動結束時，使相鄰1格內物防屬性最高的1個其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1212",
+        "name": "九氣護象",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，護衛範圍提高至3格，且自身周圍3格張開領域「護象」，持續2回合。<br/>「護象」：範圍內所有友方遭受「固定傷害」減免50%，且施術者自身免傷額外提高10%（無法驅散）<br/>"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "白銀鈴",
+        "img": "Weapon_baiyinling",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "傳，《阿彌陀經》中記載：金、銀、琉璃、珊瑚、硨磲、赤珠、瑪瑙乃佛教七寶。其中銀器之光色可息災難免難，因此若家中誕有幼兒，常在百日或周歲時飾以銀鎖祈禱平安，又名長命鎖。此銀鈴受佛前供奉，佛蔭籠罩，若以此驅邪避災常有奇效。<br/>言：脆響久不散，振振唱平安。"
+      },
+      {
+        "name": "暗金鈴",
+        "img": "Weapon_anjinling",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反擊傷害提升5%",
+        "rarity": "R",
+        "desc": "傳，《阿彌陀經》中記載：金、銀、琉璃、珊瑚、硨磲、赤珠、瑪瑙乃佛教七寶。其中金乃平安康健之意，廟中佛祖菩薩常鑄金身，表示“金身護體，百病不侵”。金光意為神佛法光，諸鬼辟易不能侵擾，可辟邪驅魔。<br/>言：舊金蘊典，靜音希聲。"
+      },
+      {
+        "name": "御火石鈴",
+        "img": "Weapon_yuhuoshiling",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%",
+        "rarity": "SR",
+        "desc": "《山海經·西山經》載： 符禺之山 ，其獸多蔥聾，其狀如羊而赤鬣。其鳥多鴖，其狀如翠而赤喙，可以御火。 <br/>符禺遺跡年久不可考，然有山民覓古鴖鳥骨骸，質輕，若鑿闕，風過可聽喁喁鳥鳴，鑄成石鈴可以音退火，乃不可多得之曠世奇珍。<br/>言：骨輕過火海，伶仃傳清鳴。"
+      },
+      {
+        "name": "百音搖魂",
+        "img": "Weapon_baiyinyaohun",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反擊傷害提升5%<br/>[通脈]受治療效果提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載：當時乍見驚心目，凝視諦聽殊未足。<br/>此鈴上雕凶獸，內蘊百聲，搖之可見男女老少之音俶然起伏，俄而狂笑，俄而痛哭。傳此鈴為地府收納冤喊鬼哭而作，若有冤情反復，其中證詞可做分辨，腕間搖晃，可知人前百情矣。<br/>言：怯怯不敢語，切切刺骨聲。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_huowenjinchai",
+        "name": "火紋金釵",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baoganghuanjia",
+        "name": "薄鋼環甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_yintangshuyao",
+        "name": "銀燙束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "遭受攻擊時，若自身移動力大於敵方，「對戰中」免傷提高<b><color=#e4462c>5%</color></b>。造成傷害後額外施加<b><color=#e4462c>1</color></b>層「撕裂」狀態，持續<b><color=#e4462c>2</color></b>回合。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "臥聽闌聲",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_wotinglanshen"
+      },
+      {
+        "desc": "遭受攻擊時，若自身移動力大於敵方，「對戰中」免傷提高<b><color=#e4462c>6%</color></b>。造成傷害後額外施加<b><color=#e4462c>1</color></b>層「撕裂」狀態，持續<b><color=#e4462c>2</color></b>回合。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "臥聽闌聲",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_wotinglanshen"
+      },
+      {
+        "desc": "遭受攻擊時，若自身移動力大於敵方，「對戰中」免傷提高<b><color=#e4462c>7%</color></b>，且反擊射程<b><color=#e4462c>+1</color></b>。造成傷害後額外施加<b><color=#e4462c>1</color></b>層「撕裂」狀態，持續<b><color=#e4462c>2</color></b>回合。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "臥聽闌聲",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_wotinglanshen"
+      },
+      {
+        "desc": "遭受攻擊時，若自身移動力大於敵方，「對戰中」免傷提高<b><color=#e4462c>8%</color></b>，且反擊射程<b><color=#e4462c>+1</color></b>。造成傷害後額外施加<b><color=#e4462c>1</color></b>層「撕裂」狀態，持續<b><color=#e4462c>2</color></b>回合。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "臥聽闌聲",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_wotinglanshen"
+      },
+      {
+        "desc": "遭受攻擊時，若自身移動力大於敵方，「對戰中」免傷提高<b><color=#e4462c>10%</color></b>，且反擊射程<b><color=#e4462c>+1</color></b>。造成傷害後額外施加<b><color=#e4462c>1</color></b>層「撕裂」狀態，持續<b><color=#e4462c>2</color></b>回合。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "臥聽闌聲",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_wotinglanshen"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "玄烏玉雕·塵",
+        "percent": "0.2871"
+      },
+      {
+        "name": "冰蠺玉帶·煙",
+        "percent": "0.1693"
+      },
+      {
+        "name": "飛泉鳴玉",
+        "percent": "0.131821403260099"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "寒月玉鐲",
+        "percent": "0.4755"
+      },
+      {
+        "name": "寰鳥戒",
+        "percent": "0.1751"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "琅環玉璧",
+        "percent": "0.2381"
+      },
+      {
+        "name": "鳳紋佩環",
+        "percent": "0.1227"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.2386"
+      },
+      {
+        "name": "行雲流水·塵",
+        "percent": "0.1967"
+      }
+    ]
+  }
+]

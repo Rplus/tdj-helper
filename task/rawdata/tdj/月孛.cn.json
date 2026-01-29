@@ -1,0 +1,405 @@
+[
+  {
+    "name": "月孛",
+    "is_new": "",
+    "pinyin": "yuebo",
+    "weight": "1190",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1067_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "幽",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "182",
+    "magic_attack": "13",
+    "physical_attack": "104",
+    "magic_defense": "23",
+    "physical_defense": "32",
+    "huixin": "38",
+    "inherent": "Gift_137",
+    "inherent_name": "暗月处决",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击时伤害和物理穿透提高8%。场上有角色死亡时获得<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，持续2回合。主动攻击若击杀敌人则重置随机1个伤害绝学冷却时间。",
+    "star4": "主动攻击时伤害和物理穿透提高10%。场上有角色死亡时获得<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，持续2回合。主动攻击若击杀敌人则重置随机1个伤害绝学冷却时间。",
+    "star5": "主动攻击时伤害和物理穿透提高12%。场上有角色死亡时获得<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，持续2回合。主动攻击若击杀敌人则重置随机1个伤害绝学冷却时间。",
+    "star6": "主动攻击时伤害和物理穿透提高15%。场上有角色死亡时获得<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，持续2回合。主动攻击若击杀敌人则重置随机1个伤害绝学冷却时间。",
+    "story_name": "第一天",
+    "story_content": "眠蚕初醒，月孛挣脱了幽垠、华氛同混沌的粘腻，以懵懂姿态诞于计都城中，彼时她的认知中还未曾有「人」的概念，她只是上神们呵出的第二口气。<br/>她被曾被规训过，却需烙上「眷族」的痕迹才能算开始活着，但没关系，现在她什么也不清楚、什么也不明白，她是这一刻的主人。<br/>「月孛。」紫炁这样叫她。<br/>虽是先有名字再有的她，但她依旧欢喜，不必分门别类，她只是月孛。<br/>紫炁是她认识的第一个同类，他同她讲女娲、罗睺和伏羲，讲上神们创命的伟业，讲计都城中将要诞生的同族，讲她身体中的无方之光和湮蚀之暗中掺入多少混沌。<br/>「管他们呢……让我做点什么吧，紫炁。」她不自觉打断了紫炁的话，她感到燥烦，指尖不安抖动，催促她把这无源怒火发泄出去。<br/>紫炁摸摸她的头，产生一种奇异的共鸣，她不似他生而知之，在这善恶未分的时刻，他为何不允许她享乐呢？谁又能定义这是堕落呢？<br/>「好。」他对她笑着说。",
+    "hero_icon": "Hero1067_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1492",
+        "name": "上弦刑定",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1</color></b>倍伤害，并发动「连击」（<b><color=#e4462c>0.5</color></b>倍伤害），「对战中」目标每携带<b><color=#e4462c>1</color></b>个「属性降低」类「有害状态」气血外全属性降低<b><color=#e4462c>10%</color></b>（最多降低<b><color=#e4462c>50%</color></b>）。"
+      },
+      {
+        "img": "Skill_Ranger_1004",
+        "name": "漫天箭雨",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害。使目标<b><color=#e4462c>1</color></b>个随机属性降低。"
+      },
+      {
+        "img": "GPassive_1026",
+        "name": "贯甲咒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身十字方向上7格内最近的1名敌人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蚀御I」</link>，持续1回合。"
+      },
+      {
+        "img": "GPassive_1044",
+        "name": "幽之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若携带的「有益状态」大于目标，则「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1494",
+        "name": "晦月擒拿",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "十字4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择单个敌人，将目标拉向自身<b><color=#e4462c>2</color></b>格，自身获得<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，持续<b><color=#e4462c>2</color></b>回合；若已携带<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，则获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1490",
+        "name": "幽镰回斩",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "十字3格",
+        "range": "十字3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并在目标十字<b><color=#e4462c>3</color></b>格范围内的敌方间弹射造成伤害，每弹射<b><color=#e4462c>1</color></b>次伤害降低<b><color=#e4462c>25%</color></b>（最多降低<b><color=#e4462c>50%</color></b>伤害），并施加<b><color=#e4462c>1</color></b>个随机属性降低。（当目标十字<b><color=#e4462c>3</color></b>格范围内不存在除施术者外的其他单位，可弹射至施术者，且施术者不受技能影响；最多弹射<b><color=#e4462c>5</color></b>次，且优先弹射未造成过伤害的目标。）"
+      },
+      {
+        "img": "EXSkill_1493",
+        "name": "盈月爆破",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，「对战前」复制目标<b><color=#e4462c>3</color></b>格内所有角色<b><color=#e4462c>2</color></b>个「有害状态」给目标；若自身携带<link type=buff value=741067030 bgcolor=#3a85ffff>「处刑」</link>状态，当次攻击物理穿透提高<b><color=#e4462c>30%</color></b>且目标无法发动「抵挡致命伤害」的效果。"
+      },
+      {
+        "img": "EXSkill_1491",
+        "name": "下弦断错",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5*3中线镂空",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001402 bgcolor=#3a85ffff>「断步I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，夺取所有目标最多<b><color=#e4462c>2</color></b>个「有益状态」，若夺取数量达上限则额外对其施加<b><color=#e4462c>2</color></b>个随机属性降低；绝学后自身获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "月孛",
+        "name": "映雪飞镰",
+        "img": "Weapon_106701",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，雪暗穷海云，洒空纷似露。<br/>山林雾海，不见人踪。忽现飞镰，横锁长空，暗刃映红，雪染红流。<br/>言：暗云出飞刃，红霜沁寒锁。"
+      },
+      {
+        "weapon": "月孛",
+        "name": "蚀骨腐刃",
+        "img": "Weapon_106702",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，月孛喜以猎物之苦为己乐。附毒于刃，若触及人骨，毒渗其中，噬髓殆尽。剧痛钻心，如炙烤后的铁链穿心而过，灼魂断魄，为时人所忌惮。<br/>言：玉钩藏毒刃，骨蚀生魂散。"
+      },
+      {
+        "weapon": "月孛",
+        "name": "飞羽焚魄",
+        "img": "Weapon_106703",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，无复归飞羽,空悲沙塞尘。<br/>传有计都之鸟，羽翼如黑夜无光，而又可见荧光阵阵。今有仿其形制而为刃者，挥链如疾鸟，而不易折断，取人首而无声。江湖传为焚魄之幽羽也。<br/>言：乌羽噤声掠，命消微如尘。"
+      },
+      {
+        "weapon": "月孛",
+        "name": "锁魂冥刃",
+        "img": "Weapon_106704",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，魂魄结兮天沉沉,鬼神聚兮云幂幂 。<br/>古有嗜集敌尸骨者，征战数载，而将藏物制为八尺长链。因怨念聚汇其上，而御使者反成镰刃之傀儡，干戈不息，乃至仅剩无魂残躯，亦不能止。<br/>言：亡魄戏傀儡，冥刃锁生魂。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "月孛",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "月孛",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "月孛",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "月孛",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_049",
+        "name": "暗月斗灵阵",
+        "unlock_condition": "阵眼月孛位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1067_HeadIcon_Basic",
+        "icon1": "melee",
+        "icon2": "guard",
+        "icon3": "",
+        "desc": "上阵月孛和「斗将」，「铁卫」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。与携带「属性降低」类「有害状态」的敌方「对战中」伤害和免伤提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "荆炎血镰",
+        "img": "Weapon_106705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「处刑」状态时，物攻提高<b><color=#e4462c>5%</color></b>。主动攻击后对气血低于<b><color=#e4462c>50%</color></b>的目标额外造成1次「固定伤害」（目标已损失气血<b><color=#e4462c>*15%</color></b>）。"
+      },
+      {
+        "name": "荆炎血镰",
+        "img": "Weapon_106705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「处刑」状态时，物攻提高<b><color=#e4462c>6%</color></b>。主动攻击后对气血低于<b><color=#e4462c>50%</color></b>的目标额外造成1次「固定伤害」（目标已损失气血<b><color=#e4462c>*15%</color></b>）。"
+      },
+      {
+        "name": "荆炎血镰",
+        "img": "Weapon_106705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「处刑」状态时，物攻提高<b><color=#e4462c>7%</color></b>。主动攻击后对气血低于<b><color=#e4462c>60%</color></b>的目标额外造成1次「固定伤害」（目标已损失气血<b><color=#e4462c>*15%</color></b>）。"
+      },
+      {
+        "name": "荆炎血镰",
+        "img": "Weapon_106705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「处刑」状态时，物攻提高<b><color=#e4462c>8%</color></b>。主动攻击后对气血低于<b><color=#e4462c>60%</color></b>的目标额外造成1次「固定伤害」（目标已损失气血<b><color=#e4462c>*15%</color></b>）。"
+      },
+      {
+        "name": "荆炎血镰",
+        "img": "Weapon_106705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「处刑」状态时，物攻提高<b><color=#e4462c>10%</color></b>。主动攻击后对气血低于<b><color=#e4462c>70%</color></b>的目标额外造成1次「固定伤害」（目标已损失气血<b><color=#e4462c>*15%</color></b>）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "凤翼神坠",
+        "percent": "0.224080015097188"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.179071522928854"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.155010379316852"
+      },
+      {
+        "name": "如意珠翠",
+        "percent": "0.136327608982827"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.30096244574448"
+      },
+      {
+        "name": "御波灵戒",
+        "percent": "0.19926401207775"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.161709756557841"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "荆羽覆心",
+        "percent": "0.299641441781468"
+      },
+      {
+        "name": "清神净玉",
+        "percent": "0.140007548594074"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "荆羽利刹",
+        "percent": "0.388884695225514"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.244064917909039"
+      },
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.242366484242309"
+      }
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "name": "宇文拓",
+    "is_new": 1,
+    "weight": "510",
+    "pinyin": "yuwentuo",
+    "source": "軒轅劍聯動角色",
+    "pic": "Hero2004_img",
+    "prop_icon": "Fire",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "俠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "200",
+    "magic_attack": "14",
+    "physical_attack": "106",
+    "magic_defense": "22",
+    "physical_defense": "38",
+    "huixin": "34",
+    "inherent": "Gift_065",
+    "inherent_name": "拂曉昆侖",
+    "star1": "",
+    "star2": "",
+    "star3": "自身3格範圍內，每有1個角色，物攻提高3%（最多提高9%）。釋放絕學後，對絕學範圍內的所有格子施加「真炎」效果，持續2回合。<br/>「真炎」：真炎內的敵方角色，行動結束時，損失24%氣血",
+    "star4": "自身3格範圍內，每有1個角色，物攻提高4%（最多提高12%）。釋放絕學後，對絕學範圍內的所有格子施加「真炎」效果，持續2回合。<br/>「真炎」：真炎內的敵方角色，行動結束時，損失24%氣血",
+    "star5": "自身3格範圍內，每有1個角色，物攻提高5%（最多提高15%）。釋放絕學後，對絕學範圍內的所有格子施加「真炎」效果，持續2回合。<br/>「真炎」：真炎內的敵方角色，行動結束時，損失24%氣血",
+    "star6": "自身3格範圍內，每有1個角色，物攻提高6%（最多提高18%）。釋放絕學後，對絕學範圍內的所有格子施加「真炎」效果，持續3回合。<br/>「真炎」：真炎內的敵方角色，行動結束時，損失24%氣血",
+    "story_name": "揚名",
+    "story_content": "黃沙起，獵獵旌旗卷平崗。<br/>抬手落，煌煌一劍定乾坤。<br/>濟世壯志今日起，宇文太師天下知。",
+    "hero_icon": "Hero2004_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1138",
+        "name": "焚天烈斬",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.4倍傷害，「對戰前」驅散目標2個「增益狀態」。"
+      },
+      {
+        "img": "Skill_Swordsman_1009",
+        "name": "蓄勢",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時若本回合未進入對戰，自身獲得「起勢」狀態，持續1回合。<br/>「起勢」：移動力+1，可跨越障礙"
+      },
+      {
+        "img": "GPassive_1008",
+        "name": "預見",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動攻擊「對戰中」物防，法防+10%。"
+      },
+      {
+        "img": "EXSkill_1137",
+        "name": "撥亂誅暴",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線4格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺並到達作用範圍（4格）最遠可到達的格子上，對範圍內所有敵人造成0.5倍傷害，獲得「龍驤」狀態。<br/>「龍驤」：遭受近戰攻擊「對戰前」自身恢復20%氣血，且「對戰中」發動「先攻」（觸發後消耗，觸發時若處於己方「真炎」地形額外恢復20%氣血，不可驅散）"
+      },
+      {
+        "img": "EXSkill_1135",
+        "name": "地龍陰火",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，自身周圍3格張開領域「地火焚獄」，持續2回合。<br/>「地火焚獄」：若敵人行動結束時，位於施加者3格範圍內，驅散2個「增益狀態」，並受到1次「固定傷害」（施術者物攻的15%，無法驅散）"
+      },
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避實就虛",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成0.6倍傷害，並發動「追擊」（1倍傷害），「對戰前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1139",
+        "name": "燼滅",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍級",
+        "desc": "造成傷害後，若目標已經攜帶<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，則立刻造成12%最大氣血的「固定傷害」，否則施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1136",
+        "name": "軒轅天罰",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "從天而降，對3格範圍內所有敵人造成0.7倍傷害，使目標身上2個「增益狀態」變為隨機「減益狀態」，並施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。<br/>[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害累積1點氣力，若行動結束時，處於己方「真炎」地形，額外獲得1點氣力）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "青釭劍",
+        "img": "weapon_qingangjian2",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，舉頭西北追浮雲，倚天萬里須長劍。<br/>傳，青釭劍，以青銅與鋼鐵交互鍛冶而成，劍身會泛出青光，為歷代將相豪俠所佩之物。言，斧鑿開三川，掘鐵鑄清霜。"
+      },
+      {
+        "name": "千月星痕",
+        "img": "weapon_qianyuexingheng",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "載，卻跨玉虹歸去,看洞天星月。<br/>傳，千月星痕，相傳為古時某名劍客經過長久的修煉，將化指為劍的奇功融煉至兵器之中而成為不可思議的武器。言，天散群星墜，遙遙一指痕。"
+      },
+      {
+        "name": "泰阿",
+        "img": "weapon_taie",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%",
+        "rarity": "SR",
+        "desc": "載：太阿自撫為知己，焦尾誰彈莫賞音。<br/>傳，泰阿，歐冶子和干將合力製作的三把劍中的其中之一；當你望著此劍的劍刃時你會覺得好像在看一座山，其勢之雄大便可想而知了。言：巍峨七尺鋒，社稷一劍量。<br/>"
+      },
+      {
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[決明]傷害提升5%<br/>[鶴唳]暴擊率提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載：戰訖天下定，一劍挽乾坤。<br/>傳，軒轅劍，上古十神器之一，黃金色之千年古劍，乃天界諸神賜予軒轅黃帝擊敗蚩尤之稀世神劍。其內蘊藏無窮之力，為斬妖除魔的神劍。言：天降黃金劍，除魔敵千鈞。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_shengshoulinglongguan",
+        "name": "聖獸玲瓏冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_qingbobaojia",
+        "name": "青薄寶甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_shencaojie",
+        "name": "神草結",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_wucanshoutao",
+        "name": "烏蠶手套",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "自身不攜帶「減益狀態」的情況下，治療效果提高<b><color=#e4462c>21%</color></b>。自身處於女媧石狀態時，免疫「減益狀態」。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian2",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "自身不攜帶「減益狀態」的情況下，治療效果提高<b><color=#e4462c>22%</color></b>。自身處於女媧石狀態時，免疫「減益狀態」。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian2",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "自身不攜帶「減益狀態」的情況下，治療效果提高<b><color=#e4462c>23%</color></b>。自身處於女媧石狀態時，免疫「減益狀態」。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian2",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "自身不攜帶「減益狀態」的情況下，治療效果提高<b><color=#e4462c>24%</color></b>。自身處於女媧石狀態時，免疫「減益狀態」。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian2",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "自身不攜帶「減益狀態」的情況下，治療效果提高<b><color=#e4462c>25%</color></b>。自身處於女媧石狀態時，免疫「減益狀態」。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "軒轅劍",
+        "img": "weapon_xuanyuanjian2",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "七色纓珞",
+        "percent": "0.2933"
+      },
+      {
+        "name": "冰蠺玉帶·煙",
+        "percent": "0.2111"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "幽都王璽",
+        "percent": "0.2267"
+      },
+      {
+        "name": "寰鳥戒",
+        "percent": "0.2212"
+      },
+      {
+        "name": "星河手環",
+        "percent": "0.161821891964733"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "五尊神令",
+        "percent": "0.2160"
+      },
+      {
+        "name": "靈越佩環·煙",
+        "percent": "0.1112"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.1952"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.1319"
+      },
+      {
+        "name": "月滿西樓",
+        "percent": "0.117968659762061"
+      },
+      {
+        "name": "行雲流水·塵",
+        "percent": "0.1088"
+      }
+    ]
+  }
+]

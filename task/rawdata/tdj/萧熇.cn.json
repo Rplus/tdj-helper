@@ -1,0 +1,390 @@
+[
+  {
+    "name": "萧熇",
+    "is_new": "",
+    "pinyin": "xiaohe",
+    "weight": "1180",
+    "source": "寰神结登场角色",
+    "pic": "Hero1320_img",
+    "prop_icon": "Fire",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "炎",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "251",
+    "magic_attack": "12",
+    "physical_attack": "86",
+    "magic_defense": "22",
+    "physical_defense": "44",
+    "huixin": "16",
+    "inherent": "Gift_135",
+    "inherent_name": "御战无双",
+    "star1": "",
+    "star2": "",
+    "star3": "自身3格内存在敌方时，物防提高12%。遭受攻击时，获得1层<link type=buff value=741320006 bgcolor=#3a85ffff>「御敌」</link>状态（上限4层），持续1回合，受到追击或连击时额外获得1层。「御敌」状态消失时，以3格范围内物攻/法攻最高的敌人为中心，对其2格范围内所有敌方造成1次「固定伤害」伤害（最大气血的12%），并施加1层<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star4": "自身3格内存在敌方时，物防提高16%。遭受攻击时，获得1层<link type=buff value=741320006 bgcolor=#3a85ffff>「御敌」</link>状态（上限4层），持续1回合，受到追击或连击时额外获得1层。「御敌」状态消失时，以3格范围内物攻/法攻最高的敌人为中心，对其2格范围内所有敌方造成1次「固定伤害」伤害（最大气血的12%），并施加1层<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star5": "自身3格内存在敌方时，物防提高20%。遭受攻击时，获得1层<link type=buff value=741320006 bgcolor=#3a85ffff>「御敌」</link>状态（上限4层），持续1回合，受到追击或连击时额外获得1层。「御敌」状态消失时，以3格范围内物攻/法攻最高的敌人为中心，对其2格范围内所有敌方造成1次「固定伤害」伤害（最大气血的12%），并施加1层<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star6": "自身3格内存在敌方时，物防提高25%。遭受攻击时，获得1层<link type=buff value=741320006 bgcolor=#3a85ffff>「御敌」</link>状态（上限4层），持续1回合，受到追击或连击时额外获得1层。「御敌」状态消失时，以3格范围内物攻/法攻最高的敌人为中心，对其2格范围内所有敌方造成1次「固定伤害」伤害（最大气血的12%），并施加1层<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "story_name": "隐于市",
+    "story_content": "「萧大人，您无需顾虑，我陈笙草和那一般的书生不同，不是冲着您父亲的名号来的。」<br/>不见！萧熇这十几年来，从没让那些想要打听萧家旧事、写作话本的书生踏入家门。今天也不能开这先例。<br/>然而......<br/>「我走开倒是方便，可萧大人，您就不想知道这十几年间，九仪天尊剑下落如何？剑邪殷千炀的名声，可指望着您来澄清啊！」<br/>九仪天尊剑？殷千炀？萧熇从没想到自己还能听到这两个名称。而剑邪，殷兄为何会有此等不祥的名号？<br/>「坐！上茶！陈书生，把知道的都说来听听。」<br/>痛失此生至爱，为复活爱人不惜堕入魔道；父子相残，最后关头却又接下了儿子的一击……<br/>殷兄，何以至此！可叹矣。萧熇痛饮杯中酒，心绪烦乱。<br/>那陈笙草却依然觍着张难以捉摸的笑脸。「大人，剑邪如此必是事出有因，只是江湖上都传他生性如此，实乃过分，小的也想找到事实真相，昭告世人呐。听说您亲历了寰神封剑一事，那不如......」<br/>「如果真的能还殷兄至少半生清白也好......先等我整理整理思绪。」",
+    "hero_icon": "Hero1320_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1005",
+        "name": "撞阵冲军",
+        "type": "物攻伤害",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>0.8</color></b>倍伤害，击退<b><color=#e4462c>2</color></b>格。施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1481",
+        "name": "疾狼掠风",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": " [被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，自身获得<link type=buff value=700000303 bgcolor=#3a85ffff>「护卫」</link>状态，持续<b><color=#e4462c>2</color></b>回合。张开领域<link type=buff value=741320100 bgcolor=#3a85ffff>「炎狱」</link>，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1484",
+        "name": "御勇",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受攻击「对战前」，每有1层<link type=buff value=741320006 bgcolor=#3a85ffff>「御敌」</link>状态使得反击射程+1（最高可提升2格）。若携带2层及以上「御敌」时，遭受攻击「对战中」触发「先攻」（每回合最多触发2次）。"
+      },
+      {
+        "img": "Skill_Guard_1007",
+        "name": "誓死捍卫",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高到<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破冲",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，自身获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1482",
+        "name": "萧门将令",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对单个其他友方释放，自身和目标获得<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000531 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，且目标额外获得<link type=buff value=741320201 bgcolor=#3a85ffff>「探敌」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若自身不携带「御敌」状态，立刻获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合，若自身携带「御敌」状态，则本回合自身「御敌」持续时间不减少。"
+      },
+      {
+        "img": "EXSkill_1483",
+        "name": "龙啸九天",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "释放前使自身物防的<b><color=#e4462c>100%</color></b>额外附加到物攻上，对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，施加<link type=buff value=741320302 bgcolor=#3a85ffff>「怵惕」</link>状态，持续<b><color=#e4462c>1</color></b>回合。若命中大于等于<b><color=#e4462c>3</color></b>个敌人时，自身获得<link type=buff value=743001541 bgcolor=#3a85ffff>「炎铠」</link>和<link type=buff value=700000301 bgcolor=#3a85ffff>「护卫」</link>状态，持续<b><color=#e4462c>3</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每遭受或造成<b><color=#e4462c>1</color></b>次伤害均可累积<b><color=#e4462c>1</color></b>点气力，<b><color=#e4462c>3</color></b>格范围内其他友方主动攻击后额外累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "萧熇",
+        "name": "凌空破",
+        "img": "Weapon_132001",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，排虚摧劲翮,横锐决浮烟。<br/>凌空击，越林啸，声振谷川。执枪者，志在万里，如鸿鹄展翅，不可阻之。<br/>言：征鹏凌云志，寒枪破远山。"
+      },
+      {
+        "weapon": "萧熇",
+        "name": "山河卫",
+        "img": "Weapon_132002",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，明月出天山，苍茫云海间。<br/>孤客出辽界，四海皆异土。抚枪长叹，但见故国山河纹。虽非神兵天武，可御王土，妖将魔兵不可犯也。<br/>言：独行出远地，陌土卫河山。"
+      },
+      {
+        "weapon": "萧熇",
+        "name": "饮血歌",
+        "img": "Weapon_132003",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，裹疮犹出阵，饮血更登陴。<br/>古有猛士，与百人豪勇共守孤城。百日援兵未至，而豪勇皆亡，独留猛士持金柄赤缨枪，浴血敌阵，千夫难尽。城终破，枪虽折而血涌其间。敌视之，乃退。<br/>言：九泉会英豪，饮血胜琼浆。"
+      },
+      {
+        "weapon": "萧熇",
+        "name": "寒天地煞",
+        "img": "Weapon_132004",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，马嘶斜日朔风急，雁过寒云边思长。<br/>凛铁铸枪身，冰华为枪头，仲夏至而寒气惊天。御者若无过人之豪情热血，恐为枪身凛寒所伤。有志者可放胆一试，以肝胆血汗换此枪臣服。<br/>言：寒枪封五湖，血火御凛风。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "萧熇",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "萧熇",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "萧熇",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "萧熇",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "龙炎天灭",
+        "img": "Weapon_132005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "遭受攻击「对战前」<b><color=#e4462c>50%</color></b>概率获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合。若自身气血低于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」恢复<b><color=#e4462c>30%</color></b>气血，且每多<b><color=#e4462c>1</color></b>层「御敌」状态额外回复<b><color=#e4462c>5%</color></b>气血，并驱散<b><color=#e4462c>1</color></b>个「有害状态」（每回合最多触发<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "龙炎天灭",
+        "img": "Weapon_132005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "遭受攻击「对战前」<b><color=#e4462c>60%</color></b>概率获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合。若自身气血低于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」恢复<b><color=#e4462c>30%</color></b>气血，且每多<b><color=#e4462c>1</color></b>层「御敌」状态额外回复<b><color=#e4462c>5%</color></b>气血，并驱散<b><color=#e4462c>1</color></b>个「有害状态」（每回合最多触发<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "龙炎天灭",
+        "img": "Weapon_132005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "遭受攻击「对战前」<b><color=#e4462c>70%</color></b>概率获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合。若自身气血低于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」恢复<b><color=#e4462c>30%</color></b>气血，且每多<b><color=#e4462c>1</color></b>层「御敌」状态额外回复<b><color=#e4462c>5%</color></b>气血，并驱散<b><color=#e4462c>1</color></b>个「有害状态」（每回合最多触发<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "龙炎天灭",
+        "img": "Weapon_132005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "遭受攻击「对战前」<b><color=#e4462c>80%</color></b>概率获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合。若自身气血低于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」恢复<b><color=#e4462c>30%</color></b>气血，且每多<b><color=#e4462c>1</color></b>层「御敌」状态额外回复<b><color=#e4462c>5%</color></b>气血，并驱散<b><color=#e4462c>1</color></b>个「有害状态」（每回合最多触发<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "龙炎天灭",
+        "img": "Weapon_132005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "遭受攻击「对战前」<b><color=#e4462c>100%</color></b>概率获得<b><color=#e4462c>1</color></b>层「御敌」状态，持续<b><color=#e4462c>1</color></b>回合。若自身气血低于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」恢复<b><color=#e4462c>30%</color></b>气血，且每多<b><color=#e4462c>1</color></b>层「御敌」状态额外回复<b><color=#e4462c>5%</color></b>气血，并驱散<b><color=#e4462c>1</color></b>个「有害状态」（每回合最多触发<b><color=#e4462c>1</color></b>次）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.261434599156118"
+      },
+      {
+        "name": "天石命坠",
+        "percent": "0.256540084388185"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.132573839662447"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.369873417721519"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.269535864978902"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "天石云佩",
+        "percent": "0.252151898734177"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.135105485232067"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.130717299578059"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.34597327555074"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.250801687763713"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.142289635247382"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.118509468540012"
+      }
+    ]
+  }
+]

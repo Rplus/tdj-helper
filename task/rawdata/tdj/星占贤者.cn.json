@@ -1,0 +1,405 @@
+[
+  {
+    "name": "星占贤者",
+    "is_new": "",
+    "weight": "990",
+    "pinyin": "xingzhanxianzhe",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1050_img",
+    "prop_icon": "Light",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "光",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "179",
+    "magic_attack": "99",
+    "physical_attack": "12",
+    "magic_defense": "36",
+    "physical_defense": "29",
+    "huixin": "37",
+    "inherent": "Gift_116",
+    "inherent_name": "经纬星穹",
+    "star1": "",
+    "star2": "",
+    "star3": "每携带1个「有益状态」，法攻提高3%（最多提高9%）。场上每有一个友方角色使用绝学后，获得1点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>（上限10点）。当携带足量「星屑」时行动结束前，可选择<link type=skill value=61105002 bgcolor=#3a85ffff>「天枢」</link><link type=skill value=61105003 bgcolor=#3a85ffff>「天权」</link>（「天枢」「天权」任一绝学被使用后，将替换为<link type=skill value=61105005 bgcolor=#3a85ffff>「玉衡」</link><link type=skill value=61105006 bgcolor=#3a85ffff>「开阳」</link>）<link type=skill value=61105007 bgcolor=#3a85ffff>「摇光」</link>中的1个绝学进行释放并消耗「星屑」（当结界自然消失或被覆盖后，将进入4回合冷却时间）。「摇光破军界」持续时，暴击率提高8%，射程提高1。<br/>「摇光破军界」：友方光属相英灵全属性提升10%。友方获得2个随机「有益状态」。<br/>",
+    "star4": "每携带1个「有益状态」，法攻提高4%（最多提高12%）。场上每有一个友方角色使用绝学后，获得1点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>（上限10点）。当携带足量「星屑」时行动结束前，可选择<link type=skill value=61105002 bgcolor=#3a85ffff>「天枢」</link><link type=skill value=61105003 bgcolor=#3a85ffff>「天权」</link>（「天枢」「天权」任一绝学被使用后，将替换为<link type=skill value=61105005 bgcolor=#3a85ffff>「玉衡」</link><link type=skill value=61105006 bgcolor=#3a85ffff>「开阳」</link>）<link type=skill value=61105007 bgcolor=#3a85ffff>「摇光」</link>中的1个绝学进行释放并消耗「星屑」（当结界自然消失或被覆盖后，将进入3回合冷却时间）。「摇光破军界」持续时，暴击率提高10%，射程提高1。<br/>「摇光破军界」：友方光属相英灵全属性提升10%。友方获得2个随机「有益状态」。<br/>",
+    "star5": "每携带1个「有益状态」，法攻提高5%（最多提高15%）。场上每有一个友方角色使用绝学后，获得1点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>（上限10点）。当携带足量「星屑」时行动结束前，可选择<link type=skill value=61105002 bgcolor=#3a85ffff>「天枢」</link><link type=skill value=61105003 bgcolor=#3a85ffff>「天权」</link>（「天枢」「天权」任一绝学被使用后，将替换为<link type=skill value=61105005 bgcolor=#3a85ffff>「玉衡」</link><link type=skill value=61105006 bgcolor=#3a85ffff>「开阳」</link>）<link type=skill value=61105007 bgcolor=#3a85ffff>「摇光」</link>中的1个绝学进行释放并消耗「星屑」（当结界自然消失或被覆盖后，将进入3回合冷却时间）。「摇光破军界」持续时，暴击率提高12%，射程提高1。<br/>「摇光破军界」：友方光属相英灵全属性提升10%。友方获得2个随机「有益状态」。<br/>",
+    "star6": "每携带1个「有益状态」，法攻提高6%（最多提高18%）。场上每有一个友方角色使用绝学后，获得1点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>（上限10点）。当携带足量「星屑」时行动结束前，可选择<link type=skill value=61105002 bgcolor=#3a85ffff>「天枢」</link><link type=skill value=61105003 bgcolor=#3a85ffff>「天权」</link>（「天枢」「天权」任一绝学被使用后，将替换为<link type=skill value=61105005 bgcolor=#3a85ffff>「玉衡」</link><link type=skill value=61105006 bgcolor=#3a85ffff>「开阳」</link>）<link type=skill value=61105007 bgcolor=#3a85ffff>「摇光」</link>中的1个绝学进行释放并消耗「星屑」（当结界自然消失或被覆盖后，将进入2回合冷却时间）。「摇光破军界」持续时，暴击率提高15%，射程提高1。<br/>「摇光破军界」：友方光属相英灵全属性提升10%。友方获得2个随机「有益状态」。<br/>",
+    "story_name": "西行",
+    "story_content": "『星体将力量传递给另一个星体的情况下，未来将根据接受者的力量发生。』——星占手记<br/>安纳托利亚高原西北，安卡拉。<br/>此处的夏夜，星月不止影响潮汐，也牵引湿热之气，顺着这里起伏的地势翻滚，涌动。<br/>女子躺在床上，说不好是睡着还是半醒着。雨声渐起，竟融化屋檐，积蓄在房中，像潮水一般和缓地将她托起。<br/>她举手挥舞，群星呢喃回应。<br/>那回应声逐渐清晰——到西方去，你会得到答案。<br/>海水骤然化作泡沫，她自夜帷跌落，意识回归到这潮气包裹的现实。<br/>「西方，要继续前往西方吗？」<br/>和金发男子的行进方向不符，起码她探听到的是这般。<br/>这一定会让他们失之交臂，也或许，很久很久后，她会以另一种姿态同他重逢。<br/>其后六日，她在这座城市的教堂前放空。<br/>这对青年男女昨日经过时面容怨怼，今日便携手相牵，时而相视一笑，应该是情人吧。<br/>广场的角落，<br/>夕阳西下，一个孤独的老人拄着拐杖再次出现。<br/>一阵嘻哈喧闹，远处，一群孩童大笑跑过。<br/>青春、年迈。<br/>健康、疾病。<br/>忧愁、欢乐。<br/>她似在教堂殿前广场，看过了人生。<br/>三生万物，逢七必变，她本来想在第七日，逼自己做一个决定。<br/>但第六日晚，她便动身向西，经由尼西亚，前往此行的目的地——拜占庭王朝。<br/>她——慕容璇玑，要的是一个答案，而不仅仅是一次重逢。<br/>——未来将根据接受者的力量发生。",
+    "hero_icon": "Hero1050_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1383",
+        "name": "星河垂转",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」对目标<b><color=#e4462c>1</color></b>圈范围内的敌人造成随机<b><color=#e4462c>3</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>），并获得<b><color=#e4462c>4</color></b>点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>。"
+      },
+      {
+        "img": "GPassive_1016",
+        "name": "血刃符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使相邻1格内物攻/法攻属性最高的1个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1043",
+        "name": "决意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "使用伤害绝学时，法攻和暴击率提高7%。"
+      },
+      {
+        "img": "Skill_Light_1004",
+        "name": "群星聚华 ",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战后」为自身周围<b><color=#e4462c>3</color></b>格内所有友方驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "Skill_Light_1013",
+        "name": "七光御阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，战后为自身<b><color=#e4462c>3</color></b>格范围内的友方恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）。"
+      },
+      {
+        "img": "EXSkill_1386",
+        "name": "万象联想",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害。施加<link type=buff value=700000891 bgcolor=#3a85ffff>「乱神I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，每多<b><color=#e4462c>1</color></b>点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>暴击率提高<b><color=#e4462c>15%</color></b>（最多<b><color=#e4462c>60%</color></b>）。"
+      },
+      {
+        "img": "EXSkill_1384",
+        "name": "请星落宫",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对单个其他友方释放，目标和自身获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>和<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，并附加<link type=buff value=741050210 bgcolor=#3a85ffff>「星云」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1385",
+        "name": "北辰星拱",
+        "type": "法攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.7</color></b>倍伤害，「对战前」反转自身<b><color=#e4462c>3</color></b>个「有害状态」，每携带<b><color=#e4462c>1</color></b>点<link type=buff value=741050200 bgcolor=#3a85ffff>「星屑」</link>暴击率和暴击伤害提高<b><color=#e4462c>5%</color></b>（最多<b><color=#e4462c>20%</color></b>），若成功击杀目标，则该绝学冷却时间减少<b><color=#e4462c>3</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，暴击<b><color=#e4462c>1</color></b>次额外累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "星占贤者",
+        "name": "兽皮书",
+        "img": "Weapon_105001",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，青金黄玉丹砂良，兽皮鸟羽不足当。<br/>相传在古国战火时期，圣人所下命令文书，材质常为凶兽之皮。研磨玄石为粉，将之以草汁混合错捏制为笔，用之在兽皮上书写，字画永不脱落，且无法更改，可留于后世之人保存。<br/>言：圣谕九传世，兽皮篆箴言。"
+      },
+      {
+        "weapon": "星占贤者",
+        "name": "石板书",
+        "img": "Weapon_105002",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，举目无世人，题诗足奇石。<br/>民间流传，圣人之言具有开悟之效力，故而学子常常抄录其于石板之上，日夜诵读。石板书受世人虔心侵染，衍生咒力，持之者可维持自己灵台清明，不受妖邪所蛊惑。<br/>言：奇石守圣力，开智在我心。"
+      },
+      {
+        "weapon": "星占贤者",
+        "name": "七星书",
+        "img": "Weapon_105003",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，寻客徒留望,璇玑自有程。<br/>古人云，经委星辰，能成文章。「七星书」曾为司书仙君长恩之物，后星宫震荡，此书流转人间。唯有星辰转世者，方可持其施展咒力加强之术，能上借魁四星之力，凡人难有过三招者。<br/>言：北斗挂天高， 星流咒如刀。"
+      },
+      {
+        "weapon": "星占贤者",
+        "name": "荆棘神书",
+        "img": "Weapon_105004",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，千秋编简载功名，一朝富贵埋荆棘。<br/>相传圣人受难时，遭以荆棘冠的无限折磨。荆棘染圣人之血故而幻化为器，择主而生。唯有接受上天无情洗礼，历经无边苦痛之人，方能获得荆棘之圣力，能窥天地之阴阳。<br/>言：圣光照无垠，荆棘敛血魂。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "星占贤者",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "星占贤者",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "星占贤者",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "星占贤者",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_039",
+        "name": "璇光天映阵",
+        "unlock_condition": "阵眼星占贤者位阶35级，五内魂陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1050_HeadIcon_Basic",
+        "icon1": "light",
+        "icon2": "light",
+        "icon3": "",
+        "desc": "上阵星占贤者和至少2位「光」属相英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，2格范围内存在其他「光」属相角色，暴击伤害减免和伤害提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "天临启示",
+        "img": "Weapon_105005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带有益状态时，伤害提高<b><color=#e4462c>5%</color></b>，主动攻击前额外获得<b><color=#e4462c>1</color></b>点「星屑」。携带大于等于<b><color=#e4462c>4</color></b>点「星屑」时，单体绝学射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "天临启示",
+        "img": "Weapon_105005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带有益状态时，伤害提高<b><color=#e4462c>6%</color></b>，主动攻击前额外获得<b><color=#e4462c>1</color></b>点「星屑」。携带大于等于<b><color=#e4462c>4</color></b>点「星屑」时，单体绝学射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "天临启示",
+        "img": "Weapon_105005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带有益状态时，伤害提高<b><color=#e4462c>7%</color></b>，主动攻击前额外获得<b><color=#e4462c>1</color></b>点「星屑」。携带大于等于<b><color=#e4462c>4</color></b>点「星屑」时，单体绝学射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "天临启示",
+        "img": "Weapon_105005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带有益状态时，伤害提高<b><color=#e4462c>8%</color></b>，主动攻击前额外获得<b><color=#e4462c>1</color></b>点「星屑」。携带大于等于<b><color=#e4462c>4</color></b>点「星屑」时，单体绝学射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "天临启示",
+        "img": "Weapon_105005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带有益状态时，伤害提高<b><color=#e4462c>10%</color></b>，主动攻击前额外获得<b><color=#e4462c>1</color></b>点「星屑」。携带大于等于<b><color=#e4462c>4</color></b>点「星屑」时，单体绝学射程<b><color=#e4462c>+1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.254541260596275"
+      },
+      {
+        "name": "太初华晶·烟",
+        "percent": "0.177014013032697"
+      },
+      {
+        "name": "洛神玉菡",
+        "percent": "0.157926301828037"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "重曜玉镯",
+        "percent": "0.446516757485046"
+      },
+      {
+        "name": "化魄秘镯",
+        "percent": "0.162366645522172"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.269747996078657"
+      },
+      {
+        "name": "化魄法令",
+        "percent": "0.262799146531341"
+      },
+      {
+        "name": "星天流离",
+        "percent": "0.159079637852488"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.152620956115564"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.313084597197393"
+      },
+      {
+        "name": "化魄点睛",
+        "percent": "0.256369298195029"
+      },
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.153139957326567"
+      }
+    ]
+  }
+]

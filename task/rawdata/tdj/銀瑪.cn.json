@@ -1,0 +1,390 @@
+[
+  {
+    "name": "银玛",
+    "is_new": "",
+    "weight": "760",
+    "pinyin": "yinma",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1030_img",
+    "prop_icon": "Ice",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "冰",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "179",
+    "magic_attack": "12",
+    "physical_attack": "99",
+    "magic_defense": "26",
+    "physical_defense": "31",
+    "huixin": "53",
+    "inherent": "Gift_087",
+    "inherent_name": "野兽之心",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击造成伤害后，对目标添加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。与携带「流血」类状态的目标对战，战斗中伤害提高5%；与携带「迟缓」类状态的目标对战，战斗中穿透提高5%。回合开始时，在自己身边召唤「啸霜」。（间隔6回合触发，若「啸霜」存活，则不会召唤）「啸霜」死亡时，自身损失50%当前气血的生命值。",
+    "star4": "主动攻击造成伤害后，对目标添加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。与携带「流血」类状态的目标对战，战斗中伤害提高8%；与携带「迟缓」类状态的目标对战，战斗中穿透提高8%。回合开始时，在自己身边召唤「啸霜」。（间隔5回合触发，若「啸霜」存活，则不会召唤）「啸霜」死亡时，自身损失50%当前气血的生命值。",
+    "star5": "主动攻击造成伤害后，对目标添加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。与携带「流血」类状态的目标对战，战斗中伤害提高11%；与携带「迟缓」类状态的目标对战，战斗中穿透提高11%。回合开始时，在自己身边召唤「啸霜」。（间隔5回合触发，若「啸霜」存活，则不会召唤）「啸霜」死亡时，自身损失50%当前气血的生命值。",
+    "star6": "主动攻击造成伤害后，对目标添加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。与携带「流血」类状态的目标对战，战斗中伤害提高15%；与携带「迟缓」类状态的目标对战，战斗中穿透提高15%。回合开始时，在自己身边召唤「啸霜」。（间隔4回合触发，若「啸霜」存活，则不会召唤）「啸霜」死亡时，自身损失50%当前气血的生命值。",
+    "story_name": "落誓",
+    "story_content": "幽都到三荒冥原的距离，银玛默默用寨民的步数进行一番丈量，长路绵绵，落脚之地勉强算是一处尽头。<br/>——化荒沉降之地，有心之人进不来。<br/>「银玛银玛，我们为什么要离开幽都呢？」寨中稚子问道。<br/>「丧魂悲歌，苍生攸仰……」银玛语塞，于是故作高深。<br/>她已然如同前几任寨主一般，熟练掌握胡诌几句似是而非的话搪塞，其他的任由族人猜测。<br/>不是不知，不是不懂。<br/>只是不好说、不能懂。<br/>如今长老覆手风雨，黎广族便是站在生养地上的异乡人。<br/>银玛环视这片未曾熟悉的土地，<br/>与世隔绝处，豁然开朗，自成桃源。<br/>索性，就留在这儿吧。<br/>「我等愿意起誓，将世代守在这三荒冥原——」<br/>「天地不倒，风雨不倾。」<br/>雷声轰鸣，兹降神光。<br/>只是吾等羲神啊，您此时此刻又在何方呢？",
+    "hero_icon": "Hero1030_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1250",
+        "name": "号令之箭",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，战后开启<link type=buff value=741030110 bgcolor=#3a85ffff>「号令」</link>，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1253",
+        "name": "狂乱",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "释放技能后，「啸霜」获得<link type=buff value=741030241 bgcolor=#3a85ffff>「狂乱」</link>状态，持续2回合。"
+      },
+      {
+        "img": "Skill_Ranger_1004",
+        "name": "漫天箭雨",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害。使目标<b><color=#e4462c>1</color></b>个随机属性降低。"
+      },
+      {
+        "img": "GPassive_1002",
+        "name": "奋力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战中」物攻提高12%。"
+      },
+      {
+        "img": "Skill_Ranger_1001",
+        "name": "逐风破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，「对战前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "EXSkill_1251",
+        "name": "杀戮攻击",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若目标携带「流血」或「迟缓」类状态，则「对战前」施加<link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1252",
+        "name": "狂野怒火",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，驱散「啸霜」<b><color=#e4462c>5</color></b>个「有害状态」，恢复全部气血；再激活啸霜，刷新其技能冷却，并施加「怒火」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「怒火」：物攻提高<b><color=#e4462c>30%</color></b><br/>「气力技」：消耗<b><color=#e4462c>2</color></b>点气力，才可释放技能，造成伤害获得<b><color=#e4462c>1</color></b>点气力，击杀额外获得<b><color=#e4462c>1</color></b>点气力。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "银玛",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "银玛",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "银玛",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "银玛",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "银玛",
+        "name": "幻木弓",
+        "img": "Weapon_huanmugong",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "《易·系辞下》载，弦木为弧，剡木为矢。<br/>传，地界玄海之边生林木，偏远静僻，终风且霾，有阵法迷幻之能。以此「幻木」为材，制得长弓，长弓可迷人眼目，放箭于无形，为敌者身穿百孔不知丧命。且，操持者可借林木之力，提升自身咒法之威。<br/>言：弓摧南山虎，手接太行猱。"
+      },
+      {
+        "weapon": "银玛",
+        "name": "彩金弓",
+        "img": "Weapon_caijingong",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载：倏云收兮雨歇，山青青兮水潺湲。<br/>传，上古祭祀者有神女之名，舞兮堂前，备以琼筵，以问神灵求风沐雨。不知神之来兮不来，但降「彩金」于世，附有神力。神女制彩金之弓，与钟鼓同席。<br/>「彩金弓」，身篆彩纹，内蕴其华，持者可借祭祀天地之力，化草木枝干为矢，洞迷障，穿石窟，俗世罕有能敌者。<br/>言：弦弓以送神，礼毕天下春。"
+      },
+      {
+        "weapon": "银玛",
+        "name": "雪藤灵弓",
+        "img": "Weapon_xuetenglingong",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "传，神山有立天之能，其巅积雪万年不化，雪生长藤万年不朽。天下安乐之时，雪藤每百年生三尺，世间战火祸乱，雪藤每三载生百丈。<br/>雪藤盘结成弓，灵气凝为弦，其自诞灵智，择主而栖。「雪藤灵弓」外如雪霜凝结，质若寒银，外人触之遍体生寒，神智全毁。<br/>言：雪峰森晓色，霜箭惊胆寒。"
+      },
+      {
+        "weapon": "银玛",
+        "name": "霜翅交飞",
+        "img": "Weapon_shuangchijiaofei",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，夜深白露冷，蝶已死丛中。朝生夕俱死，气类各相从。<br/>传，幽垠生幽白双蝶，幼时以怨气为食，化蛹成虫之时可扰天地气机，扇翅交飞可引辰星沉坠。后世间不容此物，上仙剥双蝶鳞片，镇压普天生灵之怨。<br/>故而蝶骨槁色，双蝶之骨有如冰霜相融，化为一体，后制为巨弓称「霜翅交飞」，辅有寒石镶嵌，流光回转，生灵皆惧。<br/>言：霜翅牵百星，蝶骨镇万灵。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "九凤销骨",
+        "img": "Weapon_jiufengsuogu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "回合开始时，若与「啸霜」在<b><color=#e4462c>2</color></b>格范围内，恢复双方<b><color=#e4462c>20%</color></b>最大气血，若「银玛」/「啸霜」已满血则获得「迅捷II」/「极意II」状态，持续<b><color=#e4462c>1</color></b>回合。「银玛」/「啸霜」死亡时，对<b><color=#e4462c>2</color></b>格范围内的所有敌方施加「迟缓I」/「流血」，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "九凤销骨",
+        "img": "Weapon_jiufengsuogu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "回合开始时，若与「啸霜」在<b><color=#e4462c>2</color></b>格范围内，恢复双方<b><color=#e4462c>25%</color></b>最大气血，若「银玛」/「啸霜」已满血则获得「迅捷II」/「极意II」状态，持续<b><color=#e4462c>1</color></b>回合。「银玛」/「啸霜」死亡时，对<b><color=#e4462c>2</color></b>格范围内的所有敌方施加「迟缓I」/「流血」，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "九凤销骨",
+        "img": "Weapon_jiufengsuogu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "回合开始时，若与「啸霜」在<b><color=#e4462c>2</color></b>格范围内，恢复双方<b><color=#e4462c>30%</color></b>最大气血，若「银玛」/「啸霜」已满血则获得「迅捷II」/「极意II」状态，持续<b><color=#e4462c>1</color></b>回合。「银玛」/「啸霜」死亡时，对<b><color=#e4462c>2</color></b>格范围内的所有敌方施加「迟缓I」/「流血」，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "九凤销骨",
+        "img": "Weapon_jiufengsuogu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "回合开始时，若与「啸霜」在<b><color=#e4462c>2</color></b>格范围内，恢复双方<b><color=#e4462c>35%</color></b>最大气血，若「银玛」/「啸霜」已满血则获得「迅捷II」/「极意II」状态，持续<b><color=#e4462c>1</color></b>回合。「银玛」/「啸霜」死亡时，对<b><color=#e4462c>2</color></b>格范围内的所有敌方施加「迟缓I」/「流血」，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "九凤销骨",
+        "img": "Weapon_jiufengsuogu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "回合开始时，若与「啸霜」在<b><color=#e4462c>2</color></b>格范围内，恢复双方<b><color=#e4462c>40%</color></b>最大气血，若「银玛」/「啸霜」已满血则获得「迅捷II」/「极意II」状态，持续<b><color=#e4462c>1</color></b>回合。「银玛」/「啸霜」死亡时，对<b><color=#e4462c>2</color></b>格范围内的所有敌方施加「迟缓I」/「流血」，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "凤翼神坠",
+        "percent": "0.23900293255132"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.156053623795559"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.1097612065354"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.489841986455982"
+      },
+      {
+        "name": "御波灵戒",
+        "percent": "0.343115124153499"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "护命神符·烟",
+        "percent": "0.694323144104803"
+      },
+      {
+        "name": "清神净玉",
+        "percent": "0.193595342066958"
+      },
+      {
+        "name": "辟邪玉佩·烟",
+        "percent": "0.106259097525473"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.484198645598194"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.316591422121896"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.170845481049563"
+      },
+      {
+        "name": "荆羽利刹",
+        "percent": "0.158022622538751"
+      }
+    ]
+  }
+]

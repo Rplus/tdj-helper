@@ -1,0 +1,397 @@
+[
+  {
+    "name": "允迦",
+    "is_new": "",
+    "weight": "880",
+    "pinyin": "yunjia",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1036_img",
+    "prop_icon": "Light",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "光",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "180",
+    "magic_attack": "13",
+    "physical_attack": "103",
+    "magic_defense": "26",
+    "physical_defense": "30",
+    "huixin": "45",
+    "inherent": "Gift_097",
+    "inherent_name": "光闇对宫",
+    "star1": "",
+    "star2": "",
+    "star3": "伤害提升25%，攻击前每移动1格伤害降低7%(最多降低21%）<br/>使用绝学后，在自身周围2格张开领域<link type=buff value=741036015 bgcolor=#3a85ffff>「转厄生天」</link>。<br/>",
+    "star4": "伤害提升25%，攻击前每移动1格伤害降低6%(最多降低18%）<br/>使用绝学后，在自身周围2格张开领域<link type=buff value=741036016 bgcolor=#3a85ffff>「转厄生天」</link>。<br/>",
+    "star5": "伤害提升25%，攻击前每移动1格伤害降低5%(最多降低15%）<br/>使用绝学后，在自身周围2格张开领域<link type=buff value=741036017 bgcolor=#3a85ffff>「转厄生天」</link>。<br/>",
+    "star6": "伤害提升25%，攻击前每移动1格伤害降低4%(最多降低12%）<br/>使用绝学后，在自身周围2格张开领域<link type=buff value=741036018 bgcolor=#3a85ffff>「转厄生天」</link>。",
+    "story_name": "俯瞰<br/>",
+    "story_content": "她时常觉得自己在俯瞰。<br/>地上的蚂蚁按照轨迹来回奔走。黑点开始缩小、消失，变成线，又织成网，最后她的眼中空荡无物，只有深邃的黑。<br/>「允迦，你是个天才。花剌子模的占星者，你将行于我身之前。」这是理所应当的，她的思维轻快跳跃，轻蔑又冷静。<br/>她的启蒙者把她交予下一位导师。<br/>那位大人并非来自她的家乡，而是那广袤土地上映射的星斗，无悲无喜，游离宇宙纵横之外。<br/>「允迦，你看到了什么？」那是老师家乡的方向。<br/>「老师，我看到了……」<br/>星宫不稳，经纬倾斜——她开始仰望。<br/>命运替她选择了未知的痛楚。<br/>所有伟大的一切将于悲鸣中诞生。",
+    "hero_icon": "Hero1036_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Ranger_1001",
+        "name": "逐风破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，「对战前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1312",
+        "name": "弥伽诫喻",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线(2-5)*3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有目标造成<b><color=#e4462c>0.3</color></b>倍伤害，施加<link type=buff value=700001411 bgcolor=#3a85ffff>「锢步」</link>状态，持续<b><color=#e4462c>2</color></b>回合。警戒目标区域，自身获得<link type=buff value=741036030 bgcolor=#3a85ffff>「审判」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Assassin_1015",
+        "name": "蓄势掠魂",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若主动攻击前已有2点气力，则消耗所有气力发动绝学效果：造成伤害后，使目标2个随机属性降低。<br/>[气力技]每造成1次伤害累积1点气力"
+      },
+      {
+        "img": "EXSkill_1309",
+        "name": "囚光白洞",
+        "type": "陷阱",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择1个绝学进行释放。使用后切换为<link type=skill value=61103611 bgcolor=#3a85ffff>「相命妨祸」</link>和<link type=skill value=61103612 bgcolor=#3a85ffff>「相命定宿」</link>"
+      },
+      {
+        "img": "EXSkill_1314",
+        "name": "狙袭垂星",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，自身获得<link type=buff value=741036050 bgcolor=#3a85ffff>「星狩」</link>状态，为<b><color=#e4462c>2</color></b>格范围气血最低的<b><color=#e4462c>1</color></b>个友方恢复气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）并获得再行动。<br/>使用后切换为<link type=skill value=61103616 bgcolor=#3a85ffff>「星垂平野」</link>并获得<link type=buff value=741036055 bgcolor=#3a85ffff>「星蚀」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1041",
+        "name": "狙足",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1313",
+        "name": "万辉潮退",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，击退目标<b><color=#e4462c>1</color></b>格，对未满血的敌人暴击率提高<b><color=#e4462c>20%</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "允迦",
+        "name": "古石镜环",
+        "img": "Weapon_gushijinhuan",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，佳人成古石，藓驳覆花黄。<br/>民间传言，有涂山氏女因思夫婿，望穿秋水不见其归，终化为镇山之石，护佑一方生灵。百载后，山下有摆古石圆阵之习俗，以分春分、秋分、夏至和冬至，又将其用于标记月相，预测蚀相。有匠者见其心喜，制镜环，以观四季日月。<br/>言：碎骨浑不怕，石镜测天机。"
+      },
+      {
+        "weapon": "允迦",
+        "name": "融金镜环",
+        "img": "Weapon_rongjinjinhuan",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，福禄固知公自有，不待占星问牛斗。<br/>有古国崇尚占星之术，每逢大典供奉镜环为神物，其状如流金。国主问之运道，主祭遂以诞生时之天象，与其问卜时之天象，比较观之，夫然后预言其所谋之成败。后供奉之物流于民间，持之者能窥星之秘术，天运加身。<br/>言：占星昏晓中，寒暑已不疑。"
+      },
+      {
+        "weapon": "允迦",
+        "name": "星图镜环",
+        "img": "Weapon_xintujinhhuan",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，天高夜气严，列宿森就位。大星光相射，小星闹若沸。<br/>据传，大能者转世之时，天有异象，群星布居，众烁相连如天刻星图。大能降世之时有星图伴生，寻匠制镜环，玄石为镜，星图为环，可映星宫之位。持其者，可借星辉之力，观敌踪迹，远在千里之外而伏击，一击毙命，难逃之。<br/>言：极星尚未远，北斗正旋衡。<br/>"
+      },
+      {
+        "weapon": "允迦",
+        "name": "徙梦示光",
+        "img": "Weapon_ximengshiguang",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，顺天意者，义政也；反天意者，⼒政也。<br/>古有异象，称其东边日出西边雨。上神闻世间需光，故撕破天幕而降日，然世间万物自有平衡，又时以雨雾盖之。世人擅创，制镜环以聚光，先除梦魇，后大赦天下之晦暗，如西方再生之日。有人传初现于中土墨矩之流，后流传于外域。然，后世子弟皆不能复刻此物。<br/>言：放身万步远，裂光破寰宇。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "允迦",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "允迦",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "允迦",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "允迦",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_034",
+        "name": "附星擢升阵",
+        "unlock_condition": "阵眼允迦位阶35级，五内迅陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1036_HeadIcon_Basic",
+        "icon1": "shadow",
+        "icon2": "electricity",
+        "icon3": "",
+        "desc": "上阵允迦和「暗」，「雷」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，伤害提升15%，3格范围内每有1个敌方，造成伤害降低5%（最多15%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "启明观象",
+        "img": "Weapon_qimingguanxiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "使用主动绝学后获得「觅星」状态，持续<b><color=#e4462c>1</color></b>回合，使用非伤害绝学则额外获得「神睿」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「觅星」：物攻和暴击率提高<b><color=#e4462c>5%</color></b>，免疫敌方造成的「位移」和「传送」效果（不可驱散）。"
+      },
+      {
+        "name": "启明观象",
+        "img": "Weapon_qimingguanxiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "使用主动绝学后获得「觅星」状态，持续<b><color=#e4462c>1</color></b>回合，使用非伤害绝学则额外获得「神睿」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「觅星」：物攻和暴击率提高<b><color=#e4462c>6%</color></b>，免疫敌方造成的「位移」和「传送」效果（不可驱散）。"
+      },
+      {
+        "name": "启明观象",
+        "img": "Weapon_qimingguanxiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "使用主动绝学后获得「觅星」状态，持续<b><color=#e4462c>2</color></b>回合，使用非伤害绝学则额外获得「神睿」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「觅星」：物攻和暴击率提高<b><color=#e4462c>7%</color></b>，免疫敌方造成的「位移」和「传送」效果（不可驱散）。"
+      },
+      {
+        "name": "启明观象",
+        "img": "Weapon_qimingguanxiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "使用主动绝学后获得「觅星」状态，持续<b><color=#e4462c>2</color></b>回合，使用非伤害绝学则额外获得「神睿」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「觅星」：物攻和暴击率提高<b><color=#e4462c>8%</color></b>，免疫敌方造成的「位移」和「传送」效果（不可驱散）。"
+      },
+      {
+        "name": "启明观象",
+        "img": "Weapon_qimingguanxiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "使用主动绝学后获得「觅星」状态，持续<b><color=#e4462c>2</color></b>回合，使用非伤害绝学则额外获得「神睿」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「觅星」：物攻和暴击率提高<b><color=#e4462c>10%</color></b>，免疫敌方造成的「位移」和「传送」效果（不可驱散）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "凤翼神坠",
+        "percent": "0.290440720049659"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.154872749844816"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.14804469273743"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "荆羽覆心",
+        "percent": "0.241251778093883"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.154127870887647"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.174612042209807"
+      },
+      {
+        "name": "荆羽利刹",
+        "percent": "0.148838311996206"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.153937542430414"
+      },
+      {
+        "name": "御波灵戒",
+        "percent": "0.135965238981998"
+      },
+      {
+        "name": "荆羽焰鳞",
+        "percent": "0.110018621973929"
+      }
+    ]
+  }
+]

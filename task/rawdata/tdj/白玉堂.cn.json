@@ -1,0 +1,409 @@
+[
+  {
+    "name": "白玉堂",
+    "is_new": "",
+    "weight": "830",
+    "pinyin": "baiyutang",
+    "source": "国风企划三侠五义篇登场角色",
+    "pic": "Hero2013_img",
+    "prop_icon": "Ice",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "184",
+    "magic_attack": "12",
+    "physical_attack": "99",
+    "magic_defense": "31",
+    "physical_defense": "32",
+    "huixin": "45",
+    "inherent": "Gift_094",
+    "inherent_name": "赴义结心",
+    "star1": "",
+    "star2": "",
+    "star3": "行动时无视敌方角色阻挡。主动位移后，每穿越过1个敌方，获得1层<link type=buff value=742013102 bgcolor=#3a85ffff>「侠义」</link>状态，并偷取1个随机「有益状态」。且每有一个「有益状态」伤害和暴击率提高2%（最多提高12%）",
+    "star4": "行动时无视敌方角色阻挡。主动位移后，每穿越过1个敌方，获得1层<link type=buff value=742013103 bgcolor=#3a85ffff>「侠义」</link>状态，并偷取1个随机「有益状态」。且每有一个「有益状态」伤害和暴击率提高3%（最多提高18%）",
+    "star5": "行动时无视敌方角色阻挡。主动位移后，每穿越过1个敌方，获得1层<link type=buff value=742013104 bgcolor=#3a85ffff>「侠义」</link>状态，并偷取1个随机「有益状态」。且每有一个「有益状态」伤害和暴击率提高3%（最多提高18%）",
+    "star6": "行动时无视敌方角色阻挡。主动位移后，每穿越过1个敌方，获得1层<link type=buff value=742013104 bgcolor=#3a85ffff>「侠义」</link>状态，并偷取2个随机「有益状态」。且每有一个「有益状态」伤害和暴击率提高4%（最多提高24%）",
+    "story_name": "五鼠",
+    "story_content": "白玉堂在陷空岛排行老五。<br/>几个结拜大哥的绰号听起来都有翻天覆地之能，只有她的另辟蹊径——<br/>「惟有五爷，少年华美，气宇不凡，为人阴险狠毒，却好行侠作义。」当锦毛鼠也。<br/>结拜之初的因由再简单不过，大家的面相皆不像什么正经善人，谁也不用念叨个一三五规矩勒着别人。<br/> <br/>「义之法在正我，不在正人。」<br/>世人多生在那平安是福的画牢里，被讹了钱还不敢吱声，只能她舍得当那梁上君子，把白天借出去的银子再拿回来。<br/>「衙门有衙门的规矩，但我们江湖也有江湖的门道！」<br/>举世皆浊，独清者不得自在，<br/>众人皆醉，独醒者难得糊涂。<br/>索性——<br/>「就让我来吧。」<br/>——五义士结拜陷空岛，锦毛鼠江湖赴刀行。<br/>",
+    "hero_icon": "Hero2013_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1303",
+        "name": "追风赶月",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>5</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，偷取<b><color=#e4462c>1</color></b>个「有益状态」，若本次攻击命中<b><color=#e4462c>2</color></b>名及以上的敌方，则获得再行动（<b><color=#e4462c>2</color></b>格）且不降低「有益状态」的持续时间，并获得<link type=buff value=742013014 bgcolor=#3a85ffff>「杳影」</link>状态，持续<b><color=#e4462c>1</color></b>回合。使用后切换为<link type=skill value=61201311 bgcolor=#3a85ffff>「逐星破日」</link>。<br/>"
+      },
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "罗刹一击",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>。若击杀目标则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1013",
+        "name": "孤胆",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内无其他友方，则物攻，物防+10%。"
+      },
+      {
+        "img": "Gskill_1002",
+        "name": "揽风神行",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有友方施加<link type=buff value=700000781 bgcolor=#3a85ffff>「迅捷I」</link>，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1296",
+        "name": "刀影横秋",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001501 bgcolor=#3a85ffff>「封劲」</link>状态，持续<b><color=#e4462c>2</color></b>回合，且每命中一个敌人，获得<b><color=#e4462c>1</color></b>层「侠义」状态。"
+      },
+      {
+        "img": "EXSkill_1294",
+        "name": "探囊取物",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」偷取<b><color=#e4462c>2</color></b>个「有益状态」，若目标不携带「有益状态」，则替换为「对战前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1293",
+        "name": "仗义疏财",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "暴击率提升10%。使用绝学造成伤害后，行动结束时若自身存在2个及以上「有益状态」，则扩散随机2个「有益状态」给2格范围内其他所有「有益状态」数量少于自己的其他友方。"
+      },
+      {
+        "img": "EXSkill_1295",
+        "name": "狂歌动九霄",
+        "type": "物攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>，获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合，对被暴击的目标额外施加<link type=buff value=700000731 bgcolor=#3a85ffff>「迟缓II」</link><link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "白玉堂",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "白玉堂",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "白玉堂",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "白玉堂",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_033",
+        "name": "义鼠夺风阵",
+        "unlock_condition": "阵眼白玉堂位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero2013_HeadIcon_Basic",
+        "icon1": "shadow",
+        "icon2": "fire",
+        "icon3": "",
+        "desc": "上阵白玉堂和「暗」，「炎」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身携带「有益状态」时，伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "百炼龙雀",
+        "img": "Weapon_bailianlongque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时，伤害提高<b><color=#e4462c>5%</color></b>。消耗「侠义」状态时，反转自身<b><color=#e4462c>1</color></b>个「有害状态」并恢复最大气血的<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "name": "百炼龙雀",
+        "img": "Weapon_bailianlongque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时，伤害提高<b><color=#e4462c>6%</color></b>。消耗「侠义」状态时，反转自身<b><color=#e4462c>1</color></b>个「有害状态」并恢复最大气血的<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "name": "百炼龙雀",
+        "img": "Weapon_bailianlongque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时，伤害提高<b><color=#e4462c>7%</color></b>。消耗「侠义」状态时，反转自身<b><color=#e4462c>1</color></b>个「有害状态」并恢复最大气血的<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "name": "百炼龙雀",
+        "img": "Weapon_bailianlongque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时，伤害提高<b><color=#e4462c>8%</color></b>。消耗「侠义」状态时，反转自身<b><color=#e4462c>1</color></b>个「有害状态」并恢复最大气血的<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "name": "百炼龙雀",
+        "img": "Weapon_bailianlongque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时，伤害提高<b><color=#e4462c>10%</color></b>。消耗「侠义」状态时，反转自身<b><color=#e4462c>2</color></b>个「有害状态」并恢复最大气血的<b><color=#e4462c>30%</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "白玉堂",
+        "name": "棕木刀",
+        "img": "Weapon_zongmudao",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，从军玉门道，逐虏金微山，笛奏梅花曲，刀开明月环。<br/>据传民间常有穷苦者，以身入军，家人思之而难见。若夜梦闻刀鸣之声，则表其安。从军者，若得战绩可获前人之佩刀，其样古朴无华，刃锋而得血气，可壮人胆也。<br/>言：天骄远塞行，出鞘宝刀鸣。<br/>"
+      },
+      {
+        "weapon": "白玉堂",
+        "name": "黑金刀",
+        "img": "Weapon_heijindao",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "《释名》载，刀，到也。以斩伐其所乃击之也。<br/>古有江湖名门擅刀，直脊单刃，以金石为基、玄色为面、镔铁为刃，用以秘法锻造，后世称「黑金刀」。此刀质轻而短，挥之残影，为擅轻功者所好。持其者有刀寒之气，附有咒力之效。此刀物稀为贵，千金难求。<br/>言：拂刃夺人颈，落袖驾清风。<br/>"
+      },
+      {
+        "weapon": "白玉堂",
+        "name": "斩恶短刀",
+        "img": "Weapon_zhaneduandao",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "《山堂肆考》载，每出入道途间佩之，或前有恶兽盗贼，则所佩之刀铿然有声，似警于人也。<br/>相传每逢世间大乱，灾恶频生之际，时势必造英雄。又有能匠者以「渊石」为材制刀，埋以大妖之穴百年，为后世谋之。此刀若被英雄所持，近鬼邪则鸣，故能斩天下恶源。<br/>言：腰佩斩邪刃，声驰惊霜尘。"
+      },
+      {
+        "weapon": "白玉堂",
+        "name": "云飞鸣鸿",
+        "img": "Weapon_yunfeiminghong",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "《洞冥记》载，此刀黄帝采首山之铜，铸之雄已飞去，雌者犹存。<br/>鸣鸿之刀，消诛邪于无形，刺乾坤于混沌。 持其者身轻如添翼，脚踏纵云梯，回身九万里。手起刀落，斩尽天下不平事。<br/>又传，帝恐人得此刀，欲销之，刀自手中化为鹊，赤色飞去云中。<br/>言：怒问不平处，冲霄觉命轻。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.253494728621632"
+      },
+      {
+        "name": "龙牙魂玉",
+        "percent": "0.227918781725888"
+      },
+      {
+        "name": "雷吼化玉",
+        "percent": "0.219914096056228"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.119523623584537"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "炼法黑鳞",
+        "percent": "0.228504490433424"
+      },
+      {
+        "name": "天穹剑印",
+        "percent": "0.127333073018352"
+      },
+      {
+        "name": "绀云化雾",
+        "percent": "0.125185474424053"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.241780554470909"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.135507246376812"
+      },
+      {
+        "name": "无边落木·烟",
+        "percent": "0.109216589861751"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "星河手环",
+        "percent": "0.303865677469738"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.219914096056228"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.111714174150722"
+      }
+    ]
+  }
+]

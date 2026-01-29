@@ -1,0 +1,405 @@
+[
+  {
+    "name": "黎幽",
+    "is_new": "0",
+    "weight": "480",
+    "pinyin": "liyou",
+    "source": "天地劫手遊原創角色",
+    "pic": "Hero1014_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "暗",
+    "career": "咒師",
+    "range": "2",
+    "speed": "3",
+    "qixue": "175",
+    "magic_attack": "108",
+    "physical_attack": "15",
+    "magic_defense": "38",
+    "physical_defense": "27",
+    "huixin": "43",
+    "inherent": "Gift_056",
+    "inherent_name": "幽夢冥契",
+    "star1": "",
+    "star2": "",
+    "star3": "與攜帶「減益狀態」角色作戰時，「對戰中」法攻，法防提高8%。行動結束時，對3格範圍內隨機3個敵方角色施加1個隨機「減益狀態」。",
+    "star4": "與攜帶「減益狀態」角色作戰時，「對戰中」法攻，法防提高10%。行動結束時，對3格範圍內隨機4個敵方角色施加1個隨機「減益狀態」。",
+    "star5": "與攜帶「減益狀態」角色作戰時，「對戰中」法攻，法防提高12%。行動結束時，對3格範圍內隨機4個敵方角色施加1個隨機「減益狀態」。",
+    "star6": "與攜帶「減益狀態」角色作戰時，「對戰中」法攻，法防提高15%。行動結束時，對3格範圍內隨機4個敵方角色施加2個隨機「減益狀態」。",
+    "story_name": "嗔",
+    "story_content": "黎幽的手慢慢鬆開。<br/>眼前的他——<br/>已失去呼吸。<br/>血液如巨獸利爪伸展。<br/>染紅了他的髮，更撕裂了眼前無盡的漆黑。<br/>黑髮還是白髮？<br/>她不知道，也看不清。<br/>只因那雙眼，已被夢醒時的光——<br/>刺傷。<br/>",
+    "hero_icon": "Hero1014_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1096",
+        "name": "幽垠幻生",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，若目標身上已攜帶2個及以上「減益狀態」，則「對戰前」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>，持續1回合；否則施加2個隨機「減益狀態」。"
+      },
+      {
+        "img": "GPassive_1025",
+        "name": "縛力咒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，對自身十字方向上7格內最近的1名敵人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_Shadow_1009",
+        "name": "怖畏斷生",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」恢復自身氣血（恢復量為本次傷害的30%）。"
+      },
+      {
+        "img": "EXSkill_1091",
+        "name": "牽影追行",
+        "type": "再動",
+        "cd": "2回合",
+        "cost": "1內力",
+        "shoot": "4格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，選擇1個目標身周的指定空格，無視阻擋翻越到空格上，並獲得再行動（2格）。"
+      },
+      {
+        "img": "Skill_Shadow_1005",
+        "name": "絕魄之陣",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700000881 bgcolor=#3a85ffff>「污穢」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Shadow_1007",
+        "name": "暗之力",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "對攜帶2個及以上「減益狀態」的目標，傷害額外提高20%。"
+      },
+      {
+        "img": "EXSkill_1092",
+        "name": "荊刺蓮華",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形4格",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍級",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加1個隨機「減益狀態」，並對「咒師」和「祝由」目標額外施加<link type=buff value=700000840 bgcolor=#3a85ffff>「封咒」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1090",
+        "name": "銷骨鞭罰",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰前」施加<link type=buff value=743001911 bgcolor=#3a85ffff>「幽闕」</link>狀態，持續2回合。若目標身上攜帶2個及以上「減益狀態」，則法穿提高50%。<br/>[氣力技]消耗2點氣力，才可釋放絕學。（每造成1次傷害累積1點氣力）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "靈革鞭",
+        "img": "weapon_lingebian",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，靈鞭俊影，盡教年少，又逐光影去，其如風日何。<br/>經良材打造而成，其鑄法今存世可見。<br/>傳，靈革鞭，出自地界，如其名，乃地界精怪之革編織而成，附有精怪靈力，揮鞭時可見靈光。<br/>言，化為利器用有時，且向蒼生試韜穎。"
+      },
+      {
+        "name": "破地鞭",
+        "img": "weapon_podibian",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "載，振空破地，奔雲起電，煙消月出，銀光照眼，亂塵輕積。<br/>經「烏金玄鐵」打造而成，其鑄法於「列星」可見。<br/>傳，破地鞭，其鞭身由多股妖獸之筋編織，韌度奇強，且附有妖力，鞭柄散發烏金光澤，揮鞭聲有振空破地之響，故得破地之名。"
+      },
+      {
+        "name": "蟒蚯白骨鞭",
+        "img": "weapon_manqiubaigubian",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "載，鞭龍起電驅風雲，一日血腥遍天下。<br/>經「化淵玉鋼」打造而成，其鑄法於「列星」可見。<br/>傳，蟒蚯白骨鞭，煉法獨特，鞭身為節節妖骨連結，鞭頭為利刃骨刀，鞭柄呈蛇首之形，蛇眼鑲嵌為具有大妖之力的煉火晶石。<br/>言，蟒蚯，地界之兵，威力無窮，驅妖邪，定大荒。"
+      },
+      {
+        "name": "幽垠幻骨鞭",
+        "img": "weapon_youhenghuangubian",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，陰陽不可與，莽莽而無垠，煉骨同蟬蛻，何必待龍鬚。<br/>其鑄法於「列星」可見。<br/>傳，幽垠幻骨鞭，誕生於幽垠的殺器。鞭頭黑刃乃以魔血開刃，威力無窮，鞭身附有幽垠蝕氣，並刻凶咒，閃猩紅之光，揮舞時可聞凶戾怨鬼的哀嚎之響。<br/>言，幽垠幻骨，銷魂斷罪，無垠惡寐。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_shuilingzhuhua",
+        "name": "水靈珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baijuanwuxiu",
+        "name": "白絹舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_016",
+        "name": "幽冥夜華陣",
+        "unlock_condition": "陣眼黎幽位階35級，五內魔陸級解鎖",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1014_HeadIcon_Basic",
+        "icon1": "shadow",
+        "icon2": "shadow",
+        "icon3": "",
+        "desc": "上陣黎幽和至少2位「暗」屬相英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，攻擊攜帶3個及以上「減益狀態」的目標時，傷害提高15%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "目標每有<b><color=#e4462c>1</color></b>個「減益狀態」，主動攻擊傷害提高<b><color=#e4462c>1%</color></b>（最高<b><color=#e4462c>5%</color></b>）。使用傷害絕學後，行動結束時<b><color=#e4462c>5</color></b>格範圍內每有<b><color=#e4462c>1</color></b>個攜帶「減益狀態」的敵方，回復自身<b><color=#e4462c>6%</color></b>氣血（最高<b><color=#e4462c>30%</color></b>）。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "七殺十劫鞭",
+        "img": "weapon_qishashijiebian",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "目標每有<b><color=#e4462c>1</color></b>個「減益狀態」，主動攻擊傷害提高<b><color=#e4462c>1%</color></b>（最高<b><color=#e4462c>5%</color></b>）。使用傷害絕學後，行動結束時<b><color=#e4462c>5</color></b>格範圍內每有<b><color=#e4462c>1</color></b>個攜帶「減益狀態」的敵方，回復自身<b><color=#e4462c>8%</color></b>氣血（最高<b><color=#e4462c>40%</color></b>）。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "七殺十劫鞭",
+        "img": "weapon_qishashijiebian",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "目標每有<b><color=#e4462c>1</color></b>個「減益狀態」，主動攻擊傷害提高<b><color=#e4462c>2%</color></b>（最高<b><color=#e4462c>10%</color></b>）。使用傷害絕學後，行動結束時<b><color=#e4462c>5</color></b>格範圍內每有<b><color=#e4462c>1</color></b>個攜帶「減益狀態」的敵方，回復自身<b><color=#e4462c>8%</color></b>氣血（最高<b><color=#e4462c>40%</color></b>）。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "七殺十劫鞭",
+        "img": "weapon_qishashijiebian",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "目標每有<b><color=#e4462c>1</color></b>個「減益狀態」，主動攻擊傷害提高<b><color=#e4462c>2%</color></b>（最高<b><color=#e4462c>10%</color></b>）。使用傷害絕學後，行動結束時<b><color=#e4462c>5</color></b>格範圍內每有<b><color=#e4462c>1</color></b>個攜帶「減益狀態」的敵方，回復自身<b><color=#e4462c>10%</color></b>氣血（最高<b><color=#e4462c>50%</color></b>）。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "七殺十劫鞭",
+        "img": "weapon_qishashijiebian",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "目標每有<b><color=#e4462c>1</color></b>個「減益狀態」，主動攻擊傷害提高<b><color=#e4462c>3%</color></b>（最高<b><color=#e4462c>15%</color></b>）。使用傷害絕學後，行動結束時<b><color=#e4462c>5</color></b>格範圍內每有<b><color=#e4462c>1</color></b>個攜帶「減益狀態」的敵方，回復自身<b><color=#e4462c>10%</color></b>氣血（最高<b><color=#e4462c>50%</color></b>）。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "七殺十劫鞭",
+        "img": "weapon_qishashijiebian",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.3397"
+      },
+      {
+        "name": "魂刹玉",
+        "percent": "0.3254"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·塵",
+        "percent": "0.2240"
+      },
+      {
+        "name": "盤龍戒",
+        "percent": "0.1415"
+      },
+      {
+        "name": "赤霞玉戒·煙",
+        "percent": "0.123492338778271"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "鑲蛇銀佩·塵",
+        "percent": "0.2826"
+      },
+      {
+        "name": "護命神符·煙",
+        "percent": "0.1100"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "朝雲橫度",
+        "percent": "0.3887"
+      },
+      {
+        "name": "萬佛朝宗·霧",
+        "percent": "0.0901"
+      }
+    ],
+    "hero_wunei_PVE1": {
+      "title": "新手推薦",
+      "skill1": "幽垠幻生",
+      "skill2": "牽影追行",
+      "skill3": "絕魄之陣",
+      "addideaas": "優先下路15級習得【牽影追行】，從而獲得強大的機動能力和流暢的技能輪轉",
+      "notes": "【牽影追行】提供了強大的機動能力和技能輪轉，從而保證前期無論是輸出控制，還是拾取寶箱，都可以完美勝任<br/>【幽垠幻生】在輸出的同時，提供了強大的控制能力<br/>【絕魄之陣】則給予了黎幽AOE的能力"
+    },
+    "hero_wunei_PVE2": {
+      "title": "進階養成",
+      "skill1": "銷骨鞭罰",
+      "skill2": "怖畏斷生",
+      "skill3": "暗之力",
+      "addideaas": "上路點到40級，習得【怖畏斷生】和【暗之力】，然後一路點滿，獲得全屬性加成",
+      "notes": "【怖畏斷生】在輸出的同時，擁有恢復氣血的能力，從而減輕了團隊治療的壓力<br/>【銷骨鞭罰】則提供了強大的輸出能力<br/>【暗之力】進一步強化了輸出的強度"
+    },
+    "hero_wunei_PVP": {
+      "title": "逐鹿爭鋒",
+      "skill1": "幽垠幻生",
+      "skill2": "荊刺蓮華",
+      "skill3": "牽影追行",
+      "addideaas": "點滿所有五內線，確保屬性和絕學全部習得",
+      "notes": "【牽影追行】讓黎幽擁有強大的機動能力，從而獲得戰鬥的先機<br/>【幽垠幻生】的戰前眩暈機制，可以讓黎幽可以對敵人進行有效的控制或者處理一些棘手的敵人<br/>【荊刺蓮華】則讓黎幽同時擁有群體傷害以及控制能力，是對手咒師和祝由的噩夢"
+    }
+  }
+]

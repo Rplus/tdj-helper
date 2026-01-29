@@ -1,0 +1,393 @@
+[
+  {
+    "name": "青",
+    "is_new": "",
+    "weight": "970",
+    "pinyin": "qing",
+    "source": "国风企划青蛇篇登场角色",
+    "pic": "Hero2015_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "202",
+    "magic_attack": "13",
+    "physical_attack": "107",
+    "magic_defense": "27",
+    "physical_defense": "35",
+    "huixin": "35",
+    "inherent": "Gift_113",
+    "inherent_name": "潜影妙洄",
+    "star1": "",
+    "star2": "",
+    "star3": "与携带「有害状态」角色作战时，「对战中」目标每有1个「有害状态」自身物攻、伤害提高3%（最高9%）使用绝学后，行动结束时可以额外使用绝学<link type=skill value=61201550 bgcolor=#3a85ffff>「复初」</link>（间隔4回合释放）",
+    "star4": "与携带「有害状态」角色作战时，「对战中」目标每有1个「有害状态」自身物攻、伤害提高4%（最高12%）使用绝学后，行动结束时可以额外使用绝学<link type=skill value=61201550 bgcolor=#3a85ffff>「复初」</link>（间隔3回合释放）",
+    "star5": "与携带「有害状态」角色作战时，「对战中」目标每有1个「有害状态」自身物攻、伤害提高4%（最高12%）使用绝学后，行动结束时可以额外使用绝学<link type=skill value=61201550 bgcolor=#3a85ffff>「复初」</link>（间隔3回合释放）",
+    "star6": "与携带「有害状态」角色作战时，「对战中」目标每有1个「有害状态」自身物攻、伤害提高5%（最高15%）使用绝学后，行动结束时可以额外使用绝学<link type=skill value=61201550 bgcolor=#3a85ffff>「复初」</link>（间隔2回合释放）",
+    "story_name": "西湖：变人",
+    "story_content": "<br/>好白的蛇！银白鳞，竟如月光一般冷艳。长长的身段，游首摆尾，生生揉出一股浪来。我目瞪口呆地看着。<br/>她收了尾。方才偷袭我的那只丑陋八脚蟹，在她掌中就这么碎了，齑粉融进西湖的波荡里。<br/>要不是你帮我，我会被他剪碎，我说。<br/>你何故贪玩，入他洞中？她问我。他，指的便是那刀光剑影的臭螃蟹。<br/>午觉睡得迷糊了嘛。谁教他这个暗洞，挖得太让人舒坦？<br/>——教人舒坦的地方，你都不要去。活着，自有它的痛楚。<br/>这就是她教我的第一条道理。<br/>她比我漂亮，比我年长，法力又比我高强。我自然叫她姐姐。<br/>做蛇做惯了，白蛇姐姐说，不如我们去换个人来做做。<br/>西湖下，分明月。西湖上，翻覆雨。皇廷南迁苟安，却换一夕安寝。礼乐镪鸣，市井热闹，正是游玩好时。<br/>她旋身化出一面美人脸，顾盼若桃花，眼波盈动，仿佛兜下了整个瘦西湖。<br/>我看傻了。我也要变。<br/>我变出一袭青绫罗织。趁着天光照水，怎么看，都只像是一个小小婢女。<br/>她看出我的不高兴，轻轻地哄我。<br/>「刚刚好，让你永远随着我。我们要互相依凭。」<br/>这就是她教我的第二条道理。",
+    "hero_icon": "Hero2015_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1363",
+        "name": "断痴纠妄",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍的伤害，「对战前」若目标已携带<link type=buff value=700000521 bgcolor=#3a85ffff>「逆阙」</link>状态则额外施加<b><color=#e4462c>2</color></b>个随机「有害状态」，否则施加「逆阙」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1361",
+        "name": "伏蛇善妒",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000931 bgcolor=#3a85ffff>「禁疗」</link>状态，若目标携带「禁疗」状态则转化为<link type=buff value=700000521 bgcolor=#3a85ffff>「逆阙」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Shadow_1001",
+        "name": "暗浊",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加1个随机「有害状态」"
+      },
+      {
+        "img": "Skill_Swordsman_1009",
+        "name": "蓄势",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时若本回合未进入对战，自身获得<link type=buff value=700000760 bgcolor=#3a85ffff>「起势」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1364",
+        "name": "苦荼化莲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受攻击后将自身1个「有害状态」转化为1层<link type=buff value=742015072 bgcolor=#3a85ffff>「蜕皮」</link>状态，并对自身3格范围内的攻击者施加<link type=buff value=700001361 bgcolor=#3a85ffff>「蛇毒」</link>状态，持续2回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1013",
+        "name": "聚星飞刺",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>4</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，若自身<b><color=#e4462c>2</color></b>格范围内少于<b><color=#e4462c>2</color></b>个敌人，则获得原地再行动。<br/>使用后切换为<link type=skill value=61201511 bgcolor=#3a85ffff>「聚星连斩」</link>。"
+      },
+      {
+        "img": "Skill_Shadow_1011",
+        "name": "炎杀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "与「炎」属相的敌人作战时，伤害提高25%，遭受伤害降低25%。"
+      },
+      {
+        "img": "EXSkill_1362",
+        "name": "重天恶咒",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍的伤害，「对战前」使目标身上<b><color=#e4462c>4</color></b>个「有益状态」变为随机「有害状态」并施加<link type=buff value=742015062 bgcolor=#3a85ffff>「追命」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累计<b><color=#e4462c>1</color></b>点气力，使用「复初」累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "青",
+        "name": "青蚺剑·金石",
+        "img": "Weapon_201501",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，锲而舍之，朽木不折；锲而不舍，金石可镂。<br/>世间常有持双剑者，而持蛇形剑者不常有。剑身似蛇，起伏如浪，则刃如锯，与敌对峙之时可增创口之面。然擅用者数少，故而少有制衡之器。<br/>言：双剑镂天衣，功绩篆金石。"
+      },
+      {
+        "weapon": "青",
+        "name": "青蚺剑·覆瓦",
+        "img": "Weapon_201502",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，新居已覆瓦，无复风雨忧。<br/>相传有古国地域以蛇为图腾，故而该地民众筑房之时，常以蛇鳞状瓦片覆在房顶，寓意着蛇神盘绕屋顶，从今往后风调雨顺。有双剑名曰「青蚺」，相传为蛇神佩剑，唯有蛇神血脉者能继承。挥舞双剑身姿轻盈若舞，可在无声无息间夺人性命。<br/>言：灵蛇覆青瓦，风月舞寂寥。"
+      },
+      {
+        "weapon": "青",
+        "name": "青蚺剑·吐信",
+        "img": "Weapon_201503",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，古壁龙蛇气，空岩风雨声。<br/>相传古蛇欲化成龙，需每百年蜕皮一次。每次蜕皮需于天地风雨大作之时。为护佑自身安全，常吐蛇信子以探方圆百里。故而吐信之阶，持之可如古蛇吐信，人心所想皆可知，敌方动作轨迹皆可预判，三界难见破解者。<br/>言：大泽龙蛇匿，鬼神藏地心。"
+      },
+      {
+        "weapon": "青",
+        "name": "青蚺剑·牙毒",
+        "img": "Weapon_201504",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，罪业如毗富，岂得免灾毒。<br/>民间载，上古时期曾有毒瘴笼万顷之地，万物不生，生灵难近，唯有巨蛇盘绕于毒瘴中心，以牙为介，吸收天地精华。后巨蛇结成灵丹，食之修为可登仙班，为大妖所争夺。牙毒之阶融此灵丹，持之可造玄雾，毒雾所到之地，众生销毁，修道大能者亦不能敌。<br/>言：玄雾掩星汉，蛇影惊天穹。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "青",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "青",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "青",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "青",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_038",
+        "name": "佛口蛇心阵",
+        "unlock_condition": "阵眼青位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero2015_HeadIcon_Basic",
+        "icon1": "electricity",
+        "icon2": "light",
+        "icon3": "",
+        "desc": "上阵青和「雷」，「光」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。目标每有1个「有害状态」，「对战中」伤害提高5%（最多提高15%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "荼蘼青蜕",
+        "img": "Weapon_201505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "若目标携带「有害状态」大于等于<b><color=#e4462c>3</color></b>则「对战中」暴击率提升<b><color=#e4462c>20%</color></b>。使用「复初」后驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并获得「迅捷II」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "荼蘼青蜕",
+        "img": "Weapon_201505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "若目标携带「有害状态」大于等于<b><color=#e4462c>3</color></b>则「对战中」暴击率提升<b><color=#e4462c>20%</color></b>。使用「复初」后驱散自身<b><color=#e4462c>2</color></b>个「有害状态」并获得「迅捷II」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "荼蘼青蜕",
+        "img": "Weapon_201505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "若目标携带「有害状态」大于等于<b><color=#e4462c>3</color></b>则「对战中」暴击率提升<b><color=#e4462c>25%</color></b>。使用「复初」后驱散自身<b><color=#e4462c>2</color></b>个「有害状态」并获得「迅捷II」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "荼蘼青蜕",
+        "img": "Weapon_201505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "若目标携带「有害状态」大于等于<b><color=#e4462c>3</color></b>则「对战中」暴击率提升<b><color=#e4462c>25%</color></b>。使用「复初」后驱散自身<b><color=#e4462c>3</color></b>个「有害状态」并获得「迅捷II」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "荼蘼青蜕",
+        "img": "Weapon_201505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "若目标携带「有害状态」大于等于<b><color=#e4462c>3</color></b>则「对战中」暴击率提升<b><color=#e4462c>30%</color></b>。使用「复初」后驱散自身<b><color=#e4462c>3</color></b>个「有害状态」并获得「迅捷II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·烟",
+        "percent": "0.128310312597362"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.390923252674213"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.223626544812545"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.166362031363589"
+      },
+      {
+        "name": "炼法黑鳞",
+        "percent": "0.162623325371274"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.116460691660608"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "天荆覆魂",
+        "percent": "0.347460795513552"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.238269809949112"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.125911309585626"
+      }
+    ]
+  }
+]

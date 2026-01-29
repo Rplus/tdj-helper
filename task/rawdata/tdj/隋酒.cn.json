@@ -1,0 +1,378 @@
+[
+  {
+    "name": "隋酒",
+    "is_new": "",
+    "weight": "810",
+    "pinyin": "suijiu",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1038_img",
+    "prop_icon": "Ice",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "冰",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "237",
+    "magic_attack": "12",
+    "physical_attack": "87",
+    "magic_defense": "28",
+    "physical_defense": "42",
+    "huixin": "17",
+    "inherent": "Gift_093",
+    "inherent_name": "酣淋化愁",
+    "star1": "",
+    "star2": "",
+    "star3": "遭受攻击受到伤害时，承受本次伤害量的80%，剩余伤害量转化为<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>施加给自身，持续2回合。使用绝学后，行动结束时，为自身和2格范围内的2个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。",
+    "star4": "遭受攻击受到伤害时，承受本次伤害量的75%，剩余伤害量转化为<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>施加给自身，持续2回合。使用绝学后，行动结束时，为自身和2格范围内的2个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。",
+    "star5": "遭受攻击受到伤害时，承受本次伤害量的70%，剩余伤害量转化为<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>施加给自身，持续2回合。使用绝学后，行动结束时，为自身和2格范围内的4个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。",
+    "star6": "遭受攻击受到伤害时，承受本次伤害量的65%，剩余伤害量转化为<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>施加给自身，持续2回合。使用绝学后，行动结束时，为自身和3格范围内的4个其他友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续2回合。",
+    "story_name": "醉酒",
+    "story_content": "「王上，我这酒有三重好，一是解忧……」<br/>小楼昨夜又东风。<br/>仲夏七夕，曼舞轻歌，南音靡靡。<br/>蒲扇环伺，金缕玉衣，红烛下，糨糊窗纸，影憧憧。<br/>人说，那条丧家之犬之所以为深宫所拴，全是他悲慈之心造的孽。人说，他写的句，唱的词，似菩萨像扔进真火里，熔化的一滴金泪。<br/>这金泪，滴到世上，可烫着了有些人。<br/>「王上，我这酒有三重好，二是忘怀……」<br/>去国矣！抬头不见日月，低头不见江山。<br/>阶下囚，倒也欢愉，没有君王之责，没有群臣之斥，没有洪旱之乱，没有选兵秣马之惶。<br/>在这小楼一统里，在花千世界，独独不在汴京。<br/>「王上，我这酒有三重好，三是往生……」<br/>红纱拂落地，舞人惊呼，翠屏溅黑血，小楼主人滚落玉床。<br/>传南唐后主于汴京羁押处，饮赐酒后暴毙而亡。<br/>卧寝空空，不见刺客。惊叫连连，人心惶惶，弓鞋踏踏奔忙。<br/>却无人见，金杯一盏，叮铃落地，迂回流连半晌，滚落无人知处。",
+    "hero_icon": "Hero1038_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1288",
+        "name": "卸苦解忧",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>主动使用，护卫范围提高到<b><color=#e4462c>2</color></b>格，自身周围<b><color=#e4462c>2</color></b>格张开领域<link type=buff value=741038130 bgcolor=#3a85ffff>「无忧域」</link>，并对<b><color=#e4462c>2</color></b>格范围内所有友方施加<link type=buff value=700000541 bgcolor=#3a85ffff>「御魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1019",
+        "name": "反震",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受近战攻击「对战后」对敌人造成1次「固定伤害」（物防的100%）。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒气",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+      },
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破冲",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，自身获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1291",
+        "name": "拢寒劈夜",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若携带<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>状态，「对战前」消耗「贮酿」，对目标造成<b><color=#e4462c>1</color></b>次伤害（「贮酿」存储量的<b><color=#e4462c>70%</color></b>）。「对战后」恢复自身<b><color=#e4462c>50%</color></b>气血。"
+      },
+      {
+        "img": "EXSkill_1289",
+        "name": "醉步花阴",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "法术免伤提高10%，使用绝学后，获得再移动（2格）。"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄势化甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "若遭受近战攻击前已有2点气力，则消耗所有气力触发：减免本次对战伤害40%。<br/>[气力技]每遭受1次伤害累积1点气力"
+      },
+      {
+        "img": "EXSkill_1290",
+        "name": "落霜惊神",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，自身获得<link type=buff value=700000301 bgcolor=#3a85ffff>「护卫」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若造成伤害，则消耗<link type=buff value=741038012 bgcolor=#3a85ffff>「贮酿」</link>状态，制造「霜冻」地形，持续<b><color=#e4462c>2</color></b>回合。<br/>「霜冻」：霜冻内的敌方角色，移动力<b><color=#e4462c>-1</color></b>"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "隋酒",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "隋酒",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "隋酒",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "隋酒",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "霜落花寒",
+        "img": "Weapon_shuangluohuahang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，双防提高<b><color=#e4462c>7%</color></b>。携带「贮酿」状态时，受治疗效果提高<b><color=#e4462c>10%</color></b>且移动力<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "霜落花寒",
+        "img": "Weapon_shuangluohuahang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，双防提高<b><color=#e4462c>9%</color></b>。携带「贮酿」状态时，受治疗效果提高<b><color=#e4462c>15%</color></b>且移动力<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "霜落花寒",
+        "img": "Weapon_shuangluohuahang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，双防提高<b><color=#e4462c>11%</color></b>。携带「贮酿」状态时，受治疗效果提高<b><color=#e4462c>20%</color></b>且移动力<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "霜落花寒",
+        "img": "Weapon_shuangluohuahang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，双防提高<b><color=#e4462c>13%</color></b>。携带「贮酿」状态时，受治疗效果提高<b><color=#e4462c>25%</color></b>且移动力<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "霜落花寒",
+        "img": "Weapon_shuangluohuahang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，双防提高<b><color=#e4462c>15%</color></b>。携带「贮酿」状态时，受治疗效果提高<b><color=#e4462c>30%</color></b>且移动力<b><color=#e4462c>+1</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "隋酒",
+        "name": "黄铜锏",
+        "img": "Weapon_huangtongjian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "据《武经总要》所载，锏其形，大小短长，随人力所胜用之。<br/>黄铜制锏，状如竹根节也，短兵重器。历代视之为杂兵，少有人能熟用之。持其者，上磨下扫，技法势势相通串变。唯有技巧精通者，可操之劈、挑、滚、压等技，攻防一体。<br/>言：千钧化一力，身难逢敌手"
+      },
+      {
+        "weapon": "隋酒",
+        "name": "青锋锏",
+        "img": "Weapon_qinfengjian",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，青峰之外， 何处云天。<br/>据传，有锏以妖兽之血淬炼，纹路如青峰绵延，无尖但附锐气，故称「青锋」。其身水火不侵，故而能流传至今，为后世所研究仿制。然，能工巧匠皆不能复刻此物十之一二。所挥之处，气息滞结，若加持咒力，可一招制敌。<br/>言：锋锐断云气，无刃破海天。"
+      },
+      {
+        "weapon": "隋酒",
+        "name": "酿梦重锏",
+        "img": "Weapon_niangmengchongjian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，梦里挑灯看剑，梦回吹角连营。<br/>据传，有锏陨铁所铸，其重凡人难持也。现于两军对战之时，碎敌将之首于马背，犹有鬼神相助，其后，万千重骑深陷梦魇，皆毁于此。有修道者因其戾气，用仙酒写封咒，以缚其灵。此后，该器使用时，酒香四溢，如梦交织，可令敌心生恐惧，不战而退。<br/>言：绞梦灭烽火，重咒缚鬼神。"
+      },
+      {
+        "weapon": "隋酒",
+        "name": "九曲愁肠",
+        "img": "Weapon_jiuquchouchang",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，天地并况，惟予有慕，爰熙紫坛，思求厥路。<br/>有妖为塑其形，跋涉三界，取天地之晶铸之为锏。锏为善器，世有「上打君不正，下打臣不忠」之说，可收其心，制其体。后多为庙堂所奉，皇运加持也。九节之锏，镂其心，是为守。持其者舞之，如上神一击，万物而色变。<br/>言：愁肠缠断骨，扶正九曲心。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.237240626137605"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.162067710229341"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.166800145613396"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.139679650527848"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.188569348380051"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.153694939934474"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.209182287421896"
+      },
+      {
+        "name": "寒月玉镯",
+        "percent": "0.142895952186906"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.125237707144798"
+      }
+    ]
+  }
+]

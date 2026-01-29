@@ -1,0 +1,409 @@
+[
+  {
+    "name": "九色鹿",
+    "is_new": "",
+    "pinyin": "jiuselu",
+    "weight": "1160",
+    "source": "敦煌艺术馆联动角色",
+    "pic": "Hero1063_img",
+    "prop_icon": "Light",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "光",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "188",
+    "magic_attack": "13",
+    "physical_attack": "99",
+    "magic_defense": "31",
+    "physical_defense": "31",
+    "huixin": "40",
+    "inherent": "Gift_134",
+    "inherent_name": "鹿步生莲",
+    "star1": "",
+    "star2": "",
+    "star3": "自身气血越高伤害和暴击率越高（最高提高11%）。对主动移动后的格子施加「莲云」效果，持续2回合。自身在已存在的友方「莲云」地形上移动时不消耗移动力。<br/>「莲云」：友方行动结束时，恢复自身最大气血的20%并驱散1个「有害状态」。",
+    "star4": "自身气血越高伤害和暴击率越高（最高提高14%）。对主动移动后的格子施加「莲云」效果，持续2回合。自身在已存在的友方「莲云」地形上移动时不消耗移动力。<br/>「莲云」：友方行动结束时，恢复自身最大气血的20%并驱散1个「有害状态」。",
+    "star5": "自身气血越高伤害和暴击率越高（最高提高17%）。对主动移动后的格子施加「莲云」效果，持续2回合。自身在已存在的友方「莲云」地形上移动时不消耗移动力。<br/>「莲云」：友方行动结束时，恢复自身最大气血的20%并驱散1个「有害状态」。",
+    "star6": "自身气血越高伤害和暴击率越高（最高提高20%）。对主动移动后的格子施加「莲云」效果，持续2回合。自身在已存在的友方「莲云」地形上移动时不消耗移动力。<br/>「莲云」：友方行动结束时，恢复自身最大气血的20%并驱散1个「有害状态」。",
+    "story_name": "鲁鲁",
+    "story_content": "春涧涌流。松林。阳光在茸茸叶片之间淅淅沥沥地滴漏而下。木香，土的气息。鸾鸟啁啾。每一个清晨，当它睁眼醒来时，这些就是组成它记忆的要素。<br/>一日复一日，一年复一年，密林之间，时间就如冰泉，裹着山间利石，急涌而下，却不见棱角。<br/>林中的动物都敬它为王，受它庇护。<br/>它是鹿王，却不以世俗君王的道而统。它们当面唤它「鲁鲁」。<br/>鲁鲁，鲁鲁，尊敬的鹿王。它没有附国，没有疆界；无臣，无属，整个密林却都是它的领属。每一道草籽破土的芒刺，每一片叶落雪上的声音，都会向它报到。",
+    "hero_icon": "Hero1063_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1476",
+        "name": "圣严缄口",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」每多移动<b><color=#e4462c>2</color></b>格，则偷取目标<b><color=#e4462c>1</color></b>个「有益状态」且「对战中」暴击伤害提高<b><color=#e4462c>5%</color></b>（最多偷取<b><color=#e4462c>3</color></b>个，提高<b><color=#e4462c>15%</color></b>）。"
+      },
+      {
+        "img": "Skill_Assassin_1005",
+        "name": "伺机而动",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1477",
+        "name": "洞天灵击",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>5</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害并制造「莲云」地形，持续<b><color=#e4462c>2</color></b>回合，自身获得再移动（<b><color=#e4462c>2</color></b>格）和<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「莲云」：友方行动结束时，恢复自身最大气血的<b><color=#e4462c>20%</color></b>并驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "Skill_Assassin_1009",
+        "name": "来去如风",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若「对战后」有剩余的移动力，可继续移动。"
+      },
+      {
+        "img": "EXSkill_1478",
+        "name": "予恩报恶",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复范围内所有角色气血（恢复量为施术者物攻的<b><color=#e4462c>0.5</color></b>倍），对敌方目标施加<link type=buff value=741063135 bgcolor=#3a85ffff>「恩念」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1480",
+        "name": "菩提本生",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "暴击率提升10%。回合开始时在自身1圈内生成「莲云」地形，持续2回合。<br/>「莲云」：友方行动结束时，恢复自身最大气血的20%并驱散1个「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1479",
+        "name": "慈鹿降世",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "从天而降，对<b><color=#e4462c>3</color></b>格范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，使目标随机<b><color=#e4462c>1</color></b>个未处于冷却中的伤害绝学冷却<b><color=#e4462c>+1</color></b>，自身获得<link type=buff value=741063150 bgcolor=#3a85ffff>「鹿王」</link>状态，持续<b><color=#e4462c>1</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放技能。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，受到非伤害绝学后额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "九色鹿",
+        "name": "初识",
+        "img": "Weapon_106301",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，朝看花开满树红，暮看花落树还空。<br/>执万物与执一物，有何不同？皆是蛇头追蛇尾，无尽时。初识世间事，于虚中求识，所悟咒法，为幻梦耳。<br/>言：日升月还落，世事无甚新。"
+      },
+      {
+        "weapon": "九色鹿",
+        "name": "悟相",
+        "img": "Weapon_106302",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，手把青秧插满田，低头便见水中天。<br/>猴儿捞月，焉知水月为镜影？惊悟何为相、何为实。然识得相而不识得本源，仍是陷于迷惑之中，所悟咒法，呼风唤雨，然不知风雨何处而来，久而衰。<br/>言：镜花为虚影，梢头显真红。"
+      },
+      {
+        "weapon": "九色鹿",
+        "name": "了因",
+        "img": "Weapon_106303",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，若将花比人间事，花与人间事一同。<br/>道不随人变，法非时相移。万物非我心生，而自有其时。所悟咒法，自然而成，非力之所竭。然亦非大道，仍是迷境中识得只言片语。<br/>言：时如流水移，盈篓终是空。"
+      },
+      {
+        "weapon": "九色鹿",
+        "name": "识缘",
+        "img": "Weapon_106304",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，夜静水寒鱼不食，满船空载月明归。<br/>波随风动，光影相依，非创生所为，应缘而生。所悟咒法，水到渠成，周身万物，皆随缘成，是为无败战之地，而有败战之心。<br/>言：心意无所动，缘至法自成。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "九色鹿",
+        "img": "Equip_yuejinhue",
+        "name": "月锦抹额",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "九色鹿",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "九色鹿",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "九色鹿",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_047",
+        "name": "祝法化生阵",
+        "unlock_condition": "阵眼九色鹿位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1063_HeadIcon_Basic",
+        "icon1": "warlock",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵九色鹿和「咒师」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。自身满血时伤害提高8%，自身未携带「有害状态」时免伤提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "般若",
+        "img": "Weapon_106305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在气血全满的友方时，物攻提高<b><color=#e4462c>5%</color></b>。累计主动移动<b><color=#e4462c>16</color></b>格后，本次行动结束时恢复自身<b><color=#e4462c>20%</color></b>气血，若自身已满血则随机<b><color=#e4462c>1</color></b>个伤害绝学冷却<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "般若",
+        "img": "Weapon_106306",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到5星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在气血全满的友方时，物攻提高<b><color=#e4462c>6%</color></b>。累计主动移动<b><color=#e4462c>14</color></b>格后，本次行动结束时恢复自身<b><color=#e4462c>20%</color></b>气血，若自身已满血则随机<b><color=#e4462c>1</color></b>个伤害绝学冷却<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "般若",
+        "img": "Weapon_106307",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到6星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在气血全满的友方时，物攻提高<b><color=#e4462c>7%</color></b>。累计主动移动<b><color=#e4462c>14</color></b>格后，本次行动结束时恢复自身<b><color=#e4462c>20%</color></b>气血，若自身已满血则随机<b><color=#e4462c>1</color></b>个伤害绝学冷却<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "般若",
+        "img": "Weapon_106308",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到7星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在气血全满的友方时，物攻提高<b><color=#e4462c>8%</color></b>。累计主动移动<b><color=#e4462c>12</color></b>格后，本次行动结束时恢复自身<b><color=#e4462c>20%</color></b>气血，若自身已满血则随机<b><color=#e4462c>1</color></b>个伤害绝学冷却<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "般若",
+        "img": "Weapon_106309",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到8星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在气血全满的友方时，物攻提高<b><color=#e4462c>10%</color></b>。累计主动移动<b><color=#e4462c>12</color></b>格后，本次行动结束时恢复自身<b><color=#e4462c>20%</color></b>气血，若自身已满血则随机<b><color=#e4462c>1</color></b>个伤害绝学冷却<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.359638554216867"
+      },
+      {
+        "name": "天狼血眼",
+        "percent": "0.243975903614457"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.138554216867469"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.248192771084337"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.133132530120481"
+      },
+      {
+        "name": "星河手环",
+        "percent": "0.127108433734939"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.196685845799769"
+      },
+      {
+        "name": "摩尼宝珠",
+        "percent": "0.115151515151515"
+      },
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.114192558496356"
+      },
+      {
+        "name": "御刃金佩",
+        "percent": "0.111891062523973"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "杏花疏影",
+        "percent": "0.248795180722891"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.144273907910271"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.114192558496356"
+      }
+    ]
+  }
+]

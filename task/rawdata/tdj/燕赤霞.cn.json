@@ -1,0 +1,397 @@
+[
+  {
+    "name": "燕赤霞",
+    "is_new": "",
+    "weight": "670",
+    "pinyin": "yanchixia",
+    "source": "国风企划聂小倩篇登场角色",
+    "pic": "Hero2010_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "208",
+    "magic_attack": "13",
+    "physical_attack": "107",
+    "magic_defense": "23",
+    "physical_defense": "35",
+    "huixin": "39",
+    "inherent": "Gift_079",
+    "inherent_name": "紫电青锋",
+    "star1": "",
+    "star2": "",
+    "star3": "场上每有1个敌人受到暴击，获得1层<link type=buff value=742010032 bgcolor=#3a85ffff>「暴风眼」</link>状态，持续2回合。<br/>",
+    "star4": "场上每有1个敌人受到暴击，获得1层<link type=buff value=742010042 bgcolor=#3a85ffff>「暴风眼」</link>状态，持续2回合。",
+    "star5": "场上每有1个敌人受到暴击，获得1层<link type=buff value=742010052 bgcolor=#3a85ffff>「暴风眼」</link>状态，持续2回合。",
+    "star6": "场上每有1个敌人受到暴击，获得1层<link type=buff value=742010062 bgcolor=#3a85ffff>「暴风眼」</link>状态，持续2回合。",
+    "story_name": "伏妖剑",
+    "story_content": "燕赤霞偶尔觉得锄强扶弱也是件难事，倒不是说「强」有多厉害，而是他渐渐再难遇到自己打不过的妖。<br/>伏妖师也算是正经行当，他需要伏妖锄强的那点满足之意不太甚吧？<br/>就说那祸害村庄庄稼的十来只小妖，他明明食顿饭的功夫就清了去，在那普通村民眼中，偏浓墨重彩了些。<br/>「燕大师一人一剑，杀进杀出。」<br/>燕大师是个有所追求的人，决定打开眼界，闯荡尘世。<br/>他不再局限于小小的村庄内，放心大胆地把这些小妖交给野路子同门，一路按照真假难辨的江湖传言，寻那大妖盘踞之地。<br/>他自诩正道，连影子都不会拐弯儿，自然知晓伏妖需分青红皂白，不会对无辜小妖造下杀孽。<br/>但世上总归是有他人难敌的恶妖，注定被要斩首于他剑下的。<br/>「天下之大，我剑尖所向之地，哪里去不得？」<br/>侠客意气，可堪千里持剑去。<br/>一剑在手，当做伏妖第一人！",
+    "hero_icon": "Hero2010_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1011",
+        "name": "移形剑法",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战前」使目标身上<b><color=#e4462c>2</color></b>个「有益状态」变为随机「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1203",
+        "name": "鸣神动",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，选择并传送到<b><color=#e4462c>3</color></b>格范围内<b><color=#e4462c>1</color></b>个指定空格。若传送前携带至少<b><color=#e4462c>2</color></b>层「暴风眼」状态则获得再行动(<b><color=#e4462c>3</color></b>格)。"
+      },
+      {
+        "img": "GPassive_1003",
+        "name": "狂力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴击率提升12%"
+      },
+      {
+        "img": "GPassive_1029",
+        "name": "贯甲奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蚀御I」</link>，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1202",
+        "name": "惊雷闪",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，并获得<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。每造成<b><color=#e4462c>1</color></b>次暴击伤害，该绝学冷却时间减少<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1204",
+        "name": "匣中剑",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害。对距离越近的目标的暴击率越高（最多提高<b><color=#e4462c>30%</color></b>），并转化受暴击的目标携带的最多<b><color=#e4462c>2</color></b>个「有益状态」为<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>和<link type=buff value=700001311 bgcolor=#3a85ffff>「流血」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Electricity_1012",
+        "name": "传导",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1205",
+        "name": "风雷涌",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>4</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害并造成「牵引」。获得<link type=buff value=710010660 bgcolor=#3a85ffff>「神速」</link>状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「牵引」：位移到离施加者最近的随机位置<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，暴击时额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "燕赤霞",
+        "name": "桃木剑",
+        "img": "weapon_taomujian",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "众人言，桃者为五木之精，故而其雕刻为剑，有镇宅辟邪之效，可称之为法器。然，精于剑法者忠于铁器，少有使用木剑。<br/>而除妖卫道者，自身修习之法与其甚适，故此类人士皆喜桃木剑为随身法器，以正妖纲。<br/>言，桃木可雕灵，卫道此间世。"
+      },
+      {
+        "weapon": "燕赤霞",
+        "name": "玄阳剑",
+        "img": "weapon_xuanyangjian",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "据传，有剑列于古塔之巅，日照三万日，得以阳之精华沐其刃，有净魂之效。至此，一代名剑出世，名唤玄阳。<br/>后人闻之，纷纷效仿。但玄阳之力难驭，需至刚至阳之人方可持之。<br/>言，日出云天旧，疑是暮色休。<br/>"
+      },
+      {
+        "weapon": "燕赤霞",
+        "name": "吞云剑",
+        "img": "weapon_tunyunjian",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，羽化蓬莱，胸吞云梦。<br/>相传，有仙立于云端，与妖魔对战。一剑劈云海，寻其妖魔藏身之处，一剑云雾散，妖魔血肉碎于剑下，坠时化去漫天云雾。<br/>有观者云，此剑刃短，然陵劲淬砺，神华内敛，可称绝世利刃。仙人之剑，缘者得之。<br/>言，此刃吞云海，一剑化百日。"
+      },
+      {
+        "weapon": "燕赤霞",
+        "name": "残霄咒鸣剑",
+        "img": "weapon_canxiaoshoumingjian",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "相传，神剑出世之时，天地昏沉，玄雷九天而下。雷鸣整整九日，为避免伤及无辜，有仙人降世，特在剑身刻下符文，以敛其威，收其势。<br/>然，神剑有灵，为脱其缚，纵入紫霄。终其崩裂剑身以换残霄咒鸣剑留存于世，且，历代仅有有大气运者能持。<br/>言：雷霄九天落，残鸣问剑心。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "燕赤霞",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "燕赤霞",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "燕赤霞",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "燕赤霞",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_025",
+        "name": "剑胆星驰阵",
+        "unlock_condition": "阵眼燕赤霞位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero2010_HeadIcon_Basic",
+        "icon1": "warlock",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵燕赤霞和「咒师」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，3格内每多1个其他角色，伤害和暴击率提高2%（最多提高8%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "炁明伏妖剑",
+        "img": "weapon_wumingfuyaojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「暴风眼」状态时物攻提高<b><color=#e4462c>5%</color></b>，使用主动绝学后随机伤害绝学冷却<b><color=#e4462c>-1</color></b>，且该次行动结束时「暴风眼」触发后不消耗。"
+      },
+      {
+        "name": "炁明伏妖剑",
+        "img": "weapon_wumingfuyaojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「暴风眼」状态时物攻提高<b><color=#e4462c>6%</color></b>，使用主动绝学后随机伤害绝学冷却<b><color=#e4462c>-1</color></b>，且该次行动结束时「暴风眼」触发后不消耗。"
+      },
+      {
+        "name": "炁明伏妖剑",
+        "img": "weapon_wumingfuyaojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「暴风眼」状态时物攻提高<b><color=#e4462c>7%</color></b>，使用主动绝学后随机伤害绝学冷却<b><color=#e4462c>-1</color></b>，且该次行动结束时「暴风眼」触发后不消耗。"
+      },
+      {
+        "name": "炁明伏妖剑",
+        "img": "weapon_wumingfuyaojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「暴风眼」状态时物攻提高<b><color=#e4462c>8%</color></b>，使用主动绝学后随机伤害绝学冷却<b><color=#e4462c>-1</color></b>，且该次行动结束时「暴风眼」触发后不消耗。"
+      },
+      {
+        "name": "炁明伏妖剑",
+        "img": "weapon_wumingfuyaojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「暴风眼」状态时物攻提高<b><color=#e4462c>10%</color></b>，使用主动绝学后随机伤害绝学冷却<b><color=#e4462c>-1</color></b>，且该次行动结束时「暴风眼」触发后不消耗。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "雷吼化玉",
+        "percent": "0.29045643153527"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.236514522821577"
+      },
+      {
+        "name": "如意珠翠",
+        "percent": "0.219917012448133"
+      },
+      {
+        "name": "七色缨珞",
+        "percent": "0.170124481327801"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "星河手环",
+        "percent": "0.107894736842105"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.261410788381743"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.190871369294606"
+      },
+      {
+        "name": "天穹剑印",
+        "percent": "0.16597510373444"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "清光似水",
+        "percent": "0.223684210526316"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.164473684210526"
+      }
+    ]
+  }
+]

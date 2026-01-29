@@ -1,0 +1,398 @@
+[
+  {
+    "name": "任断离",
+    "is_new": "",
+    "weight": "750",
+    "pinyin": "renduanli",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1031_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "203",
+    "magic_attack": "107",
+    "physical_attack": "13",
+    "magic_defense": "27",
+    "physical_defense": "35",
+    "huixin": "20",
+    "inherent": "Gift_085",
+    "inherent_name": "鬼瘴缠弥",
+    "star1": "",
+    "star2": "",
+    "star3": "若目标已携带「有害状态」，主动普攻触发「追击」（0.3倍伤害），若目标已携带2个及以上「有害状态」，则「追击」转化为「连击」（0.4倍伤害）。主动攻击和遭受攻击「对战前」获得<link type=buff value=741031013 bgcolor=#3a85ffff>「魉生」</link>状态。<br/>",
+    "star4": "若目标已携带「有害状态」，主动普攻触发「追击」（0.3倍伤害），若目标已携带2个及以上「有害状态」，则「追击」转化为「连击」（0.4倍伤害）。主动攻击和遭受攻击「对战前」获得<link type=buff value=741031023 bgcolor=#3a85ffff>「魉生」</link>状态。<br/>",
+    "star5": "若目标已携带「有害状态」，主动普攻触发「追击」（0.3倍伤害），若目标已携带2个及以上「有害状态」，则「追击」转化为「连击」（0.4倍伤害）。主动攻击和遭受攻击「对战前」获得<link type=buff value=741031033 bgcolor=#3a85ffff>「魉生」</link>状态。<br/>",
+    "star6": "若目标已携带「有害状态」，主动普攻触发「追击」（0.4倍伤害），若目标已携带2个及以上「有害状态」，则「追击」转化为「连击」（0.5倍伤害）。主动攻击和遭受攻击「对战前」获得<link type=buff value=741031043 bgcolor=#3a85ffff>「魉生」</link>状态。",
+    "story_name": "任弃",
+    "story_content": "在下紫云派任断离。<br/>想必你听过紫云派的传说吧。<br/>上古守剑四大派，天玄、天瑶、崆峒、紫云，命数如织。<br/>天玄门不过俊男美女的勾栏舍子，风闻远比武功耐打。<br/>天瑶门早已四散，败走南迁，变身四象，修钻道法。<br/>崆峒派本就与世无干。短短入世，靠的是朱掌门的油嘴滑舌。在我看来，他们净出些文绉绉的呆子。<br/>总的来说，早已各自凋敝，唯有紫云不同。<br/>紫云自古剑、术双修，却因资辈甚少，几乎断绝。<br/>先祖穆宗时广收外家弟子，在当时人眼里是气数将尽。我师公周崇，也是这批扩员的得利者。<br/>不想最后，那些靠着亲上加亲、维持血脉正统纯净的武林大派，都败于姻亲果结。<br/>只有我们竟如大蠊一般苟存至今，不出头，但是也死不透。<br/>江湖人总把我们这伙人称作侠二代、武传人，纯属胡说八道。<br/>任断离可不像奚殷少主出身名门正派，也不像白大人有那弟子亲传<br/>——没爹没娘，唯有师亲。<br/>我足岁大被人丢在山门。村子里各家各户赏我一口饭吃，下雨时给我一处茅屋睡。<br/>如此混到七岁半，我跟在晨练的弟子队列最末，有样学样，比划拳脚。师尊看我有潜能，便收我入门。<br/>问来路，孤女只答为人所弃。<br/>问来路，无来路。问归处，无所图。<br/>师尊便唤我任弃。",
+    "hero_icon": "Hero1031_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1008",
+        "name": "预见",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战中」物防，法防+10%。"
+      },
+      {
+        "img": "EXSkill_1242",
+        "name": "藏风凛客",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战后」对目标施加1个随机「有害状态」，且「对战中」伤害提高10%。"
+      },
+      {
+        "img": "EXSkill_1239",
+        "name": "断离之刃",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<b><color=#e4462c>1</color></b>个随机「有害状态」，每命中<b><color=#e4462c>1</color></b>个目标，获得<b><color=#e4462c>1</color></b>层「魉生」状态（最多<b><color=#e4462c>3</color></b>层）"
+      },
+      {
+        "img": "EXSkill_1240",
+        "name": "鬼蛊夺煞",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "7格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个敌人施加<link type=buff value=741031110 bgcolor=#3a85ffff>「寄形」</link>状态（同时只可存在<b><color=#e4462c>1</color></b>个「寄形」状态，且施加者死亡后消失），自身根据「寄形」目标获得对应「职业强化」状态（同时只可存在<b><color=#e4462c>1</color></b>种「职业强化」状态），持续<b><color=#e4462c>3</color></b>回合。若自身<b><color=#e4462c>2</color></b>格范围内存在携带「寄形」状态的敌方，则获得原地再行动。<br/>「职业强化」：<link type=buff value=741031130 bgcolor=#3a85ffff>「磐石」</link><link type=buff value=741031140 bgcolor=#3a85ffff>「豪侠」</link><link type=buff value=741031150 bgcolor=#3a85ffff>「如燕」</link><link type=buff value=741031160 bgcolor=#3a85ffff>「飞羽」</link><link type=buff value=741031170 bgcolor=#3a85ffff>「苦咒」</link><link type=buff value=741031180 bgcolor=#3a85ffff>「颂祝」</link><link type=buff value=741031310 bgcolor=#3a85ffff>「擒风」</link><link type=buff value=741031190 bgcolor=#3a85ffff>「巨影」</link><br/>使用后切换为<link type=skill value=61031013 bgcolor=#3a85ffff>「窃法咒刃」</link>。"
+      },
+      {
+        "img": "Skill_Electricity_1013",
+        "name": "雷杀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍级",
+        "desc": "与「雷」属相的敌人作战时，伤害提高25%，遭受伤害降低25%。"
+      },
+      {
+        "img": "Skill_Shadow_1003",
+        "name": "吞噬",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，若本回合使用过绝学，自身获得「吸取」状态。（间隔1回合触发）<br/>「吸取」:「对战后」恢复自身气血，恢复量为本次伤害的30%。（造成伤害后消耗）"
+      },
+      {
+        "img": "EXSkill_1238",
+        "name": "紫云剑斩",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，施加<link type=buff value=700000841 bgcolor=#3a85ffff>「封咒」</link>状态，持续<b><color=#e4462c>2</color></b>回合，且「对战后」恢复自身气血（恢复量为本次伤害的<b><color=#e4462c>50%</color></b>）。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "任断离",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "任断离",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "任断离",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "任断离",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "任断离",
+        "name": "流铁子母剑",
+        "img": "Weapon_liutiezimujian",
+        "qixue": "43",
+        "magic": "40",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "世间有巨剑，传言为山野一族所操持，其之锋锐，山岭草木需避其芒，万物生灵绕道而行，持其者需天赋异禀。<br/>巨剑外由玄铁浇注而成，世人知玄铁色黑而质硬，可隔水火，却不知剑内又有乾坤。剑分子母，母剑中空，子剑有流动之势，可速拔而一击制敌。<br/>言：流色匣中挥，重云山岳碎。"
+      },
+      {
+        "weapon": "任断离",
+        "name": "隐纹子母剑",
+        "img": "Weapon_yinwenzimujian",
+        "qixue": "52",
+        "magic": "48",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "据古籍载，古帝善作云书，后人效其法，故有「龙章凤篆之文，灵迹符书之字是也」之说。<br/>民间有能匠者，隐世入道，毕生之力铸一剑，终化以自身精血，投身炼于剑中，又求其魂化为子剑之形，故而刻符文于母剑之上。对敌时剑身符文隐现，可提升操其者用剑之力，后人称之为「隐纹子母剑」。<br/>言：削骨剑正涩，拭光又赠纹。"
+      },
+      {
+        "weapon": "任断离",
+        "name": "裂光子母剑",
+        "img": "Weapon_lieguangzimujian",
+        "qixue": "65",
+        "magic": "60",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，古剑寒黯黯，铸来几千秋。<br/>传，「裂光子母剑」为千年古兵，深埋于化荒之地、妖邪盘踞之所，母剑与幽魂同栖，子剑与毒瘴同息。<br/>挥舞之时，咒邪之力吞吐而出，可夺生灵之寿，力弱者折损于当下，生机四散。古剑有灵，引人身堕恶念，故此剑为正道所禁。<br/>言：幽兵刮光色，地床咽人心。"
+      },
+      {
+        "weapon": "任断离",
+        "name": "衰草寄明",
+        "img": "Weapon_aicaojiming",
+        "qixue": "81",
+        "magic": "75",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "据《山海经》载：龙山，上多寓木，其上多碧，其下多赤锡，其草多桃枝、钩端。有木附灵，样如衰草，天地造化而生，攀附寄生于神山生灵之上，后折于仙人之手，熔神石制为绝世利器，称「衰草寄明」。<br/>「衰草寄明」以山身为基，裂缝之处流光回转，有衰草之态，剑身辅有灵石，以供操持。<br/>言：衰草汲穹苍，剑势难晦藏。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "西山雾重",
+        "img": "Weapon_xishanwuli",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵技能尚未解锁",
+        "desc": "主动攻击携带「有害状态」的目标时，法术穿透提升<b><color=#e4462c>8%</color></b>。"
+      },
+      {
+        "name": "西山雾重",
+        "img": "Weapon_xishanwuli",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "主动攻击携带「有害状态」的目标时，法术穿透提升<b><color=#e4462c>11%</color></b>。"
+      },
+      {
+        "name": "西山雾重",
+        "img": "Weapon_xishanwuli",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "主动攻击携带「有害状态」的目标时，法术穿透提升<b><color=#e4462c>14%</color></b>。携带<b><color=#e4462c>2</color></b>层及以上「魉生」状态时，射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "西山雾重",
+        "img": "Weapon_xishanwuli",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "主动攻击携带「有害状态」的目标时，法术穿透提升<b><color=#e4462c>17%</color></b>。携带<b><color=#e4462c>2</color></b>层及以上「魉生」状态时，射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "西山雾重",
+        "img": "Weapon_xishanwuli",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "主动攻击携带「有害状态」的目标时，法术穿透提升<b><color=#e4462c>20%</color></b>。携带<b><color=#e4462c>2</color></b>层及以上「魉生」状态时，射程<b><color=#e4462c>+1</color></b>；携带<b><color=#e4462c>4</color></b>层及以上「魉生」状态时，移动力<b><color=#e4462c>+1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "魂刹玉",
+        "percent": "0.665983606557377"
+      },
+      {
+        "name": "天河朱砂",
+        "percent": "0.14344262295082"
+      },
+      {
+        "name": "鹿鸣灵珠",
+        "percent": "0.133196721311475"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤心环",
+        "percent": "0.229244777718265"
+      },
+      {
+        "name": "千稜幻玉·烟",
+        "percent": "0.14408833827094"
+      },
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.128198222461621"
+      },
+      {
+        "name": "葬海戒",
+        "percent": "0.119310530568274"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·雾",
+        "percent": "0.239754098360656"
+      },
+      {
+        "name": "炼法黑鳞",
+        "percent": "0.233606557377049"
+      },
+      {
+        "name": "天穹剑印",
+        "percent": "0.204918032786885"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.312539783577339"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.260343730108211"
+      },
+      {
+        "name": "杏花疏影",
+        "percent": "0.252705283259071"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.161043921069383"
+      }
+    ]
+  }
+]

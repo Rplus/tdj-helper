@@ -1,0 +1,405 @@
+[
+  {
+    "name": "苍狼",
+    "is_new": "",
+    "pinyin": "canglang",
+    "weight": "1320",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1075_img",
+    "prop_icon": "Light",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "光",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "249",
+    "magic_attack": "12",
+    "physical_attack": "85",
+    "magic_defense": "21",
+    "physical_defense": "46",
+    "huixin": "20",
+    "inherent": "Gift_148",
+    "inherent_name": "荒原狼神",
+    "star1": "",
+    "star2": "",
+    "star3": "代替相邻1格内友方承受所有攻击，自身3格范围内每存在1个其他友方免伤提高8%，护卫范围提升1格（最多提升16%/2格），当达上限时，自身双防额外提升20%。造成伤害后，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，持续2回合。主动攻击或遭受攻击前，若目标携带<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，则获得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>状态，持续1回合（每回合只能触发1次）。<br/>[协攻]若队友主动攻击自身3格范围内的敌人且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成1次「固定伤害」（苍狼自身（物防+法防）的30%），并施加1个「裂伤」状态，持续2回合（每回合只能触发3次）",
+    "star4": "代替相邻1格内友方承受所有攻击，自身3格范围内每存在1个其他友方免伤提高10%，护卫范围提升1格（最多提升20%/2格），当达上限时，自身双防额外提升20%。造成伤害后，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，持续2回合。主动攻击或遭受攻击前，若目标携带<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，则获得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>状态，持续1回合（每回合只能触发1次）。<br/>[协攻]若队友主动攻击自身3格范围内的敌人且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成1次「固定伤害」（苍狼自身（物防+法防）的30%），并施加1个「裂伤」状态，持续2回合（每回合只能触发3次）",
+    "star5": "代替相邻1格内友方承受所有攻击，自身3格范围内每存在1个其他友方免伤提高12%，护卫范围提升1格（最多提升24%/2格），当达上限时，自身双防额外提升20%。造成伤害后，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，持续2回合。主动攻击或遭受攻击前，若目标携带<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，则获得<link type=buff value=751075075 bgcolor=#3a85ffff>「循血」</link>状态，持续1回合（每回合只能触发1次）。<br/>[协攻]若队友主动攻击自身3格范围内的敌人且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成1次「固定伤害」（苍狼自身（物防+法防）的30%），并施加1个「裂伤」状态，持续2回合（每回合只能触发3次）",
+    "star6": "代替相邻1格内友方承受所有攻击，自身3格范围内每存在1个其他友方免伤提高15%，护卫范围提升1格（最多提升30%/2格），当达上限时，自身双防额外提升20%。造成伤害后，施加<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，持续2回合。主动攻击或遭受攻击前，若目标携带<link type=buff value=751075092 bgcolor=#3a85ffff>「裂伤」</link>状态，则获得<link type=buff value=751075083 bgcolor=#3a85ffff>「循血」</link>状态，持续1回合（每回合只能触发1次）。<br/>[协攻]若队友主动攻击自身3格范围内的敌人且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成1次「固定伤害」（苍狼自身（物防+法防）的30%），并施加2个「裂伤」状态，持续2回合（每回合只能触发3次）",
+    "story_name": "昼夜",
+    "story_content": "道是「一如」。<br/>「一如」之下，有十一鬼疫与十二定序神。它们在形而上的空间里追逐彼此，吞噬对方，直到最后一只鬼疫为最后一位定序神所伏，世间的一次轮回才能结束。<br/>不甘作为轮回祭品的，遂向号称维护着秩序守恒的，发起了战争。<br/>随后而来的就是「万古之战」。混乱对规则，莽荒对信仰，魔神对定序，黑暗对光明。<br/>在那场战争中，白昼与黑夜的守护者携手守护了梦境的要塞。<br/>盖因为梦境连接着世间的所有生灵。波旬便会从那里侵入，复活一切混乱与恶，以及统率它们的神。<br/>梦境，乃是白昼与黑夜的交界，是魔神入侵的最后一道防线。波旬的军队如潮如海，涌上梦的白岸。<br/>最后一具被魔神侵蚀的躯体，在他们面前轰然倒地，遽然碎裂，化作黑色烟尘。<br/>黑夜也随之落到地上。若「一如」有目，那么便可见，黑夜已经耗尽了神力，她将会死去。<br/>她说她的梦已经做到了尽头，世间也许不再有梦了。<br/>白昼拾起她的身体。她坍缩成一个黑洞，却滚烫得像一个太阳。<br/>不，白昼说。 <br/>白昼带着那个太阳前往「一如」的座下，祈求「一如」收下他的神格，再将那神格复还给黑夜，好教那黑夜复活。<br/>「一如」无耳无目，无首无足，因而不会回应他的请求。<br/>他摇了摇头，正要离去，忽然觉得心口一痛，手中一凉。他看到光从他身体中流出，流进了黑夜。随后那黑色便如宝石般晶莹，幻化出许多颜色，很快地消失在明霭里了。",
+    "hero_icon": "Hero1075_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1552",
+        "name": "蛮荒战技",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择1个绝学进行释放。使用后切换为<link type=skill value=61107521 bgcolor=#3a85ffff>「撕筋掠血」</link>和<link type=skill value=61107522 bgcolor=#3a85ffff>「剔骨掏心」</link>。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Guard_1019",
+        "name": "反震",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受近战攻击「对战后」对敌人造成1次「固定伤害」（物防的100%）。"
+      },
+      {
+        "img": "Skill_Guard_1004",
+        "name": "破阵威压",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1</color></b>倍伤害，「对战前」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1556",
+        "name": "识异晓敌",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "7格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个敌方目标施加<link type=buff value=751075170 bgcolor=#3a85ffff>「识破」</link><link type=buff value=700001411 bgcolor=#3a85ffff>「锢步」</link><link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>"
+      },
+      {
+        "img": "EXSkill_1555",
+        "name": "头领之志",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "3格内任意友方遭受范围绝学攻击后若处于自身3格内，驱散范围内全体友方1个「有害状态」，并恢复其30%的最大气血。（每回合触发1次）"
+      },
+      {
+        "img": "EXSkill_1551",
+        "name": "草原战吼",
+        "type": "支援",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，为范围内所有友方施加<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link><link type=buff value=700000542 bgcolor=#3a85ffff>「御魔I」</link>状态，若自身<b><color=#e4462c>1</color></b>圈内不存在敌人，则额外施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000782 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1557",
+        "name": "逐夜之狼",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击范围内所有敌人，造成<b><color=#e4462c>0.5</color></b>倍伤害。奔腾开始时携带起始点周围<b><color=#e4462c>3</color></b>格<b><color=#e4462c>5</color></b>名友方，朝绝学射程最远可到达的格子移动，并在附近放下他们且共同获得<link type=buff value=741032141 bgcolor=#3a85ffff>「光铠」</link>状态。行动结束时对自身<b><color=#e4462c>3</color></b>格范围内的敌人施加<link type=buff value=700000891 bgcolor=#3a85ffff>「乱神I」</link>状态，持续<b><color=#e4462c>2</color></b>回合"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "苍狼",
+        "name": "霜狼铁",
+        "img": "Weapon_107501",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，朔方天寒，狼爪覆霜，其坚若铁。<br/>狼也，以群居而猎。孤狼也，通行四方，无所依从，是狼也，独霸荒蛮，力战而亡，无饥寒恶疾以憾逝者。生者可畏之，而无笑谈。<br/>言，孤狼寒霜路，亡骨无饥颜。"
+      },
+      {
+        "weapon": "苍狼",
+        "name": "血天啸",
+        "img": "Weapon_107502",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，匹天啸空野，惊尘一方塞。<br/>狼性也，非为郡国争土，但为水草丰生。荒原饮血，是以牙尖嘴利，无兵胜有兵，生灭千载，数朝往复而狼群存。<br/>言，爪流非敌血，腥露哺狼儿。"
+      },
+      {
+        "weapon": "苍狼",
+        "name": "山光异",
+        "img": "Weapon_107503",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，赤焰烧虏云，炎氛蒸塞空。<br/>古有神狼，逐于草莽，无敌可御。拓其疆也，至于炎火极地。逐炎龙于火湖天烈，炎龙殒而神狼灭，独留神狼利爪不熔，山岩为形而天炎凝爪也。<br/>言，天狼竞真烈，魂销志长青。"
+      },
+      {
+        "weapon": "苍狼",
+        "name": "亘古木吟",
+        "img": "Weapon_107504",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，云散千岩暮，风生万木吟。<br/>千古狼首，不啖血肉而食果浆。年岁定而行止若慧僧，视其目而深邃，闻其啸如长吟。百兽拜之，以静可止戈也。<br/>言，静坐如雕木，沉吟同山惊。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "苍狼",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "苍狼",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "苍狼",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "苍狼",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_056",
+        "name": "头狼寻猎阵",
+        "unlock_condition": "阵眼苍狼位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1075_HeadIcon_Basic",
+        "icon1": "warlock",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵苍狼和「咒师」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。3格范围内其他友方大于等于2名时，伤害和免伤提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "苍牙天惊",
+        "img": "Weapon_107505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "遭受攻击时，若目标携带「裂伤」状态，则免伤提高<b><color=#e4462c>5%</color></b>，且战后自身<b><color=#e4462c>1</color></b>个随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "苍牙天惊",
+        "img": "Weapon_107505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "遭受攻击时，若目标携带「裂伤」状态，则免伤提高<b><color=#e4462c>6%</color></b>，且战后自身<b><color=#e4462c>1</color></b>个随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "苍牙天惊",
+        "img": "Weapon_107505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "遭受攻击时，若目标携带「裂伤」状态，则免伤提高<b><color=#e4462c>7%</color></b>，且战后自身<b><color=#e4462c>1</color></b>个随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "苍牙天惊",
+        "img": "Weapon_107505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "遭受攻击时，若目标携带「裂伤」状态，则免伤提高<b><color=#e4462c>8%</color></b>，且战后自身<b><color=#e4462c>1</color></b>个随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "苍牙天惊",
+        "img": "Weapon_107505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "遭受攻击时，若目标携带「裂伤」状态，则免伤提高<b><color=#e4462c>10%</color></b>，且战后自身<b><color=#e4462c>1</color></b>个随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天石命坠",
+        "percent": "0.313003411039707"
+      },
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.210939826244275"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.105484047264572"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.214256638335563"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.10649228275823"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "天石云佩",
+        "percent": "0.211655956127621"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.205568852119179"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.104607730433635"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.103721990841075"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.292123824451411"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.197884012539185"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.103052974765844"
+      }
+    ]
+  }
+]

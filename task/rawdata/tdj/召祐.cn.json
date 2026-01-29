@@ -1,0 +1,397 @@
+[
+  {
+    "name": "召祐",
+    "is_new": "",
+    "weight": "600",
+    "pinyin": "zhaoyou",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1016_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "暗",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "219",
+    "magic_attack": "12",
+    "physical_attack": "87",
+    "magic_defense": "41",
+    "physical_defense": "36",
+    "huixin": "17",
+    "inherent": "Gift_070",
+    "inherent_name": "元龙灵载",
+    "star1": "",
+    "star2": "",
+    "star3": "提高周围2格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高15%。自身气血越高时，免伤越高，最高12%。",
+    "star4": "提高周围2格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高20%。自身气血越高时，免伤越高，最高15%。",
+    "star5": "提高周围2格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高25%。自身气血越高时，免伤越高，最高17%。",
+    "star6": "提高周围2格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高30%。自身气血越高时，免伤越高，最高20%。",
+    "story_name": "混沌梦",
+    "story_content": "我睁开双眼。<br/>无光，无风，无声。<br/>一尾巨龙翻腾在寂静空无的世界里，没有兴起一丝涟漪。<br/>这里是连叹息都无法排遣的，孤寂的坍墟。<br/>终日无聊，所见皆是粘稠的晦暗，我猜想，大约是我醒来的太早，于是我再一次陷入沉眠。<br/>梦中，我见到了一缕曦光柔弱，却宛若世上最坚硬的利器剜开了无边的黑幕。<br/>我没有时间的概念，但也许我在那个世界里睡了很久。以至于陌生的光芒让我无法移开目光，甚至于灼伤了我的眼睛。<br/>水声如惊雷一般响起，曦光映出炫目的七彩。草木生根的声音窸窸窣窣地响起，绿芽破土的声音让我明白，我并非世间唯一的生灵。",
+    "hero_icon": "Hero1016_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1163",
+        "name": "万鳞在衣",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>选择<b><color=#e4462c>1</color></b>个绝学进行释放。使用后切换为<link type=skill value=61101611 bgcolor=#3a85ffff>「游鳞庇覆」</link>和<link type=skill value=61101612 bgcolor=#3a85ffff>「游鳞孚佑」</link>"
+      },
+      {
+        "img": "GPassive_1017",
+        "name": "地御符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使相邻1格内物防属性最高的1个其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Guard_1012",
+        "name": "饮血横扫",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，击杀目标后恢复自身<b><color=#e4462c>40%</color></b>气血。"
+      },
+      {
+        "img": "EXSkill_1167",
+        "name": "幻鳞",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若遭受攻击前已有3点气力，则消耗所有气力触发：遭受物理攻击「对战前」自动获得「庇覆」状态；遭受法术攻击「对战前」自动获得「孚佑」状态。（「庇覆」和「孚佑」状态与绝学「万鳞在衣」效果保持一致）<br/>[气力技]每遭受1次伤害或造成1次伤害均可累积1点气力"
+      },
+      {
+        "img": "Skill_Guard_1001",
+        "name": "泼风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1019",
+        "name": "反震",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "遭受近战攻击「对战后」对敌人造成1次「固定伤害」（物防的100%）。"
+      },
+      {
+        "img": "EXSkill_1162",
+        "name": "斧定乾坤",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "十字2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "选择<b><color=#e4462c>1</color></b>个格子释放，对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，击退中心点以外的敌人<b><color=#e4462c>2</color></b>格。"
+      },
+      {
+        "img": "EXSkill_1166",
+        "name": "龙吟斩",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线3x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，施加<b><color=#e4462c>1</color></b>个随机「有害状态」，每造成<b><color=#e4462c>1</color></b>次伤害恢复自身<b><color=#e4462c>35%</color></b>气血（最多<b><color=#e4462c>70%</color></b>）。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "召祐",
+        "name": "玄铁巨斧",
+        "img": "weapon_xuantiejufu",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，玄铁者，色深黑，中微匿赤色熹光，触手沉坠，非灼炎烈焰不化，若以此灵材铸炼兵器，开锋后削铁如泥，寻常兵器无可匹敌者。<br/>此斧仿效开天之物，力有千钧，万人可敌。<br/>言：仿效劈天斧，势如千斤坠。"
+      },
+      {
+        "weapon": "召祐",
+        "name": "龙骨巨斧",
+        "img": "weapon_longgujufu",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "《古今注》载：“金斧黄钺也，铁斧玄钺也，三代通以断斩。”<br/>传，此斧乃一神人杀灭尸龙之后，抽其脊骨，另以数种灵材锤炼七七四十九日而成。<br/>传，尸龙精魄未散，深夜时分，仍能听其喁喁私语，然无人可听明其意……<br/>言：尸骸承造化，轮转成神兵。"
+      },
+      {
+        "weapon": "召祐",
+        "name": "炼石巨斧",
+        "img": "weapon_lianshijufu",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载：云山笼炎烈，风月熔一炉。<br/>传：有史载“南荒外有火山，其中生不尽之木，昼夜火燃，得暴风不猛，猛雨不灭”，此事乃大灾，然有异人，钢筋铁骨不惧火焚，跋涉火海，得炼石熔岩铸之为斧，言：未挥则觉焦渴，一战便已汗颜。"
+      },
+      {
+        "weapon": "召祐",
+        "name": "地煞巨斧",
+        "img": "weapon_dishajufu",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，岩壳累煞气，太初至如今。<br/>传，地中煞气不孕生灵，但可化无心傀儡。此巨斧非以人力锻造，乃地中岩层所诞化之傀儡，状似巨斧，内含煞气可镇一方，召祐以力摧之，方收其为掌中。<br/>言：荒凉昭陵阙，古石埋苍苔。一朝出尘世，力震半穹苍。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "召祐",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "召祐",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "召祐",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "召祐",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_022",
+        "name": "元龙两仪阵",
+        "unlock_condition": "阵眼召祐位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1016_HeadIcon_Basic",
+        "icon1": "fire",
+        "icon2": "ice",
+        "icon3": "",
+        "desc": "上阵召祐和「炎」，「冰」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，3格范围内存在其他「炎」或「冰」属相角色，伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "蚀魂幽王斧",
+        "img": "weapon_shihunyouwangfu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "额外提高周围<b><color=#e4462c>2</color></b>格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高<b><color=#e4462c>8%</color></b>。携带「庇覆」时，遭受近战攻击时触发先攻（每回合<b><color=#e4462c>1</color></b>次），携带「孚佑」时，若受到的伤害不是暴击，恢复<b><color=#e4462c>15%</color></b>气血（每回合<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "蚀魂幽王斧",
+        "img": "weapon_shihunyouwangfu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "额外提高周围<b><color=#e4462c>2</color></b>格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高<b><color=#e4462c>9%</color></b>。携带「庇覆」时，遭受近战攻击时触发先攻（每回合<b><color=#e4462c>1</color></b>次），携带「孚佑」时，若受到的伤害不是暴击，恢复<b><color=#e4462c>18%</color></b>气血（每回合<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "蚀魂幽王斧",
+        "img": "weapon_shihunyouwangfu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "额外提高周围<b><color=#e4462c>2</color></b>格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高<b><color=#e4462c>10%</color></b>。携带「庇覆」时，遭受近战攻击时触发先攻（每回合<b><color=#e4462c>1</color></b>次），携带「孚佑」时，若受到的伤害不是暴击，恢复<b><color=#e4462c>21%</color></b>气血（每回合<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "蚀魂幽王斧",
+        "img": "weapon_shihunyouwangfu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "额外提高周围<b><color=#e4462c>2</color></b>格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高<b><color=#e4462c>12%</color></b>。携带「庇覆」时，遭受近战攻击时触发先攻（每回合<b><color=#e4462c>1</color></b>次），携带「孚佑」时，若受到的伤害不是暴击，恢复<b><color=#e4462c>25%</color></b>气血（每回合<b><color=#e4462c>1</color></b>次）。"
+      },
+      {
+        "name": "蚀魂幽王斧",
+        "img": "weapon_shihunyouwangfu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "额外提高周围<b><color=#e4462c>2</color></b>格范围内所有友方的暴击抗性，自身气血越高，数值越高，最多提高<b><color=#e4462c>15%</color></b>。携带「庇覆」时，遭受近战攻击时触发先攻（每回合<b><color=#e4462c>1</color></b>次），携带「孚佑」时，若受到的伤害不是暴击，恢复<b><color=#e4462c>30%</color></b>气血（每回合<b><color=#e4462c>1</color></b>次）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.441903019213175"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.209515096065874"
+      },
+      {
+        "name": "玄乌玉雕·烟",
+        "percent": "0.204025617566331"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "寒月玉镯",
+        "percent": "0.576395242451967"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.131595422087449"
+      },
+      {
+        "name": "凤纹佩环",
+        "percent": "0.130910691577814"
+      },
+      {
+        "name": "琅環玉璧",
+        "percent": "0.123769930548762"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.269776236999685"
+      },
+      {
+        "name": "藏龙玉带",
+        "percent": "0.131301966154749"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.126508852587303"
+      }
+    ]
+  }
+]

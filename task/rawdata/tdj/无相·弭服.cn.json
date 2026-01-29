@@ -1,0 +1,386 @@
+[
+  {
+    "name": "无相·弭服",
+    "is_new": "",
+    "weight": "800",
+    "pinyin": "wuxiangmifu",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1032_img",
+    "prop_icon": "Light",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "光",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "210",
+    "magic_attack": "13",
+    "physical_attack": "98",
+    "magic_defense": "36",
+    "physical_defense": "33",
+    "huixin": "17",
+    "inherent": "Gift_090",
+    "inherent_name": "三窍生魂",
+    "star1": "",
+    "star2": "",
+    "star3": "回合开始时，若自身不携带<link type=buff value=741032053 bgcolor=#3a85ffff>「报怒」</link>状态，则获得<link type=buff value=741032023 bgcolor=#3a85ffff>「空性」</link>状态。行动结束时，若1格范围内存在敌人，则获得<link type=buff value=741032053 bgcolor=#3a85ffff>「报怒」</link>状态，持续2回合。若场上本方队伍只存在自身时，则获得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>状态，持续1回合。",
+    "star4": "回合开始时，若自身不携带<link type=buff value=741032054 bgcolor=#3a85ffff>「报怒」</link>状态，则获得<link type=buff value=741032024 bgcolor=#3a85ffff>「空性」</link>状态。行动结束时，若1格范围内存在敌人，则获得<link type=buff value=741032054 bgcolor=#3a85ffff>「报怒」</link>状态，持续2回合。若场上本方队伍只存在自身时，则获得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>状态，持续1回合。",
+    "star5": "回合开始时，若自身不携带<link type=buff value=741032055 bgcolor=#3a85ffff>「报怒」</link>状态，则获得<link type=buff value=741032025 bgcolor=#3a85ffff>「空性」</link>状态。行动结束时，若1格范围内存在敌人，则获得<link type=buff value=741032055 bgcolor=#3a85ffff>「报怒」</link>状态，持续2回合。若场上本方队伍只存在自身时，则获得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>状态，持续1回合。",
+    "star6": "回合开始时，若自身不携带<link type=buff value=741032056 bgcolor=#3a85ffff>「报怒」</link>状态，则获得<link type=buff value=741032026 bgcolor=#3a85ffff>「空性」</link>状态。行动结束时，若1格范围内存在敌人，则获得<link type=buff value=741032056 bgcolor=#3a85ffff>「报怒」</link>状态，持续2回合。若场上本方队伍只存在自身时，则获得<link type=buff value=741032062 bgcolor=#3a85ffff>「遏心」</link>状态，持续1回合。",
+    "story_name": "祭祀",
+    "story_content": "「……主祭，时误，则神不歆。」<br/>「启。」<br/>一跪，敬尤。<br/>——族人不事天地，所祭为尊。<br/>二跪，祈尤。<br/>——但求趋吉避凶，降福免灾。<br/>三跪，问尤。<br/>——兵主今安在否，可下神谕？<br/>九黎祭祀一族，凡是大典，唯有主祭得以跪神。<br/>今朝这主祭，左右打量不过一小姑娘。但族上有规，得了蚩尤大神的眷顾，领了神通之人，定司主祭之职。<br/>族人皆信，<br/>主祭能闻神谕，是祭祀仪式必不可缺的一块坛石。<br/>那，一具小姑娘的瘦弱身躯，亦或者耄耋老人的松弛骨肉，皆无差别。<br/>「神谕已下。」<br/>她是主祭，<br/>是神之眼，是神之耳，是神之侍。<br/>唯独不是阿服。<br/>",
+    "hero_icon": "Hero1032_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1272",
+        "name": "无明嗔怒",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身当前气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，若自身携带「报怒」状态，则「对战前」获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。否则获得「报怒」状态。"
+      },
+      {
+        "img": "Skill_Guard_1013",
+        "name": "狂怒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身气血每损失10%，物攻提高5%，最多提高20%。"
+      },
+      {
+        "img": "Skill_Guard_1011",
+        "name": "刚烈破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Guard_1031",
+        "name": "回风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1273",
+        "name": "神愈",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "遭受攻击后，恢复自身3格范围内所有友方30%最大气血。（每回合触发1次）"
+      },
+      {
+        "img": "EXSkill_1274",
+        "name": "神行法谕",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]自身气血大于等于<b><color=#e4462c>80%</color></b>，回合开始时，获得<link type=buff value=741032131 bgcolor=#3a85ffff>「担因」</link>状态。<br/>对单个其他友方释放，目标和自身获得<link type=buff value=741032141 bgcolor=#3a85ffff>「光铠」</link><link type=buff value=700000531 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。行动结束时，自身强制进入「空性」状态。"
+      },
+      {
+        "img": "EXSkill_1275",
+        "name": "万念化一",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击范围内所有敌人，共造成<b><color=#e4462c>1.5</color></b>倍伤害，若处于「报怒」状态，则为<b><color=#e4462c>3</color></b>格范围内所有友方恢复气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍），若处于「空性」状态，则偷取目标<b><color=#e4462c>1</color></b>个「有益状态」"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "无相·弭服",
+        "name": "古银杵",
+        "img": "weapon_guyinchu",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，虔信者有杵为器，外状之巨，难以指量。上端有三股，下端为三棱带尖之形。以百年古银制成，斑驳成色，附有驱魔之效，世间少见。古银之杵，唯有心志坚定者能悟其内蕴，若心无杂念，则有法术之能，可驱凶避邪，持者可加持庇佑，金光内敛护体。<br/>言：三棱衔古色，金光佑真身。"
+      },
+      {
+        "weapon": "无相·弭服",
+        "name": "赤金杵",
+        "img": "weapon_chijinchu",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，归来骇贫舍，忽有金刚杵。<br/>世间有不世出能匠，集赤铜与暗金为基，混以神木制法器，因其外有赤金之色，光滑无痕，故称为「赤金杵」。质硬，有千金之重，需有神力方可持之。<br/>据传，持「赤金杵」之人，皆为前世来生有机缘者，曾历业火、化苦痛，故可提升自身咒法之威，慑敌百里。<br/>言：千钧退敌远，闻禅金刚声。"
+      },
+      {
+        "weapon": "无相·弭服",
+        "name": "破妄宝杵",
+        "img": "weapon_powangbaochu",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，万法常空灭，无生因忍全。<br/>相传诡秘之地自诞异宝，镶有「魂晶密石」，遍体流光，灼目生辉。此物出世之时方圆百里钟声皆响，三声过后，万妄皆消，摧灭妄者贪、嗔、痴三毒，故称之为「破妄宝杵」，其名常载于奇卷之中。持其者可获得无上智慧，破除愚痴妄想之内魔，以展现自性清净之智光。怨敌消除，无坚不摧。<br/>言：销身破忿怒，妄填舍利堆。"
+      },
+      {
+        "weapon": "无相·弭服",
+        "name": "十峰证心",
+        "img": "weapon_huanxiangbaixiang",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，夜来八万四千偈，他日如何举似人。<br/>万灵所归之所，有杵称「十峰证心」，有济生之力，照世间万象。外四钴，内一股，五智五佛，予人实智，予人权智。又附铃，蜿蜒成纹，铃响如骨鸣，能摧十种烦恼，成证十种真如，持者，可成就不坏之身。<br/>言：众生本有德，十问生死心。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "无相·弭服",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "无相·弭服",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "无相·弭服",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "无相·弭服",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幻生百相",
+        "img": "Weapon_shifengzhenxin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「空性」状态时，自身<b><color=#e4462c>3</color></b>格范围内友方遭受的范围绝学伤害降低<b><color=#e4462c>7%</color></b>。携带「报怒」状态时，物攻提高<b><color=#e4462c>7%</color></b>，主动攻击「对战后」恢复气血百分比最低的<b><color=#e4462c>1</color></b>名友方气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "幻生百相",
+        "img": "Weapon_shifengzhenxin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「空性」状态时，自身<b><color=#e4462c>3</color></b>格范围内友方遭受的范围绝学伤害降低<b><color=#e4462c>9%</color></b>。携带「报怒」状态时，物攻提高<b><color=#e4462c>9%</color></b>，主动攻击「对战后」恢复气血百分比最低的<b><color=#e4462c>1</color></b>名友方气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "幻生百相",
+        "img": "Weapon_shifengzhenxin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「空性」状态时，自身<b><color=#e4462c>3</color></b>格范围内友方遭受的范围绝学伤害降低<b><color=#e4462c>11%</color></b>。携带「报怒」状态时，物攻提高<b><color=#e4462c>11%</color></b>，主动攻击「对战后」恢复气血百分比最低的<b><color=#e4462c>1</color></b>名友方气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "幻生百相",
+        "img": "Weapon_shifengzhenxin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「空性」状态时，自身<b><color=#e4462c>3</color></b>格范围内友方遭受的范围绝学伤害降低<b><color=#e4462c>13%</color></b>。携带「报怒」状态时，物攻提高<b><color=#e4462c>13%</color></b>，主动攻击「对战后」恢复气血百分比最低的<b><color=#e4462c>1</color></b>名友方气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "幻生百相",
+        "img": "Weapon_shifengzhenxin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「空性」状态时，自身<b><color=#e4462c>3</color></b>格范围内友方遭受的范围绝学伤害降低<b><color=#e4462c>15%</color></b>。携带「报怒」状态时，物攻提高<b><color=#e4462c>15%</color></b>，主动攻击「对战后」恢复气血百分比最低的<b><color=#e4462c>1</color></b>名友方气血（恢复量为施术者物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.29182156133829"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.143122676579926"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.117100371747212"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.276208178438661"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.168773234200743"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.159479553903345"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.249136939010357"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.136939010356732"
+      },
+      {
+        "name": "杏花疏影",
+        "percent": "0.097813578826237"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "蛇首灵戒·尘",
+        "percent": "0.169930875576037"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.160714285714286"
+      }
+    ]
+  }
+]

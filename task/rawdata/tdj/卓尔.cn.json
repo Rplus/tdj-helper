@@ -1,0 +1,382 @@
+[
+  {
+    "name": "卓尔",
+    "is_new": "",
+    "weight": "930",
+    "pinyin": "zhuoer",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1042_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "暗",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "175",
+    "magic_attack": "106",
+    "physical_attack": "13",
+    "magic_defense": "34",
+    "physical_defense": "32",
+    "huixin": "31",
+    "inherent": "Gift_107",
+    "inherent_name": "诡秘权谋",
+    "star1": "",
+    "star2": "",
+    "star3": "4格范围内同时存在其他友方和敌方时，自身伤害和会心提高10%。 在首次行动结束前，可选择<link type=skill value=61104201 bgcolor=#3a85ffff>「挑拨离间」</link>或<link type=skill value=61104202 bgcolor=#3a85ffff>「传风煽火」</link>或<link type=skill value=61104203 bgcolor=#3a85ffff>「聚众成势」</link>中的1个绝学进行释放（间隔4回合释放）",
+    "star4": "4格范围内同时存在其他友方和敌方时，自身伤害和会心提高13%。 在首次行动结束前，可选择<link type=skill value=61104201 bgcolor=#3a85ffff>「挑拨离间」</link>或<link type=skill value=61104202 bgcolor=#3a85ffff>「传风煽火」</link>或<link type=skill value=61104203 bgcolor=#3a85ffff>「聚众成势」</link>中的1个绝学进行释放（间隔4回合释放）",
+    "star5": "4格范围内同时存在其他友方和敌方时，自身伤害和会心提高16%。 在首次行动结束前，可选择<link type=skill value=61104201 bgcolor=#3a85ffff>「挑拨离间」</link>或<link type=skill value=61104202 bgcolor=#3a85ffff>「传风煽火」</link>或<link type=skill value=61104203 bgcolor=#3a85ffff>「聚众成势」</link>中的1个绝学进行释放（间隔4回合释放）",
+    "star6": "4格范围内同时存在其他友方和敌方时，自身伤害和会心提高20%。 在首次行动结束前，可选择<link type=skill value=61104201 bgcolor=#3a85ffff>「挑拨离间」</link>或<link type=skill value=61104202 bgcolor=#3a85ffff>「传风煽火」</link>或<link type=skill value=61104203 bgcolor=#3a85ffff>「聚众成势」</link>中的1个绝学进行释放（间隔3回合释放）",
+    "story_name": "同谋",
+    "story_content": "红发女人在门外求见，自称是谋士。<br/>女人能成什么谋士？<br/>又听说她极美，便允许她进来。<br/>果然是美，能洞穿人心。<br/>他正要调笑，问她要不要做傧妾，她却回答：「偏安这小小属国一隅，你也安不下心吧？」<br/>哦？一语说中他十年深梦。",
+    "hero_icon": "Hero1042_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Shadow_1009",
+        "name": "怖畏断生",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战后」恢复自身气血（恢复量为本次伤害的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "img": "EXSkill_1334",
+        "name": "战律",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受「御风」「侠客」攻击，「对战中」自身伤害和免伤提升15%，行动结束时，若本回合使用过绝学，则恢复自身气血（恢复量为施术者法攻的0.5倍）"
+      },
+      {
+        "img": "EXSkill_1331",
+        "name": "流言暗箭",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.5</color></b>倍伤害，基于当前被弹射目标的<b><color=#e4462c>2</color></b>格范围进行弹射，每弹射<b><color=#e4462c>1</color></b>次伤害递增<b><color=#e4462c>10%</color></b>，施加<link type=buff value=700001351 bgcolor=#3a85ffff>「失智I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若目标已携带「有害状态」，则将<link type=buff value=700001351 bgcolor=#3a85ffff>「失智I」</link>替换为<link type=buff value=700001354 bgcolor=#3a85ffff>「失智II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。（最多弹射<b><color=#e4462c>5</color></b>次，优先未被弹射过且在弹射范围内距离最近的目标，弹射目标无法重复，若没有弹射目标，则立刻中断）"
+      },
+      {
+        "img": "Gskill_1006",
+        "name": "亡者苏醒",
+        "type": "召唤",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "召唤<b><color=#e4462c>1</color></b>个「死刀兵」协助作战。（「死刀兵」最多同时存在<b><color=#e4462c>1</color></b>个）"
+      },
+      {
+        "img": "Skill_Shadow_1022",
+        "name": "冥幻之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1043",
+        "name": "决意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "使用伤害绝学时，法攻和暴击率提高7%。"
+      },
+      {
+        "img": "EXSkill_1332",
+        "name": "愚者无生",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "选择<b><color=#e4462c>1</color></b>个敌方或其他友方，对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<b><color=#e4462c>1</color></b>个随机「有害状态」。若被选择目标携带<link type=buff value=741042101 bgcolor=#3a85ffff>「离间」</link>状态，则对范围内所有敌人额外施加<b><color=#e4462c>1</color></b>个<link type=buff value=700000811 bgcolor=#3a85ffff>「中毒」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若被选择目标携带<link type=buff value=741042111 bgcolor=#3a85ffff>「煽动」</link>状态，则该绝学冷却时间<b><color=#e4462c>-2</color></b>"
+      },
+      {
+        "img": "EXSkill_1333",
+        "name": "暴憎洪流",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，「对战后」施加<link type=buff value=743001911 bgcolor=#3a85ffff>「幽阙」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若自身会心值高于目标，则「对战前」对目标造成<b><color=#e4462c>1</color></b>次法术伤害(法攻的<b><color=#e4462c>50%</color></b>)<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放技能。（每次造成伤害获得<b><color=#e4462c>1</color></b>点气力，暴击额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "卓尔",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "卓尔",
+        "img": "Equip_houzhizhangyi",
+        "name": "厚织长衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "卓尔",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "卓尔",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "卓尔",
+        "name": "萤石杖",
+        "img": "Weapon_yingshizhang",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，葡萄美酒夜光杯，欲饮琵琶马上催。<br/>边塞之地战火纷飞多白骨，每有无月之夜生萤光，被兵士传为「鬼火」。后有为将者掘地三尺，发现实为萤石，取之为材制夜光杯供酒乐，后发现其有迷幻之效，故再制为杖，有退敌之力。<br/>言：戎机远百里，萤光覆铁衣。"
+      },
+      {
+        "weapon": "卓尔",
+        "name": "独玉杖",
+        "img": "Weapon_duyuzhang",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，抱璞岩前桂叶稠，碧溪寒水至今流。<br/>据传有稀世宝玉藏于石中，为献璞玉楚人惨遭酷刑，有泣玉之说。后世此玉被制为玉玺，余下玉料被能匠制为礼器，后世擅咒者，趋之若鹜。持其者有号令之力，可蛊惑敌友心志，操控局势，世人皆惧之。<br/>言：独玉令千军，一战鬼神愁。"
+      },
+      {
+        "weapon": "卓尔",
+        "name": "缠幽灵杖",
+        "img": "Weapon_chanyoulingzhang",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，夜泣孤鬼魂，毒贯生灵臆。<br/>相传地界有至阴之地，于百魂丧鸣之时生枯木，每百年长一寸，为魂灵栖息之所。有误入地界者折其枝，灵识被噬，成为百魂凭体，带枯枝出地界。若以其为器，需定血契，以灵石之力喂养，方可为自己所用。挥此杖，有魂灵嘶吼之音，能颠倒阴阳，转瞬夺人性命。<br/>言：朽木招血光，九泉闻悲歌。"
+      },
+      {
+        "weapon": "卓尔",
+        "name": "书天仙杖",
+        "img": "Weapon_shutianxianzhang",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "据传，玄女应劫而显，难见其真身，多见其幻象。玄女曾授帝者符图秘诀，刻兵法及登仙之术。<br/>后上古之帝符咒雕于「天外魂铁」之上，制为「书天仙杖」。后，此物每逢乱世天灾之时现世。持其者可位列仙班，调用仙符之力，沟通天地脉络，战无不胜，攻无不克，若于凡界，则有帝皇之姿。<br/>言：独身枭雄意，倒摧黄金台。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "惊狼猎魂",
+        "img": "Weapon_jinglangliehun",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "我方携带「煽动」状态或敌方携带「离间」状态的角色死亡时，天赋冷却时间<b><color=#e4462c>-1</color></b>，获得「魂能」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魂能」：除气血外全属性提高<b><color=#e4462c>8%</color></b>，绝学射程<b><color=#e4462c>+1</color></b>（不可驱散）"
+      },
+      {
+        "name": "惊狼猎魂",
+        "img": "Weapon_jinglangliehun",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "我方携带「煽动」状态或敌方携带「离间」状态的角色死亡时，天赋冷却时间<b><color=#e4462c>-1</color></b>，获得「魂能」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魂能」：除气血外全属性提高<b><color=#e4462c>9%</color></b>，绝学射程<b><color=#e4462c>+1</color></b>（不可驱散）"
+      },
+      {
+        "name": "惊狼猎魂",
+        "img": "Weapon_jinglangliehun",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "我方携带「煽动」状态或敌方携带「离间」状态的角色死亡时，天赋冷却时间<b><color=#e4462c>-1</color></b>，获得「魂能」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魂能」：除气血外全属性提高<b><color=#e4462c>10%</color></b>，绝学射程<b><color=#e4462c>+1</color></b>（不可驱散）"
+      },
+      {
+        "name": "惊狼猎魂",
+        "img": "Weapon_jinglangliehun",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "我方携带「煽动」状态或敌方携带「离间」状态的角色死亡时，天赋冷却时间<b><color=#e4462c>-1</color></b>，获得「魂能」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魂能」：除气血外全属性提高<b><color=#e4462c>12%</color></b>，绝学射程<b><color=#e4462c>+1</color></b>（不可驱散）"
+      },
+      {
+        "name": "惊狼猎魂",
+        "img": "Weapon_jinglangliehun",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "我方携带「煽动」状态或敌方携带「离间」状态的角色死亡时，天赋冷却时间<b><color=#e4462c>-2</color></b>，获得「魂能」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魂能」：除气血外全属性提高<b><color=#e4462c>15%</color></b>，绝学射程<b><color=#e4462c>+1</color></b>（不可驱散）"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.231527093596059"
+      },
+      {
+        "name": "朱焰妖瞳·烟",
+        "percent": "0.133004926108374"
+      },
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.113986013986014"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.103448275862069"
+      },
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.0985221674876847"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.24009324009324"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.195652173913043"
+      },
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.152173913043478"
+      },
+      {
+        "name": "玉玑灵镯·烟",
+        "percent": "0.144927536231884"
+      },
+      {
+        "name": "朝露戒·尘",
+        "percent": "0.130434782608696"
+      }
+    ]
+  }
+]

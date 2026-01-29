@@ -1,0 +1,409 @@
+[
+  {
+    "name": "剑邪",
+    "is_new": "",
+    "weight": "480",
+    "pinyin": "jianxie",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1204_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "186",
+    "magic_attack": "14",
+    "physical_attack": "108",
+    "magic_defense": "33",
+    "physical_defense": "32",
+    "huixin": "55",
+    "inherent": "Gift_059",
+    "inherent_name": "化魔厉宿",
+    "star1": "",
+    "star2": "",
+    "star3": "行动时无视敌方角色阻挡。周围1圈内每存在1个敌人，自身除气血外全属性提高4%（最多12%）。自身释放绝学后，获得<link type=buff value=700040237 bgcolor=#3a85ffff>「天魔护铠」</link>。（间隔3回合触发）",
+    "star4": "行动时无视敌方角色阻挡。周围2圈内每存在1个敌人，自身除气血外全属性提高5%（最多15%）。自身释放绝学后，获得<link type=buff value=700040237 bgcolor=#3a85ffff>「天魔护铠」</link>。（间隔3回合触发）",
+    "star5": "行动时无视敌方角色阻挡。周围2圈内每存在1个敌人，自身除气血外全属性提高6%（最多18%）。自身释放绝学后，获得<link type=buff value=700040237 bgcolor=#3a85ffff>「天魔护铠」</link>。（间隔3回合触发）",
+    "star6": "行动时无视敌方角色阻挡。周围3圈内每存在1个敌人，自身除气血外全属性提高7%（最多21%）。自身释放绝学后，获得<link type=buff value=700040237 bgcolor=#3a85ffff>「天魔护铠」</link>。（间隔2回合触发）",
+    "story_name": "七杀转世",
+    "story_content": "「你乃七杀星转世，体内更有荒神凶魄，十分危险……」<br/>「愿拜方掌门为师。」<br/>「你我既遇，便是命数，且留下罢。在我这天玄门，还能助你抑制体内的邪性。」<br/>「徒儿拜见师父。」<br/>自他踏入山门的那刻起，<br/>便没有走的打算。<br/>什么七杀转世，荒神凶魄，<br/>在他看来不过些胡诌的命理之说罢了……<br/>练武御剑，<br/>这才是他拜谒山门的唯一目的。<br/>他何曾想过，出生农户，<br/>因何会陡起执剑的念头？<br/>命数的可怖就在于此，<br/>他踏入山门，<br/>怎会只是他的选择那么简单？",
+    "hero_icon": "Hero1204_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1102",
+        "name": "邪煌逐影",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1103",
+        "name": "魔威",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，若周围1圈内存在低于20%气血的敌人，则对周围1圈内所有敌人造成0.2倍范围伤害。"
+      },
+      {
+        "img": "Skill_Shadow_1001",
+        "name": "暗浊",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加1个随机「有害状态」"
+      },
+      {
+        "img": "EXSkill_1101",
+        "name": "诛天剑阵",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若击杀目标，则对自身周围<b><color=#e4462c>1</color></b>圈内所有敌人造成<b><color=#e4462c>0.2</color></b>倍物攻伤害，否则恢复自身气血（恢复量为本次伤害的<b><color=#e4462c>50%</color></b>）。"
+      },
+      {
+        "img": "Skill_Assassin_1009",
+        "name": "来去如风",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若「对战后」有剩余的移动力，则可使用剩余的移动力继续移动。"
+      },
+      {
+        "img": "GPassive_1029",
+        "name": "贯甲奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蚀御I」</link>，持续1回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1003",
+        "name": "冲锋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "进入「对战前」，每移动1格，物攻提高5%。（最多15%）"
+      },
+      {
+        "img": "EXSkill_1104",
+        "name": "万邪天灭",
+        "type": "物攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，并对「咒师」额外造成<b><color=#e4462c>20%</color></b>伤害。行动结束时，自身获得<link type=buff value=700040245 bgcolor=#3a85ffff>「阎天魔能」</link>状态，持续<b><color=#e4462c>1</color></b>回合。若携带「天魔护铠」，则将「阎天魔能」和「天魔护铠」合并为<link type=buff value=700040246 bgcolor=#3a85ffff>「阎天护铠」</link>，持续<b><color=#e4462c>1</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "剑邪",
+        "name": "玄铁剑",
+        "img": "Weapon_xuantiejian",
+        "qixue": "40",
+        "magic": "0",
+        "physical": "38",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，上古玄铁剑乃铸剑高师为王室所铸，两国交战，玄铁剑于战火中下落不明，坊间后话，战火起自玄铁矣。<br/>经良材打造而成，其铸法今存世可见。<br/>传，玄铁剑，剑身宽大，湛色饱满，以兽血淬锋，实为宝剑。"
+      },
+      {
+        "weapon": "剑邪",
+        "name": "玄真剑",
+        "img": "Weapon_xuanzhenjian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "47",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，玄真非在身中，万缘齐断，神气始和冲。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，玄真剑出蜀中，乃一门宗师所藏，剑沉且刃钝，非一般杀器，却较寻常之剑，威力百倍。又传，玄真剑有号令之能，为宗室幕僚之信物，曾屠数门。宗师曾言：玄真钝在剑身，锐在剑心。"
+      },
+      {
+        "weapon": "剑邪",
+        "name": "天狼剑",
+        "img": "Weapon_leiyinjian",
+        "qixue": "61",
+        "magic": "0",
+        "physical": "58",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，神器难窃弄，天狼窥紫宸。六龙迁白日，灵阙暗胡尘。<br/>经密法炼制打造，其铸法于「列星」可见。<br/>传，天狼剑，出自西夏，持剑者曾凭此剑横扫中原。又传，后世有人于灵阙潭复得此剑，遂成地界之兵。<br/>言：天狼隐耀，弧矢杀心。"
+      },
+      {
+        "weapon": "剑邪",
+        "name": "暗星三股剑",
+        "img": "Weapon_angusanxingjian",
+        "qixue": "77",
+        "magic": "0",
+        "physical": "73",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，暗星三股剑乃铸剑高师所铸，其引山中溪水至铸剑炉中，以借地源，又布铸剑炉为星形，故铸成后，冠名暗星。<br/>今可由列星中窥见铸造之法。<br/>传，暗星三股剑触石则石裂，坚韧无所敌。言：持暗星者，人言地煞星，直恐兴风霆。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "剑邪",
+        "img": "Equip_yuejinhue",
+        "name": "月锦抹额",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "剑邪",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "剑邪",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "剑邪",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "6",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_017",
+        "name": "天魔万象阵",
+        "unlock_condition": "阵眼剑邪位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1204_HeadIcon_Basic",
+        "icon1": "shadow",
+        "icon2": "ice",
+        "icon3": "",
+        "desc": "上阵剑邪和「暗」，「冰」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，周围2圈内每有1个敌人，造成伤害提高5%（最多15%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幽篁罗剑",
+        "img": "Weapon_youhuangluojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "释放绝学后，获得「魔煞」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魔煞」：回合开始时对周围<b><color=#e4462c>2</color></b>圈内所有敌人造成<b><color=#e4462c>0.2</color></b>倍范围伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」（不可驱散，受到伤害后消失）。"
+      },
+      {
+        "name": "幽篁罗剑",
+        "img": "Weapon_youhuangluojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "释放绝学后，获得「魔煞」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魔煞」：回合开始时对周围<b><color=#e4462c>2</color></b>圈内所有敌人造成<b><color=#e4462c>0.25</color></b>倍范围伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」（不可驱散，受到伤害后消失）。"
+      },
+      {
+        "name": "幽篁罗剑",
+        "img": "Weapon_youhuangluojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "释放绝学后，获得「魔煞」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魔煞」：回合开始时对周围<b><color=#e4462c>2</color></b>圈内所有敌人造成<b><color=#e4462c>0.3</color></b>倍范围伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」（不可驱散，受到伤害后消失）。"
+      },
+      {
+        "name": "幽篁罗剑",
+        "img": "Weapon_youhuangluojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "释放绝学后，获得「魔煞」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魔煞」：回合开始时对周围<b><color=#e4462c>2</color></b>圈内所有敌人造成<b><color=#e4462c>0.35</color></b>倍范围伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」（不可驱散，受到伤害后消失）。"
+      },
+      {
+        "name": "幽篁罗剑",
+        "img": "Weapon_youhuangluojian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "释放绝学后，获得「魔煞」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「魔煞」：回合开始时对周围<b><color=#e4462c>2</color></b>圈内所有敌人造成<b><color=#e4462c>0.4</color></b>倍范围伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」（不可驱散，受到伤害后消失）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.557997557997558"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.280830280830281"
+      },
+      {
+        "name": "天狼血眼",
+        "percent": "0.107041107041107"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "星河手环",
+        "percent": "0.234025234025234"
+      },
+      {
+        "name": "豹牙手环",
+        "percent": "0.147334147334147"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.131868131868132"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.113960113960114"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "五尊神令",
+        "percent": "0.291005291005291"
+      },
+      {
+        "name": "天穹剑印",
+        "percent": "0.235246235246235"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.22018722018722"
+      },
+      {
+        "name": "无边落木·烟",
+        "percent": "0.205535205535206"
+      },
+      {
+        "name": "月满西楼",
+        "percent": "0.195360195360195"
+      },
+      {
+        "name": "无边落木·尘",
+        "percent": "0.0997171145685997"
+      }
+    ]
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "name": "公孙七月",
+    "is_new": "",
+    "weight": "1020",
+    "pinyin": "gongsunqiyue",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1047_img",
+    "prop_icon": "Fire",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "炎",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "178",
+    "magic_attack": "13",
+    "physical_attack": "102",
+    "magic_defense": "23",
+    "physical_defense": "33",
+    "huixin": "45",
+    "inherent": "Gift_117",
+    "inherent_name": "人小鬼大",
+    "star1": "",
+    "star2": "",
+    "star3": "物攻提高7%。行动结束前，若3格范围内有敌方，选择<link type=skill value=61104702 bgcolor=#3a85ffff>「横财」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷窍」</link>中一个技能释放。行动结束时，如果处于敌方危险范围内且未造成伤害（「横财」「迷窍」除外），则获得再行动（间隔4回合触发）。",
+    "star4": "物攻提高9%。行动结束前，若3格范围内有敌方，选择<link type=skill value=61104702 bgcolor=#3a85ffff>「横财」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷窍」</link>中一个技能释放。行动结束时，如果处于敌方危险范围内且未造成伤害（「横财」「迷窍」除外），则获得再行动（间隔3回合触发）。",
+    "star5": "物攻提高12%。行动结束前，若3格范围内有敌方，选择<link type=skill value=61104702 bgcolor=#3a85ffff>「横财」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷窍」</link>中一个技能释放。行动结束时，如果处于敌方危险范围内且未造成伤害（「横财」「迷窍」除外），则获得再行动（间隔2回合触发）。",
+    "star6": "物攻提高15%。行动结束前，若3格范围内有敌方，选择<link type=skill value=61104702 bgcolor=#3a85ffff>「横财」</link>或<link type=skill value=61104703 bgcolor=#3a85ffff>「迷窍」</link>中一个技能释放。行动结束时，如果处于敌方危险范围内且未造成伤害（「横财」「迷窍」除外），则获得再行动（间隔2回合触发）。",
+    "story_name": "七月传-采宝",
+    "story_content": "「嵩阳门有七月，诸位可要问了，哪没有七月？<br/>这七月可不是那炎夏时令，而是嵩阳门生意的主理人，名唤公孙七月。<br/>那这七月，有什么能耐，能找我陈笙草著书立传呢？<br/>你且焚香沏茶，听我娓娓道来。<br/>这姑娘奇异处之一，便是对金银财宝极其敏感，一旦靠近，哪怕这财宝被嵌在顽石铁块里，她也能心生感应。<br/>起因呢，是嵩阳门接了主顾生意——私人定制一套宝石剑匣。指定要云南宝井里碧透原石来镶嵌，若能如意，价钱随便开。<br/>这七月即刻联系人，锁定了位于云南保山茂林深处的一口宝井，连夜带着身边小厮去同当地采宝人汇合，等待下井采宝。<br/>您可能要问了，何谓宝井？何谓采宝？<br/>在西域以及云南金齿卫一带深山密林之中，常有无水之井，其内深不见底，井壁之上兀自生出怪石，形状各异，大小不一。需开石之人仔细琢磨开，才能知道其内是顽石一块，还是暗藏稀世珍宝。公孙七月此行采宝，求的便是一枚猫眼石，好为主顾定制一方耀眼剑匣。<br/>而能下井采宝之人，往往打小练就一双狠毒的招子，能看到这靠天赋，也靠勤修。但这行当，说白了便是向天讨饭，就算有了这双招子，也要知收敛，因为但凡有宝之地，必有穷凶极恶之物相护，采宝劲敌，便是那如雾的宝气，氤氲井中，人久食其气多致死。<br/>故而采宝人下井，身上带着装宝的口袋，腰间悬一铃铛，每当宝气逼不得过，则急摇其铃。井上人闻声则引绳提上。其人即无恙，但已昏矇，宝囊内石料亦不过半。只能用清水入口解救，且三日之内不得进食粮，静待调理平复。<br/>公孙七月一到保山境内，即刻雇佣最好的采宝小队，专选境内最荒最野之山。尤其是能看到宝气的采宝之人，更是优中选优。可天不遂人愿，一进山林，三名采宝人，一个被蛇咬了，一个让马蜂蛰肿了眼，还有一个，下去之后直接昏迷。<br/>若是此时折返，从保山县到这密林，一来回怎地也要十天半月，势必误了工期，七月小腰一插，思忖片刻，采宝人身上解下铃铛，系在自己腰间，又三下五除二在腰间打了个绳结，将长绳另一头递给井上留守之人。井上人瞠目结舌，心里盘算，这大小姐衣来伸手、饭来张口，沿途全靠一红衣壮汉和碎嘴奶妈照看，又从未练过招子，下去怕不是找死？哪知身旁的红衣壮汉摇了摇头，示意他接应好大小姐即可，不必惊慌。井上人一个晃神间，但觉手中一紧，七月三两下已跃至井下。<br/>一炷香……<br/>两柱香……<br/>你要说这小姑奶奶是被宝气侵染晕了吧？偏生还能感觉到绳子在一点点下移，直到第三炷香开点，井下才传来摇铃声。<br/>但见少女闭目，一双小手，虔诚捧着一大口袋石头，井上人吓了一跳，好贪心的人，但不知其间有多少石头藏宝。<br/>七日，七月足足昏睡了七日。<br/>八成，那一口袋石头八成有宝。<br/>采宝队惊了，这丫头就算打娘胎里练招子，怀胎十年，对于常人也只是入门而已，难不成是天赋异禀？<br/>七月醒来，但见采宝队一众人双手合十跪拜，纷纷询问七月是如何练就这一双采宝之眼的。<br/>七月见惯了大场面，倒也不慌不忙，只答了句，什么看宝气？我闭眼下去的。<br/>众人惊慌，那你是如何辨别哪块石头中有宝石的？总不至于胡乱抓摸吧？莫非是——祖师爷显灵？<br/>几人叩拜更是虔诚。<br/>只闻得头上悠悠传来一句话——<br/>祖师爷？你也太小看我了，姑奶奶我是财神显圣，一靠近财宝便心内小鹿乱撞，如是灵显。<br/>好家伙，只见那采宝队转身便设坛奉香，若不是七月身旁得红衣壮汉和奶娘连夜将其带走，七月便险些被这些人当财神供了起来。<br/>有人要问了，公孙七月当真是财神转世？都说天机不可泄露，具体情状，从其出生之日可窥见一二。<br/>预知后续，且听下回分解。」<br/>——陈笙草",
+    "hero_icon": "Hero1047_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Ranger_1001",
+        "name": "逐风破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，「对战前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1032",
+        "name": "穿胄胁迫",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[协攻]若队友主动攻击自身2格范围内的1个敌人，且优先攻击时，则在进入战斗时使目标遭受伤害提高20%。（每回合只能触发2次）"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1391",
+        "name": "投资",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复目标最大气血的<b><color=#e4462c>30%</color></b>，技能后若目标气血全满，自身获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1387",
+        "name": "步步高升",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，为范围内所有友方施加<link type=buff value=700001102 bgcolor=#3a85ffff>「极意I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。炎属相友方额外获得<link type=buff value=700000782 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1388",
+        "name": "七星连珠",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>0.4</color></b>倍伤害），「对战后」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合；若本次攻击和目标不在一直线，本次攻击目标无法反击。"
+      },
+      {
+        "img": "EXSkill_1390",
+        "name": "广济散财",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对中心点的敌人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1389",
+        "name": "一掷千金",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>30%</color></b>伤害；「对战前」驱散目标<b><color=#e4462c>4</color></b>个「有益状态」，每驱散<b><color=#e4462c>1</color></b>个「有益状态」，伤害<b><color=#e4462c>+5%</color></b>。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "公孙七月",
+        "name": "良木弹弓",
+        "img": "Weapon_104701",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "《吴越春秋》卷九所载《弹歌》之言，断竹，续竹，飞土，逐肉。<br/>所谓弹弓，以良木为弓架，以猛兽之筋络为皮筋，以上好兽皮为皮兜。因其制作简单，常为顽童之物，亦或者因轻巧灵活为猎者备用之器。<br/>言：良木续风力，丸弹穿重荫。<br/>"
+      },
+      {
+        "weapon": "公孙七月",
+        "name": "精铁弹弓",
+        "img": "Weapon_104702",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，弦续会稽竹，丸铸荆山铜。<br/>能匠所铸造弹弓，经精铁等珍惜材料改造后常用于对敌。因弹弓所射弹丸所伴声音远远小于箭矢，故适用于偷袭，归于暗器之列。持之者，能隐弹丸于万物之息中，被瞄准者无所察觉之时已被制服。<br/>言：惊起流莺散，残英满地红。"
+      },
+      {
+        "weapon": "公孙七月",
+        "name": "鎏金弹弓",
+        "img": "Weapon_104703",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "《西京杂记》中载，韩氏常以金为丸，一日所失者十馀。<br/>相传，泰山诸神爱好狩猎，其猎必用弹弓。故而民间多有效仿者，更有富贵者以金为丸，被讽骄奢。然，其鎏金之效，乃为驱邪之用。古金通灵，可借诸神无上咒力，持之者可以一敌百，世间少有能敌者。<br/>言：金打云崖草，云动悲歌鸣。"
+      },
+      {
+        "weapon": "公孙七月",
+        "name": "竹问远霄",
+        "img": "Weapon_104704",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "民间传记有载，四目仙翁曾授张仙度世之法，卖之弹弓能辟疫病，当宝而用。<br/>后此物流入凡间，无数人趋之若鹜。相传持之者皆有隐瞳，远弓亦或咒法皆出神入化，百发百中。可上打孤辰寡宿，下搅玄海魂潮，能证仙道矣。<br/>言：仙风垂古道，重瞳穿云霄。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "公孙七月",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "公孙七月",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "公孙七月",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "公孙七月",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "红玉灼天",
+        "img": "Weapon_104705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时伤害提高<b><color=#e4462c>5%</color></b>。主动攻击「对战后」获得再移动（剩余移动力）。"
+      },
+      {
+        "name": "红玉灼天",
+        "img": "Weapon_104705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时伤害提高<b><color=#e4462c>6%</color></b>。主动攻击「对战后」获得再移动（剩余移动力）。"
+      },
+      {
+        "name": "红玉灼天",
+        "img": "Weapon_104705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时伤害提高<b><color=#e4462c>7%</color></b>。主动攻击「对战后」获得再移动（剩余移动力）。"
+      },
+      {
+        "name": "红玉灼天",
+        "img": "Weapon_104705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带大于等于<b><color=#e4462c>3</color></b>个「有益状态」时伤害提高<b><color=#e4462c>8%</color></b>。主动攻击「对战后」获得再移动（剩余移动力）。"
+      },
+      {
+        "name": "红玉灼天",
+        "img": "Weapon_104705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带大于等于<b><color=#e4462c>2</color></b>个「有益状态」时伤害提高<b><color=#e4462c>10%</color></b>。主动攻击「对战后」获得再移动（剩余移动力）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.679518072289157"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.120481927710843"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.349593495934959"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.252032520325203"
+      },
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.227642276422764"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "护命神符·烟",
+        "percent": "0.679518072289157"
+      },
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.179518072289156"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.227642276422764"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.195121951219512"
+      },
+      {
+        "name": "鲛人悲歌·尘",
+        "percent": "0.170731707317073"
+      },
+      {
+        "name": "鲛人悲歌·雾",
+        "percent": "0.130081300813008"
+      }
+    ]
+  }
+]

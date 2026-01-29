@@ -1,0 +1,394 @@
+[
+  {
+    "name": "秦惟刚",
+    "is_new": "",
+    "weight": "450",
+    "pinyin": "qinweigang",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1118_img",
+    "prop_icon": "Ice",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "冰",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "170",
+    "magic_attack": "13",
+    "physical_attack": "103",
+    "magic_defense": "27",
+    "physical_defense": "30",
+    "huixin": "40",
+    "inherent": "Gift_054",
+    "inherent_name": "玄冰斗气",
+    "star1": "",
+    "star2": "",
+    "star3": "若队友主动攻击自身2格射程内的1个敌人，发动协力攻击，使目标「对战中」物防和法防降低20%（1回合限定发动1次）。行动结束时，自身获得1层<link type=buff value=741118000 bgcolor=#3a85ffff>「凝冰」</link>状态，每次触发协力额外获得1层<link type=buff value=741118000 bgcolor=#3a85ffff>「凝冰」</link>状态。",
+    "star4": "若队友主动攻击自身2格射程内的1个敌人，发动协力攻击，使目标「对战中」物防和法防降低25%（1回合限定发动1次）。行动结束时，自身获得1层<link type=buff value=741118001 bgcolor=#3a85ffff>「凝冰」</link>状态，每次触发协力额外获得1层<link type=buff value=741118001 bgcolor=#3a85ffff>「凝冰」</link>状态。",
+    "star5": "若队友主动攻击自身2格射程内的1个敌人，发动协力攻击，使目标「对战中」物防和法防降低30%（1回合限定发动1次）。行动结束时，自身获得1层<link type=buff value=741118002 bgcolor=#3a85ffff>「凝冰」</link>状态，每次触发协力额外获得1层<link type=buff value=741118002 bgcolor=#3a85ffff>「凝冰」</link>状态。",
+    "star6": "若队友主动攻击自身3格射程内的1个敌人，发动协力攻击，使目标「对战中」物防和法防降低30%（1回合限定发动2次）。行动结束时，自身获得1层<link type=buff value=741118003 bgcolor=#3a85ffff>「凝冰」</link>状态，每次触发协力额外获得1层<link type=buff value=741118003 bgcolor=#3a85ffff>「凝冰」</link>状态。",
+    "story_name": "大师兄",
+    "story_content": "我为天瑶派掌门师兄，亦为天瑶之御！<br/>没人，能进犯此地。<br/>蒙师尊「惊天雷叟」雷禁之恩惠，得一身绝技。<br/>我入门最早，应做山门表率。<br/>剑、术之道，一日不缀。<br/>如您言，精进一分即多胜算；<br/>山门要务，尽兮了然。<br/>如您言：欲从事，先解其道；<br/>师弟师妹，待如血亲。<br/>如您言：山门血脉，虽不见血涌、但可见脉流。<br/>您请安心：秦惟刚在世一日，<br/>无人可辱我山门，<br/>无人可欺我门人，<br/>无人能胜我一筹！",
+    "hero_icon": "Hero1118_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "GPassive_1041",
+        "name": "狙足",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Assassin_1026",
+        "name": "披云诀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "伤害提高7%。主动攻击「对战后」获得再移动（2格）（间隔1回合触发）。"
+      },
+      {
+        "img": "GPassive_1001",
+        "name": "神力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战中」物攻提高7%。"
+      },
+      {
+        "img": "EXSkill_1088",
+        "name": "霜落长天",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，降低目标<b><color=#e4462c>1</color></b>个随机属性。"
+      },
+      {
+        "img": "GPassive_1020",
+        "name": "地御符印",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使自身2格范围内物防属性最高的2个其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1087",
+        "name": "天瑶寒光",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有友方目标施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。冰属相友方额外获得<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒气",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1086",
+        "name": "六转寒凛",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，物理穿透提高<b><color=#e4462c>20%</color></b>，「对战前」对目标施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虚损II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>4</color></b>点气力，才可释放绝学（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，每次成功触发协力额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "秦惟刚",
+        "name": "玄冰翎",
+        "img": "weapon_xuanbinglin",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，玄冰之凌，乃冰化成，其与法环、法珠系同出一脉，借玄空之器，释放灵法之术。<br/>经良材炼化而成，较宿玉更为多变。<br/>传，有人得之，将其寒冰心法融入其中，乃成其独门奇兵，符文均携寒气，有断魂之能。"
+      },
+      {
+        "weapon": "秦惟刚",
+        "name": "雪羽锥",
+        "img": "weapon_xueyuzhui",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，白日众生见，几来得意人。萍蓬如似梦，丹鼎妙清神。<br/>传，雪羽锥乃取「列星」中的炼法，以「乌金玄铁」炼化而成，再融合道法秘术，方得之。<br/>传，雪羽锥为符器精进之变，清神凝魂，摄魂于无形，若无较高修为难以驾驭，稍有不慎，修法者或遭反噬。"
+      },
+      {
+        "weapon": "秦惟刚",
+        "name": "雾幻神冰",
+        "img": "weapon_wuhuanshenbing",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，云披雾敛天地明，两仪无事天下平。<br/>传，雾幻神冰乃以「化渊玉钢」炼化而成，其卷本为炼化之法。每卷各异，依操持者修为、术法而界分。<br/>传，雾幻神冰，上封有百种修法咒术，亦封妖邪之灵，法力超卓。"
+      },
+      {
+        "weapon": "秦惟刚",
+        "name": "天魄飞冰",
+        "img": "weapon_tianpofeibing",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，朱黄拣日囚天鬼，青白临时注脑神。<br/>传，天魄飞冰，乃以密法炼化而成，为上古神祗五尊神殿外灵修之宝，故得名为天魄。<br/>传，飞冰以引散天界之魂，不走轮回之道。此神兵，乃修咒法道术者渴慕矣。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "秦惟刚",
+        "img": "Equip_yuejinhue",
+        "name": "月锦抹额",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "秦惟刚",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "秦惟刚",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "秦惟刚",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "巽天凛冰",
+        "img": "weapon_xuntianlinbing",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "发动协力攻击后展开「凝霜」领域，持续<b><color=#e4462c>2</color></b>回合，若已展开「凝霜」领域，则转化为「栖雪」领域，持续<b><color=#e4462c>2</color></b>回合。<br/>「凝霜」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>6%</color></b>气血外全属性。<br/>「栖雪」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>7%</color></b>气血外全属性，且免疫「物攻降低」「法攻降低」「物防降低」「法防降低」类状态。"
+      },
+      {
+        "name": "巽天凛冰",
+        "img": "weapon_xuntianlinbing",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "发动协力攻击后展开「凝霜」领域，持续<b><color=#e4462c>2</color></b>回合，若已展开「凝霜」领域，则转化为「栖雪」领域，持续<b><color=#e4462c>2</color></b>回合。<br/>「凝霜」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>7%</color></b>气血外全属性。<br/>「栖雪」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>9%</color></b>气血外全属性，且免疫「物攻降低」「法攻降低」「物防降低」「法防降低」类状态。"
+      },
+      {
+        "name": "巽天凛冰",
+        "img": "weapon_xuntianlinbing",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "发动协力攻击后展开「凝霜」领域，持续<b><color=#e4462c>2</color></b>回合，若已展开「凝霜」领域，则转化为「栖雪」领域，持续<b><color=#e4462c>2</color></b>回合。<br/>「凝霜」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>8%</color></b>气血外全属性。<br/>「栖雪」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>11%</color></b>气血外全属性，且免疫「物攻降低」「法攻降低」「物防降低」「法防降低」类状态。"
+      },
+      {
+        "name": "巽天凛冰",
+        "img": "weapon_xuntianlinbing",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "发动协力攻击后展开「凝霜」领域，持续<b><color=#e4462c>2</color></b>回合，若已展开「凝霜」领域，则转化为「栖雪」领域，持续<b><color=#e4462c>2</color></b>回合。<br/>「凝霜」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>9%</color></b>气血外全属性。<br/>「栖雪」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>13%</color></b>气血外全属性，且免疫「物攻降低」「法攻降低」「物防降低」「法防降低」类状态。"
+      },
+      {
+        "name": "巽天凛冰",
+        "img": "weapon_xuntianlinbing",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "发动协力攻击后展开「凝霜」领域，持续<b><color=#e4462c>2</color></b>回合，若已展开「凝霜」领域，则转化为「栖雪」领域，持续<b><color=#e4462c>2</color></b>回合。<br/>「凝霜」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>10%</color></b>气血外全属性。<br/>「栖雪」：<b><color=#e4462c>3</color></b>格内的友方提高<b><color=#e4462c>15%</color></b>气血外全属性，且免疫「物攻降低」「法攻降低」「物防降低」「法防降低」类状态。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "凤翼神坠",
+        "percent": "0.346478873239437"
+      },
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.253521126760563"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.174647887323944"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.149295774647887"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "御波灵戒",
+        "percent": "0.26775956284153"
+      },
+      {
+        "name": "蛇首灵戒·烟",
+        "percent": "0.226775956284153"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.218579234972678"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.158469945355191"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.343661971830986"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.157746478873239"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.332790886899919"
+      },
+      {
+        "name": "刹那·烟",
+        "percent": "0.12568306010929"
+      },
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.120218579234973"
+      }
+    ]
+  }
+]

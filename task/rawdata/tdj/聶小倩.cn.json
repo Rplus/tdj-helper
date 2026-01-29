@@ -1,0 +1,398 @@
+[
+  {
+    "name": "聂小倩",
+    "is_new": "",
+    "weight": "680",
+    "pinyin": "niexiaoqian",
+    "source": "国风企划聂小倩篇登场角色",
+    "pic": "Hero2009_img",
+    "prop_icon": "Ice",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "冰",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "172",
+    "magic_attack": "102",
+    "physical_attack": "13",
+    "magic_defense": "41",
+    "physical_defense": "24",
+    "huixin": "30",
+    "inherent": "Gift_077",
+    "inherent_name": "梦海情沉",
+    "star1": "",
+    "star2": "",
+    "star3": "自身3格范围内每存在1个其他友方，提升自身5%伤害和法术免伤（最高15%）。行动结束时，若3格内其他友方数量大于等于2，则对自身3格内友方施加<link type=buff value=742009004 bgcolor=#3a85ffff>「梦海」</link>状态。（间隔3回合触发）",
+    "star4": "自身3格范围内每存在1个其他友方，提升自身6%伤害和法术免伤（最高18%）。行动结束时，若3格内其他友方数量大于等于2，则对自身3格内友方施加<link type=buff value=742009004 bgcolor=#3a85ffff>「梦海」</link>状态。（间隔2回合触发）",
+    "star5": "自身3格范围内每存在1个其他友方，提升自身7%伤害和法术免伤（最高21%）。行动结束时，若3格内其他友方数量大于等于2，则对自身3格内友方施加<link type=buff value=742009004 bgcolor=#3a85ffff>「梦海」</link>状态。（间隔2回合触发）",
+    "star6": "自身3格范围内每存在1个其他友方，提升自身8%伤害和法术免伤（最高24%）。行动结束时，若3格内其他友方数量大于等于2，则对自身3格内友方施加<link type=buff value=742009004 bgcolor=#3a85ffff>「梦海」</link>状态。（间隔1回合触发）",
+    "story_name": "幽魂引",
+    "story_content": "小倩跟着姥姥于兰若寺中，对于男女之事算是一番修行，<br/>她最会的表情乃为巧笑倩兮、美目流盼，<br/>她最会的动作就是欲擒故纵、勾勾手指。<br/>她表面笑意盈盈，内心面不改色。<br/>「容易极了。」<br/>姥姥命她所寻之人，多多少少有些异于常人之处。<br/>然，这些人耽于美色无一例外，皆是逃不过胭脂扣、石榴裙，更有甚者怕是到了黄泉之下，才知道自己为何稀里糊涂丧了命。<br/>「不过如此。」<br/>同一种活计，干久了会是滋生无聊心。<br/>可惜这人活着死了后能做什么的选择权，从来就没落在她手里过，她能做的和那普通之人一般无二，不过是在别人手下讨生活。<br/>她只能偶尔聊胜于无地安慰自己——<br/>「人世间，也是这般纷扰，万事皆苦，所求难得。」<br/>「那做人，倒也非什么幸事了。」<br/>",
+    "hero_icon": "Hero2009_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Ice_1007",
+        "name": "傲雪寒霜",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」对目标身周<b><color=#e4462c>1</color></b>圈内所有敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>效果，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1196",
+        "name": "屏音",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": " 免疫「移动力降低」，自身气血大于等于80%，回合开始时，获得<link type=buff value=742009071 bgcolor=#3a85ffff>「止歌」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1197",
+        "name": "阴阳化移",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若气血大于等于50%，我方行动时，获得10%法攻，敌方行动时，获得10%法防。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒气",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1194",
+        "name": "十曲乱情",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1001",
+        "name": "天霜雪舞",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」对敌方施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1193",
+        "name": "抚弦祝庇",
+        "type": "支援",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有友方施加<link type=buff value=700000542 bgcolor=#3a85ffff>「御魔I」</link><link type=buff value=700001262 bgcolor=#3a85ffff>「固元I」</link>状态，自身获得<link type=buff value=742009082 bgcolor=#3a85ffff>「幽魂」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1195",
+        "name": "摄魂拂音",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害，使其处于冷却中的主动绝学冷却<b><color=#e4462c>+2</color></b>，在自身周围<b><color=#e4462c>3</color></b>格张开领域<link type=buff value=742009090 bgcolor=#3a85ffff>「寂魂音域」</link>，持续<b><color=#e4462c>1</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害，受到伤害均可累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "聂小倩",
+        "name": "杨木琴",
+        "img": "weapon_yangmuqing",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，萤火穿白杨，悲风入荒草。<br/>民间有传，记杨木有栖魂之效，无数流魂暂居于杨木之上，故而杨木有灵。有能匠惜材将其炼化，制为灵武，然世人嫌其忌讳，少有人敢用之，最后此物流于妖道，少有耳闻。<br/>言：白杨清人世，一曲慰亡魂。"
+      },
+      {
+        "weapon": "聂小倩",
+        "name": "软玉琴",
+        "img": "weapon_ruanyuqing",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "古籍载，地心深处生软玉，有修道后辈巧得之，制成古琴供以使用，后江山倾倒朝代更迭，软玉琴作为供品辗转列国，又于深宫处蒙灰敛华。<br/>后人有言，此物浸染天地之气千载，已得灵力，故而当烽火燃起，宝物得机缘送入女将军之手，一曲退万敌。<br/>言：天地生润泽，弦音护人间。"
+      },
+      {
+        "weapon": "聂小倩",
+        "name": "冰虚古琴",
+        "img": "weapon_binxuguqing",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "<br/>传，冰虚古琴由稀世寒石打造，万古沉冰的冰心粉嵌入而成，又得上古大能者蘸寒潭之水附其寒咒之力。故而冰虚古琴有冰纹之样，可见流光。<br/>其琴身所在之地，皆有寒冰三尺，琴音所覆之地，皆如寒霜降世。琴声扬，可摧山河，冰虚古琴之力，人人往之。<br/>言：渊冰厚千尺，空音传万河。"
+      },
+      {
+        "weapon": "聂小倩",
+        "name": "幽霜落情",
+        "img": "weapon_youshuangluoqing",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "相传，有琴仙同凡人相恋，天地不容其情，以幽霜封路，永生永世再难相见。故有情人抚琴以慰相思情苦，泪水滴穿琴身，琴音洞破屏障。<br/>然，万年过去物是人非，仙琴无人凭弹，却存琴音流转，后人称其为「幽霜落情」，持其者琴音威力可封天地，可除仙魔。<br/>言：情穿幽霜路，绝响万物听。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "聂小倩",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "聂小倩",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "聂小倩",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "聂小倩",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "溯魂问雪",
+        "img": "weapon_suohunwenxue",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "使用绝学后，获得「凤沼」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「凤沼」：法攻和双防提高<b><color=#e4462c>5%</color></b>，绝学范围<b><color=#e4462c>+1</color></b>（不可驱散）。"
+      },
+      {
+        "name": "溯魂问雪",
+        "img": "weapon_suohunwenxue",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "使用绝学后，获得「凤沼」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「凤沼」：法攻和双防提高<b><color=#e4462c>6%</color></b>，绝学范围<b><color=#e4462c>+1</color></b>（不可驱散）。"
+      },
+      {
+        "name": "溯魂问雪",
+        "img": "weapon_suohunwenxue",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "使用绝学后，获得「凤沼」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「凤沼」：法攻和双防提高<b><color=#e4462c>7%</color></b>，绝学范围<b><color=#e4462c>+1</color></b>（不可驱散）。"
+      },
+      {
+        "name": "溯魂问雪",
+        "img": "weapon_suohunwenxue",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "使用绝学后，获得「凤沼」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「凤沼」：法攻和双防提高<b><color=#e4462c>8%</color></b>，绝学范围<b><color=#e4462c>+1</color></b>（不可驱散）。"
+      },
+      {
+        "name": "溯魂问雪",
+        "img": "weapon_suohunwenxue",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "使用绝学后，获得「凤沼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「凤沼」：法攻和双防提高<b><color=#e4462c>10%</color></b>，绝学范围<b><color=#e4462c>+1</color></b>（不可驱散）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.349629207073588"
+      },
+      {
+        "name": "神乌饰坠·尘",
+        "percent": "0.23593839132915"
+      },
+      {
+        "name": "朱焰妖瞳·烟",
+        "percent": "0.126811180832858"
+      },
+      {
+        "name": "玉蝶黛翠",
+        "percent": "0.123958927552766"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "玉玑灵镯·尘",
+        "percent": "0.240117608624632"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.206795164978765"
+      },
+      {
+        "name": "玄鸩骨戒",
+        "percent": "0.144723946422738"
+      },
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.137863443319177"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.239361095265259"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.133656588705077"
+      },
+      {
+        "name": "护命神符·尘",
+        "percent": "0.133086138049058"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "清光似水",
+        "percent": "0.122314239705544"
+      },
+      {
+        "name": "朝云横度",
+        "percent": "0.117483321831147"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.115642972164711"
+      }
+    ]
+  }
+]

@@ -1,0 +1,409 @@
+[
+  {
+    "name": "云衣宫主",
+    "is_new": "",
+    "weight": "780",
+    "pinyin": "yunyigongzhu",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1147_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "雷",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "166",
+    "magic_attack": "103",
+    "physical_attack": "13",
+    "magic_defense": "36",
+    "physical_defense": "29",
+    "huixin": "45",
+    "inherent": "Gift_088",
+    "inherent_name": "巴山神女",
+    "star1": "",
+    "star2": "",
+    "star3": "使用绝学后自身获得<link type=buff value=741147014 bgcolor=#3a85ffff>「神恩天泽」</link>状态，持续2回合，并使全场进入结界状态，持续3回合。若已处于结界状态则使当前结界升级，结界按照等级依次为「雷凌电助界」「悬天推势界」「御寰星陨界」。（当结界自然消失或被覆盖后，开启结界将进入4回合冷却时间）<br/>「雷凌电助界」：我方雷属相英灵全属性提升10%。回合开始时，随机对3个未携带「电流」状态的敌方角色施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。<br/>「悬天推势界」：在「雷凌电助界」的基础上额外获得：友方雷属相英灵造成伤害后，基于命中目标人数获得再移动（每命中1个敌方角色获得1格，最多3格）。<br/>「御寰星陨界」：在「悬天推势界」的基础上额外获得：友方雷属相英灵主动攻击「对战后」若目标气血低于20%则对其施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合。<br/>",
+    "star4": "使用绝学后自身获得<link type=buff value=741147015 bgcolor=#3a85ffff>「神恩天泽」</link>状态，持续2回合，并使全场进入结界状态，持续3回合。若已处于结界状态则将当使结界升级，结界按照等级依次为「雷凌电助界」「悬天推势界」「御寰星陨界」。（当结界自然消失或被覆盖后，开启结界将进入3回合冷却时间）<br/>「雷凌电助界」：我方雷属相英灵全属性提升10%。回合开始时，随机对3个未携带「电流」状态的敌方角色施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。<br/>「悬天推势界」：在「雷凌电助界」的基础上额外获得：友方雷属相英灵造成伤害后，基于命中目标人数获得再移动（每命中1个敌方角色获得1格，最多3格）。<br/>「御寰星陨界」：在「悬天推势界」的基础上额外获得：友方雷属相英灵主动攻击「对战后」若目标气血低于20%则对其施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合。<br/>",
+    "star5": "使用绝学后自身获得<link type=buff value=741147016 bgcolor=#3a85ffff>「神恩天泽」</link>状态，持续2回合，并使全场进入结界状态，持续3回合。若已处于结界状态则使当前结界升级，结界按照等级依次为「雷凌电助界」「悬天推势界」「御寰星陨界」。（当结界自然消失或被覆盖后，开启结界将进入3回合冷却时间）<br/>「雷凌电助界」：我方雷属相英灵全属性提升10%。回合开始时，随机对3个未携带「电流」状态的敌方角色施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。<br/>「悬天推势界」：在「雷凌电助界」的基础上额外获得：友方雷属相英灵造成伤害后，基于命中目标人数获得再移动（每命中1个敌方角色获得1格，最多3格）。<br/>「御寰星陨界」：在「悬天推势界」的基础上额外获得：友方雷属相英灵主动攻击「对战后」若目标气血低于20%则对其施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合。<br/>",
+    "star6": "使用绝学后自身获得<link type=buff value=741147017 bgcolor=#3a85ffff>「神恩天泽」</link>状态，持续2回合，并使全场进入结界状态，持续3回合。若已处于结界状态则使当前结界升级，结界按照等级依次为「雷凌电助界」「悬天推势界」「御寰星陨界」。（当结界自然消失或被覆盖后，开启结界将进入2回合冷却时间）<br/>「雷凌电助界」：我方雷属相英灵全属性提升10%。回合开始时，随机对3个未携带「电流」状态的敌方角色施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。<br/>「悬天推势界」：在「雷凌电助界」的基础上额外获得：友方雷属相英灵造成伤害后，基于命中目标人数获得再移动（每命中1个敌方角色获得1格，最多3格）。<br/>「御寰星陨界」：在「悬天推势界」的基础上额外获得：友方雷属相英灵主动攻击「对战后」若目标气血低于20%则对其施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合。<br/>",
+    "story_name": "空",
+    "story_content": "「夏侯仪，我是葛云衣啊。你认不出我了吗？……<br/>「……双仪逆转的冲震偏转了时轮，于你们来说虽然只是短短半刻钟，在人间却已过了八年的时光。」<br/>葛云衣感受到她眼前这金发男子身上蕴涌的愤怒、恚恨、困惑、悲伤，无穷无尽。<br/>他垂着双手，但一只袖管空空荡荡，另一只底下，则攥紧拳头，指甲抠进肉里。<br/>她知道，那只拳头抓紧的是现在。而那只空袖，抓住的则是过去。他被横架在二者巨大的空洞中间。<br/>就像她一样。",
+    "hero_icon": "Hero1147_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Electricity_1005",
+        "name": "九天神雷",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，成功击杀目标时，则该绝学冷却时间减少<b><color=#e4462c>3</color></b>回合"
+      },
+      {
+        "img": "GPassive_1027",
+        "name": "裂袍咒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身十字方向上7格内最近的1名敌人施加<link type=buff value=700000710 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1043",
+        "name": "决意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "使用伤害绝学时，法攻和暴击率提高7%。"
+      },
+      {
+        "img": "EXSkill_1262",
+        "name": "神视焕升",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个友方施加<link type=buff value=700000784 bgcolor=#3a85ffff>「迅捷II」</link>状态，持续<b><color=#e4462c>2</color></b>回合，并使当前结界额外升级<b><color=#e4462c>1</color></b>次。"
+      },
+      {
+        "img": "Skill_Electricity_1002",
+        "name": "雷鸣之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态 ，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1260",
+        "name": "急雷瞬幻",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线6格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>1</color></b>倍伤害，与目标距离每多<b><color=#e4462c>1</color></b>格，则伤害衰减<b><color=#e4462c>12%</color></b>。若目标携带<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态则消耗「电流」状态，对目标的伤害额外提高<b><color=#e4462c>20%</color></b>，对未携带「电流」状态的敌人施加「电流」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1261",
+        "name": "诸星天观",
+        "type": "治疗",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1</color></b>倍）并施加<link type=buff value=700000794 bgcolor=#3a85ffff>「神护II」</link><link type=buff value=741028035 bgcolor=#3a85ffff>「雷铠」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1259",
+        "name": "驱雷掣电",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，若目标携带<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，则本次伤害提高<b><color=#e4462c>30%</color></b>且「对战后」自身所有主动绝学冷却时间<b><color=#e4462c>-1</color></b>。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累计<b><color=#e4462c>1</color></b>点气力，使用非伤害绝学累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "云衣宫主",
+        "name": "鉴风",
+        "img": "Weapon_jianfeng",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，春风裁细叶，西风凋碧树。<br/>自古风乍起时天多变，而天地间隙处生古木，倚风而生，风雕不朽。故而有能工巧匠者，以此木制古杖。古杖为基，常镶道法之器，可提升擅咒法者攻击之能，为世间少见之物。<br/>言：天鉴旧人梦，光灵托凛风。<br/>"
+      },
+      {
+        "weapon": "云衣宫主",
+        "name": "问雷",
+        "img": "Weapon_wenlei",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，巫峡中宵动，沧江十月雷。龙蛇不成蛰，天地划争迥。<br/>世间传人界有至宝，玄铁之杖出世之时，炉火骤歇，天降无光之雷，新雷噬人，断不可单持，为压制其身雷电之气，辅以宝珠为镇。积年累月，可提升使用者咒法修为。<br/>言：天地妒云雨，琼玉问雷宵。<br/>"
+      },
+      {
+        "weapon": "云衣宫主",
+        "name": "覆云",
+        "img": "Weapon_fuyun",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，东边日出西边雨，道是无情却有情。<br/>据传，有木其叶如罗，其实如栾，其木若蓲，其名曰「建木」。以此木为材制仙器，裹法珠为睛，称「覆云」，可通天地灵气，如神灵梯桥，浮云兴起，氛氲未歇，持其能视云中宫殿，借古神之力，可震慑瀚海，亦能翻覆天地。<br/>言：日际掀云海，远上九转天。"
+      },
+      {
+        "weapon": "云衣宫主",
+        "name": "盘灵",
+        "img": "Weapon_panlin",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，春水满四泽，夏云多奇峰。秋月扬明晖，冬岭秀寒松。<br/>据传，古人立铜鸟以测风，有大能者借之窥天地造化，控天以敬寒暑，后有瑞灵之鸟栖其杖，衔星玉，闻「炁」而动。此物天下修道者皆求之，有大机缘者方可持之，变风云，时风、时雷、时雨，掌风云之礼。<br/>言：瑞灵盘寒暑，司礼问重霄。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "云衣宫主",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "云衣宫主",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "云衣宫主",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "云衣宫主",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_030",
+        "name": "神观天掣阵",
+        "unlock_condition": "阵眼云衣宫主位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1147_HeadIcon_Basic",
+        "icon1": "electricity",
+        "icon2": "light",
+        "icon3": "",
+        "desc": "上阵云衣宫主和「雷」，「光」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身有主动绝学处于冷却中时，伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "无阙",
+        "img": "Weapon_wuque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "自身有主动绝学处于冷却中时，暴击伤害提高<b><color=#e4462c>5%</color></b>。使用非伤害绝学后，为自身和目标施加「刺骨」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "无阙",
+        "img": "Weapon_wuque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "自身有主动绝学处于冷却中时，暴击伤害提高<b><color=#e4462c>6%</color></b>。使用非伤害绝学后，为自身和目标施加「刺骨」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "无阙",
+        "img": "Weapon_wuque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "自身有主动绝学处于冷却中时，暴击伤害提高<b><color=#e4462c>7%</color></b>。使用非伤害绝学后，为自身和目标施加「刺骨」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "无阙",
+        "img": "Weapon_wuque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "自身有主动绝学处于冷却中时，暴击伤害提高<b><color=#e4462c>8%</color></b>。使用非伤害绝学后，为自身和目标施加「刺骨」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "无阙",
+        "img": "Weapon_wuque",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "自身有主动绝学处于冷却中时，暴击伤害提高<b><color=#e4462c>10%</color></b>。使用非伤害绝学后，为自身和目标施加「刺骨」状态，持续<b><color=#e4462c>2</color></b>回合。使用伤害绝学后，若自身天赋在冷却中，则天赋冷却时间<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.213128729752771"
+      },
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.156436487638534"
+      },
+      {
+        "name": "太初华晶·烟",
+        "percent": "0.118073316283035"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.210571184995737"
+      },
+      {
+        "name": "重曜玉镯",
+        "percent": "0.141091219096334"
+      },
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.111679454390452"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.160043747721473"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.134524243528983"
+      },
+      {
+        "name": "辟邪玉佩·烟",
+        "percent": "0.105359095880423"
+      },
+      {
+        "name": "护命神符·尘",
+        "percent": "0.0987969376594969"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.232736572890026"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.178745898651111"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.0980392156862745"
+      }
+    ]
+  }
+]

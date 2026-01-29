@@ -1,0 +1,405 @@
+[
+  {
+    "name": "紫枫",
+    "is_new": "",
+    "weight": "440",
+    "pinyin": "zifeng",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1206_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "雷",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "167",
+    "magic_attack": "100",
+    "physical_attack": "12",
+    "magic_defense": "38",
+    "physical_defense": "29",
+    "huixin": "37",
+    "inherent": "Gift_055",
+    "inherent_name": "缥缈仙气",
+    "star1": "",
+    "star2": "",
+    "star3": "伤害提高14%。行动结束时，若自身2格范围内存在其他友方，则对自身和范围内2个友方施加<link type=buff value=700000780 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续1回合。",
+    "star4": "伤害提高16%。行动结束时，若自身2格范围内存在其他友方，则对自身和范围内3个友方施加<link type=buff value=700000780 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续1回合。",
+    "star5": "伤害提高18%。行动结束时，若自身2格范围内存在其他友方，则对自身和范围内3个友方施加<link type=buff value=700000780 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续1回合。",
+    "star6": "伤害提高20%。行动结束时，若自身3格范围内存在其他友方，则对自身和范围内4个友方施加<link type=buff value=700000780 bgcolor=#3a85ffff>「迅捷I」</link>状态，持续1回合。",
+    "story_name": "定数",
+    "story_content": "「本尊秉天地之常，经万物之纬，莫不符天道，而止于至善。碌碌凡夫不知则不怪，尔亦不知耶？」<br/>「小女愚钝，不明至尊之意，伏望明示！」<br/>「汝已迷本觉。然助阴阳而行，促乾坤之变，诸因便可回转。下界去罢，功成之时，再返天界。」<br/>再醒来时，紫枫只依稀记得，自己仿佛坠落过万丈之渊——<br/>西王母所谓何意？<br/>她迷失了什么本觉？<br/>不过是为那武英仲求了情……<br/>难道神仙也逃不过冥冥中的定数么？<br/>这一劫，她细细回想起来，<br/>或许第一眼见到他时，便定下了罢。",
+    "hero_icon": "Hero1206_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1089",
+        "name": "引雷召返",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>，「对战后」可以从自身<b><color=#e4462c>3</color></b>格内，选择<b><color=#e4462c>1</color></b>个友方进行位置互换。"
+      },
+      {
+        "img": "Skill_Electricity_1012",
+        "name": "传导",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。"
+      },
+      {
+        "img": "Skill_Electricity_1005",
+        "name": "九天神雷",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，成功击杀目标时，则该绝学冷却时间减少<b><color=#e4462c>3</color></b>回合"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Electricity_1009",
+        "name": "五雷正法",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，战后自身传送到<b><color=#e4462c>3</color></b>格内一个随机队友身边。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍级",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "EXSkill_1084",
+        "name": "天瑞仙舞",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，使范围内的所有友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄电」</link>效果，且所有主动绝学的冷却时间减少<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1085",
+        "name": "紫电雷煌",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害，暴击率提高<b><color=#e4462c>30%</color></b>，该绝学每造成<b><color=#e4462c>1</color></b>次暴击伤害，则绝学冷却时间减少<b><color=#e4462c>1</color></b>回合，并立刻获得<b><color=#e4462c>1</color></b>点气力（最多减少<b><color=#e4462c>2</color></b>回合冷却时间，获得<b><color=#e4462c>2</color></b>点气力）。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "紫枫",
+        "name": "素绸灵索",
+        "img": "Weapon_suchoulingsuo",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，蜀中有早以未染的生丝织成绸索，不但质轻坚韧，更具有驱凶辟邪之力。然，鲜有习武者以索带为兵练。<br/>传，蜀中一仙宫，有神女像持绸索，时活现，舞之，为拜谒者习得。索带虽成兵，再以良材打造。而仙宫之神女，人称神似紫枫。<br/>传，见其亦持绸索为兵，令人不由浮想其与神女之关联矣。"
+      },
+      {
+        "weapon": "紫枫",
+        "name": "凝玉纱索",
+        "img": "Weapon_ningyushasuo",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，越女需以芙蓉妆，浣于清浅水数百次，才得凝玉色，实乃结合天时地利而成。<br/>遂其制法乃发于「列星」，以凝玉之名冠之。<br/>传，其凝玉色非寻常可见，本与亮纱无异。然，以其成兵后，乃藉「乌金玄铁」，穿无数细小玉玦交串而成。故其较一般纱索更重，其威力亦更强矣。"
+      },
+      {
+        "weapon": "紫枫",
+        "name": "流光纱索",
+        "img": "Weapon_yinhuayueduan",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，畴昔方壶游戏地，群仙步履相从。珑华神女御西风，佩环错落。投壶时，遗其纱索，化作天边云。<br/>传，其化为灵器，因采「化渊玉钢」，故极细极薄、宛如无物，然，有千百色泽，故得流光纱索其名。言：其有仙法之能，可令人目眩神驰，顿失心念灵智。"
+      },
+      {
+        "weapon": "紫枫",
+        "name": "雷绛纱索",
+        "img": "Weapon_leijianglinsuo",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，大道不离方寸地，工夫细密有行持。三清阁下一团髓，昼夜瑶光光烁烁。雷光，其溯源也。<br/>又传，其光者，乃九天神女以雷云所织之纱索。声动者，乃神女以其舞，辉映天光。故为神仙宝物，法力超卓。言：神女所持，令妖孽魔障莫敢睁眼矣。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "紫枫",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "紫枫",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "紫枫",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "紫枫",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_015",
+        "name": "琼华飞仙阵",
+        "unlock_condition": "阵眼紫枫位阶35级，五内迅陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1206_HeadIcon_Basic",
+        "icon1": "rogue",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵紫枫和「羽士」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，携带移动力提高的状态时，使用绝学伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "七色彩绢",
+        "img": "weapon_qisecaijuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "本回合使用伤害绝学造成伤害，行动结束时，根据命中目标数量为自身施加最多<b><color=#e4462c>3</color></b>个随机「有益状态」。每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>1%</color></b>（最多提高<b><color=#e4462c>3%</color></b>），若携带「有益状态」数量大于等于<b><color=#e4462c>5</color></b>个，则绝学范围<b><color=#e4462c>+1</color></b>"
+      },
+      {
+        "name": "七色彩绢",
+        "img": "weapon_qisecaijuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "本回合使用伤害绝学造成伤害，行动结束时，根据命中目标数量为自身施加最多<b><color=#e4462c>3</color></b>个随机「有益状态」。每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>2%</color></b>（最多提高<b><color=#e4462c>6%</color></b>），若携带「有益状态」数量大于等于<b><color=#e4462c>5</color></b>个，则绝学范围<b><color=#e4462c>+1</color></b>"
+      },
+      {
+        "name": "七色彩绢",
+        "img": "weapon_qisecaijuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "本回合使用伤害绝学造成伤害，行动结束时，根据命中目标数量为自身施加最多<b><color=#e4462c>3</color></b>个随机「有益状态」。每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>3%</color></b>（最多提高<b><color=#e4462c>9%</color></b>），若携带「有益状态」数量大于等于<b><color=#e4462c>4</color></b>个，则绝学范围<b><color=#e4462c>+1</color></b>"
+      },
+      {
+        "name": "七色彩绢",
+        "img": "weapon_qisecaijuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "本回合使用伤害绝学造成伤害，行动结束时，根据命中目标数量为自身施加最多<b><color=#e4462c>3</color></b>个随机「有益状态」。每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>4%</color></b>（最多提高<b><color=#e4462c>12%</color></b>），若携带「有益状态」数量大于等于<b><color=#e4462c>4</color></b>个，则绝学范围<b><color=#e4462c>+1</color></b>"
+      },
+      {
+        "name": "七色彩绢",
+        "img": "weapon_qisecaijuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "本回合使用伤害绝学造成伤害，行动结束时，根据命中目标数量为自身施加最多<b><color=#e4462c>3</color></b>个随机「有益状态」。每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>5%</color></b>（最多提高<b><color=#e4462c>15%</color></b>），若携带「有益状态」数量大于等于<b><color=#e4462c>3</color></b>个，则绝学范围<b><color=#e4462c>+1</color></b>"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "封豨牙悬",
+        "percent": "0.412224591329069"
+      },
+      {
+        "name": "天河朱砂",
+        "percent": "0.348258706467662"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "玉玑灵镯·尘",
+        "percent": "0.362473347547974"
+      },
+      {
+        "name": "重曜玉镯",
+        "percent": "0.22956645344705"
+      },
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.175786787638219"
+      },
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.132911392405063"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.301615798922801"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.274685816876122"
+      },
+      {
+        "name": "辟邪玉佩·烟",
+        "percent": "0.226211849192101"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.406044284859366"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.238479952124476"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.200777977259126"
+      }
+    ]
+  }
+]

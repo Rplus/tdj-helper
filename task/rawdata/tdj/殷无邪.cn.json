@@ -1,0 +1,393 @@
+[
+  {
+    "name": "殷无邪",
+    "is_new": "",
+    "weight": "500",
+    "pinyin": "yinwuxie",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1009_img",
+    "prop_icon": "Ice",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "209",
+    "magic_attack": "13",
+    "physical_attack": "106",
+    "magic_defense": "23",
+    "physical_defense": "34",
+    "huixin": "27",
+    "inherent": "Gift_008",
+    "inherent_name": "剑术天才",
+    "star1": "",
+    "star2": "",
+    "star3": "遭受攻击「对战中」发动「先攻」（每回合发动2次）。若气血大于等于50%，物攻提高8%，且「先攻」射程提高1格，造成伤害提高20%。",
+    "star4": "遭受攻击「对战中」发动「先攻」（每回合发动3次）。若气血大于等于50%，物攻提高10%，且「先攻」射程提高1格，造成伤害提高23%。",
+    "star5": "遭受攻击「对战中」发动「先攻」（每回合发动3次）。若气血大于等于50%，物攻提高12%，且「先攻」射程提高1格，造成伤害提高26%。",
+    "star6": "遭受攻击「对战中」发动「先攻」（无限次）。若气血大于等于50%，物攻提高15%，且「先攻」射程提高1格，造成伤害提高30%。",
+    "story_name": "名",
+    "story_content": "世上知道殷正殷无邪的人不多，知道他祖上的人不少。<br/>殷剑平是个完美的英雄，殷无邪是个靠祖上的少主。<br/>所以先得介绍自家祖宗，这是规矩。<br/>他十三岁前的很长一段时间都是这么觉得。<br/>「谁？你祖宗是谁和我有甚干系？自己名字不会说，开口提祖宗……」那半大孩子不甚耐烦，居高临下，叼着芦苇杆子睨他。<br/>突然他就觉得身上一松，神清气爽经脉通达。<br/>是了，他是殷正，字无邪，如此而已。<br/>那半大孩子叫詹云铮，说是四象门的人。<br/>詹云铮脾气古怪，性子反复。但他喜欢跟着这人——就为了初次见面的那句话。<br/>内门弟子私底下议论怪胎扎了堆。<br/>也正是那日，他终于知道了他的血脉里，还有世人觉得邪祟的玩意儿。<br/>「那你觉得我是邪祟么？」詹云铮问他。<br/>于是，即便在很久之后他在这人面前也只是殷无邪，不是那风流少侠，没有那千金一酿。",
+    "hero_icon": "Hero1009_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1105",
+        "name": "霜天剑匣",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择1个绝学进行释放。使用后切换为<link type=skill value=61100903 bgcolor=#3a85ffff>「寒剑封喉」</link>和<link type=skill value=61100910 bgcolor=#3a85ffff>「胡霜千里」</link>"
+      },
+      {
+        "img": "Skill_Swordsman_1009",
+        "name": "蓄势",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时若本回合未进入对战，自身获得<link type=buff value=700000760 bgcolor=#3a85ffff>「起势」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒气",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1004",
+        "name": "无方飞剑",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。"
+      },
+      {
+        "img": "Skill_Swordsman_1011",
+        "name": "移形剑法",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战前」使目标身上<b><color=#e4462c>2</color></b>个「有益状态」变为随机「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1108",
+        "name": "无方剑制",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001501 bgcolor=#3a85ffff>「封劲」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1134",
+        "name": "寒仞",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "自身气血大于等于50%，则伤害提高15%，且触发「先攻」无视闪避。"
+      },
+      {
+        "img": "EXSkill_1109",
+        "name": "剑绝岱宗",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.7</color></b>倍伤害，「对战前」施加<link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。「对战后」在自身周围<b><color=#e4462c>2</color></b>格张开领域<link type=buff value=743002096 bgcolor=#3a85ffff>「剑绝霜狱」</link>，持续<b><color=#e4462c>1</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，先攻额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "殷无邪",
+        "name": "玄铁剑",
+        "img": "weapon_hantiejian",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，上古玄铁剑乃铸剑高师为王室所铸，两国交战，玄铁剑于战火中下落不明，坊间后话，战火起自玄铁矣。<br/>经良材打造而成，其铸法今存世可见。<br/>传，玄铁剑，剑身宽大，湛色饱满，以兽血淬锋，实为宝剑。又传，有后世能人以御冰之法，操持剑法而成独一门。言：破冰雪恨，心负天真。"
+      },
+      {
+        "weapon": "殷无邪",
+        "name": "银霜剑",
+        "img": "Weapon_zijinduanjian",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，蛩吟声乱忙忙，纷纷黄叶落阶场。万林失色，剑气变银霜。<br/>传，银霜剑，剑身因寒冰淬炼，呈蓝紫之色。又传，此剑耐极寒，融炼有「乌金玄铁」，经冰属能士操持，可发挥其势能矣，铸法于「列星」中可见。言，试请凉风，复结银霜。"
+      },
+      {
+        "weapon": "殷无邪",
+        "name": "吹雪剑",
+        "img": "weapon_bingpoyunmiao",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，陇头流水关山月，朔风吹雪透剑寒。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，吹雪剑，剑如其名，有吹雪寒冰之形，剑身薄却坚韧无比，乃奇剑也。又传，其乃掘自千仞寒潭中的玄冰打造而成，触水结冰。言，风吹雪，练衣轻。"
+      },
+      {
+        "weapon": "殷无邪",
+        "name": "傲雪凌霜",
+        "img": "weapon_aoxuelingshuang",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，天上仙人亦舞剑，十年傲雪气凌虚。<br/>其铸法于「列星」可见。<br/>传，傲雪凌霜，仙家之剑武也。剑身有凛冰之刺，传为万年冰晶炼化而成，剑气带有寒芒，破空而结冰，白光疾闪。言，平欺寒力，搀借春光。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "殷无邪",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "殷无邪",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "殷无邪",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "殷无邪",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_018",
+        "name": "风花剑影阵",
+        "unlock_condition": "阵眼殷无邪位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1009_HeadIcon_Basic",
+        "icon1": "female",
+        "icon2": "female",
+        "icon3": "",
+        "desc": "上阵殷无邪和至少2位「女性」英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，2格范围内存在其他女性角色时，伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "天霜雪走",
+        "img": "weapon_tianshuangxuezou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "<b><color=#e4462c>2</color></b>格内有女性角色时，绝学伤害提高<b><color=#e4462c>8%</color></b>。若自身气血大于等于<b><color=#e4462c>90%</color></b>，遭受攻击「对战前」使敌方身上<b><color=#e4462c>1</color></b>个「有益状态」转化为随机「有害状态」，若受到近战攻击，则多转化<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "name": "天霜雪走",
+        "img": "weapon_tianshuangxuezou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "<b><color=#e4462c>2</color></b>格内有女性角色时，绝学伤害提高<b><color=#e4462c>9%</color></b>。若自身气血大于等于<b><color=#e4462c>80%</color></b>，遭受攻击「对战前」使敌方身上<b><color=#e4462c>1</color></b>个「有益状态」转化为随机「有害状态」，若受到近战攻击，则多转化<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "name": "天霜雪走",
+        "img": "weapon_tianshuangxuezou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "<b><color=#e4462c>2</color></b>格内有女性角色时，绝学伤害提高<b><color=#e4462c>10%</color></b>。若自身气血大于等于<b><color=#e4462c>70%</color></b>，遭受攻击「对战前」使敌方身上<b><color=#e4462c>1</color></b>个「有益状态」转化为随机「有害状态」，若受到近战攻击，则多转化<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "name": "天霜雪走",
+        "img": "weapon_tianshuangxuezou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "<b><color=#e4462c>2</color></b>格内有女性角色时，绝学伤害提高<b><color=#e4462c>12%</color></b>。若自身气血大于等于<b><color=#e4462c>60%</color></b>，遭受攻击「对战前」使敌方身上<b><color=#e4462c>1</color></b>个「有益状态」转化为随机「有害状态」，若受到近战攻击，则多转化<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "name": "天霜雪走",
+        "img": "weapon_tianshuangxuezou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "<b><color=#e4462c>2</color></b>格内有女性角色时，绝学伤害提高<b><color=#e4462c>15%</color></b>。若自身气血大于等于<b><color=#e4462c>50%</color></b>，遭受攻击「对战前」使敌方身上<b><color=#e4462c>1</color></b>个「有益状态」转化为随机「有害状态」，若受到近战攻击，则多转化<b><color=#e4462c>1</color></b>个「有益状态」。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "玄乌玉雕·烟",
+        "percent": "0.713756711720052"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.18866876504351"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "幽都王玺",
+        "percent": "0.382892057026477"
+      },
+      {
+        "name": "赤心环",
+        "percent": "0.18663210516571"
+      },
+      {
+        "name": "葬海戒",
+        "percent": "0.10775782262544"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.673578966857989"
+      },
+      {
+        "name": "镶蛇银佩·烟",
+        "percent": "0.217737456026662"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.585447139418626"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.1377522680985"
+      }
+    ]
+  }
+]

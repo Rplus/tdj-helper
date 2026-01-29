@@ -1,0 +1,386 @@
+[
+  {
+    "name": "苏醒者",
+    "is_new": "",
+    "pinyin": "suxingzhe",
+    "weight": "1370",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1152_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "幽",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "182",
+    "magic_attack": "107",
+    "physical_attack": "14",
+    "magic_defense": "37",
+    "physical_defense": "28",
+    "huixin": "25",
+    "inherent": "Gift_156",
+    "inherent_name": "命运梭织",
+    "star1": "",
+    "star2": "",
+    "star3": "气血越高伤害、法术免伤越高（最高提升10%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+    "star4": "气血越高伤害、法术免伤越高（最高提升15%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+    "star5": "气血越高伤害、法术免伤越高（最高提升20%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+    "star6": "气血越高伤害、法术免伤越高（最高提升25%），自身满血时，射程+1。<br/>使用绝学后使3格范围友方「有益状态」持续时间+1，同时使绝学作用的敌方目标「有益状态」持续时间-1。<br/>受到致命伤害免除死亡，气血恢复30%，并重置自身所有绝学冷却时间。（每场战斗最多触发1次）",
+    "story_name": "沉睡",
+    "story_content": "他于石座下叩首，那微微的震动不足以撼动上神。他从未像此刻一样虔诚笨拙，如同被传说与长生丹药蛊惑的凡人，愚昧无知。<br/>但他又足够幸运，他是那千千万中唯一得偿所愿之人。许是因他一生轨迹都笼罩在幽城投下的一小片阴影中，尊神总是对他格外宽容。<br/>甚至于他开始以幽篁自称，却依旧把所有的根植最底层的思绪追溯到皇甫申身上。<br/>——那时，皇甫申从深渊中攥住一抹灵魂，可怜他一声声呼唤「笙妹」「笙妹」「笙妹」，却始终唤醒不了轻飘飘的魂魄。<br/>于是幽篁用幽壤捏造了他记忆中的「笙妹」，从那时轮宫弥兰纳巴的体中抽取了「生之力」注入这具躯壳。名唤封铃笙的魂魄自此栖息于这沉寂之地。<br/>他时常端详这具躯体，试图在纷乱的记忆中找到恰到好处的缘由。<br/>在天瑶派他们总是一起练功，最自在的日子是在什么时候呢？",
+    "hero_icon": "Hero1152_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1599",
+        "name": "情仇皆妄",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」夺取目标<b><color=#e4462c>2</color></b>个「有益状态」若夺取到<b><color=#e4462c>2</color></b>个「有益状态」则该绝学冷却时间<b><color=#e4462c>-3</color></b>，「对战后」扩散自身<b><color=#e4462c>2</color></b>个「有益状态」给<b><color=#e4462c>3</color></b>格范围内其他友方。"
+      },
+      {
+        "img": "EXSkill_1600",
+        "name": "再入轮回",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]使用绝学后，使<b><color=#e4462c>3</color></b>格范围内友方「有害状态」持续时间<b><color=#e4462c>-1</color></b>并恢复其气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）。<br/>[主动]使<b><color=#e4462c>1</color></b>个已结束行动的其他友方再激活，并恢复气血（恢复量为施术者法攻的<b><color=#e4462c>1</color></b>倍）并使其「有益状态」等级提升<b><color=#e4462c>1</color></b>级。"
+      },
+      {
+        "img": "EXSkill_1602",
+        "name": "瞬霎时停",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "全场",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用对所有目标施加<link type=buff value=741152007 bgcolor=#3a85ffff>「调和」</link>状态。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "EXSkill_1603",
+        "name": "冥煞敕夺",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，夺取目标<b><color=#e4462c>1</color></b>个随机「有益状态」。"
+      },
+      {
+        "img": "EXSkill_1605",
+        "name": "远破",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "进行远程对战时，「对战前」夺取目标1个「有益状态」，且「对战中」伤害和免伤提高15%。"
+      },
+      {
+        "img": "EXSkill_1604",
+        "name": "乱氛之仪",
+        "type": "法攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，施加<link type=buff value=700000891 bgcolor=#3a85ffff>「乱神I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，并使目标所有「有益状态」等级降低<b><color=#e4462c>1</color></b>级。"
+      },
+      {
+        "img": "EXSkill_1601",
+        "name": "乱时攫运",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害，施加<link type=buff value=741152006 bgcolor=#3a85ffff>「孤绝」</link>状态，持续<b><color=#e4462c>2</color></b>回合，「对战前」使自身「有益状态」等级提升<b><color=#e4462c>2</color></b>级，使目标「有害状态」等级提升<b><color=#e4462c>2</color></b>级。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累计<b><color=#e4462c>1</color></b>点气力，使用非伤害绝学累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "苏醒者",
+        "name": "洄天轮",
+        "img": "Weapon_115201",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，秋风孤鹤唳，落日独木洄。<br/>洄天者，追时溯往之术也。附此术于纺锤之上，逆时而动，可消敌袭术法，后发而先至，实奇巧之兵也。<br/>言：轮动惊飞鸟，孤木逆江流。"
+      },
+      {
+        "weapon": "苏醒者",
+        "name": "清平梦",
+        "img": "Weapon_115202",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，浮生一梭过，梦回人散。<br/>观者只见清平一梦，历者所察百感交集。此兵可引贪嗔痴妄百般交错，织成执恨怨悔万千心劫，非凡俗之辈可破之法也。<br/>言：人殇旧时中，溯洄不知处。"
+      },
+      {
+        "weapon": "苏醒者",
+        "name": "织命谱",
+        "img": "Weapon_115203",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，续命彩丝登茧馆，长生金籙献琳宫。<br/>织命者，捻时轮因缘之弦，谱苍生命途之章也。或救亡者于鬼门之外，或诞新生于苍茫之间，尽在持者之心。<br/>言：凤舞长生曲，鸾歌续命杯。"
+      },
+      {
+        "weapon": "苏醒者",
+        "name": "越幽莲",
+        "img": "Weapon_115204",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，清灯入幽帘，破影抱空峦。<br/>明缺生幽隙，莲起涅槃炎。持者通幽玄之径，穿行万界之间，只为寻得一世可免于空劫。<br/>言：三千明灭世，傍者唯此莲。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "苏醒者",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "苏醒者",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "苏醒者",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "苏醒者",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幻世镜花",
+        "img": "Weapon_115205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>5%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+      },
+      {
+        "name": "幻世镜花",
+        "img": "Weapon_115205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>6%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+      },
+      {
+        "name": "幻世镜花",
+        "img": "Weapon_115205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>7%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+      },
+      {
+        "name": "幻世镜花",
+        "img": "Weapon_115205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>8%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+      },
+      {
+        "name": "幻世镜花",
+        "img": "Weapon_115205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「有益状态」时，法攻提高<b><color=#e4462c>10%</color></b>。使用绝学后，使绝学作用的友方目标扩散随机<b><color=#e4462c>1</color></b>个「有益状态」给<b><color=#e4462c>2</color></b>格范围内其他友方；使绝学作用的敌方目标扩散随机<b><color=#e4462c>1</color></b>个「有害状态」给<b><color=#e4462c>2</color></b>格范围内其他敌方。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.304381567003643"
+      },
+      {
+        "name": "洛神玉菡",
+        "percent": "0.203886795737431"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "重曜玉镯",
+        "percent": "0.324981037291254"
+      },
+      {
+        "name": "幽杳袖环",
+        "percent": "0.211750662140485"
+      },
+      {
+        "name": "玉玑灵镯·烟",
+        "percent": "0.111004588353788"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "星天流离",
+        "percent": "0.213553673791671"
+      },
+      {
+        "name": "清神净玉",
+        "percent": "0.112297782917397"
+      },
+      {
+        "name": "化魄法令",
+        "percent": "0.110594247771104"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.253678019422787"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.210594247771104"
+      },
+      {
+        "name": "化魄点睛",
+        "percent": "0.10895288544037"
+      }
+    ]
+  }
+]

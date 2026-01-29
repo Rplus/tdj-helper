@@ -1,0 +1,386 @@
+[
+  {
+    "name": "林月如",
+    "is_new": 1,
+    "weight": "550",
+    "pinyin": "linyueru",
+    "source": "仙劍奇俠傳聯動角色",
+    "pic": "Hero2002_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "御風",
+    "range": "1",
+    "speed": "5",
+    "qixue": "181",
+    "magic_attack": "13",
+    "physical_attack": "99",
+    "magic_defense": "30",
+    "physical_defense": "32",
+    "huixin": "49",
+    "inherent": "Gift_064",
+    "inherent_name": "月影芳蹤",
+    "star1": "",
+    "star2": "",
+    "star3": "攻擊前，每移動1格，本次傷害提高2%（最多可以提升10%）<br/>每造成1次傷害，獲得1層「氣勁」，造成暴擊額外獲得1層。行動結束時，如果攜帶4層「氣勁」，則消耗所有「氣勁」對自身周圍菱形2格範圍內1個敵人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合(間隔3回合觸發)",
+    "star4": "攻擊前，每移動1格，本次傷害提高3%（最多可以提升15%）<br/>每造成1次傷害，獲得1層「氣勁」，造成暴擊額外獲得1層。行動結束時，如果攜帶4層「氣勁」，則消耗所有「氣勁」對自身周圍菱形2格範圍內1個敵人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合(間隔2回合觸發)",
+    "star5": "攻擊前，每移動1格，本次傷害提高4%（最多可以提升20%）<br/>每造成1次傷害，獲得1層「氣勁」，造成暴擊額外獲得1層。行動結束時，如果攜帶4層「氣勁」，則消耗所有「氣勁」對自身周圍菱形2格範圍內1個敵人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合(間隔2回合觸發)",
+    "star6": "攻擊前，每移動1格，本次傷害提高5%（最多可以提升25%）<br/>每造成1次傷害，獲得1層「氣勁」，造成暴擊額外獲得1層。行動結束時，如果攜帶4層「氣勁」，則消耗所有「氣勁」對自身周圍菱形2格範圍內1個敵人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合(間隔1回合觸發)",
+    "story_name": "招親",
+    "story_content": "<br/>逍遙仗義管閒事，<br/>歡喜冤家相敵視。<br/>為解前仇泯舊怨，<br/>招親擂臺來比試。<br/>",
+    "hero_icon": "Hero2002_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1129",
+        "name": "一陽指",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊敵人，造成1.5倍傷害，暴擊率+20%。成功擊殺目標，則額外獲得2層「氣勁」狀態。"
+      },
+      {
+        "img": "GPassive_1013",
+        "name": "孤膽",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格內無其他友方，則物攻，物防+10%。"
+      },
+      {
+        "img": "Skill_Assassin_1006",
+        "name": "遁匿",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「對戰後」自身氣血低於50%，則獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。（間隔2回合觸發）"
+      },
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "羅剎一擊",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，暴擊率提高20%。擊殺目標則獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1132",
+        "name": "斬龍訣",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線3x3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內敵人造成0.6倍傷害，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1131",
+        "name": "擒鶴索",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "4格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成0.5倍傷害，將其拉向自身2格，如果路線被阻擋，則施加<link type=buff value=700000410 bgcolor=#3a85ffff>「暈眩」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1133",
+        "name": "靈鸞行",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "主動攻擊後，選擇自身菱形3格範圍內1個目標身周的指定空格，無視阻擋翻越到空格上。（間隔1回合觸發）"
+      },
+      {
+        "img": "EXSkill_1130",
+        "name": "乾坤一擲",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.7倍傷害，暴擊率+20%，對被暴擊目標施加「雷劫」狀態，持續1回合。<br/>「雷劫」：行動結束時，如果自身菱形2格內有其它友方角色，則將「雷劫」替換為<link type=buff value=743002213 bgcolor=#3a85ffff>「暈眩」</link>，持續1回合。（不可驅散）<br/>[氣力技]消耗3點氣力，才可釋放絕學，每次造成傷害獲得1點氣力，暴擊額外獲得1點氣力。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "長鞭",
+        "img": "weapon_changbian",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，血痕閑指玉尖纖，少女鞭痕弄涼蟾。<br/>傳，長鞭，乃生牛皮製的七尺軟鞭，靈活多變，馭鞭者可操之攻擊多人，甚至以少敵多。言，相逢不是真，揚鞭過紅塵。"
+      },
+      {
+        "name": "嫣紅舞",
+        "img": "weapon_yanhongwu",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "載，九霄特立嫣紅舞，萬仞孤生玉樹枝。<br/>傳，嫣紅舞，鞭也，上下翻飛，可收可放。抽鞭時，似落英繽紛，驚鴻起舞。鞭把上繫有紅綢，方得嫣紅舞之名。言：練場鞭鸞鳳，皆是無情人。"
+      },
+      {
+        "name": "九節鞭",
+        "img": "weapon_jiujiebian",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，銀光閃閃翻未奇，未奇鐵節弦月生。<br/>傳，九節鞭，是以鐵節、鐵環組成的九節軟鞭。又傳，鐵節、鐵環乃鑄劍名家徐夫人打造利劍時所剩之材重鑄而成，薄而韌，韌而厲。其勢勢相連，時硬時軟。言，一步一動，一動一變。"
+      },
+      {
+        "name": "蝶戀",
+        "img": "weapon_dielian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，花喧叢蝶戀，持鞭向人間。<br/>傳，蝶戀，鞭也，為軟兵中利器。其得名於鞭身蝶刺，即分節處有蝶翼狀尖刺，又，抽鞭時可現千蝶飛舞，有惑敵之能。傳，乃取稀有之材，精心錘煉打造而成。言，蝶戀非相思，斷魂鞭起時。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_yinzan",
+        "name": "銀釵",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_siyi",
+        "name": "絲衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_huxinjing",
+        "name": "護心鏡",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "暴擊率提高<b><color=#e4462c>5%</color></b>。消耗「氣勁」時，有<b><color=#e4462c>60%</color></b>機率使自身<b><color=#e4462c>1</color></b>個主動絕學的冷卻回合<b><color=#e4462c>-1</color></b>。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "金蛇鞭",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_jinshebian"
+      },
+      {
+        "desc": "暴擊率提高<b><color=#e4462c>7%</color></b>。消耗「氣勁」時，有<b><color=#e4462c>70%</color></b>機率使自身<b><color=#e4462c>1</color></b>個主動絕學的冷卻回合<b><color=#e4462c>-1</color></b>。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "金蛇鞭",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_jinshebian"
+      },
+      {
+        "desc": "暴擊率提高<b><color=#e4462c>9%</color></b>。消耗「氣勁」時，有<b><color=#e4462c>80%</color></b>機率使自身<b><color=#e4462c>1</color></b>個主動絕學的冷卻回合<b><color=#e4462c>-1</color></b>。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "金蛇鞭",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_jinshebian"
+      },
+      {
+        "desc": "暴擊率提高<b><color=#e4462c>12%</color></b>。消耗「氣勁」時，有<b><color=#e4462c>90%</color></b>機率使自身<b><color=#e4462c>1</color></b>個主動絕學的冷卻回合<b><color=#e4462c>-1</color></b>。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "金蛇鞭",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_jinshebian"
+      },
+      {
+        "desc": "暴擊率提高<b><color=#e4462c>15%</color></b>。消耗「氣勁」時，有<b><color=#e4462c>100%</color></b>機率使自身<b><color=#e4462c>1</color></b>個主動絕學的冷卻回合<b><color=#e4462c>-1</color></b>。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "金蛇鞭",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_jinshebian"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·塵",
+        "percent": "0.1917"
+      },
+      {
+        "name": "雷吼化玉",
+        "percent": "0.1848"
+      },
+      {
+        "name": "冰蠺玉帶·煙",
+        "percent": "0.17397825271841"
+      },
+      {
+        "name": "天狼血眼",
+        "percent": "0.1496"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.3148"
+      },
+      {
+        "name": "星河手環",
+        "percent": "0.1723"
+      },
+      {
+        "name": "妖靈飾戒·煙",
+        "percent": "0.105343974860285"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "靈越佩環·煙",
+        "percent": "0.1945"
+      },
+      {
+        "name": "煉法黑鱗",
+        "percent": "0.1641"
+      },
+      {
+        "name": "靈越佩環·塵",
+        "percent": "0.13798275215598"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.2543"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.1565"
+      },
+      {
+        "name": "月滿西樓",
+        "percent": "0.121163426000321"
+      },
+      {
+        "name": "無邊落木·煙",
+        "percent": "0.1065"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "name": "希维亚",
+    "is_new": "",
+    "weight": "70",
+    "pinyin": "xiweiya",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1137_img",
+    "prop_icon": "Ice",
+    "career_icon": "Guard",
+    "rarity": "R",
+    "position": "坦克",
+    "prop": "冰",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "181",
+    "magic_attack": "6",
+    "physical_attack": "61",
+    "magic_defense": "16",
+    "physical_defense": "31",
+    "huixin": "13",
+    "inherent": "Gift_028",
+    "inherent_name": "冰心彗质",
+    "star1": "遭受攻击「对战中」，物防提高10%，「对战后」50%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。",
+    "star2": "遭受攻击「对战中」，物防提高12%，「对战后」60%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。",
+    "star3": "遭受攻击「对战中」，物防提高14%，「对战后」70%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。",
+    "star4": "遭受攻击「对战中」，物防提高16%，「对战后」80%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。<br/>",
+    "star5": "遭受攻击「对战中」，物防提高18%，「对战后」90%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。",
+    "star6": "遭受攻击「对战中」，物防提高20%，「对战后」100%对敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。<br/>",
+    "story_name": "主人",
+    "story_content": "这里……也没有……<br/>怎么办……<br/>主人为此伤透了脑筋，<br/>我却没办法帮得上忙…… <br/>「你好，请问你听过……不好意思……」<br/>主人需要这件东西，<br/>才能完成他正在研究的实验，<br/>可是为什么你们都没有听说过呢？<br/>要是实验一直没有进展，<br/>主人一定会苦恼不已的。<br/>我多希望能帮主人解决这个问题，<br/>嗯，明天我还会到这个集市上来的。",
+    "hero_icon": "Hero1137_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1007",
+        "name": "誓死捍卫",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高到<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1019",
+        "name": "反震",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "遭受近战攻击「对战后」对敌人造成1次「固定伤害」（物防的100%）。"
+      },
+      {
+        "img": "Skill_Guard_1001",
+        "name": "泼风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1013",
+        "name": "霜意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，若本回合使用过绝学，自身获得<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。"
+      },
+      {
+        "img": "GPassive_1007",
+        "name": "铁壁",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "遭受攻击「对战中」物防提高12%。"
+      },
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破冲",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，自身获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "希维亚",
+        "name": "木柄帚",
+        "img": "Weapon_mubingsao",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，帚武一般为伴生之物，经其主以密仪心法唤醒后，便在左右，乃为阿布杜尔大师设计也。<br/>以帚为武，确实罕见。操使木帚，实日常所用。又因西域多妖乱，经其主点拨，执帚修习防御之术，渐趁手。"
+      },
+      {
+        "weapon": "希维亚",
+        "name": "寒光帚",
+        "img": "Weapon_hanguangsao",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，帚武一般为伴生之物，经其主以密仪心法唤醒后，便在左右，乃为阿布杜尔大师设计也。<br/>因人而异，得益其主帮协，采集酒泉寒凌之气，而后封炼于木帚中，遂成有辟寒之能。"
+      },
+      {
+        "weapon": "希维亚",
+        "name": "银华月帚",
+        "img": "Weapon_lengyuehansao",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "传，帚武一般为伴生之物，经其主以密仪心法唤醒后，便在左右，乃为阿布杜尔大师设计也。<br/>因人而异，得益其主帮协，于「列星」中得铸方，亲炼月之精华，而后封炼于木帚中，遂成有刀枪不入，又闪幽光之能。"
+      },
+      {
+        "weapon": "希维亚",
+        "name": "寒境灵帚",
+        "img": "Weapon_hanjinglinsao",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，帚武一般为伴生之物，经其主以密仪心法唤醒后，便在左右，乃为阿布杜尔大师设计也。<br/>因人而异，得益其主帮协，游历西域，收集精怪，炼化成珠，而后封炼于月帚中，遂成有灵犀之能，通操持者心意。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "希维亚",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "希维亚",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "希维亚",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "希维亚",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.345454545454545"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.172727272727272"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.428985507246376"
+      },
+      {
+        "name": "千稜幻玉·尘",
+        "percent": "0.363636363636364"
+      },
+      {
+        "name": "紫霄戒·烟",
+        "percent": "0.2"
+      },
+      {
+        "name": "凤纹灵镯·尘",
+        "percent": "0.1333"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.241666666666666"
+      },
+      {
+        "name": "龙涎香囊·尘",
+        "percent": "0.241666666666666"
+      },
+      {
+        "name": "绀云化雾",
+        "percent": "0.127777777777777"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "刹那·尘",
+        "percent": "0.328985507246376"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.333333333333333"
+      },
+      {
+        "name": "夜雨·雾",
+        "percent": "0.111111111111111"
+      }
+    ]
+  }
+]

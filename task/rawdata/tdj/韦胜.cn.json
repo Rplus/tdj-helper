@@ -1,0 +1,313 @@
+[
+  {
+    "name": "韦胜",
+    "is_new": "",
+    "weight": "80",
+    "pinyin": "weisheng",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1218_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Guard",
+    "rarity": "R",
+    "position": "坦克",
+    "prop": "雷",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "178",
+    "magic_attack": "7",
+    "physical_attack": "64",
+    "magic_defense": "17",
+    "physical_defense": "29",
+    "huixin": "15",
+    "inherent": "Gift_047",
+    "inherent_name": "骁勇善战",
+    "star1": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升5%。",
+    "star2": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升6%。",
+    "star3": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升8%。",
+    "star4": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升10%。",
+    "star5": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升12%。",
+    "star6": "替周围2格友方承受攻击。<br/>若自身2格有队友，则遭受攻击「对战中」物攻和物防提升15%。",
+    "story_name": "掌印",
+    "story_content": "<br/>韦胜天生就是将才——<br/>三岁从文，四岁习武，乡里闻名。<br/>十七参军，十八戍边，一战成名。<br/>他渴望戎马一生，<br/>渴望同乡会里英杰辈出，能相协远征，战死无悔。<br/>他浑身铁骨铮铮，<br/>人人称服，却为锋芒毕露而遭到无情打击……<br/>他才明白，军中生涯远非他所想的那么简单。<br/>直到他闯进大帐，<br/>亲眼目睹这一切——<br/>弟兄们浴血杀敌，将领们却在帐中欢饮。<br/>……<br/>大帐内倾洒一地的，并非葡萄美酒。<br/>这殷红的，波动的，流淌的，<br/>是吹角声中护旗兵挥舞着的大宋军旗。<br/>军中渐渐传开，大将因通敌败露以死谢罪，<br/>众军推举韦胜掌印。<br/>有人倒下，就有人站起来，<br/>不过有个秘密，暂时要由韦胜独自保管了……",
+    "hero_icon": "Hero1218_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破冲",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，自身获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Electricity_1012",
+        "name": "传导",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。"
+      },
+      {
+        "img": "GPassive_1006",
+        "name": "犀甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战中」物防提高7%。"
+      },
+      {
+        "img": "GPassive_1029",
+        "name": "贯甲奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蚀御I」</link>，持续1回合。"
+      },
+      {
+        "img": "Skill_Guard_1004",
+        "name": "破阵威压",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成的<b><color=#e4462c>1</color></b>倍伤害，「对战前」施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄势化甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若遭受近战攻击前已有2点气力，则消耗所有气力触发：减免本次对战伤害40%。<br/>[气力技]每遭受1次伤害累积1点气力"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "韦胜",
+        "name": "镔铁双锏",
+        "img": "weapon_xuantieshuangjian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，双锏，冷兵也。其质重，非力大之人不能运用自如，杀伤力十分可观。形似硬鞭，状如竹节，其重因操持者而异。<br/>经良材打造而成，其铸法现存世可见。<br/>传，镔铁双锏，为操持锏武者入门之兵，至奇能异士之手，以修雷心得运用至双锏之中，故威力增强，不容小觑。"
+      },
+      {
+        "weapon": "韦胜",
+        "name": "青钢双锏",
+        "img": "weapon_pojinshuangjian",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，开府刚肠破金锏，将军直气压群才。<br/>经「乌金玄铁」打造而成，其铸法于「列星」可见。<br/>传，青钢双锏，铸法神奇，其质坚而势沉，击覆甲之人可震裂其五脏六腑。其乃万军之首操持之兵。言：千军独扫人共惊，八面俱来我何惧。"
+      },
+      {
+        "weapon": "韦胜",
+        "name": "玄铁双锏",
+        "img": "weapon_zidianshuangjian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，紫电龙光飞武库，雕甍甲第列侯家。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，玄铁双锏，铸炼时曾引入紫电之气，成焰色。操持者，可运其灼然，兼具使敌体身受电灼麻痹之效。"
+      },
+      {
+        "weapon": "韦胜",
+        "name": "修罗双锏",
+        "img": "weapon_xiuluoshuangjian",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，紫电龙光飞武库，雕甍甲第列侯家。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，紫电双锏，因铸炼时引入紫电之气，镀双锏紫煞之色，故得紫电之名。操持者，可运紫电灼然，兼具使敌体身受电灼麻痹之效。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "韦胜",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "韦胜",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "韦胜",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "韦胜",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.492537313432836"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "紫霄戒·烟",
+        "percent": "0.333333333333333"
+      },
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.333333333333333"
+      },
+      {
+        "name": "黑玉蛇戒",
+        "percent": "0.166666666666667"
+      },
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.166666666666667"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.109523809523809"
+      },
+      {
+        "name": "凤绣香囊·烟",
+        "percent": "0.109523809523809"
+      },
+      {
+        "name": "龙涎香囊·尘",
+        "percent": "0.109523809523809"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "刹那·尘",
+        "percent": "0.409523809523809"
+      },
+      {
+        "name": "行云流水·尘",
+        "percent": "0.109523809523809"
+      }
+    ]
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "name": "曹沁",
+    "is_new": "",
+    "weight": "460",
+    "pinyin": "caoqin",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1019_img",
+    "prop_icon": "Fire",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "181",
+    "magic_attack": "13",
+    "physical_attack": "99",
+    "magic_defense": "27",
+    "physical_defense": "34",
+    "huixin": "42",
+    "inherent": "Gift_057",
+    "inherent_name": "流刃灼影",
+    "star1": "",
+    "star2": "",
+    "star3": "使用绝学后获得<link type=buff value=741101910 bgcolor=#3a85ffff>「流火」</link>状态，持续1回合。闪避或主动击杀敌人后重置所有主动绝学的冷却时间（间隔4回合触发）。",
+    "star4": "使用绝学后获得<link type=buff value=741101911 bgcolor=#3a85ffff>「流火」</link>状态，持续1回合。闪避或主动击杀敌人后重置所有主动绝学的冷却时间（间隔4回合触发）。",
+    "star5": "使用绝学后获得<link type=buff value=741101912 bgcolor=#3a85ffff>「流火」</link>状态，持续1回合。闪避或主动击杀敌人后重置所有主动绝学的冷却时间（间隔4回合触发）。",
+    "star6": "使用绝学后获得<link type=buff value=741101913 bgcolor=#3a85ffff>「流火」</link>状态，持续1回合。闪避或主动击杀敌人后重置所有主动绝学的冷却时间（间隔3回合触发）。",
+    "story_name": "忠",
+    "story_content": "孤月下，沙场黯然无声。刀客收起锋锐，转身素拜。身后十里联营灯火喧嚣，此刻都与她无关。<br/>「请将军，回百里入关据守。」<br/>老将默然无声，刀客稽首。<br/>「……无名，你为我裨将至今，这是你话最多的一次。」<br/>「将军……」她看白发老将，恍然想起的是十二岁的暮春，将军府外的一枝荼蘼，一片落在手心，高头大马自身旁过，一人驻马回首，问她「小孩儿，从哪来的？」<br/>『皇城司……』她想。<br/>她进了将军府，作为一个不被提防的小孩，作为一个……皇城司的探子。<br/>「将军甘愿赴死？即便……或不是死在西贼手里？」沙场烽烟，她提刀跟在老将身后。<br/>「无名，我为宋将，当守大宋河山。」老将未转头。<br/>她的刀终究未出鞘，皇城司的信在烛火中化作飞灰。",
+    "hero_icon": "Hero1019_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "罗刹一击",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>。击杀目标则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1002",
+        "name": "踏血行",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴击率提高10%。若主动攻击击杀目标，则战后获得再移动（3格）。"
+      },
+      {
+        "img": "EXSkill_1093",
+        "name": "一字炎斩",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前方穿刺并攻击范围内所有敌人，共造成<b><color=#e4462c>1</color></b>倍伤害，施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续<b><color=#e4462c>2</color></b>回合。拥有「流火」状态时，伤害提高<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "img": "Skill_Assassin_1006",
+        "name": "遁匿",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战后」自身气血低于50%，则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合。（间隔2回合触发）"
+      },
+      {
+        "img": "EXSkill_1095",
+        "name": "劫焰誓杀",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "7格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对一个敌人施加<link type=buff value=743002011 bgcolor=#3a85ffff>「劫焰」</link>状态，持续<b><color=#e4462c>2</color></b>回合。自身获得再行动（<b><color=#e4462c>3</color></b>格）。"
+      },
+      {
+        "img": "Skill_Assassin_1016",
+        "name": "随影协击",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "[协攻]若队友主动攻击自身1格范围内的敌人，且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成额外一次0.3倍物攻伤害（1回合限定发动1次）"
+      },
+      {
+        "img": "Skill_Fire_1004",
+        "name": "炎之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "与携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态的目标对战，「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1094",
+        "name": "追心影刃",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」驱散目标<b><color=#e4462c>2</color></b>个「有益状态」。拥有「流火」状态时，暴击伤害提高<b><color=#e4462c>20%</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "曹沁",
+        "name": "玄铁环首",
+        "img": "weapon_xuantiehuanshou",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，环首刀乃铸剑高师为王室所铸，两国交战，玄铁环首于战火中下落不明，坊间后话，战火起自玄铁矣。<br/>经良材打造而成，其铸法今存世可见。<br/>传，环首刀出汉代，反复锻打淬火而成，直刃，锋利无比，有操持者以御火之属运之，霍地火花现，万点清星闪。"
+      },
+      {
+        "weapon": "曹沁",
+        "name": "飞虹环首",
+        "img": "weapon_feihonghuanshou",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，飞虹者，势如走电，惊涛触石，举目乾坤窄。<br/>经「乌金玄铁」打造而成，其铸法于「列星」可见。<br/>传，其刀身通透五彩光泽，韧度奇强，故得飞虹之名。言：挥刀者，与其灵巧化一，毫不迟滞。"
+      },
+      {
+        "weapon": "曹沁",
+        "name": "雪影环首",
+        "img": "weapon_xueyinghuanshou",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，梦惊鳞甲暖，雪影断青光。万物悬东风，兰台敢争雄。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，雪影环首，刀身雪白，乃闻名遐迩的铸剑师以其特殊密法锻打而成，后为皇城司所藏。又传，其或已归入国库中。"
+      },
+      {
+        "weapon": "曹沁",
+        "name": "龙雀环首",
+        "img": "weapon_longquehuanshou",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，宝刀匣不见，但见龙雀环。何曾斩蛟蛇，亦未切琅玕。<br/>其铸法于「列星」可见。<br/>传，龙雀环首，刀如其名，环首乃龙雀雕饰，呈相迎之态。又传，此刀乃双刀合铸而成，与雌雄剑渊源颇深。珍贵之兵，乃绝世刀客所藏，然，此后下落未明，为不少江湖人索求。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "曹沁",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "曹沁",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "曹沁",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "曹沁",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "炼神环首",
+        "img": "weapon_lianshenhuanshou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "若目标携带「有益状态」小于等于<b><color=#e4462c>2</color></b>个，主动攻击「对战中」伤害提高<b><color=#e4462c>5%</color></b>。主动击杀敌人后，行动结束时对十字<b><color=#e4462c>7</color></b>格范围内物攻/法攻属性最高的<b><color=#e4462c>1</color></b>个敌方单位施加「劫焰」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "炼神环首",
+        "img": "weapon_lianshenhuanshou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "若目标携带「有益状态」小于等于<b><color=#e4462c>2</color></b>个，主动攻击「对战中」伤害提高<b><color=#e4462c>6%</color></b>。主动击杀敌人后，行动结束时对十字<b><color=#e4462c>7</color></b>格范围内物攻/法攻属性最高的<b><color=#e4462c>1</color></b>个敌方单位施加「劫焰」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "炼神环首",
+        "img": "weapon_lianshenhuanshou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "若目标携带「有益状态」小于等于<b><color=#e4462c>2</color></b>个，主动攻击「对战中」伤害提高<b><color=#e4462c>7%</color></b>。主动击杀敌人后，行动结束时对十字<b><color=#e4462c>7</color></b>格范围内物攻/法攻属性最高的<b><color=#e4462c>1</color></b>个敌方单位施加「劫焰」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "炼神环首",
+        "img": "weapon_lianshenhuanshou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "若目标携带「有益状态」小于等于<b><color=#e4462c>2</color></b>个，主动攻击「对战中」伤害提高<b><color=#e4462c>8%</color></b>。主动击杀敌人后，行动结束时对十字<b><color=#e4462c>7</color></b>格范围内物攻/法攻属性最高的<b><color=#e4462c>1</color></b>个敌方单位施加「劫焰」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "炼神环首",
+        "img": "weapon_lianshenhuanshou",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "若目标携带「有益状态」小于等于<b><color=#e4462c>2</color></b>个，主动攻击「对战中」伤害提高<b><color=#e4462c>10%</color></b>。主动击杀敌人后，行动结束时对十字<b><color=#e4462c>7</color></b>格范围内物攻/法攻属性最高的<b><color=#e4462c>1</color></b>个敌方单位施加「劫焰」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.415840978593272"
+      },
+      {
+        "name": "天狼血眼",
+        "percent": "0.167461773700306"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.426299694189602"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.121957186544343"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.449296636085627"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "天荆覆魂",
+        "percent": "0.180122324159021"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.153394495412844"
+      }
+    ],
+    "hero_wunei_PVE1": {
+      "title": "新手推荐",
+      "skill1": "劫焰誓杀",
+      "skill2": "一字炎斩",
+      "skill3": "踏血行",
+      "addideaas": "优先上路15级习得【一字炎斩】，从而获得强大的机动能力和伤害能力",
+      "notes": "【一字炎斩】与【踏血行】的组合，可以让曹沁在远距离突进击杀单个敌人后，从容的撤回到安全位置"
+    },
+    "hero_wunei_PVE2": {
+      "title": "进阶养成",
+      "skill1": "劫焰誓杀",
+      "skill2": "追心影刃",
+      "skill3": "炎之力",
+      "addideaas": "下路点到40级，习得【炎之力】，然后一路点满，获得全属性加成",
+      "notes": "通过与其它火属相英灵配合，来触发【炎之力】的增伤效果，从而最大化【追心影刃】的伤害"
+    },
+    "hero_wunei_PVP": {
+      "title": "逐鹿争锋",
+      "skill1": "劫焰誓杀",
+      "skill2": "追心影刃",
+      "skill3": "踏血行",
+      "addideaas": "点满所有五内线，确保属性和绝学全部习得",
+      "notes": "【追心影刃】保证了曹沁强大的单体伤害能力<br/>【踏血行】让曹沁可以在击杀敌方目标后可以撤退"
+    }
+  }
+]

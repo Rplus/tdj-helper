@@ -1,0 +1,390 @@
+[
+  {
+    "name": "周崇",
+    "is_new": "",
+    "weight": "150",
+    "pinyin": "zhouchong",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1114_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Swordsman",
+    "rarity": "SR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "170",
+    "magic_attack": "10",
+    "physical_attack": "92",
+    "magic_defense": "20",
+    "physical_defense": "30",
+    "huixin": "43",
+    "inherent": "Gift_027",
+    "inherent_name": "狼心豺影",
+    "star1": "",
+    "star2": "暴击率提高12%。若主动攻击「对战中」造成暴击，战后恢复造成伤害10%的气血。",
+    "star3": "暴击率提高14%。若主动攻击「对战中」造成暴击，战后恢复造成伤害15%的气血。",
+    "star4": "暴击率提高16%。若主动攻击「对战中」造成暴击，战后恢复造成伤害20%的气血。",
+    "star5": "暴击率提高18%。若主动攻击「对战中」造成暴击，战后恢复造成伤害25%的气血。",
+    "star6": "暴击率提高20%。若主动攻击「对战中」造成暴击，战后恢复造成伤害30%的气血。",
+    "story_name": "紫云",
+    "story_content": "<br/>我紫云乃上古三大传承之一，<br/>剑、术双修，<br/>在这中原门派里也是有头有脸的角色，<br/>如今收了这么些外家弟子算怎么回事？<br/>师尊实在心软，将这些不顶用的废物纳入门中，<br/>只修心法，不习剑术？<br/>还是说…师尊别有用心……<br/>这些费脑子的事…不想也罢——<br/>还是安心修炼我这剑法。",
+    "hero_icon": "Hero1114_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1013",
+        "name": "聚星飞刺",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>4</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，若自身<b><color=#e4462c>2</color></b>格范围内少于<b><color=#e4462c>2</color></b>个敌人，则获得原地再行动。<br/>使用后切换为<link type=skill value=61111403 bgcolor=#3a85ffff>「聚星连斩」</link>。"
+      },
+      {
+        "img": "Skill_Guard_1006",
+        "name": "追袭",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于80%,则主动普攻触发「追击」（0.3倍伤害）"
+      },
+      {
+        "img": "Skill_Assassin_1008",
+        "name": "狠戾狂掠",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，获得<link type=buff value=700001001 bgcolor=#3a85ffff>「刺骨I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。获得再行动（<b><color=#e4462c>3</color></b>格）。"
+      },
+      {
+        "img": "Skill_Assassin_1003",
+        "name": "看穿",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战前」对目标施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Shadow_1001",
+        "name": "暗浊",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加1个随机「有害状态」"
+      },
+      {
+        "img": "Skill_Guard_1012",
+        "name": "偷袭",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "若敌人气血为100%，则「对战前」对其造成1次「固定伤害」（物攻的15%）。"
+      },
+      {
+        "img": "Skill_Swordsman_1004",
+        "name": "无方飞剑",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。"
+      },
+      {
+        "img": "EXSkill_1028",
+        "name": "云横华山",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」使目标身上<b><color=#e4462c>3</color></b>个「有益状态」变为随机「有害状态」。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "周崇",
+        "name": "镔铁剑",
+        "img": "Weapon_qinggangjian",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，金刚锥透玉，镔铁剑吹毛。高士舞长剑，仍寄续离骚。<br/>经良材打造而成，其铸法今存世可见。<br/>传，镔铁剑为习剑者初得之兵，韧度奇强，攻防兼备。又传，唐顺之《武编》中载录最为详实。言：镔铁剑，透寒光，刃如秋霜。"
+      },
+      {
+        "weapon": "周崇",
+        "name": "青钢剑",
+        "img": "Weapon_xuantiejian",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，青钢剑乃先祖宝物，受其主所钟爱，随之入殓。后遭窃，盗贼走水路，船翻，其沉抚仙湖。<br/>经世，于「列星」复得之。<br/>传，其外泛绿光，可蕴灵力，质轻顺手，受一般习剑者所偏爱。传，若以心法御之，威力惊人。"
+      },
+      {
+        "weapon": "周崇",
+        "name": "玄真剑",
+        "img": "Weapon_xuanzhenjian",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，玄真非在身中，万缘齐断，神气始和冲。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，玄真剑出蜀中，乃一门宗师所藏，剑沉且刃钝，非一般杀器，却较寻常之剑，威力百倍。又传，玄真剑有号令之能，为宗室幕僚之信物，曾屠数门。宗师曾言：玄真钝在剑身，锐在剑心。"
+      },
+      {
+        "weapon": "周崇",
+        "name": "鬼斩刃",
+        "img": "Weapon_guizhanren",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，鳞蹙翠光抽璀璨，腹连金彩动弯环。已应蜕骨风雷后，岂效衔珠草莽间。<br/>于「列星」可窥见其铸法，经密法锻造而成。<br/>传，鬼斩刃，其柄金蛇缠，挥舞寒光现，因而得名。传，鬼斩刃若为剑术高修者得之，毒如赤练，七步断魂，生命不见。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "周崇",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "周崇",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "周崇",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "周崇",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "古剑干将",
+        "img": "weapon_gujianganjiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "若主动攻击携带「有害状态」的目标，「对战中」物攻提高<b><color=#e4462c>2%</color></b>,「对战后」施加「钻心」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「钻心」：受到来自施加者的暴击伤害<b><color=#e4462c>+10%</color></b>。"
+      },
+      {
+        "name": "古剑干将",
+        "img": "weapon_gujianganjiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "若主动攻击携带「有害状态」的目标，「对战中」物攻提高<b><color=#e4462c>4%</color></b>,「对战后」施加「钻心」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「钻心」：受到来自施加者的暴击伤害<b><color=#e4462c>+10%</color></b>。"
+      },
+      {
+        "name": "古剑干将",
+        "img": "weapon_gujianganjiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "若主动攻击携带「有害状态」的目标，「对战中」物攻提高<b><color=#e4462c>6%</color></b>,「对战后」施加「钻心」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「钻心」：受到来自施加者的暴击伤害<b><color=#e4462c>+10%</color></b>。"
+      },
+      {
+        "name": "古剑干将",
+        "img": "weapon_gujianganjiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "若主动攻击携带「有害状态」的目标，「对战中」物攻提高<b><color=#e4462c>8%</color></b>,「对战后」施加「钻心」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「钻心」：受到来自施加者的暴击伤害<b><color=#e4462c>+10%</color></b>。"
+      },
+      {
+        "name": "古剑干将",
+        "img": "weapon_gujianganjiang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "若主动攻击携带「有害状态」的目标，「对战中」物攻提高<b><color=#e4462c>10%</color></b>,「对战后」施加「钻心」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「钻心」：受到来自施加者的暴击伤害<b><color=#e4462c>+10%</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.149295774647887"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.135211267605633"
+      },
+      {
+        "name": "八荒灵石·烟",
+        "percent": "0.133613445378151"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.365079365079365"
+      },
+      {
+        "name": "妖灵饰戒·尘",
+        "percent": "0.317460317460317"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.133613445378151"
+      },
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.133613445378151"
+      },
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.133613445378151"
+      },
+      {
+        "name": "紫月香囊·尘",
+        "percent": "0.125210084033613"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·尘",
+        "percent": "0.242016806722689"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.142016806722689"
+      },
+      {
+        "name": "封血之蛊·烟",
+        "percent": "0.1"
+      }
+    ]
+  }
+]

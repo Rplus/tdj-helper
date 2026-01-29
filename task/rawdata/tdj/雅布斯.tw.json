@@ -1,0 +1,301 @@
+[
+  {
+    "name": "雅布斯",
+    "is_new": "0",
+    "weight": "40",
+    "pinyin": "yabusi",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1136_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Warlock",
+    "rarity": "R",
+    "position": "法攻",
+    "prop": "雷",
+    "career": "咒師",
+    "range": "2",
+    "speed": "3",
+    "qixue": "117",
+    "magic_attack": "77",
+    "physical_attack": "7",
+    "magic_defense": "27",
+    "physical_defense": "21",
+    "huixin": "29",
+    "inherent": "Gift_034",
+    "inherent_name": "元素參悟",
+    "star1": "自身傷害提高10%，使用絕學後，對自身2格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "star2": "自身傷害提高12%，使用絕學後，對自身2格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "star3": "自身傷害提高14%，使用絕學後，對自身2格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "star4": "自身傷害提高16%，使用絕學後，對自身2格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "star5": "自身傷害提高18%，使用絕學後，對自身2格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "star6": "自身傷害提高20%，使用絕學後，對自身3格範圍內友方施加<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄電」</link>狀態。",
+    "story_name": "麻煩",
+    "story_content": "希維亞，我不是說過嘛——<br/>往後你別再為我的實驗操心了。<br/>不懂世務的你老在城中這樣逢人便問，<br/>會為我和鎮上的居民帶來許多麻煩的。<br/>哎呀，你——<br/>算啦，我知道你一心想幫我的，<br/>我並沒有怪你的意思，<br/>往後注意些就好了。<br/>哎呀，你——",
+    "hero_icon": "Hero1136_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Electricity_1001",
+        "name": "雷引之術",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」自身傳送到3格內一個隨機隊友身邊。"
+      },
+      {
+        "img": "Skill_Electricity_1002",
+        "name": "雷鳴之陣",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態 ，持續2回合。"
+      },
+      {
+        "img": "Skill_None_1001",
+        "name": "血刃之咒",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1內力",
+        "shoot": "3格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，對單個友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Electricity_1004",
+        "name": "雷之力",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "與攜帶「電流」狀態的目標對戰，「對戰中」傷害額外提高20%。"
+      },
+      {
+        "img": "EXSkill_1070",
+        "name": "物質激化",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，對站在特殊地形上的目標暴擊率提高30%。"
+      },
+      {
+        "img": "Skill_Electricity_1007",
+        "name": "天動驚雷",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，「對戰後」使目標身周1圈內所有敵人發生2圈內「擾動」效果<br/>「擾動」：位置發生隨機變化"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "煉金·鐵卷",
+        "img": "Weapon_lianjintiejuan",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "開卷載，譯，水中白雪結，火裡金蓮生。聖汞非有體，真鉛亦無名。<br/>傳，此乃煉金術師入門之卷，其中繪有密法之術，以阿拉伯文字為注釋，為猶太祭司所學。有人得之，以其學識，經年研讀，方得煉金初要心得，又融入咒法之術，以卷代宿玉。"
+      },
+      {
+        "name": "煉金·銅卷",
+        "img": "Weapon_lianjintongjuan",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "開卷載，譯，爐火照天地，紅星亂紫煙。<br/>傳，此卷為鐵卷升階，內有古猶太密儀心法，然，亦非全卷，多數禁忌之技早已封存。至銅卷，已提升其咒法之能，能藉銅卷使出較高法傷之技。"
+      },
+      {
+        "name": "煉金·銀卷",
+        "img": "Weapon_lianjinyinjuan",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "開卷載，譯，九轉煉秘銀，淘盡百擔砂。<br/>傳，秘銀，魔石也，又名摩瑞亞之銀。卷中記載有關此西方之礦料，無數煉金者珍惜如寶，探尋此礦為其一生願景。又為煉出近似秘銀之材，精進咒法，將引雷之術融會其中，此卷需以較高法術修為才能駕馭。"
+      },
+      {
+        "name": "煉金·金卷",
+        "img": "Weapon_lianjinjinjuan",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "開卷載，譯，任君心決吟，精絕百煉金。<br/>傳，金卷乃煉金術中至高密卷，上載有全本古猶太密儀心法，甚至禁法也可盡讀。<br/>傳，其上秘法符文已有邪術，持卷者亦難逃反噬，言：御禁法心術，需獻相祭之物，卷似通靈，切莫欺瞞。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色織冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_houzhizhangyi",
+        "name": "厚織長衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "朱焰妖瞳·霧",
+        "percent": "0.2222"
+      },
+      {
+        "name": "太初華晶·塵",
+        "percent": "0.2222"
+      },
+      {
+        "name": "妖燐石·塵",
+        "percent": "0.1481"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "銀闌靈鐲·塵",
+        "percent": "0.24"
+      },
+      {
+        "name": "朝露戒·煙",
+        "percent": "0.16"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龍涎香囊·塵",
+        "percent": "0.4"
+      },
+      {
+        "name": "鳳繡香囊·塵",
+        "percent": "0.15"
+      },
+      {
+        "name": "驅魔護印",
+        "percent": "0.15"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·塵",
+        "percent": "0.4063"
+      },
+      {
+        "name": "夜雨·煙",
+        "percent": "0.1875"
+      }
+    ]
+  }
+]

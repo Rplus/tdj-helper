@@ -1,0 +1,374 @@
+[
+  {
+    "name": "妙弋",
+    "is_new": "",
+    "pinyin": "miaoyi",
+    "weight": "1420",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1083_img",
+    "prop_icon": "Ice",
+    "career_icon": "Melee",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "斗将",
+    "range": "1",
+    "speed": "4",
+    "qixue": "184",
+    "magic_attack": "102",
+    "physical_attack": "13",
+    "magic_defense": "30",
+    "physical_defense": "34",
+    "huixin": "25",
+    "inherent": "Gift_161",
+    "inherent_name": "戏梦风华",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击伤害提升12%。<br/>行动结束前，可消耗自身所有护盾切换为<link type=buff value=741083030 bgcolor=#3a85ffff>「策厉」</link>状态；<br/>或消耗33%当前生命值获得护盾（最大气血的33%）切换为<link type=buff value=741083040 bgcolor=#3a85ffff>「笃守」</link>状态。",
+    "star4": "主动攻击伤害提升14%。<br/>行动结束前，可消耗自身所有护盾切换为<link type=buff value=741083030 bgcolor=#3a85ffff>「策厉」</link>状态；<br/>或消耗33%当前生命值获得护盾（最大气血的33%）切换为<link type=buff value=741083040 bgcolor=#3a85ffff>「笃守」</link>状态。",
+    "star5": "主动攻击伤害提升16%。<br/>行动结束前，可消耗自身所有护盾切换为<link type=buff value=741083030 bgcolor=#3a85ffff>「策厉」</link>状态；<br/>或消耗33%当前生命值获得护盾（最大气血的33%）切换为<link type=buff value=741083040 bgcolor=#3a85ffff>「笃守」</link>状态。",
+    "star6": "主动攻击伤害提升20%。<br/>行动结束前，可消耗自身所有护盾切换为<link type=buff value=741083030 bgcolor=#3a85ffff>「策厉」</link>状态；<br/>或消耗33%当前生命值获得护盾（最大气血的33%）切换为<link type=buff value=741083040 bgcolor=#3a85ffff>「笃守」</link>状态。",
+    "story_name": "垓下歌",
+    "story_content": "「大王意气尽，贱妾何聊生！大王，妾身——拜辞也！」<br/>妙弋不安地从门缝向外望，只见阿娘剑舞婆娑，最终引刀一快，溅得一地鲜红，嚇退了包围府邸的一众步跋子，也为自己换得了一条生路。<br/>被锁进衣橱前阿娘嘱咐她不得出声，须好好记下她这最后一出戏，妙弋谨记着。阿娘是戏痴，亦是当世最像虞姬的虞姬，自不愿让这折「垓下歌」成了绝唱，可妙弋不明白，为何扮虞姬便要落得虞姬一样的下场？<br/>阿娘曾说，虞姬剑舞，有七分是祭英雄气短，剩下三分是慰天下可安。那阿娘呢，祭的是谁人，慰的又是何事？若非为此，为何阿娘不一早便带着自己离开这是非之地。<br/>妙弋看向阿娘倒下的方向，那是阿爸最爱的一幅画，四方百姓无分族属，其乐融融，美美与共——惟英雄者，必以重兴唐国百族共襄之盛世。<br/>可英雄究竟身在何处？她终要讨得个说法。",
+    "hero_icon": "Hero1083_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1650",
+        "name": "无方天令",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700019020 bgcolor=#3a85ffff>「压制」</link>状态，战后开启<link type=buff value=741083165 bgcolor=#3a85ffff>「无方斗阵」</link>，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1645",
+        "name": "袖舞叠裳",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，获得<link type=buff value=700000651 bgcolor=#3a85ffff>「冰清」</link>状态，持续<b><color=#e4462c>2</color></b>回合，自身获得再行动（<b><color=#e4462c>2</color></b>格）"
+      },
+      {
+        "img": "EXSkill_1649",
+        "name": "御影寒涟",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "护盾获得加成提高20%。<br/>若携带护盾，遭受攻击受到伤害后，对攻击者1圈范围内所有敌方施加<link type=buff value=741336099 bgcolor=#3a85ffff>「冰霜」</link>状态，持续2回合。"
+      },
+      {
+        "img": "GPassive_1014",
+        "name": "激怒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血低于70%，则「对战中」法攻，法防提高12%。"
+      },
+      {
+        "img": "Skill_Ice_1003",
+        "name": "冰华之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1648",
+        "name": "隙影凝华",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，若目标携带「迟缓」状态则本次攻击无视护卫。"
+      },
+      {
+        "img": "EXSkill_1646",
+        "name": "曼舞寒霜",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=741083120 bgcolor=#3a85ffff>「牵梦」</link>状态，持续<b><color=#e4462c>1</color></b>回合，自身获得护盾（气血上限的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "img": "EXSkill_1647",
+        "name": "弦歌逸气",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身当前气血<b><color=#e4462c>33%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.7</color></b>倍伤害。「对战前」施加<link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合，「对战后」获得再移动（<b><color=#e4462c>2</color></b>格）。<br/>若处于「策厉」状态，「对战中」法术穿透提升<b><color=#e4462c>30%</color></b>，<br/>若处于「笃守」状态，「对战后」对目标周围<b><color=#e4462c>2</color></b>格所有敌人施加<link type=buff value=700000731 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累计<b><color=#e4462c>1</color></b>点气力，切换为「策厉」状态时累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "妙弋",
+        "name": "玄铁双剑",
+        "img": "Weapon_108301",
+        "qixue": "38",
+        "magic": "36",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "忽如裴旻舞双剑，七星错落缠蛟龙。<br/>双股剑，亦称雌雄鸳鸯剑。鸳剑长三尺七寸，鸯剑长三尺四寸，剑身由玄铁所铸，其利克金。入则同纳一鞘，出则交映双虹。<br/>言：双剑坐中合，霜锋咫向抵。"
+      },
+      {
+        "weapon": "妙弋",
+        "name": "紫微双剑",
+        "img": "Weapon_108302",
+        "qixue": "46",
+        "magic": "44",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载：云散无尘滓，腾光入紫微。<br/>传，曾有王将军者，纳名剑紫电、清霜于帐内，其后此双剑便不知所踪。百年后，又有名器出世，剑含紫光，舞而流霜。<br/>言：微霜兮眇眇，紫电映双眸。"
+      },
+      {
+        "weapon": "妙弋",
+        "name": "咒心双剑",
+        "img": "Weapon_108303",
+        "qixue": "58",
+        "magic": "55",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，咒中洒甘露，指处流香泉。<br/>相传「咒心双剑」乃武林至宝，双剑各自内蕴无上咒力，唯能心咒且善舞者可驭之。双锋相映无错即可操符文感召灵力，引咒剑之威敕役万物。<br/>言：霜刃锄心力，咒引覆山水。"
+      },
+      {
+        "weapon": "妙弋",
+        "name": "飞尾双剑",
+        "img": "Weapon_108304",
+        "qixue": "72",
+        "magic": "69",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "《山海经·北山经》有载：有兽焉，其状如鼠，而菟首麋身，其音如嗥犬，以其尾飞，名曰耳鼠。<br/>传，曾有耳鼠一双投王母座下，化剑成对，称「飞尾双剑」。此双剑吸纳天地灵气，周身暗附流光，剑舞如飞羽相缠，百兵难破，万咒不侵。<br/>言：蜿蜒相缠掣，荦确亦回旋。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "妙弋",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "妙弋",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "妙弋",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到攻击进入对战时，遭受伤害降低7%"
+      },
+      {
+        "equipment": "妙弋",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "凛心问雪",
+        "img": "Weapon_108305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带护盾或气血不满时，双防提高<b><color=#e4462c>5%</color></b>。护盾破碎时，对<b><color=#e4462c>2</color></b>格范围敌人造成<b><color=#e4462c>1</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "name": "凛心问雪",
+        "img": "Weapon_108305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带护盾或气血不满时，双防提高<b><color=#e4462c>6%</color></b>。护盾破碎时，对<b><color=#e4462c>2</color></b>格范围敌人造成<b><color=#e4462c>1</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "name": "凛心问雪",
+        "img": "Weapon_108305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带护盾或气血不满时，双防提高<b><color=#e4462c>7%</color></b>。护盾破碎时，对<b><color=#e4462c>2</color></b>格范围敌人造成<b><color=#e4462c>1</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "name": "凛心问雪",
+        "img": "Weapon_108305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带护盾或气血不满时，双防提高<b><color=#e4462c>8%</color></b>。护盾破碎时，对<b><color=#e4462c>2</color></b>格范围敌人造成<b><color=#e4462c>1</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>）。"
+      },
+      {
+        "name": "凛心问雪",
+        "img": "Weapon_108305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带护盾或气血不满时，双防提高<b><color=#e4462c>10%</color></b>。护盾破碎时，对<b><color=#e4462c>2</color></b>格范围敌人造成<b><color=#e4462c>1</color></b>次法术伤害（法攻的<b><color=#e4462c>30%</color></b>）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.271794871794872"
+      },
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.0974967061923584"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.209486166007905"
+      },
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.172463768115942"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·雾",
+        "percent": "0.143589743589744"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.102051282051282"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "清光似水",
+        "percent": "0.302564102564103"
+      },
+      {
+        "name": "夜雨·尘",
+        "percent": "0.0974358974358974"
+      }
+    ]
+  }
+]

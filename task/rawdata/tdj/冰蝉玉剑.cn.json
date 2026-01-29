@@ -1,0 +1,409 @@
+[
+  {
+    "name": "冰蝉玉剑",
+    "is_new": "",
+    "pinyin": "bingchanyujian",
+    "weight": "1290",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1150_img",
+    "prop_icon": "Ice",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "209",
+    "magic_attack": "13",
+    "physical_attack": "108",
+    "magic_defense": "20",
+    "physical_defense": "37",
+    "huixin": "25",
+    "inherent": "Gift_146",
+    "inherent_name": "寒蝉出鞘",
+    "star1": "",
+    "star2": "",
+    "star3": "「对战中」伤害提升10%。受到伤害时，承受本次伤害量的80%，并将其转化为<link type=buff value=741150007 bgcolor=#3a85ffff>「匿鞘」</link>状态施加给自身，持续2回合。主动使用伤害绝学造成伤害后，消耗「匿鞘」状态对目标额外造成1次伤害（「匿鞘」存储量的50%，无法被减免）。<br/>受到致命伤害时免除死亡，气血恢复50%，自身化身蝉蜕，无法控制。回合开始时，恢复3格范围内友方30%气血，若该次恢复后自身满血则解除蝉蜕并对2格范围内友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续2回合。（每场战斗最多触发1次）",
+    "star4": "「对战中」伤害提升13%。受到伤害时，承受本次伤害量的80%，并将其转化为<link type=buff value=741150007 bgcolor=#3a85ffff>「匿鞘」</link>状态施加给自身，持续2回合。主动使用伤害绝学造成伤害后，消耗「匿鞘」状态对目标额外造成1次伤害（「匿鞘」存储量的50%，无法被减免）。<br/>受到致命伤害时免除死亡，气血恢复50%，自身化身蝉蜕，无法控制。回合开始时，恢复3格范围内友方30%气血，若该次恢复后自身满血则解除蝉蜕并对2格范围内友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续2回合。（每场战斗最多触发1次）",
+    "star5": "「对战中」伤害提升16%。受到伤害时，承受本次伤害量的80%，并将其转化为<link type=buff value=741150007 bgcolor=#3a85ffff>「匿鞘」</link>状态施加给自身，持续2回合。主动使用伤害绝学造成伤害后，消耗「匿鞘」状态对目标额外造成1次伤害（「匿鞘」存储量的50%，无法被减免）。<br/>受到致命伤害时免除死亡，气血恢复50%，自身化身蝉蜕，无法控制。回合开始时，恢复3格范围内友方30%气血，若该次恢复后自身满血则解除蝉蜕并对2格范围内友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续2回合。（每场战斗最多触发1次）",
+    "star6": "「对战中」伤害提升20%。受到伤害时，承受本次伤害量的80%，并将其转化为<link type=buff value=741150007 bgcolor=#3a85ffff>「匿鞘」</link>状态施加给自身，持续2回合。主动使用伤害绝学造成伤害后，消耗「匿鞘」状态对目标额外造成1次伤害（「匿鞘」存储量的50%，无法被减免）。<br/>受到致命伤害时免除死亡，气血恢复50%，自身化身蝉蜕，无法控制。回合开始时，恢复3格范围内友方30%气血，若该次恢复后自身满血则解除蝉蜕并对2格范围内友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续3回合。（每场战斗最多触发1次）",
+    "story_name": "女侠",
+    "story_content": "在江湖上问起来，任谁都知道泰山天玄门。<br/>原本只是一个降妖除魔的小宗小派，偏生地头占得好，沾上封禅的东风，在九五至尊那里都有了姓名。即便中间出了岔子，消沉了几年，忽地又冒出了一代大弟子，年纪轻轻便把那魔神蚩尤斩——回到武林来，谁不服？谁不认？论名姓，论正统，都与早二十年前的天瑶派一样，风头无两。<br/>殷剑平继承天玄门掌门的位子这事，倒是有人乐意争论两句。有人说，那是应奉仁这颗又臭又硬的老石头最终良心发现，还是将天玄门的命数掰正来，传命给二师弟的儿子。那，二十年前的那场乱子，到现在终于是结了。有人说，这殷剑平早年被逐出了师门，那这位子按理说也得是应奉仁的亲女儿应灵华来坐，只不过是世人都爱看浪子回头的戏码，所以体认这套鸠占鹊巢的传奇。还有人说，那应奉仁养女儿，本来便是一门亲上加亲的心思，不料半路杀出来一个四象门的女子——这青梅折戟的惨事，谁听了不津津有味？<br/>不过众人的议论就像骰子，再怎么掷，也只是盼望着落到自己期许的那一面。谁也不知道置身其中的那几个人是怎么想的。<br/>照武论功，应灵华是得了应奉仁亲传的本事。江湖上传得风风雨雨，都说那应灵华已经出落成当之无愧的天玄门第二人，习得了一套无人见过的剑法，剑中带着寒气，却不逼人，反而像玉一样浸肤润凉。<br/>她下山时方是二八年华，满腹诗书与剑法。等出了阁啊，嫁一个豪门权贵，入一个巨贾之家，便可把武林出身这最后一点「不正」给洗去，指不定，将来亦能成王侯将相的妻子。又有人说，从武林来，回武林去，为何要图那些世俗的功名？待他日她修成绝学，论造诣，论正统，何尝不是新一代大师之名的有力竞争者？<br/>他们都说她的鼎盛之年指日可待。<br/>不过数月，却听到了她退隐江湖的消息。",
+    "hero_icon": "Hero1150_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1544",
+        "name": "冰蝉道武",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，物理穿透提高<b><color=#e4462c>30%</color></b>，若目标携带护盾「对战中」伤害额外提高<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1545",
+        "name": "玉女素心",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，施加<link type=buff value=700000851 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。中心格目标额外施加<link type=buff value=700001501 bgcolor=#3a85ffff>「封劲」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1011",
+        "name": "冰之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与携带「迟缓」类状态的目标对战，「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1543",
+        "name": "习武论道",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "5格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个其他角色施加<link type=buff value=741150200 bgcolor=#3a85ffff>「论道」</link>状态，持续<b><color=#e4462c><b><color=#e4462c>2</color></b></color></b>回合，复制目标<b><color=#e4462c><b><color=#e4462c>3</color></b></color></b>个「有益状态」，自身获得再行动（<b><color=#e4462c><b><color=#e4462c>3</color></b></color></b>格）。该次绝学后不消耗<link type=buff value=741150007 bgcolor=#3a85ffff>「匿鞘」</link>的存储量和持续时间。"
+      },
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1546",
+        "name": "鸣蝉扰意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "敌方主动攻击造成伤害后若处于自身3格内，驱散自身1个「有害状态」并对攻击者施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续1回合；行动结束时，3格范围内没有敌方，自身获得<link type=buff value=741150906 bgcolor=#3a85ffff>「灵风」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1542",
+        "name": "一剑隔世",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害，「对战前」使目标身上<b><color=#e4462c>4</color></b>个「有益状态」变为随机「有害状态」，且自身获得<link type=buff value=741150102 bgcolor=#3a85ffff>「剑绝」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害或遭受<b><color=#e4462c>1</color></b>次伤害均可累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "冰蝉玉剑",
+        "name": "无方剑",
+        "img": "Weapon_115001",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，天施地生，其益无方。<br/>无方之剑，感于先贤之言而制。其形制无方，而御剑之术无可测也；不可测也，则制胜之法亦无方所也。<br/>言，天地无方，剑心不克。"
+      },
+      {
+        "weapon": "冰蝉玉剑",
+        "name": "淬冰泉",
+        "img": "Weapon_115002",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，躄膏新淬冰泉洁，锦带横悬鬼魅愁。<br/>道是有利剑出于极火，此剑非然。百炼坚铁，淬于冰泉，极凛之寒，浸于剑身，而得冰龙灵气也。是故鬼魅遇之，难胜其寒也。<br/>言，清泉寒心淬，净铁断邪魅。"
+      },
+      {
+        "weapon": "冰蝉玉剑",
+        "name": "缚光玉",
+        "img": "Weapon_115003",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，匿德藏光，退居保和。<br/>言人为避嫌保身，论剑为藏锋隐刃。玄身无光，寒光不见，常人难寻其威也。出鞘则破煞祛暗，邪目难视之，剑到邪除也。<br/>言，玄身锋芒隐，玉刃斩奸邪。"
+      },
+      {
+        "weapon": "冰蝉玉剑",
+        "name": "落秋语",
+        "img": "Weapon_115004",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，窗寒雪历灯昏夜,门静虫吟叶落秋。<br/>人有没时，剑有覆尘。习剑者十载操练，未触剑身，人声未闻，蛛网垂鞘。忽有启时，剑风过则叶落如秋，四方纷乱，瞬归沉静。<br/>言，无声数秋过，惊闻落叶语。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "冰蝉玉剑",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "冰蝉玉剑",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "冰蝉玉剑",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "冰蝉玉剑",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_055",
+        "name": "剑心凛蝉阵",
+        "unlock_condition": "阵眼冰蝉玉剑位阶35级，五内迅陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1150_HeadIcon_Basic",
+        "icon1": "assassin",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵冰蝉玉剑和「御风」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。主动攻击时，穿透提高10%，若3格范围内敌方数量大于等于2，穿透额外提高5%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "冰蝉玄极",
+        "img": "Weapon_115005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物攻提高<b><color=#e4462c>5%</color></b>，反之双防提高<b><color=#e4462c>15%</color></b>。行动结束时，若携带「匿鞘」状态，驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并根据消化的储存总量为自身恢复气血。"
+      },
+      {
+        "name": "冰蝉玄极",
+        "img": "Weapon_115005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物攻提高<b><color=#e4462c>6%</color></b>，反之双防提高<b><color=#e4462c>15%</color></b>。行动结束时，若携带「匿鞘」状态，驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并根据消化的储存总量为自身恢复气血。"
+      },
+      {
+        "name": "冰蝉玄极",
+        "img": "Weapon_115005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物攻提高<b><color=#e4462c>7%</color></b>，反之双防提高<b><color=#e4462c>15%</color></b>。行动结束时，若携带「匿鞘」状态，驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并根据消化的储存总量为自身恢复气血。"
+      },
+      {
+        "name": "冰蝉玄极",
+        "img": "Weapon_115005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物攻提高<b><color=#e4462c>8%</color></b>，反之双防提高<b><color=#e4462c>15%</color></b>。行动结束时，若携带「匿鞘」状态，驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并根据消化的储存总量为自身恢复气血。"
+      },
+      {
+        "name": "冰蝉玄极",
+        "img": "Weapon_115005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物攻提高<b><color=#e4462c>10%</color></b>，反之双防提高<b><color=#e4462c>15%</color></b>。行动结束时，若携带「匿鞘」状态，驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并根据消化的储存总量为自身恢复气血。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·烟",
+        "percent": "0.209748083242059"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.178203723986856"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.174479737130339"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.288499452354874"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.254983570646221"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.258050383351588"
+      },
+      {
+        "name": "御刃金佩",
+        "percent": "0.256297918948521"
+      },
+      {
+        "name": "五尊神令",
+        "percent": "0.150164293537787"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.14644030668127"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "玄阙腰带",
+        "percent": "0.291128148959474"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.159802847754655"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.127219140083217"
+      },
+      {
+        "name": "杏花疏影",
+        "percent": "0.126699029126213"
+      }
+    ]
+  }
+]

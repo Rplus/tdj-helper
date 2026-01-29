@@ -1,0 +1,382 @@
+[
+  {
+    "name": "郸阴",
+    "is_new": "",
+    "weight": "420",
+    "pinyin": "danyin",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1143_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "暗",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "178",
+    "magic_attack": "95",
+    "physical_attack": "12",
+    "magic_defense": "38",
+    "physical_defense": "25",
+    "huixin": "20",
+    "inherent": "Gift_044",
+    "inherent_name": "活血创命",
+    "star1": "",
+    "star2": "",
+    "star3": "其他友方在自身相邻2格内发起对战，且优先攻击时，则为其施加<link type=buff value=700001104 bgcolor=#3a85ffff>「极意II」</link>状态，持续2回合（每回合限定1次）。行动结束时，在自己身边召唤1个「守卫灵俑」。（间隔4回合触发，若「守卫灵俑」存活，则不会召唤。「守卫灵俑」气血属性继承召唤者最大气血的100%，其余属性继承召唤者对应属性的50%，「守卫灵俑」最多同时存在1个）",
+    "star4": "其他友方在自身相邻2格内发起对战，且优先攻击时，则为其施加<link type=buff value=700001104 bgcolor=#3a85ffff>「极意II」</link>状态，持续2回合（每回合限定1次）。行动结束时，在自己身边召唤1个「守卫灵俑」。（间隔4回合触发，若「守卫灵俑」存活，则不会召唤。「守卫灵俑」气血属性继承召唤者最大气血的100%，其余属性继承召唤者对应属性的55%，「守卫灵俑」最多同时存在1个）",
+    "star5": "其他友方在自身相邻2格内发起对战，且优先攻击时，则为其施加<link type=buff value=700001104 bgcolor=#3a85ffff>「极意II」</link>状态，持续2回合（每回合限定1次）。行动结束时，在自己身边召唤1个「守卫灵俑」。（间隔4回合触发，若「守卫灵俑」存活，则不会召唤。「守卫灵俑」气血属性继承召唤者最大气血的100%，其余属性继承召唤者对应属性的60%，「守卫灵俑」最多同时存在1个）",
+    "star6": "其他友方在自身相邻3格内发起对战，且优先攻击时，则为其施加<link type=buff value=700001105 bgcolor=#3a85ffff>「极意II」</link>状态，持续3回合（每回合限定1次）。行动结束时，在自己身边召唤1个「守卫灵俑」。（间隔3回合触发，若「守卫灵俑」存活，则不会召唤。「守卫灵俑」气血属性继承召唤者最大气血的100%，其余属性继承召唤者对应属性的70%，「守卫灵俑」最多同时存在1个）",
+    "story_name": "冥皇",
+    "story_content": "老妖怪？<br/>叫我老妖怪未免有些失礼罢？<br/>我乃「冥皇」郸阴是也。<br/>幽冥之界的皇帝？<br/>倒是看得起我这粗鄙的造人之术。<br/>这么说，我和那造人的祖师爷倒是——<br/>哈哈哈！<br/>虽不敢这样抬举自己，可这名号也没有人能担得。<br/>造些人偶怎么了？<br/>这世人啊，<br/>多半是裹着皮囊的蠢物罢了！<br/>可我还是答应了阿图兹村长复活他孙女伊丝朶的请求。<br/>那拓浑的小姑娘伊丝朶倒是个例外，<br/>她还算是我一件比较满意的作品……<br/>何况有人愿为她付出一村人的代价呢。<br/>这世人啊，<br/>或许真不止是裹着皮囊的蠢物那么简单啊……",
+    "hero_icon": "Hero1143_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Shadow_1002",
+        "name": "灭魂大法",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，施加<link type=buff value=700000841 bgcolor=#3a85ffff>「封咒」</link>状态 ，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1014",
+        "name": "激怒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血低于70%，则「对战中」法攻，法防提高12%。"
+      },
+      {
+        "img": "Skill_Shadow_1022",
+        "name": "冥幻之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Shadow_1003",
+        "name": "吞噬",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，若本回合使用过绝学，自身获得「吸取」状态。（间隔1回合触发）<br/>「吸取」:「对战后」恢复自身气血，恢复量为本次伤害的30%。（造成伤害后消耗）"
+      },
+      {
+        "img": "EXSkill_1054",
+        "name": "血肉强化",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对单个友方施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>和<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。若目标是自身的召唤物则额外获得<link type=buff value=710010461 bgcolor=#3a85ffff>「活血」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1053",
+        "name": "九怨化戾",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "场上存在所属于自身的召唤物时，遭受致命伤害时免除死亡，消耗1个召唤物，并恢复自身气血50%。（间隔4回合触发）"
+      },
+      {
+        "img": "Skill_Shadow_1008",
+        "name": "噬魂之狱",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000931 bgcolor=#3a85ffff>「禁疗」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1052",
+        "name": "百鬼召唤",
+        "type": "召唤",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "在自身周围空格召唤<b><color=#e4462c>3</color></b>个「秽土灵俑」（各属性继承召唤者对应属性的<b><color=#e4462c>15%</color></b>，「秽土灵俑」行动完毕后立刻死亡）<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "郸阴",
+        "name": "牙雕杖",
+        "img": "Weapon_muzhang",
+        "qixue": "38",
+        "magic": "36",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，法杖乃修道法器一种。《混元圣记》，载曰，法杖还作人尸解后躯体之化身。于「列星」可见其打造之法，由良材打造而成。<br/>传，牙雕杖以九节之制，有犀隐雕龙之暗纹，为蜡封固，有咒符入杖中。"
+      },
+      {
+        "weapon": "郸阴",
+        "name": "灵竹法杖",
+        "img": "Weapon_jingshi",
+        "qixue": "46",
+        "magic": "44",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，北周武帝宇文邕的《无上秘要 》中有称，元始天尊有神杖，用灵山太阳之竹七节，上空一节，下空一节， 以应天象地。<br/>传，灵竹法杖以「乌金玄铁」打造而成，于「列星」中仍留有造法之残卷。<br/>传，灵竹禅杖，妙法清心，涤浊世之魂，净作恶之妖，全凭持杖者心性而鉴，信可通天感鬼神矣。"
+      },
+      {
+        "weapon": "郸阴",
+        "name": "冥华杖",
+        "img": "Weapon_yanggu",
+        "qixue": "58",
+        "magic": "55",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "<br/>传，冥华杖乃蕴星象之力，杖之九节，各以星为名，聚而成冥华。其中太皇星、太皇星 、荧惑星乃附符咒之力。<br/>传，由以「化渊玉钢」打造而成，于「列星」中仍留有造法之残卷。杖头为星石所制，杖身则为炼化所得。<br/>传，冥华者，有陨星之力。慢真日益，正道日晦，邪伪交驰，上下返覆。<br/>"
+      },
+      {
+        "weapon": "郸阴",
+        "name": "蛇王杖",
+        "img": "Weapon_shewang",
+        "qixue": "72",
+        "magic": "69",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，化杖为芝幢，龙头虎尾之状。龙身光耀，蛇衔华幡，灵风庆云，盘结于上，光焕无极，虚为无相。<br/>经密法打造而成，乃于「列星」窥视其奥妙。<br/>传，蛇王杖有九节，乃法杖之首。以杖指天，天神设礼；以杖指地，地祗侍迎；指东北方，万鬼束形。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "郸阴",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "8",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "郸阴",
+        "img": "Equip_houzhizhangyi",
+        "name": "厚织长衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "郸阴",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "郸阴",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "11",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "封禅明杖",
+        "img": "weapon_fengchanmingzhang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "场上累计有<b><color=#e4462c>3</color></b>个角色死亡后，回合开始时在自身附近召唤<b><color=#e4462c>1</color></b>个「庞傀」（每场战斗最多触发<b><color=#e4462c>1</color></b>次。「庞傀」的气血属性继承召唤者最大气血的<b><color=#e4462c>110%</color></b>，其余属性继承召唤者对应属性的<b><color=#e4462c>80%</color></b>）。"
+      },
+      {
+        "name": "封禅明杖",
+        "img": "weapon_fengchanmingzhang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "场上累计有<b><color=#e4462c>3</color></b>个角色死亡后，回合开始时在自身附近召唤<b><color=#e4462c>1</color></b>个「庞傀」（每场战斗最多触发<b><color=#e4462c>1</color></b>次。「庞傀」的气血属性继承召唤者最大气血的<b><color=#e4462c>120%</color></b>，其余属性继承召唤者对应属性的<b><color=#e4462c>85%</color></b>）。"
+      },
+      {
+        "name": "封禅明杖",
+        "img": "weapon_fengchanmingzhang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "场上累计有<b><color=#e4462c>3</color></b>个角色死亡后，回合开始时在自身附近召唤<b><color=#e4462c>1</color></b>个「庞傀」（每场战斗最多触发<b><color=#e4462c>1</color></b>次。「庞傀」的气血属性继承召唤者最大气血的<b><color=#e4462c>130%</color></b>，其余属性继承召唤者对应属性的<b><color=#e4462c>90%</color></b>）。"
+      },
+      {
+        "name": "封禅明杖",
+        "img": "weapon_fengchanmingzhang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "场上累计有<b><color=#e4462c>3</color></b>个角色死亡后，回合开始时在自身附近召唤<b><color=#e4462c>1</color></b>个「庞傀」（每场战斗最多触发<b><color=#e4462c>1</color></b>次。「庞傀」的气血属性继承召唤者最大气血的<b><color=#e4462c>140%</color></b>，其余属性继承召唤者对应属性的<b><color=#e4462c>95%</color></b>）。"
+      },
+      {
+        "name": "封禅明杖",
+        "img": "weapon_fengchanmingzhang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "场上累计有<b><color=#e4462c>3</color></b>个角色死亡后，回合开始时在自身附近召唤<b><color=#e4462c>1</color></b>个「庞傀」（每场战斗最多触发<b><color=#e4462c>1</color></b>次。「庞傀」的气血属性继承召唤者最大气血的<b><color=#e4462c>150%</color></b>，其余属性继承召唤者对应属性的<b><color=#e4462c>100%</color></b>）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "朱焰妖瞳·烟",
+        "percent": "0.802325581395349"
+      },
+      {
+        "name": "妖燐石·尘",
+        "percent": "0.174418604651163"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.348837209302326"
+      },
+      {
+        "name": "朝露戒·烟",
+        "percent": "0.337209302325581"
+      },
+      {
+        "name": "紫霄戒·烟",
+        "percent": "0.290697674418605"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.918604651162791"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.246376811594203"
+      },
+      {
+        "name": "甘霖·雾",
+        "percent": "0.210144927536232"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.206521739130435"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.199275362318841"
+      }
+    ]
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "name": "李靖",
+    "is_new": "",
+    "pinyin": "lijing",
+    "weight": "1270",
+    "source": "轩辕剑联动角色",
+    "pic": "Hero2018_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Melee",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "斗将",
+    "range": "1",
+    "speed": "4",
+    "qixue": "179",
+    "magic_attack": "102",
+    "physical_attack": "13",
+    "magic_defense": "28",
+    "physical_defense": "36",
+    "huixin": "28",
+    "inherent": "Gift_143",
+    "inherent_name": "执法天将",
+    "star1": "",
+    "star2": "",
+    "star3": "自身3格内每存在1个敌方，法攻和法术免伤提高3%（最多提高9%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发1次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018013 bgcolor=#3a85ffff>「重击·神威」</link>。",
+    "star4": "自身3格内每存在1个敌方，法攻和法术免伤提高4%（最多提高12%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发1次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018014 bgcolor=#3a85ffff>「重击·神威」</link>。",
+    "star5": "自身3格内每存在1个敌方，法攻和法术免伤提高5%（最多提高15%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发2次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018015 bgcolor=#3a85ffff>「重击·神威」</link>。",
+    "star6": "自身3格内每存在1个敌方，法攻和法术免伤提高6%（最多提高18%）。自身3格内的敌方主动攻击后，对攻击者造成1次法术伤害（法攻的0.3倍）并施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续1回合（每回合最多触发2次）。主动攻击或遭受对战攻击时有概率（气血越高，概率越高（最高100%））触发<link type=buff value=742018016 bgcolor=#3a85ffff>「重击·神威」</link>。",
+    "story_name": "慧彦",
+    "story_content": "黑衣铁甲金戈乱，壮士客死魂断山。<br/>修行数载戒终破，独舍老身阻千军。<br/>红尘漫天云似血，孤岭埋骨意难酬。<br/>但使我徒存远志，太平治世犹可还！",
+    "hero_icon": "Hero2018_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1531",
+        "name": "御法斗杀",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700001354 bgcolor=#3a85ffff>「失智II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1526",
+        "name": "银焰穿心枪",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战后」击退目标<b><color=#e4462c>2</color></b>格并对目标和携带<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态的敌方施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合"
+      },
+      {
+        "img": "Skill_Electricity_1004",
+        "name": "雷之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与携带<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态的目标对战，「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1529",
+        "name": "真武神威",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，绝学前对被选取目标施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续<b><color=#e4462c>1</color></b>回合，使目标在范围内发生「扰动」效果。<br/>「扰动」：位置发生随机变化"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "EXSkill_1530",
+        "name": "护唐神将",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动普攻携带<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态的敌方触发「连击」（0.4倍伤害）。遭受携带「战引」状态的敌方攻击「对战中」暴击抗性提升20%且反击射程+1。"
+      },
+      {
+        "img": "EXSkill_1527",
+        "name": "雨师兴浪",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，绝学前施加<link type=buff value=742018121 bgcolor=#3a85ffff>「惶乱」</link>状态，持续<b><color=#e4462c>2</color></b>回合，自身获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1528",
+        "name": "天将伏千军",
+        "type": "法攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害并造成「牵引」，施加<link type=buff value=742018041 bgcolor=#3a85ffff>「战引」</link>状态，持续<b><color=#e4462c>1</color></b>回合，自身获得<link type=buff value=742018130 bgcolor=#3a85ffff>「王者姿态」</link>状态，持续<b><color=#e4462c>3</color></b>回合。<br/>「牵引」：位移到离施加者最近的随机位置"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "李靖",
+        "name": "蒺藜枪",
+        "img": "Weapon_201801",
+        "qixue": "38",
+        "magic": "36",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，汉兵奋迅如霹雳,虏骑崩腾畏蒺藜。<br/>古枪制也，昔日汉军破胡阵，今有勇将惊神魔。枪首形似蒺藜，刺破敌躯、皮开肉绽，是以枪身未出，匪寇先降三分。<br/>言，棘刺为枪，溃敌千里。"
+      },
+      {
+        "weapon": "李靖",
+        "name": "太宁笔枪",
+        "img": "Weapon_201802",
+        "qixue": "46",
+        "magic": "44",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，尘土抛书卷,枪筹弄酒权。<br/>自古豪侠骁勇，秋毫舞墨、长枪咏志。今以兽须饰枪身，既为铁兵，亦为文宝。逸尘破阵、纵情诗书，乃是双全也。<br/>言，壮志无酬时，笔枪书百代。"
+      },
+      {
+        "weapon": "李靖",
+        "name": "钩镰枪",
+        "img": "Weapon_201803",
+        "qixue": "58",
+        "magic": "55",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，夷之以钩镰，迫切芟之也。<br/>形自农器，然易操使，可夺敌兵，钩敌行舟，攻守皆备也。乡民有持钩镰者众，聚为枪组，曰金枪队也。<br/>言，御后备前，万民皆兵。"
+      },
+      {
+        "weapon": "李靖",
+        "name": "方天戟",
+        "img": "Weapon_201804",
+        "qixue": "72",
+        "magic": "69",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[真传]全伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，开关勇士争赴敌，剑戟弓戈奋相缭。<br/>戟，古之仪兵，取象龙翔于天。以月牙刀附枪身，则为画戟；双面为刃，称方天戟，亦称青龙戟。似为繁饰，然无虚设，以伟力御之，四面皆可破敌。<br/>言，新月作戟刃，青龙倒山河。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "李靖",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "李靖",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "李靖",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到攻击进入对战时，遭受伤害降低7%"
+      },
+      {
+        "equipment": "李靖",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "撼天神枪",
+        "img": "Weapon_201805",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>7%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "撼天神枪",
+        "img": "Weapon_201805",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>9%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "撼天神枪",
+        "img": "Weapon_201805",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>11%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "撼天神枪",
+        "img": "Weapon_201805",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>13%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "撼天神枪",
+        "img": "Weapon_201805",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "<b><color=#e4462c>3</color></b>格内存在携带「战引」状态的敌方时，暴击率和法防提高<b><color=#e4462c>15%</color></b>。主动攻击携带「战引」状态的敌方「对战后」随机<b><color=#e4462c>1</color></b>个伤害绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "玉蝶黛翠",
+        "percent": "0.2431900361591"
+      },
+      {
+        "name": "鹿鸣灵珠",
+        "percent": "0.238770590598634"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "霜纸戒",
+        "percent": "0.313748493370831"
+      },
+      {
+        "name": "重曜玉镯",
+        "percent": "0.239051828043391"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "御刃金佩",
+        "percent": "0.146605062274005"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.133547609481719"
+      },
+      {
+        "name": "五尊神令",
+        "percent": "0.111143210895584"
+      },
+      {
+        "name": "灵越佩环·雾",
+        "percent": "0.110455358371165"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "玄阙腰带",
+        "percent": "0.243993571715548"
+      },
+      {
+        "name": "藏龙玉带",
+        "percent": "0.106246663107314"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.0955686065136145"
+      }
+    ]
+  }
+]
