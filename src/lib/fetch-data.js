@@ -46,7 +46,8 @@ export function get_refs(io) {
 }
 
 const PROXY = [
-	{
+	/*
+	{ // too slow
 		get_proxy_url: (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
 		fetch: async (url) =>
 			fetch(url)
@@ -57,7 +58,7 @@ const PROXY = [
 					return data.data?.data[0];
 				}),
 	},
-	{
+	{ // need plan after 2026-01-25
 		get_proxy_url: (url) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
 		fetch: async (url) =>
 			fetch(url)
@@ -71,6 +72,7 @@ const PROXY = [
 					throw error(err);
 				}),
 	},
+ 	*/
 	{ // direct
 		get_proxy_url: (url) => url,
 		fetch: async (url) =>
@@ -78,17 +80,20 @@ const PROXY = [
 				.then((r) => r.text())
 				.then((data) => {
 					data = JSON.parse(data);
-					// console.log('fetch role.tw', data);
-					return data.data?.data[0];
+					return data?.[0];
 				})
 				.catch((err) => {
 					throw error(err);
 				}),
 	},
-][2];
+][0];
 
 export async function fetch_role_detail(role) {
-	let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
+	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
+
+	let _url = `https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/official-rawdata/task/rawdata/tdj/${_fn}`;
+
+	// let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
 	// return cache_fetch(_url, () => PROXY.fetch(_url));
 
 	if (browser && cache.has(_url)) {
@@ -96,9 +101,9 @@ export async function fetch_role_detail(role) {
 	}
 
 	let _data = await PROXY.fetch(_url);
-	if (role.pinyin_tw && !_data) {
-		_data = await PROXY.fetch(get_role_url(role.pinyin, 'cn'));
-	}
+	// if (role.pinyin_tw && !_data) {
+	// 	_data = await PROXY.fetch(get_role_url(role.pinyin, 'cn'));
+	// }
 
 	cache.set(_url, _data);
 
