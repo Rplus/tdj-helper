@@ -14,6 +14,7 @@ deploy-rawdata:
 		git add task/rawdata/tdj; \
 		git commit -m "Deploy rawdata update" || echo "No changes"; \
 		git push origin official-rawdata; \
+		git checkout -; \
 	'
 
 dev:
