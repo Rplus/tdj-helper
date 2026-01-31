@@ -3,9 +3,46 @@ import { link } from '$lib/u.js';
 export let next = '';
 export let prev = '';
 export let cate = 'role';
+import { onMount, onDestroy } from 'svelte';
+import { browser } from '$app/environment';
+import { goto } from '$app/navigation';
+
+	function handleKey(event) {
+		if (!event.ctrlKey) {
+			return;
+		}
+		event.preventDefault();
+
+		switch (event.key) {
+			case 'ArrowRight':
+				if (next) {
+					goto(link(`/${cate}/${next}`));
+				}
+				break;
+
+			case 'ArrowLeft':
+				if (prev) {
+					goto(link(`/${cate}/${prev}`));
+				}
+				break;
+
+			default:
+				break;
+		}
+	}
+
+	if (browser) {
+		onMount(() => {
+			document.documentElement.addEventListener('keydown', handleKey);
+		});
+
+		onDestroy(() => {
+			document.documentElement.removeEventListener('keydown', handleKey);
+		});
+	}
 </script>
 
-<nav class="nav">
+<nav class="nav" on:keydown={handleKey}>
 	{#if prev}
 		<a class="nav-link nav-link--prev" href={link(`/${cate}/${prev}`)}>
 			🠋 {prev}
