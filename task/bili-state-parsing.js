@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { writeFile, outputJSON, } from './u.mjs';
+import { writeFile, outputJSON, getArgs, } from './u.mjs';
 import { parse } from 'node-html-parser';
 
 let parse_new = getArgs()?.new;
