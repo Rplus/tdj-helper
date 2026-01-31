@@ -1,69 +1,69 @@
 import fs from 'fs';
-import { writeFile, outputJSON, uniq, remove_html_tag, fetch_bwiki_props_by_name } from './u.mjs';
+import { writeFile, outputJSON, } from './u.mjs';
+import { parse } from 'node-html-parser';
 
-Array.prototype.uniq = uniq;
+let parse_new = getArgs()?.new;
 
-let names = [];
+const FORCE_FETCH = false;
 
-let data = [];
+let html_fn = `./task/rawdata/_state.raw.html`;
+let wikitable_html = '';
+let status = [];
 
-let _res = await fetch(
-	'https://wiki.biligame.com/tdj/api.php?action=opensearch&search=状态/&limit=800',
-);
-names = (await _res.json())?.[1];
-names.sort();
-{
-	data = await Promise.all(
-		names.map(async (name) => {
-			let props = await fetch_bwiki_props_by_name(name);
-			delete props._ASK;
-
-			let contain = {
-				skills: props['绝学状态'],
-				inherents: props['天赋状态'],
-				weapons: props['技能状态'],
-				ornamate: props['饰品状态'],
-			}
-			for (let p in contain) {
-				if (Array.isArray(contain[p])) {
-					contain[p] = contain[p].map(encodeURIComponent);
-				} else if (!contain[p]) {
-					delete contain[p];
-				} else {
-					contain[p] = encodeURIComponent(contain[p]);
-				}
-			}
-
-			return {
-				// key: encodeURIComponent(name),
-				name: props['名称'],
-				cate: props['类别'],
-				desc: remove_html_tag(props['描述']),
-				// able: {
-					dispellable: !props['驱散'].includes('不可'),
-					extendable: !props['扩散'].includes('不可'),
-					stealable: !props['偷取'].includes('不可'),
-				// },
-				// contain,
-			};
-
-			return props;
-		})
-	);
+if (!parse_new && fs.existsSync(html_fn) && !FORCE_FETCH) {
+	wikitable_html = fs.readFileSync(html_fn, 'utf8');
+} else {
+	let res = await fetch('https://wiki.biligame.com/tdj/api.php?action=parse&pageid=4467&prop=text&format=json');
+	let _wikitable_html = (await res.json()).parse?.text?.['*'] || '';
+	if (_wikitable_html) {
+		wikitable_html = _wikitable_html;
+		writeFile(
+			`./task/rawdata/_state.raw.html`,
+			_wikitable_html,
+		);
+	}
 }
 
-{
-	// hotfix
+let doc = parse(wikitable_html);
+let tbody = doc.querySelector('table.datatable tbody');
+let rows = tbody.querySelectorAll('tr');
 
-	// data.push({
-	// 	name: '䔄毒',
-	// 	desc: '攻擊前每移動1格，暴擊率降低15%（最多降低30%），行動結束時，損失10%最大氣血，若攻擊前每多移動1格，則額外損失10%最大氣血（最多額外20%）',
-	// 	dispellable: true,
-	// 	extendable: false,
-	// 	stealable: false,
-	// })
+status = rows.map((row, row_index) => {
+	return row_index && row.querySelectorAll('td')
+		.map((td, td_index) => td_index && td.textContent)
+		.filter(Boolean);
+})
+.filter(Boolean)
+.map(item => {
+	return {
+		name: item[0].replace('状态/', ''),
+		cate: item[1],
+		desc: item[5],
+		dispellable: !item[2].includes('不可'),
+		extendable: !item[3].includes('不可'),
+		stealable: !item[4].includes('不可'),
+	};
+})
 
-	data.forEach(i => {
+outputJSON({
+	json: status,
+	fn: './task/rawdata/_state.ori.json',
+	space: 2,
+	// cn2tw: true,
+});
+
+
+{ // hotfix
+
+	status.push({
+		name: '䔄毒',
+		desc: '攻擊前每移動1格，暴擊率降低15%（最多降低30%），行動結束時，損失10%最大氣血，若攻擊前每多移動1格，則額外損失10%最大氣血（最多額外20%）',
+		dispellable: true,
+		extendable: false,
+		stealable: false,
+	})
+
+	status.forEach(i => {
 		switch (i.name) {
 			case '断寸I':
 				i.dispellable = false;
@@ -82,20 +82,20 @@ names.sort();
 }
 
 outputJSON({
-	json: data,
+	json: status,
 	fn: './task/rawdata/_state.raw.json',
 	space: 2,
 	// cn2tw: true,
 });
 outputJSON({
-	json: data,
+	json: status,
 	fn: './task/rawdata/state.json',
 	space: 2,
 	cn2tw: true,
 });
 
 outputJSON({
-	json: data,
+	json: status,
 	fn: './src/lib/data/state.min.json',
 	space: 0,
 	cn2tw: true,
