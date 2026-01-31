@@ -110,8 +110,17 @@ export async function fetch_role_detail(role) {
 	return _data;
 }
 
+export function get_role_url_without_proxy(name, lang) {
+	return get_url({
+		module: 'hero',
+		type: 'detail',
+		query: name, // pinyin
+	}, lang);
+}
+
 function get_role_url(name, lang) {
-	return get_url({ module: 'hero', type: 'detail', query: name }, lang);
+	let _url = get_role_url_without_proxy(name, lang);
+	return PROXY.get_proxy_url(_url);
 }
 
 export function get_url(qs_obj = {}, lang = 'cn') {
@@ -133,7 +142,10 @@ export function get_url(qs_obj = {}, lang = 'cn') {
 	let url = `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
 	// let proxy_url = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
 	// let proxy_url = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-	let proxy_url = PROXY.get_proxy_url(url);
 
-	return proxy_url;
+	return url;
+
+	// let proxy_url = PROXY.get_proxy_url(url);
+	// return proxy_url;
 }
+
