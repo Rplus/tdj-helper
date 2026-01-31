@@ -11,7 +11,6 @@ import { goto } from '$app/navigation';
 		if (!event.ctrlKey) {
 			return;
 		}
-		event.preventDefault();
 
 		switch (event.key) {
 			case 'ArrowRight':
