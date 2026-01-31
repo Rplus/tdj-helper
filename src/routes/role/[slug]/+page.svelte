@@ -1,6 +1,10 @@
 <script>
 // import { onMount } from 'svelte';
-import { fetch_role_detail, get_refs } from '$lib/fetch-data.js';
+import {
+	fetch_role_detail,
+	get_refs,
+	get_role_url_without_proxy,
+} from '$lib/fetch-data.js';
 import { resize_img } from '$lib/u.js';
 import { browser } from '$app/environment';
 import { handle_skills } from './skill.js';
@@ -87,6 +91,12 @@ $: {
 		<hr />
 		<details>
 			<a
+				href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
+				rel="noopener"
+				target="_blank"
+			>original data</a>
+			<br />
+			<a
 				href={resize_img(
 					`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
 					960,
@@ -106,6 +116,10 @@ $: {
 <Footer time={true} refs={get_refs([1, 1, 1])} />
 
 <style>
+details:not(:hover, :focus-within) {
+	opacity: 0.1;
+	transition: opacity .3s;
+}
 pre {
 	overflow: auto;
 }
