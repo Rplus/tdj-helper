@@ -157,25 +157,27 @@ export async function fetch_name(name = '') {
 		ns: 0,
 		type: 'xml',
 	};
-	let res = await fetch('https://wiki.biligame.com/tdj/api.php', {
-		headers: {
-			'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-		},
-		body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
-		// body: new URLSearchParams({
-		// 	action: 'smwbrowse',
-		// 	format: 'json',
-		// 	browse: 'subject',
-		// 	params: JSON.stringify({
-		// 		subject: name, // 頁面標題
-		// 		ns: 0,           // namespace 0 = 主條目
-		// 		// type: 'xml'
-		// 	}),
-		// }),
-		method: 'POST',
-		// verbose: true,
-	});
+	// let res = await fetch('https://wiki.biligame.com/tdj/api.php', {
+	// 	headers: {
+	// 		'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+	// 	},
+	// 	body: `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`,
+	// 	// body: new URLSearchParams({
+	// 	// 	action: 'smwbrowse',
+	// 	// 	format: 'json',
+	// 	// 	browse: 'subject',
+	// 	// 	params: JSON.stringify({
+	// 	// 		subject: name, // 頁面標題
+	// 	// 		ns: 0,           // namespace 0 = 主條目
+	// 	// 		// type: 'xml'
+	// 	// 	}),
+	// 	// }),
+	// 	method: 'POST',
+	// 	// verbose: true,
+	// });
 	// console.log(res, `action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`);
+
+	let res = await fetch(`https://wiki.biligame.com/tdj/api.php?action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`);
 
 	let raw = await res.json();
 
