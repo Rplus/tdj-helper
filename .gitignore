@@ -13,3 +13,4 @@ vite.config.ts.timestamp-*
 /data
 /task/rawdata/roles_detail.raw.json
 /task/rawdata/roles_detail.op.json
+/task/*.tar
