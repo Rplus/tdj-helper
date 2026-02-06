@@ -1,21 +1,7 @@
 .PHONY: build
 
-deploy: build deploy-rawdata
+deploy: build
 	pnpm run deploy;
-
-deploy-rawdata:
-	@sh -c '\
-		if ! git diff-index --quiet HEAD --; then \
-			echo "有未 commit 的變更，請先處理再切 branch"; \
-			exit 1; \
-		fi; \
-		git checkout official-rawdata || git checkout --orphan official-rawdata; \
-		git add task/rawdata/tdj; \
-		git reset --hard; \
-		git commit -m "Deploy rawdata update" || echo "No changes"; \
-		git push origin official-rawdata; \
-		git checkout -; \
-	'
 
 dev:
 	pnpm run dev;
