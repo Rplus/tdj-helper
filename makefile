@@ -10,8 +10,8 @@ deploy-rawdata:
 			exit 1; \
 		fi; \
 		git checkout official-rawdata || git checkout --orphan official-rawdata; \
-		git reset --hard; \
 		git add task/rawdata/tdj; \
+		git reset --hard; \
 		git commit -m "Deploy rawdata update" || echo "No changes"; \
 		git push origin official-rawdata; \
 		git checkout -; \
