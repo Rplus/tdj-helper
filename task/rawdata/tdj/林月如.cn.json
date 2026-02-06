@@ -1,0 +1,398 @@
+[
+  {
+    "name": "林月如",
+    "is_new": "",
+    "weight": "520",
+    "pinyin": "linyueru",
+    "source": "仙剑奇侠传联动角色",
+    "pic": "Hero2002_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "180",
+    "magic_attack": "12",
+    "physical_attack": "98",
+    "magic_defense": "30",
+    "physical_defense": "32",
+    "huixin": "49",
+    "inherent": "Gift_064",
+    "inherent_name": "月影芳踪",
+    "star1": "",
+    "star2": "",
+    "star3": "攻击前，每移动1格，本次伤害提高2%（最多可以提升10%）<br/>每造成1次伤害，获得1层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，造成暴击额外获得1层。行动结束时，如果携带4层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，则消耗所有<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>对自身周围菱形2格范围内1个敌人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合(间隔3回合触发)",
+    "star4": "攻击前，每移动1格，本次伤害提高3%（最多可以提升15%）<br/>每造成1次伤害，获得1层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，造成暴击额外获得1层。行动结束时，如果携带4层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，则消耗所有<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>对自身周围菱形2格范围内1个敌人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合(间隔2回合触发)",
+    "star5": "攻击前，每移动1格，本次伤害提高4%（最多可以提升20%）<br/>每造成1次伤害，获得1层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，造成暴击额外获得1层。行动结束时，如果携带4层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，则消耗所有<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>对自身周围菱形2格范围内1个敌人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合(间隔2回合触发)",
+    "star6": "攻击前，每移动1格，本次伤害提高5%（最多可以提升25%）<br/>每造成1次伤害，获得1层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，造成暴击额外获得1层。行动结束时，如果携带4层<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>，则消耗所有<link type=buff value=743002233 bgcolor=#3a85ffff>「气劲」</link>对自身周围菱形2格范围内1个敌人施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合(间隔1回合触发)",
+    "story_name": "招亲",
+    "story_content": "<br/>逍遥仗义管闲事，<br/>欢喜冤家相敌视。<br/>为解前仇泯旧怨，<br/>招亲擂台来比试。<br/>",
+    "hero_icon": "Hero2002_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1129",
+        "name": "一阳指",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，暴击率<b><color=#e4462c>+20%</color></b>。成功击杀目标，则额外获得<b><color=#e4462c>2</color></b>层「气劲」状态。"
+      },
+      {
+        "img": "GPassive_1013",
+        "name": "孤胆",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内无其他友方，则物攻，物防+10%。"
+      },
+      {
+        "img": "Skill_Assassin_1006",
+        "name": "遁匿",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战后」自身气血低于50%，则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合。（间隔2回合触发）"
+      },
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "罗刹一击",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>。击杀目标则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1132",
+        "name": "斩龙诀",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线3x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1131",
+        "name": "擒鹤索",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "十字4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.5</color></b>倍伤害，将其拉向自身<b><color=#e4462c>2</color></b>格，如果路线被阻挡，则施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1133",
+        "name": "灵鸾行",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动攻击后，选择自身菱形3格范围内1个目标身周的指定空格，无视阻挡翻越到空格上。（间隔1回合触发）"
+      },
+      {
+        "img": "EXSkill_1130",
+        "name": "乾坤一掷",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害，暴击率<b><color=#e4462c>+20%</color></b>，对被暴击目标施加<link type=buff value=743002212 bgcolor=#3a85ffff>「雷劫」</link>状态，持续<b><color=#e4462c>1</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学，每次造成伤害获得<b><color=#e4462c>1</color></b>点气力，暴击额外获得<b><color=#e4462c>1</color></b>点气力。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "林月如",
+        "name": "长鞭",
+        "img": "weapon_changbian",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，血痕闲指玉尖纤，少女鞭痕弄凉蟾。<br/>传，长鞭，乃生牛皮制的七尺软鞭，灵活多变，驭鞭者可操之攻击多人，甚至以少敌多。言，相逢不是真，扬鞭过红尘。"
+      },
+      {
+        "weapon": "林月如",
+        "name": "嫣红舞",
+        "img": "weapon_yanhongwu",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，九霄特立嫣红舞，万仞孤生玉树枝。<br/>传，嫣红舞，鞭也，上下翻飞，可收可放。抽鞭时，似落英缤纷，惊鸿起舞。鞭把上系有红绸，方得嫣红舞之名。言：练场鞭鸾凤，皆是无情人。"
+      },
+      {
+        "weapon": "林月如",
+        "name": "九节鞭",
+        "img": "weapon_jiujiebian",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，银光闪闪翻未奇，未奇铁节弦月生。<br/>传，九节鞭，是以铁节、铁环组成的九节软鞭。又传，铁节、铁环乃铸剑名家徐夫人打造利剑时所剩之材重铸而成，薄而韧，韧而厉。其势势相连，时硬时软。言，一步一动，一动一变。"
+      },
+      {
+        "weapon": "林月如",
+        "name": "蝶恋",
+        "img": "weapon_dielian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，花喧丛蝶恋，持鞭向人间。<br/>传，蝶恋，鞭也，为软兵中利器。其得名于鞭身蝶刺，即分节处有蝶翼状尖刺，又，抽鞭时可现千蝶飞舞，有惑敌之能。传，乃取稀有之材，精心锤炼打造而成。言，蝶恋非相思，断魂鞭起时。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "林月如",
+        "img": "Equip_yinzan",
+        "name": "银钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "林月如",
+        "img": "Equip_siyi",
+        "name": "丝衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "林月如",
+        "img": "Equip_huxinjing",
+        "name": "护心镜",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "林月如",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "金蛇鞭",
+        "img": "weapon_jinshebian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "暴击率提高<b><color=#e4462c>5%</color></b>。消耗「气劲」时，有<b><color=#e4462c>60%</color></b>概率使自身<b><color=#e4462c>1</color></b>个主动绝学的冷却回合<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "金蛇鞭",
+        "img": "weapon_jinshebian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "暴击率提高<b><color=#e4462c>7%</color></b>。消耗「气劲」时，有<b><color=#e4462c>70%</color></b>概率使自身<b><color=#e4462c>1</color></b>个主动绝学的冷却回合<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "金蛇鞭",
+        "img": "weapon_jinshebian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "暴击率提高<b><color=#e4462c>9%</color></b>。消耗「气劲」时，有<b><color=#e4462c>80%</color></b>概率使自身<b><color=#e4462c>1</color></b>个主动绝学的冷却回合<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "金蛇鞭",
+        "img": "weapon_jinshebian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "暴击率提高<b><color=#e4462c>12%</color></b>。消耗「气劲」时，有<b><color=#e4462c>90%</color></b>概率使自身<b><color=#e4462c>1</color></b>个主动绝学的冷却回合<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "金蛇鞭",
+        "img": "weapon_jinshebian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "暴击率提高<b><color=#e4462c>15%</color></b>。消耗「气劲」时，有<b><color=#e4462c>100%</color></b>概率使自身<b><color=#e4462c>1</color></b>个主动绝学的冷却回合<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.519823788546256"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.45374449339207"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "星河手环",
+        "percent": "0.235209235209235"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.17965367965368"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.157287157287157"
+      },
+      {
+        "name": "流光手镯·尘",
+        "percent": "0.126984126984127"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.23620025673941"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.223363286264442"
+      },
+      {
+        "name": "灵越佩环·雾",
+        "percent": "0.166880616174583"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.105263157894737"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.254172015404365"
+      },
+      {
+        "name": "无边落木·烟",
+        "percent": "0.196405648267009"
+      },
+      {
+        "name": "月满西楼",
+        "percent": "0.195121951219512"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.169448010269576"
+      }
+    ]
+  }
+]

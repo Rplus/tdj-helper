@@ -1,0 +1,382 @@
+[
+  {
+    "name": "太渊隐逸",
+    "is_new": "",
+    "weight": "200",
+    "pinyin": "taiyuanyinyi",
+    "source": "寰神结登场角色",
+    "pic": "Hero1304_img",
+    "prop_icon": "Ice",
+    "career_icon": "Physician",
+    "rarity": "SR",
+    "position": "治疗",
+    "prop": "冰",
+    "career": "祝由",
+    "range": "2",
+    "speed": "3",
+    "qixue": "146",
+    "magic_attack": "68",
+    "physical_attack": "9",
+    "magic_defense": "35",
+    "physical_defense": "25",
+    "huixin": "24",
+    "inherent": "Gift_052",
+    "inherent_name": "无瑕仁心",
+    "star1": "",
+    "star2": "法术免伤提高8%。对友方释放绝学时，施加<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。",
+    "star3": "法术免伤提高10%。对友方释放绝学时，施加<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。",
+    "star4": "法术免伤提高13%。对友方释放绝学时，施加<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。",
+    "star5": "法术免伤提高16%。对友方释放绝学时，施加<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。",
+    "star6": "法术免伤提高20%。对友方释放绝学时，施加<link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link>状态。",
+    "story_name": "双双",
+    "story_content": "五年前，她还是黔州镇林家待字闺中的女儿，<br/>若非那伙山贼在她出阁之日将她掠走，<br/>她怎会料想到这日后的变化……<br/>「听说了吗？黔州镇上那户人家的女儿被山贼给杀啦！」<br/>消息传开，林家也为枉死的女儿立了衣冠冢，<br/>丧女之痛在光阴中淡去，黔州镇人渐渐忘记林家曾有个聪明貌美的女儿，名唤双双。<br/>他们一定猜不到——<br/>那日，她想尽办法，终于趁夜逃脱，却转入鬼神之渊，误入地界，被九黎抓获……<br/>必死无疑，是她对自己的判决。<br/>可她并没有死，还担起教导地界幽姬胧夜人界常识之责。<br/>但任谁都可以忘记她的来处，<br/>唯有她年复一年地牢记着，自己是黔州镇林家的女儿。<br/>……<br/>五年后，她终于得返故里，<br/>「你胡说！我们的女儿双双，五年前就死在山贼手中了！」<br/>果然，她被彻底遗忘，被亲邻视作鬼魅，无人敢于相认……<br/>她哭号而去，可她该去哪啊？<br/>地界也不是她的归宿。<br/>不过有件事，她倒是想明白了——这世上，再无双双。",
+    "hero_icon": "Hero1304_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_None_1005",
+        "name": "气愈之术",
+        "type": "治疗",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1.5</color></b>倍），驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "GPassive_1018",
+        "name": "退魔符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使相邻1格内法防属性最高的1个其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「御魔I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Ice_1003",
+        "name": "冰华之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_None_1020",
+        "name": "神氛化法",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，驱散范围内所有友方身上<b><color=#e4462c>3</color></b>个「有害状态」，并恢复其气血。（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）"
+      },
+      {
+        "img": "Skill_None_1010",
+        "name": "圣烨祝福",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的<b><color=#e4462c>0.75</color></b>倍），施加<link type=buff value=700000901 bgcolor=#3a85ffff>「命蕴」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1009",
+        "name": "背水",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "若自身气血低于50%，物防，法防提高10%。"
+      },
+      {
+        "img": "Skill_None_1002",
+        "name": "地御之阵",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对范围内的所有友方施加<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1007",
+        "name": "傲雪寒霜",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」对目标身周<b><color=#e4462c>1</color></b>圈内所有敌人施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>效果，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "太渊隐逸",
+        "name": "青竹拂尘",
+        "img": "weapon_qingzhufuchen",
+        "qixue": "38",
+        "magic": "32",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，人世常极目，世情今已闲。手持青竹变琼枝，人间恶路尽可盖。<br/>经良材打造而成，其铸法今存世可见。<br/>传，拂尘乃法器一种，操持拂尘者，多为修禅问道之人。青竹拂尘，于锻造时吸纳仙山青竹而成，有清神明智之能，何处惹尘埃，是为记。"
+      },
+      {
+        "weapon": "太渊隐逸",
+        "name": "紫檀拂尘",
+        "img": "weapon_zitanfuchen",
+        "qixue": "47",
+        "magic": "39",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，紫檀枝里流年藏，更朝朝，尘世淡扫，不御凌波。<br/>经「乌金玄铁」打造而成，其铸法于「列星」可见。<br/>传，紫檀拂尘，于锻造时以通灵紫檀木为引，有精怪之息，法力见长，虽是入道法器，因灵蕴山野精怪之息，故较为特殊。"
+      },
+      {
+        "weapon": "太渊隐逸",
+        "name": "八叶拂尘",
+        "img": "weapon_bayefuchen",
+        "qixue": "58",
+        "magic": "48",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，八叶萤含天露绿，千年桃映海波红。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，八叶拂尘由地精之藤加铸而成，乃地界之宝，于异动时流出地界，下落未明。因为地界之宝，故有渊气相附，需由灵力高强者操持。载，八叶冥香，渊地气清。"
+      },
+      {
+        "weapon": "太渊隐逸",
+        "name": "九天拂尘",
+        "img": "weapon_jiutianfuchen",
+        "qixue": "73",
+        "magic": "60",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%<br/>[贯清]气血高于50%时，治疗效果提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，九天天路入云长，燕使何由到上方。神女暗来花下立，手持拂尘下太虚。<br/>经密法打造而成，其铸法于「列星」可见。<br/>传，九天拂尘，神女之物，上仙法宝。列星之铸法不过后人杜撰演绎，是惊世匠人结识下界上仙，从遗梦中仿制而成。故，几世有此宝流传，虽非原物，却乃以拂尘为法器者难得之无上珍宝。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "太渊隐逸",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "8",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "太渊隐逸",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "太渊隐逸",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "太渊隐逸",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "神音拂尘",
+        "img": "weapon_shenyinfuchen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "治疗效果提高<b><color=#e4462c>8%</color></b>。使用主动绝学后，对<b><color=#e4462c>2</color></b>格范围内<b><color=#e4462c>1</color></b>个友方施加「固元I」「愈合」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "神音拂尘",
+        "img": "weapon_shenyinfuchen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "治疗效果提高<b><color=#e4462c>11%</color></b>。使用主动绝学后，对<b><color=#e4462c>2</color></b>格范围内<b><color=#e4462c>2</color></b>个友方施加「固元I」「愈合」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "神音拂尘",
+        "img": "weapon_shenyinfuchen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "治疗效果提高<b><color=#e4462c>14%</color></b>。使用主动绝学后，对<b><color=#e4462c>2</color></b>格范围内<b><color=#e4462c>2</color></b>个友方施加「固元I」「愈合」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "神音拂尘",
+        "img": "weapon_shenyinfuchen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "治疗效果提高<b><color=#e4462c>17%</color></b>。使用主动绝学后，对<b><color=#e4462c>2</color></b>格范围内<b><color=#e4462c>2</color></b>个友方施加「固元I」「愈合」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "神音拂尘",
+        "img": "weapon_shenyinfuchen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "治疗效果提高<b><color=#e4462c>20%</color></b>。使用主动绝学后，对<b><color=#e4462c>2</color></b>格范围内<b><color=#e4462c>3</color></b>个友方施加「固元I」「愈合」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "朱蕊晶花",
+        "percent": "0.717105263157895"
+      },
+      {
+        "name": "妖燐石·尘",
+        "percent": "0.138157894736842"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "碧血手镯·烟",
+        "percent": "0.53125"
+      },
+      {
+        "name": "碧血手镯·雾",
+        "percent": "0.1875"
+      },
+      {
+        "name": "凤纹灵镯·烟",
+        "percent": "0.162303664921466"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.368421052631579"
+      },
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.309210526315789"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·雾",
+        "percent": "0.40625"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.3515625"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.3203125"
+      }
+    ]
+  }
+]

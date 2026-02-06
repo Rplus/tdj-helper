@@ -1,0 +1,405 @@
+[
+  {
+    "name": "真胤",
+    "is_new": "",
+    "weight": "900",
+    "pinyin": "zhenyin",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1210_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "雷",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "239",
+    "magic_attack": "12",
+    "physical_attack": "88",
+    "magic_defense": "22",
+    "physical_defense": "44",
+    "huixin": "30",
+    "inherent": "Gift_098",
+    "inherent_name": "金轮法天",
+    "star1": "",
+    "star2": "",
+    "star3": "2格内每存在1名其他友方，免伤和暴击伤害减免提高3%（最多提高9%）。代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合。使用非伤害绝学后，行动结束时以自身为阵眼，开启2格范围的法阵<link type=buff value=741210111 bgcolor=#3a85ffff>「回灵界」</link>且在范围内空格上随机生成1个<link type=buff value=741210113 bgcolor=#3a85ffff>「回灵阵式」</link>，持续1回合。使用伤害绝学后，行动结束时以被选取目标为阵眼，开启2格范围的法阵<link type=buff value=741210112 bgcolor=#3a85ffff>「眩灭界」</link>且在范围内空格上随机生成1个<link type=buff value=741210114 bgcolor=#3a85ffff>「眩灭阵式」</link>，持续1回合。",
+    "star4": "2格内每存在1名其他友方，免伤和暴击伤害减免提高4%（最多提高12%）。代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合。使用非伤害绝学后，行动结束时以自身为阵眼，开启2格范围的法阵<link type=buff value=741210111 bgcolor=#3a85ffff>「回灵界」</link>且在范围内空格上随机生成1个<link type=buff value=741210113 bgcolor=#3a85ffff>「回灵阵式」</link>，持续1回合。使用伤害绝学后，行动结束时以被选取目标为阵眼，开启2格范围的法阵<link type=buff value=741210112 bgcolor=#3a85ffff>「眩灭界」</link>且在范围内空格上随机生成1个<link type=buff value=741210114 bgcolor=#3a85ffff>「眩灭阵式」</link>，持续1回合。",
+    "star5": "2格内每存在1名其他友方，免伤和暴击伤害减免提高4%（最多提高12%）。代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合。使用非伤害绝学后，行动结束时以自身为阵眼，开启2格范围的法阵<link type=buff value=741210111 bgcolor=#3a85ffff>「回灵界」</link>且在范围内空格上随机生成2个<link type=buff value=741210113 bgcolor=#3a85ffff>「回灵阵式」</link>，持续1回合。使用伤害绝学后，行动结束时以被选取目标为阵眼，开启2格范围的法阵<link type=buff value=741210112 bgcolor=#3a85ffff>「眩灭界」</link>且在范围内空格上随机生成1个<link type=buff value=741210114 bgcolor=#3a85ffff>「眩灭阵式」</link>，持续1回合。",
+    "star6": "2格内每存在1名其他友方，免伤和暴击伤害减免提高5%（最多提高15%）。代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合。使用非伤害绝学后，行动结束时以自身为阵眼，开启2格范围的法阵<link type=buff value=741210111 bgcolor=#3a85ffff>「回灵界」</link>且在范围内空格上随机生成2个<link type=buff value=741210113 bgcolor=#3a85ffff>「回灵阵式」</link>，持续1回合。使用伤害绝学后，行动结束时以被选取目标为阵眼，开启2格范围的法阵<link type=buff value=741210112 bgcolor=#3a85ffff>「眩灭界」</link>且在范围内空格上随机生成2个<link type=buff value=741210114 bgcolor=#3a85ffff>「眩灭阵式」</link>，持续1回合。",
+    "story_name": "入世僧",
+    "story_content": "「何方妖孽在此作祟？！」<br/>人未到，声先至，一杆木杵霎时间捣入画中。剑平转头便看到林间冲出来一个出家的，包袱式样，皆绑挂胸前，肩扛一串大紫檀木圆珠，不像金、银、菩提子，像是夜叉的眼珠子。<br/>出家的大叫道，「妖孽，今日叫你知道我密宗降魔术的厉害！」<br/>那冥皇顿时操使「遁影之术」，空地上惟余一抹黑烟形状，袅袅散了。<br/>出家人自陈法号真胤，「贫僧在入佛门之前，曾是恃法为恶的阴阳师，后来蒙师尊开恩收为门下，既传贫僧密宗破魔心法，又允贫僧保留阴阳道的道行。」<br/>又道，在十里外便闻到一股子妖气的杏仁苦味，只见妖光冲天，果真有个不男不女的妖人在此地作祟。不想却好心办坏事，失手以金刚杵打破了那朱红晶石，释放了蚩尤魂魄。<br/>真胤懊悔不已，誓要与各位同出共进，直至事情圆满解决。<br/>往后的事，也知道了。大战魔神，清了业障，积了善德，修行便也成了。<br/>那么——宿孽也尽可消了吧。",
+    "hero_icon": "Hero1210_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1010",
+        "name": "猛鬼破冲",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，自身获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_None_1001",
+        "name": "血刃之咒",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_None_1002",
+        "name": "地御之阵",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对范围内的所有友方施加<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄势化甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若遭受近战攻击前已有2点气力，则消耗所有气力触发：减免本次对战伤害40%。<br/>[气力技]每遭受1次伤害累积1点气力"
+      },
+      {
+        "img": "EXSkill_1330",
+        "name": "式鬼召唤",
+        "type": "召唤",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "召唤<b><color=#e4462c>1</color></b>个「式鬼」进行作战（继承自身<b><color=#e4462c>140%</color></b>物攻属性，其他属性继承<b><color=#e4462c>80%</color></b>，「式鬼」最多同时存在<b><color=#e4462c>1</color></b>个）。"
+      },
+      {
+        "img": "EXSkill_1319",
+        "name": "无方变幻",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]<b><color=#e4462c>2</color></b>格内有其他友方角色时，免伤<b><color=#e4462c>+10%</color></b>。<br/>主动使用，根据目标属相，为自身施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎铠」</link><link type=buff value=710010370 bgcolor=#3a85ffff>「霜铠」</link><link type=buff value=741028035 bgcolor=#3a85ffff>「雷铠」</link><link type=buff value=741032141 bgcolor=#3a85ffff>「光铠」</link><link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link><link type=buff value=741062095 bgcolor=#3a85ffff>「幽铠」</link>中的一种。"
+      },
+      {
+        "img": "EXSkill_1317",
+        "name": "金刚法轮",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人共造成<b><color=#e4462c>1</color></b>倍伤害，并施加<link type=buff value=700000894 bgcolor=#3a85ffff>「乱神II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。对暗系或冰系额外施加<link type=buff value=700019020 bgcolor=#3a85ffff>「压制」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1318",
+        "name": "鬼神灭破",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，开启<link type=buff value=741210143 bgcolor=#3a85ffff>「灭破空间」</link>，持续<b><color=#e4462c>1</color></b>回合，若命中<b><color=#e4462c>2</color></b>个及以上敌方，持续时间延长<b><color=#e4462c>1</color></b>回合。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "真胤",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "真胤",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "真胤",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "真胤",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_035",
+        "name": "三身通智阵",
+        "unlock_condition": "阵眼真胤位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1210_HeadIcon_Basic",
+        "icon1": "",
+        "icon2": "",
+        "icon3": "",
+        "desc": "上阵真胤和至少2位「阵眼」英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，2格内有其他友方角色时，绝学伤害提升10%。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "真胤",
+        "name": "檀木杖",
+        "img": "Weapon_tanmuzhang",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，过桥禅杖落，坐石袈裟袒。<br/>《释氏要览》有言，禅杖竹苇为之，用物包一头。令下座垫行；坐禅昏睡，以软头点之。禅杖多为坐禅时用以警睡之具，以檀木为材，少有战斗之效。然有咒法机缘者，凭光明正法，可操之退敌。<br/>言：捉杖生敬心，昏日醒世人。"
+      },
+      {
+        "weapon": "真胤",
+        "name": "金刚杖",
+        "img": "Weapon_jingangzhang",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，初传宝诀长生术，已证金刚不坏身。<br/>相传上古有得道高僧，凭一铁禅杖孤身探地界，经历九九八十一苦难之后，以残魂之身取回「辉月魂石」，镶于铁禅杖之上。持其者可炼就金刚不坏之身，刀枪不入水火难侵，以雷法正气退魍魉之敌。<br/>此杖后流传于世，不知所踪。<br/>言：众生作依怙，智慧身金刚。"
+      },
+      {
+        "weapon": "真胤",
+        "name": "七环钢杖",
+        "img": "Weapon_qihuangangzhang",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "<br/>载，作如是言休惊怖，侬家自有降魔杵。<br/>天地之气吐息而成云龙之态，每千年沉淀孕育一枚灵珠，称为「云龙珠」，若加持于禅杖之上，可借云海之力，驭翻涌玄雷。有渡海僧人于传奇经历中获降魔之杵，后同众友搅动风云，偶获「云龙珠」，将其一同炼化成「七环钢杖」，挥可攀云雷，降妖伏魔不在话下。<br/>言：云雷时交构，川泽方蒸腾。<br/>"
+      },
+      {
+        "weapon": "真胤",
+        "name": "八叶禅杖",
+        "img": "Weapon_bayechanzhang",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，十方诸佛，同生于淤泥之浊，三身证觉，俱坐于莲台之上。<br/>「八叶禅杖」以「枯明杵」为基，融以「风雷冠」，虽为木身却有乌光玄铁之坚，雕有莲花之形，即物所之心脏，通有情及非情，其状如莲花合而未开，佛心则如开敷莲花。持其行者在自心观八叶九尊之德，开发菩提心，诸邪不近，震慑天地邪灵尽数伏于正法。<br/>言：千叶不浊神，三身已证觉。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "无相法杵",
+        "img": "Weapon_wuxiangfachu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "「回灵界」范围内的友方物理免伤增加<b><color=#e4462c>5%</color></b>，「眩灭界」范围内的敌方受治疗效果降低<b><color=#e4462c>10%</color></b>。友方触发阵式时，反转真胤<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "name": "无相法杵",
+        "img": "Weapon_wuxiangfachu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "「回灵界」范围内的友方物理免伤增加<b><color=#e4462c>6%</color></b>，「眩灭界」范围内的敌方受治疗效果降低<b><color=#e4462c>15%</color></b>。友方触发阵式时，反转真胤<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "name": "无相法杵",
+        "img": "Weapon_wuxiangfachu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "「回灵界」范围内的友方物理免伤增加<b><color=#e4462c>7%</color></b>，「眩灭界」范围内的敌方受治疗效果降低<b><color=#e4462c>20%</color></b>。友方触发阵式时，反转真胤<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "name": "无相法杵",
+        "img": "Weapon_wuxiangfachu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "「回灵界」范围内的友方物理免伤增加<b><color=#e4462c>8%</color></b>，「眩灭界」范围内的敌方受治疗效果降低<b><color=#e4462c>25%</color></b>。友方触发阵式时，反转真胤<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "name": "无相法杵",
+        "img": "Weapon_wuxiangfachu",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "「回灵界」范围内的友方物理免伤增加<b><color=#e4462c>10%</color></b>，「眩灭界」范围内的敌方受治疗效果降低<b><color=#e4462c>30%</color></b>。友方触发阵式时，反转真胤<b><color=#e4462c>2</color></b>个「有害状态」。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.339013195639701"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.229833620195066"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.104390243902439"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.103140743916818"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.102326079965698"
+      },
+      {
+        "name": "琅環玉璧",
+        "percent": "0.10221888734055"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.278026391279403"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.223522662076878"
+      },
+      {
+        "name": "藏龙玉带",
+        "percent": "0.11281315739147"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.336909542933639"
+      },
+      {
+        "name": "寒月玉镯",
+        "percent": "0.22734748517881"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.126582520558424"
+      }
+    ]
+  }
+]

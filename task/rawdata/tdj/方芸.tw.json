@@ -1,0 +1,374 @@
+[
+  {
+    "name": "方芸",
+    "is_new": 1,
+    "weight": "590",
+    "pinyin": "fangyun",
+    "source": "神魔至尊傳登場角色",
+    "pic": "Hero1223_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "遠攻",
+    "prop": "雷",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "176",
+    "magic_attack": "14",
+    "physical_attack": "102",
+    "magic_defense": "27",
+    "physical_defense": "30",
+    "huixin": "49",
+    "inherent": "Gift_067",
+    "inherent_name": "掠魂迭情",
+    "star1": "",
+    "star2": "",
+    "star3": "主動攻擊「對戰中」物攻提高8%。主動攻擊若擊殺敵人則獲得再行動（間隔4回合觸發）",
+    "star4": "主動攻擊「對戰中」物攻提高10%。主動攻擊若擊殺敵人則獲得再行動（間隔3回合觸發）",
+    "star5": "主動攻擊「對戰中」物攻提高12%。主動攻擊若擊殺敵人則獲得再行動（間隔3回合觸發）",
+    "star6": "主動攻擊「對戰中」物攻提高15%。主動攻擊若擊殺敵人則獲得再行動（間隔2回合觸發）",
+    "story_name": "方芸",
+    "story_content": "方芸是勾欄老闆給她起的名字，她本不願為一副偽裝多花心思，老闆卻冥思苦想了一夜。<br/>她掩面嬌笑：「妾身何德何能，讓主人家如此盡心。」<br/>老闆道：「你自西域來不懂這些。名字是你的招牌，你又是咱們坊裡的招牌，這招牌好比臉面，誰會往自己臉上抹黑？」<br/>方芸嘻嘻笑道：「那求老闆疼我，給我一個好名字，再給我一個好前程。」<br/>老闆的眼神在她身上上上下下一掃，訕笑著說：「必然，必然。」<br/>深夜，她放飛了一隻信鴿。<br/>老闆差人送來了新名字，婢女生了張巧嘴，恭維道：「芸草芬芳常年不散，這是祝姑娘容顏長久不敗呢。」<br/>她睨了婢女一眼，冷冷一笑。<br/>人類就是如此，對待一隻待宰的羔羊，一塊到嘴的肥肉，還要為如何拆吃巧立名目。<br/>但對於被使用的物品來說，叫什麼都是一樣，那不過是高高在上的施捨，是一層斑斕錦繡的遮羞布。<br/>方芸舔了舔嘴唇，妖就誠實多了，不管達官富貴還是低賤如塵，吃人就是吃人，和著骨頭渣子咽下去，還管你是三六九等，不過是我肚子裡的一餐罷了。",
+    "hero_icon": "Hero1223_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1145",
+        "name": "魅影鏈殺",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.4倍傷害，暴擊率提升20%。成功擊殺目標時，則該絕學冷卻時間減少3回合。"
+      },
+      {
+        "img": "EXSkill_1146",
+        "name": "肆虐",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴擊率提高10%，若與未滿血敵人作戰時，「對戰中」暴擊傷害提高15%。"
+      },
+      {
+        "img": "Skill_Ranger_1013",
+        "name": "蓮花盞",
+        "type": "陷阱",
+        "cd": "1回合",
+        "cost": "1內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，在指定格子佈置「蓮花盞」，持續2回合。<br/>「蓮花盞」：敵人進入陷阱1格範圍內，則立刻觸發，施加<link type=buff value=700000731 bgcolor=#3a85ffff>「遲緩II」</link>和2個隨機「減益狀態」，持續2回合。(陷阱觸發後消失)"
+      },
+      {
+        "img": "Skill_Ranger_1014",
+        "name": "藏鋒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身沒有「括羽」狀態，則使用絕學後獲得「括羽」狀態。<br/>「括羽」：單體絕學射程+1（使用單體絕學後消耗）"
+      },
+      {
+        "img": "Skill_Ranger_1012",
+        "name": "疾風卷塵",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，對飛行角色額外造成20%傷害，「對戰後」獲得再移動（2格）。"
+      },
+      {
+        "img": "EXSkill_1148",
+        "name": "電鎖雷吟",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線6格",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，並使其發生1格內「擾動」效果。<br/>「擾動」：位置發生隨機變化"
+      },
+      {
+        "img": "Skill_Ranger_1001",
+        "name": "逐風破",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成1.4倍傷害，對飛行角色額外造成20%傷害，「對戰前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虛損II」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1147",
+        "name": "迷心顛魂",
+        "type": "主動",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "7格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，對目標施加「迷心」<link type=buff value=700000894 bgcolor=#3a85ffff>「亂神II」</link><link type=buff value=700000731 bgcolor=#3a85ffff>「遲緩II」</link>狀態，持續2回合。<br/>「迷心」：行動結束對自身以及周圍1圈友方造成「固定傷害」（目標最大氣血*25%）（不可驅散）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "玄鐵鉤鎖",
+        "img": "weapon_xuantiegousuo",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，矯若游龍舞，婉似驚鴻落。<br/>傳，其由「烏金玄鐵」鑄造而成，因其軟折易卷，韌性極強，揮動起來仿若舞蹈，常作女子防身之物，若善加使用，可出其不意，攻之不及。"
+      },
+      {
+        "name": "明輪鏈",
+        "img": "weapon_minlunlian",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "載，明輪當空舞，回光照骸骨。<br/>明輪鏈，數十年前自西域流入中土，傳西域崇信之神明主司光明之德行，故兵器亦擬日輪之態，以精鋼赤金打造，若在光下揮舞，金芒燦燦，迷人眼目。言：烈日必逐惡，明光豈蒙塵。"
+      },
+      {
+        "name": "銀漪鎖",
+        "img": "weapon_yinqisuo",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，壁水溶溶漾碧漪，銀光蛇盤馭殺機。<br/>傳，銀漪鎖，以海中萬年玄冰為髓，觸手陰寒無比，傾刻可至凍傷，有甚者不忍放手，竟斷臂求生，非妖異、非大能無法使用。又傳，此鎖殺人不見血跡，但見赤色冰珠滾動不息。言：玉潔冰清心苦寒，孤高更甚目無塵。<br/>"
+      },
+      {
+        "name": "幽嵐鬼鎖鉤",
+        "img": "weapon_youlanguisuogou",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載：回頭下望人寰處，不見人煙見塵霧。<br/>傳，此鎖乃幽冥之物，長短自便，詭秘異常，所到之處，幽氛凝聚，霧靄重重。揮之見首不見尾，時隱時現，目無所及，仿若八方內處處殺機，非擅陣法者不可破。言：楚歌無人唱，但聽十面伏。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "回合開始時，若<b><color=#e4462c>7</color></b>格內有未滿血敵方，獲得「迅捷II」狀態，持續<b><color=#e4462c>1</color></b>回合。與非女性角色戰鬥時，「對戰中」傷害提高<b><color=#e4462c>8%</color></b>。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "蝮蛇吐信",
+        "img": "weapon_fushetuxing",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "回合開始時，若<b><color=#e4462c>7</color></b>格內有未滿血敵方，獲得「迅捷II」狀態，持續<b><color=#e4462c>1</color></b>回合。與非女性角色戰鬥時，「對戰中」傷害提高<b><color=#e4462c>9%</color></b>。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "蝮蛇吐信",
+        "img": "weapon_fushetuxing",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "回合開始時，若<b><color=#e4462c>7</color></b>格內有未滿血敵方，獲得「迅捷II」狀態，持續<b><color=#e4462c>1</color></b>回合。與非女性角色戰鬥時，「對戰中」傷害提高<b><color=#e4462c>10%</color></b>。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "蝮蛇吐信",
+        "img": "weapon_fushetuxing",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "回合開始時，若<b><color=#e4462c>7</color></b>格內有未滿血敵方，獲得「迅捷II」狀態，持續<b><color=#e4462c>1</color></b>回合。與非女性角色戰鬥時，「對戰中」傷害提高<b><color=#e4462c>12%</color></b>。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "蝮蛇吐信",
+        "img": "weapon_fushetuxing",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "回合開始時，若<b><color=#e4462c>7</color></b>格內有未滿血敵方，獲得「迅捷II」狀態，持續<b><color=#e4462c>1</color></b>回合。與非女性角色戰鬥時，「對戰中」傷害提高<b><color=#e4462c>15%</color></b>。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "蝮蛇吐信",
+        "img": "weapon_fushetuxing",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "鳳翼神墜",
+        "percent": "0.3635"
+      },
+      {
+        "name": "冰蟾串珠·塵",
+        "percent": "0.2154"
+      },
+      {
+        "name": "如意珠翠",
+        "percent": "0.101847465656087"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.4482"
+      },
+      {
+        "name": "流光手鐲·煙",
+        "percent": "0.1509"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "辟邪玉佩·煙",
+        "percent": "0.1673"
+      },
+      {
+        "name": "清神淨玉",
+        "percent": "0.1544"
+      },
+      {
+        "name": "護命神符·煙",
+        "percent": "0.114400757934628"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鮫人悲歌·煙",
+        "percent": "0.1529"
+      },
+      {
+        "name": "鮫人悲歌·影",
+        "percent": "0.1511"
+      },
+      {
+        "name": "萬佛朝宗·霧",
+        "percent": "0.100307910942681"
+      }
+    ]
+  }
+]

@@ -1,0 +1,397 @@
+[
+  {
+    "name": "慕容璇璣",
+    "is_new": "0",
+    "weight": "320",
+    "pinyin": "murongxuanji",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1104_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "雷",
+    "career": "咒師",
+    "range": "2",
+    "speed": "3",
+    "qixue": "173",
+    "magic_attack": "97",
+    "physical_attack": "12",
+    "magic_defense": "37",
+    "physical_defense": "31",
+    "huixin": "40",
+    "inherent": "Gift_005",
+    "inherent_name": "璇星轉世",
+    "star1": "",
+    "star2": "",
+    "star3": "使用絕學時，暴擊率提高20%。且絕學射程提高1。",
+    "star4": "使用絕學時，暴擊率提高23%。且絕學射程提高1。",
+    "star5": "使用絕學時，暴擊率提高25%。且絕學射程提高1。",
+    "star6": "使用絕學時，暴擊率提高30%。且絕學射程提高1。",
+    "story_name": "命數",
+    "story_content": "北斗明辰之精投胎轉生，是以天生靈蘊明慧過人……<br/>只是在十六歲上時，定有一劫。<br/>至於這劫難嘛……<br/>不可說，不可說也。<br/>慕容璇璣一直討厭那個道人。<br/>她總是覺得，自己的命數只有自己才說了算。<br/>所以她一向毫無顧忌。<br/>人們尊她的母親是神武觀的觀主，斷定她定是颯爽俠女或深閨小姐。<br/>但慕容璇璣偏不，她一定要做那任性妄為的魔頭。<br/>她不想成為任何人心中的樣子。<br/>可偏偏，她被擄走，一時惴惴不安。<br/>可偏偏，她被人救出，那人英姿颯爽。<br/>這一波折，正在十六歲的關口，慕容璇璣猶豫著<br/>「莫非，那斷命的道人真的猜中了？」<br/>心念之間，反反覆覆。但璇璣還是想清了。<br/>哪怕他斷中了我此刻又如何？我的選擇，是我自己所做！",
+    "hero_icon": "Hero1104_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1067",
+        "name": "引雷真訣",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，暴擊率+20%。「對戰後」自身開啟「雷電空間」，持續1回合。<br/>「雷電空間」：自身2格範圍內，友方主動發起對戰時，「對戰中」傷害提高10%，對冰屬相敵人額外提升10%。（1回合限定發動2次）"
+      },
+      {
+        "img": "Skill_Electricity_1006",
+        "name": "電掣",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，對3格範圍內的1個敵人，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。並使其發生1圈內「擾動」效果<br/>「擾動」：位置發生隨機變化"
+      },
+      {
+        "img": "GPassive_1018",
+        "name": "退魔符",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，使相鄰1格內法防屬性最高的1個其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「禦魔」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_Electricity_1002",
+        "name": "雷鳴之陣",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態 ，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1047",
+        "name": "紫琰飛煌",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，暴擊率+20%。該絕學每造成1次暴擊傷害，則絕學冷卻時間減少1回合。"
+      },
+      {
+        "img": "Skill_Electricity_1001",
+        "name": "雷引之術",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」自身傳送到3格內一個隨機隊友身邊。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "若自身氣血大於等於90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "Skill_Electricity_1008",
+        "name": "千煌雷烈",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.7倍傷害，使目標在範圍內發生「擾動」狀態，並施加<link type=buff value=700004040 bgcolor=#3a85ffff>「電流」</link>狀態，持續2回合。<br/>「擾動」：位置發生隨機變化<br/>[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害累積1點氣力）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "水靈天珠",
+        "img": "Weapon_shuilingtianzhu",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，仙草雲生無人採，直到千歲化水靈。本是天地凝結，乃為修仙者取而化蘊，將山精之靈力融入「列星」，累經幾世後，方為道法之器。<br/>傳，水靈天珠乃以「烏金玄鐵」煉化而成，乃有愈傷凝血奇效，因凝蘊生氣之能，故其能活法光靈之力。"
+      },
+      {
+        "name": "冰霧寒玉",
+        "img": "Weapon_bingwuhanyu",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "載，瑤池仙枝初璀璨，仙風吹墮宿玉新。歎寒冰豔了無塵，一庭疏影聞冷香。<br/>傳，冰霧寒玉乃以「烏金玄鐵」煉化而成，於「列星」可見。<br/>傳，其乃仙家之寶，能化光靈為玄凜寒波，飛擊時可增添寒氣之傷。"
+      },
+      {
+        "name": "封雷淨玉",
+        "img": "Weapon_fengleijingyu",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "傳，雷電為神，君子容必變，以敬天怒。現團團金光，一舞神鬼哭。<br/>雷電之怒，蘊神力，化為精，為此器溯源。<br/>又傳其為雷電神，持「列星」所煉，是將雷電之精以「化淵玉鋼」封入宿玉之內，其具追敵精準之神能。"
+      },
+      {
+        "name": "鈞天瓏玉",
+        "img": "Weapon_juntianlongyu",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "傳，大道不離方寸地，工夫細密有行持。三清閣下一團髓，晝夜瑤光光爍爍。瑤光，其溯源也。<br/>又傳，其光者，乃九天神女所織之紗索。聲動者，乃神女以其舞，輝映天光。故為神仙寶物，法力超卓。<br/>言：神女所持，令妖孽魔障莫敢睜眼矣。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_shuilingzhuhua",
+        "name": "水靈珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baijuanwuxiu",
+        "name": "白絹舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_008",
+        "name": "璇璣引雷陣",
+        "unlock_condition": "陣眼慕容璇璣位階35級，五內迅陸級解鎖",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1104_HeadIcon_Basic",
+        "icon1": "electricity",
+        "icon2": "electricity",
+        "icon3": "",
+        "desc": "上陣慕容璇璣和至少2位「雷」屬相英靈時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，主動攻擊暴擊率提高15%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "使用絕學攻擊時暴擊傷害提高<b><color=#e4462c>7%</color></b>。本回合若施放過絕學，行動結束時根據造成暴擊的數量對自身和<b><color=#e4462c>3</color></b>格內最多<b><color=#e4462c>1</color></b>名友方施加「蓄電」狀態。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "九陽煌珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_jiuyanghuangzhu"
+      },
+      {
+        "desc": "使用絕學攻擊時暴擊傷害提高<b><color=#e4462c>9%</color></b>。本回合若施放過絕學，行動結束時根據造成暴擊的數量對自身和<b><color=#e4462c>3</color></b>格內最多<b><color=#e4462c>1</color></b>名友方施加「蓄電」狀態。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "九陽煌珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_jiuyanghuangzhu"
+      },
+      {
+        "desc": "使用絕學攻擊時暴擊傷害提高<b><color=#e4462c>11%</color></b>。本回合若施放過絕學，行動結束時根據造成暴擊的數量對自身和<b><color=#e4462c>3</color></b>格內最多<b><color=#e4462c>2</color></b>名友方施加「蓄電」狀態。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "九陽煌珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_jiuyanghuangzhu"
+      },
+      {
+        "desc": "使用絕學攻擊時暴擊傷害提高<b><color=#e4462c>13%</color></b>。本回合若施放過絕學，行動結束時根據造成暴擊的數量對自身和<b><color=#e4462c>3</color></b>格內最多<b><color=#e4462c>2</color></b>名友方施加「蓄電」狀態。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "九陽煌珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_jiuyanghuangzhu"
+      },
+      {
+        "desc": "使用絕學攻擊時暴擊傷害提高<b><color=#e4462c>15%</color></b>。本回合若施放過絕學，行動結束時根據造成暴擊的數量對自身和<b><color=#e4462c>3</color></b>格內最多<b><color=#e4462c>3</color></b>名友方施加「蓄電」狀態。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "九陽煌珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "Weapon_jiuyanghuangzhu"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.4616"
+      },
+      {
+        "name": "封豨牙懸",
+        "percent": "0.2034"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "玉璣靈鐲·塵",
+        "percent": "0.1993"
+      },
+      {
+        "name": "赤霞玉戒·塵",
+        "percent": "0.1957"
+      },
+      {
+        "name": "赤霞玉戒·煙",
+        "percent": "0.156012258105994"
+      },
+      {
+        "name": "玉璣靈鐲·煙",
+        "percent": "0.1482"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "護命神符·煙",
+        "percent": "0.1771"
+      },
+      {
+        "name": "辟邪玉佩·煙",
+        "percent": "0.1610"
+      },
+      {
+        "name": "清神淨玉",
+        "percent": "0.156751601911579"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "萬佛朝宗·霧",
+        "percent": "0.2265"
+      },
+      {
+        "name": "鮫人悲歌·煙",
+        "percent": "0.1281"
+      },
+      {
+        "name": "鮫人悲歌·影",
+        "percent": "0.124659794698155"
+      },
+      {
+        "name": "朝雲橫度",
+        "percent": "0.1170"
+      }
+    ]
+  }
+]

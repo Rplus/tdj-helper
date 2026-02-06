@@ -1,0 +1,378 @@
+[
+  {
+    "name": "李盈凤",
+    "is_new": "",
+    "weight": "230",
+    "pinyin": "liyingfeng",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1127_img",
+    "prop_icon": "Light",
+    "career_icon": "Rogue",
+    "rarity": "SR",
+    "position": "远攻",
+    "prop": "光",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "141",
+    "magic_attack": "10",
+    "physical_attack": "89",
+    "magic_defense": "20",
+    "physical_defense": "26",
+    "huixin": "45",
+    "inherent": "Gift_024",
+    "inherent_name": "走马射箭",
+    "star1": "",
+    "star2": "主动攻击「对战中」伤害提高12%。使用主动绝学后，获得<link type=buff value=743001671 bgcolor=#3a85ffff>「拉弓」</link>状态。",
+    "star3": "主动攻击「对战中」伤害提高14%。使用主动绝学后，获得<link type=buff value=743001671 bgcolor=#3a85ffff>「拉弓」</link>状态。",
+    "star4": "主动攻击「对战中」伤害提高16%。使用主动绝学后，获得<link type=buff value=743001671 bgcolor=#3a85ffff>「拉弓」</link>状态。",
+    "star5": "主动攻击「对战中」伤害提高18%。使用主动绝学后，获得<link type=buff value=743001671 bgcolor=#3a85ffff>「拉弓」</link>状态。",
+    "star6": "主动攻击「对战中」伤害提高20%。使用主动绝学后，获得<link type=buff value=743001671 bgcolor=#3a85ffff>「拉弓」</link>状态。",
+    "story_name": "公主",
+    "story_content": "银川公主李盈凤，当然，最出名的还是她的父王——没错，她的父王就是李元昊。<br/>白高大夏国，自李思恭任定难军节度使，断续间已有国祚百余载。<br/>其间中原混乱，四方征伐。<br/>所幸，大夏先帝皆为豪强，夺河西之地立国。<br/>然而时至今日，大夏却陷内忧外患。<br/>内有权臣赫兰铁罕执掌权柄，外有宋旌强敌环伺。<br/>后有身孕，大夏子民皆喜，期盼明主诞世。<br/>可啼哭中来到这世间的却是个女童。<br/>女童也罢！毕竟那大唐也有武曌改制呢！<br/>可惜，生于深宫，养于深宫，不经风雨，不谙世事。<br/>百姓抹泪，朝臣哀叹。<br/>可这声声哀叹中，公主的啜泣又有谁能听得呢？",
+    "hero_icon": "Hero1127_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Ranger_1002",
+        "name": "马踏飞燕",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，自身获得<link type=buff value=700001340 bgcolor=#3a85ffff>「精准」</link>状态，持续<b><color=#e4462c>1</color></b>回合，并获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "Skill_Ranger_1004",
+        "name": "漫天箭雨",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害。使目标<b><color=#e4462c>1</color></b>个随机属性降低。"
+      },
+      {
+        "img": "GPassive_1004",
+        "name": "横力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战中」气血百分比大于敌人，物攻+12%。"
+      },
+      {
+        "img": "Skill_Ranger_1012",
+        "name": "疾风卷尘",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，对飞行角色额外造成<b><color=#e4462c>20%</color></b>伤害，「对战后」获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "Skill_Assassin_1015",
+        "name": "蓄势掠魂",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若主动攻击前已有2点气力，则消耗所有气力发动绝学效果：造成伤害后，使目标2个随机属性降低。<br/>[气力技]每造成1次伤害累积1点气力"
+      },
+      {
+        "img": "GPassive_1021",
+        "name": "退魔符印",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，使自身2格范围内法防属性最高的2个其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「御魔I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1016",
+        "name": "血刃符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，使相邻1格内物攻/法攻属性最高的1个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1039",
+        "name": "穿云箭",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "十字4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.1</color></b>倍伤害。间距越远伤害越高，每增加<b><color=#e4462c>1</color></b>格伤害提高<b><color=#e4462c>20%</color></b>（最高<b><color=#e4462c>60%</color></b>)。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，造成击杀额外获得<b><color=#e4462c>1</color></b>点气力。）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "李盈凤",
+        "name": "落月弓",
+        "img": "Weapon_luoyuegong",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，晴云如衣如絮，落月似钩似梳。一弓弦，一箭支，又飞阶，意气风发。<br/>传，经能工巧匠打造而成，于「列星」可现。<br/>传，落月弓，因弓臂如弯月，而得其名，是弓武操使者的入门之物。"
+      },
+      {
+        "weapon": "李盈凤",
+        "name": "兕角弓",
+        "img": "Weapon_sijiaogong",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，月炯炯兮自有光通兕角，草苍苍兮谁能引满此弓。祖祖家传，心心印全。<br/>传，兕角弓的铸法于「列星」中可见。<br/>传，其弓臂有着古朴之气，内乃含「乌金玄铁」，故沉重难开。然，威力无比，引弓者需由较高修为。"
+      },
+      {
+        "weapon": "李盈凤",
+        "name": "灵宝弓",
+        "img": "Weapon_lingbaogong",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，乃知真境未易彰，神物宝护天缄藏。人谋暗与鬼工合，一日剖露如腾骧。<br/>传，灵宝弓，于「列星」所得，非打造可成，只知其乃「化渊玉钢」之质。传，其非同寻常弓武，轻巧无比，然，胜在轻巧，发箭迅捷。言：灵宝弓，箭无虚发，百步内可裂石，实乃神武矣。"
+      },
+      {
+        "weapon": "李盈凤",
+        "name": "玄凛寒穹",
+        "img": "Weapon_xuanlinghanqiong",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，玄凛乃神名，其武为寒弓，坐骑为青龙，守护北方一隅。北地有妖兽之祸，玄凛剿灭之，受重创。上神感念其功，是造此神武为记。<br/>传，玄凛寒穹的铸法于列星中可见。<br/>传，其蕴藉北方之主玄凛魂外三形之其一。又传，其弓弦乃「列星」打造，整合为一，威力无比，抵御妖魔更见其能。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "李盈凤",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "李盈凤",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "李盈凤",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "李盈凤",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "星陨锐月弓",
+        "img": "weapon_fengxingyunyuegong",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "行动结束时，若携带「拉弓」状态，获得「远射」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「远射」：射程<b><color=#e4462c>+1</color></b>，暴击率<b><color=#e4462c>+4%</color></b>"
+      },
+      {
+        "name": "星陨锐月弓",
+        "img": "weapon_fengxingyunyuegong",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "行动结束时，若携带「拉弓」状态，获得「远射」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「远射」：射程<b><color=#e4462c>+1</color></b>，暴击率<b><color=#e4462c>+8%</color></b>"
+      },
+      {
+        "name": "星陨锐月弓",
+        "img": "weapon_fengxingyunyuegong",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "行动结束时，若携带「拉弓」状态，获得「远射」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「远射」：射程<b><color=#e4462c>+1</color></b>，暴击率<b><color=#e4462c>+12%</color></b>"
+      },
+      {
+        "name": "星陨锐月弓",
+        "img": "weapon_fengxingyunyuegong",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "行动结束时，若携带「拉弓」状态，获得「远射」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「远射」：射程<b><color=#e4462c>+1</color></b>，暴击率<b><color=#e4462c>+16%</color></b>"
+      },
+      {
+        "name": "星陨锐月弓",
+        "img": "weapon_fengxingyunyuegong",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "行动结束时，若携带「拉弓」状态，获得「远射」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「远射」：射程<b><color=#e4462c>+1</color></b>，暴击率<b><color=#e4462c>+20%</color></b>"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.893968871595331"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.23342175066313"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.108753315649867"
+      },
+      {
+        "name": "乌光燧珏·烟",
+        "percent": "0.102140077821012"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.39474305500905"
+      },
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.316833241520422"
+      },
+      {
+        "name": "紫月香囊·尘",
+        "percent": "0.0989218540961675"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "熏风",
+        "percent": "0.259727626459144"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.137267904509284"
+      }
+    ]
+  }
+]

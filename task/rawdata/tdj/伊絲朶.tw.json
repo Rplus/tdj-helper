@@ -1,0 +1,321 @@
+[
+  {
+    "name": "伊絲朶",
+    "is_new": "0",
+    "weight": "30",
+    "pinyin": "yisiduo",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1131_img",
+    "prop_icon": "Light",
+    "career_icon": "Physician",
+    "rarity": "R",
+    "position": "治療",
+    "prop": "光",
+    "career": "祝由",
+    "range": "2",
+    "speed": "3",
+    "qixue": "132",
+    "magic_attack": "56",
+    "physical_attack": "7",
+    "magic_defense": "29",
+    "physical_defense": "23",
+    "huixin": "15",
+    "inherent": "Gift_014",
+    "inherent_name": "虔誠祈禱",
+    "star1": "治療效果提高6%。行動結束時，對1格內的所有其他友方，施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲」</link>狀態，持續1回合。",
+    "star2": "治療效果提高8%。行動結束時，對1格內的所有其他友方，施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲」</link>狀態，持續1回合。",
+    "star3": "治療效果提高10%。行動結束時，對1格內的所有其他友方，施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲」</link>狀態，持續1回合。",
+    "star4": "治療效果提高13%。行動結束時，對1格內的所有其他友方，施加<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲」</link>狀態，持續2回合。",
+    "star5": "治療效果提高16%。行動結束時，對1格內的所有其他友方，施加<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲」</link>狀態，持續2回合。",
+    "star6": "治療效果提高20%。行動結束時，對2格內的所有其他友方，施加<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲」</link>狀態，持續2回合。",
+    "story_name": "少女",
+    "story_content": "伊絲朶是一個尼雅的少女。<br/>尼雅的少女從不吝於表露自己的性情，無論是喜悅還是悲傷。<br/>她生於那座恬靜的村莊，幾乎一生都未曾離開那扇矮小的竹牆。<br/>當那些“外人”來到此地，她並不感到慌張與恐懼。<br/>只是帶著從未改變的笑容，面對著那些爺爺口中的“陌生人”說：<br/>「伊絲朶，能幫你們做些什麼嗎？」<br/>可就連伊絲朶自己都沒有想到，她真的幫到了那些人。<br/>不止是那些人，她幫到了自己一直在找尋的夥伴。<br/>她幫到了與自己相依為命的爺爺。<br/>她幫到了所有人，哪怕是用自己的生命。<br/>伊絲朶是一個普通的少女。<br/>但她的善良，卻從不普通。",
+    "hero_icon": "Hero1131_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_None_1005",
+        "name": "氣愈之術",
+        "type": "治療",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的1.5倍），驅散1個「減益狀態」。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列陣",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格內每多1名友方，「對戰中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_None_1006",
+        "name": "神氣流轉",
+        "type": "治療",
+        "cd": "1回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的0.75倍），驅散1個「減益狀態」。"
+      },
+      {
+        "img": "Skill_None_1004",
+        "name": "退魔之陣",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，對範圍內的所有友方施加<link type=buff value=700000542 bgcolor=#3a85ffff>「禦魔」</link>狀態，持續3回合。"
+      },
+      {
+        "img": "Skill_None_1009",
+        "name": "生聚靈咒",
+        "type": "治療",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的1倍），施加<link type=buff value=700001120 bgcolor=#3a85ffff>「癒合」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_Light_1002",
+        "name": "淨化",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，若本回合使用過絕學，為自身3格內1個友方驅散2個「減益狀態」。（間隔1回合觸發）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "琉璃法珠",
+        "img": "Weapon_liulifazhu",
+        "qixue": "38",
+        "magic": "32",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "傳，為修術而初得法器，雖為靈珠操使者入門之物，卻可憑修法者精修心力而強化。<br/>傳，有人得之，將其氣愈之術化用此器中，日益趁手。琉璃宿玉，流光陸離，其光燦然。"
+      },
+      {
+        "name": "水靈天珠",
+        "img": "Weapon_shuilingtianzhu",
+        "qixue": "47",
+        "magic": "39",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%",
+        "rarity": "R",
+        "desc": "載，仙草雲生無人採，直到千歲化水靈。本是天地凝結，乃為修仙者取而化蘊，將山精之靈力融入「列星」，累經幾世後，方為道法之器。<br/>傳，水靈天珠乃以「烏金玄鐵」煉化而成，乃有愈傷凝血奇效，因凝蘊生氣之能，故其能活法光靈之力。"
+      },
+      {
+        "name": "清神珠",
+        "img": "Weapon_xuewenqiongyu",
+        "qixue": "58",
+        "magic": "48",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%<br/>[真傳]全傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "載，本從自然，清神去濁，如此修持，與世絕塵。<br/>經良材煉化而得之，可於「列星」得見。<br/>傳，有人得之，將其光明法化用此器中，日益趁手。言：清神明智，忘機斷絕，陰陽造化，凡眼豈知。"
+      },
+      {
+        "name": "煉血珠",
+        "img": "Weapon_xuewenzhu",
+        "qixue": "73",
+        "magic": "60",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%<br/>[真傳]全傷害減免提升5%<br/>[貫清]氣血高於50%時，治療效果提升10%",
+        "rarity": "SSR",
+        "desc": "載，日射血珠將滴地，風翻火焰欲燒人。寶珠映血持在手，細看不似人間有。<br/>傳，血紋珠是以密法煉化而成，後為注入獨特心法，乃生血紋，而得血紋珠之名。言，血紋寶珠，嗜血化骨。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_shuilingzhuhua",
+        "name": "水靈珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "8",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baijuanwuxiu",
+        "name": "白絹舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰凜銀環·塵",
+        "percent": "0.25"
+      },
+      {
+        "name": "八荒靈石·霧",
+        "percent": "0.2083"
+      },
+      {
+        "name": "龍骨項鍊·煙",
+        "percent": "0.2083"
+      },
+      {
+        "name": "朱蕊晶花",
+        "percent": "0.125"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "鳳紋靈鐲·煙",
+        "percent": "0.3462"
+      },
+      {
+        "name": "朝露戒·煙",
+        "percent": "0.1923"
+      },
+      {
+        "name": "碧血手鐲·霧",
+        "percent": "0.1923"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "辟邪玉佩·塵",
+        "percent": "0.4375"
+      },
+      {
+        "name": "龍涎香囊·煙",
+        "percent": "0.1875"
+      },
+      {
+        "name": "龍涎香囊·塵",
+        "percent": "0.1875"
+      },
+      {
+        "name": "紫月香囊·霧",
+        "percent": "0.125"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "夜雨·霧",
+        "percent": "0.381"
+      },
+      {
+        "name": "鮫人悲歌·煙",
+        "percent": "0.3333"
+      },
+      {
+        "name": "熏風",
+        "percent": "0.1905"
+      },
+      {
+        "name": "鮫人悲歌·塵",
+        "percent": "0.0952"
+      }
+    ]
+  }
+]

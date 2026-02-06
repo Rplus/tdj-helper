@@ -1,0 +1,362 @@
+[
+  {
+    "name": "楊雲佐",
+    "is_new": "0",
+    "weight": "150",
+    "pinyin": "yangyunzuo",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1130_img",
+    "prop_icon": "Light",
+    "career_icon": "Assassin",
+    "rarity": "SR",
+    "position": "近攻",
+    "prop": "光",
+    "career": "御風",
+    "range": "1",
+    "speed": "5",
+    "qixue": "153",
+    "magic_attack": "10",
+    "physical_attack": "90",
+    "magic_defense": "27",
+    "physical_defense": "26",
+    "huixin": "46",
+    "inherent": "Gift_017",
+    "inherent_name": "成算在心",
+    "star1": "",
+    "star2": "每擊殺1個敵人，自身獲得「神意」狀態（上限2層）。「神意」存在時，遭受近戰攻擊「對戰中」必然先攻，同時造成傷害提高17%。（每回合限定觸發1次）<br/>「神意」物攻物防提升6%",
+    "star3": "每擊殺1個敵人，自身獲得「神意」狀態（上限2層）。「神意」存在時，遭受近戰攻擊「對戰中」必然先攻，同時造成傷害提高19%。（每回合限定觸發1次）<br/>「神意」物攻物防提升7%",
+    "star4": "每擊殺1個敵人，自身獲得「神意」狀態（上限2層）。「神意」存在時，遭受近戰攻擊「對戰中」必然先攻，同時造成傷害提高22%。（每回合限定觸發1次）<br/>「神意」物攻物防提升8%",
+    "star5": "每擊殺1個敵人，自身獲得「神意」狀態（上限2層）。「神意」存在時，遭受近戰攻擊「對戰中」必然先攻，同時造成傷害提高25%。（每回合限定觸發1次）<br/>「神意」物攻物防提升9%",
+    "star6": "每擊殺1個敵人，自身獲得「神意」狀態（上限2層）。「神意」存在時，遭受近戰攻擊「對戰中」必然先攻，同時造成傷害提高30%。（每回合限定觸發1次）<br/>「神意」物攻物防提升10%",
+    "story_name": "神仙無情",
+    "story_content": "說是神仙無情，<br/>視萬物為芻狗，<br/>但萬物卻不知，<br/>神仙之視不止一地一域，<br/>而是幾世幾輩，<br/>舉手投足間，世事已變。<br/>無情？有情？<br/>誰知道呢？",
+    "hero_icon": "Hero1130_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1005",
+        "name": "疾風突襲",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1倍傷害，攻擊前每移動1格，傷害提高20%（最多60%）"
+      },
+      {
+        "img": "Skill_Assassin_1027",
+        "name": "凌風訣",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動攻擊「對戰中」傷害提高10%。若「對戰後」有剩餘的移動力，可繼續移動。"
+      },
+      {
+        "img": "Skill_Swordsman_1003",
+        "name": "衝鋒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "進入「對戰前」，每移動1格，物攻提高5%。（最多15%）"
+      },
+      {
+        "img": "EXSkill_1035",
+        "name": "劍影逐光",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，攻擊前，每移動1格，本次傷害提高10%。（最多30%）"
+      },
+      {
+        "img": "Gskill_1002",
+        "name": "攬風神行",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，為範圍內所有友方施加<link type=buff value=700000781 bgcolor=#3a85ffff>「迅捷I」</link>，持續2回合。"
+      },
+      {
+        "img": "GPassive_1021",
+        "name": "退魔符印",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "行動結束時，使自身2格範圍內法防屬性最高的2個其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「禦魔」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1012",
+        "name": "蓄勢迅剎",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍級",
+        "desc": "[氣力技]若主動攻擊進入戰鬥前已有2點氣力，則消耗所有氣力觸發：本次對戰必然暴擊。<br/>[氣力獲得]角色每造成1次傷害累積1點氣力，擊殺敵人額外獲得1點氣力。"
+      },
+      {
+        "img": "EXSkill_1034",
+        "name": "白虹貫日",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，若擊殺目標，則自身獲得<link type=buff value=700000784 bgcolor=#3a85ffff>「迅捷II」</link>，持續2回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "鑌鐵劍",
+        "img": "Weapon_qinggangjian",
+        "qixue": "40",
+        "magic": "0",
+        "physical": "38",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，金剛錐透玉，鑌鐵劍吹毛。高士舞長劍，仍寄續離騷。<br/>經良材打造而成，其鑄法今存世可見。<br/>傳，鑌鐵劍為習劍者初得之兵，韌度奇強，攻防兼備。又傳，唐順之《武編》中載錄最為詳實。言：鑌鐵劍，透寒光，刃如秋霜。"
+      },
+      {
+        "name": "青鋼劍",
+        "img": "Weapon_xuantiejian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "47",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "傳，青鋼劍乃先祖寶物，受其主所鍾愛，隨之入殮。後遭竊，盜賊走水路，船翻，其沉撫仙湖。<br/>經世，於「列星」復得之。<br/>傳，其外泛綠光，可蘊靈力，質輕順手，受一般習劍者所偏愛。傳，若以心法御之，威力驚人。"
+      },
+      {
+        "name": "飛虹劍",
+        "img": "Weapon_feihongjian",
+        "qixue": "61",
+        "magic": "0",
+        "physical": "58",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，飛虹者，勢如走電，驚濤觸石，舉目乾坤窄。<br/>經世，於「列星」復得之。<br/>傳，其由「烏金玄鐵」鑄造，劍身通透五彩光澤，薄身而修長，韌度奇強，故得飛虹之名。言：舞劍者，與其靈巧化一，毫不遲滯。"
+      },
+      {
+        "name": "封陣劍",
+        "img": "weapon_fengzhengjian",
+        "qixue": "77",
+        "magic": "0",
+        "physical": "73",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，陣法本天地，兵機侔鬼神。封令遁丁甲，劍氣散風雲。<br/>其鑄法於「列星」可見。<br/>傳，封陣劍乃聞名於道法界的法器，卻於昔年幻神林一戰中遺失。傳，是道法高修之宗將其打穿入寰神山中，助力封印邪氣，才使之隱於世。<br/>後人惜之，有鑄劍師以珍材打造之，方重現其樣貌。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_yuejinhue",
+        "name": "月錦抹額",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "6",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "若本次行動主動攻擊進入戰鬥前移動大於等於<b><color=#e4462c>6</color></b>格，「對戰前」反轉自身<b><color=#e4462c>1</color></b>個「減益狀態」，「對戰中」傷害提高<b><color=#e4462c>6%</color></b>",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "古劍龍皇",
+        "img": "Weapon_gujianlonghuang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若本次行動主動攻擊進入戰鬥前移動大於等於<b><color=#e4462c>5</color></b>格，「對戰前」反轉自身<b><color=#e4462c>1</color></b>個「減益狀態」，「對戰中」傷害提高<b><color=#e4462c>8%</color></b>",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "古劍龍皇",
+        "img": "Weapon_gujianlonghuang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若本次行動主動攻擊進入戰鬥前移動大於等於<b><color=#e4462c>5</color></b>格，「對戰前」反轉自身<b><color=#e4462c>1</color></b>個「減益狀態」，「對戰中」傷害提高<b><color=#e4462c>10%</color></b>",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "古劍龍皇",
+        "img": "Weapon_gujianlonghuang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若本次行動主動攻擊進入戰鬥前移動大於等於<b><color=#e4462c>4</color></b>格，「對戰前」反轉自身<b><color=#e4462c>2</color></b>個「減益狀態」，「對戰中」傷害提高<b><color=#e4462c>12%</color></b>",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "古劍龍皇",
+        "img": "Weapon_gujianlonghuang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若本次行動主動攻擊進入戰鬥前移動大於等於<b><color=#e4462c>4</color></b>格，「對戰前」反轉自身<b><color=#e4462c>2</color></b>個「減益狀態」，「對戰中」傷害提高<b><color=#e4462c>15%</color></b>",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "古劍龍皇",
+        "img": "Weapon_gujianlonghuang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天狼血眼",
+        "percent": "0.1031"
+      },
+      {
+        "name": "綺羅天香·霧",
+        "percent": "0.0756"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.0584"
+      },
+      {
+        "name": "血參靈玉·塵",
+        "percent": "0.0481"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "鳳繡香囊·塵",
+        "percent": "0.0584"
+      },
+      {
+        "name": "靈越佩環·霧",
+        "percent": "0.0447"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "無邊落木·塵",
+        "percent": "0.0584"
+      },
+      {
+        "name": "行雲流水·塵",
+        "percent": "0.0515"
+      }
+    ]
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "name": "白素贞",
+    "is_new": "",
+    "weight": "980",
+    "pinyin": "baisuzhen",
+    "source": "国风企划青蛇篇登场角色",
+    "pic": "Hero2016_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "雷",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "170",
+    "magic_attack": "102",
+    "physical_attack": "13",
+    "magic_defense": "37",
+    "physical_defense": "30",
+    "huixin": "36",
+    "inherent": "Gift_114",
+    "inherent_name": "和雨如润",
+    "star1": "",
+    "star2": "",
+    "star3": "战斗开始获得1层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>，每次使用伤害绝学时，暴击率提高8%，消耗2层「法力」，若本回合未使用伤害绝学，则行动结束时获得1层「法力」。自身携带大于等于2层「法力」时，可获得<link type=buff value=742016040 bgcolor=#3a85ffff>「施咒」</link>和<link type=buff value=742016041 bgcolor=#3a85ffff>「神算」</link>效果。",
+    "star4": "战斗开始获得1层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>，每次使用伤害绝学时，暴击率提高10%，消耗2层「法力」，若本回合未使用伤害绝学，则行动结束时获得1层「法力」。自身携带大于等于2层「法力」时，可获得<link type=buff value=742016040 bgcolor=#3a85ffff>「施咒」</link>和<link type=buff value=742016041 bgcolor=#3a85ffff>「神算」</link>效果。",
+    "star5": "战斗开始获得2层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>，每次使用伤害绝学时，暴击率提高12%，消耗2层「法力」，若本回合未使用伤害绝学，则行动结束时获得1层「法力」。自身携带大于等于2层「法力」时，可获得<link type=buff value=742016040 bgcolor=#3a85ffff>「施咒」</link>和<link type=buff value=742016041 bgcolor=#3a85ffff>「神算」</link>效果。",
+    "star6": "战斗开始获得3层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>，每次使用伤害绝学时，暴击率提高15%，消耗2层「法力」，若本回合未使用伤害绝学，则行动结束时获得1层「法力」。自身携带大于等于2层「法力」时，可获得<link type=buff value=742016040 bgcolor=#3a85ffff>「施咒」</link>和<link type=buff value=742016041 bgcolor=#3a85ffff>「神算」</link>效果。",
+    "story_name": "观心",
+    "story_content": "一蛇，四季，几百年。在那天之前，她从没觉得自己的日子过得有多形单影只。<br/>那日她方游至湖心，便见一条小青蛇迎面冲来，背后紧随着一只黝黑大蟹精，笃笃舞钳。蛇蟹自古分居一湖两岸，从不互相干扰，想来是新来的小蛇不知规矩，祸水东引。<br/>他俩自去缠斗也罢，落得个两败俱伤的下场也罢，本来就是这西湖雨霁雨晴的自然均衡。要是多一分慈悲，她白蛇也不会平平稳稳地度过这一千年。<br/>却见那小蛇慌不择路， 嘴里胡乱叫道：姐姐救我！<br/>她心一动，索性一甩尾，卷起层层浪。如此便凭空多了一个妹妹。<br/>现在，有了妹妹。盘卧桥底，朝夕相伴。<br/>那么，没有妹妹之前的日子，又是怎么过的呢？竟想不起来了。<br/>一举一动，不必向人细细解释个中意义，也不必教人一一仿习的日子，又是怎么过的呢？<br/>偶一日，游到六合寺，听闻一个和尚偈语：钱塘江上潮信来，今日方知我是我。<br/>惊出一身冷汗。<br/>原来这小青蛇便是她的潮信。",
+    "hero_icon": "Hero2016_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1366",
+        "name": "五雷法",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，暴击率提高<b><color=#e4462c>30%</color></b>。「对战后」施加<link type=buff value=742016103 bgcolor=#3a85ffff>「三昧真火」</link>状态，持续<b><color=#e4462c>2</color></b>回合，自身每拥有<b><color=#e4462c>2</color></b>层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>状态，「三昧真火」持续时间延长<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Electricity_1006",
+        "name": "电掣",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对3格范围内的1个敌人，施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。并使其发生1圈内「扰动」效果<br/>「扰动」：位置发生随机变化"
+      },
+      {
+        "img": "Skill_Electricity_1007",
+        "name": "天动惊雷",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」使目标身周<b><color=#e4462c>1</color></b>圈内所有敌人发生<b><color=#e4462c>2</color></b>圈内「扰动」效果<br/>「扰动」：位置发生随机变化"
+      },
+      {
+        "img": "Skill_Electricity_1005",
+        "name": "九天神雷",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，成功击杀目标时，则该绝学冷却时间减少<b><color=#e4462c>3</color></b>回合"
+      },
+      {
+        "img": "EXSkill_1368",
+        "name": "吸灵",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复自身<b><color=#e4462c>50%</color></b>气血，获得<b><color=#e4462c>3</color></b>层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>状态和<link type=buff value=700001101 bgcolor=#3a85ffff>「极意I」</link><link type=buff value=700001261 bgcolor=#3a85ffff>「固元I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，自身获得原地再行动。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "EXSkill_1367",
+        "name": "九天玄元诀",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1.5</color></b>倍），驱散<b><color=#e4462c>1</color></b>个「有害状态」。自身每拥有<b><color=#e4462c>1</color></b>层<link type=buff value=742016043 bgcolor=#3a85ffff>「法力」</link>状态，则额外多驱散<b><color=#e4462c>1</color></b>个「有害状态」，若绝学释放前目标气血百分比低于<b><color=#e4462c>50%</color></b>，且已结束行动，则可使其再激活。"
+      },
+      {
+        "img": "EXSkill_1369",
+        "name": "排山倒海",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线3x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，恢复自身菱形<b><color=#e4462c>3</color></b>格范围内的友方气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍），并清除攻击范围内敌方的地形和机关。（战斗开始时，若友方存在「青」时，则本绝学替换为<link type=skill value=61201641 bgcolor=#3a85ffff>「移山倒海」</link>）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "白素贞",
+        "name": "轻铁剑",
+        "img": "Weapon_201601",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，自怜非剑气，空向斗牛星。<br/>上古时期，剑并非只为杀器，亦为礼器，可祈求上天护佑己身。故而有能匠以轻铁制之，不以杀伤力为要，力弱女子及年幼者亦能持。<br/>言：柔心向百草，不应长剑鸣。"
+      },
+      {
+        "weapon": "白素贞",
+        "name": "白穗剑",
+        "img": "Weapon_201602",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，带直剑者，入宗庙及升殿，若在仗内，皆解剑。<br/>据传，剑穗系于剑首，多为「文剑」，常为文人墨客与达官贵族所佩戴。民间偶见白穗之剑，剑身为陨铁制成，白穗乃为世间罕见灵蚕之丝制成。持其者可附灵力，身形灵动，如蛇潜行。<br/>言：三千凌云剑，一朝游清风。"
+      },
+      {
+        "weapon": "白素贞",
+        "name": "金纹咒剑",
+        "img": "Weapon_201603",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，曲直何所为，龙蛇为我邻。<br/>民间有言，世间为邻者，常有大妖藏匿市井。若是被识出真身，则会化为原型，为世间所不容。故而大妖常备咒剑掩藏真身气息，其上雕刻「匿灵金纹」，可转化千年妖力为灵气，凡间高手难敌一击。<br/>言：可笑凡人惧，金纹修我身。<br/>"
+      },
+      {
+        "weapon": "白素贞",
+        "name": "青簪玉剑",
+        "img": "Weapon_201604",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，簪玉步河堤，妖韶援绿荑。<br/>天界有王母有青簪，曾于明霭动荡之时坠落凡间。此物坠于东海激起千丈白浪，其上无穷仙力散落世间。后此物被蛇妖纳于洞穴，将其幻化为玉剑，佩于腰间。持其者，可借九天仙力，暂列仙班，一击可问穹苍，再击可搅东海。<br/>言：簪心涂仙色，破魂如海潮。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "白素贞",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "白素贞",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "白素贞",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "白素贞",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "流风回雨",
+        "img": "Weapon_201605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "使用伤害绝学造成暴击时，获得<b><color=#e4462c>1</color></b>层「法力」。携带大于等于<b><color=#e4462c>3</color></b>层「法力」时，伤害和免伤提高<b><color=#e4462c>5%</color></b>。"
+      },
+      {
+        "name": "流风回雨",
+        "img": "Weapon_201605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "使用伤害绝学造成暴击时，获得<b><color=#e4462c>1</color></b>层「法力」。携带大于等于<b><color=#e4462c>3</color></b>层「法力」时，伤害和免伤提高<b><color=#e4462c>6%</color></b>。"
+      },
+      {
+        "name": "流风回雨",
+        "img": "Weapon_201605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "使用伤害绝学造成暴击时，获得<b><color=#e4462c>1</color></b>层「法力」。携带大于等于<b><color=#e4462c>3</color></b>层「法力」时，伤害和免伤提高<b><color=#e4462c>7%</color></b>。"
+      },
+      {
+        "name": "流风回雨",
+        "img": "Weapon_201605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "使用伤害绝学造成暴击时，获得<b><color=#e4462c>1</color></b>层「法力」。携带大于等于<b><color=#e4462c>3</color></b>层「法力」时，伤害和免伤提高<b><color=#e4462c>8%</color></b>。"
+      },
+      {
+        "name": "流风回雨",
+        "img": "Weapon_201605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "使用伤害绝学造成暴击时，获得<b><color=#e4462c>2</color></b>层「法力」。携带大于等于<b><color=#e4462c>3</color></b>层「法力」时，伤害和免伤提高<b><color=#e4462c>10%</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.320855614973262"
+      },
+      {
+        "name": "鹿鸣灵珠",
+        "percent": "0.310160427807487"
+      },
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.18716577540107"
+      },
+      {
+        "name": "太初华晶·烟",
+        "percent": "0.163101604278075"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "玉玑灵镯·尘",
+        "percent": "0.268222621184919"
+      },
+      {
+        "name": "重曜玉镯",
+        "percent": "0.245780969479353"
+      },
+      {
+        "name": "化魄秘镯",
+        "percent": "0.136804308797127"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.403743315508021"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.296791443850267"
+      },
+      {
+        "name": "辟邪玉佩·烟",
+        "percent": "0.275401069518717"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.223877917414722"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.201532567049808"
+      },
+      {
+        "name": "玄武玉",
+        "percent": "0.155080213903743"
+      }
+    ]
+  }
+]

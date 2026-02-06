@@ -1,0 +1,297 @@
+[
+  {
+    "name": "青蘿",
+    "is_new": "0",
+    "weight": "70",
+    "pinyin": "qingluo",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1110_img",
+    "prop_icon": "Ice",
+    "career_icon": "Assassin",
+    "rarity": "R",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "御風",
+    "range": "1",
+    "speed": "5",
+    "qixue": "125",
+    "magic_attack": "8",
+    "physical_attack": "79",
+    "magic_defense": "22",
+    "physical_defense": "24",
+    "huixin": "40",
+    "inherent": "Gift_010",
+    "inherent_name": "七竅玲瓏",
+    "star1": "若目標氣血大於等於100%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的12%）。",
+    "star2": "若目標氣血大於等於90%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的15%）。",
+    "star3": "若目標氣血大於等於90%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的18%）。",
+    "star4": "若目標氣血大於等於80%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的21%）。",
+    "star5": "若目標氣血大於等於80%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的24%）。",
+    "star6": "若目標氣血大於等於70%，則主動攻擊「對戰前」對其造成1次固定傷害（物攻的30%）。",
+    "story_name": "四分之一",
+    "story_content": "青蘿是神闕宮四婢之一。<br/>「青蘿嫋嫋掛煙樹，白鷳處處聚沙堤。」<br/>神闕宮的小宮主是用這首詩，賦予了青蘿名字呢。<br/>青蘿是神闕宮的婢女，<br/>但神闕宮有四個婢女。<br/>她是天真無邪的小女孩，<br/>但神闕宮不止她小女孩啊。<br/>她是輕盈飄逸的御風，<br/>但神闕宮不止有御風。<br/>青蘿其實憂傷——<br/>為什麼她只是「四分之一」呢？<br/>青蘿想要的，是被真正記住啊！<br/>是……像名字來歷的那首詩一樣被記住啊！<br/>但青蘿漸漸發現，生命中很多事其實是奢求不得的。<br/>那不如，就還是繼續發明新遊戲吧！<br/>至少，遊戲總是讓人愉快的！",
+    "hero_icon": "Hero1110_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "羅剎一擊",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，暴擊率提高20%。擊殺目標則獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1003",
+        "name": "狂力",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴擊率提升12%"
+      },
+      {
+        "img": "Skill_Assassin_1016",
+        "name": "隨影協擊",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[協攻]若隊友主動攻擊自身1格範圍內的敵人，且優先攻擊時，則在「對戰中」雙方交戰後，立刻對敵方造成額外一次0.3倍物攻傷害（1回合限定發動1次）"
+      },
+      {
+        "img": "Skill_Swordsman_1002",
+        "name": "踏血行",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "暴擊率提高10%。若主動攻擊擊殺目標，則戰後獲得再移動（3格）。"
+      },
+      {
+        "img": "EXSkill_1061",
+        "name": "刺骨寒針",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "若行動中造成擊殺，則在行動結束時，對周圍2格內所有敵人造成0.2倍物攻傷害。施加<link type=buff value=700001301 bgcolor=#3a85ffff>「遲緩I」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Assassin_1010",
+        "name": "封魂縛掠",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "無視護衛攻擊單個敵人，造成1.3倍傷害，暴擊率+20%。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "青玉刺",
+        "img": "Weapon_qingyuci",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "傳，此器最早乃水兵所操練，於吳地多見。後入巴蜀，得改良。<br/>傳，其可自「列星」而得。其身通體青碧色，乃峨眉刺操使者入門之器。其兵輕巧，操練者行動靈巧而美，十分別致。"
+      },
+      {
+        "name": "赤虹雙刺",
+        "img": "Weapon_chihongshuangci",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "載，還徼上青子，天上裨重瞳。江心火電流赤虹，雲凝霧結愁蟠龍。<br/>傳，需以「烏金玄鐵」鑄化其中，選是年大暑之日，午時一刻入爐，淬，鍛打時，再以無根水澆之，方得赤虹之色。<br/>言：其因通體散發赤色虹光，故以赤虹冠名。靈巧之極，操持時亦有虹光相隨。"
+      },
+      {
+        "name": "輝月寒荊",
+        "img": "Weapon_bingyuehanji",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "傳，北地有避水一族，不懼寒，常下冰池捕海獵而生。外敵入，惜無趁手之兵，族險滅。<br/>傳，後師學中原，乃尋珍材以鑄兵，終於「列星」見製法，採得幽生之物，韌利並具，名曰冰月草。<br/>傳，再以「化淵玉鋼」之材，與冰月草交混而鑄。言：其器有幽寒之氣，可變換生倒刺，且具會心必中之能。"
+      },
+      {
+        "name": "離淵雙刺",
+        "img": "Weapon_liyuanshuangji",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "傳，中極地有名離淵境，乃上古修行之地，亦為神仙命劫之地。離淵境中有毒荊結界，需滅肉身，方可過。<br/>傳，能過離淵境者，上九重天，反之，下九重天，不入仙班之位列。<br/>傳，經世，離淵雙荊取於「列星」，由密法煉化而成。言：其器操持時，輕若無物，然鋒利無比，縱非神兵，亦不遑多讓。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·霧",
+        "percent": "0.7327"
+      },
+      {
+        "name": "八荒靈石·煙",
+        "percent": "0.0679"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "烏光燧玨·霧",
+        "percent": "0.7943"
+      },
+      {
+        "name": "輝月魂戒",
+        "percent": "0.024"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·霧",
+        "percent": "0.7749"
+      },
+      {
+        "name": "龍涎香囊·塵",
+        "percent": "0.0468"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "夜雨·霧",
+        "percent": "0.1639"
+      },
+      {
+        "name": "夜雨·塵",
+        "percent": "0.1585"
+      },
+      {
+        "name": "甘霖·塵",
+        "percent": "0.1148"
+      }
+    ]
+  }
+]

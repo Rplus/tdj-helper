@@ -1,0 +1,386 @@
+[
+  {
+    "name": "上官远",
+    "is_new": "",
+    "weight": "630",
+    "pinyin": "shangguanyuan",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1101_img",
+    "prop_icon": "Fire",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "224",
+    "magic_attack": "13",
+    "physical_attack": "99",
+    "magic_defense": "22",
+    "physical_defense": "40",
+    "huixin": "22",
+    "inherent": "Gift_019",
+    "inherent_name": "骁勇追袭",
+    "star1": "",
+    "star2": "",
+    "star3": "<br/>移动力大于目标时，主动普攻触发「追击」（0.3倍伤害），主动攻击和受到伤害后获得<link type=buff value=741101032 bgcolor=#3a85ffff>「冲阵」</link>状态，持续2回合。",
+    "star4": "<br/>移动力大于目标时，主动普攻触发「追击」（0.4），主动攻击和受到伤害后获得<link type=buff value=741101042 bgcolor=#3a85ffff>「冲阵」</link>状态，持续2回合。",
+    "star5": "<br/>移动力大于目标时，主动普攻触发「追击」（0.4倍伤害），主动攻击和受到伤害后获得<link type=buff value=741101052 bgcolor=#3a85ffff>「冲阵」</link>状态，持续2回合。",
+    "star6": "<br/>移动力大于目标时，主动普攻触发「追击」（0.5倍伤害），主动攻击和受到伤害后获得<link type=buff value=741101062 bgcolor=#3a85ffff>「冲阵」</link>状态，持续2回合。",
+    "story_name": "酒",
+    "story_content": "上官远是禁军，但也就只是个禁军，从不是什么大人物，不过，他也对官职虚名不在意。<br/>但他也没想到，会有那么一天——<br/>「东城那个天天蹲在城角喝酒的都尉没了」<br/>「听说是丢了皇镖闯了大祸！」<br/>「嗨！还说什么神力绝人，连个皇镖都守不住！」<br/>「可说的嘛，天天叫嚷着开疆拓土，寻摸着呀，还是绣花枕头！」<br/>……<br/>城里的人们议论了几天，就把他忘了。<br/>毕竟，不过就是个都尉嘛，<br/>这禁军里都尉多了去了。<br/>后来，真的有敌来犯，到了这城墙根儿下，<br/>东城的百姓忽然又想起他了……<br/>「这群废物啊！要是当年那上官远在的话……」",
+    "hero_icon": "Hero1101_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1012",
+        "name": "饮血横扫",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，击杀目标后恢复自身<b><color=#e4462c>40%</color></b>气血。"
+      },
+      {
+        "img": "EXSkill_1154",
+        "name": "刚勇",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身气血大于等于80%，回合开始时，获得「捍卫」状态。<br/>「捍卫」：普攻射程提高1格，代替2格内友方承受物理攻击（「对战后」消失）"
+      },
+      {
+        "img": "Skill_Guard_1014",
+        "name": "饮血",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战后」自身气血低于50%，则恢复20%气血。"
+      },
+      {
+        "img": "Gskill_1005",
+        "name": "千里疾行",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，获得<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。获得再行动（<b><color=#e4462c>3</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1153",
+        "name": "回风狂岚",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1156",
+        "name": "列阵待发",
+        "type": "主动",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，范围内所有友方获得<link type=buff value=700000532 bgcolor=#3a85ffff>「披甲I」</link>状态，持续<b><color=#e4462c>3</color></b>回合，自身获得「戒备」状态。<br/>「戒备」：受到伤害后消失，状态消失和重置时驱散自身<b><color=#e4462c>3</color></b>格范围内友方所有「移动力降低」的状态，施加「奋起」状态，持续<b><color=#e4462c>2</color></b>回合<br/>「奋起」：移动力<b><color=#e4462c>+1</color></b>，免疫「移动力降低」"
+      },
+      {
+        "img": "Skill_Guard_1013",
+        "name": "狂怒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "自身气血每损失10%，物攻提高5%，最多提高20%。"
+      },
+      {
+        "img": "EXSkill_1155",
+        "name": "刚烈破冲",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.7</color></b>倍伤害，「对战后」恢复自身<b><color=#e4462c>50%</color></b>气血，并击退目标<b><color=#e4462c>2</color></b>格，如果击退路线被阻挡，则施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。若「对战前」每多移动<b><color=#e4462c>2</color></b>格，则击退距离多<b><color=#e4462c>1</color></b>格（最多提高<b><color=#e4462c>3</color></b>格）。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每遭受<b><color=#e4462c>1</color></b>次伤害或造成<b><color=#e4462c>1</color></b>次伤害均可累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "上官远",
+        "name": "铁骑枪",
+        "img": "Weapon_tiejiqiang",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，千千铁骑拥尘红，去去平吞万里空。宛转龙蟠金见雪，连钱豹躩绣旗风。<br/>传，其以玄铁铸成，乃西夏铁骑营特配，非一般使枪者惯用。又传，因其质特殊，不多产，每铸需载入名册，或于枪身留特使之标记。<br/>言：铁骑枪，沈重难使，非一般兵器，然，其威力亦较一般兵器数十倍矣。"
+      },
+      {
+        "weapon": "上官远",
+        "name": "虎咆枪",
+        "img": "Weapon_lengyueyinqiang",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，岂不欲周旋，过日如掣电。杳霭万丈间，啸风清独速。<br/>传，虎咆枪，非一般长枪也。是以「乌金玄铁」铸造而成，其制法可溯至「列星」中。传，其刃头是经巧匠重铸而成，舞动时会呼啸作声，因而得名。"
+      },
+      {
+        "weapon": "上官远",
+        "name": "碧吻蛇矛",
+        "img": "Weapon_biwenshemao",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，英雄不念征尘老，且置请缨封万户。<br/>传，碧吻蛇矛乃以神铁炼化而成，其炼法之源于「列星」可见。传，蛇矛乃先贤大将军之奇兵也，曾仗此，挑落万马千军，扫六合。其色幽碧，炼化质坚之铁成蛇形而依附，其力无穷。言：碧蛇三尺，浩歌当续。"
+      },
+      {
+        "weapon": "上官远",
+        "name": "烈光戟",
+        "img": "weapon_lieguangji",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，钧天金石响，洞庭弦管清。八音动繁会，九变叶希音。<br/>传，烈光戟，挥舞时可发弦乐之音，悦耳动听，实则为摄妖魔之用，有镇魂之能。传，神铁铸造而成，遍体银光，于「列星」可见。言：烈光者，短戟神兵，疾刺时光华霍霍，威力惊人。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "上官远",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "上官远",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "上官远",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "上官远",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "紫电金戟",
+        "img": "Weapon_zidianjinji",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "每累计主动移动<b><color=#e4462c>9</color></b>格，获得<b><color=#e4462c>1</color></b>层「冲阵」状态，持续<b><color=#e4462c>2</color></b>回合，若已携带<b><color=#e4462c>2</color></b>层「冲阵」，则恢复自身<b><color=#e4462c>5%</color></b>气血。行动结束时若<b><color=#e4462c>2</color></b>格内有<b><color=#e4462c>4</color></b>名其他友方，对范围内所有其他友方施加「极意I」「神护I」状态，并对自身施加「极意II」「神护II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "紫电金戟",
+        "img": "Weapon_zidianjinji",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "每累计主动移动<b><color=#e4462c>8</color></b>格，获得<b><color=#e4462c>1</color></b>层「冲阵」状态，持续<b><color=#e4462c>2</color></b>回合，若已携带<b><color=#e4462c>2</color></b>层「冲阵」，则恢复自身<b><color=#e4462c>10%</color></b>气血。行动结束时若<b><color=#e4462c>2</color></b>格内有<b><color=#e4462c>4</color></b>名其他友方，对范围内所有其他友方施加「极意I」「神护I」状态，并对自身施加「极意II」「神护II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "紫电金戟",
+        "img": "Weapon_zidianjinji",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "每累计主动移动<b><color=#e4462c>7</color></b>格，获得<b><color=#e4462c>1</color></b>层「冲阵」状态，持续<b><color=#e4462c>2</color></b>回合，若已携带<b><color=#e4462c>2</color></b>层「冲阵」，则恢复自身<b><color=#e4462c>15%</color></b>气血。行动结束时若<b><color=#e4462c>2</color></b>格内有<b><color=#e4462c>4</color></b>名其他友方，对范围内所有其他友方施加「极意I」「神护I」状态，并对自身施加「极意II」「神护II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "紫电金戟",
+        "img": "Weapon_zidianjinji",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "每累计主动移动<b><color=#e4462c>7</color></b>格，获得<b><color=#e4462c>1</color></b>层「冲阵」状态，持续<b><color=#e4462c>2</color></b>回合，若已携带<b><color=#e4462c>2</color></b>层「冲阵」，则恢复自身<b><color=#e4462c>20%</color></b>气血。行动结束时若<b><color=#e4462c>2</color></b>格内有<b><color=#e4462c>3</color></b>名其他友方，对范围内所有其他友方施加「极意I」「神护I」状态，并对自身施加「极意II」「神护II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "name": "紫电金戟",
+        "img": "Weapon_zidianjinji",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "每累计主动移动<b><color=#e4462c>6</color></b>格，获得<b><color=#e4462c>1</color></b>层「冲阵」状态，持续<b><color=#e4462c>2</color></b>回合，若已携带<b><color=#e4462c>2</color></b>层「冲阵」，则恢复自身<b><color=#e4462c>25%</color></b>气血。行动结束时若<b><color=#e4462c>2</color></b>格内有<b><color=#e4462c>3</color></b>名其他友方，对范围内所有其他友方施加「极意I」「神护I」状态，并对自身施加「极意II」「神护II」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天狼血眼",
+        "percent": "0.887573964497041"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.112426035502959"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "千稜幻玉·烟",
+        "percent": "0.124260355029586"
+      },
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.100591715976331"
+      },
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.100591715976331"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.165495207667731"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.139936102236421"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.136741214057508"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.125559105431309"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.21301775147929"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.112426035502959"
+      }
+    ]
+  }
+]

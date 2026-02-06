@@ -1,0 +1,378 @@
+[
+  {
+    "name": "法海",
+    "is_new": "",
+    "weight": "960",
+    "pinyin": "fahai",
+    "source": "国风企划青蛇篇登场角色",
+    "pic": "Hero2014_img",
+    "prop_icon": "Light",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "光",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "221",
+    "magic_attack": "13",
+    "physical_attack": "98",
+    "magic_defense": "31",
+    "physical_defense": "35",
+    "huixin": "20",
+    "inherent": "Gift_112",
+    "inherent_name": "普渡教谕",
+    "star1": "",
+    "star2": "",
+    "star3": "伤害提高20%，主动攻击时目标每多携带一个「有益状态」降低6%（最多18%）。主动攻击前，驱散目标1个「有益状态」，若为单体攻击额外驱散1个。行动结束时，对2格内随机1名未携带「有益状态」的敌方施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合（间隔3回合触发）",
+    "star4": "伤害提高20%，主动攻击时目标每多携带一个「有益状态」降低5%（最多15%）。主动攻击前，驱散目标1个「有益状态」，若为单体攻击额外驱散1个。行动结束时，对2格内随机1名未携带「有益状态」的敌方施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合（间隔3回合触发）",
+    "star5": "伤害提高20%，主动攻击时目标每多携带一个「有益状态」降低4%（最多12%）。主动攻击前，驱散目标1个「有益状态」，若为单体攻击额外驱散1个。行动结束时，对2格内随机1名未携带「有益状态」的敌方施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合（间隔2回合触发）",
+    "star6": "伤害提高20%，主动攻击时目标每多携带一个「有益状态」降低3%（最多9%）。主动攻击前，驱散目标1个「有益状态」，若为单体攻击额外驱散2个。行动结束时，对2格内随机1名未携带「有益状态」的敌方施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续1回合（间隔2回合触发）",
+    "story_name": "非我",
+    "story_content": "修佛有二乘：非我，无我。<br/>欲臻非我，须得苦修苦行，折磨肉身，以求灵肉脱离。<br/>关于许宣的前尘旧忆，就像嵌在松脂里的小虫。数数清晰可闻，却早已不具生意。<br/>神力如绝症一般入侵我的身体，又如吸血肉为生的寄生虫。<br/>青蓝色的魔，顺着肌纹刺入，一点点换出红色的血。<br/>每一天都有一重嬗变，新生。<br/>每一刻都有千重针，如芒在背。<br/>每一秒都有穿心剧痛，破除旧我。<br/>那三千年花中世界的等待，如今在我身上复活。",
+    "hero_icon": "Hero2014_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1011",
+        "name": "刚烈破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1360",
+        "name": "夺舍",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身气血大于等于80%，回合开始时，获得<link type=buff value=742014161 bgcolor=#3a85ffff>「护法」</link>状态。"
+      },
+      {
+        "img": "Skill_Guard_1013",
+        "name": "狂怒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身气血每损失10%，物攻提高5%，最多提高20%。"
+      },
+      {
+        "img": "Skill_Guard_1005",
+        "name": "撞阵冲军",
+        "type": "物攻伤害",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>0.8</color></b>倍伤害，击退<b><color=#e4462c>2</color></b>格。施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1357",
+        "name": "教化正真",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，若此次攻击击杀目标则该绝学冷却时间减少<b><color=#e4462c>2</color></b>回合，反之战后施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1356",
+        "name": "遍赦十方",
+        "type": "再动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]遭受攻击「对战前」若敌方「有益状态」数量小于<b><color=#e4462c>3</color></b>个，反击射程<b><color=#e4462c>+1</color></b>。<br/>主动使用，选择<b><color=#e4462c>1</color></b>个目标身周的指定空格，无视阻挡翻越到空格上，驱散<b><color=#e4462c>2</color></b>格范围内所有敌方<b><color=#e4462c>1</color></b>个「有益状态」和所有友方<b><color=#e4462c>1</color></b>个「有害状态」，并获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1358",
+        "name": "生圣梵天",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，降低目标<b><color=#e4462c>2</color></b>气力，技能期间目标无法获得气力。自身获得<link type=buff value=742014133 bgcolor=#3a85ffff>「梵天」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1359",
+        "name": "重天并碾",
+        "type": "物攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，绝学范围内生成「湮灭」地形，持续<b><color=#e4462c>2</color></b>回合。<br/>「湮灭」：敌方无法获得「有益状态」，主动绝学冷却时间无法减少。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "法海",
+        "name": "陶土钵",
+        "img": "Weapon_201401",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，谓一类人起正信心，修出家法。但持三衣一钵，余无所有。<br/>民间载，钵若盆而形小，常以陶土制成。此物常见于僧人之手，为其食器。僧者行游者仅可携带三衣一钵，钵为乞食只用，其量容一人食。<br/>言：秋江洗一钵，寒日晒三衣。"
+      },
+      {
+        "weapon": "法海",
+        "name": "黑铁钵",
+        "img": "Weapon_201402",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，至今铁钵在，当底手迹穿。<br/>相传，古国都城有一故基，昔日佛钵之宝台也。有大能者涅槃之后，钵流此国，经数百年式遵供养，流转诸国，后不见其踪。持其者，可继承佛力金光，有护体之效，凡人持利器难破之。<br/>言：涅槃铁钵在，金光护真身。"
+      },
+      {
+        "weapon": "法海",
+        "name": "莲心金钵",
+        "img": "Weapon_201403",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，世间花叶不相伦，花入金盆叶作尘。<br/>据民间记载所传，十方诸佛同生于淤泥，三身证觉，俱坐于莲台之上。莲内生莲子，莲子化金钵，后人称「莲心金钵」。持其者修行境界可有所提升，出淤泥而不染，诸邪不近身，达清净无碍之境，超脱凡俗。<br/>言：傲然自独立，超凡脱尘心。"
+      },
+      {
+        "weapon": "法海",
+        "name": "大乘宝钵",
+        "img": "Weapon_201404",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，若欲获得五眼者，当勤修六波罗蜜。<br/>相传佛有五眼，肉眼能见世间一切景，天眼见一切心，慧眼见万物空观，法眼见诸法实相，佛眼见一切圆满。有大乘圣者之五眼化为无上法器，称之为「大乘宝钵」，持之者必获真佛五眼，拥有无上法力，能看穿三千世界，万相变化尽入眼中。<br/>言：菩提三千问，五眼敛人间。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "法海",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "法海",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "法海",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "法海",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "天龙神威",
+        "img": "Weapon_201405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "<b><color=#e4462c>2</color></b>格内存在未携带「有益状态」的角色，物攻和免伤提高<b><color=#e4462c>5%</color></b>，「对战后」恢复最大气血的<b><color=#e4462c>15%</color></b>。"
+      },
+      {
+        "name": "天龙神威",
+        "img": "Weapon_201405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "<b><color=#e4462c>2</color></b>格内存在未携带「有益状态」的角色，物攻和免伤提高<b><color=#e4462c>6%</color></b>，「对战后」恢复最大气血的<b><color=#e4462c>15%</color></b>。"
+      },
+      {
+        "name": "天龙神威",
+        "img": "Weapon_201405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "<b><color=#e4462c>2</color></b>格内存在未携带「有益状态」的角色，物攻和免伤提高<b><color=#e4462c>7%</color></b>，「对战后」恢复最大气血的<b><color=#e4462c>20%</color></b>。"
+      },
+      {
+        "name": "天龙神威",
+        "img": "Weapon_201405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "<b><color=#e4462c>2</color></b>格内存在未携带「有益状态」的角色，物攻和免伤提高<b><color=#e4462c>8%</color></b>，「对战后」恢复最大气血的<b><color=#e4462c>20%</color></b>。"
+      },
+      {
+        "name": "天龙神威",
+        "img": "Weapon_201405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "<b><color=#e4462c>2</color></b>格内存在未携带「有益状态」的角色，物攻和免伤提高<b><color=#e4462c>10%</color></b>，「对战后」恢复最大气血的<b><color=#e4462c>25%</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "龙牙魂玉",
+        "percent": "0.334733022291342"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.322809745982374"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.213996889580093"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "寰鸟戒",
+        "percent": "0.341472265422498"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "摩尼宝珠",
+        "percent": "0.217625712804562"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.126588906168999"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.224883359253499"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.224883359253499"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.119699326075686"
+      }
+    ]
+  }
+]

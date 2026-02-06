@@ -1,0 +1,394 @@
+[
+  {
+    "name": "西莉亚",
+    "is_new": "",
+    "weight": "1000",
+    "pinyin": "xiliya",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1046_img",
+    "prop_icon": "Light",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "光",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "235",
+    "magic_attack": "13",
+    "physical_attack": "89",
+    "magic_defense": "22",
+    "physical_defense": "45",
+    "huixin": "24",
+    "inherent": "Gift_115",
+    "inherent_name": "命运意志",
+    "star1": "",
+    "star2": "",
+    "star3": "全场每存在1名友方，免伤提高3%（最多提高12%）。每场战斗开始时，获得1次免死机会，受到致命伤害时免除死亡，自身恢复50%气血，为3格范围内其他友方恢复30%气血，并立即激活「圣枪之力」状态。（每场战斗只能触发1次）。<br/>自身与其他友方每有1个受到伤害累积1层「觉醒之力」，当累积6层「觉醒之力」时，将激活「圣枪之力」状态，持续2回合。    <br/>「圣枪之力」：对暗属性克制效果提高30%，物防的20%附加至物攻上，造成伤害后驱散目标1个「有益状态」。自身普攻无视护卫，普攻射程+1。激活后无法获得「觉醒之力」。",
+    "star4": "全场每存在1名友方，免伤提高4%（最多提高16%）。每场战斗开始时，获得1次免死机会，受到致命伤害时免除死亡，自身恢复50%气血，为3格范围内其他友方恢复30%气血，并立即激活「圣枪之力」状态。（每场战斗只能触发1次）。<br/>自身与其他友方每有1个受到伤害累积1层「觉醒之力」，当累积6层「觉醒之力」时，将激活「圣枪之力」状态，持续2回合。    <br/>「圣枪之力」：对暗属性克制效果提高30%，物防的30%附加至物攻上，造成伤害后驱散目标1个「有益状态」。自身普攻无视护卫，普攻射程+1。激活后无法获得「觉醒之力」。",
+    "star5": "全场每存在1名友方，免伤提高4%（最多提高16%）。每场战斗开始时，获得1次免死机会，受到致命伤害时免除死亡，自身恢复50%气血，为3格范围内其他友方恢复30%气血，并立即激活「圣枪之力」状态。（每场战斗只能触发1次）。<br/>自身与其他友方每有1个受到伤害累积1层「觉醒之力」，当累积6层「觉醒之力」时，将激活「圣枪之力」状态，持续2回合。    <br/>「圣枪之力」：对暗属性克制效果提高30%，物防的40%附加至物攻上，造成伤害后驱散目标1个「有益状态」。自身普攻无视护卫，普攻射程+1。激活后无法获得「觉醒之力」。",
+    "star6": "全场每存在1名友方，免伤提高5%（最多提高20%）。每场战斗开始时，获得1次免死机会，受到致命伤害时免除死亡，自身恢复50%气血，为3格范围内其他友方恢复30%气血，并立即激活「圣枪之力」状态。（每场战斗只能触发1次）。<br/>自身与其他友方每有1个受到伤害累积1层「觉醒之力」，当累积6层「觉醒之力」时，将激活「圣枪之力」状态，持续2回合。    <br/>「圣枪之力」：对暗属性克制效果提高30%，物防的40%附加至物攻上，造成伤害后驱散目标2个「有益状态」。自身普攻无视护卫，普攻射程+1。激活后无法获得「觉醒之力」。",
+    "story_name": "继承",
+    "story_content": "「跑！西莉亚，跑起来！」<br/>她被声音裹挟着往前，耳畔充斥着撕裂的风啸。<br/>「去找她！」<br/>她一直往前跑，直到听不见父亲喊她的名字，直到再也看不到赫图兹家族的狮子徽章。<br/>可西莉亚不敢停下来，就算她只是古伦德最弱小的女儿，四之王也不会允许圣枪遗落在外。<br/>「圣枪，帮帮我！」她突然想鼓起勇气掉头，用枪头将敌人狠狠钉在墙上，用枪尾挑落父亲身上的枷锁。<br/>圣枪黯淡着，没有回应瘦弱的继承人骤然升腾的小小勇气。<br/>念头转瞬而逝，她又想圣枪为什么要选择她呢？她不如和父亲囚在一起，让兄姐拿起圣枪……这样她就可以不用背负期望、仇恨、自责——少女隐晦的心思很快被她压在心底。<br/>再坚持一下，西莉亚。<br/>光明终在东方升起，西莉亚知道父亲说的是谁。<br/>「老师，求您——」<br/>少女一路奔跑，穿过金碧辉煌的殿堂，穿过红毯贯穿而上的长梯，她抱着圣枪跪坐在地上，看向高台上那个女人。<br/>「救救我的父亲！」",
+    "hero_icon": "Hero1046_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1371",
+        "name": "护佑之心",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "代替相邻1格内友方承受攻击。主动造成伤害后，获得<link type=buff value=741046401 bgcolor=#3a85ffff>「庇护」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1373",
+        "name": "明光镇恶",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，每命中<b><color=#e4462c>1</color></b>个目标，获得<b><color=#e4462c>2</color></b>层<link type=buff value=741046099 bgcolor=#3a85ffff>「觉醒之力」</link>，若目标相邻<b><color=#e4462c>1</color></b>格不存在其他友方，则施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1011",
+        "name": "刚烈破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1007",
+        "name": "誓死捍卫",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高到<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700000551 bgcolor=#3a85ffff>「复仇」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "EXSkill_1375",
+        "name": "守御",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "遭受攻击「对战前」反转自身1个「有害状态」。3格范围内所有友方遭受攻击「对战中」受暴击概率-50%。（每回合触发1次）"
+      },
+      {
+        "img": "EXSkill_1374",
+        "name": "流刃穿陨",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "对直线上第一个敌人造成<b><color=#e4462c>1.5</color></b>倍伤害，自身与目标距离每多<b><color=#e4462c>1</color></b>格伤害降低<b><color=#e4462c>15%</color></b>，施加<link type=buff value=700000840 bgcolor=#3a85ffff>「封咒」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1372",
+        "name": "方阵号令",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复自身<b><color=#e4462c>30%</color></b>气血，驱散<b><color=#e4462c>2</color></b>个「有害状态」，并在自身<b><color=#e4462c>3</color></b>格范围开启「方阵协同」领域，持续<b><color=#e4462c>3</color></b>回合。<br/>「方阵协同」：<b><color=#e4462c>3</color></b>格范围内友方「羽士」「咒师」「祝由」职业，若相邻<b><color=#e4462c>1</color></b>格存在其他友方，物理免伤<b><color=#e4462c>+20%</color></b>；<b><color=#e4462c>3</color></b>格范围内友方「铁卫」「侠客」「御风」职业，若气血大于等于<b><color=#e4462c>50%</color></b>，则免疫敌方造成的<link type=buff value=700000070 bgcolor=#3a85ffff>「位移」</link>和<link type=buff value=700000071 bgcolor=#3a85ffff>「传送」</link>效果。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "西莉亚",
+        "name": "圣枪·骸",
+        "img": "Weapon_104601",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "据传西方圣枪为传说之物，有指引命运之力，引无数弄权者趋之若鹜。然，圣枪似有灵智，择主而生，唯有圣枪承认者方可持之挥舞。无主之时，圣枪锈斑全覆，重有千金，如凶兽之骸。<br/>言：虔心祈天下，枪出万物骸。"
+      },
+      {
+        "weapon": "西莉亚",
+        "name": "圣枪·寂",
+        "img": "Weapon_104602",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，身轻一鸟过，枪急万人呼。<br/>圣枪沉寂之时，金碧辉煌中唯有圣枪安放之处光芒暗淡，如穹苍凹陷。持之者，枪出必中，敌者无从躲避，且能吸收圣华之咒术，增强自身之力。<br/>言：枪突开云幕，寰宇献光来。"
+      },
+      {
+        "weapon": "西莉亚",
+        "name": "圣枪·醒",
+        "img": "Weapon_104603",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，野风结阴兵，千里鸣刀枪。<br/>圣枪需以勇士之心为引，又经战斗之威，方可苏醒。圣枪苏醒之时，金色纹路遍布枪身，如同旭日注入无上光辉。持之者，八方邪魔皆惧，其弱者见之光则烟消云散。<br/>言：阳乌落西去，枪挑独醒人。"
+      },
+      {
+        "weapon": "西莉亚",
+        "name": "圣枪·权",
+        "img": "Weapon_104604",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，尘土抛书卷，枪筹弄酒权。<br/>「圣枪·权」之形魂，世间少有记载。枪头中央似有朱红裂痕，枪身附着流光，盘绕圣魂之力，可散去敌者恢复之力。持之者，不为他人权势所迫，面对世间百相可坚守本心，为天地所眷顾。<br/>言：光扫旌骑场，枪压世上风。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "西莉亚",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "西莉亚",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "西莉亚",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "西莉亚",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "命运圣枪",
+        "img": "Weapon_104605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "自身免死机会未消耗时，物理免伤提高<b><color=#e4462c>5%</color></b>，免死机会消耗后，伤害提高<b><color=#e4462c>5%</color></b>。激活「圣枪之力」状态时，主动攻击造成伤害后获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "name": "命运圣枪",
+        "img": "Weapon_104605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "自身免死机会未消耗时，物理免伤提高<b><color=#e4462c>6%</color></b>，免死机会消耗后，伤害提高<b><color=#e4462c>6%</color></b>。激活「圣枪之力」状态时，主动攻击造成伤害后获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "name": "命运圣枪",
+        "img": "Weapon_104605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "自身免死机会未消耗时，物理免伤提高<b><color=#e4462c>7%</color></b>，免死机会消耗后，伤害提高<b><color=#e4462c>7%</color></b>。激活「圣枪之力」状态时，主动攻击造成伤害后获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "name": "命运圣枪",
+        "img": "Weapon_104605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "自身免死机会未消耗时，物理免伤提高<b><color=#e4462c>8%</color></b>，免死机会消耗后，伤害提高<b><color=#e4462c>8%</color></b>。激活「圣枪之力」状态时，主动攻击造成伤害后获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "name": "命运圣枪",
+        "img": "Weapon_104605",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "自身免死机会未消耗时，物理免伤提高<b><color=#e4462c>10%</color></b>，免死机会消耗后，伤害提高<b><color=#e4462c>10%</color></b>。激活「圣枪之力」状态时，主动攻击造成伤害后获得再移动（<b><color=#e4462c>2</color></b>格）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "玄乌玉雕·烟",
+        "percent": "0.316617762828312"
+      },
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.262370285550704"
+      },
+      {
+        "name": "天石命坠",
+        "percent": "0.242152723108852"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.129199169827524"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.515846990624776"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.1130957232514"
+      },
+      {
+        "name": "寒月玉镯",
+        "percent": "0.10603961203032"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.288635225076934"
+      },
+      {
+        "name": "天石云佩",
+        "percent": "0.240327774994632"
+      },
+      {
+        "name": "摩尼宝珠",
+        "percent": "0.127588921491447"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.205288771201603"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.139755242252916"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.120682745294496"
+      }
+    ]
+  }
+]

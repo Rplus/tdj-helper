@@ -1,0 +1,390 @@
+[
+  {
+    "name": "御卿",
+    "is_new": "",
+    "pinyin": "yuqing",
+    "weight": "1130",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1057_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Physician",
+    "rarity": "SSR",
+    "position": "治疗",
+    "prop": "幽",
+    "career": "祝由",
+    "range": "2",
+    "speed": "3",
+    "qixue": "181",
+    "magic_attack": "84",
+    "physical_attack": "13",
+    "magic_defense": "39",
+    "physical_defense": "32",
+    "huixin": "21",
+    "inherent": "Gift_131",
+    "inherent_name": "幽明慈心",
+    "star1": "",
+    "star2": "",
+    "star3": "3格内存在未结束行动的其他友方角色时，治疗效果提高10%。使用绝学后使气血全满的友方目标「有益状态」等级提升1级。3格内友方「对战后」若气血小于等于50%，恢复该角色气血（恢复量为施术者法攻的0.5倍）（每回合发动1次）。",
+    "star4": "3格内存在未结束行动的其他友方角色时，治疗效果提高13%。使用绝学后使气血全满的友方目标「有益状态」等级提升1级。3格内友方「对战后」若气血小于等于50%，恢复该角色气血（恢复量为施术者法攻的0.5倍）（每回合发动1次）。",
+    "star5": "3格内存在未结束行动的其他友方角色时，治疗效果提高16%。使用绝学后使气血全满的友方目标「有益状态」等级提升1级。3格内友方「对战后」若气血小于等于50%，恢复该角色气血（恢复量为施术者法攻的0.5倍）（每回合发动2次）。",
+    "star6": "3格内存在未结束行动的其他友方角色时，治疗效果提高20%。使用绝学后使气血全满的友方目标「有益状态」等级提升1级。3格内友方「对战后」若气血小于等于50%，恢复该角色气血（恢复量为施术者法攻的0.5倍）（每回合发动2次）。",
+    "story_name": "瓶子",
+    "story_content": "——相传，化荒偶见慈悲之身，见其面者，可消苦痛、续残肢、延其命，称再造之恩。<br/>「她的身影我看不真切，但我确信就是她！她抚摸我、施舍我怜悯——但我的心如此卑劣，我在垂涎！瓶子！瓶子中的一切！」<br/>她在丧魂野哀土之上的步伐轻缓，将自己隐匿在每一具行尸走肉的身后，他们深情呼唤她的名字，祈祷她将瓶中的圣水倾泻而下。<br/>被悲惨命运放逐的人或妖，死亡如影随形。只有她，只有她能救他们！哪怕这快活的时间如此短暂，但已经足够了！<br/>他们从不思考，不在乎身体多了什么，又失去了什么。<br/>「真舒服，我又可以活下去了。」怪物们发出满足的呻吟。<br/>「和这幽壤融为一体吧。」她欣慰地笑着。<br/>依赖我吧，尽情地依赖我——<br/>「你们将获得永生。」",
+    "hero_icon": "Hero1057_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_None_1005",
+        "name": "气愈之术",
+        "type": "治疗",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1.5</color></b>倍），驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "Skill_None_1020",
+        "name": "神氛化法",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，驱散范围内所有友方身上<b><color=#e4462c>3</color></b>个「有害状态」，并恢复其气血。（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）"
+      },
+      {
+        "img": "EXSkill_1459",
+        "name": "施恩济命",
+        "type": "治疗",
+        "cd": "1回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择<b><color=#e4462c>1</color></b>个格子释放，以范围内未满血友方为目标，驱散<b><color=#e4462c>1</color></b>个「有害状态」并恢复气血（共恢复施术者法攻的<b><color=#e4462c>1.8</color></b>倍）。"
+      },
+      {
+        "img": "GPassive_1017",
+        "name": "地御符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使相邻1格内物防属性最高的1个其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1457",
+        "name": "激心真言",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "7格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对单个其他角色释放，施加<link type=buff value=741057134 bgcolor=#3a85ffff>「归依」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若为未行动结束的敌方则额外施加<link type=buff value=741057140 bgcolor=#3a85ffff>「异心」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1458",
+        "name": "无悲涤世",
+        "type": "治疗",
+        "cd": "1回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1</color></b>倍），使目标所有「有害状态」持续时间减少<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1456",
+        "name": "神行守魄",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]回合开始时为<b><color=#e4462c>3</color></b>格内<b><color=#e4462c>2</color></b>个气血百分比最低的友方角色恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）。<br/>主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍），驱散<b><color=#e4462c>1</color></b>个「有害状态」并施加<link type=buff value=700000541 bgcolor=#3a85ffff>「御魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1455",
+        "name": "普渡四方",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，反转范围内所有友方身上<b><color=#e4462c>3</color></b>个「有害状态」，并恢复其气血（恢复量为施术者法攻的<b><color=#e4462c>1</color></b>倍）。场上的敌方每比我方多<b><color=#e4462c>1</color></b>人，绝学前再激活范围内<b><color=#e4462c>1</color></b>名物攻<b><color=#e4462c>/</color></b>法攻最高且已结束行动的其他友方并施加<link type=buff value=741057160 bgcolor=#3a85ffff>「既行」</link>状态（最多再激活<b><color=#e4462c>3</color></b>人）。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "御卿",
+        "name": "赤陶瓶",
+        "img": "Weapon_105701",
+        "qixue": "38",
+        "magic": "32",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "陶瓶无所贵，枯枝亦败荣。<br/>赤陶瓶中，残木独矗，浊生戾气，凛然生暗法，取命无数无人察。偶被方士降服，置于荒山破庙，乃忌器也。<br/>言：赤颜藏森寒，勿道人世间。"
+      },
+      {
+        "weapon": "御卿",
+        "name": "碧波谣",
+        "img": "Weapon_105702",
+        "qixue": "47",
+        "magic": "39",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，愁上中桥桥上望,碧波东去夕阳催。<br/>素瓶无意人有意，厉妖化枯枝，恶女持瓶夜游街市，每取一人精华，枝上生一败叶，传可灭一城，为时人忌惮。<br/>言：雅瓶欺人眼，朝暮摧百生。"
+      },
+      {
+        "weapon": "御卿",
+        "name": "夜阑清曲",
+        "img": "Weapon_105703",
+        "qixue": "58",
+        "magic": "48",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，袅袅沉水烟,乌啼夜阑景。<br/>邪士采幽垠绿植，以血养之，终化为异类。森然瞳影，似有智识，日夜传习主人禁术，蚀化人心。<br/>言：夜阑私语声，清曲寒气生。"
+      },
+      {
+        "weapon": "御卿",
+        "name": "玄夜盈歌",
+        "img": "Weapon_105704",
+        "qixue": "73",
+        "magic": "60",
+        "physical": "0",
+        "feature": "[丹阳]治疗效果提升5%<br/>[真传]全伤害减免提升5%<br/>[贯清]气血高于50%时，治疗效果提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，朝作青云士,暮为玄夜人。<br/>尝有操习幽术者，以香囊除邪气，此瓶方可御使。中藏魂魅乃幽界生息者，如无所防备，恐毙命于瞬霎间。<br/>言：素香盈夜歌，玄夜漫无光。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "御卿",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "8",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "御卿",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "御卿",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "御卿",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幽荧冷翠",
+        "img": "Weapon_105705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "自身<b><color=#e4462c>3</color></b>格内的友方，气血小于等于<b><color=#e4462c>50%</color></b>时受治疗效果提高<b><color=#e4462c>7%</color></b>，气血全满时暴击抗性提高<b><color=#e4462c>7%</color></b>。若场上敌方人数大于我方，使用绝学后该绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "幽荧冷翠",
+        "img": "Weapon_105705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "自身<b><color=#e4462c>3</color></b>格内的友方，气血小于等于<b><color=#e4462c>50%</color></b>时受治疗效果提高<b><color=#e4462c>9%</color></b>，气血全满时暴击抗性提高<b><color=#e4462c>9%</color></b>。若场上敌方人数大于我方，使用绝学后该绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "幽荧冷翠",
+        "img": "Weapon_105705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "自身<b><color=#e4462c>3</color></b>格内的友方，气血小于等于<b><color=#e4462c>50%</color></b>时受治疗效果提高<b><color=#e4462c>11%</color></b>，气血全满时暴击抗性提高<b><color=#e4462c>11%</color></b>。若场上敌方人数大于我方，使用绝学后该绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "幽荧冷翠",
+        "img": "Weapon_105705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "自身<b><color=#e4462c>3</color></b>格内的友方，气血小于等于<b><color=#e4462c>50%</color></b>时受治疗效果提高<b><color=#e4462c>13%</color></b>，气血全满时暴击抗性提高<b><color=#e4462c>13%</color></b>。若场上敌方人数大于我方，使用绝学后该绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      },
+      {
+        "name": "幽荧冷翠",
+        "img": "Weapon_105705",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "自身<b><color=#e4462c>3</color></b>格内的友方，气血小于等于<b><color=#e4462c>50%</color></b>时受治疗效果提高<b><color=#e4462c>15%</color></b>，气血全满时暴击抗性提高<b><color=#e4462c>15%</color></b>。若场上敌方人数大于我方，使用绝学后该绝学冷却时间<b><color=#e4462c>-1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰凛银环·烟",
+        "percent": "0.270886075949367"
+      },
+      {
+        "name": "龙骨项链·尘",
+        "percent": "0.267405063291139"
+      },
+      {
+        "name": "冰凛银环·尘",
+        "percent": "0.160759493670886"
+      },
+      {
+        "name": "龙骨项链·烟",
+        "percent": "0.106036745406824"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "幽杳袖环",
+        "percent": "0.40440153808394"
+      },
+      {
+        "name": "灵蛇金镯·烟",
+        "percent": "0.257383621042297"
+      },
+      {
+        "name": "凤纹灵镯·烟",
+        "percent": "0.113801848973247"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "护命神符·烟",
+        "percent": "0.253164556962025"
+      },
+      {
+        "name": "护命神符·尘",
+        "percent": "0.147468354430379"
+      },
+      {
+        "name": "辟邪玉佩·烟",
+        "percent": "0.144936708860759"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.389240506329113"
+      },
+      {
+        "name": "玄武玉",
+        "percent": "0.193894254378785"
+      }
+    ]
+  }
+]

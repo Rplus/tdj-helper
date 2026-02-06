@@ -1,0 +1,397 @@
+[
+  {
+    "name": "紫蕴",
+    "is_new": "",
+    "weight": "130",
+    "pinyin": "ziyun",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1111_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Guard",
+    "rarity": "SR",
+    "position": "坦克",
+    "prop": "雷",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "187",
+    "magic_attack": "8",
+    "physical_attack": "69",
+    "magic_defense": "30",
+    "physical_defense": "31",
+    "huixin": "13",
+    "inherent": "Gift_020",
+    "inherent_name": "神阙圣护",
+    "star1": "",
+    "star2": "法防提高12%。遭受攻击「对战后」使目标传送到自身2格范围内的1个随机位置，并施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。",
+    "star3": "法防提高14%。遭受攻击「对战后」使目标传送到自身2格范围内的1个随机位置，并施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。",
+    "star4": "法防提高16%。遭受攻击「对战后」使目标传送到自身2格范围内的1个随机位置，并施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。",
+    "star5": "法防提高18%。遭受攻击「对战后」使目标传送到自身2格范围内的1个随机位置，并施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。",
+    "star6": "法防提高20%。遭受攻击「对战后」使目标传送到自身2格范围内的1个随机位置，并施加<link type=buff value=700004040 bgcolor=#3a85ffff>「电流」</link>状态，持续2回合。",
+    "story_name": "紫钗",
+    "story_content": "紫蕴是神阙宫四婢之一，但她是唯一的大婢女。<br/>见到那支淡紫色的珠钗了吗？<br/>斋女说这神阙宫里尽是瑰宝珍石，<br/>这嵌在钗子上的淡紫色晶石便是取自其中。<br/>斋女说，<br/>「烟轻雨小，紫陌香尘少。」<br/>「这个颜色最衬紫蕴啦。」<br/>所以斋女将这支钗子送给了紫蕴。<br/>而她的记忆、生活、一切……<br/>都从这支淡紫色的钗子开始。<br/>是的，<br/>重新开始。",
+    "hero_icon": "Hero1111_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1007",
+        "name": "伞下客",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高为<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700000791 bgcolor=#3a85ffff>「神护I」</link><link type=buff value=700001261 bgcolor=#3a85ffff>「固元I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1020",
+        "name": "反戈",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于80%，遭受对战攻击时，反击射程+1。"
+      },
+      {
+        "img": "EXSkill_1077",
+        "name": "出其不意",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "所有伤害提高10%。遭受攻击「对战中」发动「先攻」。（每回合限定触发1次）"
+      },
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1076",
+        "name": "雷烈破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。「对战后」自身获得<link type=buff value=700004250 bgcolor=#3a85ffff>「反冲」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_None_1022",
+        "name": "退魔之咒",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对单个友方施加<link type=buff value=700000541 bgcolor=#3a85ffff>「御魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1016",
+        "name": "血刃符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，使相邻1格内物攻/法攻属性最高的1个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "紫蕴",
+        "name": "雷光伞",
+        "img": "Weapon_leiguangsan",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，伞武之载乃出神魔妖典，为仙家之宝，伞面多为云梭织成，有装载乾坤之能。<br/>传，神阙宫藏有此典，乃以女娲之识，打造之。传，其器散发着紫电之光，是所有伞形武器操使者的入门之物。 "
+      },
+      {
+        "weapon": "紫蕴",
+        "name": "紫玉幻伞",
+        "img": "Weapon_ziyuhuansan",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，翡翠枝头缀玉璁，秋蟾飘下广寒宫。一支紫玉露华浓，恼人风味冷香中。<br/>传，紫玉幻伞乃仙家所藏，取于「列星」，由「乌金玄铁」打造而成。<br/>传，其伞柄有玄机，触感冰凉，伞身有随流光变换之能，具致幻之效。"
+      },
+      {
+        "weapon": "紫蕴",
+        "name": "胧华刃伞",
+        "img": "Weapon_longhuarensan",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，珠帘卷雾映波绿，宝伞开云遮日红。曾归龙宫珍阁里，却忘身世一飘蓬。<br/>传，胧华刃伞，乃避水神兵，于「列星」所藏。胧月暗华，其身通体散发幽黑之气，由「化渊玉钢」组成。言：虽为避水之兵，乃其伞叶似刃，旋转时刀刀入骨，威力无穷。"
+      },
+      {
+        "weapon": "紫蕴",
+        "name": "七耀雷伞",
+        "img": "Weapon_qiyaoleisan",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，九天瑶池，玉井虚传，争似九茎开十色，天瑞凡降帝王家。<br/>传，七耀雷伞，由密法打造而成，其乃现于「列星」中。传，以其为武，舞动时能焕发七曜之光。伞周身呈金色雷光，一招一式，可发振聋发聩之响，非一般人可驱使矣。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "紫蕴",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "紫蕴",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "紫蕴",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "紫蕴",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_014",
+        "name": "紫电青霜阵",
+        "unlock_condition": "阵眼紫蕴位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1111_HeadIcon_Basic",
+        "icon1": "electricity",
+        "icon2": "electricity",
+        "icon3": "",
+        "desc": "上阵紫蕴和至少2位「雷」属相英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高10%，攻击携带「电流」状态的目标时，伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "承天雷伞",
+        "img": "weapon_chentianleisan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "遭受攻击「对战中」法术免伤提高<b><color=#e4462c>7%</color></b>，若受到的伤害不是暴击，「对战后」恢复<b><color=#e4462c>12%</color></b>气血。"
+      },
+      {
+        "name": "承天雷伞",
+        "img": "weapon_chentianleisan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "遭受攻击「对战中」法术免伤提高<b><color=#e4462c>9%</color></b>，若受到的伤害不是暴击，「对战后」恢复<b><color=#e4462c>14%</color></b>气血。"
+      },
+      {
+        "name": "承天雷伞",
+        "img": "weapon_chentianleisan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "遭受攻击「对战中」法术免伤提高<b><color=#e4462c>11%</color></b>，若受到的伤害不是暴击，「对战后」恢复<b><color=#e4462c>16%</color></b>气血。"
+      },
+      {
+        "name": "承天雷伞",
+        "img": "weapon_chentianleisan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "遭受攻击「对战中」法术免伤提高<b><color=#e4462c>13%</color></b>，若受到的伤害不是暴击，「对战后」恢复<b><color=#e4462c>18%</color></b>气血。"
+      },
+      {
+        "name": "承天雷伞",
+        "img": "weapon_chentianleisan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "遭受攻击「对战中」法术免伤提高<b><color=#e4462c>15%</color></b>，若受到的伤害不是暴击，「对战后」恢复<b><color=#e4462c>20%</color></b>气血。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.363636363636364"
+      },
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.236363636363636"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.145454545454545"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.127450980392157"
+      },
+      {
+        "name": "紫霄戒·烟",
+        "percent": "0.117647058823529"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.10752688172043"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "熏风",
+        "percent": "0.196774193548387"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.127450980392157"
+      },
+      {
+        "name": "甘霖·尘",
+        "percent": "0.117647058823529"
+      },
+      {
+        "name": "刹那·烟",
+        "percent": "0.107843137254902"
+      }
+    ]
+  }
+]

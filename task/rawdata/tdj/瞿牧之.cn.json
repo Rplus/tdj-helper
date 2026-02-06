@@ -1,0 +1,382 @@
+[
+  {
+    "name": "瞿牧之",
+    "is_new": "",
+    "pinyin": "qumuzhi",
+    "weight": "1240",
+    "source": "寰神结登场角色",
+    "pic": "Hero1072_img",
+    "prop_icon": "Light",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "光",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "181",
+    "magic_attack": "103",
+    "physical_attack": "13",
+    "magic_defense": "36",
+    "physical_defense": "29",
+    "huixin": "24",
+    "inherent": "Gift_141",
+    "inherent_name": "文昌星运",
+    "star1": "",
+    "star2": "",
+    "star3": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（1格），本次再行动结束时减少2层「昌明」状态（间隔4回合触发）。",
+    "star4": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（1格），本次再行动结束时减少2层「昌明」状态（间隔3回合触发）。",
+    "star5": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（2格），本次再行动结束时减少2层「昌明」状态（间隔3回合触发）。",
+    "star6": "场上每有1个其他角色使用伤害绝学后，自身获得1层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态。使用非伤害绝学后，若自身携带大于等于2层「昌明」状态，则获得再行动（2格），本次再行动结束时减少2层「昌明」状态（间隔2回合触发）。",
+    "story_name": "文士",
+    "story_content": "瞿牧之，郑州人也，生而会言，颖悟绝人，过目不忘使百书皆阅一遍而封存，然习文十余年而不中。<br/>瞿牧之的前半生平平无奇，和天下千万读书人一样，悬梁刺股，寒窗苦读，待一朝揭榜，再有定论——要不拿皇粮，要不当个幼子的启蒙先生，往后余生一眼望得到头，他连自己百年之后的身后事都能想个七七八八。<br/>顾自以为人人如此，他随波逐流也是理所应当。<br/>然，几两银难倒真书生，人生转折并非是他仕途失意，而是在长平镇那一天的那一刻，他看见了一个姑娘，一眼万年。<br/>「我是曾在长平镇跟你聊过几回话，那个落第书生瞿牧之啊！你还记得我么？」<br/>虽然，这姑娘所惦念之人不是他。<br/>虽然，这关系天下的九仪天尊剑不属于他。<br/>虽然，可能后人记载的大部分故事都与他无关。<br/>但总归，瞿牧之此人的墓志铭上，除去「落第书生」这个名号之外，能多写几行字了。",
+    "hero_icon": "Hero1072_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Light_1004",
+        "name": "群星聚华 ",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战后」为自身周围<b><color=#e4462c>3</color></b>格内所有友方驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1515",
+        "name": "学以致用",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "5格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对单个其他角色释放，复制目标<b><color=#e4462c>3</color></b>个「有益状态」和伤害绝学最高倍率。<br/>使用后切换为<link type=skill value=61107220 bgcolor=#3a85ffff>「倒背如流」</link>。"
+      },
+      {
+        "img": "EXSkill_1520",
+        "name": "时仪返召",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，自身每携带2层「昌明」状态，反转3格内1个友方1个「有害状态」（最多反转2次）。"
+      },
+      {
+        "img": "EXSkill_1519",
+        "name": "神视焕新",
+        "type": "治疗",
+        "cd": "1回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者法攻的<b><color=#e4462c>1.5</color></b>倍），目标每携带<b><color=#e4462c>1</color></b>个冷却中的主动绝学，技能后反转<b><color=#e4462c>1</color></b>个「有害状态」且自身获得<b><color=#e4462c>1</color></b>层<link type=buff value=741072010 bgcolor=#3a85ffff>「昌明」</link>状态（最多<b><color=#e4462c>3</color></b>个）。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "Skill_Light_1013",
+        "name": "七光御阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，战后为自身菱形<b><color=#e4462c>3</color></b>格范围内的友方恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）。"
+      },
+      {
+        "img": "EXSkill_1517",
+        "name": "启智之阵",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的<b><color=#e4462c>0.75</color></b>倍），施加<link type=buff value=700000791 bgcolor=#3a85ffff>「神护I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。对「咒师」「祝由」职业的目标额外施加<link type=buff value=741072135 bgcolor=#3a85ffff>「启智」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1518",
+        "name": "忘时天法",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，反转<b><color=#e4462c>1</color></b>个「有益状态」，施加<link type=buff value=741072145 bgcolor=#3a85ffff>「忘时」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "瞿牧之",
+        "name": "无字书",
+        "img": "Weapon_107201",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，人有精灵物,无字复无文。 <br/>天地之感，日月玄机，书文着墨，不得其要。然聚识于扇，无用繁文，山河灵曜，皆自心出。<br/>言，去虚得真识，灵引无字出。"
+      },
+      {
+        "weapon": "瞿牧之",
+        "name": "闻君语",
+        "img": "Weapon_107202",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，动言俱演道，语默尽神仙。<br/>仙贤聚，林中会。唯闻杯盏相击，虫鸣鸟语，声未盈而得识。后世望传习之，唯片扇画竹耳，真言难寻。<br/>言，君问识真意，空言闻竹风。"
+      },
+      {
+        "weapon": "瞿牧之",
+        "name": "临光熏",
+        "img": "Weapon_107203",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，雍雍鸣雁,旭日始旦。<br/>天华集寸，光熏藏尺。扇开之时，耀辉炫目，乃是才情真显时，道途修行由此始。<br/>言，年华沉君才，光熏终难掩。"
+      },
+      {
+        "weapon": "瞿牧之",
+        "name": "远山客",
+        "img": "Weapon_107204",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，隐隐隔千里,巍巍知几重。<br/>君子有志，满腹经纶，而河山为途。虽为素面，然摇扇展图，万里宏光，千盛之像，皆发于心端，可兴国也。<br/>言，宏图万里志，纤纤扇中书。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "瞿牧之",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "瞿牧之",
+        "img": "Equip_houzhizhangyi",
+        "name": "厚织长衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "瞿牧之",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "瞿牧之",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "星落金兰",
+        "img": "Weapon_107205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>5%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "星落金兰",
+        "img": "Weapon_107205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>6%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "星落金兰",
+        "img": "Weapon_107205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>7%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "星落金兰",
+        "img": "Weapon_107205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>8%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "星落金兰",
+        "img": "Weapon_107205",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「昌明」状态时，伤害和法术免伤提高<b><color=#e4462c>10%</color></b>。触发天赋再行动时获得「激荡」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "朱焰妖瞳·烟",
+        "percent": "0.403636363636364"
+      },
+      {
+        "name": "天河朱砂",
+        "percent": "0.283636363636363"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.211324470704086"
+      },
+      {
+        "name": "朝露戒·尘",
+        "percent": "0.120832102412604"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.388020833333333"
+      },
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.122698612862547"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.120176544766708"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.11765447667087"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.113786312161496"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.108181818181818"
+      }
+    ]
+  }
+]

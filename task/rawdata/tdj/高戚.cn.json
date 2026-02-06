@@ -1,0 +1,394 @@
+[
+  {
+    "name": "高戚",
+    "is_new": "",
+    "weight": "270",
+    "pinyin": "gaoqi",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1306_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Guard",
+    "rarity": "SR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "193",
+    "magic_attack": "10",
+    "physical_attack": "84",
+    "magic_defense": "20",
+    "physical_defense": "31",
+    "huixin": "21",
+    "inherent": "Gift_048",
+    "inherent_name": "狂血乱刃",
+    "star1": "",
+    "star2": "自身未满血时，物攻提高6%。近战攻击「对战后」对身周1圈内的1个其他敌人造成1次0.4倍物攻伤害。",
+    "star3": "自身未满血时，物攻提高8%。近战攻击「对战后」对身周1圈内的1个其他敌人造成1次0.5倍物攻伤害。",
+    "star4": "自身未满血时，物攻提高10%。近战攻击「对战后」对身周1圈内的1个其他敌人造成1次0.6倍物攻伤害。",
+    "star5": "自身未满血时，物攻提高12%。近战攻击「对战后」对身周1圈内的1个其他敌人造成1次0.7倍物攻伤害。",
+    "star6": "自身未满血时，物攻提高15%。近战攻击「对战后」对身周1圈内的1个其他敌人造成1次0.8倍物攻伤害。",
+    "story_name": "恶",
+    "story_content": "杀！杀——<br/>用剑邪大人赐予我的无穷的力量，将眼前的一切通通杀光！<br/>因为——不断杀戮，就是我的宿命！<br/>剑邪大人发话了！<br/>「本座再给这两个不中用的家伙一次机会。」<br/>原来如此！<br/>他眼里，我不过是一个令行禁止的杀、人、机、器罢了！<br/>那又怎样，我眼前的路，就只有杀了——<br/>我挥动手中刀刃，直到手臂都被斩断；<br/>我不停狂叫怒吼，直到鲜血径自流干；<br/>我战至退无可退，直到身体七零八落——<br/>毁灭吧！少年挥斩手中的剑！<br/>那一刻双目混沌的我，竟然看到了——<br/>那凛然的锋芒映照出的丑陋形貌......<br/>鲜血自那肉瘤堆积的身体中喷射而出，沿着扭曲狰狞的疤痕流动、翻涌、坠落......<br/>这——就是我现在的样子吗？不——原本的我，原本的我，并不是现在这个样子！<br/>血——就快要干涸了......<br/>喝啊——谁，还有谁记得我原本的样子？！<br/>",
+    "hero_icon": "Hero1306_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1001",
+        "name": "鬼煞焚日",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，自身气血越低造成伤害越高。（每损失<b><color=#e4462c>8%</color></b>，伤害提高<b><color=#e4462c>6%</color></b>，最多提升<b><color=#e4462c>30%</color></b>）"
+      },
+      {
+        "img": "Skill_Guard_1014",
+        "name": "饮血",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战后」自身气血低于50%，则恢复20%气血。"
+      },
+      {
+        "img": "GPassive_1001",
+        "name": "神力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战中」物攻提高7%。"
+      },
+      {
+        "img": "Skill_Guard_1005",
+        "name": "撞阵冲军",
+        "type": "物攻伤害",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>0.8</color></b>倍伤害，击退<b><color=#e4462c>2</color></b>格。施加<link type=buff value=700000730 bgcolor=#3a85ffff>「迟缓II」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Shadow_1011",
+        "name": "炎杀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与「炎」属相的敌人作战时，伤害提高25%，遭受伤害降低25%。"
+      },
+      {
+        "img": "Skill_Guard_1031",
+        "name": "回风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Guard_1009",
+        "name": "守卫",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "伤害免伤提高5%。代替相邻1格内友方承受物理攻击。"
+      },
+      {
+        "img": "EXSkill_1009",
+        "name": "绝煞剑",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.7</color></b>倍伤害，「对战后」自身恢复气血<b><color=#e4462c>50%</color></b>。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每遭受<b><color=#e4462c>1</color></b>次伤害或造成<b><color=#e4462c>1</color></b>次伤害均可累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "高戚",
+        "name": "血饮刃",
+        "img": "weapon_xueyinren",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，双刃混赤精，暗光纳黑莲。粉首明月中，血饮秋风前。<br/>经良材打造而成，其铸法今存世可见。<br/>传，血饮刃，奇门之兵，铸炼时歃有兽血，通邪能，有大小双刃而成，进退双绝。言：始知百炼钢，永与白刃坚。"
+      },
+      {
+        "weapon": "高戚",
+        "name": "斩马双刃",
+        "img": "weapon_zhanmashuangren",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，斩马威棱应扫荡，截蛟锋刃俟升平。<br/>经「乌金玄铁」打造而成，其铸法于「列星」可见。<br/>传，斩马双刃，乃匠师巧铸，本为忠烈一门将帅所造，惜沙场无还，唯双刃羁还。言：斩马者，威力无比，若后人得之，只可杀敌。"
+      },
+      {
+        "weapon": "高戚",
+        "name": "毒龙双刃",
+        "img": "weapon_dulongshuangren",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，毒龙衔日天地昏，荡摇五岳崩山根。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，毒龙双刃，乃添恶龙骨淬成，刀身有毒龙之牙，刀柄有隐隐龙鳞，操持时似毒龙飞舞，有摄敌之效。言：走鹿无藏处，胆战登鸿门。"
+      },
+      {
+        "weapon": "高戚",
+        "name": "鬼斩双刃",
+        "img": "weapon_guizhanshuangren",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，三尺霜鸣金匣里，神光一掉八千里。<br/>经密法打造而成，其铸法于「列星」可见。<br/>传，鬼斩双刃，地界神兵也，为一族之首所有。昔年曾御敌，剿灭一方鬼众，本无名之刃，方得名鬼斩。言：斩鬼祭吾天，却归封灵台。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "高戚",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "高戚",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "高戚",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "高戚",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "闇狱双刃",
+        "img": "weapon_yanyushuangren",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "攻击非满血目标「对战中」伤害提高<b><color=#e4462c>4%</color></b>。近战攻击「对战后」若自身未满血，对<b><color=#e4462c>1</color></b>圈内的<b><color=#e4462c>1</color></b>个敌人造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.2</color></b>倍伤害。"
+      },
+      {
+        "name": "闇狱双刃",
+        "img": "weapon_yanyushuangren",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到5星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "攻击非满血目标「对战中」伤害提高<b><color=#e4462c>8%</color></b>。近战攻击「对战后」若自身未满血，对<b><color=#e4462c>1</color></b>圈内的<b><color=#e4462c>1</color></b>个敌人造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.3</color></b>倍伤害。"
+      },
+      {
+        "name": "闇狱双刃",
+        "img": "weapon_yanyushuangren",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到6星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "攻击非满血目标「对战中」伤害提高<b><color=#e4462c>12%</color></b>。近战攻击「对战后」若自身未满血，对<b><color=#e4462c>1</color></b>圈内的<b><color=#e4462c>1</color></b>个敌人造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.4</color></b>倍伤害。"
+      },
+      {
+        "name": "闇狱双刃",
+        "img": "weapon_yanyushuangren",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到7星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "攻击非满血目标「对战中」伤害提高<b><color=#e4462c>16%</color></b>。近战攻击「对战后」若自身未满血，对<b><color=#e4462c>1</color></b>圈内的<b><color=#e4462c>1</color></b>个敌人造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.5</color></b>倍伤害。"
+      },
+      {
+        "name": "闇狱双刃",
+        "img": "weapon_yanyushuangren",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到8星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "攻击非满血目标「对战中」伤害提高<b><color=#e4462c>20%</color></b>。近战攻击「对战后」若自身未满血，对<b><color=#e4462c>1</color></b>圈内的<b><color=#e4462c>1</color></b>个敌人造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.6</color></b>倍伤害。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.232075471698113"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.213207547169811"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.194339622641509"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "蛇首灵戒·尘",
+        "percent": "0.580645161290323"
+      },
+      {
+        "name": "乌光燧珏·尘",
+        "percent": "0.258064516129032"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.129032258064516"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.194339622641509"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.194339622641509"
+      },
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.175471698113207"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "夜雨·雾",
+        "percent": "0.264516129032258"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.164516129032258"
+      },
+      {
+        "name": "甘霖·雾",
+        "percent": "0.132258064516129"
+      },
+      {
+        "name": "夜雨·尘",
+        "percent": "0.124691358024691"
+      }
+    ]
+  }
+]

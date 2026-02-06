@@ -1,0 +1,397 @@
+[
+  {
+    "name": "六歧",
+    "is_new": "",
+    "pinyin": "liuqi",
+    "weight": "1380",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1079_img",
+    "prop_icon": "Ice",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "冰",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "246",
+    "magic_attack": "12",
+    "physical_attack": "85",
+    "magic_defense": "33",
+    "physical_defense": "36",
+    "huixin": "14",
+    "inherent": "Gift_158",
+    "inherent_name": "神来之笔",
+    "star1": "",
+    "star2": "",
+    "star3": "免伤和法防提高8%，若携带的「有害状态」数量小于等于3个则额外提高10%。<br/>代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合，<br/>若为非伤害绝学，驱散自身3格内所有友方1个「有害状态」和敌方地形；<br/>若为伤害绝学，获得1层<link type=buff value=741079030 bgcolor=#3a85ffff>「破邪符」</link>状态，持续3回合。",
+    "star4": "免伤和法防提高10%，若携带的「有害状态」数量小于等于3个则额外提高10%。<br/>代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到2格，持续2回合，<br/>若为非伤害绝学，驱散自身3格内所有友方1个「有害状态」和敌方地形；<br/>若为伤害绝学，获得1层<link type=buff value=741079030 bgcolor=#3a85ffff>「破邪符」</link>状态，持续3回合。",
+    "star5": "免伤和法防提高12%，若携带的「有害状态」数量小于等于3个则额外提高10%。<br/>代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到3格，持续2回合，<br/>若为非伤害绝学，驱散自身3格内所有友方1个「有害状态」和敌方地形；<br/>若为伤害绝学，获得1层<link type=buff value=741079030 bgcolor=#3a85ffff>「破邪符」</link>状态，持续3回合。",
+    "star6": "免伤和法防提高15%，若携带的「有害状态」数量小于等于3个则额外提高10%。<br/>代替相邻1格内友方承受所有攻击，使用绝学后护卫范围提高到3格，持续2回合，<br/>若为非伤害绝学，驱散自身3格内所有友方1个「有害状态」和敌方地形；<br/>若为伤害绝学，获得1层<link type=buff value=741079030 bgcolor=#3a85ffff>「破邪符」</link>状态，持续3回合。",
+    "story_name": "凋敝",
+    "story_content": "所谓蚩尤剑碎片看起来并非什么了不起的东西，相比远渡所带的家伙什，蚩尤剑碎片只是收置于小盒内，被粗糙的干布裹起来塞入行李。<br/>他们看起来只是一群普通的道士。<br/>匆匆渡海，将一切秘密轻描淡写藏于自己宽松的道袍中，随着每一次海水的汹涌，像石碑一样暗自沉默。<br/>道士们在海上远比陆地上要笨拙，但是蚩尤剑碎片封印的越分散，彼此力量的呼应便会越弱，他们只能努力靠近更远的岸。<br/>他们的「道」，并不能在异乡扎根。<br/>那些所谓求「道」的人，只是试图从他们这剜走仙家咒法，炼丹练气以及长生之术。<br/>可是那些都不是他们真正的「道」。<br/>他们慢慢凋敝，逐渐缩紧自己在异乡圈的安身之处，直到最后一人，把蚩尤剑的碎片交付于少年的手中。<br/>「从今往后，这便是你的使命了。」最后的老者郑重又饱含遗憾。<br/>「六歧，定不负所托。」最终，少年只剩孤身一人。<br/>",
+    "hero_icon": "Hero1079_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1611",
+        "name": "万宝灵符",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择1个绝学进行释放。使用后切换为<link type=skill value=61107911 bgcolor=#3a85ffff>「显形慧印」</link>和<link type=skill value=61107912 bgcolor=#3a85ffff>「道炁如壁」</link>。"
+      },
+      {
+        "img": "Skill_Guard_1001",
+        "name": "泼风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1025",
+        "name": "缚力咒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身十字方向上7格内最近的1名敌人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1617",
+        "name": "解秽卫真",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，恢复单个角色气血（恢复量为施术者物攻的<b><color=#e4462c>1.5</color></b>倍）并施加<link type=buff value=700001261 bgcolor=#3a85ffff>「固元I」</link><link type=buff value=700000921 bgcolor=#3a85ffff>「辟秽」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1615",
+        "name": "驾笔太虚",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "4格",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择<b><color=#e4462c>1</color></b>格空格进行跳跃，对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，施加<link type=buff value=700001300 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1614",
+        "name": "凝神速行",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对范围内的所有友方施加<link type=buff value=700001340 bgcolor=#3a85ffff>「精准」</link><link type=buff value=700001581 bgcolor=#3a85ffff>「速行」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若目标存在处于冷却中的绝学则额外施加<link type=buff value=700001591 bgcolor=#3a85ffff>「醒神」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_None_1004",
+        "name": "退魔之阵",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对范围内的所有友方施加<link type=buff value=700000542 bgcolor=#3a85ffff>「御魔I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1616",
+        "name": "退散律令",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001511 bgcolor=#3a85ffff>「封缄」</link>状态，持续<b><color=#e4462c>2</color></b>回合，<br/>推开两侧目标<b><color=#e4462c>1</color></b>格，如果击退路线被阻挡，额外施加<link type=buff value=741071023 bgcolor=#3a85ffff>「冰劫」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "六歧",
+        "name": "白毫笔",
+        "img": "Weapon_107901",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "咒之佳否，笔居其半。道家所传符咒，初通者常用白毫笔。白毫价廉、易得，乃为贫困人家必备之毫，人皆有之。<br/>秋毫虽细握非轻，白毫笔文武共通，故而执笔为器，挥墨时常有文气隐于咒中。<br/>言：笔须凝为气，墨纸立为符。"
+      },
+      {
+        "weapon": "六歧",
+        "name": "狼毫笔",
+        "img": "Weapon_107902",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，月光久逾明，照得笔墨白。<br/>据传，古时有大能以笔入道，恰逢月下逢黄仙问话，大能答其如人。黄仙得以造化，赠尾尖之毫。<br/>狼毫笔，其杆质硬如铁，笔头附着灵力，得以获黄仙护佑，故而为御敌利器。<br/>言：狼毫有诡意，可以话聊斋。"
+      },
+      {
+        "weapon": "六歧",
+        "name": "素椽笔",
+        "img": "Weapon_107903",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，修真道士如知此，定跨赤龙归玉清。<br/>开辟之初，圣真仙人，皆宣道炁，立法相传，以道为事，故曰道士。道事有功，故号道士。<br/>修道者，折玄木枯枝为笔，可借之屏气凝神，收敛万千道意于其中，承仙化飞天之资。<br/>言：大道身顺理，素笔描乾坤。"
+      },
+      {
+        "weapon": "六歧",
+        "name": "流墨云",
+        "img": "Weapon_107904",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，乌云夭矫风作恶，雷奔电掣雨悬河。<br/>混沌初分，三神创世。明霭与定土二界之间，天宇多清霁，日月轮转三载，灵气方凝结为天地间第一朵乌云。<br/>此后，天雷降世，乌云自诞灵智，化为神笔，如云流墨，持者可凭冰雨水气为咒，庇护左右。<br/>言：流云卷千浪，拈笔墨淋浪。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "六歧",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "六歧",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "六歧",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "六歧",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_061",
+        "name": "笔勾神意阵",
+        "unlock_condition": "阵眼六歧位阶35级，五内迅陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1079_HeadIcon_Basic",
+        "icon1": "warlock",
+        "icon2": "melee",
+        "icon3": "",
+        "desc": "上阵六歧和「咒师」，「斗将」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，自身携带「有害状态」数量小于等于3个时，伤害和免伤提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "画境封魔",
+        "img": "Weapon_107905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "遭受攻击「对战中」免伤提高<b><color=#e4462c>5%</color></b>且「对战后」获得<b><color=#e4462c>1</color></b>层「破邪符」状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "name": "画境封魔",
+        "img": "Weapon_107905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "遭受攻击「对战中」免伤提高<b><color=#e4462c>6%</color></b>且「对战后」获得<b><color=#e4462c>1</color></b>层「破邪符」状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "name": "画境封魔",
+        "img": "Weapon_107905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "遭受攻击「对战中」免伤提高<b><color=#e4462c>7%</color></b>且「对战后」获得<b><color=#e4462c>1</color></b>层「破邪符」状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "name": "画境封魔",
+        "img": "Weapon_107905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "遭受攻击「对战中」免伤提高<b><color=#e4462c>8%</color></b>且「对战后」获得<b><color=#e4462c>1</color></b>层「破邪符」状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "name": "画境封魔",
+        "img": "Weapon_107905",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "遭受攻击「对战中」免伤提高<b><color=#e4462c>10%</color></b>且「对战后」驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并获得<b><color=#e4462c>1</color></b>层「破邪符」状态，持续<b><color=#e4462c>3</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.204865015751485"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.124723850540335"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.206220839813374"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.103469314511305"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "摩尼宝珠",
+        "percent": "0.202831279658651"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.202392630697451"
+      },
+      {
+        "name": "天石云佩",
+        "percent": "0.101754595844798"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.29047619047619"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.138095238095238"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.0968253968253968"
+      }
+    ]
+  }
+]

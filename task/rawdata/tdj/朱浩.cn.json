@@ -1,0 +1,313 @@
+[
+  {
+    "name": "朱浩",
+    "is_new": "",
+    "weight": "30",
+    "pinyin": "zhuhao",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1115_img",
+    "prop_icon": "Light",
+    "career_icon": "Warlock",
+    "rarity": "R",
+    "position": "法攻",
+    "prop": "光",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "117",
+    "magic_attack": "74",
+    "physical_attack": "6",
+    "magic_defense": "28",
+    "physical_defense": "21",
+    "huixin": "24",
+    "inherent": "Gift_031",
+    "inherent_name": "御法大师",
+    "star1": "气血大于等于70%时，法攻提高5%，法术免伤提高10%。",
+    "star2": "气血大于等于70%时，法攻提高6%，法术免伤提高12%。",
+    "star3": "气血大于等于70%时，法攻提高8%，法术免伤提高14%。",
+    "star4": "气血大于等于70%时，法攻提高10%，法术免伤提高16%。",
+    "star5": "气血大于等于70%时，法攻提高12%，法术免伤提高18%。",
+    "star6": "气血大于等于70%时，法攻提高15%，法术免伤提高20%。",
+    "story_name": "槲寄生",
+    "story_content": "鄙人乃崆峒首徒，朱浩是也。<br/>不才不才，还请关照。<br/>桀桀，崆峒出于紫云，什么独门术法？<br/>不过是那南阳公主的半本儿心经罢了。<br/>与其让这两派都是半生不死的模样，倒不如……并于一处？<br/>如此……就不用得再废什么力气与那些山门斡旋……<br/>我们便是这江湖，第一大派。<br/>然后，再稍稍……稍稍用些计谋……<br/>那这天下第一大派的掌门，不就落在您身上了么……师傅？<br/>该死的老东西，做了一辈子的软骨头，临死倒是和我硬气起来了？<br/>呵，你也别怪我无情……你不就想看着“崆峒派”发扬光大么？<br/>放心……当我当上掌门那天……是叫紫云，还是叫崆峒，不都是我说了算么……",
+    "hero_icon": "Hero1115_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Light_1003",
+        "name": "辉日圣咒",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战后」为气血最低的友方恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "img": "GPassive_1008",
+        "name": "预见",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战中」物防，法防+10%。"
+      },
+      {
+        "img": "Skill_Light_1022",
+        "name": "光之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与没有携带「有益状态」的目标「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "Skill_Light_1011",
+        "name": "猛气破冲",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。「对战后」驱散目标<b><color=#e4462c>2</color></b>个「有益状态」，施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Light_1014",
+        "name": "御光阵法",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "在周围<b><color=#e4462c>3</color></b>格张开领域「御光阵法」，持续<b><color=#e4462c>2</color></b>回合。<br/>「御光阵法」：范围内友方受到光属性伤害降低<b><color=#e4462c>20%</color></b>。"
+      },
+      {
+        "img": "GPassive_1018",
+        "name": "退魔符",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使相邻1格内法防属性最高的1个其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「御魔I」</link>状态，持续1回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "朱浩",
+        "name": "催命符",
+        "img": "Weapon_cuimingfu",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，符器乃修术法者首选之器，其与法环、法珠系同出一脉，借玄空之器，释放灵法之术。<br/>经良材炼化而成，较宿玉更为多变。<br/>传，有人得之，以紫云心经为本，将其血咒心法融入符中，成其独门奇兵，符文均携咒气，有催命之效。"
+      },
+      {
+        "weapon": "朱浩",
+        "name": "破金符",
+        "img": "Weapon_cuimingchangfu",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，破金符为崆峒独门法器，是以「乌金玄铁」炼化，再将紫云心经贯通其中，于「列星」，可窥见其炼化之法。<br/>传，破金符非一般咒术法器，结合紫云、崆峒两派之长，具灵法之力，亦有归元之能，故得护命之命。言：破金乃是归元手，乞与还山破金符。"
+      },
+      {
+        "weapon": "朱浩",
+        "name": "迅神符",
+        "img": "Weapon_cuimingfujuan",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "传，迅神符本藏于「列星」，其内载有中原道法界多门咒法秘术，而符文非寻常文字，难以辨识，乃绘卷者有意为之。<br/>传，其被炼作法器后，更具邪能，有移魂摄命之威。言：将奈何，迅神超人间，九重城阙烟尘飞。"
+      },
+      {
+        "weapon": "朱浩",
+        "name": "混元符",
+        "img": "Weapon_cuimingfan",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，寥寥空陂游冤魂，诲此法术成轩辕。金书玉册要不烦，焕如星宿不可扪，是为记。<br/>传，混元符乃以密法炼化所得，为宝器，可溯源自幻海黄泉。<br/>传，其能引魂开地府，光射幽户；能招牛鬼蛇神不惧，几世不肯长湮沦。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "朱浩",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "朱浩",
+        "img": "Equip_houzhizhangyi",
+        "name": "厚织长衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "朱浩",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "朱浩",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "六芒星印·雾",
+        "percent": "0.106711409395973"
+      },
+      {
+        "name": "朱焰妖瞳·尘",
+        "percent": "0.106711409395973"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "银阑灵镯·尘",
+        "percent": "0.5"
+      },
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.5"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.106711409395973"
+      },
+      {
+        "name": "龙涎香囊·影",
+        "percent": "0.106024096385542"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·尘",
+        "percent": "0.206711409395973"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.142857142857143"
+      },
+      {
+        "name": "甘霖·烟",
+        "percent": "0.142857142857143"
+      },
+      {
+        "name": "乾坤袋",
+        "percent": "0.142857142857143"
+      }
+    ]
+  }
+]

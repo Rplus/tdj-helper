@@ -1,0 +1,362 @@
+[
+  {
+    "name": "陽寰",
+    "is_new": "0",
+    "weight": "160",
+    "pinyin": "yanghuan",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1135_img",
+    "prop_icon": "Fire",
+    "career_icon": "Warlock",
+    "rarity": "SR",
+    "position": "法攻",
+    "prop": "炎",
+    "career": "咒師",
+    "range": "2",
+    "speed": "3",
+    "qixue": "150",
+    "magic_attack": "84",
+    "physical_attack": "9",
+    "magic_defense": "30",
+    "physical_defense": "29",
+    "huixin": "22",
+    "inherent": "Gift_038",
+    "inherent_name": "焚體陽炎",
+    "star1": "",
+    "star2": "自身未滿血時，傷害提高12%。行動結束時，對自身2格範圍內隨機1個敵人施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star3": "自身未滿血時，傷害提高14%。行動結束時，對自身3格範圍內隨機1個敵人施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star4": "自身未滿血時，傷害提高16%。行動結束時，對自身3格範圍內隨機1敵人施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star5": "自身未滿血時，傷害提高18%。行動結束時，對自身4格範圍內隨機1個敵人施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star6": "自身未滿血時，傷害提高20%。行動結束時，對自身4格範圍內隨機2個敵人施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "story_name": "陽",
+    "story_content": "吾乃羅睺神初創的雙使之一，陽寰是也。<br/>是主上依照女媧人族的樣貌重新創造，<br/>吾的使命便是守護這不容外人擅闖的天動儀外，<br/>待主上發號施令，<br/>復仇——<br/>吾等最終的使命。",
+    "hero_icon": "Hero1135_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Fire_1006",
+        "name": "焚炎之軀",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，消耗自身氣血20%（無法免疫），獲得「炎之力」狀態，持續2回合。獲得再行動（2格）。<br/>「炎之力」：與攜帶「燃燒」狀態的目標對戰，戰鬥中傷害額外提高20%"
+      },
+      {
+        "img": "Skill_Fire_1001",
+        "name": "離火神訣",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Fire_1012",
+        "name": "召炎",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，對3格範圍內的1個敵人，造成1次0.2倍法攻傷害。"
+      },
+      {
+        "img": "Skill_Fire_1017",
+        "name": "炎流",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，若本回合使用過絕學，為自身3格內1個其他友方，施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。（間隔1回合觸發）"
+      },
+      {
+        "img": "Skill_Fire_1011",
+        "name": "流火",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1014",
+        "name": "激怒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍級",
+        "desc": "若自身氣血低於70%，則「對戰中」法攻，法防提高12%。"
+      },
+      {
+        "img": "Skill_Fire_1005",
+        "name": "連綿焚炎",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線3x3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，製造「真炎」地形，持續2回合。<br/>「真炎」：真炎內的敵方角色，行動結束時，損失24%氣血"
+      },
+      {
+        "img": "Skill_Fire_1018",
+        "name": "炎血爆",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身氣血20%（無法免疫），攻擊單個敵人，造成1.5倍傷害，「對戰前」驅散目標2個「增益狀態」。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "琉璃法珠",
+        "img": "Weapon_liulifazhu",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "傳，為修術而初得法器，雖為靈珠操使者入門之物，卻可憑修法者精修心力而強化。<br/>傳，有人得之，將其之離火心決化用此器中，日益趁手。<br/>琉璃宿玉，流光陸離，其光燦然。"
+      },
+      {
+        "name": "水靈天珠",
+        "img": "Weapon_shuilingtianzhu",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "載，仙草雲生無人採，直到千歲化水靈。本是天地凝結，乃為修仙者取而化蘊，將山精之靈力融入「列星」，累經幾世後，方為道法之器。<br/>傳，水靈天珠乃以「烏金玄鐵」煉化而成，乃有愈傷凝血奇效，因凝蘊生氣之能，故其能活法光靈之力。"
+      },
+      {
+        "name": "幽玄珠",
+        "img": "Weapon_fuzhoujinshi",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "載，恍惚中間專志氣，虛無裡面固元精。龍交虎戰三周畢，兔走烏飛九轉，方成寶珠。<br/>於「列星」中可見煉化之法。<br/>傳，其通神冥兩界，有靈性，有妖性。後又以密法煉化，方得幽玄珠。言：幽玄蘊孽靈，有生力，有滅勢。"
+      },
+      {
+        "name": "龍爪珠",
+        "img": "Weapon_longzhuazhu",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "傳，龍爪珠乃龍宮之寶，非鎮海之用，為海族間交好之憑。後流入道法界，因蘊藉真龍之氣，可助修法者提升修為，故得煉化。<br/>傳，龍爪珠外有龍爪之形，需以密法煉化而成。<br/>傳，龍爪珠，持珠者以其修為而定，乃召黑紫兩龍，法力高強。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色織冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_houzhizhangyi",
+        "name": "厚織長衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "使用主動絕學攻擊攜帶「燃燒」狀態的敵人，「對戰中」傷害提高<b><color=#e4462c>3%</color></b>，「對戰後」擴散目標攜帶的燃燒狀態到目標<b><color=#e4462c>2</color></b>格內的<b><color=#e4462c>1</color></b>個其他敵人(目標死亡時仍然觸發)。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "幻魂珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_huanhunzhu"
+      },
+      {
+        "desc": "使用主動絕學攻擊攜帶「燃燒」狀態的敵人，「對戰中」傷害提高<b><color=#e4462c>6%</color></b>，「對戰後」擴散目標攜帶的燃燒狀態到目標<b><color=#e4462c>2</color></b>格內的<b><color=#e4462c>1</color></b>個其他敵人(目標死亡時仍然觸發)。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "幻魂珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_huanhunzhu"
+      },
+      {
+        "desc": "使用主動絕學攻擊攜帶「燃燒」狀態的敵人，「對戰中」傷害提高<b><color=#e4462c>9%</color></b>，「對戰後」擴散目標攜帶的燃燒狀態到目標<b><color=#e4462c>2</color></b>格內的<b><color=#e4462c>1</color></b>個其他敵人(目標死亡時仍然觸發)。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "幻魂珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_huanhunzhu"
+      },
+      {
+        "desc": "使用主動絕學攻擊攜帶「燃燒」狀態的敵人，「對戰中」傷害提高<b><color=#e4462c>12%</color></b>，「對戰後」擴散目標攜帶的燃燒狀態到目標<b><color=#e4462c>2</color></b>格內的<b><color=#e4462c>2</color></b>個其他敵人(目標死亡時仍然觸發)。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "幻魂珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_huanhunzhu"
+      },
+      {
+        "desc": "使用主動絕學攻擊攜帶「燃燒」狀態的敵人，「對戰中」傷害提高<b><color=#e4462c>15%</color></b>，「對戰後」擴散目標攜帶的燃燒狀態到目標<b><color=#e4462c>2</color></b>格內的<b><color=#e4462c>2</color></b>個其他敵人(目標死亡時仍然觸發)。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "幻魂珠",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "img": "weapon_huanhunzhu"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "太初華晶·塵",
+        "percent": "0.1585"
+      },
+      {
+        "name": "朱焰妖瞳·煙",
+        "percent": "0.0610"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "朝露戒·塵",
+        "percent": "0.1878"
+      },
+      {
+        "name": "朝露戒·煙",
+        "percent": "0.1000"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "護命神符·塵",
+        "percent": "0.1415"
+      },
+      {
+        "name": "龍涎香囊·霧",
+        "percent": "0.0732"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "玄武玉",
+        "percent": "0.1439"
+      },
+      {
+        "name": "夜雨·霧",
+        "percent": "0.0610"
+      }
+    ]
+  }
+]

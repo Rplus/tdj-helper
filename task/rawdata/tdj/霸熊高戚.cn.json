@@ -1,0 +1,390 @@
+[
+  {
+    "name": "霸熊高戚",
+    "is_new": "",
+    "pinyin": "baxionggaoqi",
+    "weight": "1120",
+    "source": "寰神结登场角色",
+    "pic": "Hero1055_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "坦克",
+    "prop": "暗",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "235",
+    "magic_attack": "12",
+    "physical_attack": "86",
+    "magic_defense": "39",
+    "physical_defense": "35",
+    "huixin": "14",
+    "inherent": "Gift_130",
+    "inherent_name": "怒熊之威",
+    "star1": "",
+    "star2": "",
+    "star3": "除气血外全属性提高8%，遭受物理/法术攻击时，若自身物防/法防大于等于目标物攻/法攻的50%/40%，则免伤额外提高15%。使用绝学后，对2格范围所有敌人施加1个随机「有害状态」，且自身获得<link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link>状态，开启<link type=buff value=741055010 bgcolor=#3a85ffff>「威慑」</link>领域，持续1回合。<br/>",
+    "star4": "除气血外全属性提高10%，遭受物理/法术攻击时，若自身物防/法防大于等于目标物攻/法攻的50%/40%，则免伤额外提高15%。使用绝学后，对2格范围所有敌人施加1个随机「有害状态」，且自身获得<link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link>状态，开启<link type=buff value=741055016 bgcolor=#3a85ffff>「威慑」</link>领域，持续1回合。<br/>",
+    "star5": "除气血外全属性提高12%，遭受物理/法术攻击时，若自身物防/法防大于等于目标物攻/法攻的50%/40%，则免伤额外提高15%。使用绝学后，对3格范围所有敌人施加1个随机「有害状态」，且自身获得<link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link>状态，开启<link type=buff value=741055016 bgcolor=#3a85ffff>「威慑」</link>领域，持续1回合。<br/>",
+    "star6": "除气血外全属性提高15%，遭受物理/法术攻击时，若自身物防/法防大于等于目标物攻/法攻的50%/40%，则免伤额外提高15%。使用绝学后，对3格范围所有敌人施加1个随机「有害状态」，且自身获得<link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link>状态，开启<link type=buff value=741055016 bgcolor=#3a85ffff>「威慑」</link>领域，持续1回合。<br/>",
+    "story_name": "眼见为虚",
+    "story_content": "人向来只会以自己的眼光来看待兽，似乎野蛮之物就必定以饮生血、食生肉为乐。<br/>可熊记得根本就不是这样。<br/>山涧的清水冰凉凉的，既能解渴，也能净身；蜂巢是甜腻腻的，很香、很黏；春夏的山林散溢着树木的清涩，适合乘凉。生肉也好、生血也好，只为饱腹，腥热的口感说不上舒服。总之，熊记忆里的生活很好闻、很好吃。<br/>但不知误食了什么东西，自某一天起，熊开始”看见“这个世界了。<br/>过去熊害怕那些用两条腿直立走路的生物，一见到影子就躲得远远的，现在竟能听懂他们的言谈。熊好奇地偷偷跟随两个旅人，这对好友结伴同行，一路上听他们聊起酒家集市、弹曲对唱。看来，这些两脚兽和他不一样，似乎享受过很多不一样的乐趣。人间，听起来是个不错的地方。<br/>那天夜里，熊被激烈的争执声吵醒。那原本是好友的两人互相死斗，拳拳都要取对方性命，直到一人的面孔已经模糊不清，化作血泥。而早上还与他嬉笑玩闹的同伴，只是从他行囊中翻出一些发光的小物，便抛下早已没了气息的友人速速离去。<br/>这一幕使熊这样的野兽也惊恐万分。不是为了生存饱腹，何以相杀至此？更让熊害怕的，则是熊自己竟然被落难者温热的血腥气所吸引。熊想要尝尝那血、那肉的滋味，尽管熊并不饿。<br/>毫无预兆地，一声惊雷炸开，惊醒的熊转身逃离这是非之地，熊倚着树坐下，却陷入比刚才还要强上万分的恐惧。<br/>熊意识到，自己刚刚分明是用两条腿在逃跑！<br/>熊，已经回不去了。",
+    "hero_icon": "Hero1055_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1003",
+        "name": "荆甲挂阵",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高为<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700001221 bgcolor=#3a85ffff>「反震」</link>状态，持续<b><color=#e4462c>2</color></b>回合"
+      },
+      {
+        "img": "EXSkill_1453",
+        "name": "谁敢来犯",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，并施加<b><color=#e4462c>1</color></b>个随机「有害状态」，自身获得<link type=buff value=700000301 bgcolor=#3a85ffff>「护卫」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若自身其他绝学未进入冷却，则本次护卫时间<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "img": "EXSkill_1454",
+        "name": "利爪",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "获得额外护卫范围时，反击射程+1。造成伤害后，对目标施加<link type=buff value=700001311 bgcolor=#3a85ffff>「流血」</link>状态，持续2回合。"
+      },
+      {
+        "img": "GPassive_1028",
+        "name": "缚力奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Shadow_1012",
+        "name": "冰杀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "与「冰」属相的敌人作战时，伤害提高25%，遭受伤害降低25%。"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄势化甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "若遭受近战攻击前已有2点气力，则消耗所有气力触发：减免本次对战伤害40%。<br/>[气力技]每遭受1次伤害累积1点气力"
+      },
+      {
+        "img": "EXSkill_1451",
+        "name": "罡风拊掌",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1</color></b>倍伤害，并击退目标<b><color=#e4462c>3</color></b>格，如果击退路线被阻挡，则施加<link type=buff value=700000410 bgcolor=#3a85ffff>「晕眩」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1452",
+        "name": "魁兽如山",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "选择<b><color=#e4462c>1</color></b>格空格进行跳跃，对<b><color=#e4462c>4</color></b>格范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，清除攻击范围内敌方的地形和机关，施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，并在技能范围的边缘空格制造「岩壁」机关，持续<b><color=#e4462c>2</color></b>回合。<br/>「岩壁」：无法再生成其他地形，不可停留，仅飞行和轻功角色可以跨越"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "霸熊高戚",
+        "name": "黑熊爪",
+        "img": "Weapon_105501",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，熊之穴，恒出神人，夏启而冬闭。<br/>汉人无名氏入嵩山偶得黑熊之爪，化骨为刃，筋脉为拳，凡人可凭此施展伟力。路遇不测，以武自卫，再无恶徒袭扰。<br/>言：盖有神人助，除恶平妖胡。"
+      },
+      {
+        "weapon": "霸熊高戚",
+        "name": "玄兵爪",
+        "img": "Weapon_105502",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，一声霹雳九霄开，十万玄兵扑地来。<br/>天惊雷破，此兵方成。其质坚，玄色，灼人血肉。是兵也，佩戴者可破山石，然施力愈强，携者所受苦痛愈深。由此，无超然心志者，不可御使。<br/>言：血肉饲玄兵，此志可惊天。"
+      },
+      {
+        "weapon": "霸熊高戚",
+        "name": "云山利爪",
+        "img": "Weapon_105503",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，云山，无草木。有桂竹，甚毒。<br/>古有黑熊食云山桂竹而无恙，以其骨所制利爪，伤及不深而毒可渗及五脏。是为忌惮之器，不可明言之。<br/>言：云竹本无意，邪念自人心。"
+      },
+      {
+        "weapon": "霸熊高戚",
+        "name": "湮魂凶爪",
+        "img": "Weapon_105504",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，骨肉消散尽,魂魄几凋零。<br/>上古之灵，无惧身败形灭。独惧真魂消散，意念全无。盖以精怪为猎者，注湮魂之咒于此爪中，纵有千载造化，凶煞恶灵尽除之。<br/>言：神怪皆惊惧，湮魂但为民。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "霸熊高戚",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "霸熊高戚",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "霸熊高戚",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "霸熊高戚",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "剑煌惊魄爪",
+        "img": "Weapon_105505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "与携带「有害状态」的敌人「对战中」敌人物攻/法攻降低<b><color=#e4462c>5%</color></b>。受到伤害「对战后」对<b><color=#e4462c>3</color></b>格内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（物防的<b><color=#e4462c>70%</color></b>）（每回合最多触发<b><color=#e4462c>2</color></b>次）。"
+      },
+      {
+        "name": "剑煌惊魄爪",
+        "img": "Weapon_105505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "与携带「有害状态」的敌人「对战中」敌人物攻/法攻降低<b><color=#e4462c>6%</color></b>。受到伤害「对战后」对<b><color=#e4462c>3</color></b>格内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（物防的<b><color=#e4462c>70%</color></b>）（每回合最多触发<b><color=#e4462c>2</color></b>次）。"
+      },
+      {
+        "name": "剑煌惊魄爪",
+        "img": "Weapon_105505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "与携带「有害状态」的敌人「对战中」敌人物攻/法攻降低<b><color=#e4462c>7%</color></b>。受到伤害「对战后」对<b><color=#e4462c>3</color></b>格内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（物防的<b><color=#e4462c>70%</color></b>）（每回合最多触发<b><color=#e4462c>2</color></b>次）。"
+      },
+      {
+        "name": "剑煌惊魄爪",
+        "img": "Weapon_105505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "与携带「有害状态」的敌人「对战中」敌人物攻/法攻降低<b><color=#e4462c>8%</color></b>。受到伤害「对战后」对<b><color=#e4462c>3</color></b>格内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（物防的<b><color=#e4462c>70%</color></b>）（每回合最多触发<b><color=#e4462c>2</color></b>次）。"
+      },
+      {
+        "name": "剑煌惊魄爪",
+        "img": "Weapon_105505",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "与携带「有害状态」的敌人「对战中」敌人物攻/法攻降低<b><color=#e4462c>10%</color></b>。受到伤害「对战后」对<b><color=#e4462c>3</color></b>格内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（物防的<b><color=#e4462c>70%</color></b>）（每回合最多触发<b><color=#e4462c>2</color></b>次）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天石命坠",
+        "percent": "0.195048369759942"
+      },
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.108509494804729"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.212629881762809"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.210838409172339"
+      },
+      {
+        "name": "寒月玉镯",
+        "percent": "0.108778215693299"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "天石云佩",
+        "percent": "0.314510927982801"
+      },
+      {
+        "name": "暮云合璧",
+        "percent": "0.205553565030455"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.104120386958079"
+      },
+      {
+        "name": "绀云化雾",
+        "percent": "0.104030813328556"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.21248298101039"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.114242207094231"
+      },
+      {
+        "name": "砚山佩",
+        "percent": "0.100121820136151"
+      }
+    ]
+  }
+]

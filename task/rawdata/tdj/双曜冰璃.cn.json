@@ -1,0 +1,409 @@
+[
+  {
+    "name": "双曜冰璃",
+    "is_new": "",
+    "pinyin": "shuangyaobingli",
+    "weight": "1220",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1051_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "幽",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "230",
+    "magic_attack": "14",
+    "physical_attack": "103",
+    "magic_defense": "21",
+    "physical_defense": "41",
+    "huixin": "18",
+    "inherent": "Gift_122",
+    "inherent_name": "幽煌冥华",
+    "star1": "",
+    "star2": "",
+    "star3": "移动力+1，自身气血越高/低，物防/物攻数值越高，最多提高15%。行动结束时，获得<link type=buff value=741051044 bgcolor=#3a85ffff>「幽霜」</link>状态，持续3回合（间隔4回合触发）。受到致命伤害时免除死亡，气血恢复50%，若携带「幽霜」状态，则额外对自身3格范围内所有敌人造成1次「固定伤害」（（物攻+物防）的50%），施加<link type=buff value=700000737 bgcolor=#3a85ffff>「无摧·迟缓III」</link>状态，持续2回合（每场战斗最多触发1次）。",
+    "star4": "移动力+1，自身气血越高/低，物防/物攻数值越高，最多提高20%。行动结束时，获得<link type=buff value=741051044 bgcolor=#3a85ffff>「幽霜」</link>状态，持续3回合（间隔4回合触发）。受到致命伤害时免除死亡，气血恢复50%，若携带「幽霜」状态，则额外对自身3格范围内所有敌人造成1次「固定伤害」（（物攻+物防）的50%），施加<link type=buff value=700000737 bgcolor=#3a85ffff>「无摧·迟缓III」</link>状态，持续2回合（每场战斗最多触发1次）。",
+    "star5": "移动力+2，自身气血越高/低，物防/物攻数值越高，最多提高25%。行动结束时，获得<link type=buff value=741051045 bgcolor=#3a85ffff>「幽霜」</link>状态，持续3回合（间隔4回合触发）。受到致命伤害时免除死亡，气血恢复50%，若携带「幽霜」状态，则额外对自身3格范围内所有敌人造成1次「固定伤害」（（物攻+物防）的50%），施加<link type=buff value=700000737 bgcolor=#3a85ffff>「无摧·迟缓III」</link>状态，持续2回合（每场战斗最多触发1次）。",
+    "star6": "移动力+2，自身气血越高/低，物防/物攻数值越高，最多提高30%。行动结束时，获得<link type=buff value=741051046 bgcolor=#3a85ffff>「幽霜」</link>状态，持续3回合（间隔3回合触发）。受到致命伤害时免除死亡，气血恢复50%，若携带「幽霜」状态，则额外对自身3格范围内所有敌人造成1次「固定伤害」（（物攻+物防）的50%），施加<link type=buff value=700000737 bgcolor=#3a85ffff>「无摧·迟缓III」</link>状态，持续2回合（每场战斗最多触发1次）。",
+    "story_name": "一瞬",
+    "story_content": "他们骑着马在沙漠里前行，就像第一次来到这里一样。风沙拂面，她却感到一阵生还者的欣喜，哪怕这个刚刚将她接回的世界正在他们背后崩塌。<br/>「夏侯仪，你……一直以来，都在找我吗？」<br/>「我一直在找再次进入幽城的办法。」<br/>「那中间，都发生了什么？可以告诉我吗？」<br/>「相比起现在都已经不足为道了。」<br/>但他已经与他们分别时的模样大相径庭。他的金发变长了，垂在冷漠的双眼旁边，那眼中几乎没有任何温情。他的半截衣袖下空空荡荡，伸出一只骇人的铁爪，勾着马儿的缰绳。她忽然升起一阵担心：人心是会变的。现在，他们是人了。<br/>「我不确定……我甚至不确定自己是否还是你要找的那个人。」<br/>他突然用那只健康的手伸向她，人体的温暖包裹了她的小臂。那是夏侯仪的体温，不属于世上任何一个除此之外的人的体温——只是他。<br/>「如果我们都不再是过去的彼此，那我们就重新认识一次吧。」",
+    "hero_icon": "Hero1051_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1408",
+        "name": "执剑奉佑",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": " [被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>主动使用，护卫范围提高到<b><color=#e4462c>3</color></b>格，获得<link type=buff value=741051112 bgcolor=#3a85ffff>「执剑」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1513",
+        "name": "冷剑霜封",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "携带「幽霜」状态时，免疫「固定伤害」。遭受近战攻击「对战中」发动「先攻」（「先攻」每回合触发2次）。"
+      },
+      {
+        "img": "GPassive_1002",
+        "name": "奋力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战中」物攻提高12%。"
+      },
+      {
+        "img": "EXSkill_1433",
+        "name": "幽蔽",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，若本回合使用过技能，自身获得<link type=buff value=741062095 bgcolor=#3a85ffff>「幽铠」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1514",
+        "name": "御台瞰世",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "主动攻击「对战前」，每移动1格，伤害和物理穿透提高3%（最多15%，若目标为非飞行角色，则效果翻倍）。若移动距离大于等于3格，则主动普攻触发「追击」（0.4倍伤害）。"
+      },
+      {
+        "img": "EXSkill_1410",
+        "name": "幽剑鬼狱",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线5格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "攻击范围内所有敌人，造成<b><color=#e4462c>0.3</color></b>倍伤害，击退<b><color=#e4462c>2</color></b>格，命中<b><color=#e4462c>2</color></b>个及以上目标时，获得再行动（<b><color=#e4462c>5</color></b>格，且本次行动「有益状态」和「幽霜」持续时间不减少）。<br/>使用后切换为<link type=skill value=61105141 bgcolor=#3a85ffff>「绝剑凶号」</link>。"
+      },
+      {
+        "img": "EXSkill_1512",
+        "name": "灭剑罗渊",
+        "type": "物攻伤害",
+        "cd": "4回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击范围内所有敌人，造成<b><color=#e4462c>0.7</color></b>倍伤害，使目标所有「有益状态」持续时间减少<b><color=#e4462c>2</color></b>回合并施加<link type=buff value=700001501 bgcolor=#3a85ffff>「封劲」</link>状态，持续<b><color=#e4462c>2</color></b>回合，清除攻击范围内的敌方机关，若携带「幽霜」状态，绝学后额外施加<link type=buff value=700000854 bgcolor=#3a85ffff>「无摧·封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "双曜冰璃",
+        "name": "幻剑·幽",
+        "img": "Weapon_105101",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，在昔太初，玄黄混并，浑沌鸿濛，兆朕未形。太初渺邈，难得而详。<br/>传，其出自「列星」，又传，其乃收幽垠中的混沌化厉而成，然此时尚未觉醒，为初始也。今剑使魂穿时轮界隙，汲计都之力，幽力盈盛，凡界之兵，难御之也。<br/>夫不详者，混入人世。<br/>传，能得此剑，为罗睺之布局。"
+      },
+      {
+        "weapon": "双曜冰璃",
+        "name": "冰刃幻剑·幽",
+        "img": "Weapon_105102",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，罗睺双使入人间道，多杀戮，孤魂游走八荒。所持幻剑，其形貌怪，乃于「列星」中可见其铸法。然，今无可考，或为铸剑时注入「乌金玄铁」而成。<br/>不独形异，剑有多效，能摄人心魄。今幽力加持，冰霜之刃，复湮灭垠魂，纵有万般心力，亦可为剑所反噬。非赴死者，不得生也。"
+      },
+      {
+        "weapon": "双曜冰璃",
+        "name": "冰魄云渺·幽",
+        "img": "Weapon_105103",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，疑将冰月为精爽，端借琼瑶琢剑身。<br/>其铸法于「列星」可见。<br/>传，冰魄云渺乃至寒之刃，若非御冰且道法高深者无法操持。又传，其乃冰龙冱蚑化身，通灵之刃，此间能操持者罕有。计都之力，侵蚀龙身，幽垠蚀骨，冰洁不复，而似暗魂具形也。<br/>言：冰月为精，伏龙为身，真神兵也。"
+      },
+      {
+        "weapon": "双曜冰璃",
+        "name": "凶魔幻剑",
+        "img": "Weapon_105104",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，此界有幽寒之地，至若穷阴凝闭，凛冽海隅，有积雪没胫，坚冰在须。深藏冰魄，为无上力之一种。<br/>于「列星」中可见，幻剑之觉醒。以致剑身剔透如冰，周围萦绕寒缈雾气。日月相蚀，剑使入隙，幽火灼身而不灭，幻剑亦然，其冰愈透，质愈坚，论为凶魔者也。<br/>言：其轻捷锋利，且具以寒气封冻敌体之能。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "双曜冰璃",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "双曜冰璃",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "双曜冰璃",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "双曜冰璃",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_051",
+        "name": "幽使驭天阵",
+        "unlock_condition": "阵眼双曜冰璃位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1051_HeadIcon_Basic",
+        "icon1": "swordsman",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵双曜冰璃和「侠客」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%。与非飞行角色「对战中」伤害和暴击抗性提高8%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幽厉煌熇",
+        "img": "Weapon_105105",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "携带「幽霜」状态时，免伤提高<b><color=#e4462c>5%</color></b>且反击射程<b><color=#e4462c>+1</color></b>，回合开始时获得「冰清」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "幽厉煌熇",
+        "img": "Weapon_105105",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "携带「幽霜」状态时，免伤提高<b><color=#e4462c>6%</color></b>且反击射程<b><color=#e4462c>+1</color></b>，回合开始时获得「冰清」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "幽厉煌熇",
+        "img": "Weapon_105105",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "携带「幽霜」状态时，免伤提高<b><color=#e4462c>7%</color></b>且反击射程<b><color=#e4462c>+1</color></b>，回合开始时获得「冰清」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "幽厉煌熇",
+        "img": "Weapon_105105",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "携带「幽霜」状态时，免伤提高<b><color=#e4462c>8%</color></b>且反击射程<b><color=#e4462c>+1</color></b>，回合开始时获得「冰清」状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "name": "幽厉煌熇",
+        "img": "Weapon_105105",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "携带「幽霜」状态时，免伤提高<b><color=#e4462c>10%</color></b>且反击射程<b><color=#e4462c>+1</color></b>，回合开始时获得「冰清」状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天石命坠",
+        "percent": "0.344755149365707"
+      },
+      {
+        "name": "飞泉鸣玉",
+        "percent": "0.217009957713818"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.11198335834129"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "琼瞳灵戒",
+        "percent": "0.524626502454714"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.1671190833447"
+      },
+      {
+        "name": "混元天御",
+        "percent": "0.143149638521347"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "天石云佩",
+        "percent": "0.241842859091529"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.213224662392579"
+      },
+      {
+        "name": "摩尼宝珠",
+        "percent": "0.112290274178147"
+      },
+      {
+        "name": "当路君星",
+        "percent": "0.109343882144318"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.347305960987587"
+      },
+      {
+        "name": "天石符珠",
+        "percent": "0.239885418087573"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.119403901241304"
+      }
+    ]
+  }
+]

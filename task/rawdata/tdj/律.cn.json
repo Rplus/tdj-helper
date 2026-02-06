@@ -1,0 +1,390 @@
+[
+  {
+    "name": "律",
+    "is_new": "",
+    "pinyin": "lvlv",
+    "weight": "1300",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1054_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "幽",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "185",
+    "magic_attack": "13",
+    "physical_attack": "103",
+    "magic_defense": "26",
+    "physical_defense": "33",
+    "huixin": "42",
+    "inherent": "Gift_147",
+    "inherent_name": "面圣礼拜",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击「对战中」物攻提高8%。行动结束时，对十字7格范围1个敌方施加1个随机「有害状态」和<link type=buff value=741054011 bgcolor=#3a85ffff>「幽禁」</link>状态，持续2回合。",
+    "star4": "主动攻击「对战中」物攻提高10%。行动结束时，对十字7格范围1个敌方施加1个随机「有害状态」和<link type=buff value=741054011 bgcolor=#3a85ffff>「幽禁」</link>状态，持续2回合。<br/>",
+    "star5": "主动攻击「对战中」物攻提高12%。行动结束时，对十字7格范围2个敌方施加1个随机「有害状态」和<link type=buff value=741054011 bgcolor=#3a85ffff>「幽禁」</link>状态，持续2回合。<br/>",
+    "star6": "主动攻击「对战中」物攻提高15%。行动结束时，对十字7格范围2个敌方施加1个随机「有害状态」和<link type=buff value=741054011 bgcolor=#3a85ffff>「幽禁」</link>状态，持续2回合。",
+    "story_name": "融合",
+    "story_content": "「律」产生意识的刹那，混乱风消云散，明界万物在静默中蜕变的井然有序，一切涌动的晦暗都龟缩入隐蔽之处。<br/>「律」从不自称「我」，「律」理应是这世间运数拧成的一股绳，只是其脱胎于明界，若想成为天地间唯一的规则，尚需吞噬幽界臻至无瑕。<br/>天地轮回，本就是一场漫长的牺牲。明明谁都不能阻止，但又偏偏出了意外。<br/>也罢，「律」推演万物不过是蜉蝣生死一瞬，虽然破律者定然出现，但却是这世间不必赋予意义的泡沫，何须论断对错？那降下幽城的破律者，注定与这万物法度相融合！<br/>「律」是最耐心的牧羊人，鞭笞着所有人规定的方向往前走。<br/>「黎幽……这其实就是你的选择。」降幽城，献身为祭，促使空劫来临之际再次回溯，送那些你不敢再见的友人回到过去，破除宿命。<br/>可如你所见，这其中再也没有一种属于你的未来。",
+    "hero_icon": "Hero1054_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1028",
+        "name": "疾风快刃",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "无视护卫攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，若目标满血则「对战前」造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.3</color></b>倍物攻伤害。"
+      },
+      {
+        "img": "EXSkill_1549",
+        "name": "纵命格杀",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，「对战前」施加<link type=buff value=743001911 bgcolor=#3a85ffff>「幽阙」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若目标周围<b><color=#e4462c>1</color></b>格没有友方则本次攻击无视护卫且物理穿透提高<b><color=#e4462c>30%</color></b>。"
+      },
+      {
+        "img": "GPassive_1013",
+        "name": "孤胆",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内无其他友方，则物攻，物防+10%。"
+      },
+      {
+        "img": "EXSkill_1548",
+        "name": "律隙万变",
+        "type": "再动",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "4格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，传送到<b><color=#e4462c>1</color></b>个目标身周的指定空格，使自身<b><color=#e4462c>2</color></b>格范围友方<b><color=#e4462c>/</color></b>敌方的「有益状态」<b><color=#e4462c>/</color></b>「有害状态」持续时间增加<b><color=#e4462c>1</color></b>回合。自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "GPassive_1044",
+        "name": "幽之力",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若携带的「有益状态」大于目标，则「对战中」伤害额外提高20%。"
+      },
+      {
+        "img": "EXSkill_1550",
+        "name": "纷华殽乱",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.5</color></b>倍伤害，基于当前被弹射目标的<b><color=#e4462c>2</color></b>格范围进行弹射，施加<link type=buff value=741054011 bgcolor=#3a85ffff>「幽禁」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若目标<b><color=#e4462c>1</color></b>格内无其他友方则额外施加<link type=buff value=700000423 bgcolor=#3a85ffff>「禁闭」</link>状态，持续<b><color=#e4462c>1</color></b>回合。（最多弹射<b><color=#e4462c>5</color></b>次，优先未被弹射过且在弹射范围内距离最近的目标，弹射目标无法重复，若没有弹射目标，则立刻中断）"
+      },
+      {
+        "img": "GPassive_1028",
+        "name": "缚力奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "EXSkill_1547",
+        "name": "掠夺敕令",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，物理穿透提高<b><color=#e4462c>30%</color></b>，「对战前」夺取目标最多<b><color=#e4462c>3</color></b>个「有益状态」若夺取数量达上限自身伤害提升<b><color=#e4462c>20%</color></b>。若击杀目标或目标触发「抵挡致命伤害」的效果则自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "律",
+        "name": "落月环",
+        "img": "Weapon_105401",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，天然合成璧,落月透岩晖。<br/>幽月之岩，落于定土。荧璧透彻、寒气如锋。拾掇而磨制为刃，若紫玉辉光，回旋流转，疾砺而击风破。<br/>言，紫辉翩翩，落魂盈盈。"
+      },
+      {
+        "weapon": "律",
+        "name": "破空刃",
+        "img": "Weapon_105402",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，静意崖穿溜，孤愁笛破空。<br/>古有女侍，主亡于匪乱，得两三珠环，遣家而去。后匪首受戮，传为珠环之刃，凌空而下，女侠取其命于一瞬也。或见女子独于山崖舞刃，鸢步若舞也。<br/>言，报君珠玉意，舞环偿血仇。"
+      },
+      {
+        "weapon": "律",
+        "name": "灵幽刃环",
+        "img": "Weapon_105403",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，顾兔蚀残月,幽光不如星。<br/>月影残，明光微，此阴天暗星当空，异象生。冥石浮动生环，环引幽为刃。削骨噬肉，伤处不可愈合。忌器也，为四界行者所斥。<br/>言，影月异动，引幽啖魂。"
+      },
+      {
+        "weapon": "律",
+        "name": "血引骨生",
+        "img": "Weapon_105404",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，以血淬骨，若异生也。<br/>荒野亡骸，饮魂吞魄，聚化而生。拾而制环刃，虽研磨去尖，过夜复生。质轻而入肉三分、形糙而勾连如真骨，亦附魂也。<br/>言，霜骸饮血，赤骨欲生。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "律",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "律",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "律",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "律",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "幽华真晔",
+        "img": "Weapon_105405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "若目标<b><color=#e4462c>1</color></b>格内无其他友方，则「对战后」造成<b><color=#e4462c>1</color></b>次「固定伤害」（物攻的<b><color=#e4462c>30%</color></b>）。使用伤害绝学后，可选择传送到携带「幽禁」状态敌方角色身周的<b><color=#e4462c>1</color></b>个指定空格并获得「闪避」状态，持续<b><color=#e4462c>1</color></b>回合（间隔<b><color=#e4462c>3</color></b>回合触发）。"
+      },
+      {
+        "name": "幽华真晔",
+        "img": "Weapon_105405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "若目标<b><color=#e4462c>1</color></b>格内无其他友方，则「对战后」造成<b><color=#e4462c>1</color></b>次「固定伤害」（物攻的<b><color=#e4462c>30%</color></b>）。使用伤害绝学后，可选择传送到携带「幽禁」状态敌方角色身周的<b><color=#e4462c>1</color></b>个指定空格并获得「闪避」状态，持续<b><color=#e4462c>1</color></b>回合（间隔<b><color=#e4462c>3</color></b>回合触发）。"
+      },
+      {
+        "name": "幽华真晔",
+        "img": "Weapon_105405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "若目标<b><color=#e4462c>1</color></b>格内无其他友方，则「对战后」造成<b><color=#e4462c>1</color></b>次「固定伤害」（物攻的<b><color=#e4462c>30%</color></b>）。使用伤害绝学后，可选择传送到携带「幽禁」状态敌方角色身周的<b><color=#e4462c>1</color></b>个指定空格并获得「闪避」状态，持续<b><color=#e4462c>1</color></b>回合（间隔<b><color=#e4462c>2</color></b>回合触发）。"
+      },
+      {
+        "name": "幽华真晔",
+        "img": "Weapon_105405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "若目标<b><color=#e4462c>1</color></b>格内无其他友方，则「对战后」造成<b><color=#e4462c>1</color></b>次「固定伤害」（物攻的<b><color=#e4462c>30%</color></b>）。使用伤害绝学后，可选择传送到携带「幽禁」状态敌方角色身周的<b><color=#e4462c>1</color></b>个指定空格并获得「闪避」状态，持续<b><color=#e4462c>1</color></b>回合（间隔<b><color=#e4462c>2</color></b>回合触发）。"
+      },
+      {
+        "name": "幽华真晔",
+        "img": "Weapon_105405",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "若目标<b><color=#e4462c>1</color></b>格内无其他友方，则「对战后」造成<b><color=#e4462c>1</color></b>次「固定伤害」（物攻的<b><color=#e4462c>30%</color></b>）。使用伤害绝学后，可选择传送到携带「幽禁」状态敌方角色身周的<b><color=#e4462c>1</color></b>个指定空格并获得「闪避」状态，持续<b><color=#e4462c>1</color></b>回合（间隔<b><color=#e4462c>1</color></b>回合触发）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.210859251449657"
+      },
+      {
+        "name": "金翎神面",
+        "percent": "0.186979441222983"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.18144438587243"
+      },
+      {
+        "name": "如意珠翠",
+        "percent": "0.165629942013705"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.466348504248632"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.223512978698638"
+      },
+      {
+        "name": "葬海戒",
+        "percent": "0.109486672098707"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.33480386450937"
+      },
+      {
+        "name": "幌金绳",
+        "percent": "0.212629495984169"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "天荆覆魂",
+        "percent": "0.338819695029682"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.21402630659993"
+      },
+      {
+        "name": "无边落木·烟",
+        "percent": "0.113735304388313"
+      }
+    ]
+  }
+]

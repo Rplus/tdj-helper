@@ -1,0 +1,417 @@
+[
+  {
+    "name": "波旬尉迟良",
+    "is_new": "",
+    "pinyin": "boxunyuchiliang",
+    "weight": "1330",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1073_img",
+    "prop_icon": "Dusk",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "幽",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "211",
+    "magic_attack": "13",
+    "physical_attack": "109",
+    "magic_defense": "22",
+    "physical_defense": "35",
+    "huixin": "22",
+    "inherent": "Gift_153",
+    "inherent_name": "波旬欲界",
+    "star1": "",
+    "star2": "",
+    "star3": "「对战中」伤害、免伤提高10%，若自身气血百分比大于等于敌方，主动普攻触发「追击」（0.3倍伤害）。主动攻击每造成1次伤害后，获得1层<link type=buff value=741073023 bgcolor=#3a85ffff>「心念」</link>状态，「心念」达到2层后消耗并获得<link type=buff value=741073060 bgcolor=#3a85ffff>「波旬降临」</link>状态，持续2回合；场上有友方死亡时，立即获得「波旬降临」状态，持续2回合，若自身已行动结束则额外获得再激活（再激活效果每回合仅触发1次）。处于「波旬降临」状态，若场上不存在自身施加的「链锁」状态，行动结束前可选择5格内1个敌方施加<link type=buff value=741073080 bgcolor=#3a85ffff>「链锁」</link>状态。",
+    "star4": "「对战中」伤害、免伤提高15%，若自身气血百分比大于等于敌方，主动普攻触发「追击」（0.4倍伤害）。主动攻击每造成1次伤害后，获得1层<link type=buff value=741073023 bgcolor=#3a85ffff>「心念」</link>状态，「心念」达到2层后消耗并获得<link type=buff value=741073060 bgcolor=#3a85ffff>「波旬降临」</link>状态，持续2回合；场上有友方死亡时，立即获得「波旬降临」状态，持续2回合，若自身已行动结束则额外获得再激活（再激活效果每回合仅触发1次）。处于「波旬降临」状态，若场上不存在自身施加的「链锁」状态，行动结束前可选择5格内1个敌方施加<link type=buff value=741073080 bgcolor=#3a85ffff>「链锁」</link>状态。",
+    "star5": "「对战中」伤害、免伤提高20%，若自身气血百分比大于等于敌方，主动普攻触发「追击」（0.4倍伤害）。主动攻击每造成1次伤害后，获得1层<link type=buff value=741073023 bgcolor=#3a85ffff>「心念」</link>状态，「心念」达到2层后消耗并获得<link type=buff value=741073060 bgcolor=#3a85ffff>「波旬降临」</link>状态，持续2回合；场上有友方死亡时，立即获得「波旬降临」状态，持续2回合，若自身已行动结束则额外获得再激活（再激活效果每回合仅触发1次）。处于「波旬降临」状态，若场上不存在自身施加的「链锁」状态，行动结束前可选择5格内1个敌方施加<link type=buff value=741073080 bgcolor=#3a85ffff>「链锁」</link>状态。",
+    "star6": "「对战中」伤害、免伤提高25%，若自身气血百分比大于等于敌方，主动普攻触发「追击」（0.5倍伤害）。主动攻击每造成1次伤害后，获得1层<link type=buff value=741073023 bgcolor=#3a85ffff>「心念」</link>状态，「心念」达到2层后消耗并获得<link type=buff value=741073060 bgcolor=#3a85ffff>「波旬降临」</link>状态，持续2回合；场上有友方死亡时，立即获得「波旬降临」状态，持续2回合，若自身已行动结束则额外获得再激活（再激活效果每回合仅触发1次）。处于「波旬降临」状态，若场上不存在自身施加的「链锁」状态，行动结束前可选择5格内1个敌方施加<link type=buff value=741073080 bgcolor=#3a85ffff>「链锁」</link>状态。",
+    "story_name": "前行",
+    "story_content": "尉迟良从时轮宫离开时，姑且知道自己将要到哪里去。<br/>但不知从何时开始，他的目的所在总是突然变更，他沿着齿轮转动的方向，严丝合缝地被动前行。<br/>命运总是先行一步，用一把尖刀抵住他的后心。<br/>他踉跄走下雪山，刻盘的碎片原来并不能让他停止脚步，那只是他漫长旅程的一部分。他一边得到，一边失去。<br/>虞兮。<br/>黎幽。<br/>诸葛艾。<br/>朋友，亦或者是敌人。<br/>认识的，或者不认识的。<br/>他一如既往朝着目标前进，但是那最终的结局在哪、何时、又是如何降临，他始终——如叶障目。",
+    "hero_icon": "Hero1073_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1584",
+        "name": "抑恶孽形",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，<br/>若本次为近战攻击，「对战前」夺取目标<b><color=#e4462c>2</color></b>个「有益状态」，当夺取到<b><color=#e4462c>2</color></b>个「有益状态」时，自身所有「有益状态」等级提升<b><color=#e4462c>1</color></b>级；<br/>若本次为远程攻击，「对战后」施加<link type=buff value=700000423 bgcolor=#3a85ffff>「禁闭」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1009",
+        "name": "蓄势",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时若本回合未进入对战，自身获得<link type=buff value=700000760 bgcolor=#3a85ffff>「起势」</link>状态，持续1回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1587",
+        "name": "六欲讹心",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "7格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]遭受攻击时，若敌方「有益状态」大于等于<b><color=#e4462c>2</color></b>个，则「对战中」发动「先攻」。<br/>[主动]对目标施加<link type=buff value=741073150 bgcolor=#3a85ffff>「讹心」</link><link type=buff value=700001061 bgcolor=#3a85ffff>「封穴」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1585",
+        "name": "摩罗勒喉",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，夺取所有目标<b><color=#e4462c>1</color></b>个「有益状态」；<br/>若已处于「波旬降临」状态，则夺取所有目标<b><color=#e4462c>2</color></b>个「有益状态」，且当目标被夺取<b><color=#e4462c>2</color></b>个「有益状态」后，使目标所有「有害状态」等级提升<b><color=#e4462c>1</color></b>级。"
+      },
+      {
+        "img": "EXSkill_1588",
+        "name": "意志承继",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "暴击率提高10%。场上有角色死亡时，获得其所有「有益状态」。"
+      },
+      {
+        "img": "EXSkill_1586",
+        "name": "善法自然",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，获得再行动（<b><color=#e4462c>2</color></b>格，本次行动「有益状态」和「波旬降临」持续时间不减少）；<br/>若已处于「波旬降临」状态则所有「有益状态」等级提升<b><color=#e4462c>1</color></b>级。"
+      },
+      {
+        "img": "Skill_Swordsman_1015",
+        "name": "蓄势化形",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若主动攻击对战前已有2点气力，则消耗所有气力触发：本次对战造成伤害提高40%。<br/>[气力技]每造成1次伤害累积1点气力"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "波旬尉迟良",
+        "name": "波旬天机尺",
+        "img": "Weapon_107301",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "尉迟所持之器，以此量裁度数，修葺时轮仪轨，后经时轮之变而成尉迟之兵。<br/>天机尺不外显其利，然锋芒暗藏，暗合天地之律、万象之变。今为波旬所蚀，或有乱时破序之危，当为秘藏。"
+      },
+      {
+        "weapon": "波旬尉迟良",
+        "name": "波旬玄机尺",
+        "img": "Weapon_107302",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "传，玄机尺取造化玄机，承灵蕴，酝生世事之变。传，其量生死阴阳，遇血煞而鸣。然，天不允千变机妙现世，得之者必承其害。<br/>波旬俘之，必乱阴阳日夜，需缚其力，以防害世伤民。"
+      },
+      {
+        "weapon": "波旬尉迟良",
+        "name": "波旬量天尺",
+        "img": "Weapon_107303",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "传，量天尺，天赋多能，纵横业擅，其量日月星辰，丈万物生。求一真趣，九九为规。定身田精变，上下推移。<br/>波旬窥伺其力，欲晓天地之定，夺真变律，则明幽之界皆为其所掳，故以心锁缚之而藏真力也。"
+      },
+      {
+        "weapon": "波旬尉迟良",
+        "name": "幽冥化物",
+        "img": "Weapon_107304",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "传，波旬蚀界，幽怨伴生，盗食二脉而灵。时轮尊者以力定之，乃化尺形以藏。幽冥之物及彼天机诸尺，形似而难辨，其力非显，故世人患之。<br/>言，千尺难尽算，冥幽暗蛰眠。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "波旬尉迟良",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "波旬尉迟良",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "波旬尉迟良",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "波旬尉迟良",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_058",
+        "name": "六天自在阵",
+        "unlock_condition": "阵眼波旬尉迟良位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1073_HeadIcon_Basic",
+        "icon1": "guard",
+        "icon2": "physician",
+        "icon3": "",
+        "desc": "上阵波旬尉迟良和「铁卫」，「祝由」英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，若自身气血百分比大于等于目标，主动攻击「对战中」伤害提高15%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "晦明幽琰",
+        "img": "Weapon_107305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "处于「波旬降临」状态，行动结束时若自身气血百分比大于等于携带「链锁」状态的敌方，<b><color=#e4462c>50%</color></b>概率使自身随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>，反之与其平衡气血百分比。"
+      },
+      {
+        "name": "晦明幽琰",
+        "img": "Weapon_107305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "处于「波旬降临」状态，行动结束时若自身气血百分比大于等于携带「链锁」状态的敌方，<b><color=#e4462c>60%</color></b>概率使自身随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>，反之与其平衡气血百分比。"
+      },
+      {
+        "name": "晦明幽琰",
+        "img": "Weapon_107305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "处于「波旬降临」状态，行动结束时若自身气血百分比大于等于携带「链锁」状态的敌方，<b><color=#e4462c>70%</color></b>概率使自身随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>，反之与其平衡气血百分比。"
+      },
+      {
+        "name": "晦明幽琰",
+        "img": "Weapon_107305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "处于「波旬降临」状态，行动结束时若自身气血百分比大于等于携带「链锁」状态的敌方，<b><color=#e4462c>80%</color></b>概率使自身随机主动绝学冷却时间<b><color=#e4462c>-1</color></b>，反之与其平衡气血百分比。"
+      },
+      {
+        "name": "晦明幽琰",
+        "img": "Weapon_107305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "处于「波旬降临」状态，行动结束时若自身气血百分比大于等于携带「链锁」状态的敌方，<b><color=#e4462c>100%</color></b>概率使自身随机主动绝学冷却时间<b><color=#e4462c>-2</color></b>，反之与其平衡气血百分比。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "寰光剑玉",
+        "percent": "0.250662843524242"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.223422953749906"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.122343040142995"
+      },
+      {
+        "name": "绮罗天香·雾",
+        "percent": "0.118544723318686"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.34025471065763"
+      },
+      {
+        "name": "行戈灵戒",
+        "percent": "0.222585089744544"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.221654129738586"
+      },
+      {
+        "name": "诸怀腕带",
+        "percent": "0.115826320101288"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "寰光佩环",
+        "percent": "0.248614731511134"
+      },
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.217986147315111"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.114020257689729"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "寰光蔽月",
+        "percent": "0.263167871937092"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.217669620913085"
+      },
+      {
+        "name": "无边落木·烟",
+        "percent": "0.115844939301407"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.115156028896998"
+      }
+    ]
+  }
+]

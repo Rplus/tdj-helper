@@ -1,0 +1,398 @@
+[
+  {
+    "name": "魔化皇甫申",
+    "is_new": "",
+    "weight": "890",
+    "pinyin": "mohuahuangfushen",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1149_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "191",
+    "magic_attack": "14",
+    "physical_attack": "109",
+    "magic_defense": "32",
+    "physical_defense": "32",
+    "huixin": "43",
+    "inherent": "Gift_096",
+    "inherent_name": "闇星逆行",
+    "star1": "",
+    "star2": "",
+    "star3": "气血大于70%时，伤害和免伤提高10%。行动结束时，获得<link type=buff value=741149006 bgcolor=#3a85ffff>「绝心」</link>状态。若自身1圈范围内同时存在其他「雷」和「暗」的角色时，则额外获得1层「绝心」状态，若达到5层，则转化为<link type=buff value=741149007 bgcolor=#3a85ffff>「执戮」</link>状态，持续2回合。死亡时对自身2圈范围内1个气血百分比最低的敌人造成1次固定伤害（物攻的90%）",
+    "star4": "气血大于70%时，伤害和免伤提高13%。行动结束时，获得<link type=buff value=741149006 bgcolor=#3a85ffff>「绝心」</link>状态。若自身1圈范围内同时存在其他「雷」和「暗」的角色时，则额外获得1层「绝心」状态，若达到5层，则转化为<link type=buff value=741149007 bgcolor=#3a85ffff>「执戮」</link>状态，持续2回合。死亡时对自身2圈范围内1个气血百分比最低的敌人造成1次固定伤害（物攻的90%）",
+    "star5": "气血大于70%时，伤害和免伤提高16%。行动结束时，获得<link type=buff value=741149006 bgcolor=#3a85ffff>「绝心」</link>状态。若自身2圈范围内同时存在其他「雷」和「暗」的角色时，则额外获得1层「绝心」状态，若达到5层，则转化为<link type=buff value=741149007 bgcolor=#3a85ffff>「执戮」</link>状态，持续2回合。死亡时对自身2圈范围内1个气血百分比最低的敌人造成1次固定伤害（物攻的90%）",
+    "star6": "气血大于70%时，伤害和免伤提高20%。行动结束时，获得<link type=buff value=741149006 bgcolor=#3a85ffff>「绝心」</link>状态。若自身2圈范围内同时存在其他「雷」和「暗」的角色时，则额外获得1层「绝心」状态，若达到5层，则转化为<link type=buff value=741149008 bgcolor=#3a85ffff>「执戮」</link>状态，持续3回合。死亡时对自身2圈范围内1个气血百分比最低的敌人造成1次固定伤害（物攻的90%）",
+    "story_name": "另一半",
+    "story_content": "有的星在爆炸中新生，充盈着光亮、热烈、温暖。<br/>有的星则在垂死中坍缩，揽尽黑暗，任何光线都无法从中遁逃。<br/>「还记得我在华穹殿对你说过的话么？霍雍的魂魄在转生之时一分为二，分别转生为我和你……」<br/>「我和你共有霍雍的记忆，共享着闇星罗睺的力量，我唯一没有胜过你的，就是冰璃先选择了你，所以你成为『幽垠之戒』的主人。」<br/>如果他成为了那另一半……<br/>如果天命倾斜在他那一边，故事将不会这样结束。",
+    "hero_icon": "Hero1149_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1009",
+        "name": "来去如风",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若「对战后」有剩余的移动力，可继续移动。"
+      },
+      {
+        "img": "Skill_Guard_1006",
+        "name": "追袭",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于80%,则主动普攻触发「追击」（0.3倍伤害）"
+      },
+      {
+        "img": "EXSkill_1305",
+        "name": "诸杀灭阵",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。若本次攻击命中<b><color=#e4462c>3</color></b>名及以上的敌人时，则获得<link type=buff value=710010760 bgcolor=#3a85ffff>「暗铠」</link>状态。"
+      },
+      {
+        "img": "Skill_Shadow_1001",
+        "name": "暗浊",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成伤害后，对目标施加1个随机「有害状态」"
+      },
+      {
+        "img": "EXSkill_1304",
+        "name": "三阙回生",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若目标处于2圈范围内，「对战前」恢复自身25%气血，且「对战中」使目标物攻、法攻降低20%。若自身携带<link type=buff value=741149008 bgcolor=#3a85ffff>「执戮」</link>状态，则恢复量提升到50%。"
+      },
+      {
+        "img": "EXSkill_1308",
+        "name": "宿魂血咒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "遭受近战攻击「对战中」发动「先攻」（每回合触发1次），战斗开始时，若友方存在封铃笙时，则获得<link type=buff value=741149042 bgcolor=#3a85ffff>「宿魂」</link>状态。"
+      },
+      {
+        "img": "EXSkill_1316",
+        "name": "暗霎幽琰",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」自身获得<b><color=#e4462c>3</color></b>层<link type=buff value=741149006 bgcolor=#3a85ffff>「绝心」</link>状态，「对战前」施加<link type=buff value=700000931 bgcolor=#3a85ffff>「禁疗」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1306",
+        "name": "雷引万宇",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "2圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.3</color></b>倍伤害，牵引范围内敌人到身边，若牵引<b><color=#e4462c>3</color></b>个及以上敌人时，触发原地再行动。使用后切换为<link type=skill value=61114931 bgcolor=#3a85ffff>「天闪乱魂」</link>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "魔化皇甫申",
+        "name": "死火剑",
+        "img": "Weapon_sihuojian",
+        "qixue": "40",
+        "magic": "0",
+        "physical": "38",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，君埋泉下泥销骨，我寄人间雪满头。<br/>神匿之处有多国纷争，蔽日旌旗，白骨纷如雪。古战之场被世人视为陨落之地，常在无月之夜有萤火之光，见之则遇不详。地界能者集鬼火为双头之剑，为邪魔之道所好，持者可附鬼火之力，灼人心智，皆惧之。<br/>言：唯应风雨夕，鬼火出林明。"
+      },
+      {
+        "weapon": "魔化皇甫申",
+        "name": "玄冥剑",
+        "img": "Weapon_xuanmingjian",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "47",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，阳间地府俱相似，只当漂流在异乡。<br/>相传武林有一剑客宗师，无名无姓不知来处，因斩除妖魔而心智渐戾，临终以身投炉，熔身于剑。双头之剑无形，攻防自成一体，与持剑者实为一体，不伤己身，故而用之可挥如旋风，有不可匹敌之势。因此剑以血肉淬成，不为正道所容，后流落于地界。<br/>言：修行难救度，玄冥敬众生。"
+      },
+      {
+        "weapon": "魔化皇甫申",
+        "name": "阎心煞剑",
+        "img": "Weapon_yanxinshajian",
+        "qixue": "61",
+        "magic": "0",
+        "physical": "58",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，终日玩，莫抛离，免使阎王遣使追。<br/>据传，地界有一秘宝，见之择被摄心智，持之者皆为大凶大恶之人，上仙神魔皆难度化。此剑采用玄海深处妖兽之魄制成，业火难焚，天霜难侵，虽不得化形，然其重非凡，挥有千钧之势，可裂山河，被惊破肝胆者千千万。<br/>言：魂随司命鬼，魄逐见阎王。"
+      },
+      {
+        "weapon": "魔化皇甫申",
+        "name": "天罚幽脉",
+        "img": "Weapon_tianfayoumai",
+        "qixue": "77",
+        "magic": "0",
+        "physical": "73",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，悲莫悲兮生别离，乐莫乐兮新相知。<br/>世间众怨无处可匿，故择居于地脉之根，与之共生。因影响天地气运，故不为神仙所允，请来九道玄雷降之，凡人见之称为「天罚」。玄雷劈散九成怨气，其一成相融自生灵智，化形为双头之剑，逃窜至幽垠交界之处。挥其可见玄雷滚滚而上，剑出之时，雷鸣乍起，如上神一击，江海色变也。<br/>言：横挥斩天堑，玄雷降神罚。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "魔化皇甫申",
+        "img": "Equip_yuejinhue",
+        "name": "月锦抹额",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "魔化皇甫申",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "魔化皇甫申",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "魔化皇甫申",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "6",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "咒印归神",
+        "img": "Weapon_zhouyinguishen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "自身<b><color=#e4462c>2</color></b>圈范围内存在其他「雷」或「暗」属相的角色时，物理穿透提高<b><color=#e4462c>10%</color></b>。携带「执戮」状态时，反击伤害提高<b><color=#e4462c>10%</color></b>且反击射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "咒印归神",
+        "img": "Weapon_zhouyinguishen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "自身<b><color=#e4462c>2</color></b>圈范围内存在其他「雷」或「暗」属相的角色时，物理穿透提高<b><color=#e4462c>12%</color></b>。携带「执戮」状态时，反击伤害提高<b><color=#e4462c>12%</color></b>且反击射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "咒印归神",
+        "img": "Weapon_zhouyinguishen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "自身<b><color=#e4462c>2</color></b>圈范围内存在其他「雷」或「暗」属相的角色时，物理穿透提高<b><color=#e4462c>14%</color></b>。携带「执戮」状态时，反击伤害提高<b><color=#e4462c>14%</color></b>且反击射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "咒印归神",
+        "img": "Weapon_zhouyinguishen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "自身<b><color=#e4462c>2</color></b>圈范围内存在其他「雷」或「暗」属相的角色时，物理穿透提高<b><color=#e4462c>17%</color></b>。携带「执戮」状态时，反击伤害提高<b><color=#e4462c>17%</color></b>且反击射程<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "咒印归神",
+        "img": "Weapon_zhouyinguishen",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "自身<b><color=#e4462c>2</color></b>圈范围内存在其他「雷」或「暗」属相的角色时，物理穿透提高<b><color=#e4462c>20%</color></b>。携带「执戮」状态时，反击伤害提高<b><color=#e4462c>20%</color></b>且反击射程<b><color=#e4462c>+1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·尘",
+        "percent": "0.187071045699865"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.172758754075411"
+      },
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.161725211368785"
+      },
+      {
+        "name": "玄乌玉雕·烟",
+        "percent": "0.139473926578128"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "御刃金佩",
+        "percent": "0.187052625762124"
+      },
+      {
+        "name": "镶蛇银佩·尘",
+        "percent": "0.171985116690305"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "玄阙腰带",
+        "percent": "0.216690305586767"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.258391202637735"
+      },
+      {
+        "name": "藏龙玉带",
+        "percent": "0.154154616957394"
+      },
+      {
+        "name": "杏花疏影",
+        "percent": "0.141536959605076"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "葬海戒",
+        "percent": "0.276479581499014"
+      },
+      {
+        "name": "寰鸟戒",
+        "percent": "0.260564755291127"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.155665051852124"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.137871391994695"
+      }
+    ]
+  }
+]

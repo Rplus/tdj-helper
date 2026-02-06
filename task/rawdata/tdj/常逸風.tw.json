@@ -1,0 +1,362 @@
+[
+  {
+    "name": "常逸風",
+    "is_new": "0",
+    "weight": "260",
+    "pinyin": "changyifeng",
+    "source": "幽城幻劍錄登場角色",
+    "pic": "Hero1119_img",
+    "prop_icon": "Fire",
+    "career_icon": "Assassin",
+    "rarity": "SR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "御風",
+    "range": "1",
+    "speed": "5",
+    "qixue": "149",
+    "magic_attack": "9",
+    "physical_attack": "84",
+    "magic_defense": "25",
+    "physical_defense": "28",
+    "huixin": "46",
+    "inherent": "Gift_009",
+    "inherent_name": "逍遙殤",
+    "star1": "",
+    "star2": "周圍1圈內每多1個敵人，自身暴擊提高6%（最多18%）。造成傷害時如果發生暴擊，則對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star3": "周圍1圈內每多1個敵人，自身暴擊提高7%（最多21%）。造成傷害時如果發生暴擊，則對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star4": "周圍1圈內每多1個敵人，自身暴擊提高8%（最多24%）。造成傷害時如果發生暴擊，則對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star5": "周圍1圈內每多1個敵人，自身暴擊提高9%（最多27%）。造成傷害時如果發生暴擊，則對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "star6": "周圍1圈內每多1個敵人，自身暴擊提高10%（最多30%）。造成傷害時如果發生暴擊，則對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。",
+    "story_name": "曾幾何時",
+    "story_content": "常逸風是天瑤派的二徒弟，既不是首徒，也不是那唯一的女弟子。<br/>所謂騾子兩頭，中間著地，估計說的就是他了。<br/>「師兄，父親說有首詩和你很像。可我怎麼問，他都不說。」<br/>「師傅不過拿我開個玩笑，師妹莫要當真了。」<br/>「可他為什麼要開這樣的玩笑？」<br/>「哈哈，我哪裡知道……」<br/>清風自山間掠過，劃過了少年與女孩的衣角。<br/>他們誰都沒注意到，清風還翻開了桌旁的那本書。<br/>那上面字蒼勁有力，似是要將那整張紙全部刺破一般。<br/>少年學劍術，<br/>凌轢白猿公。<br/>紫燕黃金瞳，<br/>啾啾搖綠騣。<br/>……<br/>少年不改意氣，但求飄逸自得、隨心隨性。",
+    "hero_icon": "Hero1119_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1010",
+        "name": "封魂縛掠",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "無視護衛攻擊單個敵人，造成1.3倍傷害，暴擊率提高20%。"
+      },
+      {
+        "img": "EXSkill_1072",
+        "name": "閃擊",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "在攻擊前，每移動1格，暴擊率提高5%。（最多提高15%）"
+      },
+      {
+        "img": "Skill_Assassin_1006",
+        "name": "遁匿",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「對戰後」自身氣血低於50%，則獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。（間隔2回合觸發）"
+      },
+      {
+        "img": "Skill_Assassin_1008",
+        "name": "狠戾狂掠",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，獲得<link type=buff value=700001001 bgcolor=#3a85ffff>「刺骨」</link>狀態，持續2回合。獲得再行動（3格）。"
+      },
+      {
+        "img": "GPassive_1026",
+        "name": "貫甲咒",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行動結束時，對自身十字方向上7格內最近的1名敵人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蝕禦」</link>，持續1回合。"
+      },
+      {
+        "img": "Skill_Assassin_1009",
+        "name": "來去如風",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍級",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，若「對戰後」有剩餘的移動力，可繼續移動。"
+      },
+      {
+        "img": "Skill_Guard_1012",
+        "name": "偷襲",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "若敵人氣血為100%，則「對戰前」對其造成1次「固定傷害」（物攻的15%）。"
+      },
+      {
+        "img": "EXSkill_1033",
+        "name": "迴旋卷刃",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "1圈",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，驅散1個「增益狀態」，施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "天瑤刀輪",
+        "img": "Weapon_tianyaodaolun",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，刀輪，環刃也。其名自梵文而來，乃天竺國主神之一所用神武。<br/>傳，其於「列星」傳入，載為天竺匠人打造而成。<br/>傳，中原習刀輪者甚少，至天瑤派，為有緣人習得。其由匠人專門打造，是供天瑤派刀輪操使者的入門之物。"
+      },
+      {
+        "name": "星幻子",
+        "img": "Weapon_xinghuanzi",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "載，詠徹瓊章夜向闌。天移星斗下人間。九光倒影騰青簡，一氣回春繞絳壇。<br/>傳，其自「列星」可現，由「烏金玄鐵」鑄造而成。<br/>傳，其名星幻，乃其身可見淡淡星芒。言：此刀輪鋒利無比，可取敵首級數里之外。"
+      },
+      {
+        "name": "弦月雙刀",
+        "img": "Weapon_xuanyuedao",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，不言我即藉刀觀，龍氣熒熒橫玉鞍。丈五金環入手滑，斜勢入海上弦月。<br/>傳，其由「列星」獨門打造，乃以「化淵玉鋼」為原材。傳，其匠人因打造此器，雙目失明，眼彎如弦月，得其名。言：其器鋒利無比，因收起時如同弦月，故得弦月之名。"
+      },
+      {
+        "name": "回光銀環",
+        "img": "Weapon_huiguangyinhuan",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，帝者化八極。養萬物。和陰陽。陰陽和，回環生。<br/>傳，其煉法於「列星」中可窺見，經密法多次打造，而後合為一體。<br/>傳，其共陰陽之極，具一擊必斃之力。言：回光銀環其上篆刻有奇異符文，揮舞時呈浮波之效，可令妖魔遮眼畏避。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_yuejinhue",
+        "name": "月錦抹額",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "暴擊傷害提高<b><color=#e4462c>6%</color></b>。主動攻擊後<b><color=#e4462c>60%</color></b>機率對受暴擊的目標施加「炎灼」狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治療效果<b><color=#e4462c>-30%</color></b>（最高疊加<b><color=#e4462c>2</color></b>層）。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "光斬輪",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "暴擊傷害提高<b><color=#e4462c>7%</color></b>。主動攻擊後<b><color=#e4462c>70%</color></b>機率對受暴擊的目標施加「炎灼」狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治療效果<b><color=#e4462c>-30%</color></b>（最高疊加<b><color=#e4462c>2</color></b>層）。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "光斬輪",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "暴擊傷害提高<b><color=#e4462c>8%</color></b>。主動攻擊後<b><color=#e4462c>80%</color></b>機率對受暴擊的目標施加「炎灼」狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治療效果<b><color=#e4462c>-30%</color></b>（最高疊加<b><color=#e4462c>2</color></b>層）。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "光斬輪",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "暴擊傷害提高<b><color=#e4462c>9%</color></b>。主動攻擊後<b><color=#e4462c>90%</color></b>機率對受暴擊的目標施加「炎灼」狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治療效果<b><color=#e4462c>-30%</color></b>（最高疊加<b><color=#e4462c>2</color></b>層）。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "光斬輪",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "暴擊傷害提高<b><color=#e4462c>10%</color></b>。主動攻擊後<b><color=#e4462c>100%</color></b>機率對受暴擊的目標施加「炎灼」狀態，持續<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治療效果<b><color=#e4462c>-30%</color></b>（最高疊加<b><color=#e4462c>2</color></b>層）。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "光斬輪",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·塵",
+        "percent": "0.3544"
+      },
+      {
+        "name": "天狼血眼",
+        "percent": "0.0390"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "蛇首靈戒·煙",
+        "percent": "0.3408"
+      },
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.0601"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "靈越佩環·塵",
+        "percent": "0.4009"
+      },
+      {
+        "name": "清神淨玉",
+        "percent": "0.0255"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "慈航普度",
+        "percent": "0.3018"
+      },
+      {
+        "name": "藏龍玉帶",
+        "percent": "0.0435"
+      }
+    ]
+  }
+]

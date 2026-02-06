@@ -1,0 +1,389 @@
+[
+  {
+    "name": "韓千秀",
+    "is_new": 1,
+    "weight": "350",
+    "pinyin": "hanqianxiu",
+    "source": "神魔至尊傳登場角色",
+    "pic": "Hero1212_img",
+    "prop_icon": "Fire",
+    "career_icon": "Rogue",
+    "rarity": "SSR",
+    "position": "遠攻",
+    "prop": "炎",
+    "career": "羽士",
+    "range": "2",
+    "speed": "3",
+    "qixue": "174",
+    "magic_attack": "14",
+    "physical_attack": "101",
+    "magic_defense": "25",
+    "physical_defense": "32",
+    "huixin": "55",
+    "inherent": "Gift_036",
+    "inherent_name": "韓門飛燕",
+    "star1": "",
+    "star2": "",
+    "star3": "暴擊率提高10%。造成傷害時如果發生暴擊，對目標追加1次「固定傷害」（物攻的10%）",
+    "star4": "暴擊率提高13%。造成傷害時如果發生暴擊，對目標追加1次「固定傷害」（物攻的13%）",
+    "star5": "暴擊率提高16%。造成傷害時如果發生暴擊，對目標追加1次「固定傷害」（物攻的16%）",
+    "star6": "暴擊率提高20%。造成傷害時如果發生暴擊，對目標追加1次「固定傷害」（物攻的20%）",
+    "story_name": "飛燕門",
+    "story_content": "「吾兒，你兄長自幼體弱，恐怕……可這刀輪乃我飛燕門絕學，萬不可失傳啊……」<br/>「小女，恭敬不如從命。」<br/>至此，飛燕門便多了一位韓女俠。<br/>她的刀輪可比弓箭更悍，能取人首級數里之外！<br/>出生武鬥家，便逃不過習武之命嗎？<br/>「如果另有選擇……」<br/>她偶爾會這樣問自己。<br/>但她既然做了選擇，便不會退縮。<br/>因為她永遠不會忘卻——<br/>回頭時正巧迎上的，兄長的那雙眼神……<br/>「秀妹，為難你了……」",
+    "hero_icon": "Hero1212_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1036",
+        "name": "雙環映月",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "直線4x3格",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.4倍傷害，對飛行角色額外造成20%傷害，攻擊到2個或以上敵人時，該絕學冷卻時間-2。"
+      },
+      {
+        "img": "Skill_Ranger_1001",
+        "name": "逐風破",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.4倍傷害，對飛行角色額外造成20%傷害，「對戰前」施加<link type=buff value=700000684 bgcolor=#3a85ffff>「虛損II」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身氣血大於等於90%時，則物攻，物防提高10%。"
+      },
+      {
+        "img": "Skill_Fire_1011",
+        "name": "流火",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成傷害後，對目標施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Ranger_1002",
+        "name": "馬踏飛燕",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，自身獲得<link type=buff value=700001340 bgcolor=#3a85ffff>「精準」</link>狀態，持續1回合，並獲得再行動（2格）。"
+      },
+      {
+        "img": "Skill_Ranger_1013",
+        "name": "蓮花盞",
+        "type": "陷阱",
+        "cd": "1回合",
+        "cost": "1內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍級",
+        "desc": "主動使用，在指定格子佈置「蓮花盞」，持續2回合。<br/>「蓮花盞」：敵人進入陷阱1格範圍內，則立刻觸發，施加<link type=buff value=700000731 bgcolor=#3a85ffff>「遲緩II」</link>和2個隨機「減益狀態」，持續2回合。(陷阱觸發後消失)"
+      },
+      {
+        "img": "GPassive_1031",
+        "name": "挫銳脅迫",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "[協攻]若隊友主動攻擊自身2格範圍內的1個敵人，且優先攻擊時，則在進入戰鬥時使目標造成傷害降低20%。（1回合限定發動2次）"
+      },
+      {
+        "img": "EXSkill_1037",
+        "name": "旋刃卷嵐",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.7倍傷害，對飛行角色額外造成20%傷害，暴擊率提高30%，「對戰後」獲得再移動（2格）。<br/>[氣力技]消耗3點氣力，才可釋放絕學。（角色每造成1次傷害累積1點氣力，造成擊殺額外獲得1點氣力。）"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "韓家雙鐮",
+        "img": "Weapon_jinggangdaolun",
+        "qixue": "38",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "desc": "傳，飛燕門韓氏有一門絕技，善使刀輪，尋四方工匠為其鑄趁手之兵而不得，親力而為。<br/>於「列星」中尋得煉法，以良材鍛造刀輪，冠名為韓家雙鐮。<br/>傳，韓家雙鐮，質重而刃鋒。以獨門絕技操練之，可得調其質重，可打多段，乃稱唯一。"
+      },
+      {
+        "name": "燕返刃",
+        "img": "Weapon_huixuandaolun",
+        "qixue": "46",
+        "magic": "0",
+        "physical": "45",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "載，燕子逞翱翔。微志在雕梁。碧雲舉翮千里，其奈有鸞皇。自時降住，一切天魔，掃地焚香。<br/>傳，其自「列星」可現，由「烏金玄鐵」鑄造而成。<br/>傳，其名燕返，乃其形似雙燕，操持輕盈而多變。言：此刀輪鋒利無比，來去自如，又名無情刃。"
+      },
+      {
+        "name": "修羅鬼牙",
+        "img": "Weapon_aorendaolun",
+        "qixue": "58",
+        "magic": "0",
+        "physical": "56",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，修羅舞柘枝，急如閃電，疾如飛毛，翣眼迷癡，乃稱奇。傳，其於「列星」可見其獨門造法，乃以「化淵玉鋼」為原材。<br/>傳，此乃天竺遠古神手持之武，本非刀輪，乃經後世鍛造，賦其名，取修羅之名，更有亦正亦邪，崇尚力量之意。<br/>言：其器鋒利無比，其形貌不揚，然，所向披靡，鋒利無比。"
+      },
+      {
+        "name": "火鳳刀輪",
+        "img": "Weapon_huofengdaolun",
+        "qixue": "72",
+        "magic": "0",
+        "physical": "70",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，朱雀乃上古四天靈之一，於八卦為離，於五行主火。成圖騰，乃御火方術一族所尊奉。<br/>傳，火鳳者，朱雀也。其鑄法於「列星」中可見，因融入朱雀之羽，方得其名。有朱雀之靈而煉成兵者，火鳳刀輪可稱奇特。<br/>傳，火鳳刀輪，飛刃發紅，操持者可得靈力加持，然其乃神兵利器，需極高修為者方可御之。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "7",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_003",
+        "name": "飛燕驚鴻陣",
+        "unlock_condition": "陣眼韓千秀位階35級，五內魔陸級解鎖",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1212_HeadIcon_Basic",
+        "icon1": "swordsman",
+        "icon2": "guard",
+        "icon3": "",
+        "desc": "上陣韓千秀和「俠客」，「鐵衛」英靈至少各一名時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，主動造成傷害後，額外附加1次「固定傷害」（目標當前氣血*15%）。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "雙儀天弧",
+        "img": "weapon_shuangyitiangu",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "jiesuo-level": "神兵強化中習得",
+        "desc": "每造成<b><color=#e4462c>1</color></b>次暴擊，獲得「驚鴻」狀態，持續<b><color=#e4462c>2</color></b>回合。造成傷害後對目標施加「流血」狀態，持續<b><color=#e4462c>1</color></b>回合。<br/>「驚鴻」：物攻提高<b><color=#e4462c>1%</color></b>（最高<b><color=#e4462c>3</color></b>層）<br/>「流血」：行動結束時，遭受<b><color=#e4462c>1</color></b>次「固定傷害」（施加者物攻的<b><color=#e4462c>30%</color></b>）"
+      },
+      {
+        "name": "雙儀天弧",
+        "img": "weapon_shuangyitiangu",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "jiesuo-level": "星之晶等級和15+",
+        "desc": "每造成<b><color=#e4462c>1</color></b>次暴擊，獲得「驚鴻」狀態，持續<b><color=#e4462c>2</color></b>回合。造成傷害後對目標施加「流血」狀態，持續<b><color=#e4462c>1</color></b>回合。<br/>「驚鴻」：物攻提高<b><color=#e4462c>2%</color></b>（最高<b><color=#e4462c>3</color></b>層）<br/>「流血」：行動結束時，遭受<b><color=#e4462c>1</color></b>次「固定傷害」（施加者物攻的<b><color=#e4462c>30%</color></b>）"
+      },
+      {
+        "name": "雙儀天弧",
+        "img": "weapon_shuangyitiangu",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "jiesuo-level": "星之晶等級和30+",
+        "desc": "每造成<b><color=#e4462c>1</color></b>次暴擊，獲得「驚鴻」狀態，持續<b><color=#e4462c>2</color></b>回合。造成傷害後對目標施加「流血」狀態，持續<b><color=#e4462c>1</color></b>回合。<br/>「驚鴻」：物攻提高<b><color=#e4462c>3%</color></b>（最高<b><color=#e4462c>3</color></b>層）<br/>「流血」：行動結束時，遭受<b><color=#e4462c>1</color></b>次「固定傷害」（施加者物攻的<b><color=#e4462c>30%</color></b>）"
+      },
+      {
+        "name": "雙儀天弧",
+        "img": "weapon_shuangyitiangu",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "jiesuo-level": "星之晶等級和45+",
+        "desc": "每造成<b><color=#e4462c>1</color></b>次暴擊，獲得「驚鴻」狀態，持續<b><color=#e4462c>2</color></b>回合。造成傷害後對目標施加「流血」狀態，持續<b><color=#e4462c>1</color></b>回合。<br/>「驚鴻」：物攻提高<b><color=#e4462c>4%</color></b>（最高<b><color=#e4462c>3</color></b>層）<br/>「流血」：行動結束時，遭受<b><color=#e4462c>1</color></b>次「固定傷害」（施加者物攻的<b><color=#e4462c>30%</color></b>）"
+      },
+      {
+        "name": "雙儀天弧",
+        "img": "weapon_shuangyitiangu",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星",
+        "jiesuo-level": "星之晶等級和60+",
+        "desc": "每造成<b><color=#e4462c>1</color></b>次暴擊，獲得「驚鴻」狀態，持續<b><color=#e4462c>2</color></b>回合。造成傷害後對目標施加「流血」狀態，持續<b><color=#e4462c>1</color></b>回合。<br/>「驚鴻」：物攻提高<b><color=#e4462c>5%</color></b>（最高<b><color=#e4462c>3</color></b>層）<br/>「流血」：行動結束時，遭受<b><color=#e4462c>1</color></b>次「固定傷害」（施加者物攻的<b><color=#e4462c>30%</color></b>）"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蟾串珠·塵",
+        "percent": "0.2018"
+      },
+      {
+        "name": "雷吼化玉",
+        "percent": "0.1741"
+      },
+      {
+        "name": "如意珠翠",
+        "percent": "0.147301587301587"
+      },
+      {
+        "name": "冰蠺玉帶·煙",
+        "percent": "0.1169"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "星河手環",
+        "percent": "0.2684"
+      },
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.1625"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "辟邪玉佩·煙",
+        "percent": "0.2909"
+      },
+      {
+        "name": "護命神符·煙",
+        "percent": "0.1702"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "朝雲橫度",
+        "percent": "0.2374"
+      },
+      {
+        "name": "萬佛朝宗·霧",
+        "percent": "0.1278"
+      },
+      {
+        "name": "鮫人悲歌·煙",
+        "percent": "0.115555555555556"
+      }
+    ]
+  }
+]

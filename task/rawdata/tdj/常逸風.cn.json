@@ -1,0 +1,386 @@
+[
+  {
+    "name": "常逸风",
+    "is_new": "",
+    "weight": "280",
+    "pinyin": "changyifeng",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1119_img",
+    "prop_icon": "Fire",
+    "career_icon": "Assassin",
+    "rarity": "SR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "149",
+    "magic_attack": "9",
+    "physical_attack": "84",
+    "magic_defense": "25",
+    "physical_defense": "27",
+    "huixin": "45",
+    "inherent": "Gift_009",
+    "inherent_name": "逍遥殇",
+    "star1": "",
+    "star2": "周围1圈内每多1个敌人，自身暴击提高6%（最多18%）。造成伤害时如果发生暴击，则对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star3": "周围1圈内每多1个敌人，自身暴击提高7%（最多21%）。造成伤害时如果发生暴击，则对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star4": "周围1圈内每多1个敌人，自身暴击提高8%（最多24%）。造成伤害时如果发生暴击，则对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star5": "周围1圈内每多1个敌人，自身暴击提高9%（最多27%）。造成伤害时如果发生暴击，则对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "star6": "周围1圈内每多1个敌人，自身暴击提高10%（最多30%）。造成伤害时如果发生暴击，则对目标施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续2回合。",
+    "story_name": "曾几何时",
+    "story_content": "常逸风是天瑶派的二徒弟，既不是首徒，也不是那唯一的女弟子。<br/>所谓骡子两头，中间着地，估计说的就是他了。<br/>「师兄，父亲说有首诗和你很像。可我怎么问，他都不说。」<br/>「师傅不过拿我开个玩笑，师妹莫要当真了。」<br/>「可他为什么要开这样的玩笑？」<br/>「哈哈，我哪里知道……」<br/>清风自山间掠过，划过了少年与女孩的衣角。<br/>他们谁都没注意到，清风还翻开了桌旁的那本书。<br/>那上面字苍劲有力，似是要将那整张纸全部刺破一般。<br/>少年学剑术，<br/>凌轹白猿公。<br/>紫燕黄金瞳，<br/>啾啾摇绿騣。<br/>……<br/>少年不改意气，但求飘逸自得、随心随性。",
+    "hero_icon": "Hero1119_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Assassin_1010",
+        "name": "封魂缚掠",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "无视护卫攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>。"
+      },
+      {
+        "img": "EXSkill_1072",
+        "name": "闪击",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "在攻击前，每移动1格，暴击率提高5%。（最多提高15%）"
+      },
+      {
+        "img": "Skill_Assassin_1006",
+        "name": "遁匿",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战后」自身气血低于50%，则获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合。（间隔2回合触发）"
+      },
+      {
+        "img": "Skill_Assassin_1008",
+        "name": "狠戾狂掠",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，获得<link type=buff value=700001001 bgcolor=#3a85ffff>「刺骨I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。获得再行动（<b><color=#e4462c>3</color></b>格）。"
+      },
+      {
+        "img": "GPassive_1026",
+        "name": "贯甲咒",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，对自身十字方向上7格内最近的1名敌人施加<link type=buff value=700000700 bgcolor=#3a85ffff>「蚀御I」</link>，持续1回合。"
+      },
+      {
+        "img": "Skill_Assassin_1009",
+        "name": "来去如风",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，若「对战后」有剩余的移动力，可继续移动。"
+      },
+      {
+        "img": "Skill_Guard_1012",
+        "name": "偷袭",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "若敌人气血为100%，则「对战前」对其造成1次「固定伤害」（物攻的15%）。"
+      },
+      {
+        "img": "EXSkill_1033",
+        "name": "回旋卷刃",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "1圈",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，驱散<b><color=#e4462c>1</color></b>个「有益状态」，施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "常逸风",
+        "name": "天瑶刀轮",
+        "img": "Weapon_tianyaodaolun",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，刀轮，环刃也。其名自梵文而来，乃天竺国主神之一所用神武。<br/>传，其于「列星」传入，载为天竺匠人打造而成。<br/>传，中原习刀轮者甚少，至天瑶派，为有缘人习得。其由匠人专门打造，是供天瑶派刀轮操使者的入门之物。"
+      },
+      {
+        "weapon": "常逸风",
+        "name": "星幻子",
+        "img": "Weapon_xinghuanzi",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，咏彻琼章夜向阑。天移星斗下人间。九光倒影腾青简，一气回春绕绛坛。<br/>传，其自「列星」可现，由「乌金玄铁」铸造而成。<br/>传，其名星幻，乃其身可见淡淡星芒。言：此刀轮锋利无比，可取敌首级数里之外。"
+      },
+      {
+        "weapon": "常逸风",
+        "name": "弦月双刀",
+        "img": "Weapon_xuanyuedao",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，不言我即借刀观，龙气荧荧横玉鞍。丈五金环入手滑，斜势入海上弦月。<br/>传，其由「列星」独门打造，乃以「化渊玉钢」为原材。传，其匠人因打造此器，双目失明，眼弯如弦月，得其名。言：其器锋利无比，因收起时如同弦月，故得弦月之名。"
+      },
+      {
+        "weapon": "常逸风",
+        "name": "回光银环",
+        "img": "Weapon_huiguangyinhuan",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，帝者化八极。养万物。和阴阳。阴阳和，回环生。<br/>传，其炼法于「列星」中可窥见，经密法多次打造，而后合为一体。<br/>传，其共阴阳之极，具一击必毙之力。言：回光银环其上篆刻有奇异符文，挥舞时呈浮波之效，可令妖魔遮眼畏避。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "常逸风",
+        "img": "Equip_yuejinhue",
+        "name": "月锦抹额",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "常逸风",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "常逸风",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "常逸风",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "光斩轮",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "暴击伤害提高<b><color=#e4462c>6%</color></b>。主动攻击后<b><color=#e4462c>60%</color></b>概率对受暴击的目标施加「炎灼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治疗效果<b><color=#e4462c>-30%</color></b>（最高叠加<b><color=#e4462c>2</color></b>层）。"
+      },
+      {
+        "name": "光斩轮",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "暴击伤害提高<b><color=#e4462c>7%</color></b>。主动攻击后<b><color=#e4462c>70%</color></b>概率对受暴击的目标施加「炎灼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治疗效果<b><color=#e4462c>-30%</color></b>（最高叠加<b><color=#e4462c>2</color></b>层）。"
+      },
+      {
+        "name": "光斩轮",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "暴击伤害提高<b><color=#e4462c>8%</color></b>。主动攻击后<b><color=#e4462c>80%</color></b>概率对受暴击的目标施加「炎灼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治疗效果<b><color=#e4462c>-30%</color></b>（最高叠加<b><color=#e4462c>2</color></b>层）。"
+      },
+      {
+        "name": "光斩轮",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "暴击伤害提高<b><color=#e4462c>9%</color></b>。主动攻击后<b><color=#e4462c>90%</color></b>概率对受暴击的目标施加「炎灼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治疗效果<b><color=#e4462c>-30%</color></b>（最高叠加<b><color=#e4462c>2</color></b>层）。"
+      },
+      {
+        "name": "光斩轮",
+        "img": "weapon_guanlunzhan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "暴击伤害提高<b><color=#e4462c>10%</color></b>。主动攻击后<b><color=#e4462c>100%</color></b>概率对受暴击的目标施加「炎灼」状态，持续<b><color=#e4462c>2</color></b>回合。<br/>「炎灼」：受治疗效果<b><color=#e4462c>-30%</color></b>（最高叠加<b><color=#e4462c>2</color></b>层）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.232520325203252"
+      },
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.224390243902439"
+      },
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.120325203252032"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.125423728813559"
+      },
+      {
+        "name": "乌光燧珏·雾",
+        "percent": "0.108474576271186"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.108474576271186"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.124390243902439"
+      },
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.116260162601626"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.116260162601626"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·烟",
+        "percent": "0.133898305084745"
+      },
+      {
+        "name": "甘霖·雾",
+        "percent": "0.120325203252032"
+      }
+    ]
+  }
+]

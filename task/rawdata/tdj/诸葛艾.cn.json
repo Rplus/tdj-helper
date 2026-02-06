@@ -1,0 +1,382 @@
+[
+  {
+    "name": "诸葛艾",
+    "is_new": "",
+    "weight": "510",
+    "pinyin": "zhugeai",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1001_img",
+    "prop_icon": "Light",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "光",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "177",
+    "magic_attack": "100",
+    "physical_attack": "12",
+    "magic_defense": "35",
+    "physical_defense": "30",
+    "huixin": "23",
+    "inherent": "Gift_061",
+    "inherent_name": "繁音皓腕",
+    "star1": "",
+    "star2": "",
+    "star3": "每携带1个「有益状态」，伤害提高2%（最多提高8%）。每携带1个「有益状态」，释放绝学后有15%概率该绝学冷却时间-1(最多有60%概率)。",
+    "star4": "每携带1个「有益状态」，伤害提高3%（最多提高12%）。每携带1个「有益状态」，释放绝学后有20%概率该绝学冷却时间-1(最多有80%概率)。",
+    "star5": "每携带1个「有益状态」，伤害提高4%（最多提高16%）。每携带1个「有益状态」，释放绝学后有25%概率该绝学冷却时间-1(最多有100%概率)。",
+    "star6": "每携带1个「有益状态」，伤害提高5%（最多提高20%）。每携带1个「有益状态」，释放绝学后有25%概率该绝学冷却时间-2(最多有100%概率)。",
+    "story_name": "宫主",
+    "story_content": "<br/>寝殿，女子衣衫半解，发髻四散，凭依坐在床榻上。<br/>若有不擅闯入的外客，断不敢认这是平日一丝不苟的斋女。<br/>可惜，神阙宫内，没有活人。<br/>帷幔后，琴音渐起，萦绕在中庭之间，这是她多年来的习惯。<br/>杀了人，便要有乐声相伴。<br/>铮——<br/>她弹错了一个音。<br/>侍奉的宫人应声跪伏在地，丝毫不敢抬头，看她的眼。<br/>「我有这么可怕嘛？」<br/>那话中尽是笑意盈盈，宫人却抖的更甚了些许。<br/>「奴，扰了斋女大人的琴音，罪该万死，罪该万死……」<br/>晌久，回应才从她头顶传来：<br/>「中庭那尸填在后园中吧，近来园中的梨花开的没那么盛了」<br/>她顷刻允下，但心中难免有些不解，中庭那尸首，已是天玄门来的第十六人。斋女为何——<br/>「对了，记得书信一封，回转天玄门。就说……就说他遭了匪患，没能到山上。」<br/>宫人心惊，知道自己想了不该想的事，连连扣首，承允而出。<br/>寝殿门闭，阴影渐回，令宫人噤若寒蝉的少女重新依凭在帷幔之后。<br/>『果然呐，外门弟子在你眼中，算不得是人吗？』",
+    "hero_icon": "Hero1001_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1113",
+        "name": "司音辨曲",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」复制目标身上最多两个「有益状态」到自身，「对战后」为全场气血百分比最低的友方恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.8</color></b>倍）。<br/>复制：不可驱散的「有益状态」无法被复制。"
+      },
+      {
+        "img": "EXSkill_1111",
+        "name": "琴心",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束后，自身获得1个随机「有益状态」。"
+      },
+      {
+        "img": "Skill_Light_1013",
+        "name": "七光御阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.4</color></b>倍伤害，战后为自身菱形<b><color=#e4462c>3</color></b>格范围内的友方恢复气血（恢复量为施术者法攻的<b><color=#e4462c>0.5</color></b>倍）。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "EXSkill_1110",
+        "name": "神阙传佑",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，将<b><color=#e4462c>1</color></b>个其他友方传送至范围内任意空位格，并随机将自身最多<b><color=#e4462c>5</color></b>个「有益状态」复制给该友方。<br/>传送范围：以目标为中心的<b><color=#e4462c>7</color></b>格菱形范围<br/>复制：不可驱散的「有益状态」无法被复制。"
+      },
+      {
+        "img": "Skill_None_1023",
+        "name": "灵智真法",
+        "type": "支援",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，对单个友方施加<link type=buff value=700001011 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700001231 bgcolor=#3a85ffff>「迅目I」</link>和<link type=buff value=700000581 bgcolor=#3a85ffff>「辟攻」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Light_1004",
+        "name": "群星聚华 ",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战后」为自身周围<b><color=#e4462c>3</color></b>格内所有友方驱散<b><color=#e4462c>1</color></b>个「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1112",
+        "name": "希光回音",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，战后复制自身<b><color=#e4462c>1</color></b>个「有益状态」给周围菱形<b><color=#e4462c>3</color></b>格范围的其他友方，每伤害到<b><color=#e4462c>1</color></b>个敌人，额外复制<b><color=#e4462c>1</color></b>个「有益状态」（最多额外复制<b><color=#e4462c>5</color></b>个）。<br/>复制：不可驱散的「有益状态」无法被复制。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "诸葛艾",
+        "name": "秘木琴",
+        "img": "weapon_mimuqin",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，秘木唯天资，如含林下情。掩抑复凄清，非琴不是筝。<br/>经良材改制而成，其密法今存世可见。<br/>传，秘木琴，是以中阮为原型，经机巧师改制的机械之琴，镶嵌了灵力玉石，遂成法器，咒法者借此施术可提升功法修为。言，此声何所似，似琴语、更琅然。"
+      },
+      {
+        "weapon": "诸葛艾",
+        "name": "狭音琴",
+        "img": "weapon_xiayinqin",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，忽思仙客有四弦，出谷新莺咽清泉。<br/>传，狭音琴，是以中阮为原型，经机巧师改制的机械之琴，打造时有融炼「乌金玄铁」于其内，方成，其制法于「列星」可见。其形美，珍珑别致；其音脆，杀人于无形。言，莫作别离声，且听双凤鸣。"
+      },
+      {
+        "weapon": "诸葛艾",
+        "name": "流光琴",
+        "img": "weapon_liguangqin",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，拥此琴者非俗客，太古遗音为君传。<br/>传，流光琴，是以中阮为原型，经机巧师改制的机械之琴，打造时有融炼「化渊玉钢」于其内，方成，其制法于「列星」可见。琴身镶嵌有五光十色的晶石，遂呈流光溢彩，得名流光琴。其音亦如流光多变，威力不容小觑。言，流光难渡，愁绪万千。"
+      },
+      {
+        "weapon": "诸葛艾",
+        "name": "奇仙琴",
+        "img": "weapon_qixianqin",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，仙女下，仙宫夜凉弦声起，万户千门惟月明。<br/>传，奇仙琴，是以中阮为原型，经仙人点化而收作仙宫乐器，奏仙乐，后成仙家之兵。又传，琴身由仙木打造，琴音有应谷春风其铸法于「列星」可见。言，时移音律改，岂是昔日声。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "诸葛艾",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "诸葛艾",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "诸葛艾",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "诸葛艾",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "焰天琴",
+        "img": "weapon_yantianqin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>1%</color></b>（最多提高<b><color=#e4462c>4%</color></b>）。使用主动绝学后，行动结束时自身随机<b><color=#e4462c>1</color></b>个「有益状态」持续时间不减少。"
+      },
+      {
+        "name": "焰天琴",
+        "img": "weapon_yantianqin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>2%</color></b>（最多提高<b><color=#e4462c>8%</color></b>）。使用主动绝学后，行动结束时自身随机<b><color=#e4462c>2</color></b>个「有益状态」持续时间不减少。"
+      },
+      {
+        "name": "焰天琴",
+        "img": "weapon_yantianqin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>3%</color></b>（最多提高<b><color=#e4462c>12%</color></b>）。使用主动绝学后，行动结束时自身随机<b><color=#e4462c>2</color></b>个「有益状态」持续时间不减少。"
+      },
+      {
+        "name": "焰天琴",
+        "img": "weapon_yantianqin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>4%</color></b>（最多提高<b><color=#e4462c>16%</color></b>）。使用主动绝学后，行动结束时自身随机<b><color=#e4462c>3</color></b>个「有益状态」持续时间不减少。"
+      },
+      {
+        "name": "焰天琴",
+        "img": "weapon_yantianqin",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "每多携带<b><color=#e4462c>1</color></b>个「有益状态」，暴击率提高<b><color=#e4462c>5%</color></b>（最多提高<b><color=#e4462c>20%</color></b>）。使用主动绝学后，行动结束时自身随机<b><color=#e4462c>3</color></b>个「有益状态」持续时间不减少。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "洛神玉菡",
+        "percent": "0.131305880049599"
+      },
+      {
+        "name": "天河朱砂",
+        "percent": "0.108007570319128"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "重曜玉镯",
+        "percent": "0.248210994253497"
+      },
+      {
+        "name": "玉玑灵镯·尘",
+        "percent": "0.228179551122195"
+      },
+      {
+        "name": "玉玑灵镯·烟",
+        "percent": "0.173967255773609"
+      },
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.112761574325057"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "清神净玉",
+        "percent": "0.11192325262677"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "玄武玉",
+        "percent": "0.179879919075899"
+      },
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.16695816746068"
+      },
+      {
+        "name": "万佛朝宗·雾",
+        "percent": "0.15338380212752"
+      }
+    ]
+  }
+]

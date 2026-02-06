@@ -1,0 +1,397 @@
+[
+  {
+    "name": "九阴",
+    "is_new": "",
+    "weight": "730",
+    "pinyin": "jiuyin",
+    "source": "天地劫幽城再临原创角色",
+    "strategy": [
+      {
+        "img": "BattleAsssit_028",
+        "name": "朝花夕梦阵",
+        "unlock_condition": "阵眼九阴位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1028_HeadIcon_Basic",
+        "icon1": "light",
+        "icon2": "shadow",
+        "icon3": "",
+        "desc": "上阵九阴和「光」，「暗」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，3格范围内同时存在其他「光」和「暗」属相角色，伤害和暴击率提高8%。"
+      }
+    ],
+    "pic": "Hero1028_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Guard",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "225",
+    "magic_attack": "13",
+    "physical_attack": "96",
+    "magic_defense": "26",
+    "physical_defense": "37",
+    "huixin": "37",
+    "inherent": "Gift_084",
+    "inherent_name": "三世祈愿",
+    "star1": "",
+    "star2": "",
+    "star3": "每场战斗开始获得3次祈愿机会，在首次行动结束前，可发起1次祈愿（<link type=skill value=61028011 bgcolor=#3a85ffff>「一世愿·戒忌」</link>、<link type=skill value=61028012 bgcolor=#3a85ffff>「二世愿·守护」</link>、<link type=skill value=61028013 bgcolor=#3a85ffff>「三世愿·共念」</link>），每回合仅限发动1次。（祈愿效果会在首个敌方角色行动结束后移除）<br/>祈愿和使用技能后自身获得1个「白首·源魂」偿愿后获得2个「白首·源魂」。<br/>当集齐6个「白首·源魂」时，将激活「白首·灵魄」。<br/>「白首·灵魄」：伤害、免伤+15%，主动攻击发动「追击」（首击的0.2倍伤害）",
+    "star4": "每场战斗开始获得3次祈愿机会，在首次行动结束前，可发起1次祈愿（<link type=skill value=61028011 bgcolor=#3a85ffff>「一世愿·戒忌」</link>、<link type=skill value=61028012 bgcolor=#3a85ffff>「二世愿·守护」</link>、<link type=skill value=61028013 bgcolor=#3a85ffff>「三世愿·共念」</link>），每回合仅限发动1次。（祈愿效果会在首个敌方角色行动结束后移除）<br/>祈愿和使用技能后自身获得1个「白首·源魂」偿愿后获得2个「白首·源魂」。<br/>当集齐6个「白首·源魂」时，将激活「白首·灵魄」。<br/>「白首·灵魄」：伤害、免伤+20%，主动攻击发动「追击」（首击的0.3倍伤害）",
+    "star5": "每场战斗开始获得3次祈愿机会，在首次行动结束前，可发起1次祈愿（<link type=skill value=61028011 bgcolor=#3a85ffff>「一世愿·戒忌」</link>、<link type=skill value=61028012 bgcolor=#3a85ffff>「二世愿·守护」</link>、<link type=skill value=61028013 bgcolor=#3a85ffff>「三世愿·共念」</link>），每回合仅限发动1次。（祈愿效果会在首个敌方角色行动结束后移除）<br/>祈愿和使用技能后自身获得1个「白首·源魂」偿愿后获得2个「白首·源魂」。<br/>当集齐6个「白首·源魂」时，将激活「白首·灵魄」。<br/>「白首·灵魄」：伤害、免伤+25%，主动攻击发动「追击」（首击的0.3倍伤害）",
+    "star6": "每场战斗开始获得3次祈愿机会，在首次行动结束前，可发起1次祈愿（<link type=skill value=61028011 bgcolor=#3a85ffff>「一世愿·戒忌」</link>、<link type=skill value=61028012 bgcolor=#3a85ffff>「二世愿·守护」</link>、<link type=skill value=61028013 bgcolor=#3a85ffff>「三世愿·共念」</link>），每回合仅限发动1次。（祈愿效果会在首个敌方角色行动结束后移除）<br/>祈愿和使用技能后自身获得1个「白首·源魂」偿愿后获得2个「白首·源魂」。<br/>当集齐6个「白首·源魂」时，将激活「白首·灵魄」。<br/>「白首·灵魄」：伤害、免伤+30%，主动攻击发动「追击」（首击的0.4倍伤害）",
+    "story_name": "祭首",
+    "story_content": "「祭首，人选已备好，可要将他们送到您的属地？」<br/>没有回答，他偷偷地抬起头，却猝不及防地迎上少女的双眼。那眼神空洞而冷漠，似是没有灵魂。<br/>「你想帮我？」<br/>他毫不犹豫地点着头。<br/>「好。」<br/>这回答让他欣喜若狂，但转瞬间，彻骨的痛苦便自双肩传来，他一时有些茫然——<br/>『发生了什么？』<br/>他茫然地看着那少女驱使的人偶，手中握着……他的双臂。 汗水一刻不停的落下，他看着少女那依旧空洞的双眼，突然感到一丝恐惧。<br/>「祭首大人不能杀我！我乃魔将癫春秋属下枢机使——」<br/>少女侧了侧头，似是有些困惑。<br/>「你说过，想要帮我。」<br/>他怔住片刻，但也正是这片刻的犹豫，让少女似是得到了什么确定的答案……<br/>昏暗的洞穴中，少女一丝不苟地做着她的工作，直至阳光微斜，直至那疯癫的魔将闯入洞窟。<br/>「九阴，尔怎敢——」<br/>墙壁上，被数枚长钉牢牢固定的残破躯干尚未流尽最后一滴血，那男人的胸口尚有起伏，他绝望而痛苦地看着魔将，似是希望对方能给自己带来解脱。<br/>「……祭首安可以此酷刑施于教众？」<br/>九阴并未转身。这是她最近刚刚学会的，交流的规则——熟悉的人，不一定要看着对方的眼睛说话。<br/>「这不是酷刑，他说要帮我，而且他也不是真的教众。」<br/>没有疑惑，唯有肯定。癫春秋沉默片刻，点头致歉，转身离去。<br/>洞窟外，诸部一拥而上，七嘴八舌地问着祭首的反应。但魔将却只是冷着脸，把这些个乌合之众纷纷逐走。众人不解，人人畏惧的癫春秋何时吃得了这等亏？<br/>但除了癫春秋，他们谁会知道——<br/>「这玄冥教内的一切诸事，没有祭首大人不知的。」",
+    "hero_icon": "Hero1028_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1011",
+        "name": "刚烈破",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列阵",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身2格内每多1名友方，「对战中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Guard_1014",
+        "name": "饮血",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击「对战后」自身气血低于50%，则恢复20%气血。"
+      },
+      {
+        "img": "EXSkill_1229",
+        "name": "碾尘赋梦",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，对单个友方施加<link type=buff value=700001012 bgcolor=#3a85ffff>「神睿I」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若已激活「白首·灵魄」则自身获得再行动（<b><color=#e4462c>3</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1228",
+        "name": "浮香唤灵",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线3x3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，自身获得<link type=buff value=700004490 bgcolor=#3a85ffff>「蓄电」</link>状态，若命中目标大于等于<b><color=#e4462c>2</color></b>，则额外获得<b><color=#e4462c>1</color></b>个「白首·源魂」。"
+      },
+      {
+        "img": "EXSkill_1230",
+        "name": "将影之佑",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "[被动]自身气血大于等于<b><color=#e4462c>80%</color></b>，回合开始时，获得<link type=buff value=741028031 bgcolor=#3a85ffff>「护佑」</link>状态。<br/>主动使用，范围内所有友方获得<link type=buff value=741028035 bgcolor=#3a85ffff>「雷铠」</link>状态。"
+      },
+      {
+        "img": "Skill_Guard_1031",
+        "name": "回风斩",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001310 bgcolor=#3a85ffff>「流血」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1231",
+        "name": "契魂惩灭",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "消耗自身当前气血<b><color=#e4462c>20%</color></b>（无法免疫），攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害，自身气血值每损失<b><color=#e4462c>10%</color></b>，暴击率、暴击伤害提高<b><color=#e4462c>5%</color></b>（最多提高<b><color=#e4462c>15%</color></b>）。成功击杀目标时，该绝学冷却时间减少<b><color=#e4462c>2</color></b>回合，并获得<b><color=#e4462c>1</color></b>次祈愿次数。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力，偿愿时累积<b><color=#e4462c>2</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "九阴",
+        "name": "三梦花·之初",
+        "img": "Weapon_sanmenghuazhichu",
+        "qixue": "45",
+        "magic": "0",
+        "physical": "37",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "据传，凡为人，身皆具有三魂七魄，自可遵循天地之理轮回转世，但世亦有例外，秘法有填补之效，可点石成金，化偶为人，但必伴元魂陨落。<br/>元魂散落之处，以灵气浇灌便有机缘诞生三瓣之花，三瓣之花又称三梦花，花苞之际，清香已可沁风而散，令人静心安魂。<br/>言：散夜深种梦，慰魂花之初。"
+      },
+      {
+        "weapon": "九阴",
+        "name": "三梦花·畴昔",
+        "img": "Weapon_sanmenghuachouxi",
+        "qixue": "55",
+        "magic": "0",
+        "physical": "46",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "三梦之花，因缘巧合与天时地利皆全，方可现于天地。三梦花择主而栖，一生只认一主，花苞为始，以持其者之命为末，终身相随，相伴而生。<br/>传，三梦花初开，瓣如剖光美玉，色白如瓷，花香潜十里之地，对敌而战，闻者可坠往昔心神难定，故而有索敌之力，常辅以伙伴之众。<br/>言：伶仃恍如忆，抱香更畴昔。"
+      },
+      {
+        "weapon": "九阴",
+        "name": "三梦花·来景",
+        "img": "Weapon_sanmenghualaijing",
+        "qixue": "69",
+        "magic": "0",
+        "physical": "57",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，正是江南好风景，落花时节又逢君。<br/>传，三梦花全绽之时，天地献以灵气，固其枝叶不腐，花开不败，似是未来之景停于此刻。<br/>古籍载，三梦花可引人入梦，梦中众生皆得饱，天下无苦痛，百愿皆成，出梦者得三日吉运，昼行坦途，喜乐安宁。故而，三梦花非寻常之物，内蕴玄理，有造化之功。<br/>言：花投晚来景，人间臻百福。"
+      },
+      {
+        "weapon": "九阴",
+        "name": "三梦花·跃世",
+        "img": "Weapon_sanmenghuayueshi",
+        "qixue": "86",
+        "magic": "0",
+        "physical": "71",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，三梦花为不世出之物，故，当三梦花择主入世，所承天地气运如江河入海，有驱祸避战之力，为其主积攒众生之德。<br/>持其者，常有平民视其为神灵化身，以瓜果等物供之，信念之力化为「梦石」，环于三梦花枝干之内，灵力催动即可一击制敌。<br/>言：跃世会烽火，焚香陈满席。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "九阴",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "九阴",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "17",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "九阴",
+        "img": "Equip_yintangshuyao",
+        "name": "银烫束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "九阴",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "7",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "云梦逐川",
+        "img": "Weapon_yunmengzhuchuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵技能尚未解锁",
+        "desc": "祈愿后自身获得<b><color=#e4462c>1</color></b>个随机「有益状态」，每携带<b><color=#e4462c>1</color></b>个「有益状态」，双防和暴击率提高<b><color=#e4462c>3%</color></b>（最多提高<b><color=#e4462c>9%</color></b>）。"
+      },
+      {
+        "name": "云梦逐川",
+        "img": "Weapon_yunmengzhuchuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "祈愿后自身获得<b><color=#e4462c>1</color></b>个随机「有益状态」，每携带<b><color=#e4462c>1</color></b>个「有益状态」，双防和暴击率提高<b><color=#e4462c>4%</color></b>（最多提高<b><color=#e4462c>12%</color></b>）。"
+      },
+      {
+        "name": "云梦逐川",
+        "img": "Weapon_yunmengzhuchuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "祈愿后自身获得<b><color=#e4462c>1</color></b>个随机「有益状态」，每携带<b><color=#e4462c>1</color></b>个「有益状态」，双防和暴击率提高<b><color=#e4462c>5%</color></b>（最多提高<b><color=#e4462c>15%</color></b>）。"
+      },
+      {
+        "name": "云梦逐川",
+        "img": "Weapon_yunmengzhuchuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "祈愿后自身获得<b><color=#e4462c>2</color></b>个随机「有益状态」，每携带<b><color=#e4462c>1</color></b>个「有益状态」，双防和暴击率提高<b><color=#e4462c>6%</color></b>（最多提高<b><color=#e4462c>18%</color></b>）。"
+      },
+      {
+        "name": "云梦逐川",
+        "img": "Weapon_yunmengzhuchuan",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "祈愿后自身获得<b><color=#e4462c>2</color></b>个随机「有益状态」，每携带<b><color=#e4462c>1</color></b>个「有益状态」，双防和暴击率提高<b><color=#e4462c>8%</color></b>（最多提高<b><color=#e4462c>24%</color></b>）。战斗开始时额外获得<b><color=#e4462c>1</color></b>次祈愿机会。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.472081218274112"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.456852791878173"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.270603228547154"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.127993393889348"
+      },
+      {
+        "name": "蛇首灵戒·尘",
+        "percent": "0.112303881090008"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.33756345177665"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.33756345177665"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "烟霞百相",
+        "percent": "0.307106598984772"
+      },
+      {
+        "name": "玄阙腰带",
+        "percent": "0.138728323699422"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.114781172584641"
+      }
+    ]
+  }
+]

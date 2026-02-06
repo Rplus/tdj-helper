@@ -1,0 +1,409 @@
+[
+  {
+    "name": "琼枝扶桑",
+    "is_new": "",
+    "pinyin": "qiongzhifusang",
+    "weight": "1600",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1400_img",
+    "prop_icon": "God",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "God",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "182",
+    "magic_attack": "106",
+    "physical_attack": "13",
+    "magic_defense": "36",
+    "physical_defense": "30",
+    "huixin": "20",
+    "inherent": "Gift_181",
+    "inherent_name": "琼枝玉树",
+    "star1": "",
+    "star2": "",
+    "star3": "自身3格范围内每多1个其他友方，伤害、法术免伤提高6%（最多提高12%）。主动攻击后对目标施加<link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续2回合。行动结束前，可释放绝学<link type=skill value=61140090 bgcolor=#3a85ffff>「并枝同序」</link>（间隔4回合触发）。主动攻击或使用绝学后，会立刻触发敌方作用目标的<link type=buff value=600000102 bgcolor=#3a85ffff>「持续伤害类状态」</link>，触发携带<link type=buff value=741400068 bgcolor=#3a85ffff>「共生」</link>状态友方<link type=buff value=600000103 bgcolor=#3a85ffff>「持续治疗类状态」</link>。",
+    "star4": "自身3格范围内每多1个其他友方，伤害、法术免伤提高8%（最多提高16%）。主动攻击后对目标施加<link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续2回合。行动结束前，可释放绝学<link type=skill value=61140091 bgcolor=#3a85ffff>「并枝同序」</link>（间隔3回合触发）。主动攻击或使用绝学后，会立刻触发敌方作用目标的<link type=buff value=600000102 bgcolor=#3a85ffff>「持续伤害类状态」</link>，触发携带<link type=buff value=741400068 bgcolor=#3a85ffff>「共生」</link>状态友方<link type=buff value=600000103 bgcolor=#3a85ffff>「持续治疗类状态」</link>。",
+    "star5": "自身3格范围内每多1个其他友方，伤害、法术免伤提高10%（最多提高20%）。主动攻击后对目标施加<link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续2回合。行动结束前，可释放绝学<link type=skill value=61140091 bgcolor=#3a85ffff>「并枝同序」</link>（间隔3回合触发）。主动攻击或使用绝学后，会立刻触发敌方作用目标的<link type=buff value=600000102 bgcolor=#3a85ffff>「持续伤害类状态」</link>，触发携带<link type=buff value=741400068 bgcolor=#3a85ffff>「共生」</link>状态友方<link type=buff value=600000103 bgcolor=#3a85ffff>「持续治疗类状态」</link>。",
+    "star6": "自身3格范围内每多1个其他友方，伤害、法术免伤提高12%（最多提高24%）。主动攻击后对目标施加<link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续2回合。行动结束前，可释放绝学<link type=skill value=61140092 bgcolor=#3a85ffff>「并枝同序」</link>（间隔2回合触发）。主动攻击或使用绝学后，会立刻触发敌方作用目标的<link type=buff value=600000102 bgcolor=#3a85ffff>「持续伤害类状态」</link>，触发携带<link type=buff value=741400068 bgcolor=#3a85ffff>「共生」</link>状态友方<link type=buff value=600000103 bgcolor=#3a85ffff>「持续治疗类状态」</link>。",
+    "story_name": "祭仪",
+    "story_content": "创世之初，所谓扶桑，也不过就是棵参天之木罢了。<br/>那时的明界诸生蒙昧、灾害频生，巨木能为生灵遮风避雨，遂其荫蔽下，诸生来往、络绎不绝，扶桑木亦生出一丝灵智，俯瞰人间。<br/>后得伏羲倾注神力，才摆脱实体凡形，成了贯通天地的灵物。<br/>这些，是他与栾共有的记忆，这记忆自万古之战时，才分出你我的区别。<br/>那时，他被析枝而出，只记得周围实在吵闹，比雷鸣电闪的雨夜还喧嚣。<br/>许多人，似是九黎之民。<br/>他们围绕着他，神色虔诚又悲壮，齐声念着颂词。<br/>「以吾血肉，舍吾神魂，祭吾尊神，佑吾儿孙。」<br/>这声音真怪，像垂死之兽藏在叶间的哀嚎，又像将愿望系上枝后的托付。<br/>这声音忽高忽低，源源不断，像浪潮一般，将力量向他汇聚而来。<br/>有些年头之后，他看着身侧莹莹发光的玉枝，才后知后觉，此为祭者之力。<br/>此间多的是生而羸弱、寿数有限者，他们心甘情愿燃其血肉，滋养一位永恒的存在，以驱世间魍魉魑魅，「佑吾儿孙」。<br/>木，确也就是，遮风避雨之材。",
+    "hero_icon": "Hero1400_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_Shen_1001",
+        "name": "震晦生明",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，「对战后」触发其<link type=buff value=600000104 bgcolor=#3a85ffff>「神序状态」</link>叠层上限触发效果。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "EXSkill_Shen_1002",
+        "name": "天序无常",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线6*3中线镂空",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.6</color></b>倍伤害，战前若目标携带「有益状态」数量大于等于<b><color=#e4462c>3</color></b>，则施加<link type=buff value=741400262 bgcolor=#3a85ffff>「极之劫」</link>状态，持续<b><color=#e4462c>1</color></b>回合，反之施加<link type=buff value=741400268 bgcolor=#3a85ffff>「滞之劫」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1763",
+        "name": "解秽复华",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "3格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动使用，选择<b><color=#e4462c>1</color></b>个目标进行释放。若目标为友方则施加<link type=buff value=700000900 bgcolor=#3a85ffff>「命蕴」</link><link type=buff value=700001121 bgcolor=#3a85ffff>「愈合」</link>状态，持续<b><color=#e4462c>2</color></b>回合，若目标为敌方则施加<link type=buff value=700000810 bgcolor=#3a85ffff>「中毒」</link><link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续<b><color=#e4462c>2</color></b>回合。自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1760",
+        "name": "蔓引株连",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，转化目标<b><color=#e4462c>2</color></b>个「有益状态」为<link type=buff value=600000104 bgcolor=#3a85ffff>「神序状态」</link>，若转化达上限则额外施加<b><color=#e4462c>1</color></b>层<link type=buff value=741400040 bgcolor=#3a85ffff>「汲玄」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1762",
+        "name": "良木可栖",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": " [协攻]自身<b><color=#e4462c>3</color></b>格范围内，友方角色主动发起对战且优先攻击时，使其「对战中」伤害、免伤提高<b><color=#e4462c>10%</color></b>。「对战后」根据协攻友方（神<b><color=#e4462c>/</color></b>炎<b><color=#e4462c>/</color></b>冰<b><color=#e4462c>/</color></b>雷）属相施加<b><color=#e4462c>1</color></b>个<link type=buff value=600000104 bgcolor=#3a85ffff>「神序状态」</link>（<b><color=#e4462c>1</color></b>回合限定发动<b><color=#e4462c>3</color></b>次）<br/>[主动]主动使用，为范围内所有友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000541 bgcolor=#3a85ffff>「御魔I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1761",
+        "name": "延根定土",
+        "type": "治疗",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "主动使用，恢复范围内所有友方气血（恢复量为施术者法攻的<b><color=#e4462c>0.75</color></b>倍），驱散<b><color=#e4462c>1</color></b>个「有害状态」，制造「余荫」地形，持续<b><color=#e4462c>2</color></b>回合。<br/>「余荫」：友方行动结束时，获得<b><color=#e4462c>1</color></b>个「可升级有益状态」，敌方行动结束时，获得<link type=buff value=700000810 bgcolor=#3a85ffff>「中毒」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1759",
+        "name": "承法化用",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，「对战前」驱散目标<b><color=#e4462c>2</color></b>个「有益状态」，每成功驱散<b><color=#e4462c>1</color></b>个「有益状态」，自身获得<b><color=#e4462c>1</color></b>个「可升级有益状态」。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "琼枝扶桑",
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，扶桑之木，上至天，盘蜿而下屈，通三泉。<br/>传，取神木之枝，以阴阳阵法为引，五行精华为媒，先民血肉为祭，可催神木化玉，水火不侵，风雷不惧，万世不朽，庇佑后嗣，邪祟不染。<br/>言，器与持者心身俱合，纵魑魅肆行，尚守天地清明，岂非如日逐暗邪？"
+      },
+      {
+        "weapon": "琼枝扶桑",
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，扶桑之木，上至天，盘蜿而下屈，通三泉。<br/>传，取神木之枝，以阴阳阵法为引，五行精华为媒，先民血肉为祭，可催神木化玉，水火不侵，风雷不惧，万世不朽，庇佑后嗣，邪祟不染。<br/>言，器与持者心身俱合，纵魑魅肆行，尚守天地清明，岂非如日逐暗邪？"
+      },
+      {
+        "weapon": "琼枝扶桑",
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，扶桑之木，上至天，盘蜿而下屈，通三泉。<br/>传，取神木之枝，以阴阳阵法为引，五行精华为媒，先民血肉为祭，可催神木化玉，水火不侵，风雷不惧，万世不朽，庇佑后嗣，邪祟不染。<br/>言，器与持者心身俱合，纵魑魅肆行，尚守天地清明，岂非如日逐暗邪？"
+      },
+      {
+        "weapon": "琼枝扶桑",
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，扶桑之木，上至天，盘蜿而下屈，通三泉。<br/>传，取神木之枝，以阴阳阵法为引，五行精华为媒，先民血肉为祭，可催神木化玉，水火不侵，风雷不惧，万世不朽，庇佑后嗣，邪祟不染。<br/>言，器与持者心身俱合，纵魑魅肆行，尚守天地清明，岂非如日逐暗邪？"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "琼枝扶桑",
+        "img": "Equip_xuansezhiguan",
+        "name": "玄色织冠",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加61%"
+      },
+      {
+        "equipment": "琼枝扶桑",
+        "img": "Equip_houzhizhangyi",
+        "name": "厚织长衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加61%"
+      },
+      {
+        "equipment": "琼枝扶桑",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低61%"
+      },
+      {
+        "equipment": "琼枝扶桑",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_074",
+        "name": "贯日启明阵",
+        "unlock_condition": "阵眼琼枝扶桑位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1400_HeadIcon_Basic",
+        "icon1": "",
+        "icon2": "",
+        "icon3": "",
+        "desc": "上阵琼枝扶桑和至少2位「炎」/「冰」/「雷」属相英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，主动攻击伤害提升8%，若自身为「神」/「炎」/「冰」/「雷」属相则对目标施加1个「神序状态」。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "处于己方「余荫」地形上时，法攻、免伤提升<b><color=#e4462c>5%</color></b>。自身不携带「有害状态」时，获得「有益状态」时将使其等级<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "处于己方「余荫」地形上时，法攻、免伤提升<b><color=#e4462c>6%</color></b>。自身不携带「有害状态」时，获得「有益状态」时将使其等级<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "处于己方「余荫」地形上时，法攻、免伤提升<b><color=#e4462c>7%</color></b>。自身不携带「有害状态」时，获得「有益状态」时将使其等级<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "处于己方「余荫」地形上时，法攻、免伤提升<b><color=#e4462c>8%</color></b>。自身不携带「有害状态」时，获得「有益状态」时将使其等级<b><color=#e4462c>+1</color></b>。"
+      },
+      {
+        "name": "玉木揽光",
+        "img": "Weapon_140005",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "处于己方「余荫」地形上时，法攻、免伤提升<b><color=#e4462c>10%</color></b>。自身不携带「有害状态」时，获得「有益状态」时将使其等级<b><color=#e4462c>+1</color></b>。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "火纹硅玉",
+        "percent": "0.197855227882038"
+      },
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.192493297587131"
+      },
+      {
+        "name": "朱焰妖瞳·烟",
+        "percent": "0.187131367292225"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.235388739946381"
+      },
+      {
+        "name": "赤霞玉戒·烟",
+        "percent": "0.175067024128686"
+      },
+      {
+        "name": "朝露戒·烟",
+        "percent": "0.16970509383378"
+      },
+      {
+        "name": "银阑灵镯·雾",
+        "percent": "0.16166219839142"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龙涎香囊·雾",
+        "percent": "0.284450402144772"
+      },
+      {
+        "name": "清神净玉",
+        "percent": "0.175067024128686"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.16970509383378"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.308090291650019"
+      },
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.214794246903715"
+      },
+      {
+        "name": "清光似水",
+        "percent": "0.103395924890131"
+      }
+    ]
+  }
+]

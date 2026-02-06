@@ -1,0 +1,1 @@
+{"_ASK":"天赋/熔甲魔焰#0##_QUERY810defab621253ee3e9b8fe42418b2a3","_CDAT":"1/2024/3/13/5/15/58/0","_INST":"天赋#14##","_MDAT":"1/2024/3/13/5/15/58/0","_SKEY":"天赋/熔甲魔焰","天赋6星":"免伤提高<font color=red>30%</font>，敌方行动结束时若处于自身<font color=red>2</font>格范围内，则受到<font color=red>1</font>次「固定伤害」（最大气血的<font color=red>12%</font>）并驱散<font color=red>1</font>个「有益状态」。","天赋名称":"熔甲魔焰"}

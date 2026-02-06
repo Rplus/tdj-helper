@@ -1,0 +1,362 @@
+[
+  {
+    "name": "司徒纓",
+    "is_new": 1,
+    "weight": "190",
+    "pinyin": "situying",
+    "source": "寰神結登場角色",
+    "pic": "Hero1312_img",
+    "prop_icon": "Fire",
+    "career_icon": "Physician",
+    "rarity": "SR",
+    "position": "治療",
+    "prop": "炎",
+    "career": "祝由",
+    "range": "2",
+    "speed": "3",
+    "qixue": "152",
+    "magic_attack": "66",
+    "physical_attack": "9",
+    "magic_defense": "34",
+    "physical_defense": "28",
+    "huixin": "18",
+    "inherent": "Gift_053",
+    "inherent_name": "焰心真傳",
+    "star1": "",
+    "star2": "法防提高10%。<br/>行動結束時，對自身1格範圍內所有友方施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。",
+    "star3": "法防提高15%。<br/>行動結束時，對自身1格範圍內所有友方施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。",
+    "star4": "法防提高20%。<br/>行動結束時，對自身1格範圍內所有友方施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。",
+    "star5": "法防提高25%。<br/>行動結束時，對自身1格範圍內所有友方施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。",
+    "star6": "法防提高30%。<br/>行動結束時，對自身1格範圍內所有友方施加<link type=buff value=743001541 bgcolor=#3a85ffff>「炎鎧」</link>狀態。",
+    "story_name": "宿命",
+    "story_content": "司徒纓知道，她生來就是被選中的那個——<br/>只不過當她承知越來越多的世間事後，<br/>她才意識到自己開始淡忘自己是誰這件事。<br/>父母，出生，親眷……<br/>在她樹狀似的記憶裡，盡是他人記載，<br/>大到天界，小到人間，無所不知。<br/>可關於她的呢？似乎只有往後，沒有曾經。<br/>但司徒纓知道，她是被選中的那個，<br/>她只能為第十二代齋女這個身份而活著。<br/>在找到她的傳承人之後，<br/>她就不再為自己是誰這件事而憂心了。<br/>儘管她花了不少時日去思考此事，<br/>並得出這樣的答案——<br/>身為承載了女媧繼魂的人間督察使，<br/>或許忘記自己是誰才能讓她將數千年的智慧與記憶傳接下去吧。<br/>",
+    "hero_icon": "Hero1312_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_None_1009",
+        "name": "生聚靈咒",
+        "type": "治療",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，恢復單個角色氣血（恢復量為施術者法攻的1倍），施加<link type=buff value=700001120 bgcolor=#3a85ffff>「癒合」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "Skill_None_1006",
+        "name": "神氣流轉",
+        "type": "治療",
+        "cd": "1回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的0.75倍），驅散1個「減益狀態」。"
+      },
+      {
+        "img": "Skill_None_1017",
+        "name": "地禦之咒",
+        "type": "支援",
+        "cd": "2回合",
+        "cost": "1內力",
+        "shoot": "3格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主動使用，對單個友方施加<link type=buff value=700000531 bgcolor=#3a85ffff>「披甲」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Fire_1007",
+        "name": "焚炎之陣",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700004090 bgcolor=#3a85ffff>「燃燒」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Swordsman_1010",
+        "name": "餘溫",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身氣血低於100%，則對友方使用絕學後同時為自己恢復氣血（恢復量為施術者法攻的1倍）。"
+      },
+      {
+        "img": "GPassive_1024",
+        "name": "退魔協同",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "[協攻]其他友方在自身相鄰2格內主動進入戰鬥時，且優先攻擊時，則在「對戰前」為其施加<link type=buff value=700000543 bgcolor=#3a85ffff>「禦魔」</link>狀態，持續4回合。（每回合只能觸發1次）"
+      },
+      {
+        "img": "GPassive_1010",
+        "name": "列陣",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍級",
+        "desc": "自身2格內每多1名友方，「對戰中」物防，法防提高4%（最多12%）。"
+      },
+      {
+        "img": "Skill_Fire_1014",
+        "name": "七燁真火",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，「對戰後」對目標身周1圈內所有敵人造成1次0.3倍法攻傷害。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "白絹索帶",
+        "img": "Weapon_suodai",
+        "qixue": "38",
+        "magic": "32",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，白絹旋開陽羨月，竹符新調慧山泉。<br/>經秘法煉化而得之，可於「列星」得見。<br/>傳，白絹索帶為索帶兵練操持者操持，質地輕薄，附有靈蘊。有人得之，將其烈火心法化用於索帶之中，日益趁手。言：白繭之光，月影許長。"
+      },
+      {
+        "name": "黃纏明錦",
+        "img": "weapon_huangchanmingjin",
+        "qixue": "47",
+        "magic": "39",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%",
+        "rarity": "R",
+        "desc": "載，蜀中有早以未染的生絲織成綢索，不但質輕堅韌，更具有驅凶辟邪之力。然，鮮有習武者以索帶為兵練。<br/>經良材打造而成，其鑄法今存世可見。<br/>傳，黃纏明錦乃生絲一支，又經文火之法而成，以習御火為咒術者所持法器。"
+      },
+      {
+        "name": "破魔朱綾",
+        "img": "Weapon_pomozhuling",
+        "qixue": "58",
+        "magic": "48",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%<br/>[真傳]全傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "載，慧風找魔障，紅綢剿輪迴。內澄神息驅逐，香風舞靈台。<br/>經「烏金玄鐵」打造而成，其鑄法於「列星」可見。<br/>傳，破魔朱綾乃浴烈火而成，有火精內息，較明錦法力更強，除咒法之能，亦可固元回魂。故，火精有回血之能亦因此法器而得傳。"
+      },
+      {
+        "name": "火浣銀紗",
+        "img": "weapon_huohuanyinsha",
+        "qixue": "73",
+        "magic": "60",
+        "physical": "0",
+        "feature": "[丹陽]治療效果提升5%<br/>[真傳]全傷害減免提升5%<br/>[貫清]氣血高於50%時，治療效果提升10%",
+        "rarity": "SSR",
+        "desc": "載，御績創羲黃，緇冠表素王。瀑飛臨碧海，火浣擅炎方。<br/>經「化淵玉鋼」打造而成，其鑄法於「列星」可見。<br/>傳，火浣銀紗有神兵之名，為九天司火仙女所持，其內有三昧之息，較朱綾法力更強。言：火浣舞炎洲，燒雲轉青天。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_shuilingzhuhua",
+        "name": "水靈珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "8",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_baijuanwuxiu",
+        "name": "白絹舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄經繡帶",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "<b><color=#e4462c>2</color></b>格內存在友方單位時，法攻提高<b><color=#e4462c>6%</color></b>。回合開始時，對<b><color=#e4462c>2</color></b>格內所有攜帶「炎鎧」狀態的友方施加「禦魔」「癒合」狀態，持續<b><color=#e4462c>1</color></b>回合。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "織凰紅紉",
+        "img": "weapon_zhihuanghongren",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "<b><color=#e4462c>2</color></b>格內存在友方單位時，法攻提高<b><color=#e4462c>8%</color></b>。回合開始時，對<b><color=#e4462c>2</color></b>格內所有攜帶「炎鎧」狀態的友方施加「禦魔」「癒合」狀態，持續<b><color=#e4462c>1</color></b>回合。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "織凰紅紉",
+        "img": "weapon_zhihuanghongren",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "<b><color=#e4462c>2</color></b>格內存在友方單位時，法攻提高<b><color=#e4462c>10%</color></b>。回合開始時，對<b><color=#e4462c>2</color></b>格內所有攜帶「炎鎧」狀態的友方施加「禦魔」「癒合」狀態，持續<b><color=#e4462c>1</color></b>回合。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "織凰紅紉",
+        "img": "weapon_zhihuanghongren",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "<b><color=#e4462c>2</color></b>格內存在友方單位時，法攻提高<b><color=#e4462c>12%</color></b>。回合開始時，對<b><color=#e4462c>2</color></b>格內所有攜帶「炎鎧」狀態的友方施加「禦魔」「癒合」狀態，持續<b><color=#e4462c>1</color></b>回合。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "織凰紅紉",
+        "img": "weapon_zhihuanghongren",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "<b><color=#e4462c>2</color></b>格內存在友方單位時，法攻提高<b><color=#e4462c>15%</color></b>。回合開始時，對<b><color=#e4462c>2</color></b>格內所有攜帶「炎鎧」狀態的友方施加「禦魔」「癒合」狀態，持續<b><color=#e4462c>1</color></b>回合。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "織凰紅紉",
+        "img": "weapon_zhihuanghongren",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "朱蕊晶花",
+        "percent": "0.1761"
+      },
+      {
+        "name": "龍骨項鍊·煙",
+        "percent": "0.0409"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "碧血手鐲·煙",
+        "percent": "0.1101"
+      },
+      {
+        "name": "鳳紋靈鐲·煙",
+        "percent": "0.0692"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "龍涎香囊·影",
+        "percent": "0.0975"
+      },
+      {
+        "name": "龍涎香囊·塵",
+        "percent": "0.0566"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鮫人悲歌·塵",
+        "percent": "0.0692"
+      },
+      {
+        "name": "月滿西樓",
+        "percent": "0.0377"
+      }
+    ]
+  }
+]

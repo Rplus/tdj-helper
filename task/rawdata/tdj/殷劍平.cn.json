@@ -1,0 +1,429 @@
+[
+  {
+    "name": "殷剑平",
+    "is_new": "",
+    "weight": "300",
+    "pinyin": "yinjianping",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1100_img",
+    "prop_icon": "Fire",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "炎",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "214",
+    "magic_attack": "13",
+    "physical_attack": "104",
+    "magic_defense": "25",
+    "physical_defense": "33",
+    "huixin": "30",
+    "inherent": "Gift_018",
+    "inherent_name": "天玄剑诀",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击「对战中」伤害提高10%。若自身气血大于等于80%,则主动普攻触发「追击」（0.3倍伤害），若气血100%，则「追击」转化为「连击」，且伤害提升至0.4倍",
+    "star4": "主动攻击「对战中」伤害提高13%。若自身气血大于等于80%,则主动普攻触发「追击」（0.4倍伤害），若气血100%，则「追击」转化为「连击」，且伤害提升至0.5倍",
+    "star5": "主动攻击「对战中」伤害提高16%。若自身气血大于等于80%,则主动普攻触发「追击」（0.4倍伤害），若气血100%，则「追击」转化为「连击」，且伤害提升至0.5倍",
+    "star6": "主动攻击「对战中」伤害提高20%。若自身气血大于等于80%,则主动普攻触发「追击」（0.5倍伤害），若气血100%，则「追击」转化为「连击」，且伤害提升至0.6倍",
+    "story_name": "天华一出，谁与争锋",
+    "story_content": "殷剑平是「天玄门」的首徒，<br/>也是掌门的义子。<br/>特殊的身份与地位却并没能改变他的「个性」，<br/>温厚、任善、甚至有着三分拘谨，<br/>如果在山门中见到他，<br/>你也许会认为他只是个认真的旁门弟子……<br/>除了一点——<br/>当你见到殷剑平的那一刻，<br/>「剑」会占据你的双眼。<br/>即便因为「五魂」他永远无法掌握「天烈五剑」，<br/>但即便是赤炼鬼、剑邪、甚至蚩尤，<br/>最终也都倒在了他的剑下。<br/>就像鸟类珍惜自己的羽毛一样，<br/>殷剑平的剑就是他的羽毛，<br/>所以剑不可离身。",
+    "hero_icon": "Hero1100_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1004",
+        "name": "无方飞剑",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害。"
+      },
+      {
+        "img": "Gskill_1001",
+        "name": "移形",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "「对战前」使目标身上1个「有益状态」变为随机「有害状态」。"
+      },
+      {
+        "img": "EXSkill_1014",
+        "name": "日轮神剑",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」获得<link type=buff value=700000794 bgcolor=#3a85ffff>「神护II」</link>状态，持续<b><color=#e4462c>2</color></b>回合。「对战后」恢复伤害数值<b><color=#e4462c>50%</color></b>的气血。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1073",
+        "name": "融会贯通",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "本回合主动发起对战，战后自身恢复气血（本次伤害*0.3）。反之，行动结束时自身获得<link type=buff value=700000760 bgcolor=#3a85ffff>「起势」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1042",
+        "name": "轻身",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "永久获得轻功能力，可以翻越障碍。"
+      },
+      {
+        "img": "EXSkill_1017",
+        "name": "火灵神剑",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，驱散<b><color=#e4462c>1</color></b>个「有益状态」。"
+      },
+      {
+        "img": "EXSkill_1015",
+        "name": "飞星神剑",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害。「对战前」使目标身上<b><color=#e4462c>4</color></b>个「有益状态」变为随机「有害状态」，并获得<link type=buff value=710100281 bgcolor=#3a85ffff>「炎浴」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（角色每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "殷剑平",
+        "name": "玄铁剑",
+        "img": "Weapon_xuantiejian",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，上古玄铁剑乃铸剑高师为王室所铸，两国交战，玄铁剑于战火中下落不明，坊间后话，战火起自玄铁矣。<br/>经良材打造而成，其铸法今存世可见。<br/>传，玄铁剑，剑身宽大，湛色饱满，以兽血淬锋，实为宝剑。"
+      },
+      {
+        "weapon": "殷剑平",
+        "name": "飞虹剑",
+        "img": "Weapon_feihongjian",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，飞虹者，势如走电，惊涛触石，举目乾坤窄。<br/>经世，于「列星」复得之。<br/>传，其由「乌金玄铁」铸造，剑身通透五彩光泽，薄身而修长，韧度奇强，故得飞虹之名。言：舞剑者，与其灵巧化一，毫不迟滞。"
+      },
+      {
+        "weapon": "殷剑平",
+        "name": "两仪剑",
+        "img": "Weapon_leiyinjian",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，帝者化八极。养万物。和阴阳。阴阳和，得两仪。<br/>传，其炼法于「列星」中可窥见，经密法多次打造，而后合为一体。<br/>传，两仪剑，其共阴阳之极，具一击必毙之力。"
+      },
+      {
+        "weapon": "殷剑平",
+        "name": "七岳神剑",
+        "img": "weapon_qiyueshenjian",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，山岳汇元气，玉剑卧霜斗，用舍关时运，一片侠客心。<br/>传，七岳神剑，经密法锻造，于「列星」可窥见其铸法。<br/>又传，此剑乃聚合各派密法及独门之兵锻打而成，后世之人乃于磐天岭复得残剑，经剑师复铸而得。<br/>言：七岳者，妙用无私，尽是盛名。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "殷剑平",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "殷剑平",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "殷剑平",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "殷剑平",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_013",
+        "name": "天烈炽炎阵",
+        "unlock_condition": "阵眼殷剑平位阶35级，五内魔陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1100_HeadIcon_Basic",
+        "icon1": "fire",
+        "icon2": "fire",
+        "icon3": "",
+        "desc": "上阵殷剑平和至少2位「炎」属相英灵时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，主动攻击「对战中」伤害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "九仪天尊剑",
+        "img": "Weapon_jiuyitianzunjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "造成或受到伤害后，获得「续战」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「续战」：主动攻击「对战前」驱散自身所有「禁疗」类状态，且恢复<b><color=#e4462c>15%</color></b>最大气血。"
+      },
+      {
+        "name": "九仪天尊剑",
+        "img": "Weapon_jiuyitianzunjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "造成或受到伤害后，获得「续战」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「续战」：主动攻击「对战前」驱散自身所有「禁疗」类状态，且恢复<b><color=#e4462c>20%</color></b>最大气血。"
+      },
+      {
+        "name": "九仪天尊剑",
+        "img": "Weapon_jiuyitianzunjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "造成或受到伤害后，获得「续战」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「续战」：主动攻击「对战前」驱散自身所有「禁疗」类状态，且恢复<b><color=#e4462c>25%</color></b>最大气血。"
+      },
+      {
+        "name": "九仪天尊剑",
+        "img": "Weapon_jiuyitianzunjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "造成或受到伤害后，获得「续战」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「续战」：主动攻击「对战前」驱散自身所有「禁疗」类状态，且恢复<b><color=#e4462c>30%</color></b>最大气血。"
+      },
+      {
+        "name": "九仪天尊剑",
+        "img": "Weapon_jiuyitianzunjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "造成或受到伤害后，获得「续战」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「续战」：主动攻击「对战前」驱散自身所有「禁疗」类状态，且恢复<b><color=#e4462c>35%</color></b>最大气血。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.712128418549346"
+      },
+      {
+        "name": "绮罗天香·雾",
+        "percent": "0.118107460160767"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.456444218033622"
+      },
+      {
+        "name": "行戈灵戒",
+        "percent": "0.41365257259297"
+      },
+      {
+        "name": "幽都王玺",
+        "percent": "0.126385068762279"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.391200951248514"
+      },
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.326991676575505"
+      },
+      {
+        "name": "寰光佩环",
+        "percent": "0.264761904761905"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "杏花疏影",
+        "percent": "0.329523809523809"
+      },
+      {
+        "name": "寿葫芦",
+        "percent": "0.250653983353151"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.24547619047619"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.207380952380952"
+      }
+    ],
+    "hero_wunei_PVE1": {
+      "title": "新手推荐",
+      "skill1": "无方飞剑",
+      "skill2": "融会贯通",
+      "skill3": "吹角",
+      "addideaas": "优先下路15级习得【吹角】，然后转上路",
+      "notes": "依靠【融会贯通】保证机动力和续航，运用【天赋连击/追击】，殷剑平可以持续高效的清理小怪或持续输出，灵活且实用。"
+    },
+    "hero_wunei_PVE2": {
+      "title": "进阶养成",
+      "skill1": "日轮神剑",
+      "skill2": "融会贯通",
+      "skill3": "吹角",
+      "addideaas": "确保上路40级习得【日轮神剑】，补充自身的续航和生存能力",
+      "notes": "依靠【日轮神剑】的物理免伤【融会贯通】的战后回血，殷剑平在BOSS战中可以打头阵，运用【天赋连击/追击】提供持续的高额输出。"
+    },
+    "hero_wunei_PVP": {
+      "title": "逐鹿争锋",
+      "skill1": "飞星神剑",
+      "skill2": "融会贯通",
+      "skill3": "吹角",
+      "addideaas": "点满所有五内线，确保属性和绝学全部习得",
+      "notes": "确保属性最大化，殷剑平在PVP中【火灵神剑】可驱散目标有益状态，殷剑平通过自身天赋加持也是一个不错的单体输出者。"
+    }
+  }
+]

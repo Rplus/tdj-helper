@@ -1,0 +1,405 @@
+[
+  {
+    "name": "天玄义剑",
+    "is_new": "",
+    "pinyin": "tianxuanyijian",
+    "weight": "1430",
+    "source": "天地劫幽城再临原创角色",
+    "pic": "Hero1153_img",
+    "prop_icon": "Light",
+    "career_icon": "Swordsman",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "光",
+    "career": "侠客",
+    "range": "1",
+    "speed": "3",
+    "qixue": "210",
+    "magic_attack": "13",
+    "physical_attack": "107",
+    "magic_defense": "19",
+    "physical_defense": "39",
+    "huixin": "22",
+    "inherent": "Gift_162",
+    "inherent_name": "天玄剑魄",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击伤害提高10%，主动普攻触发「追击」（0.5倍伤害）。<br/>自身主动攻击后获得<link type=buff value=741153005 bgcolor=#3a85ffff>「武」</link>状态。<br/>3格范围内其他友方主动攻击后获得<link type=buff value=741153006 bgcolor=#3a85ffff>「眷」</link>状态。<br/>3格范围内其他友方使用非伤害绝学后获得<link type=buff value=741153007 bgcolor=#3a85ffff>「义」</link>状态。<br/>自身同时获得三种状态时，转化三种状态获得<link type=buff value=741153009 bgcolor=#3a85ffff>「心剑」</link>状态。<br/>自身携带「心剑」状态，回合开始时，场上7格范围内敌方随机出现两个不同朝向的<link type=buff value=741153074 bgcolor=#3a85ffff>「破绽」</link>状态。",
+    "star4": "主动攻击伤害提高13%，主动普攻触发「追击」（0.5倍伤害）。<br/>自身主动攻击后获得<link type=buff value=741153005 bgcolor=#3a85ffff>「武」</link>状态。<br/>3格范围内其他友方主动攻击后获得<link type=buff value=741153006 bgcolor=#3a85ffff>「眷」</link>状态。<br/>3格范围内其他友方使用非伤害绝学后获得<link type=buff value=741153007 bgcolor=#3a85ffff>「义」</link>状态。<br/>自身同时获得三种状态时，转化三种状态获得<link type=buff value=741153009 bgcolor=#3a85ffff>「心剑」</link>状态。<br/>自身携带「心剑」状态，回合开始时，场上7格范围内敌方随机出现两个不同朝向的<link type=buff value=741153074 bgcolor=#3a85ffff>「破绽」</link>状态。",
+    "star5": "主动攻击伤害提高16%，主动普攻触发「追击」（0.5倍伤害）。<br/>自身主动攻击后获得<link type=buff value=741153005 bgcolor=#3a85ffff>「武」</link>状态。<br/>3格范围内其他友方主动攻击后获得<link type=buff value=741153006 bgcolor=#3a85ffff>「眷」</link>状态。<br/>3格范围内其他友方使用非伤害绝学后获得<link type=buff value=741153007 bgcolor=#3a85ffff>「义」</link>状态。<br/>自身同时获得三种状态时，转化三种状态获得<link type=buff value=741153009 bgcolor=#3a85ffff>「心剑」</link>状态。<br/>自身携带「心剑」状态，回合开始时，场上7格范围内敌方随机出现两个不同朝向的<link type=buff value=741153074 bgcolor=#3a85ffff>「破绽」</link>状态。",
+    "star6": "主动攻击伤害提高20%，主动普攻触发「追击」（0.5倍伤害）。<br/>自身主动攻击后获得<link type=buff value=741153005 bgcolor=#3a85ffff>「武」</link>状态。<br/>3格范围内其他友方主动攻击后获得<link type=buff value=741153006 bgcolor=#3a85ffff>「眷」</link>状态。<br/>3格范围内其他友方使用非伤害绝学后获得<link type=buff value=741153007 bgcolor=#3a85ffff>「义」</link>状态。<br/>自身同时获得三种状态时，转化三种状态获得<link type=buff value=741153009 bgcolor=#3a85ffff>「心剑」</link>状态。<br/>自身携带「心剑」状态，回合开始时，场上7格范围内敌方随机出现两个不同朝向的<link type=buff value=741153074 bgcolor=#3a85ffff>「破绽」</link>状态。",
+    "story_name": "神剑",
+    "story_content": "九仪天尊剑，九仪天尊剑。似乎是某种心照不宣的规矩，一把剑，凌驾于武林众人之上，他们不希望有人拿起它，但是同样需要能拿起它的人一直存在。<br/>在他获得这把剑之前，殷剑平没有想过这个人会是他。他只是在天玄门这条窄窄的路径上反复行走，被天玄门这三个字温柔围绕，哪怕是稍显尖锐的刺也会被包容。<br/>他的剑决定着那夜魑的生死，他想，这已经是莫大的权利了。<br/>可是当他已经恍然间通过层层考验，成为被大家成为救世主的存在时，他默默在心里问自己，承担这份责任并为之赴死，有何不可吗？<br/>他似乎是愿意的。<br/>他是天生的侠客，愿意为了心中的义去死。<br/>「你们都有如此胆识与热忱，愿为一件看似遥不可及的事情献身尽力。的确，是真正可以托付神剑的人。」<br/>直到这时，九仪天尊剑才成为了他的剑。",
+    "hero_icon": "Hero1153_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Swordsman_1006",
+        "name": "避实就虚",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>0.6</color></b>倍伤害，并发动「追击」（<b><color=#e4462c>1</color></b>倍伤害），「对战前」施加<link type=buff value=700001031 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1640",
+        "name": "义薄云天",
+        "type": "治疗",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "驱散自身<b><color=#e4462c>1</color></b>个「有害状态」并恢复气血（恢复量为施术者物攻的<b><color=#e4462c>1</color></b>倍），自身获得再行动（<b><color=#e4462c>2</color></b>格）。"
+      },
+      {
+        "img": "EXSkill_1641",
+        "name": "御返",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "主动攻击后，可选择自身菱形3格范围内1个友方身周的指定空格，无视阻挡翻越到空格上。（间隔1回合触发）"
+      },
+      {
+        "img": "GPassive_1019",
+        "name": "血刃符印",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，使自身2格范围内物攻/法攻属性最高的2个其他友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%时，则物攻，物防提高10%。"
+      },
+      {
+        "img": "EXSkill_1635",
+        "name": "三衍剑诀",
+        "type": "主动",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "",
+        "range": "",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍级",
+        "desc": "选择<b><color=#e4462c>1</color></b>个绝学进行释放。使用后切换为<link type=skill value=61115311 bgcolor=#3a85ffff>「天玄剑法」</link>或<link type=skill value=61115312 bgcolor=#3a85ffff>「破魔剑法」</link>或<link type=skill value=61115313 bgcolor=#3a85ffff>「御剑心法」</link>。"
+      },
+      {
+        "img": "EXSkill_1642",
+        "name": "剑破八方",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.2</color></b>倍伤害，随后对范围内随机单个敌人造成<b><color=#e4462c>0.2</color></b>倍伤害，次数最多为（<b><color=#e4462c>2+</color></b>携带<link type=buff value=741153074 bgcolor=#3a85ffff>「破绽」</link>状态的敌方角色数量<b><color=#e4462c>*2</color></b>，每个敌人最多可被攻击<b><color=#e4462c>4</color></b>次）。"
+      },
+      {
+        "img": "EXSkill_1639",
+        "name": "剑气凌霄",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.8</color></b>倍伤害，「对战前」驱散目标<b><color=#e4462c>4</color></b>个「有益状态」，自身获得<link type=buff value=741153400 bgcolor=#3a85ffff>「觉破」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放技能。（每造成<b><color=#e4462c>1</color></b>次伤害获得<b><color=#e4462c>1</color></b>点气力，连击额外获得<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "天玄义剑",
+        "name": "沉木剑匣",
+        "img": "Weapon_115301",
+        "qixue": "43",
+        "magic": "0",
+        "physical": "40",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，古木无人径，深山何处钟。<br/>深山古庙旁多生古树，古树千年而死，死后千年而朽，质地坚硬，如黑泥覆其表，遇水不浮。能工巧匠可取之制为器。<br/>言：枯木惊弱水，树老绞苍石。"
+      },
+      {
+        "weapon": "天玄义剑",
+        "name": "玄门剑匣",
+        "img": "Weapon_115302",
+        "qixue": "52",
+        "magic": "0",
+        "physical": "48",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，流星白羽腰间插，剑花秋莲光出匣。<br/>武林各派，天玄尤擅剑术。门下弟子入门之时先配剑鞘，待剑术小成之后再得剑身。天玄嫡传弟子，可习操纵多把飞剑，多配以剑匣，常出师之后传于后辈。<br/>言：天玄多剑客，守义护人间。"
+      },
+      {
+        "weapon": "天玄义剑",
+        "name": "匣里重锋",
+        "img": "Weapon_115303",
+        "qixue": "65",
+        "magic": "0",
+        "physical": "60",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，谁怜不得意，长剑独归来。<br/>武林有百晓生，传天玄掌门拥有多把佩剑，平常剑匣不能容之。故而委托嵩阳门以祝融技艺熔炼玄铁，为其量身打造。剑匣刀枪不入，有震慑之效。<br/>言：万里江湖业，重剑入青云。<br/>"
+      },
+      {
+        "weapon": "天玄义剑",
+        "name": "赫重云",
+        "img": "Weapon_115304",
+        "qixue": "81",
+        "magic": "0",
+        "physical": "75",
+        "feature": "[决明]伤害提升5%<br/>[鹤唳]暴击率提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，游侠英名驰上国，人马意气俱相得。<br/>相传千载之前，有擅剑者引天雷淬剑，刃锋，无以为鞘，上仙驾云而至，赠之剑匣以仙法束其威。剑匣用天脉残晶制成，自可遥引天光而至，可退万里邪魔。<br/>言：剑影破黑云，只身朝天阙。 "
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "天玄义剑",
+        "img": "Equip_huowenjinchai",
+        "name": "火纹金钗",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "4",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "天玄义剑",
+        "img": "Equip_gangchenwuyi",
+        "name": "钢衬武衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "9",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "天玄义剑",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "天玄义剑",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "13",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "12",
+        "phyatt_attr": "atn",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_063",
+        "name": "天玄义剑阵",
+        "unlock_condition": "阵眼天玄义剑位阶35级，五内神陆级解锁",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1153_HeadIcon_Basic",
+        "icon1": "ice",
+        "icon2": "light",
+        "icon3": "",
+        "desc": "上阵天玄义剑和「冰」，「光」属相英灵至少各一位时，激活战阵。所有我方上阵角色物攻，物防，法攻，法防提高15%，主动攻击「对战中」若自身气血大于等于80%，伤害提高10%，若气血100%，则伤害提高至15%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "定山河",
+        "img": "Weapon_115305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "「对战中」伤害、物理免伤提高<b><color=#e4462c>5%</color></b>。主动攻击后恢复<b><color=#e4462c>1</color></b>个气血百分比最低的友方气血（恢复量为物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "定山河",
+        "img": "Weapon_115305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "「对战中」伤害、物理免伤提高<b><color=#e4462c>6%</color></b>。主动攻击后恢复<b><color=#e4462c>1</color></b>个气血百分比最低的友方气血（恢复量为物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "定山河",
+        "img": "Weapon_115305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "「对战中」伤害、物理免伤提高<b><color=#e4462c>7%</color></b>。主动攻击后恢复<b><color=#e4462c>1</color></b>个气血百分比最低的友方气血（恢复量为物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "定山河",
+        "img": "Weapon_115305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "「对战中」伤害、物理免伤提高<b><color=#e4462c>8%</color></b>。主动攻击后恢复<b><color=#e4462c>1</color></b>个气血百分比最低的友方气血（恢复量为物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      },
+      {
+        "name": "定山河",
+        "img": "Weapon_115305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "「对战中」伤害、物理免伤提高<b><color=#e4462c>10%</color></b>。主动攻击后恢复<b><color=#e4462c>1</color></b>个气血百分比最低的友方气血（恢复量为物攻的<b><color=#e4462c>0.7</color></b>倍）。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "冰蠺玉带·烟",
+        "percent": "0.156312205343111"
+      },
+      {
+        "name": "定笔簪",
+        "percent": "0.155002619172341"
+      },
+      {
+        "name": "寰光剑玉",
+        "percent": "0.135620743844945"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.258931377684651"
+      },
+      {
+        "name": "霜纸戒",
+        "percent": "0.145311681508643"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "御刃金佩",
+        "percent": "0.238501833420639"
+      },
+      {
+        "name": "寰光佩环",
+        "percent": "0.23273965426925"
+      },
+      {
+        "name": "灵越佩环·尘",
+        "percent": "0.131953902566788"
+      },
+      {
+        "name": "灵越佩环·烟",
+        "percent": "0.129596647459402"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "清光似水",
+        "percent": "0.297683155917345"
+      },
+      {
+        "name": "杏花疏影",
+        "percent": "0.233263488737558"
+      },
+      {
+        "name": "寰光蔽月",
+        "percent": "0.23143006809848"
+      }
+    ]
+  }
+]

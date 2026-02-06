@@ -1,0 +1,366 @@
+[
+  {
+    "name": "趙靈兒",
+    "is_new": 1,
+    "weight": "560",
+    "pinyin": "zhaolinger",
+    "source": "仙劍奇俠傳聯動角色",
+    "pic": "Hero2001_img",
+    "prop_icon": "Ice",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "法攻",
+    "prop": "冰",
+    "career": "咒師",
+    "range": "2",
+    "speed": "3",
+    "qixue": "161",
+    "magic_attack": "96",
+    "physical_attack": "12",
+    "magic_defense": "38",
+    "physical_defense": "33",
+    "huixin": "39",
+    "inherent": "Gift_063",
+    "inherent_name": "救世蓮心",
+    "star1": "",
+    "star2": "",
+    "star3": "攜帶「減益狀態」數量小於3個時，傷害提高14%。行動結束時若本回合使用過主動絕學，獲得「心蓮」狀態。<br/>「心蓮」：免傷+30%，狀態消失時恢復自身氣血（恢復量為施術者法攻的0.7倍）。不可驅散，受到傷害後消失。",
+    "star4": "攜帶「減益狀態」數量小於3個時，傷害提高16%。行動結束時若本回合使用過主動絕學，獲得「心蓮」狀態。<br/>「心蓮」：免傷+30%，狀態消失時恢復自身氣血（恢復量為施術者法攻的0.8倍）。不可驅散，受到傷害後消失。",
+    "star5": "攜帶「減益狀態」數量小於3個時，傷害提高18%。行動結束時若本回合使用過主動絕學，獲得「心蓮」狀態。<br/>「心蓮」：免傷+30%，狀態消失時恢復自身氣血（恢復量為施術者法攻的0.9倍）。不可驅散，受到傷害後消失。",
+    "star6": "攜帶「減益狀態」數量小於3個時，傷害提高20%。行動結束時若本回合使用過主動絕學，獲得「心蓮」狀態。<br/>「心蓮」：免傷+30%，狀態消失時恢復自身氣血（恢復量為施術者法攻的1.0倍）。不可驅散，受到傷害後消失。",
+    "story_name": "仙靈",
+    "story_content": "<br/>「既不回頭，何必不忘。<br/>既然無緣，何需誓言。<br/>今日種種，似水無痕。<br/>明夕何夕，君已陌路。」<br/>",
+    "hero_icon": "Hero2001_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1126",
+        "name": "冰咒",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰中」提高免傷30%。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身氣血大於等於90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒氣",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "造成傷害後，對目標施加<link type=buff value=700001301 bgcolor=#3a85ffff>「遲緩I」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1127",
+        "name": "五氣朝元",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "回合開始時驅散自身2個「減益狀態」（間隔1回合觸發）。開場時獲得「心蓮」狀態。"
+      },
+      {
+        "img": "EXSkill_1123",
+        "name": "玄冰咒",
+        "type": "法攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "2格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，提高20%法術穿透，「對戰前」施加<link type=buff value=700001350 bgcolor=#3a85ffff>「失智II」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1124",
+        "name": "風雪冰天",
+        "type": "法攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "3格",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "對範圍內所有敵人造成0.5倍傷害，施加<link type=buff value=700000891 bgcolor=#3a85ffff>「亂神I」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1021",
+        "name": "退魔符印",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍級",
+        "desc": "行動結束時，使自身2格範圍內法防屬性最高的2個其他友方施加<link type=buff value=700000540 bgcolor=#3a85ffff>「禦魔」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1125",
+        "name": "夢蛇",
+        "type": "支援",
+        "cd": "6回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Shen",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "進入「夢蛇」形態，持續3回合。獲得原地再行動。<br/>「夢蛇」：全屬性提高20%，普通攻擊的倍率變為1.3，主動普攻後減少所有主動絕學的冷卻時間1回合，受到攻擊時，自身無視「剋制」傷害。<br/>「氣力技」使用需要消耗3點氣力，每次造成傷害或受到傷害獲得1點氣力。「夢蛇」形態期間不能獲得氣力。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "桃花杖",
+        "img": "weapon_taohuazhang",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，花中不知日月短，豈料世上已千年。不入濁世凡塵染，情願仙靈做散仙。<br/>傳，桃花杖，乃以桃木枝為杖身，杖頭雕飾有桃花紋路，蘊有靈力，為仙靈島煉成之法器。<br/>言，桃花豈無意，為君占年華。"
+      },
+      {
+        "name": "青蛇杖",
+        "img": "weapon_qingshezhang",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%",
+        "rarity": "R",
+        "desc": "載，碧月初生，青蛇不動，風吹細柳，玉杖行銘。<br/>傳，青蛇杖，其杖身乃是通透稀有的綠玉之材，經煉化而得，其上雕刻的雙蛇呈纏繞之狀。又傳，藉此施法時可見有青蛇之影。<br/>言，杖上青蛇活，閃動銀光舞。"
+      },
+      {
+        "name": "鬼頭杖",
+        "img": "weapon_guitouzhang",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%",
+        "rarity": "SR",
+        "desc": "載，鬼面人頭有許般，一角靈犀妙莫傳。<br/>傳，鬼頭杖，乃苗族巫師役鬼煉蠱之法器，頭顱中囚禁有四十九條生魂。蘊邪靈之能，可操縱生死，操持者需有較高修為，否則當心被其反噬。<br/>言，陰陽不可知，鬼神惟杳冥。"
+      },
+      {
+        "name": "冥蛇杖",
+        "img": "weapon_mingshezhang",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[決明]傷害提升5%<br/>[天魁]法術傷害減免提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "載，鬼蛇殘屍，萬死千生，永墜幽冥，輪迴無盡。<br/>傳，冥蛇杖，乃是來自冥界的魔杖，有號令群邪之能。又傳，其鑲嵌有千年蛇王內丹，操持者可藉此將自身功法修為發揮到極致。<br/>言，貫石穿金之能，彌天匝地之邪。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_yinzan",
+        "name": "銀釵",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_siyi",
+        "name": "絲衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_huxinjing",
+        "name": "護心鏡",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法術攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "攜帶「心蓮」狀態時，「對戰中」法攻提高<b><color=#e4462c>3%</color></b>。「心蓮」狀態消失後獲得<b><color=#e4462c>1</color></b>點氣力。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "天蛇杖",
+        "img": "weapon_tianshezhang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "攜帶「心蓮」狀態時，「對戰中」法攻提高<b><color=#e4462c>6%</color></b>。「心蓮」狀態消失後獲得<b><color=#e4462c>1</color></b>點氣力。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "天蛇杖",
+        "img": "weapon_tianshezhang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "攜帶「心蓮」狀態時，「對戰中」法攻提高<b><color=#e4462c>9%</color></b>。「心蓮」狀態消失後獲得<b><color=#e4462c>1</color></b>點氣力。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "天蛇杖",
+        "img": "weapon_tianshezhang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "攜帶「心蓮」狀態時，「對戰中」法攻提高<b><color=#e4462c>12%</color></b>。「心蓮」狀態消失後獲得<b><color=#e4462c>1</color></b>點氣力。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "天蛇杖",
+        "img": "weapon_tianshezhang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "攜帶「心蓮」狀態時，「對戰中」法攻提高<b><color=#e4462c>15%</color></b>。「心蓮」狀態消失後獲得<b><color=#e4462c>1</color></b>點氣力並驅散<b><color=#e4462c>1</color></b>個「減益狀態」。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "天蛇杖",
+        "img": "weapon_tianshezhang",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天河朱砂",
+        "percent": "0.5098"
+      },
+      {
+        "name": "神烏飾墜·煙",
+        "percent": "0.0844"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "赤霞玉戒·煙",
+        "percent": "0.2944"
+      },
+      {
+        "name": "葬海戒",
+        "percent": "0.1202"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "鑲蛇銀佩·塵",
+        "percent": "0.1464"
+      },
+      {
+        "name": "清神淨玉",
+        "percent": "0.1259"
+      },
+      {
+        "name": "辟邪玉佩·煙",
+        "percent": "0.122245229995563"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "朝雲橫度",
+        "percent": "0.3396"
+      },
+      {
+        "name": "壽葫蘆",
+        "percent": "0.1198"
+      }
+    ]
+  }
+]

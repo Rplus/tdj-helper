@@ -1,0 +1,422 @@
+[
+  {
+    "name": "燕明蓉",
+    "is_new": "",
+    "weight": "320",
+    "pinyin": "yanmingrong",
+    "source": "神魔至尊传登场角色",
+    "pic": "Hero1144_img",
+    "prop_icon": "Electricity",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "雷",
+    "career": "御风",
+    "range": "1",
+    "speed": "5",
+    "qixue": "178",
+    "magic_attack": "11",
+    "physical_attack": "93",
+    "magic_defense": "31",
+    "physical_defense": "33",
+    "huixin": "58",
+    "inherent": "Gift_046",
+    "inherent_name": "灵狐雀步",
+    "star1": "",
+    "star2": "",
+    "star3": "主动攻击「对战中」伤害提高10%。主动击杀敌人后，可无视敌人阻挡再移动2格，并获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合（「闪避」间隔2回合触发）。",
+    "star4": "主动攻击「对战中」伤害提高13%。主动击杀敌人后，可无视敌人阻挡再移动3格，并获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合（「闪避」间隔2回合触发）。",
+    "star5": "主动攻击「对战中」伤害提高16%。主动击杀敌人后，可无视敌人阻挡再移动3格，并获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合（「闪避」间隔2回合触发）。",
+    "star6": "主动攻击「对战中」伤害提高20%。主动击杀敌人后，可无视敌人阻挡再移动4格，并获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续2回合（「闪避」间隔2回合触发）。",
+    "story_name": "狐不狐",
+    "story_content": "「哇，你别过来啦，小心我、我咬你！」<br/>「小狐儿莫怕，你腿上有伤，我带你回太玄谷罢。」<br/>眼前这个手持拂尘的女人，果真没有恶意？<br/>可腿上的伤口再不医治，这条腿恐怕……<br/>彼时，她还不知道，自己这个决定有多明智——<br/>「唔，多谢你救了我——」<br/>「小狐儿，见你本性纯良，又天赋异禀，若不嫌隙，不如留在这太玄谷，留在我的身旁？」<br/>「啊——可、可我是……」<br/>「往后就是我太渊隐逸的徒儿，见你这般灵动讨喜，唤你作，燕明蓉，如何？」<br/>「呜哇——呜，燕明蓉，我叫燕明蓉，我有名字啦！」",
+    "hero_icon": "Hero1144_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1030",
+        "name": "吟狐猎声",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，暴击率提高<b><color=#e4462c>20%</color></b>。「对战后」自身开启<link type=buff value=700040120 bgcolor=#3a85ffff>「猎杀直觉」</link>，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Assassin_1005",
+        "name": "乘虚而入",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若对战目标2格没有其他队友，则「对战中」自身暴击率提高20%。"
+      },
+      {
+        "img": "EXSkill_1032",
+        "name": "灵狐穿刺",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "直线4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "向前穿刺并到达作用范围（<b><color=#e4462c>4</color></b>格）最远可到达的格子上，对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，自身获得<link type=buff value=700001281 bgcolor=#3a85ffff>「闪避」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Assassin_1028",
+        "name": "疾风快刃",
+        "type": "物攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "无视护卫攻击单个敌人，造成<b><color=#e4462c>1.3</color></b>倍伤害，若目标满血则「对战前」造成<b><color=#e4462c>1</color></b>次<b><color=#e4462c>0.3</color></b>倍物攻伤害。"
+      },
+      {
+        "img": "Skill_Electricity_1013",
+        "name": "雷引",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "行动结束时，若本回合使用过绝学，传送到自身3格内1个友方相邻空格。（间隔1回合触发）"
+      },
+      {
+        "img": "GPassive_1028",
+        "name": "缚力奇谋",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Mo",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，对自身3格范围内物攻/法攻属性最高的2个敌人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1013",
+        "name": "孤胆",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "自身2格内无其他友方，则物攻，物防+10%。"
+      },
+      {
+        "img": "EXSkill_1031",
+        "name": "无我幻舞",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Xun",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "无视护卫攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，暴击率<b><color=#e4462c>+20%</color></b>。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "燕明蓉",
+        "name": "牙雕勾剑",
+        "img": "weapon_yadiaogoujian",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "传，牙雕勾剑乃灵巧短兵，为御风者所操持。<br/>经良材打造而成，其铸法今存世可见。<br/>载，握中短匕首，剑自乌金铁。一举无两全，可取项上杰。又传，牙雕勾剑蕴精怪灵气，故灵巧非比。"
+      },
+      {
+        "weapon": "燕明蓉",
+        "name": "翡翠短刀",
+        "img": "weapon_feicuiduandao",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鹤唳]暴击率提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，短刃披翡翠，珍珑上珊瑚。<br/>经「乌金玄铁」打造而成，其铸法于「列星」可见。<br/>传，翡翠短刀，其柄上镶有翡翠珠玉，出自巧匠能手，虽镶有繁复，然质轻刃利，十分了得。言：短刃穿列阵，溅血先手得。"
+      },
+      {
+        "weapon": "燕明蓉",
+        "name": "黑玉短剑",
+        "img": "Weapon_bixieyujian",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，欲借短剑乘风去，纵身而跃上九天。<br/>经「化渊玉钢」打造而成，其铸法于「列星」可见。<br/>传，黑玉短剑乃外域小国之宝，剑柄镶嵌有罕见绿晶，此宝因覆国而流转于世。又传，短剑沾染复仇鲜血，有怨气缠绕，操持者若非心性纯良，有坠魔道之危。然，黑玉利器，锋芒难掩，为御风者追慕。"
+      },
+      {
+        "weapon": "燕明蓉",
+        "name": "灵蛇剑",
+        "img": "weapon_lingshejian",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鹤唳]暴击率提升5%<br/>[翎牙]暴击伤害提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，鳞蹙翠光抽璀璨，腹连金彩动弯环。已应蜕骨风雷后，岂效衔珠草莽间。<br/>经密法打造而成，其铸法于「列星」可见。<br/>传，灵蛇剑铸造时，以蛇王血淬成，天生得蛇形，并成金鳞之色泽。又传，乃妖蛇受仙人点化而成，以精怪之身还报。言：吉梦灵蛇，心悟道成。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "燕明蓉",
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "燕明蓉",
+        "img": "Equip_ruangeliyi",
+        "name": "软革里衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "燕明蓉",
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "燕明蓉",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "千幻流光",
+        "img": "weapon_qianhuanliuguang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "每累计主动移动<b><color=#e4462c>14</color></b>格，获得「灵犀」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「灵犀」：物攻提高<b><color=#e4462c>15%</color></b>，下次主动攻击后移除。"
+      },
+      {
+        "name": "千幻流光",
+        "img": "weapon_qianhuanliuguang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "每累计主动移动<b><color=#e4462c>13</color></b>格，获得「灵犀」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「灵犀」：物攻提高<b><color=#e4462c>15%</color></b>，下次主动攻击后移除。"
+      },
+      {
+        "name": "千幻流光",
+        "img": "weapon_qianhuanliuguang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "每累计主动移动<b><color=#e4462c>12</color></b>格，获得「灵犀」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「灵犀」：物攻提高<b><color=#e4462c>15%</color></b>，下次主动攻击后移除。"
+      },
+      {
+        "name": "千幻流光",
+        "img": "weapon_qianhuanliuguang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "每累计主动移动<b><color=#e4462c>11</color></b>格，获得「灵犀」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「灵犀」：物攻提高<b><color=#e4462c>15%</color></b>，下次主动攻击后移除。"
+      },
+      {
+        "name": "千幻流光",
+        "img": "weapon_qianhuanliuguang",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "每累计主动移动<b><color=#e4462c>10</color></b>格，获得「灵犀」状态，持续<b><color=#e4462c>1</color></b>回合。<br/>「灵犀」：物攻提高<b><color=#e4462c>15%</color></b>，下次主动攻击后移除。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.386923076923077"
+      },
+      {
+        "name": "八荒灵石·影",
+        "percent": "0.225384615384615"
+      },
+      {
+        "name": "妖燐石·烟",
+        "percent": "0.161538461538462"
+      },
+      {
+        "name": "绮罗天香·雾",
+        "percent": "0.139230769230769"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.299490662139219"
+      },
+      {
+        "name": "流光手镯·烟",
+        "percent": "0.246519524617997"
+      },
+      {
+        "name": "白焰玉镯·烟",
+        "percent": "0.108543793659323"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "紫月香囊·烟",
+        "percent": "0.306278161610093"
+      },
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.298888555121658"
+      },
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.101471913487534"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·烟",
+        "percent": "0.425398531255597"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.15762135052839"
+      },
+      {
+        "name": "甘霖·雾",
+        "percent": "0.120902740462117"
+      },
+      {
+        "name": "刹那·烟",
+        "percent": "0.118395128067347"
+      }
+    ],
+    "hero_wunei_PVE1": {
+      "title": "新手推荐",
+      "skill1": "吟狐猎声",
+      "skill2": "乘虚而入",
+      "skill3": "灵狐穿刺",
+      "addideaas": "优先上路15级习得【灵狐穿刺】，利用走5特性，和技能的4格位移，具备超远范围威胁性，同时获得闪避，保证生存",
+      "notes": "【灵狐穿刺】提高机动性的同时，保证生存<br/>【乘虚而入】突进敌方阵地时，提高暴击率"
+    },
+    "hero_wunei_PVE2": {
+      "title": "进阶养成",
+      "skill1": "乘虚而入",
+      "skill2": "灵狐穿刺",
+      "skill3": "疾风快刃",
+      "addideaas": "下路点到15级，习得【疾风快刃】，然后一路点满，获得全属性加成",
+      "notes": "【疾风快刃】的破护卫特性，可快速击杀敌方脆皮，并触发天赋再移动，保证生存"
+    },
+    "hero_wunei_PVP": {
+      "title": "逐鹿争锋",
+      "skill1": "孤胆",
+      "skill2": "灵狐穿刺",
+      "skill3": "无我幻舞",
+      "addideaas": "点满所有五内线，确保属性和绝学全部习得",
+      "notes": "【无我幻舞】提高暴击率无视护卫，快速使敌方减员<br/>【灵狐穿刺】高机动性位移，同时闪避的特性，保证生存<br/>【孤胆】突进敌方阵地时，提高输出的同时，加强生存"
+    }
+  }
+]

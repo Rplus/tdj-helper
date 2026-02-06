@@ -1,0 +1,402 @@
+[
+  {
+    "name": "赫兰铁罕",
+    "is_new": "",
+    "weight": "250",
+    "pinyin": "helantiehan",
+    "source": "幽城幻剑录登场角色",
+    "pic": "Hero1107_img",
+    "prop_icon": "Fire",
+    "career_icon": "Guard",
+    "rarity": "SR",
+    "position": "坦克",
+    "prop": "炎",
+    "career": "铁卫",
+    "range": "1",
+    "speed": "3",
+    "qixue": "212",
+    "magic_attack": "9",
+    "physical_attack": "72",
+    "magic_defense": "20",
+    "physical_defense": "37",
+    "huixin": "14",
+    "inherent": "Gift_022",
+    "inherent_name": "枭戾之煞",
+    "star1": "",
+    "star2": "自身3格内每存在1名友方，物理免伤提高4%（最多提高12%）。近战「对战前」对敌人造成1次「固定伤害」（物防的50%）。",
+    "star3": "自身3格内每存在1名友方，物理免伤提高5%（最多提高15%）。近战「对战前」对敌人造成1次「固定伤害」（物防的60%）。",
+    "star4": "自身3格内每存在1名友方，物理免伤提高5%（最多提高15%）。近战「对战前」对敌人造成1次「固定伤害」（物防的70%）。",
+    "star5": "自身3格内每存在1名友方，物理免伤提高6%（最多提高18%）。近战「对战前」对敌人造成1次「固定伤害」（物防的80%）。",
+    "star6": "自身3格内每存在1名友方，物理免伤提高7%（最多提高21%）。近战「对战前」对敌人造成1次「固定伤害」（物防的100%）。",
+    "story_name": "佞臣",
+    "story_content": "「将军铁罕，重财忘义、嫉贤妒能、居功自傲，行事霸道，有违人伦！」<br/>「臣等四十六人请陛下诛杀此贼！」<br/>「呵呵，什么时候都有不怕死的。写的不错，杀了吧……」<br/>闻到风中的血腥味了么？<br/>那就是弹劾他的下场。<br/>为何要这样庇护他？<br/>「将军铁罕，忠勇无二。」<br/>「哈哈哈！」",
+    "hero_icon": "Hero1107_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "Skill_Guard_1003",
+        "name": "荆甲挂阵",
+        "type": "主动",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]代替相邻<b><color=#e4462c>1</color></b>格内友方承受攻击。<br/>[主动]护卫范围提高为<b><color=#e4462c>2</color></b>格，获得<link type=buff value=700001221 bgcolor=#3a85ffff>「反震」</link>状态，持续<b><color=#e4462c>2</color></b>回合"
+      },
+      {
+        "img": "Skill_Guard_1026",
+        "name": "蓄势化甲",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若遭受近战攻击前已有2点气力，则消耗所有气力触发：减免本次对战伤害40%。<br/>[气力技]每遭受1次伤害累积1点气力"
+      },
+      {
+        "img": "Skill_Guard_1030",
+        "name": "弑杀",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血低于80%，则主动普攻触发「追击」（0.4倍伤害）"
+      },
+      {
+        "img": "Gskill_1004",
+        "name": "撞击",
+        "type": "物攻伤害",
+        "cd": "1回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]「对战中」物攻，物防提高<b><color=#e4462c>5%</color></b>。<br/>[主动]直接攻击单个敌人，造成<b><color=#e4462c>0.5</color></b>倍伤害，让敌人后退<b><color=#e4462c>1</color></b>格。"
+      },
+      {
+        "img": "EXSkill_1006",
+        "name": "开山刚劲",
+        "type": "物攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "1格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.6</color></b>倍伤害，驱散<b><color=#e4462c>2</color></b>个「有益状态」，施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蚀御I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1020",
+        "name": "地御符印",
+        "type": "被动",
+        "cd": "无",
+        "cost": "2内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "行动结束时，使自身2格范围内物防属性最高的2个其他友方施加<link type=buff value=700000530 bgcolor=#3a85ffff>「披甲I」</link>状态，持续1回合。"
+      },
+      {
+        "img": "GPassive_1005",
+        "name": "共进",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍级",
+        "desc": "自身周围2格内，每多1名友军，物攻，法攻+4%（最多12%）。"
+      },
+      {
+        "img": "EXSkill_1079",
+        "name": "混元气聚",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "1内力",
+        "shoot": "自身",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被动]自身气血恢复效果提高<b><color=#e4462c>15%</color></b><br/>[主动]驱散自身<b><color=#e4462c>2</color></b>个「有害状态」，获得<link type=buff value=700004240 bgcolor=#3a85ffff>「气血翻涌」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "赫兰铁罕",
+        "name": "啸风枪",
+        "img": "Weapon_xiaofengqiang",
+        "qixue": "49",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，岂不欲周旋，过日如掣电。杳霭万丈间，啸风清独速。<br/>传，啸风枪，非一般长枪也。是以良材铸造而成，其制法可溯至「列星」中。<br/>传，其刃头是经巧匠重铸而成，舞动时会呼啸作声，因而得名。"
+      },
+      {
+        "weapon": "赫兰铁罕",
+        "name": "朱缨枪",
+        "img": "Weapon_zhuyingqiang",
+        "qixue": "60",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[破空]反击伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，朱缨者，君家赤骠画不得，一团旋风桃花色。请君鞲出看君骑，尾长窣地如红丝。<br/>传，此枪制法可考，乃宋制，无非以持者所好，取「列星」铸枪头。言：长枪，可单、双手握使，乃骑兵之长武。"
+      },
+      {
+        "weapon": "赫兰铁罕",
+        "name": "钢战戟",
+        "img": "Weapon_tiejiqiang",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，初见钢战戟。尸内曾加点。木上安来出一丝，乾马占。<br/>经密法炼制，其铸法于「列星」可见。<br/>传，钢战戟，枪头绛红色，挥舞时，银光可显。言：钢战者，驰骋之兵，有横扫六合，杀千军之势。"
+      },
+      {
+        "weapon": "赫兰铁罕",
+        "name": "毒龙戟",
+        "img": "Weapon_longwangjian",
+        "qixue": "93",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[破空]反击伤害提升5%<br/>[通脉]受治疗效果提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，毒龙衔日天地昏，荡摇五岳崩山根。<br/>经密法打造而成，其铸法于「列星」可见。<br/>传，毒龙戟，乃添恶龙骨淬成，枪头嵌毒龙之牙，枪柄有隐隐龙鳞，操持时似毒龙飞舞，有摄敌之效。言：龙吟意气生，神光八千里。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "赫兰铁罕",
+        "img": "Equip_xuantiekui",
+        "name": "玄铁盔",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "15",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "赫兰铁罕",
+        "img": "Equip_baoganghuanjia",
+        "name": "薄钢环甲",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "19",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "10",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "赫兰铁罕",
+        "img": "Equip_jingtieyaodai",
+        "name": "精铁腰带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "赫兰铁罕",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "5",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "龙王戟",
+        "img": "Weapon_longwangjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "气血大于等于<b><color=#e4462c>90%</color></b>时，物防提高<b><color=#e4462c>6%</color></b>，免疫「固定伤害」和「治疗转伤害」类状态。"
+      },
+      {
+        "name": "龙王戟",
+        "img": "Weapon_longwangjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "气血大于等于<b><color=#e4462c>80%</color></b>时，物防提高<b><color=#e4462c>8%</color></b>，免疫「固定伤害」和「治疗转伤害」类状态。"
+      },
+      {
+        "name": "龙王戟",
+        "img": "Weapon_longwangjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "气血大于等于<b><color=#e4462c>70%</color></b>时，物防提高<b><color=#e4462c>10%</color></b>，免疫「固定伤害」和「治疗转伤害」类状态。"
+      },
+      {
+        "name": "龙王戟",
+        "img": "Weapon_longwangjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "气血大于等于<b><color=#e4462c>60%</color></b>时，物防提高<b><color=#e4462c>12%</color></b>，免疫「固定伤害」和「治疗转伤害」类状态。"
+      },
+      {
+        "name": "龙王戟",
+        "img": "Weapon_longwangjian",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "气血大于等于<b><color=#e4462c>50%</color></b>时，物防提高<b><color=#e4462c>15%</color></b>，免疫「固定伤害」和「治疗转伤害」类状态。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "妖燐石·雾",
+        "percent": "0.469387755102041"
+      },
+      {
+        "name": "八荒灵石·尘",
+        "percent": "0.306122448979592"
+      },
+      {
+        "name": "八荒灵石·雾",
+        "percent": "0.183673469387755"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "紫霄戒·烟",
+        "percent": "0.163265306122449"
+      },
+      {
+        "name": "血参灵玉·尘",
+        "percent": "0.142857142857143"
+      },
+      {
+        "name": "紫霄戒·尘",
+        "percent": "0.122448979591837"
+      },
+      {
+        "name": "血参灵玉·烟",
+        "percent": "0.122448979591837"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "凤绣香囊·尘",
+        "percent": "0.163265306122449"
+      },
+      {
+        "name": "紫月香囊·雾",
+        "percent": "0.122448979591837"
+      },
+      {
+        "name": "龙涎香囊·烟",
+        "percent": "0.122448979591837"
+      },
+      {
+        "name": "龙涎香囊·影",
+        "percent": "0.102040816326531"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "甘霖·尘",
+        "percent": "0.26530612244898"
+      },
+      {
+        "name": "夜雨·尘",
+        "percent": "0.163265306122449"
+      },
+      {
+        "name": "熏风",
+        "percent": "0.163265306122449"
+      },
+      {
+        "name": "刹那·烟",
+        "percent": "0.102040816326531"
+      }
+    ]
+  }
+]

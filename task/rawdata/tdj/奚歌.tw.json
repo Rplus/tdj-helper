@@ -1,0 +1,389 @@
+[
+  {
+    "name": "奚歌",
+    "is_new": 1,
+    "weight": "720",
+    "pinyin": "xige",
+    "source": "天地劫手遊原創角色",
+    "pic": "Hero1027_img",
+    "prop_icon": "Shadow",
+    "career_icon": "Assassin",
+    "rarity": "SSR",
+    "position": "近攻",
+    "prop": "暗",
+    "career": "御風",
+    "range": "1",
+    "speed": "5",
+    "qixue": "179",
+    "magic_attack": "14",
+    "physical_attack": "101",
+    "magic_defense": "34",
+    "physical_defense": "33",
+    "huixin": "50",
+    "inherent": "Gift_081",
+    "inherent_name": "義刃從行",
+    "star1": "",
+    "star2": "",
+    "star3": "若隊友主動攻擊自身2格範圍內的敵人，則在「對戰中」雙方交戰後，立刻對敵方造成1次0.5倍物攻傷害（每回合只能觸發2次）行動結束時，若自身2格範圍內沒有敵人，則獲得「影遁」狀態。（間隔3回合觸發）。<br/>「影遁」：傷害和暴擊率提高12%，無法被敵人普通攻擊及絕學鎖定為目標（不可驅散，遭受1次範圍傷害或造成傷害後，或行動結束時，自身2格範圍內存在敵人時，該狀態消失）",
+    "star4": "若隊友主動攻擊自身2格範圍內的敵人，則在「對戰中」雙方交戰後，立刻對敵方造成1次0.5倍物攻傷害（每回合只能觸發2次）行動結束時，若自身2格範圍內沒有敵人，則獲得「影遁」狀態。（間隔2回合觸發）。<br/>「影遁」：傷害和暴擊率提高16%，無法被敵人普通攻擊及絕學鎖定為目標（不可驅散，遭受1次範圍傷害或造成傷害後，或行動結束時，自身2格範圍內存在敵人時，該狀態消失）",
+    "star5": "若隊友主動攻擊自身2格範圍內的敵人，則在「對戰中」雙方交戰後，立刻對敵方造成1次0.5倍物攻傷害（每回合只能觸發3次）行動結束時，若自身2格範圍內沒有敵人，則獲得「影遁」狀態。（間隔2回合觸發）。<br/>「影遁」：傷害和暴擊率提高20%，無法被敵人普通攻擊及絕學鎖定為目標（不可驅散，遭受1次範圍傷害或造成傷害後，或行動結束時，自身2格範圍內存在敵人時，該狀態消失）",
+    "star6": "若隊友主動攻擊自身3格範圍內的敵人，則在「對戰中」雙方交戰後，立刻對敵方造成1次0.5倍物攻傷害（每回合只能觸發3次）行動結束時，若自身2格範圍內沒有敵人，則獲得「影遁」狀態。（間隔1回合觸發）。<br/>「影遁」：傷害和暴擊率提高25%，無法被敵人普通攻擊及絕學鎖定為目標（不可驅散，遭受1次範圍傷害或造成傷害後，或行動結束時，自身2格範圍內存在敵人時，該狀態消失）",
+    "story_name": "名門",
+    "story_content": "「而今天下風光過的宗門，誰背陰地裡沒藏著秘密。」<br/>奚歌生在四象門長在四象門，就算閉著眼睛、堵住耳朵長大，山門雜草叢裡藏有幾個狗洞，也該能摸個門清。<br/>但她權當自己又聾又瞎。<br/>什麼有關宗主之位的風言風語——<br/>可那宗主是她爹當著又不是她！<br/>還有那她無意窺見的隱蔽院落——<br/>一個小姑娘總不能捅破了天吧？<br/>古往今來揣著秘密的人，多少被這分量壓得直不起身，她的根就長在這些所謂的秘密上，又為什麼要和外人一起盤這個勁兒呢？<br/>「此處為四象門所轄之地，何人作惡？」<br/>她信四象門。<br/>「清歌兒，行你想行之事，成你想成之人。」<br/>她信她爹。<br/>一如既往，自始而終。",
+    "hero_icon": "Hero1027_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1206",
+        "name": "伏刃潛襲",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "無視護衛攻擊單個敵人，造成1.3倍傷害，處於「影遁」狀態釋放此絕學時，「對戰前」施加<link type=buff value=700000701 bgcolor=#3a85ffff>「蝕禦」</link>和<link type=buff value=700001061 bgcolor=#3a85ffff>「封穴」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "GPassive_1011",
+        "name": "吹角",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階3級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身氣血大於等於90%時，則物攻，物防提高10%。"
+      },
+      {
+        "img": "Skill_Assassin_1005",
+        "name": "伺機而動",
+        "type": "主動",
+        "cd": "2回合",
+        "cost": "1內力",
+        "shoot": "自身",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Hun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "自身獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "Skill_Assassin_1007",
+        "name": "羅剎一擊",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階15級",
+        "inner_power1": "Xun",
+        "unlock_inner1": "壹級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻擊單個敵人，造成1.3倍傷害，暴擊率提高20%。擊殺目標則獲得<link type=buff value=700001281 bgcolor=#3a85ffff>「閃避」</link>狀態，持續2回合。"
+      },
+      {
+        "img": "EXSkill_1208",
+        "name": "臥雲流星散",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主動",
+        "unlock_condition": "英靈位階25級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "[被動]不受敵方「煙霧」地形影響。<br/>對範圍內所有敵人造成0.5倍傷害，並在自身2格內製造「煙霧」地形，持續2回合。<br/>「煙霧」：煙霧外的敵方角色（基於本次行動前的位置），無法選中煙霧內的目標"
+      },
+      {
+        "img": "GPassive_1028",
+        "name": "縛力奇謀",
+        "type": "被動",
+        "cd": "無",
+        "cost": "2內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Hun",
+        "unlock_inner2": "伍級",
+        "desc": "行動結束時，對自身3格範圍內物攻/法攻屬性最高的2個敵人施加<link type=buff value=700001030 bgcolor=#3a85ffff>「疲弱」</link>狀態，持續1回合。"
+      },
+      {
+        "img": "EXSkill_1209",
+        "name": "攏息",
+        "type": "被動",
+        "cd": "無",
+        "cost": "1內力",
+        "shoot": "無",
+        "range": "無",
+        "way": "被動",
+        "unlock_condition": "英靈位階40級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒級",
+        "inner_power2": "Xun",
+        "unlock_inner2": "伍級",
+        "desc": "暴擊率提高10%。行動結束時，自身處於「影遁」狀態，則恢復30%氣血。"
+      },
+      {
+        "img": "EXSkill_1207",
+        "name": "劫影飛步",
+        "type": "物攻傷害",
+        "cd": "3回合",
+        "cost": "2內力",
+        "shoot": "1格",
+        "range": "單體",
+        "way": "主動",
+        "unlock_condition": "英靈位階55級",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾級",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "無視護衛攻擊單個敵人，造成1.5倍傷害，處於「影遁」狀態釋放此絕學時，「對戰後」獲得再移動（3格）。"
+      }
+    ],
+    "weapon": [
+      {
+        "name": "黑鋼刺",
+        "img": "Weapon_heigangci",
+        "qixue": "39",
+        "magic": "0",
+        "physical": "36",
+        "feature": "",
+        "rarity": "N",
+        "desc": "載，古有近身善戰者，習以進攻格擋之術，皆以「刺」為器。此器難馭，唯有擅長者能獲制敵之力，攻可出其不意，守有反擊之傷。<br/>黑鋼刺材質堅韌，久用不鈍，數戰見鋒銳，被刺中者，創傷難愈，血流不止。<br/>言：迅影掠玄空，血濺驚鳥林。"
+      },
+      {
+        "name": "凶牙刺",
+        "img": "Weapon_xiongyaci",
+        "qixue": "48",
+        "magic": "0",
+        "physical": "44",
+        "feature": "[鶴唳]暴擊率提升5%",
+        "rarity": "R",
+        "desc": "傳，上古有凶獸修煉千載，兇狠殘虐，嗜血為生，後為其所禍之生靈圍攻之，其遭分食而亡，僅留利齒於天地。<br/>後有能匠斂其齒，合以地心玄鐵鑄刺之器一套，稱之為「凶牙刺」，此物戾氣纏繞，動則難收，可索敵之命至毀身覆魂，唯有心志堅定者方能持。<br/>言：殘魂蓋棺色，凶刺破人心。"
+      },
+      {
+        "name": "蘊靈鬼刺",
+        "img": "Weapon_yunlinguici",
+        "qixue": "59",
+        "magic": "0",
+        "physical": "55",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%",
+        "rarity": "SR",
+        "desc": "載，呼星召鬼歆杯盤，山魅食時人森寒。<br/>塵世間生靈多畏鬼神，故而鬼神傳說每流于民間，世人常以祭祀祈禱之法回之，而年歲日久，天地集世人懼之心而生靈器，有古籍載為「蘊靈鬼刺」。<br/>此物內蘊靈識，御之可擬鬼神之態，先懾人心智，後一擊勝之。<br/>言：召靈問天地，澆酒迎鬼神。<br/>"
+      },
+      {
+        "name": "夜吞望舒",
+        "img": "Weapon_yetunwangshu",
+        "qixue": "74",
+        "magic": "0",
+        "physical": "69",
+        "feature": "[鶴唳]暴擊率提升5%<br/>[翎牙]暴擊傷害提升5%<br/>[鎖心]氣血高於50%時，進入對戰後傷害提升10%",
+        "rarity": "SSR",
+        "desc": "據傳，此物以不世出仙金雕之，輔以魂晶嵌於其上，又因其誕生於日蝕之際，天地之氣棲於刃上，故而此物內有玄機。<br/>又傳，聖人賦其名「夜吞望舒」，晝夜更替之時威力翻倍，可穿山海，可洞乾坤，對其嚮往者千千萬，然其可隱於日月，難尋其蹤。<br/>言：夜吞山海色，一刃穿望舒。"
+      }
+    ],
+    "equipment": [
+      {
+        "img": "Equip_zhuhuamuzan",
+        "name": "珠花木簪",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "14",
+        "qixue_attr": "hp",
+        "maigc_defense": "6",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基礎氣血上限增加10%"
+      },
+      {
+        "img": "Equip_ruangeliyi",
+        "name": "軟革裏衣",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "8",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基礎物防和基礎法防增加10%"
+      },
+      {
+        "img": "Equip_subushuyao",
+        "name": "素布束腰",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "16",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "6",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到物理攻擊進入對戰時，遭受傷害降低10%"
+      },
+      {
+        "img": "Equip_subuhushou",
+        "name": "素布護手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "11",
+        "phyatt_attr": "atn",
+        "huixin": "9",
+        "huixin_attr": "ctr",
+        "effect": ""
+      }
+    ],
+    "strategy": [
+      {
+        "img": "BattleAsssit_026",
+        "name": "俠風洗刃陣",
+        "unlock_condition": "陣眼奚歌位階35級，五內魔陸級解鎖",
+        "relate1": "",
+        "relate2": "",
+        "relate3": "",
+        "icon_center": "Hero1027_HeadIcon_Basic",
+        "icon1": "fire",
+        "icon2": "electricity",
+        "icon3": "",
+        "desc": "上陣奚歌和「炎」，「雷」屬相英靈至少各一位時，啟動戰陣。所有我方上陣角色物攻，物防，法攻，法防提高15%，單體絕學傷害提高10%。"
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "desc": "若目標周圍<b><color=#e4462c>1</color></b>格內無其他敵方，主動攻擊「對戰中」物攻提高<b><color=#e4462c>5%</color></b>。攜帶「影遁」狀態時，免傷提高<b><color=#e4462c>5%</color></b>，遭受範圍傷害後若氣血大於等於<b><color=#e4462c>50%</color></b>「影遁」狀態不消失。",
+        "jiesuo-level": "神兵強化中習得",
+        "name": "千風覆歌",
+        "img": "Weapon_qianfengfuge",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若目標周圍<b><color=#e4462c>1</color></b>格內無其他敵方，主動攻擊「對戰中」物攻提高<b><color=#e4462c>6%</color></b>。攜帶「影遁」狀態時，免傷提高<b><color=#e4462c>6%</color></b>，遭受範圍傷害後若氣血大於等於<b><color=#e4462c>50%</color></b>「影遁」狀態不消失。",
+        "jiesuo-level": "星之晶等級和15+",
+        "name": "千風覆歌",
+        "img": "Weapon_qianfengfuge",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若目標周圍<b><color=#e4462c>1</color></b>格內無其他敵方，主動攻擊「對戰中」物攻提高<b><color=#e4462c>7%</color></b>。攜帶「影遁」狀態時，免傷提高<b><color=#e4462c>7%</color></b>，遭受範圍傷害後若氣血大於等於<b><color=#e4462c>50%</color></b>「影遁」狀態不消失。",
+        "jiesuo-level": "星之晶等級和30+",
+        "name": "千風覆歌",
+        "img": "Weapon_qianfengfuge",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若目標周圍<b><color=#e4462c>1</color></b>格內無其他敵方，主動攻擊「對戰中」物攻提高<b><color=#e4462c>8%</color></b>。攜帶「影遁」狀態時，免傷提高<b><color=#e4462c>8%</color></b>，遭受範圍傷害後若氣血大於等於<b><color=#e4462c>50%</color></b>「影遁」狀態不消失。",
+        "jiesuo-level": "星之晶等級和45+",
+        "name": "千風覆歌",
+        "img": "Weapon_qianfengfuge",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      },
+      {
+        "desc": "若目標周圍<b><color=#e4462c>1</color></b>格內無其他敵方，主動攻擊「對戰中」物攻提高<b><color=#e4462c>10%</color></b>。攜帶「影遁」狀態時，免傷提高<b><color=#e4462c>10%</color></b>，遭受範圍傷害後若氣血大於等於<b><color=#e4462c>50%</color></b>「影遁」狀態不消失。",
+        "jiesuo-level": "星之晶等級和60+",
+        "name": "千風覆歌",
+        "img": "Weapon_qianfengfuge",
+        "jiesuo": "淬火位階達到70級<br/>兵刃達到4階<br/>英靈達到4星"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "天狼血眼",
+        "percent": "0.2620"
+      },
+      {
+        "name": "冰蟾串珠·塵",
+        "percent": "0.2415"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "白焰玉鐲·煙",
+        "percent": "0.4238"
+      },
+      {
+        "name": "葬海戒",
+        "percent": "0.0892"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "靈越佩環·塵",
+        "percent": "0.1408"
+      },
+      {
+        "name": "靈越佩環·煙",
+        "percent": "0.1322"
+      },
+      {
+        "name": "星天流離",
+        "percent": "0.105865921787709"
+      },
+      {
+        "name": "煉法黑鱗",
+        "percent": "0.1040"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "清光似水",
+        "percent": "0.1672"
+      },
+      {
+        "name": "慈航普度",
+        "percent": "0.1502"
+      },
+      {
+        "name": "月滿西樓",
+        "percent": "0.125810055865922"
+      }
+    ]
+  }
+]

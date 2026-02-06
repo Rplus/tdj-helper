@@ -1,0 +1,390 @@
+[
+  {
+    "name": "地仙罗刹",
+    "is_new": "",
+    "pinyin": "dixianluocha",
+    "weight": "1440",
+    "source": "国风企划西游篇登场角色",
+    "pic": "Hero2023_img",
+    "prop_icon": "Ice",
+    "career_icon": "Warlock",
+    "rarity": "SSR",
+    "position": "远攻",
+    "prop": "冰",
+    "career": "咒师",
+    "range": "2",
+    "speed": "3",
+    "qixue": "182",
+    "magic_attack": "102",
+    "physical_attack": "13",
+    "magic_defense": "41",
+    "physical_defense": "24",
+    "huixin": "22",
+    "inherent": "Gift_163",
+    "inherent_name": "扇罢天清",
+    "star1": "",
+    "star2": "",
+    "star3": "法攻、范围伤害提高8%。若攻击目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态或处于「真炎」地形上，伤害额外提升10%。<br/>主动攻击或使用绝学后，清除范围内敌方的地形和机关。",
+    "star4": "法攻、范围伤害提高10%。若攻击目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态或处于「真炎」地形上，伤害额外提升10%。<br/>主动攻击或使用绝学后，清除范围内敌方的地形和机关。",
+    "star5": "法攻、范围伤害提高12%。若攻击目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态或处于「真炎」地形上，伤害额外提升10%。<br/>主动攻击或使用绝学后，清除范围内敌方的地形和机关。",
+    "star6": "法攻、范围伤害提高15%。若攻击目标携带<link type=buff value=700004090 bgcolor=#3a85ffff>「燃烧」</link>状态或处于「真炎」地形上，伤害额外提升10%。<br/>主动攻击或使用绝学后，清除范围内敌方的地形和机关。",
+    "story_name": "罗刹",
+    "story_content": "深林蔽日，幽泉无声。<br/>泣声断续，似聒噪的蚊鸣，嘤嘤不休，萦在风间。<br/>浓绿的芭蕉叶晃荡日影，聚起昨夜的露水，淋漓地滚落。<br/>「真吵啊……」<br/>高高的芭蕉叶上一阵窸窣，那层叠的碧影间，竟卧了一个人。<br/>「小丫头，就是你扰人好梦？」<br/>那人身镀流光，摇着翠扇，朱唇轻启，看呆了满脸泪痕的女娃。<br/>「仙女姐姐……？！」<br/>「呵，我可不是仙女，我是罗刹。」<br/>「罗刹，是什么？」<br/>「恶鬼。」<br/>她倚坐在蕉叶间，漫不经心地吐出那两个字。<br/>「罗刹、恶鬼……原来仙女姐姐还有这么特别的名字啊。」<br/>女娃恍然大悟，虔诚万分，捧起怀中浸透露水的红果。<br/>「仙女姐姐，这些野果子很好吃！我把它们送给你，你能告诉我回家的路吗？」<br/>「咦，仙女姐姐？」<br/>「仙女姐姐……去哪了，呜……」<br/>飞鸟惊起，哀哭声再次响彻林间。<br/>匿在碧影间的那人折返而来，不耐地摇摇扇子。<br/>「不是要回家吗，还不快跟上。」",
+    "hero_icon": "Hero2023_HeadIcon_Basic",
+    "skill": [
+      {
+        "img": "EXSkill_1651",
+        "name": "扬扇熄焰",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵初始技能",
+        "inner_power1": "",
+        "unlock_inner1": "",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.4</color></b>倍伤害，「对战前」驱散目标<b><color=#e4462c>2</color></b>个「有益状态」，「对战后」施加<link type=buff value=742023001 bgcolor=#3a85ffff>「风牢」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1001",
+        "name": "天霜雪舞",
+        "type": "法攻伤害",
+        "cd": "2回合",
+        "cost": "2内力",
+        "shoot": "2格",
+        "range": "单体",
+        "way": "主动",
+        "unlock_condition": "英灵位阶3级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "攻击单个敌人，造成<b><color=#e4462c>1.5</color></b>倍伤害，「对战前」对敌方施加<link type=buff value=700000711 bgcolor=#3a85ffff>「蚀魔I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1652",
+        "name": "摇扇生风",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "扇形4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Lie",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，击退目标<b><color=#e4462c>2</color></b>格，施加<link type=buff value=700000850 bgcolor=#3a85ffff>「封脉」</link>状态，持续<b><color=#e4462c>2</color></b>回合。如果击退路线被阻挡，则施加<link type=buff value=700001320 bgcolor=#3a85ffff>「定身」</link>状态，持续<b><color=#e4462c>1</color></b>回合。"
+      },
+      {
+        "img": "GPassive_1012",
+        "name": "神念",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶15级",
+        "inner_power1": "Shen",
+        "unlock_inner1": "壹级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "若自身气血大于等于90%，法攻、法防提高10%。"
+      },
+      {
+        "img": "Skill_Ice_1003",
+        "name": "冰华之阵",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形2格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶25级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "肆级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.5</color></b>倍伤害，施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续<b><color=#e4462c>2</color></b>回合。"
+      },
+      {
+        "img": "Skill_Ice_1012",
+        "name": "寒气",
+        "type": "被动",
+        "cd": "无",
+        "cost": "1内力",
+        "shoot": "无",
+        "range": "无",
+        "way": "被动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Lie",
+        "unlock_inner2": "伍级",
+        "desc": "造成伤害后，对目标施加<link type=buff value=700001301 bgcolor=#3a85ffff>「迟缓I」</link>状态，持续2回合。"
+      },
+      {
+        "img": "EXSkill_1653",
+        "name": "抚扇降泽",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶40级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "柒级",
+        "inner_power2": "Shen",
+        "unlock_inner2": "伍级",
+        "desc": "[协攻]自身<b><color=#e4462c>3</color></b>格范围内，友方角色主动发起对战且优先攻击时，在「对战前」为其驱散<b><color=#e4462c>1</color></b>个「有害状态」且使其「对战中」穿透提高<b><color=#e4462c>15%</color></b>。（<b><color=#e4462c>1</color></b>回合限定发动<b><color=#e4462c>2</color></b>次）<br/>[主动]主动使用，为范围内所有友方施加<link type=buff value=700001010 bgcolor=#3a85ffff>「神睿I」</link><link type=buff value=700000790 bgcolor=#3a85ffff>「神护I」</link>状态，持续<b><color=#e4462c>3</color></b>回合。"
+      },
+      {
+        "img": "EXSkill_1654",
+        "name": "风云开阖",
+        "type": "法攻伤害",
+        "cd": "3回合",
+        "cost": "2内力",
+        "shoot": "3格",
+        "range": "菱形4格",
+        "way": "主动",
+        "unlock_condition": "英灵位阶55级",
+        "inner_power1": "Mo",
+        "unlock_inner1": "拾级",
+        "inner_power2": "",
+        "unlock_inner2": "",
+        "desc": "对范围内所有敌人造成<b><color=#e4462c>0.7</color></b>倍伤害，在范围内敌人周身<b><color=#e4462c>1</color></b>格内布置<b><color=#e4462c>2</color></b>枚「冽风凝」陷阱，持续<b><color=#e4462c>2</color></b>回合。若命中目标大于等于<b><color=#e4462c>3</color></b>，每多<b><color=#e4462c>1</color></b>个，则额外布置<b><color=#e4462c>1</color></b>枚（最多共计布置<b><color=#e4462c>4</color></b>枚陷阱）。绝学后，可选择<b><color=#e4462c>1</color></b>个施法方向，在下一回合开始时，将全场敌人朝该方向击退<b><color=#e4462c>1</color></b>格。<br/>「冽风凝」：敌人进入陷阱<b><color=#e4462c>1</color></b>圈范围内，则立刻触发，对范围内所有敌人造成<b><color=#e4462c>1</color></b>次「固定伤害」（当前气血的<b><color=#e4462c>20%</color></b>），并施加<link type=buff value=741336023 bgcolor=#3a85ffff>「冰霜」</link>状态，持续<b><color=#e4462c>2</color></b>回合。<br/>[气力技]消耗<b><color=#e4462c>3</color></b>点气力，才可释放绝学。（每造成<b><color=#e4462c>1</color></b>次伤害累积<b><color=#e4462c>1</color></b>点气力）"
+      }
+    ],
+    "weapon": [
+      {
+        "weapon": "地仙罗刹",
+        "name": "琼露扇",
+        "img": "Weapon_202301",
+        "qixue": "36",
+        "magic": "38",
+        "physical": "0",
+        "feature": "",
+        "rarity": "N",
+        "jiesuo": "",
+        "desc": "载，空外明霞飘不堕，只天光海色摇银扇。<br/>传，银汉星遥，碧海青天，瑶池饮宴，仙子衔卮，芳樽共醉，不期跌扇落云。其扇面银波微漾，似染琼浆，浓香万斛。<br/>言，碧落云依，琼酴露浓。"
+      },
+      {
+        "weapon": "地仙罗刹",
+        "name": "金飚扇",
+        "img": "Weapon_202302",
+        "qixue": "44",
+        "magic": "47",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%",
+        "rarity": "R",
+        "jiesuo": "英灵位阶25",
+        "desc": "载，正银河高泻，金风作扇，冰轮将满，火伞初收。<br/>传，初秋之时，清商乍肃，乃知风师卷太清。霜飔在天，朔气激飞，旋聚于地，气承金扇。其扇底涵光，烁烁流金，寒若商秋也。<br/>言，气挟金飙，光摇玉宇。"
+      },
+      {
+        "weapon": "地仙罗刹",
+        "name": "玉屏芭蕉扇",
+        "img": "Weapon_202303",
+        "qixue": "54",
+        "magic": "58",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%",
+        "rarity": "SR",
+        "jiesuo": "列星回响消耗45点天魂之力",
+        "desc": "载，月傍银河移扇影，天留丝雨洗香尘。<br/>传，雨母山间，筑有祠坛。乡民若有所祷，无不降泽。邑中曾有大旱之谶谣，是夜祠间光现，神女捧扇而出，随之云雨滂沱，连月不能止。后神女匿，惟留其扇。<br/>言，甘霖虔祀，泽被万物。"
+      },
+      {
+        "weapon": "地仙罗刹",
+        "name": "浮翠芭蕉扇",
+        "img": "Weapon_202304",
+        "qixue": "68",
+        "magic": "73",
+        "physical": "0",
+        "feature": "[决明]伤害提升5%<br/>[天魁]法术伤害减免提升5%<br/>[锁心]气血高于50%时，进入对战后伤害提升10%",
+        "rarity": "SSR",
+        "jiesuo": "列星回响消耗74点天魂之力",
+        "desc": "载，皋稽，八风神之一，阊阖风之所生。<br/>传，皋稽巡人间，一息而行万里，倦卧翠山之下，吐纳之气，漫卷寰宇。林中芭蕉折堕，积灵籁而化翠扇，凭风起而摇太虚。<br/>言，唤风阊阖，翠波渊旋。"
+      }
+    ],
+    "equipment": [
+      {
+        "equipment": "地仙罗刹",
+        "img": "Equip_shuilingzhuhua",
+        "name": "水灵珠花",
+        "rarity": "N",
+        "part": "1",
+        "qixue": "10",
+        "qixue_attr": "hp",
+        "maigc_defense": "7",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+3]基础气血上限增加10%"
+      },
+      {
+        "equipment": "地仙罗刹",
+        "img": "Equip_baijuanwuxiu",
+        "name": "白绢舞袖",
+        "rarity": "N",
+        "part": "2",
+        "qixue": "",
+        "qixue_attr": "",
+        "maigc_defense": "9",
+        "magdef_attr": "magdef",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "7",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+6]基础物防和基础法防增加10%"
+      },
+      {
+        "equipment": "地仙罗刹",
+        "img": "Equip_xuanjingxiudai",
+        "name": "玄经绣带",
+        "rarity": "N",
+        "part": "3",
+        "qixue": "12",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "",
+        "magatt_attr": "",
+        "physical_defense": "5",
+        "phydef_attr": "phydef",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": "[四件+9]受到法术攻击进入对战时，遭受伤害降低10%"
+      },
+      {
+        "equipment": "地仙罗刹",
+        "img": "Equip_subuhushou",
+        "name": "素布护手",
+        "rarity": "N",
+        "part": "4",
+        "qixue": "11",
+        "qixue_attr": "hp",
+        "maigc_defense": "",
+        "magdef_attr": "",
+        "magic_attack": "12",
+        "magatt_attr": "magatn",
+        "physical_defense": "",
+        "phydef_attr": "",
+        "physical_attack": "",
+        "phyatt_attr": "",
+        "huixin": "",
+        "huixin_attr": "",
+        "effect": ""
+      }
+    ],
+    "godclass_weapon": [
+      {
+        "name": "玄阴芭蕉扇",
+        "img": "Weapon_202305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "神兵强化中习得",
+        "desc": "若自身周围1圈内无其他敌方，伤害提高<b><color=#e4462c>5%</color></b>。若本回合未发起攻击，则行动结束时获得「风息」状态，持续1回合。\n「风息」：「对战中」免伤提高<b><color=#e4462c>15%</color></b>。使用伤害绝学后使该绝学冷却时间-1。"
+      },
+      {
+        "name": "玄阴芭蕉扇",
+        "img": "Weapon_202305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和15+",
+        "desc": "若自身周围1圈内无其他敌方，伤害提高<b><color=#e4462c>6%</color></b>。若本回合未发起攻击，则行动结束时获得「风息」状态，持续1回合。\n「风息」：「对战中」免伤提高<b><color=#e4462c>15%</color></b>。使用伤害绝学后使该绝学冷却时间-1。"
+      },
+      {
+        "name": "玄阴芭蕉扇",
+        "img": "Weapon_202305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和30+",
+        "desc": "若自身周围1圈内无其他敌方，伤害提高<b><color=#e4462c>7%</color></b>。若本回合未发起攻击，则行动结束时获得「风息」状态，持续1回合。\n「风息」：「对战中」免伤提高<b><color=#e4462c>15%</color></b>。使用伤害绝学后使该绝学冷却时间-1。"
+      },
+      {
+        "name": "玄阴芭蕉扇",
+        "img": "Weapon_202305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和45+",
+        "desc": "若自身周围1圈内无其他敌方，伤害提高<b><color=#e4462c>8%</color></b>。若本回合未发起攻击，则行动结束时获得「风息」状态，持续1回合。\n「风息」：「对战中」免伤提高<b><color=#e4462c>15%</color></b>。使用伤害绝学后使该绝学冷却时间-1。"
+      },
+      {
+        "name": "玄阴芭蕉扇",
+        "img": "Weapon_202305",
+        "jiesuo": "淬火位阶达到70级<br/>兵刃达到4阶<br/>英灵达到4星",
+        "jiesuo-level": "星之晶等级和60+",
+        "desc": "若自身周围1圈内无其他敌方，伤害提高<b><color=#e4462c>10%</color></b>。若本回合未发起攻击，则行动结束时获得「风息」状态，持续1回合。\n「风息」：「对战中」免伤提高<b><color=#e4462c>15%</color></b>。使用伤害绝学后使该绝学冷却时间-1。"
+      }
+    ],
+    "hero_ornaments_1": [
+      {
+        "name": "封豨牙悬",
+        "percent": "0.341436464088397"
+      },
+      {
+        "name": "神乌饰坠·烟",
+        "percent": "0.234333070244672"
+      },
+      {
+        "name": "火纹硅玉",
+        "percent": "0.22446724546172"
+      }
+    ],
+    "hero_ornaments_2": [
+      {
+        "name": "玉玑灵镯·尘",
+        "percent": "0.255643251775848"
+      },
+      {
+        "name": "赤霞玉戒·尘",
+        "percent": "0.239068666140489"
+      },
+      {
+        "name": "玄鸩骨戒",
+        "percent": "0.125651144435674"
+      }
+    ],
+    "hero_ornaments_3": [
+      {
+        "name": "幌金绳",
+        "percent": "0.286819258089976"
+      },
+      {
+        "name": "护命神符·尘",
+        "percent": "0.222888713496448"
+      },
+      {
+        "name": "护命神符·烟",
+        "percent": "0.122888713496448"
+      }
+    ],
+    "hero_ornaments_4": [
+      {
+        "name": "鲛人悲歌·烟",
+        "percent": "0.241831097079715"
+      },
+      {
+        "name": "鲛人悲歌·影",
+        "percent": "0.235911602209944"
+      },
+      {
+        "name": "玄武玉",
+        "percent": "0.131176006314127"
+      }
+    ]
+  }
+]
