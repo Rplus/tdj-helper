@@ -1,0 +1,4338 @@
+[
+  {
+    "name": "万缕",
+    "cate": "有害",
+    "desc": "状态持续期间只可直线移动。状态被剪断时，受到一次「固定伤害」（最大气血的25%）（不受「万毒归心」和「无觉」状态影响）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "三昧真火",
+    "cate": "有害",
+    "desc": "法防-15%，行动结束时，遭受1次法术伤害（施加者法攻的50%）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "专注",
+    "cate": "其他",
+    "desc": "上限4层，遭受攻击后移除1层。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "丝引",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中携带「蝶雾」状态的单位。行动结束时，若本次行动未主动攻击，获得「幽寂」状态，持续2回合。\n「幽寂」：携带的「有益状态」（仅限满足可驱散）无效",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "中毒",
+    "cate": "有害",
+    "desc": "行动结束时，损失10%气血，若每多移动1格，则额外损失5%气血（最多15%）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "义",
+    "cate": "其他",
+    "desc": "仁不异远，义不辞难。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "九仪天尊剑",
+    "cate": "其他",
+    "desc": "2格范围内敌方被施加的治疗直接转变为治疗量的50%伤害。\n友方拾取：主动攻击「对战中」物攻、暴击率提升20%，若为「侠客」则额外获得主动攻击「对战后」附加1次50%「剑意激荡」（目标（物攻+法攻）的伤害（无法被减免））\n敌方拾取：主动攻击「对战中」物攻、暴击率提升20%，遭受伤害提升20%，行动结束时损失自身20%当前气血。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "乱神I",
+    "cate": "有害",
+    "desc": "伤害-10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "乱神II",
+    "cate": "有害",
+    "desc": "伤害-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "云隐",
+    "cate": "其他",
+    "desc": "无法作为目标被选中，主动造成伤害或者承受1次范围伤害后状态消失",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "人魂",
+    "cate": "其他",
+    "desc": "受到致命伤害免除死亡，恢复50%气血和护盾，自身强制切换为「妖魂虞兮」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "仙灵",
+    "cate": "其他",
+    "desc": "移动力+1，气血大于等于80%时，无法被敌方选中（主动攻击「对战后」移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "仙罪",
+    "cate": "其他",
+    "desc": "与「雪芝」「对战中」伤害、免伤-10%（上限3层）。主动绝学都在冷却中时，移动力-1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "仙躯",
+    "cate": "其他",
+    "desc": "法术免伤提高20%，代替2格内友方承受法术攻击（遭受攻击「对战后」消失并回复50%气血）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "传送",
+    "cate": "其他",
+    "desc": "传送效果包含：「传送」、「扰动」、「牵引」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "伤害溢出",
+    "cate": "其他",
+    "desc": "攻击时伤害量超过了遭受攻击者的当前气血和护盾值（遭受攻击者被击杀或触发「抵挡致命伤害」）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "位移",
+    "cate": "其他",
+    "desc": "位移效果包含：「击退」、「拉拽」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "余蕴幽香",
+    "cate": "其他",
+    "desc": "若自身气血低于100%，则对友方使用绝学后同时为自己恢复气血（恢复量为施术者法攻的1倍）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "侠义",
+    "cate": "其他",
+    "desc": "行动结束前，若携带3层「侠义」状态，则获得再移动4格，并消耗2层。（上限3层，无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "信步",
+    "cate": "有益",
+    "desc": "免疫「移动力降低」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "先祖庇佑",
+    "cate": "其他",
+    "desc": "若自身气血100%，范围内友方免疫敌方造成的「传送」效果。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "光铠",
+    "cate": "有益",
+    "desc": "遭受范围绝学攻击时，受到伤害降低20%，并为自身驱散1个「有害状态」（遭受范围绝学攻击后消失）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "共影",
+    "cate": "其他",
+    "desc": "自身3格内其他友方行动结束时，以自身和该友方中气血百分比高的一方为基准同步双方气血百分比。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "共影·玄",
+    "cate": "其他",
+    "desc": "遭受攻击时使非攻击目标的其他友方「胧梦婳妖」替自身承受伤害量的50%（承受量不超过自身的最大气血），自身3格内其他友方行动结束时，以自身和该友方中气血百分比高的一方为基准同步双方气血百分比。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "共生",
+    "cate": "其他",
+    "desc": "处于施加者5格范围内时，使施加者射程+1，法术穿透、双防提高15%。行动结束时，若处于施加者5格范围内，则在自身与施加者连线最短路径上制造「余荫」地形，持续2回合（施加者「离场」时移除）。\n「余荫」：友方行动结束时，获得1个「可升级有益状态」状态，敌方行动结束时，获得「中毒」状态，持续2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "内蕴",
+    "cate": "其他",
+    "desc": "全属性提升30%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "冰之力",
+    "cate": "其他",
+    "desc": "攻击携带「迟缓」类状态的目标时，战斗中伤害额外提高20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "冰劫",
+    "cate": "其他",
+    "desc": "主动移动时，若移动距离小于等于1格，行动结束时，将「冰劫」替换为「晕眩」，持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "冰清",
+    "cate": "有益",
+    "desc": "免疫所有有害效果",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "冰霜",
+    "cate": "其他",
+    "desc": "受治疗效果、护盾获得加成降低10%，达到3层时立刻受到1次「固定伤害」（当前气血的20%），并在所在格制造敌方阵营的「霜冻」地形，持续2回合。（触发后移除）\n「霜冻」：霜冻内的敌方角色，移动力-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "冲阵",
+    "cate": "其他",
+    "desc": "移动力+1，伤害和免伤提高12%（上限2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "决斗",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，与施加者「对战中」自身伤害和免伤降低10%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "凝冰",
+    "cate": "有益",
+    "desc": "伤害提高1%，物理穿透提高1%（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "凤瞳",
+    "cate": "有害",
+    "desc": "遭受施加者攻击时无法发动「闪避」且行动结束时，反转自身1个「有益状态」为「属性降低」类「有害状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "凭魂",
+    "cate": "其他",
+    "desc": "回合开始时，若友方「九黎悍士」数量小于2，则消耗「凭魂」层数召唤对应数量的「九黎悍士」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "刃心",
+    "cate": "其他",
+    "desc": "行动结束时，原地制造「荒刃」机关，持续2回合",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "刺骨I",
+    "cate": "有益",
+    "desc": "暴击率+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "刺骨II",
+    "cate": "有益",
+    "desc": "暴击率+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "剑帷",
+    "cate": "其他",
+    "desc": "遭受「非女性角色」攻击「对战前」反转目标1个「有益状态」为「进攻类有害状态」，且「对战中」免伤和物防提高15%\n进攻类有害状态：「疲弱乱神」「障眼」「断刺」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "剑意激荡",
+    "cate": "其他",
+    "desc": "目标（物攻+法攻）的伤害（无法被减免）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "剑气",
+    "cate": "其他",
+    "desc": "造成伤害提升24%，遭受伤害降低24%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "剑破",
+    "cate": "其他",
+    "desc": "自身物攻提升数值为目标当前物防的50%（最多不超过自身基础物攻属性的50%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "剑绝",
+    "cate": "其他",
+    "desc": "「对战中」物理穿透提升20%，遭受攻击「对战中」发动「先攻」，且「先攻」射程提高1格。受到伤害后获得1层「剑绝」状态（最多叠加3层，达到3层时，主动使用单体伤害绝学造成伤害后降低2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "剑绝霜狱",
+    "cate": "其他",
+    "desc": "周围2格内所有敌人移动力-3，且无法护卫（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "劫烬",
+    "cate": "其他",
+    "desc": "全属性提升20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "劫焰",
+    "cate": "其他",
+    "desc": "来自施加者的伤害提高20%。对施加者的首次攻击会被闪避",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "劫焰·壹",
+    "cate": "其他",
+    "desc": "来自施加者的伤害提高20%。对施加者的首次攻击会被闪避，「无法被选中」效果（「烟雾」地形除外）失效",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "化形·反啄I",
+    "cate": "有益",
+    "desc": "反击射程+1，与远程作战「对战中」物防、法防提升20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "化气",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」恢复伤害数值30%的气血，反转自身3格范围友方1个「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "化雨",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，主动攻击施加者时除气血外全属性降低15%，若本回合没有发起攻击，则被施加「冰霜」，持续2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "匿鞘",
+    "cate": "其他",
+    "desc": "最多储存自身最大气血的100%（不可驱散，必定在2回合内消化储存总量）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "厉风狱",
+    "cate": "有害",
+    "desc": "无法行动，且在对战中无法进行反击，无法被治疗。状态消失时，受到1次「固定伤害」（当前气血的20%），并驱散自身周围1圈友方2个「有益状态」。",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "压制",
+    "cate": "其他",
+    "desc": "无法进行反击或先攻（不可驱散，遭受攻击「对战后」消失）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "叠澜",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」对目标造成1次「固定伤害」（已损失气血的20%，「离魂」状态下变为25%）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "号令",
+    "cate": "其他",
+    "desc": "自身两格范围内，若有友方主动发起对战，且优先攻击时，伤害提高10%，「啸霜」发起攻击时伤害额外提升30%（1回合限定发动1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "叹妙摩耶",
+    "cate": "其他",
+    "desc": "3格范围内的友方行动结束时，反转1个「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "同归",
+    "cate": "其他",
+    "desc": "暴击率提高100%，行动结束死亡",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "启智",
+    "cate": "其他",
+    "desc": "遭受单体伤害绝学攻击时气血越高免伤和暴击抗性越高（最高提升20%）（遭受单体伤害绝学后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "命杀",
+    "cate": "其他",
+    "desc": "免疫「属性类降低」有害状态，主动攻击「对战后」，使目标发生1圈内「扰动」效果。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "命蕴",
+    "cate": "有益",
+    "desc": "行动结束时，恢复20%气血",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "嗜虐",
+    "cate": "其他",
+    "desc": "回合开始时，损失自身当前10%气血。每损失10%，除气血外全属性提升5%（最多提高20%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "回灵界",
+    "cate": "其他",
+    "desc": "法阵内友方免疫「属性降低」类「有害状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "回灵阵式",
+    "cate": "其他",
+    "desc": "友方落位时触发，对「回灵界」内的所有友方施加1个随机「有益状态」，并恢复最大气血的30%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "固元I",
+    "cate": "有益",
+    "desc": "法术免伤+10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "固元II",
+    "cate": "有益",
+    "desc": "法术免伤+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "固元III",
+    "cate": "有益",
+    "desc": "法术免伤+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "圣烨",
+    "cate": "其他",
+    "desc": "法防和法术免伤提高20%，代替2格内友方承受法术攻击（遭受法术攻击「对战后」恢复3格内友方气血（物攻的1倍））",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "圣耀",
+    "cate": "其他",
+    "desc": "3格内的敌人行动结束时获得「魂创」状态，并恢复施加者30%最大气血。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "圣耀·贰",
+    "cate": "其他",
+    "desc": "自身免伤+15%，3格内的敌人行动结束时获得「魂创」状态，驱散施加者1个「有害状态」并恢复施加者30%最大气血。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "地火焚狱",
+    "cate": "其他",
+    "desc": "若敌人行动结束时，位于施加者3格范围内，驱散2个「有益状态」，并受到1次「固定伤害」（施术者物攻的15%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "地火焚狱·灼",
+    "cate": "其他",
+    "desc": "3格范围内敌人行动结束时，驱散2个「有益状态」，并受到1次「固定伤害」（施术者物攻的30%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "地火焚狱·燔",
+    "cate": "其他",
+    "desc": "3格范围内敌人受治疗效果-30%，且行动结束时，转化2个「有益状态」为「燃烧」和「煞火」状态，持续2回合，并受到1次「固定伤害」（施术者物攻的30%）\n「燃烧」：行动结束时，损失12%最大气血的固定伤害。（上限2层）\n「煞火」：治疗效果、受治疗效果降低10％，达到3层时，立刻驱散自身1个「有益状态」并受到1次「固定伤害」（最大气血*12%），并对自身和2格范围内友方施加「燃烧」状态，持续2回合。（触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "堕罪",
+    "cate": "有害",
+    "desc": "无法获得「有益状态」，遭受施加者攻击时，法术免伤-10%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "塑魂",
+    "cate": "其他",
+    "desc": "「塑魂」等级每提升1级，夜无陵专属绝学会获得强化且免伤提升5%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "处刑",
+    "cate": "其他",
+    "desc": "射程和移动力+1，主动攻击后使目标携带的「有害状态」等级提升1级。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "复仇",
+    "cate": "有益",
+    "desc": "反击伤害提高30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "天华",
+    "cate": "其他",
+    "desc": "伤害、护盾获得加成提升4%（最多叠加6层，达到满层时使用伤害绝学后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天寰独照",
+    "cate": "其他",
+    "desc": "立刻获得3点气力，范围绝学伤害提高15%，主动攻击造成伤害后附加1次「固定伤害」（目标已损失气血*20%）（主动攻击后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天玑印",
+    "cate": "有益",
+    "desc": "免疫所有「有害状态」，获得来自施加者触发的天赋效果（不可复制，不可偷取）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天禄印",
+    "cate": "有益",
+    "desc": "免疫「固定伤害」，主动移动后在路径上制造「霜冻」地形，持续2回合。\n「霜冻」：霜冻内的敌方角色，移动力-1",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天霜式",
+    "cate": "其他",
+    "desc": "射程+1，[戍援]若其他友方对自身2格范围内的敌方发起对战，则在「对战后」对目标造成1次0.5倍物攻伤害，并施加「冰霜」状态，持续2回合（每回合最多触发3次）\n「冰霜」：受治疗效果、护盾获得加成降低10%，达到3层时立刻受到1次「固定伤害」（当前气血的20%），并在所在格制造敌方阵营的「霜冻」地形，持续2回合（触发后移除）\n「霜冻」：霜冻内的敌方角色，移动力-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天魔护铠",
+    "cate": "其他",
+    "desc": "免伤提高50%（受到伤害后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "天鼓法华",
+    "cate": "其他",
+    "desc": "3格范围内的友方行动结束时，获得「迅捷I」状态，持续1回合。\n「迅捷I」：移动力+1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "失智I",
+    "cate": "有害",
+    "desc": "法术免伤-10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "失智II",
+    "cate": "有害",
+    "desc": "法术免伤-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "失智III",
+    "cate": "有害",
+    "desc": "法术免伤-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "失魂",
+    "cate": "有害",
+    "desc": "不受控制，行动时随机寻找可攻击的敌方目标执行1次普攻，且「对战中」伤害、免伤降低20%",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": true
+  },
+  {
+    "name": "如燕",
+    "cate": "其他",
+    "desc": "主动攻击「对战中」暴击率提高20%，移动力+1，可跨越障碍（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "妖魂",
+    "cate": "其他",
+    "desc": "主动攻击，目标无法发动「抵挡致命伤害」效果。自身相邻1格开启「限制区域」：敌方移动力消耗+1（「引导区域」和「限制区域」叠加效果上限为+2）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "威慑",
+    "cate": "其他",
+    "desc": "自身反击射程+1，3格范围内所有敌人除气血外全属性降低10%，且具有轻功能力的角色翻越障碍能力失效",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "孑身",
+    "cate": "有害",
+    "desc": "受治疗效果降低30%，不可被其他友方选中（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "孤云",
+    "cate": "其他",
+    "desc": "无法护卫、被动绝学失效。状态自然消失后「撤退」，施加者死亡后移除",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "孤孑",
+    "cate": "有害",
+    "desc": "受治疗效果和护盾获得加成降低40%，不可被其他友方选中，行动结束时若自身1格内不存在其他友方则自身所有「有害状态」持续时间+1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "孤绝",
+    "cate": "其他",
+    "desc": "回合开始和行动结束时，反转自身2格范围内友方2个「有益状态」为随机「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "安定",
+    "cate": "其他",
+    "desc": "携带者受到驱散「有益状态」的效果作用时，每层本状态防止1个「有益状态」（仅限满足可驱散）被驱散，并消耗对应层数（最多叠加3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "定身",
+    "cate": "有害",
+    "desc": "无法移动，无法护卫",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "审判",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻对其1圈范围内所有敌人造成0.4倍物攻伤害，驱散1个「有益状态」（累积触发3次后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "审判·贰",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻对其1圈范围内所有敌人造成0.5倍物攻伤害，反转1个「有益状态」（累积触发3次后消失，每触发1次降低「弥伽诫喻」1回合冷却）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "宿曜幽力",
+    "cate": "其他",
+    "desc": "施加者的主动攻击或使用绝学可以无视射程限制以3格范围内的目标释放（施加者「离场」时移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "宿魂",
+    "cate": "其他",
+    "desc": "携带「执戮」状态时，若受到致命伤害时免除死亡，自身恢复30%气血（每场战斗触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寄形",
+    "cate": "其他",
+    "desc": "与施加者作战，「对战前」被施加者偷取3个随机「有益状态」（不可驱散，触发后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寒岚",
+    "cate": "其他",
+    "desc": "使用冰属相绝学攻击时提高10%法穿（使用冰属相绝学后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寒袭",
+    "cate": "其他",
+    "desc": "遭受近战攻击「对战中」物攻提高20%，并发动「先攻」。（「先攻」每回合触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寒袭·壹",
+    "cate": "其他",
+    "desc": "遭受近战攻击「对战中」物攻提高20%，并发动「先攻」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寒袭·贰",
+    "cate": "其他",
+    "desc": "遭受攻击「对战后」对目标施加「迟缓I」状态，持续1回合。遭受近战攻击「对战中」物攻提高20%，并发动「先攻」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "对决",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，且与施加者对战时，暴击率、暴击抗性降低20%，行动结束时，若不处于施加者3格范围内，给施加者施加「迅捷I」持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "对决·擒",
+    "cate": "其他",
+    "desc": "与施加者对战时无法发动「闪避」。选择敌方作为目标时只能选中施加者，且与施加者对战时，暴击率、暴击抗性降低20%，行动结束时，若不处于施加者3格范围内，给施加者施加「迅捷II」，持续1回合，且转化自身1个「有益状态为「燃烧」状态，持续2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "寻猎",
+    "cate": "其他",
+    "desc": "若队友主动攻击自身2格范围内的敌人，且优先攻击时，则在「对战中」双方交战后，立刻对敌方造成额外一次0.3倍物攻伤害（每回合只能触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "封劲",
+    "cate": "有害",
+    "desc": "主动绝学射程-1",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "封咒",
+    "cate": "有害",
+    "desc": "无法使用主动「绝学」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "封穴",
+    "cate": "有害",
+    "desc": "无法发动「连击」「追击」和「闪避」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "封缄",
+    "cate": "有害",
+    "desc": "范围绝学的范围-1",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "封脉",
+    "cate": "有害",
+    "desc": "所有被动「绝学」失效",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "屐上霜",
+    "cate": "其他",
+    "desc": "受治疗效果降低20%，若移动距离小于3格，行动结束时在自身周围1圈制造敌方「霜冻」地形，持续2回合。\n「霜冻」：霜冻内的敌方角色，移动力-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "屠戮",
+    "cate": "其他",
+    "desc": "无法护卫队友，主动攻击「对战后」造成1次「固定伤害」（物攻的50%）若目标气血低于50%，则本次「固定伤害」翻倍（下一次主动攻击「对战后」触发消耗）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "山河图",
+    "cate": "其他",
+    "desc": "无法行动，免疫击退、传送、撤退效果。2格范围内其他友方行动结束时驱散1个「有害状态」，并恢复自身30%最大气血。被击破或回合结束时，被传入的友方将回到战场，恢复全部气血并移除所有「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "山河图·壹",
+    "cate": "其他",
+    "desc": "无法行动，免疫击退、传送、撤退效果。2格范围内其他友方行动结束时驱散2个「有害状态」，并恢复自身30%最大气血。被击破或回合结束时，被传入的友方将回到战场，恢复全部气血并移除所有「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "山河图·贰",
+    "cate": "其他",
+    "desc": "无法行动，免疫击退、传送、撤退效果。2格范围内其他友方免疫「有害状态」且行动结束时驱散2个「有害状态」，并恢复自身30%最大气血。被击破或回合结束时，被传入的友方将回到战场，恢复全部气血并移除所有「有害状态」，若目标已行动结束则被击破时额外获得再激活。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "巧径",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」若3格内存在敌方，基于最近的敌方目标2格范围进行弹射造成1次0.2倍物攻伤害（最多弹射2次，「离魂」状态下变为4次）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "巨影",
+    "cate": "其他",
+    "desc": "主动攻击「对战中」免伤提高15%，且「对战后」恢复自身气血（恢复量为本次伤害的50%）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽劫",
+    "cate": "其他",
+    "desc": "行动结束时，若自身1格范围没有其他友方，将「幽劫」替换为「晕眩」状态，持续1回合。\n「晕眩」：无法行动，且在「对战中」无法进行反击，无法发动「闪避」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽寂",
+    "cate": "有害",
+    "desc": "携带的「有益状态」（仅限满足可驱散）无效",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽煌邪焰",
+    "cate": "其他",
+    "desc": "除气血外所有属性提高10%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽痕",
+    "cate": "其他",
+    "desc": "幽煌遗凡尘，无恨亦无痕",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽禁",
+    "cate": "其他",
+    "desc": "若自身1格内无其他友方，行动力-1。与律「对战中」攻击、免伤降低15%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽铠",
+    "cate": "有益",
+    "desc": "遭受攻击「对战前」夺取目标2个「有益状态」，若夺取数达上限则造成1次「固定伤害」（目标最大气血的10%）（触发后移除）。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "幽阙",
+    "cate": "有害",
+    "desc": "无法获得治疗（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽霜",
+    "cate": "其他",
+    "desc": "免伤+20%，主动造成伤害后，对目标造成1次「固定伤害」（（物攻+物防）的30%），并施加「迟缓I」状态，持续2回合",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "幽魂",
+    "cate": "其他",
+    "desc": "移动力+1，行动时无视敌方角色阻挡（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "庇护",
+    "cate": "其他",
+    "desc": "代替相邻2格距离的队友承受攻击，反击射程+1，遭受暴击概率降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "庇护·壹",
+    "cate": "其他",
+    "desc": "代替相邻3格距离的队友承受攻击，反击射程+2，遭受暴击概率降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "异心",
+    "cate": "其他",
+    "desc": "3格内每有1名其他友方行动结束时携带者受到1次「固定伤害」（当前气血的30%）并获得1个随机「有害状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "异心·悖",
+    "cate": "其他",
+    "desc": "3格内每有1名其他友方行动结束时携带者受到1次「固定伤害」（当前气血的30%）并获得1个随机「有害状态」，自身行动结束时，所有「有害状态」等级提升1级。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "引灵",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，主动攻击施加者时伤害降低20%，若本回合没有发起攻击，则被施加1个随机「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "归依",
+    "cate": "其他",
+    "desc": "行动结束时，使施加者恢复3格内所有施加者友方的气血（恢复量为施加者法攻的0.5倍）并施加1个随机「有益状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "归依·恪",
+    "cate": "其他",
+    "desc": "行动结束时，使施加者恢复自身和施加者3格内施加者友方的气血（恢复量为施加者法攻的1倍）并施加1个随机「有益状态」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "当关",
+    "cate": "其他",
+    "desc": "遭受近战攻击「对战前」转移自身1个「有害状态」给攻击者，且「对战中」物防、免伤提高15%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "当关·勒",
+    "cate": "其他",
+    "desc": "遭受攻击「对战前」转移自身1个「有害状态」给攻击者，若为近战攻击则「对战中」物防、免伤提高20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "影遁",
+    "cate": "其他",
+    "desc": "伤害和暴击率提高12%，无法被敌人普通攻击及绝学锁定为目标（遭受1次范围伤害或造成伤害后，或行动结束时，自身2格范围内存在敌人时，该状态消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "徇义",
+    "cate": "其他",
+    "desc": "除气血外全属性提高2%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "御敌",
+    "cate": "其他",
+    "desc": "每层伤害、免伤+15%（上限4层）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "御火",
+    "cate": "其他",
+    "desc": "火属相免伤80%，受到攻击后消失。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "御魔I",
+    "cate": "有益",
+    "desc": "法防+30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "御魔II",
+    "cate": "有益",
+    "desc": "法防+35%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "循血",
+    "cate": "其他",
+    "desc": "自身每携带1个「有益状态」状态，伤害、物理免伤提升5%（最多提升15%）；「对战后」反转自身2个「有害状态」，恢复自身气血（最大气血的30%），并将自身最多2个「有益状态」复制给3格内的其他友方。（每回合只能触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "微澜·涌",
+    "cate": "有益",
+    "desc": "回合开始和行动结束时，为3格范围内所有友方驱散1个「有害状态」，并恢复气血（恢复量为施术者法攻的0.5倍）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "心剑",
+    "cate": "其他",
+    "desc": "物攻、免伤提高10%，自身免疫敌方「限制区域」效果。气血大于等于80%，「追击」转化为「连击」，且伤害提升至0.6倍。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "心念",
+    "cate": "其他",
+    "desc": "达到2层后消耗并获得「波旬降临」状态，处于「波旬降临」状态时无法获得（上限2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "心莲",
+    "cate": "其他",
+    "desc": "免伤+30%，状态消失时恢复自身气血（恢复量为施术者法攻的0.7倍）受到伤害后消失。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "忘时",
+    "cate": "有害",
+    "desc": "行动结束时，自身1个初始冷却时间最长的伤害绝学冷却时间+1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "忘时·铭",
+    "cate": "有害",
+    "desc": "行动结束时，自身1个初始冷却时间最长的伤害绝学冷却时间+1，「有益状态」等级-1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怒意",
+    "cate": "其他",
+    "desc": "除气血外全属性提高10%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怒火",
+    "cate": "有益",
+    "desc": "物攻提高30%，主动攻击「对战后」自身所有主动绝学冷却时间-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怜香意",
+    "cate": "其他",
+    "desc": "施加者代替自身承受攻击，且此次「对战中」施加者免伤提高20%（触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怯懦",
+    "cate": "其他",
+    "desc": "除气血外全属性降低20%，遭受鲜于超主动攻击「对战中」受到伤害提升20%，且无法反击",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怵惕",
+    "cate": "其他",
+    "desc": "每层物理伤害、暴击率-20%，携带者主动攻击后，叠加1层（上限3层，不可驱散）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "怵惕·颤",
+    "cate": "其他",
+    "desc": "每层伤害、暴击率-20%，携带者主动攻击后，叠加1层（上限3层，不可驱散）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "恩念",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」自身受到1次「固定伤害」（当前气血的50%）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "息哀",
+    "cate": "有害",
+    "desc": "受治疗效果、除气血外全属性降低20%，回合开始时，「有益状态」等级-1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "惑妄",
+    "cate": "有害",
+    "desc": "主动普攻或施放需要选择目标/方向的绝学时，70%概率向错误目标/方向施放",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "惶乱",
+    "cate": "有害",
+    "desc": "遭受攻击受到暴击后，获得1个随机「有害状态」，并对施加者施加1个随机「有益状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "惶乱·胄",
+    "cate": "有害",
+    "desc": "遭受攻击受到暴击后，获得1个随机「有害状态」，并使施加者获得1个随机「有益状态」且随机1个伤害绝学冷却时间-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "愈合",
+    "cate": "有益",
+    "desc": "「对战后」恢复15%气血",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "意乱",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，且与施加者对战时，暴击率降低100%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "愤怒",
+    "cate": "其他",
+    "desc": "射程+2，除气血外全属性提升20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "慈鹿",
+    "cate": "其他",
+    "desc": "不可被敌方选中，3格范围内敌方无法获得气力且主动远程攻击「对战中」伤害和暴击率降低20%，3格范围内友方遭受攻击「对战后」恢复气血（施术者物攻的1.0倍）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "慑印",
+    "cate": "其他",
+    "desc": "遭受暴击率+15%，自身相邻1格内开启「引导区域」：敌方「陆文生」移动力消耗-1，下回合开始时移除",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "慑服",
+    "cate": "其他",
+    "desc": "行动结束时若处于施加者3格内，反转自身1个「有益状态」并发生1格内「扰动」效果（不可驱散，触发后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "戏风式",
+    "cate": "其他",
+    "desc": "移动无视阻挡，可跨越障碍，在友方「女性角色」相邻1格范围内移动不消耗移动力。主动攻击造成伤害后若有剩余移动力，可继续移动",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "戒严",
+    "cate": "其他",
+    "desc": "物理免伤提升20%，反击射程+1，代替2格内友方承受1次物理攻击（「对战后」移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "战引",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，主动攻击施加者时伤害降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "执剑",
+    "cate": "其他",
+    "desc": "遭受非飞行角色攻击时，「对战前」夺取敌方1个「有益状态」，「对战中」免伤和暴击抗性提高15%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "执念",
+    "cate": "其他",
+    "desc": "伤害+4%，暴击率+4%（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "执戮",
+    "cate": "其他",
+    "desc": "全属性提高20%，雷伤减免和暗伤减免额外提高30%，主动攻击「对战后」随机对1圈范围内的敌人造成3次「固定伤害」（物攻的30%）。「执戮」存在期间无法获得「绝心」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "承影无形",
+    "cate": "其他",
+    "desc": "造成1次「固定伤害」（目标50%已损失气血）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护佑",
+    "cate": "其他",
+    "desc": "双防+20%，遭受暴击后恢复30%气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护卫",
+    "cate": "其他",
+    "desc": "代替相邻2格距离的队友承受攻击（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护卫·贰",
+    "cate": "其他",
+    "desc": "代替相邻3格距离的队友承受攻击（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护巢",
+    "cate": "其他",
+    "desc": "代替相邻2格内友方承受物理攻击。遭受攻击「对战中」发动「先攻」且射程+1（遭受攻击「对战后」移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护法",
+    "cate": "其他",
+    "desc": "法术免伤提高20%，代替2格内友方承受法术攻击（「对战后」消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "护象",
+    "cate": "其他",
+    "desc": "范围内所有友方遭受「固定伤害」减免50% ，且施术者自身免伤额外提高10%（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "报怒",
+    "cate": "其他",
+    "desc": "移除「空性」状态，伤害+20%，克制攻击加成+15%，移动力+1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "披甲I",
+    "cate": "有益",
+    "desc": "物防+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "披甲II",
+    "cate": "有益",
+    "desc": "物防+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "担因",
+    "cate": "其他",
+    "desc": "物理免伤+20%，代替2格内友方承受1次物攻（「对战后」消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "拉弓",
+    "cate": "其他",
+    "desc": "下一次普攻必定发动连击（0.3倍伤害，触发后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "拢烟",
+    "cate": "其他",
+    "desc": "主动攻击每命中1个敌人给施加者回复1点气力（最多3点，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "持旗",
+    "cate": "其它",
+    "desc": "相邻1格内开启「限制区域」：敌方移动 力消耗+1。主动攻击前驱散敌方1个「有益状态」，并施加「燃烧」状态，持续2 回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "持续伤害类状态",
+    "cate": "其他",
+    "desc": "「中毒」「流血」「蛇毒」「燃烧」「裂伤」「䔄毒」「撕裂」「死灭印记」「三昧真火」「汲玄」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "持续治疗类状态",
+    "cate": "其他",
+    "desc": "「命蕴」「愈合」「祝安」「生息」「气血翻涌」「涅槃」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "振翎",
+    "cate": "其他",
+    "desc": "射程+1，物攻和暴击率提高12%（上限2层，主动攻击后全部消耗）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "挽弓",
+    "cate": "其他",
+    "desc": "伤害提高20%，射程+1（不可驱散，主动使用伤害绝学后消耗）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "探敌",
+    "cate": "其他",
+    "desc": "移动力+1，主动攻击造成伤害时为施加者增加1层「御敌」状态，持续1回合，且施加者立刻触发1次天赋的「御敌」效果（每回合最多触发1次）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "控潮",
+    "cate": "其他",
+    "desc": "若自身处于我方「霜冻」地形上，敌方行动结束时，若处于露葵3格范围内，对其目标位置触发1次天赋伤害和地形（每回合触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "携酒游",
+    "cate": "其他",
+    "desc": "主动移动后在路径上制造「酒池」地形，持续2回合。\n「酒池」：友方处于地形上时，遭受暴击伤害-10%，行动结束时，恢复气血（最大气血的20%），驱散1个「有害状态」。酒池内的友方角色不消耗「酒」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "携酒游·溢",
+    "cate": "其他",
+    "desc": "主动移动后在路径上制造「酒池」地形，持续2回合，行动结束时对1圈范围友方施加1层「酒」状态。\n「酒池」：友方处于地形上时，遭受暴击伤害-10%，行动结束时，恢复气血（最大气血的20%），驱散1个「有害状态」。酒池内的友方角色不消耗「酒」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "摄魂弹",
+    "cate": "其他",
+    "desc": "使用伤害绝学抵扣对应冷却时间的层数（上限6层，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "撕裂",
+    "cate": "有害",
+    "desc": "行动结束时，遭受1次伤害（施加者物攻的70%，上限7层，期间受到施加者的攻击伤害，可叠加1层，无法扩散）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "撤退",
+    "cate": "其他",
+    "desc": "离开战场，不触发死亡相关逻辑。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "收买",
+    "cate": "有害",
+    "desc": "景乐齐遭受攻击时替其承受伤害量的50%（承受量不超过景乐齐的最大气血）。\n携带者行动结束时，对5格范围内的敌方施加1层「酒」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "斗战",
+    "cate": "其他",
+    "desc": "斗破贪嗔痴慢疑，战退烦恼妄执迷",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "斗诗",
+    "cate": "其他",
+    "desc": "若本次行动移动格数与施加者不一致则行动结束时获得「罚酒」状态，持续1回合。\n「罚酒」：无法被护卫，无法发动「闪避」，被动绝学失效。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "斗诗·奕",
+    "cate": "其他",
+    "desc": "若本次行动移动格数与施加者不一致则行动结束时获得「罚酒」状态，持续1回合，并且反转自身2个「有益状态」。\n「罚酒」：无法被护卫，无法发动「闪避」，被动绝学失效。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "断刺I",
+    "cate": "有害",
+    "desc": "暴击率-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "断刺II",
+    "cate": "有害",
+    "desc": "暴击率-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "断寸I",
+    "cate": "有害",
+    "desc": "射程上限变为2（不可驱散）。",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": true
+  },
+  {
+    "name": "断步I",
+    "cate": "有害",
+    "desc": "移动力上限变为4（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "断步II",
+    "cate": "有害",
+    "desc": "移动力上限变为3（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "断筋",
+    "cate": "有害",
+    "desc": "受治疗效果降低30%，无法触发再移动和自身赋予的再行动（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "断骨",
+    "cate": "有害",
+    "desc": "无法护卫，无法使用主动「绝学」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "施咒",
+    "cate": "其他",
+    "desc": "其他友方在自身2格范围内发起对战，且优先攻击时，则为其施加「神睿」「御魔」状态，持续1回合（每回合只能触发1次）\n「神睿」：物攻，法攻+20%\n「御魔」：法防+30%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "旋刃",
+    "cate": "其他",
+    "desc": "基于最近的敌方目标2格范围进行弹射，造成1次「固定伤害」（物攻的30%）。（优先未被弹射过且在弹射范围内距离最近的目标，弹射目标无法重复，若没有弹射目标，则立刻中断）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "旖梦香",
+    "cate": "其他",
+    "desc": "伤害提升8%，达到3层时，绝学射程+1（上限3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无双",
+    "cate": "其他",
+    "desc": "免疫「移动力限制」状态，受到致命伤害时免除死亡，气血恢复30%，持续时间降低1回合。主动攻击后获得1层「龙胆」状态，若击杀目标或目标触发「抵挡致命伤害」的效果，额外获得1层「龙胆」状态，并使「无双」状态持续时间延长1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无忧域",
+    "cate": "其他",
+    "desc": "免疫「晕眩」，且施术者自身反击射程+1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无恙盾",
+    "cate": "其他",
+    "desc": "遭受攻击时，若目标处于「无恙盾」方向，则自身免伤、暴击抗性提升15%，且战后对目标施加1层「谒暗」状态，持续2回合。（非同方向的交叉区域可叠加）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·天玑印",
+    "cate": "有益",
+    "desc": "免疫所有「有害状态」，获得来自施加者触发的天赋效果（不可复制，不可偷取，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·天禄印",
+    "cate": "有益",
+    "desc": "免疫「固定伤害」，主动移动后在路径上制造「霜冻」地形，持续2回合。若自身为冰属相，主动攻击后自身和施加者累积1点气力且随机1个伤害绝学冷却时间-1\n「霜冻」：霜冻内的敌方角色，移动力-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·封劲",
+    "cate": "有害",
+    "desc": "主动绝学射程-1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·封穴",
+    "cate": "有害",
+    "desc": "无法发动「连击」「追击」和「闪避」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·封缄",
+    "cate": "有害",
+    "desc": "范围绝学的范围-1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·封脉",
+    "cate": "有害",
+    "desc": "所有被动「绝学」失效（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·幽寂",
+    "cate": "有害",
+    "desc": "携带的「有益状态」（仅限满足可驱散）无效（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·无觉",
+    "cate": "有益",
+    "desc": "携带的「有害状态」（仅限满足可驱散的）无效。遭受3格内敌人的攻击后，将自身1个「有害状态」转移给攻击者。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无摧·迟缓III",
+    "cate": "有害",
+    "desc": "移动力-3，无法护卫（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无法反击",
+    "cate": "其他",
+    "desc": "无法反击类状态包含：「压制」「麻痹」「晕眩」「禁闭」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "无瑕I",
+    "cate": "有益",
+    "desc": "遭受暴击-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "无瑕II",
+    "cate": "有益",
+    "desc": "遭受暴击-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "无觉",
+    "cate": "有益",
+    "desc": "携带的「有害状态」（仅限满足可驱散）无效。遭受3格内敌人的攻击后，将自身1个「有害状态」转移给攻击者。",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "既行",
+    "cate": "其他",
+    "desc": "无法被再次激活（不可驱散，下回合开始时移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "昌明",
+    "cate": "其他",
+    "desc": "每层法攻提高5%，携带2层及以上时，免疫「封咒」状态且绝学射程+1（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "明光",
+    "cate": "其他",
+    "desc": "行动结束时，对2格范围内所有友方驱散1个「有害状态」，并恢复气血（恢复量为施术者法攻的0.5倍）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "明幽易位",
+    "cate": "其他",
+    "desc": "不可被其他友方选中，受治疗效果降低20%。行动结束时将「明幽易位」扩散给周围2格范围内的1个其他友方。（行动结束后消失，扩散只触发1次）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星云",
+    "cate": "有益",
+    "desc": "遭受攻击时，敌方「对战前」每移动1格则伤害降低10%（最多降低30%，状态触发后消失，并使施加者获得2点「星屑」）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星云·宿",
+    "cate": "有益",
+    "desc": "遭受攻击「对战前」恢复气血（最大气血的30%）且敌方「对战前」每移动1格则伤害、暴击率降低15%（最多降低30%，状态触发后消失，并使施加者获得4点「星屑」且随机1个伤害绝学冷却时间-1）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星屑",
+    "cate": "其他",
+    "desc": "愿我如星君如月，夜夜流光相皎洁。消耗「星屑」，以强化或开启「摇光破军界」（上限10点）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星戒·威",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻对警戒范围内其所在方向直线范围内所有敌人造成0.5倍物攻伤害，施加1层「神序状态」并击退1格（累积触发3次后消失，每触发1次降低「黯蚀星渊」1回合冷却）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星狩",
+    "cate": "其他",
+    "desc": "射程和绝学范围+2，无法移动，使用绝学后为2格范围气血最低的1个友方恢复气血（恢复量为施术者物攻的0.7倍）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "星蚀",
+    "cate": "其他",
+    "desc": "无法使用「星垂平野」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "晕眩",
+    "cate": "有害",
+    "desc": "无法行动，且在对战中无法进行反击。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "暖机",
+    "cate": "其他",
+    "desc": "暴击率提高10%，获得1个「有益状态」（携带3层主动攻击「对战后」消耗）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "暗引",
+    "cate": "其他",
+    "desc": "遭受攻击受到伤害后立刻恢复施加者和攻击者该次伤害数值30%的气血。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "暗引·渡",
+    "cate": "其他",
+    "desc": "遭受攻击受到伤害后立刻恢复施加者和攻击者该次伤害数值30%的气血，并转移其1个「有害状态」至自身。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "暗流",
+    "cate": "有益",
+    "desc": "主动攻击后，恢复自身气血（恢复量为施术者法攻的0.4倍）并将自身1个「有害状态」转移给白复归。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "暗铠",
+    "cate": "有益",
+    "desc": "受到克制伤害降低20%，受到伤害后，40%概率对攻击者施加1个随机「有害状态」（受到伤害后消耗）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "暴风眼",
+    "cate": "其他",
+    "desc": "伤害和暴击率+5%（最多叠加3层）本回合若释放过绝学，行动结束时对1圈内所有敌人造成0.15倍范围伤害（触发后移除1层）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "机巧·坚壳",
+    "cate": "其他",
+    "desc": "友方「阿秋」行动结束时拾取，恢复自身气血50%，获得「甲力」状态。\n「甲力」：免伤提高50%（遭受1次攻击后消耗）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "机巧·械躯",
+    "cate": "其他",
+    "desc": "友方「阿秋」行动结束时拾取，主动绝学冷却时间-1，若本回合未使用气力技，获得3气力。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "机巧·独角",
+    "cate": "其他",
+    "desc": "友方「阿秋」行动结束时拾取，获得「蓄电」状态、「神睿I」状态，持续2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "杳影",
+    "cate": "其他",
+    "desc": "「对战中」闪避一次攻击，且只可使用「逐星破日」或普通攻击（触发后移除，无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "极乐",
+    "cate": "其他",
+    "desc": "全属性提升15%，敌方行动结束若处于自身3格范围内则被夺取1个「有益状态」，若为召唤物且气血值低于自身则被吞蚀（受到最大气血100%固定伤害）并恢复自身50%气血（「极乐」状态下，无法获得餍足」状态）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "极意I",
+    "cate": "有益",
+    "desc": "伤害+10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "极意II",
+    "cate": "有益",
+    "desc": "伤害+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "极意III",
+    "cate": "有益",
+    "desc": "伤害+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "枯荣与共",
+    "cate": "其他",
+    "desc": "释放主动绝学后，使另一「枯荣与共」友方的1个未进入冷却的绝学增加相同冷却，若为气力技则使该友方也消耗相同气力（行动结束时若与另一「枯荣与共」友方距离大于2格或触发后消失，场上最多存在一对携带此状态的敌方）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "梦海",
+    "cate": "其他",
+    "desc": "自身气血大于等于80%，则遭受范围绝学伤害降低50%（不可驱散，触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "梦蛇·壹",
+    "cate": "其他",
+    "desc": "全属性提高20%，普通攻击的倍率变为1.4，主动普攻后减少所有主动绝学的冷却时间1回合，受到攻击时，自身无视「克制」伤害。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "梦蛇·贰",
+    "cate": "其他",
+    "desc": "全属性提高30%，普通攻击的倍率变为1.5，主动普攻后减少所有主动绝学的冷却时间1回合，受到攻击时，自身无视「克制」伤害。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "梵天",
+    "cate": "其他",
+    "desc": "免伤提高50%，免疫「有害状态」（不可驱散，「对战后」消失，状态消失时驱散2格内所有敌方2个「有益状态」）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "梵天·贰",
+    "cate": "其他",
+    "desc": "免伤提高50%，免疫「有害状态」（「对战后」消失，状态消失时反转3格内所有敌方2个「有益状态」并降低2点气力）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "止歌",
+    "cate": "其他",
+    "desc": "法术免伤+10%，代替2格内友方承受法术攻击（「对战后」消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "武",
+    "cate": "其他",
+    "desc": "人言为信，止戈为武。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "死灭印记",
+    "cate": "其他",
+    "desc": "受到治疗效果减少50%。行动结束时，遭受1次「固定伤害」（自身最大气血*8%+已损失气血*20%）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "残蛊",
+    "cate": "其他",
+    "desc": "对友方使用绝学后施加「逆阙」状态，持续1回合，触发后移除。\n「逆阙」：被施加的治疗直接转变为治疗量的50%伤害",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "残蛊·枯",
+    "cate": "其他",
+    "desc": "治疗效果、受治疗效果降低20%，对友方使用绝学后施加「逆阙」「封脉」状态，持续2回合，触发后移除。\n「逆阙」：被施加的治疗直接转变为治疗量的50%伤害\n「封脉」：所有被动「绝学」失效",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "毫毛",
+    "cate": "其他",
+    "desc": "免伤、暴击伤害提升6%（最多叠加3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "气劲",
+    "cate": "其他",
+    "desc": "回合结束时，如果携带4层「气劲」，则消耗所有「气劲」对自身2格范围内1个敌人施加「晕眩」状态，持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "污秽",
+    "cate": "有害",
+    "desc": "无法获得任何有益状态",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "汲玄",
+    "cate": "有害",
+    "desc": "受治疗效果降低10%，行动结束时，遭受1次法术伤害（施加者法攻的30%）（最多叠加5层）。状态消失时，受到1次「固定伤害」（已损失气血的20%），并转化自身1个「有益状态」为「神序状态」。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "汲血",
+    "cate": "其他",
+    "desc": "「对战后」恢复自身气血，恢复量为本次伤害的30%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "沐春风",
+    "cate": "其他",
+    "desc": "免疫所有「有害状态」，且行动结束时，位于施加者2格范围内，驱散2个「有害状态」，并恢复自身50%最大气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "沐春风·壹",
+    "cate": "其他",
+    "desc": "免疫所有「有害状态」，且行动结束时，位于施加者3格范围内，驱散2个「有害状态」，并恢复自身50%最大气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "沐春风·贰",
+    "cate": "其他",
+    "desc": "免疫所有「有害状态」，且行动结束时，位于施加者3格范围内，驱散2个「有害状态」，获得2个随机「有益状态」，并恢复自身50%最大气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "沐音",
+    "cate": "其他",
+    "desc": "法术免伤+20%，遭受法术攻击后恢复30％气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "法力",
+    "cate": "其他",
+    "desc": "每层法攻提升4%，携带3层及以上时，移动力+1（上限5层，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "波旬降临",
+    "cate": "其他",
+    "desc": "射程+1，移动无视敌方角色阻挡，自身气血外全属性提高携带「链锁」状态的敌方基础属性的30%（最多不超过自身基础属性的50%），状态结束时移除自身施加的「链锁」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "注能",
+    "cate": "其他",
+    "desc": "物攻和免伤提高15%，免疫「固定伤害」，主动攻击「对战前」对目标造成一次「固定伤害」（目标最大气血的10%），消失后获得「温度冷却」，持续1回合（无法驱散）\n「温度冷却」：无法获得「注能」状态（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "活血",
+    "cate": "有益",
+    "desc": "物攻，物防额外+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "流火",
+    "cate": "其他",
+    "desc": "物攻和暴击率+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "流萤",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」使目标发生2格内「扰动」效果（「离魂」状态下若目标周身2格范围内没有友军则本次攻击无视护卫）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "流血",
+    "cate": "有害",
+    "desc": "行动结束时，遭受1次「固定伤害」（施加者物攻的30%）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "浊尘",
+    "cate": "其他",
+    "desc": "2格内的敌人主动释放技能前，使其2个「有益状态」变为随机「有害状态」，获得或刷新「遁地」状态时该状态持续回合数刷新至2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "浑天",
+    "cate": "其他",
+    "desc": "用所有主动绝学攻击时都可触发「寒岚」「焚狱」和「玄幽」状态的攻击效果，使用主动绝学攻击后消耗「寒岚」「焚狱」「玄幽」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "涅槃",
+    "cate": "有益",
+    "desc": "「对战前」恢复自身气血（恢复量为施术者法攻*0.5）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "清流",
+    "cate": "有益",
+    "desc": "受到来自敌方的主动攻击伤害后消失，驱散1个「有害状态]，并恢复气血（恢复量为施术者法攻的0.4倍），生效后立刻为2格范围内1个气血百分比最低的其他友方驱散1个「有害状态」，并恢复气血(恢复量为施术者法攻的0.4倍)",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "溶骨浊池",
+    "cate": "其他",
+    "desc": "自身（剩余回合数）圈范围内的敌方角色，无法主动移动到「溶骨浊池」范围外且行动结束时被施加1个「可升级有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "溶骨浊池·噬",
+    "cate": "其他",
+    "desc": "自身（剩余回合数）圈范围内的敌方角色，无法触发再移动和自身赋予的再行动，无法主动移动到「溶骨浊池·噬」范围外且行动结束时被施加1个「可升级有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "滞之劫",
+    "cate": "其他",
+    "desc": "若本回合未主动攻击造成过伤害，则行动结束时将「滞之劫」替换为「晕眩」，持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "激怒",
+    "cate": "其他",
+    "desc": "范围绝学范围提升1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "激怒/血兹灵阙",
+    "cate": "其他",
+    "desc": "除气血外全属性提升10%，移动力+1，攻击「殷千炀」触发其免死者死亡后移除。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "激荡",
+    "cate": "其他",
+    "desc": "克制攻击加成额外提升20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "濒死不屈",
+    "cate": "其他",
+    "desc": "物攻、克制攻击加成提升20%，\n受到致命伤害时免除死亡，自身恢复30%最大气血，并重置自身所有伤害绝学冷却时间，该状态持续时间减少1回合。主动攻击若击杀目标或目标触发「抵挡致命伤害」的效果则使「瀕死不屈」状态持续时间延长1回合。失去「瀕死不屈」状态后立即死亡。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "火佑",
+    "cate": "其他",
+    "desc": "炎属相免伤提升30%，遭受炎属相攻击后消失。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "火源",
+    "cate": "其他",
+    "desc": "最多储存「梦种灯」最大气血的100%，行动结束时消化50%储存总量为3格内其他友方恢复气血（必定在2回合内消化储存总量）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灭击",
+    "cate": "有害",
+    "desc": "无法获得气力和「有益状态」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灭破空间",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方主动发起对战，且优先攻击时，「对战中」伤害提高10%，若攻击者气血不满额外提升15%。（1回合限定发动2次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灭道",
+    "cate": "其他",
+    "desc": "免伤提高20%，受到攻击时，自身无视「克制」伤害（不可驱散，遭受攻击后消耗）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灵元盾",
+    "cate": "其他",
+    "desc": "所有免伤+15%，遭受2次伤害后消失，状态消失或重置时为2格范围内友方角色驱散2个「有害状态」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灵动",
+    "cate": "其他",
+    "desc": "造成伤害提升24%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灵辉",
+    "cate": "其他",
+    "desc": "行动结束时，如果携带不少于7层「灵辉」，消耗7层「灵辉」，再激活自身十字7格内1名法攻/物攻最高已结束行动的其他友方。（间隔2回合触发）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灵风",
+    "cate": "有益",
+    "desc": "移动力+1，可跨越障碍，免疫「移动力降低」。",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灾灭",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻对其1圈范围内所有敌人造成0.4倍物攻伤害，所有「有害状态」等级提升1级（累积触发3次后消失）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "灾灭·厄",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻对其1圈范围内所有敌人造成0.5倍物攻伤害，反转1个「有益状态」，并使所有「有害状态」等级提升1级（累积触发3次后消失）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎浴",
+    "cate": "其他",
+    "desc": "主动攻击「对战后」，恢复伤害数值50%的气血，驱散自身2个「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎狱",
+    "cate": "其他",
+    "desc": "3格范围内所有敌方主动攻击「对战前」驱散其1个「有益状态」，并施加「燃烧」状态，持续2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎狱空间",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战，且优先攻击时，「对战中」伤害提高10%，对雷属相敌人额外提升10%。（1回合限定发动2次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎狱空间·壹",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战，且优先攻击时，「对战中」暴击率、伤害提高10%，对雷属相敌人额外提升10%。（1回合限定发动2次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎狱空间·贰",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战，且优先攻击时，「对战中」暴击率、伤害提高10%，对雷属相敌人额外提升15%。（1回合限定发动3次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "炎铠",
+    "cate": "有益",
+    "desc": "被攻击「对战前」自身恢复20%气血，并对目标驱散1个「有益状态」（对战后消耗）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "炼化",
+    "cate": "其他",
+    "desc": "死亡后变成1颗「紫金内丹」拾取金丹的单位回复100%气血并获得「内蕴」效果。\n「内蕴」：全属性提升30%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "焕焱烈阵",
+    "cate": "其他",
+    "desc": "自身2格范围内，若有友方主动发起对战，且优先攻击时，使其本次战斗中伤害提高15%，若目标携带「燃烧」状态，伤害额外提高15%（每回合发动3次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "焚炎",
+    "cate": "有益",
+    "desc": "受到来自敌方的主动攻击伤害后消失，恢复自身气血（恢复量为施术者0.5倍法攻）并对菱形2格敌人造成1次「固定伤害」（施术者法攻*0.4）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "焚狱",
+    "cate": "其他",
+    "desc": "使用炎属相绝学攻击后驱散目标1个「有益状态」（使用炎属相绝学后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "煌烨",
+    "cate": "其他",
+    "desc": "伤害提升15%，绝学范围+1（主动使用绝学攻击后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "煞火",
+    "cate": "其他",
+    "desc": "治疗效果、受治疗效果降低10%，达到3层时，立刻驱散自身1个「有益状态」并受到1次「固定伤害」（最大气血*12%），并对自身和2格范围友方施加「燃烧」状态，持续2回合。（触发后移除，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "煽动",
+    "cate": "其他",
+    "desc": "主动攻击「对战前」对自身2格范围内其他角色施加1个随机「有害状态」，并造成1次法术伤害（施术者法攻30%）（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "熔铠",
+    "cate": "其他",
+    "desc": "遭受攻击「对战中」若目标携带「燃烧」状态，携带者免伤提升20%，且「对战后」有50%的几率对目标施加「晕眩」状态，持续1回合。（遭受攻击「对战后」移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "燃烧",
+    "cate": "有害",
+    "desc": "行动结束时，损失12%最大气血的固定伤害。（上限2层）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "燃焰",
+    "cate": "其它",
+    "desc": "无法获得再行动，护盾获得加成提高50%，行动结束时移除。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "燕鸣",
+    "cate": "其他",
+    "desc": "物攻提高5%（上限2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "燕鸣·壹",
+    "cate": "其他",
+    "desc": "物攻、物防提高5%（上限3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "牵梦",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，且与施加者对战时，伤害降低20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "狂乱",
+    "cate": "有益",
+    "desc": "物攻提高12%，伤害提高12%",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "狂意",
+    "cate": "其他",
+    "desc": "主动攻击发动「追击」（首击的0.4倍伤害）（主动攻击「对战后」移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "狂魔",
+    "cate": "其他",
+    "desc": "范围绝学范围提升1，法攻增加10%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "玄幽",
+    "cate": "其他",
+    "desc": "使用暗属相绝学攻击后对目标施加1个随机「有害状态」（使用暗属相绝学后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "玄黄真壁",
+    "cate": "其他",
+    "desc": "遭受攻击受到伤害降低80%（遭受2次攻击后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "王者姿态",
+    "cate": "其他",
+    "desc": "反击伤害提高30%且反击射程+1，若攻击者为携带「战引」状态的敌方遭受攻击前获得护盾（最大气血的100%）。自身相邻1格开启「限制区域」：敌方移动力消耗+1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "王者姿态·衍",
+    "cate": "其他",
+    "desc": "天赋「执法天将」触发次数解除限制，暴击抗性、反击伤害提高30%且反击射程+1，若攻击者为携带「战引」状态的敌方遭受攻击前获得护盾（最大气血的100％）。自身相邻1格开启「限制区域」：敌方移动力消耗+1（「引导区域」和「限制区域」叠加效果上限为+2）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "现形",
+    "cate": "有害",
+    "desc": "「无法被选中」效果（「烟雾」地形除外）失效，遭受施加者攻击时「抵挡致命伤害」效果失效。遭受攻击后驱散自身2个「有益状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "瑞奏",
+    "cate": "其他",
+    "desc": "主动攻击造成暴击后，自身和施加者获得1点气力（暴击后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "生息",
+    "cate": "其他",
+    "desc": "免疫敌方造成的「传送」效果，「对战后」恢复气血（恢复量为施术者0.5倍法攻）并驱散1个「有害状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "电流",
+    "cate": "有害",
+    "desc": "遭受暴击率+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "疫瘴",
+    "cate": "其他",
+    "desc": "携带者受到驱散「有害状态」的效果作用时，每层本状态防止1个「有害状态」（仅限满足可驱散）被驱散，并消耗对应层数（最多叠加3层，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "疲弱I",
+    "cate": "有害",
+    "desc": "物攻，法攻-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "疲弱II",
+    "cate": "有害",
+    "desc": "物攻，法攻-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "百神礼盖",
+    "cate": "有益",
+    "desc": "「先祖庇佑」将以「百神礼盖」为中心张开且「先祖庇佑」范围内敌人无法获得「有益状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "盈尾",
+    "cate": "其他",
+    "desc": "盈盈佳人笑，百媚倾城欢（上限6层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "真法·无方幻界",
+    "cate": "其他",
+    "desc": "立即使气血低于50%的敌方所有不在冷却中的主动绝学获得1回合冷却。暗属相友方全属性+10%，且使用主动伤害或治疗绝学后，该绝学冷却时间-1。敌方每携带1个「有害状态」治疗和受治疗效果降低10%（最多降低30%）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "真炎",
+    "cate": "其他",
+    "desc": "真炎内的敌方角色，行动结束时，损失24%气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "眩灭界",
+    "cate": "其他",
+    "desc": "法阵内敌方无法获得「有益状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "眩灭阵式",
+    "cate": "其他",
+    "desc": "友方落位时触发，对「眩灭界」内的阵眼外其他敌方造成1次固定伤害（最大气血的20%），且发生「眩灭界」内的「扰动」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "眷",
+    "cate": "其他",
+    "desc": "识运知命，畴能罔眷。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "眷佑",
+    "cate": "有益",
+    "desc": "遭受攻击受到伤害后使自身「有害状态」持续时间-1（遭受攻击受到伤害后消失）。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "瞬击",
+    "cate": "其他",
+    "desc": "近战攻击「对战前」对目标造成1次「固定伤害」（物攻的30%），并反转目标2个「有益状态」为「乱神II」和「断刺I」状态，持续2回合（不可驱散）\n「乱神II」：伤害-20%\n「断刺I」：暴击率-20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "破绽",
+    "cate": "其他",
+    "desc": "施加者处于「破绽」方向主动攻击「对战中」自身无法发动「抵挡致命伤害」效果，且「对战后」额外受到1次「固定伤害」（已损失气血的20%）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "破邪符",
+    "cate": "其他",
+    "desc": "自身不携带「有害状态」时，自身1格内的敌方角色无法被护卫（每层状态使作用范围扩大1格，最多叠加至2层（2格）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "磐石",
+    "cate": "其他",
+    "desc": "免疫击退和拉拽，遭受攻击「对战中」免伤提高15%，且反击射程+1（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "祛星",
+    "cate": "有益",
+    "desc": "主动攻击「对战后」，若目标存活，消耗状态，对目标及周围菱形2格敌人造成1次「固定伤害」（施术者法攻*0.5）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "祝安",
+    "cate": "有益",
+    "desc": "行动结束时，恢复自身气血。（恢复量=施术者法攻*0.3）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神序状态",
+    "cate": "其他",
+    "desc": "根据自身属相或魂链进攻属相施加「冰霜」/「煞火」/「惊霆」状态\n「冰霜」：受治疗效果、护盾获得加成降低10%，达到3层时立刻受到1次「固定伤害」（当前气血的20%），并在所在格制造敌方阵营的「霜冻」地形，持续2回合。（触发后移除）\n「煞火」：治疗效果、受治疗效果降低10%，达到3层时，立刻驱散自身1个「有益状态」并受到1次「固定伤害」（最大气血*12%），并对自身和2格范围内友方施加「燃烧」状态，持续2回合。（触发后移除）\n「惊霆」：暴击率，暴击抗性降低10%，达到3层时，立刻受到1次「固定伤害」（已损失气血*20%），并发生2格内「扰动」效果。（触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神恩天泽",
+    "cate": "其他",
+    "desc": "法攻、暴击率提升6%（上限3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神意",
+    "cate": "其他",
+    "desc": "物攻物防提升9%（上限2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神护I",
+    "cate": "有益",
+    "desc": "物理免伤+10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神护II",
+    "cate": "有益",
+    "desc": "物理免伤+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神护III",
+    "cate": "有益",
+    "desc": "物理免伤+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神睿I",
+    "cate": "有益",
+    "desc": "物攻、法攻+20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神睿II",
+    "cate": "有益",
+    "desc": "物攻、法攻+25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "神算",
+    "cate": "其他",
+    "desc": "其他友方在自身2格范围内对友方目标使用非伤害绝学时，在绝学释放前对其所选目标的2格范围内所有友方驱散1个「有害状态」（每回合只能触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神行I",
+    "cate": "其他",
+    "desc": "移动力+1，使用伤害绝学造成暴击，该绝学冷却时间-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神行II",
+    "cate": "其他",
+    "desc": "移动力+2，使用伤害绝学造成暴击，该绝学冷却时间-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神行III",
+    "cate": "其他",
+    "desc": "移动力+3，使用伤害绝学造成暴击，该绝学冷却时间-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "神铠",
+    "cate": "有益",
+    "desc": "遭受攻击「对战中」若目标携带「有益状态」数量大于等于5，则使目标携带的所有「有益状态」（仅限满足可驱散）无效。（遭受攻击「对战后」移除）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "禁咒烨域",
+    "cate": "其他",
+    "desc": "3格范围内敌方释放法术伤害绝学时法攻降低50%。(已入「遮天蔽日」套餐)",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "禁咒烨域·封",
+    "cate": "其他",
+    "desc": "3格范围内敌方释放法术伤害绝学时法攻降低50%，且绝学后获得「封咒」状态，持续1回合。\n「封咒」：无法使用主动「绝学」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "禁疗",
+    "cate": "有害",
+    "desc": "无法被治疗。",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "禁闭",
+    "cate": "其他",
+    "desc": "无法行动，且在对战中无法进行反击。行动结束时，对周围2格内所有友方施加1个随机「有害状态」（不可驱散，队友行动结束若处于自身1格范围移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "福灵",
+    "cate": "其他",
+    "desc": "移动力+2，可跨越障碍，物攻的15%附加至物防、法防上",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "离场",
+    "cate": "其他",
+    "desc": "离场效果包含：「死亡」、「撤退」、「变身」等",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "离间",
+    "cate": "其他",
+    "desc": "无法获得「有益状态」，2格范围内每多1个其他友方，伤害降低10%（最多降低30%）（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "移动力限制",
+    "cate": "其他",
+    "desc": "移动力限制效果包含「移动力降低」「无法移动」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "移时",
+    "cate": "其他",
+    "desc": "最多储存自身最大气血的100%，「对战后」若自身未满血则恢复气血（储存总量的100%）（触发后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "移时·覆",
+    "cate": "其他",
+    "desc": "最多储存自身最大气血的100%，「对战后」若自身未满血则恢复自身3格范围内所有友方气血（储存总量的100%）（触发后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "空性",
+    "cate": "其他",
+    "desc": "物攻的15%附加至物防、法防上，自身3格范围内友方受到攻击后，对攻击者造成1次物理伤害（受击人数（上限5人）*（物攻的0.4倍）），并进入「报怒」状态，持续2回合（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "竭光",
+    "cate": "其他",
+    "desc": "达到3层时，无法使用伤害绝学（达到3层时行动结束时移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "笃守",
+    "cate": "其他",
+    "desc": "免伤+15%，自身相邻1格开启「限制区域」：敌方移动力消耗+1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "符禁",
+    "cate": "其他",
+    "desc": "选择敌方作为目标时只能选中施加者，且与「杨戬」或「哮天犬」作战时，暴击率、暴击抗性降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "策厉",
+    "cate": "其他",
+    "desc": "法攻+15%，自身相邻1格开启「引导区域」：「侠客」「铁卫」职业的友方移动力消耗-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "精准",
+    "cate": "有益",
+    "desc": "物理，法术穿透+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "精准I",
+    "cate": "有益",
+    "desc": "物理，法术穿透+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "素明月",
+    "cate": "其他",
+    "desc": "绝学射程+1，遭受攻击后驱散周围2格内所有友方1个「有害状态」（触发后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "结党",
+    "cate": "其他",
+    "desc": "免疫「有害状态」，遭受攻击时，2格范围内每多1个其他友方时，伤害和免伤提高10%(最多提高30%)（无法驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "绝心",
+    "cate": "其他",
+    "desc": "每层「绝心」状态，全属性提高4% （不可驱散）。若达到5层，则转化为「执戮」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "绫缚",
+    "cate": "有害",
+    "desc": "无法移动，遭受攻击受到伤害后转化自身1个「有益状态」为「燃烧」状态，持续2回合。若自身死亡则将「绫缚」状态传递给2格范围1名其他友方。（其他友方行动结束若处于自身1圈范围降低1回合持续时间）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "缀甲·壹",
+    "cate": "其他",
+    "desc": "代替2格内友方承受攻击。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "缀甲·贰",
+    "cate": "其他",
+    "desc": "代替2格内友方承受攻击，遭受攻击「对战前」恢复自身25%气血，驱散1个「有害状态」（每回合触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "罔效I",
+    "cate": "有害",
+    "desc": "受治疗效果降低20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "罡震",
+    "cate": "其他",
+    "desc": "遭受攻击「对战前」对自身1圈内所有敌人造成1次「固定伤害」（物防的100%），并对攻击目标施加「封劲」状态，持续1回合。\n「封劲」：主动绝学射程-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "羽敕",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻受到施术者0.7倍物攻的物理伤害，并发生1圈内「扰动」效果（累积触发3次后消失，每触发1次降低「垂翎庇世」1回合冷却）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "羽敕·亢",
+    "cate": "其他",
+    "desc": "当敌方行动结束时，如果在警戒范围内，则立刻受到施术者1倍物攻的物理伤害，并发生2格内「扰动」效果，施加「电流」状态，持续2回合（累积触发3次后消失每触发1次降低「垂翎庇世」1回合冷却）\n「电流」：遭受暴击率+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "聚神",
+    "cate": "其他",
+    "desc": "「聚神」等级每提升1级，「凶蚀之轮」会获得强化，本次行动未使用「凶蚀之轮」则「聚神」等级降低1级。\n「聚神I」：当前「聚神」等级为1，「凶蚀之轮」伤害提高5%，暴击伤害提高5%。\n「聚神II」：当前「聚神」等级为2，「凶蚀之轮」伤害提高15%，暴击伤害提高15%，且本次攻击无视闪避。\n「聚神III」：当前「聚神」等级为3，「凶蚀之轮」伤害提高25%，暴击伤害提高25%，且本次攻击无视闪避，若本次攻击造成了「伤害溢出」，将溢出伤害量分摊给其十字2格内所有敌方（总伤害量不超过目标最大气血的100%）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "芬芳I",
+    "cate": "有益",
+    "desc": "治疗效果提高20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "芬芳II",
+    "cate": "有益",
+    "desc": "治疗效果提高30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "花火",
+    "cate": "其他",
+    "desc": "「花火」：每层提高3%/4%/5%/6%法攻。主动释放绝学后，减少一层「花火」。行动结束时，如果未释放绝学，增加一层「花火」。每当有敌方角色死亡后，刷新至最大层数。（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "苏生",
+    "cate": "其他",
+    "desc": "射程+1，伤害+6%（上限3层），处于自身「结界」时，受到致命伤害免除死亡，恢复30%气血（触发后移除所有「苏生」状态）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "苦咒",
+    "cate": "其他",
+    "desc": "法术穿透提高20%，造成伤害后，对目标施加1个随机「有害状态」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "莫摧",
+    "cate": "其他",
+    "desc": "遭受攻击受到伤害时，施加者替自身承受伤害量的50%（承受量不超过自身的最大气血，触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "莫摧·戕",
+    "cate": "其他",
+    "desc": "遭受攻击受到伤害时，施加者替自身承受伤害量的50%，战后转移自身1个「有害状态」给攻击者（承受量不超过自身的最大气血，触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "落曜",
+    "cate": "其他",
+    "desc": "会心提升30%，使用伤害绝学后，对选取的目标周围1圈范围内所有敌方造成1次物理伤害（0.3倍物攻），若选取的目标处于自身直线位置，绝学后自身被反向击退1格，自身所有「有益状态」等级提升1级（使用伤害绝学后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蓄劲",
+    "cate": "其他",
+    "desc": "暴击率提升20%（可叠加，主动攻击触发暴击后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蓄电",
+    "cate": "有益",
+    "desc": "暴击率+30%（暴击后消耗）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "藏元",
+    "cate": "其他",
+    "desc": "遭受暴击率-100%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "藏锋式",
+    "cate": "其他",
+    "desc": "「先攻」射程+2且伤害提高20%，「先攻」、主动攻击「对战中」无视闪避",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "虚弱",
+    "cate": "其他",
+    "desc": "无法使用主动绝学",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "虚损I",
+    "cate": "有害",
+    "desc": "物理免伤-10%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "虚损II",
+    "cate": "有害",
+    "desc": "物理免伤-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "虚损III",
+    "cate": "有害",
+    "desc": "物理免伤-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "虚梦之境",
+    "cate": "其他",
+    "desc": "敌方无法触发再移动和自身赋予的再行动，且使用伤害绝学后若处于范围内，获得「幻梦」状态，持续1回合。\n「幻梦」：无法行动，且在对战中无法进行反击（其他友方使用主动绝学后若处于自身2格范围内，移除该状态）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "虚梦之境・恒",
+    "cate": "其他",
+    "desc": "2格范围内无法生成敌方制造的地形，敌方无法触发再移动和自身赋予的再行动，且使用伤害绝学后若处于范围内，获得「幻梦」状态，持续1回合。\n「幻梦」：无法行动，且在「对战中」无法进行反击，无法发动「闪避」（其他友方使用主动绝学后若处于自身2格范围内，移除该状态）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蚀幕",
+    "cate": "其他",
+    "desc": "遭受来自十字方向敌人攻击时物理免伤提升20%（最多叠加3层，遭受物理攻击后移除全部）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蚀御I",
+    "cate": "有害",
+    "desc": "物防-20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "蚀御II",
+    "cate": "有害",
+    "desc": "物防-25%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "蚀魔I",
+    "cate": "有害",
+    "desc": "法防-30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "蚀魔II",
+    "cate": "有害",
+    "desc": "法防-35%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "蚩尤魂甲",
+    "cate": "其他",
+    "desc": "移动力和射程+1，最大气血提高50%，遭受攻击后若气血小于50%，持续时间降低1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蛇毒",
+    "cate": "其他",
+    "desc": "行动结束时，损失20%气血",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "蜕皮",
+    "cate": "其他",
+    "desc": "全属性提高5%（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蝶雾",
+    "cate": "其他",
+    "desc": "自身相邻1格开启「限制区域」：敌方移动力消耗+1（「引导区域」和「限制区域」叠加效果上限为+2）。获得「有害状态」时，使其等级-1（施加者「离场」时移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血咒",
+    "cate": "其他",
+    "desc": "伤害和免伤提高20%，「对战后」恢复伤害数值50%的气血。行动结束时，损失自身当前气血25%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血噬",
+    "cate": "其他",
+    "desc": "行动结束时，对2格范围其他友方施加「血魂」状态，持续2回合。胧夜遭受攻击后未死亡则对其造成损失气血同等伤害（无法免疫）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血契",
+    "cate": "其他",
+    "desc": "胧夜遭受攻击后未死亡则对其造成损失气血同等伤害（无法免疫，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血魂",
+    "cate": "其他",
+    "desc": "胧夜主动攻击「对战前」对所有携带「血魂」状态的敌方造成1次法术伤害（施术者法攻的40%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血魂之系",
+    "cate": "其他",
+    "desc": "回合开始时，损失自身15%当前气血，攻击「殷千炀」触发其免死者死亡后移除。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "血龙壁",
+    "cate": "其他",
+    "desc": "无法使用主动绝学，受治疗效果降低50%，无法发动「抵挡致命伤害」的效果。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "裂伤",
+    "cate": "有害",
+    "desc": "受治疗效果-10%；行动结束时，遭受1次「固定伤害」（施加者物防+法防的20%）。（可驱散、最多共存4个）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "裂网",
+    "cate": "有害",
+    "desc": "受治疗效果、护盾获得加成降低30%，护盾破碎时对2格范围内所有友方施加2层「冰霜」状态，持续2回合（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "觉破",
+    "cate": "其他",
+    "desc": "暴击率、暴击伤害提高10%。无需处于「破绽」方向即可触发效果。若处于「破绽」方向主动攻击「对战中」暴击率、暴击伤害额外提高10%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "觉醒之力",
+    "cate": "其他",
+    "desc": "累积6层将激活「圣枪之力」状态，持续2回合",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "警觉",
+    "cate": "其他",
+    "desc": "护盾获得加成+50%，暴击率+15%，移动力+1（上限2层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "讹心",
+    "cate": "其他",
+    "desc": "若携带者行动结束时的「有益状态」大于2个，则携带者至少保留2个「有益状态」并将其余「有益状态」转移至施加者（最多转移6个），且施加者获得1层「心念」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "论道",
+    "cate": "其他",
+    "desc": "携带者主动使用绝学后，恢复施加者30%气血并使其获得1个随机「有益状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "论道·诫",
+    "cate": "其他",
+    "desc": "携带者行动结束时，驱散施加者2个「有害状态」并恢复30%气血并使其获得2个随机「有益状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "识破",
+    "cate": "其他",
+    "desc": "若攻击前移动距离大于1格，则伤害、暴击率降低20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "识破·彻",
+    "cate": "其他",
+    "desc": "「无法被选中」效果（「烟雾」地形除外）失效，若攻击前移动距离大于1格，则伤害、暴击率降低20%。若未发起攻击，行动结束时驱散自身1个「进攻类有益状态」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "诗仙",
+    "cate": "其他",
+    "desc": "会心提高40%。行动时无视敌方角色阻挡。\n行动结束时减少自身初始冷却时间最长的绝学冷却时间（减少数值为本次行动移动格数）。\n主动攻击若目标触发「抵挡致命伤害」的效果则「对战后」将其传入「诗境」中。「诗境」：无法行动，免疫击退、传送、撤退效果。2格范围友方无法获得「有益状态」。「诗境」中的单位回到战场时移除所有「有益状态」（队友行动结束若处于1格范围则可使诗境中的单位回到战场，「诗境」死亡则「诗境」中的单位将一同离场）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "调和",
+    "cate": "其他",
+    "desc": "伤害大幅降低，减免绝大部分伤害，免疫「固定伤害」，下回合开始时移除。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "调息",
+    "cate": "其他",
+    "desc": "无法触发自身赋予的再行动",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "谒暗",
+    "cate": "其他",
+    "desc": "达到3层时，自身「有害状态」无法被驱散（达到3层时行动结束时移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "豪侠",
+    "cate": "其他",
+    "desc": "「对战中」伤害提高15%，遭受近战攻击「对战前」发动「先攻」（每回合发动1次）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "贮酿",
+    "cate": "其他",
+    "desc": "最多储存自身最大气血的50%，行动结束时，自身受到1次伤害（储存总量的50%）（不可驱散，不可免疫，必定在2回合内消化储存总量）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "起势",
+    "cate": "有益",
+    "desc": "移动力+1，可跨越障碍",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "超载",
+    "cate": "其他",
+    "desc": "法攻、物理免伤+20%，主动攻击造成伤害时，50%概率施加「禁闭」状态，持续1回合。（不可驱散，无法获得「魂魄之力」）\n「禁闭」：无法释放技能和移动，行动结束时，对周围2格内所有友方施加1个随机「有害状态」（不可驱散，队友行动结束若处于其1格范围移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "蹈火",
+    "cate": "其他",
+    "desc": "伤害提升10%，自身在友方「真炎」地形上移动时不消耗移动力。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "转厄生天",
+    "cate": "其他",
+    "desc": "受到法术伤害降低25%，遭受法术攻击时，使1个有害状态变为随机「有益状态」（不可驱散，遭受法术攻击后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "辟厄",
+    "cate": "有益",
+    "desc": "免疫「封脉」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "辟护",
+    "cate": "有益",
+    "desc": "免疫「固定伤害」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "辟攻",
+    "cate": "有益",
+    "desc": "免疫物攻、法攻降低",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "辟秽",
+    "cate": "有益",
+    "desc": "免疫「污秽」",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "辟防",
+    "cate": "有益",
+    "desc": "免疫物防、法防降低",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "辟险",
+    "cate": "有益",
+    "desc": "免疫敌方造成的位移效果（位移效果包含：「击退」「拉拽」）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "达摩",
+    "cate": "其他",
+    "desc": "遭受「固定伤害」提升30%，遭受攻击「对战后」额外受到1次「固定伤害」（施术者法攻的30%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "达摩·壹",
+    "cate": "其他",
+    "desc": "遭受「固定伤害」提升50%，遭受攻击「对战后」额外受到1次「固定伤害」（施术者法攻的30%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "迅捷I",
+    "cate": "有益",
+    "desc": "移动力+1",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "迅捷II",
+    "cate": "有益",
+    "desc": "移动力+2",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "迅捷III",
+    "cate": "有益",
+    "desc": "移动力+3",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "迅目I",
+    "cate": "有益",
+    "desc": "会心+30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "迅目II",
+    "cate": "有益",
+    "desc": "会心+40%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "过热",
+    "cate": "其他",
+    "desc": "主动普攻或施放需要选择目标/方向的绝学时，70%概率向错误目标/方向施放，无法获得「摄魂弹」，且使用伤害绝学后将进入冷却，状态消失时，获得3层「摄魂弹」（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "过量治疗",
+    "cate": "其他",
+    "desc": "使用治疗绝学时，治疗量超出了受治疗者的生命恢复上限",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "进攻类有害状态",
+    "cate": "其他",
+    "desc": "「疲弱」「断刺」「乱神」「障眼」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "连潮",
+    "cate": "其他",
+    "desc": "下一次普攻必定发动连击（0.3倍伤害，主动普攻后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "连潮·贰",
+    "cate": "其他",
+    "desc": "下一次普攻必定发动连击（0.3倍伤害，主动普攻后移除），若攻击前目标处于友方「霜冻」地形上，连击倍率提高0.2倍，且战后随机1个绝学冷却-1。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "迟缓I",
+    "cate": "有害",
+    "desc": "移动力-1，无法护卫",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "迟缓II",
+    "cate": "有害",
+    "desc": "移动力-2，无法护卫",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "迟缓III",
+    "cate": "有害",
+    "desc": "移动力-3，无法护卫",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "迷心",
+    "cate": "有害",
+    "desc": "行动结束对自身以及周围1圈友方造成「固定伤害」（目标最大气血*25%）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "迷心II",
+    "cate": "有害",
+    "desc": "行动结束对自身以及周围1圈友方造成「固定伤害」（目标最大气血*25%）与方芸「对战中」除气血外全属性降低20%（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "追命",
+    "cate": "有害",
+    "desc": "无法使用主动「绝学」，与青「对战中」除气血外全属性降低20%，死亡后随机传递给3格范围1名其他友方（死亡传递只触发1次）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "送清明",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方主动发起对战，且优先攻击时，则在「对战前」为其施加「命蕴」效果，持续2回合（每回合只能触发2次）[若协攻对象为聂小倩，则「对战前」为其施加「极意II」「神护II」效果，持续1回合，且聂小倩所有主动绝学冷却时间减少1回合]",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "逆阙",
+    "cate": "有害",
+    "desc": "被施加的治疗直接转变为治疗量的50%伤害",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "速行",
+    "cate": "有益",
+    "desc": "直线移动时移动力+1",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "遁地",
+    "cate": "其他",
+    "desc": "移动力和绝学范围+1，不可被敌方选中，受到的物理伤害减少60%。主动攻击进入对战提前结束「遁地」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "遏心",
+    "cate": "其他",
+    "desc": "移除「空性」和「报怒」状态，存在时无法获得「报怒」和「空性」状态，自身无法移动，无法攻击，无法反击（不可驱散，每场战斗仅触发1次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "遮天蔽日",
+    "cate": "其他",
+    "desc": "免疫「封脉」「位移」「传送」「封劲」「封缄」「颤栗」「魅惑」「怯懦」「疫瘴」「逆阙」「麻痹」「断骨」「异心」「怵惕」「孤孑」「只能选中施加者」「移动限制」「遭受固定伤害提升」「气血交换/平衡」「冷却增加/无法减少」「禁止再移动/再行动」「主动「绝学」禁用」「无法行动」「调和」「护盾获得加成降低」效果且减免大部分「百分比伤害」无视「烟雾」地形、「降灵」「禁咒烨域」「清除护盾」「调和」「灭击」效果",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "酒",
+    "cate": "其他",
+    "desc": "受治疗效果增加10%。携带2层时，主动使用绝学或普攻前驱散自身1个「有害状态」并恢复气血（恢复量为施术者法攻的0.5倍）（触发后消耗）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "酒困",
+    "cate": "其他",
+    "desc": "伤害-30%，免伤和治疗效果+30%，无法食用「美味的紫霜云芝」",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "酷吏",
+    "cate": "有益",
+    "desc": "物攻+4%，物穿+2%（上限4层，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "酷吏II",
+    "cate": "有益",
+    "desc": "物攻、物穿+4%，大于等于4层时绝学射程+1，获得6层时随机伤害绝学冷却时间-2（上限6层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "醉仙望月步",
+    "cate": "其他",
+    "desc": "移动力+1，可跨越障碍，主动普攻触发「连击」，造成0.4倍伤害",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "醉诗",
+    "cate": "其他",
+    "desc": "会心提高10%（「诗仙」状态下无法获得「醉诗」状态）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "醒剑骨",
+    "cate": "其他",
+    "desc": "行动结束时，若自身3格范围没有「女性角色」则立刻「死亡」，攻击「剑心无邪」触发其免死者死亡后移除",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "醒神",
+    "cate": "有益",
+    "desc": "免疫「绝学冷却增加」的效果（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "重击·崩山",
+    "cate": "其他",
+    "desc": "暴击率提升20%，发动「追击」（首击的0.3倍伤害）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "重击·散魂",
+    "cate": "其他",
+    "desc": "对选取的目标施加「逆阙」状态，持续1回合，对其2格范围内所有敌方造成1次物理伤害（0.2倍物攻）。\n「逆阙」：被施加的治疗直接转变为治疗量的50%伤害",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "重击·神威",
+    "cate": "其他",
+    "desc": "伤害提高20%，造成伤害后施加「电流」状态，持续2回合。\n「电流」：遭受暴击率+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "金身",
+    "cate": "其他",
+    "desc": "物理免伤提高20%，代替2格内友方承受物理攻击（「对战后」消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "铩羽",
+    "cate": "其他",
+    "desc": "遭受「杨戬」/「哮天犬」攻击时免伤降低10%（下回合开始时或触发后移除）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "链锁",
+    "cate": "其他",
+    "desc": "只可朝施加者移动，行动结束时若处于施加者3格外则将「链锁」替换为「禁闭」，持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "锁惊鸿",
+    "cate": "其他",
+    "desc": "若主动攻击的目标中不包含施加者，攻击前反转自身2个「有益状态」为「进攻类有害状态」（触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "锢步",
+    "cate": "有害",
+    "desc": "无法触发再移动和自身赋予的再行动",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "镜朦胧",
+    "cate": "其他",
+    "desc": "气血以外的全属性提高6%（上限4层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "长明灯",
+    "cate": "其他",
+    "desc": "回合开始时，恢复1圈内友方气血（恢复量为施术者法攻的0.5倍）并使「有害状态」等级-1（无法叠加生效）。敌方拾取后自身「有益状态」等级-1。敌方落位或妲己死亡后消失。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "闪避",
+    "cate": "其他",
+    "desc": "躲闪对战中的1次攻击（不可驱散，触发后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阎天护铠",
+    "cate": "其他",
+    "desc": "免伤提高80%，状态消失时，对周围2圈内所有敌人造成0.3倍范围伤害（持续1回合，受到伤害后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阎天护铠·壹",
+    "cate": "其他",
+    "desc": "免伤提高80%，状态消失时，对周围2圈内所有敌人造成0.5倍范围伤害（持续1回合，受到伤害后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阎天护铠·贰",
+    "cate": "其他",
+    "desc": "免伤、暴击抗性提高80%，状态消失时，对周围2圈内所有敌人造成0.5倍范围伤害，恢复自身100%气血（持续1回合，受到伤害后消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阎天魔能",
+    "cate": "其他",
+    "desc": "状态消失或重置时，对周围2圈内所有敌人造成0.3倍范围伤害",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "防卫",
+    "cate": "其他",
+    "desc": "免伤提高20%，代替2格内友方承受攻击（「对战后」消失）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阳",
+    "cate": "其他",
+    "desc": "只可朝携带「阴」状态的敌方角色移动。遭受「四象明月」或携带「阴」状态敌方攻击后，扩散自身2个「有害状态」给2格范围的其他友方。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "阴",
+    "cate": "其他",
+    "desc": "遭受携带「阳」状态的敌方攻击后恢复自身和「四象明月」已损失50%气血并复制自身2个「有益状态」给「四象明月」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "降伏",
+    "cate": "有害",
+    "desc": "无法使用主动「绝学」，所有被动「绝学」失效",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "降曜",
+    "cate": "其他",
+    "desc": "无法再通过「浑天推星·贰式」展开结界「无方幻界」。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "降灵",
+    "cate": "有益",
+    "desc": "若自身气血100%，「先祖庇佑」范围内的其他友方无法被敌人选中。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "降疗I",
+    "cate": "有害",
+    "desc": "治疗效果降低20%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "障眼I",
+    "cate": "有害",
+    "desc": "会心-30%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "障眼II",
+    "cate": "有害",
+    "desc": "会心-35%",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": false
+  },
+  {
+    "name": "雷劫",
+    "cate": "其他",
+    "desc": "行动结束时，如果自身菱形2格内有其它友方单位，则将「雷劫」替换为「晕眩」，持续1回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷场",
+    "cate": "其他",
+    "desc": "遭受暴击概率+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷晶印记",
+    "cate": "其他",
+    "desc": "受到敌方「雷晶分身」伤害增加20%。敌方「雷晶分身」普攻射程+1，且主动攻击时，只能选中携带「雷晶印记」的敌人。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷电空间",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战时，「对战中」伤害提高10%，对冰属相敌人额外提升10%。（1回合限定发动2次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷电空间·壹",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战时，「对战中」伤害、暴击率提高10%，对冰属相敌人额外提升10%。（1回合限定发动3次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷电空间·贰",
+    "cate": "其他",
+    "desc": "自身2格范围内，友方角色主动发起对战时，「对战中」伤害、暴击率提高10%，对冰属相敌人额外提升15%。（1回合限定发动3次）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "雷铠",
+    "cate": "有益",
+    "desc": "遭受暴击伤害降低20%（受到暴击后消耗）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "霜冻",
+    "cate": "其他",
+    "desc": "移动力-1",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "霜爆",
+    "cate": "其他",
+    "desc": "消耗当前「霜冻」地形，对处于其上的敌人造成1次「固定伤害」（法攻的20%）。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "霜铠",
+    "cate": "有益",
+    "desc": "主动攻击「对战中」遭受伤害降低30%。（主动攻击「对战中」受到伤害后消耗）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "青露华",
+    "cate": "有害",
+    "desc": "每层状态使自身遭受「上元夫人」主动攻击或[协攻]时，遭受伤害提高10%（上限3层）",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "韶光灵元盾",
+    "cate": "其他",
+    "desc": "每层法防和免伤提高15%，遭受攻击受到伤害后减少1层，并为3格范围内友方角色驱散1个「有害状态」（上限3层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "颂祝",
+    "cate": "其他",
+    "desc": "受治疗效果提升30%，且行动结束时，驱散自身2格范围内所有友方1个「有害状态」（不可驱散））",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "颤栗",
+    "cate": "有害",
+    "desc": "无法选中施加者，状态消失时替换为「虚损I」，持续1回合",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "飞灰",
+    "cate": "其他",
+    "desc": "2格内的敌人，若不携带「有益状态」则暴击率和治疗效果降低20%，主动释放技能前，使其2个「有益状态」变为随机「有害状态」，获得或刷新「遁地」状态时该状态持续回合数刷新至2回合。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "飞羽",
+    "cate": "其他",
+    "desc": "攻击射程+1，主动攻击「对战后」获得再移动（2格）（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "飞驰",
+    "cate": "其他",
+    "desc": "不处于「驰骋」状态时，行动结束时若携带5层「飞驰」状态则立即获得「驰骋」状态（最多叠加5层）。\n「驰骋」：直线移动时移动力+3。失去全部「飞驰」状态时立即移除「驰骋」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "餍足",
+    "cate": "其他",
+    "desc": "获得时立刻恢复15%气血",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "驰骋",
+    "cate": "其他",
+    "desc": "直线移动时移动力+3。失去全部「飞驰」状态时立即移除「驰骋」状态。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "驻守",
+    "cate": "其他",
+    "desc": "反击射程+1，自身免疫敌方造成的「位移」和「传送」效果",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "骁骑",
+    "cate": "其他",
+    "desc": "遭受攻击「对战前」若敌人本次移动距离小于3格，自身免伤提高20%。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "骁骑·烈",
+    "cate": "其他",
+    "desc": "「对战后」恢复自身25%气血。遭受攻击「对战前」若敌人本次移动距离小于3格，自身免伤、暴击抗性提高20%，「对战中」触发先攻。",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魁兽",
+    "cate": "其他",
+    "desc": "3格范围内每有1个敌方单位，双防提升10%（最高30%）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魂创",
+    "cate": "其他",
+    "desc": "物攻-5%（最多叠加3层，不可免疫）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魂魄之力",
+    "cate": "其他",
+    "desc": "法术穿透+3%，使用绝学后恢复自身气血（恢复量为施术者法攻的0.2倍）（上限5层，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魅惑",
+    "cate": "其他",
+    "desc": "受到暴击概率+30%，无法选中施加者",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魉生",
+    "cate": "其他",
+    "desc": "法攻+4%/5%/6%/7%、免伤+1%/2%/3%/4%，（上限5层，若本回合未主动攻击或释放绝学，行动结束时，减少1层）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魔疫状态",
+    "cate": "其他",
+    "desc": "根据自身属相或魂链进攻属相施加「竭光」/「谒暗」/「崇幽」状态\n「竭光」：达到3层时，无法使用伤害绝学（达到3层时，行动结束时移除）\n「谒暗」：达到3层时，自身「有害状态」无法被驱散（达到3层时行动结束时移除）\n「崇幽」：达到3层时，自身「有益状态」等级-1「有害状态」等级+1（触发后移除）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魔血",
+    "cate": "有益",
+    "desc": "物攻、法攻，免伤+20%",
+    "dispellable": true,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魔血·魇",
+    "cate": "有益",
+    "desc": "气血、物攻、法攻，免伤+20%",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "魔铠",
+    "cate": "有益",
+    "desc": "遭受攻击「对战中」若自身携带「有害状态」数量大于等于3，则使自身携带的所有「有害状态」（仅限满足可驱散）无效。（遭受攻击「对战后」移除）",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "鲛力",
+    "cate": "其他",
+    "desc": "射程+1，免伤提高20%，遭受暴击率降低20%，天赋造成的追加伤害倍率提高0.2倍",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "鹿王",
+    "cate": "其他",
+    "desc": "不可被敌方选中，3格范围内敌方无法获得气力且主动远程攻击「对战中」伤害和暴击率降低20%（不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "麻痹",
+    "cate": "有害",
+    "desc": "无法进行反击",
+    "dispellable": true,
+    "extendable": true,
+    "stealable": true
+  },
+  {
+    "name": "齐天",
+    "cate": "其他",
+    "desc": "暴击率、追击伤害提升30%，造成伤害后恢复自身气血，恢复量为本次伤害的30%（「齐天」状态下，无法获得「斗战」状态）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  },
+  {
+    "name": "龙骧",
+    "cate": "其他",
+    "desc": "遭受近战攻击「对战前」自身恢复20%气血，且「对战中」发动「先攻」（触发后消耗，触发时若处于己方「真炎」地形额外恢复20%气血，不可驱散）",
+    "dispellable": false,
+    "extendable": false,
+    "stealable": false
+  }
+]
