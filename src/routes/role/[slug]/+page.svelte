@@ -4,6 +4,7 @@ import {
 	fetch_role_detail,
 	get_refs,
 	get_role_url_without_proxy,
+	get_role_url_from_git,
 } from '$lib/fetch-data.js';
 import { resize_img } from '$lib/u.js';
 import { browser } from '$app/environment';
@@ -90,22 +91,34 @@ $: {
 
 		<hr />
 		<details>
-			<a
-				href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
-				rel="noopener"
-				target="_blank"
-			>original data</a>
-			<br />
-			<a
-				href={resize_img(
-					`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
-					960,
-				)}
-				rel="noopener"
-				target="_img"
-			>
-				large avater img
-			</a>
+			<ul>
+				<li>
+					<a
+						href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
+						rel="noopener"
+						target="_blank"
+					>official data</a>
+				</li>
+				<li>
+					<a
+						href={get_role_url_from_git(data.role)}
+						rel="noopener"
+						target="_blank"
+					>git data</a>
+				</li>
+				<li>
+					<a
+						href={resize_img(
+							`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
+							960,
+						)}
+						rel="noopener"
+						target="_img"
+					>
+						large avater img
+					</a>
+				</li>
+			</ul>
 			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
 		</details>
 	{:catch error}

@@ -89,9 +89,7 @@ const PROXY = [
 ][0];
 
 export async function fetch_role_detail(role) {
-	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
-
-	let _url = `https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/official-rawdata/task/rawdata/tdj/${_fn}`;
+	let _url = get_role_url_from_git(role);
 
 	// let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
 	// return cache_fetch(_url, () => PROXY.fetch(_url));
@@ -118,6 +116,11 @@ export function get_role_url_without_proxy(name, lang) {
 	}, lang);
 }
 
+export function get_role_url_from_git(role) {
+	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
+
+	return `https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj/${_fn}`
+}
 function get_role_url(name, lang) {
 	let _url = get_role_url_without_proxy(name, lang);
 	return PROXY.get_proxy_url(_url);
