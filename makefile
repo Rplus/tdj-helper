@@ -27,6 +27,9 @@ init:
 print-date:
 	date +%FT%T%:::z > './src/lib/data/latest-fetch-time.txt';
 
+host-local-json:
+	npx servor --static ./task/rawdata/tdj 404.html 9527
+
 update-data--parse: print-date
 	bun ./task/fetch.mjs;
 

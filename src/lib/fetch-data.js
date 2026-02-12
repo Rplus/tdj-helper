@@ -116,10 +116,18 @@ export function get_role_url_without_proxy(name, lang) {
 	}, lang);
 }
 
+const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj';
+
 export function get_role_url_from_git(role) {
 	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
+	let path = JSON_PATH;
 
-	return `https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj/${_fn}`
+	if (browser && location.hostname !== 'rplus.github.io') {
+		// use local data
+		path = 'http://localhost:9527';
+	}
+
+	return `${path}/${_fn}`;
 }
 function get_role_url(name, lang) {
 	let _url = get_role_url_without_proxy(name, lang);
