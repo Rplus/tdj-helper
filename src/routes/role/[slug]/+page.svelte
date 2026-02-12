@@ -129,7 +129,7 @@ $: {
 <Footer time={true} refs={get_refs([1, 1, 1])} />
 
 <style>
-details:not(:hover, :focus-within) {
+details:not(:hover, :focus-within, [open]) {
 	opacity: 0.1;
 	transition: opacity .3s;
 }
