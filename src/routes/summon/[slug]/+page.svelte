@@ -10,11 +10,14 @@ import Footer from '$lib/Footer.svelte';
 // import MultiLv from '$lib/MultiLv.svelte';
 import Icon from '../Icon.svelte';
 import SummonSkill from './SummonSkill.svelte';
+import StateHint from '../../role/[slug]/State.svelte';
 
 export let data;
 </script>
 
 <Header parent_path="/summon" title="召喚物：{data.summon?.name}" />
+
+<StateHint />
 
 <div class="flex jc-sb">
 	<ul style="margin: 0;">
