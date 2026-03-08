@@ -9,6 +9,16 @@ const converter_tw_to_cn = OpenCC
 
 let data = [
 	{
+		pinyin: 'mosuhuoyong',
+		name: '魔宿霍雍',
+		skills: [
+			{
+				name: '洞解天幕',
+				img: 'https://patchwiki.biligame.com/images/tdj/thumb/6/62/lyg2ji80lfrzhbxyzt0m3d4bggrc25i.png/80px-%E7%BB%9D%E5%AD%A6_%E6%B4%9E%E8%A7%A3%E5%A4%A9%E5%B9%95.png',
+			},
+		],
+	},
+	{
 		pinyin: 'yuchishen',
 		name: '尉遲慎',
 		skills: [
