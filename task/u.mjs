@@ -35,47 +35,45 @@ export let raw_data = {
 	roles: {
 		url: (lang) => get_url({ module: 'hero', type: 'basic' }, lang),
 		fn: './task/rawdata/roles',
+		cached_path: './task/rawres/roles.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic
 	},
 	role_deatil: {
 		url: (name, lang) => get_url({ module: 'hero', type: 'detail', query: name }, lang),
 		fn: './task/rawdata/roles_detail',
+		cached_path: './task/rawres/roles_detail.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=%s
 	},
 	ornaments: {
 		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }),
 		fn: './task/rawdata/ornaments',
+		cached_path: './task/rawres/ornaments.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
 	},
 	ornaments_tw: {
 		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }, 'tw'),
 		fn: './task/rawdata/ornaments.tw',
+		cached_path: './task/rawres/ornaments.tw.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
 	},
 };
 
 function get_url(qs_obj = {}, lang = 'cn') {
-	qs_obj = {
-		...{
-			id: lang === 'cn' ? 0 : 1,
-			action: 'info',
-			module: 'hero',
-			type: 'basic',
-		},
-		...qs_obj,
+	const defaults = {
+		id: lang === 'cn' ? 0 : 1,
+		action: 'info',
+		module: 'hero',
+		type: 'basic',
 	};
-	let qs = new URLSearchParams();
 
-	for (let key in qs_obj) {
-		qs.set(key, qs_obj[key]);
-	}
+	const params = new URLSearchParams({ ...defaults, ...qs_obj });
+	const _url = `https://${domains[lang]}/tdj/data/mQuery.do?${params}`;
 
-	let _url = `https://${domains[lang]}/tdj/data/mQuery.do?${qs.toString()}`;
-
+	// 如果需要代理，可在這裡開啟
 	// if (lang === 'cn') {
 	// 	console.log('cn use proxy');
 	// 	return `https://corsproxy.io/?url=${_url}`;
@@ -228,3 +226,61 @@ export function remove_html_tag(html = '') {
 		html.replace(/<br\s?\/?>/g, '\n').replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, ''),
 	);
 }
+
+/**
+ * 通用型 fetch_with_cached
+ * @param {Object} options
+ * @param {string} options.url - 要抓取的 URL
+ * @param {string} [options.cached_path='./123.json'] - 快取檔案存放路徑
+ * @param {boolean} [options.is_json=true] - 是否以 JSON 處理
+ * @param {boolean} [options.ignore_cached=false] - 是否忽略快取強制重新抓取
+ */
+export async function fetch_with_cached({
+	url = '',
+	cached_path = './rawres/123.json',
+	is_json = true,
+	ignore_cached = false
+}) {
+	if (!url) throw new Error('URL is required');
+
+	const cached_dir_path = path.dirname(cached_path);
+
+	try {
+		// 1. 檢查快取檔案是否存在
+		if (!ignore_cached && fs.existsSync(cached_path)) {
+			const data = fs.readFileSync(cached_path, 'utf8');
+			return is_json ? JSON.parse(data) : data;
+		}
+
+		console.log(111, url);
+		// 2. 若無快取或忽略快取 → fetch
+		const res = await fetch(url, {
+			headers: {
+				'User-Agent':
+					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
+					'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+					'Chrome/122.0.0.0 Safari/537.36',
+				'Accept-Language': 'zh-TW,zh;q=0.9,en;q=0.8',
+				'Connection': 'keep-alive'
+			}
+		});
+
+		if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
+
+		const text = await res.text();
+		const parsed = is_json ? JSON.parse(text) : text;
+
+		// 確保快取目錄存在
+		fs.mkdirSync(cached_dir_path, { recursive: true });
+		fs.writeFileSync(cached_path, text, 'utf8');
+
+		return parsed;
+	} catch (err) {
+		// 3. 錯誤處理 → log
+		// const log_path = path.join(cached_path, 'fetch_errors.log');
+		const log_msg = `[${new Date().toISOString()}] URL: ${url}, Cache: ${cached_path}, Error: ${err.message}\n`;
+		fs.appendFileSync('./task/fetch_errors.log', log_msg, 'utf8');
+		throw err;
+	}
+}
+

@@ -30,11 +30,34 @@ print-date:
 host-local-json:
 	npx servor --static ./task/rawdata/tdj 404.html 9527
 
-update-data--parse: print-date
-	bun ./task/fetch.mjs;
 
-update-data--sorting:
-	bun ./task/sorting.mjs;
+
+update-data--ornament:
+	bun ./task/fetch-ornament.mjs;
+
+update-data--ornament--force:
+	bun ./task/fetch-ornament.mjs --force-fetch;
+
+update-data--role:
+	bun ./task/fetch-role.mjs;
+
+update-data--role--force:
+	bun ./task/fetch-role.mjs --force-fetch;
+
+update-data: update-data--ornament update-data--role print-date
+	echo 'done: update-data';
+
+update-data--force: update-data--ornament--force update-data--role--force print-date
+	echo 'done: update-data--force';
+
+# update-data--parse: print-date
+# 	bun ./task/fetch.mjs;
+
+# update-data--sorting:
+# 	bun ./task/sorting.mjs;
+
+
+
 
 update-official-data: update-data--parse update-data--sorting
 	echo 'official data parsed!';

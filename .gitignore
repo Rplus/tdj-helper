@@ -17,3 +17,6 @@ vite.config.ts.timestamp-*
 /task/rawdata/*.json
 /task/rawdata/*.html
 /task/rawdata/*.csv
+
+/task/rawres/
+/task/fetch_errors.log
