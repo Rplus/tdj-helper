@@ -1,6 +1,15 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { raw_data, outputJSON, fetch_with_cached, pick_obj, remove_html_tag, converter, uniq_array, } from './u.mjs';
+import {
+	raw_data,
+	outputJSON,
+	fetch_with_cached,
+	pick_obj,
+	remove_html_tag,
+	converter,
+	uniq_array,
+	random_time,
+} from './u.mjs';
 
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
@@ -74,21 +83,21 @@ outputJSON({
 
 
 // fetch all roles' detail json
-const fetched_details = await Promise.all(
-	merged_roles.slice(0).map((role) => {
-		const _lang = role.pinyin_tw ? 'tw' : 'cn';
-		const _pinyin = _lang === 'tw' ? role.pinyin_tw : role.pinyin;
+let fetched_details = [];
+for (const role of merged_roles) {
+	const _lang = role.pinyin_tw ? 'tw' : 'cn';
+	const _pinyin = _lang === 'tw' ? role.pinyin_tw : role.pinyin;
 
-		return fetch_limit(() =>
-			fetch_with_cached({
-				url: raw_data.role_deatil.url(_pinyin, _lang),
-				cached_path: `./task/rawres/tdj-roles/${role.name}.${_lang}.json`,
-				is_json: true,
-				ignore_cached: FORCE_FETCH,
-			})
-		);
-	}),
-);
+	const detail = await fetch_with_cached({
+		url: raw_data.role_deatil.url(_pinyin, _lang),
+		cached_path: `./task/rawres/tdj-roles/${role.name}.${_lang}.json`,
+		is_json: true,
+		ignore_cached: FORCE_FETCH,
+		sleep_time: random_time(1000, 3000), // 加隨機延遲
+	});
+
+	fetched_details.push(detail);
+}
 
 outputJSON({
 	json: fetched_details,
