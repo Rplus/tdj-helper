@@ -57,6 +57,13 @@ update-data--force: update-data--ornament--force update-data--role--force print-
 # 	bun ./task/sorting.mjs;
 
 
+update-bili-data--summon:
+	bun ./task/fetch-bili-summon.mjs;
+
+update-bili-data--summon--force:
+	bun ./task/fetch-bili-summon.mjs --force-fetch;
+
+
 
 
 update-official-data: update-data--parse update-data--sorting

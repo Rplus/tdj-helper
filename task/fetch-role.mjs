@@ -1,8 +1,7 @@
 import fs from 'fs';
 import pLimit from 'p-limit';
-import { raw_data, outputJSON, fetch_with_cached, pick_obj, } from './u.mjs';
+import { raw_data, outputJSON, fetch_with_cached, pick_obj, remove_html_tag, converter, uniq_array, } from './u.mjs';
 
-// const FORCE_FETCH = false;
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
 const fetch_limit = pLimit(5);
@@ -10,7 +9,7 @@ const fetch_limit = pLimit(5);
 let all_summons = null;
 
 try {
-	const raw = fs.readFileSync('./task/rawdata/summons.json', 'utf8');
+	const raw = fs.readFileSync('./task/rawres/summons.json', 'utf8');
 	all_summons = JSON.parse(raw);
 } catch (err) {
 	console.error('讀取 summons.json 失敗:', err.message);
@@ -83,7 +82,7 @@ const fetched_details = await Promise.all(
 		return fetch_limit(() =>
 			fetch_with_cached({
 				url: raw_data.role_deatil.url(_pinyin, _lang),
-				cached_path: `./task/rawres/roles/${role.name}.${_lang}.json`,
+				cached_path: `./task/rawres/tdj-roles/${role.name}.${_lang}.json`,
 				is_json: true,
 				ignore_cached: FORCE_FETCH,
 			})
@@ -100,6 +99,8 @@ outputJSON({
 
 const all_icons = {};
 const all_strategy = [];
+
+let all_skill = [];
 
 // handle details
 const op_roles = fetched_details
@@ -124,6 +125,17 @@ const op_roles = fetched_details
 		let _summons = all_summons.summons?.filter((summon) => summon.owner[1] === role.pinyin);
 		if (_summons.length) {
 			summons = _summons.map((s) => s.name);
+		}
+
+		// get skills
+		if (role.skill) {
+			all_skill = all_skill.concat(
+				role.skill.map(i => {
+					let o = pick_obj(i, ['img', 'name', 'type', 'cd', 'cost', 'shoot', 'range', 'way', 'desc',])
+					o.desc = remove_html_tag(o.desc);
+					return o;
+				})
+			);
 		}
 
 		let ooop = {
@@ -180,6 +192,30 @@ outputJSON({
 	cn2tw: true,
 });
 
+
+
+const all_skill_hant = JSON.parse(converter(JSON.stringify(
+	all_skill.toSorted((a, b) => {
+		// localeCompare 可以正確處理字串與數字混合的情況
+		return a.img.localeCompare(b.img, undefined, { numeric: true, sensitivity: 'base' });
+	})
+)));
+
+const unique_all_skill = uniq_array(all_skill_hant, 'name', 'img');
+
+outputJSON({
+	json: all_skill_hant,
+	fn: './task/rawres/__skills.json',
+	// space: 0,
+	cn2tw: true,
+});
+
+outputJSON({
+	json: unique_all_skill,
+	fn: './task/rawres/__uni_skills.json',
+	// space: 0,
+	cn2tw: true,
+});
 
 
 // ================

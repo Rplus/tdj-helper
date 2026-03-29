@@ -81,7 +81,7 @@ function get_url(qs_obj = {}, lang = 'cn') {
 	return _url;
 }
 
-const converter = OpenCC
+export const converter = OpenCC
 	// .Converter({ from: 'cn', to: 'tw' })
 	.ConverterFactory(OpenCC.Locale.from.cn, OpenCC.Locale.to.tw, [customDict]);
 
@@ -149,6 +149,15 @@ export function pick_obj(obj, props = []) {
 	}, {});
 }
 
+export function get_bili_data_url(name = '') {
+	let obj = {
+		subject: decodeURIComponent(name),
+		ns: 0,
+		type: 'xml',
+	};
+	return `https://wiki.biligame.com/tdj/api.php?action=smwbrowse&format=json&browse=subject&params=${encodeURIComponent(JSON.stringify(obj))}`;
+}
+
 // https://wiki.biligame.com/tdj/api.php
 export async function fetch_name(name = '') {
 	let obj = {
@@ -183,12 +192,15 @@ export async function fetch_name(name = '') {
 	return raw;
 }
 
-export function sleep(ms) {
-	return new Promise((resolve) => setTimeout(resolve, ms));
-}
+export const sleep = (time = 0) => {
+	return new Promise(resolve => setTimeout(resolve, time));
+};
 
 export function bilidata_to_obj(data = []) {
 	return data.reduce((all, i) => {
+		if (i.property.startsWith('_')) {
+			return all;
+		}
 		let items = i.dataitem?.map((i) => i?.item);
 		all[i.property] = items[0] && items.length > 1 ? items : items?.[0];
 		return all;
@@ -217,6 +229,19 @@ export function uniq() {
 	return [...new Set(this)];
 }
 
+export function uniq_array(array = [], key1 = 'key', key2 = 'name') {
+	return Array.from(
+	  array.reduce((map, item) => {
+	    // 建立唯一識別碼，中間加個分隔符號避免欄位內容剛好接起來導致誤判
+	    const key = `${item[key1]}____${item[key2]}`;
+	    if (!map.has(key)) {
+	      map.set(key, item);
+	    }
+	    return map;
+	  }, new Map()).values()
+	)
+}
+
 function remove_summon_syntax(str = '') {
 	return str.replace(/\[\[召[唤喚]物\/(.+)\|\1\]\]/gm, '$1');
 }
@@ -234,12 +259,14 @@ export function remove_html_tag(html = '') {
  * @param {string} [options.cached_path='./123.json'] - 快取檔案存放路徑
  * @param {boolean} [options.is_json=true] - 是否以 JSON 處理
  * @param {boolean} [options.ignore_cached=false] - 是否忽略快取強制重新抓取
+ * @param {boolean} [options.sleep_time=0] - 延遲多久再發出請求，以避免被ban
  */
 export async function fetch_with_cached({
 	url = '',
 	cached_path = './rawres/123.json',
 	is_json = true,
-	ignore_cached = false
+	ignore_cached = false,
+	sleep_time = 0,
 }) {
 	if (!url) throw new Error('URL is required');
 
@@ -252,17 +279,16 @@ export async function fetch_with_cached({
 			return is_json ? JSON.parse(data) : data;
 		}
 
-		console.log(111, url);
+		if (sleep_time > 0) {
+			console.log(`🛑 準備連網，冷卻 ${sleep_time}ms...`);
+			await sleep(sleep_time);
+		}
+
+		console.log(111, url, 222, decodeURIComponent(url));
+
 		// 2. 若無快取或忽略快取 → fetch
 		const res = await fetch(url, {
-			headers: {
-				'User-Agent':
-					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
-					'AppleWebKit/537.36 (KHTML, like Gecko) ' +
-					'Chrome/122.0.0.0 Safari/537.36',
-				'Accept-Language': 'zh-TW,zh;q=0.9,en;q=0.8',
-				'Connection': 'keep-alive'
-			}
+			headers: random_header(),
 		});
 
 		if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
@@ -284,3 +310,41 @@ export async function fetch_with_cached({
 	}
 }
 
+function random_header() {
+	const USER_AGENTS = [
+		'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+		'(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+		'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 ' +
+		'(KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+		'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+		'(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+	];
+	const ACCEPT_LANGS = [
+		'zh-TW,zh;q=0.9,en;q=0.8',
+		'zh-CN,zh;q=0.9,en;q=0.8',
+		'zh-CN,zh;q=0.9,ja;q=0.8',
+		'en-US,en;q=0.9,zh;q=0.8',
+		'ja,en;q=0.9,zh;q=0.8'
+	];
+	const REFERERS = [
+		'https://wiki.biligame.com/',
+		'http://tdj.zlongame.com/',
+		'https://wiki.biligame.com/tdj/',
+		'https://wiki.biligame.com/tdj/%E7%BB%9D%E5%AD%A6%E5%88%97%E8%A1%A8',
+		'https://wiki.biligame.com/tdj/%E5%8F%8A%E8%BA%AB%E5%9B%BE%E9%89%B4',
+		'https://wiki.biligame.com/tdj/%E8%8B%B1%E7%81%B5%E5%9B%BE%E9%89%B4',
+		'https://wiki.biligame.com/tdj/%E5%8F%AC%E5%94%A4%E7%89%A9/%E5%95%B8%E9%9C%9C',
+	];
+
+	const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+	return {
+	  'User-Agent': pick(USER_AGENTS),
+	  'Accept-Language': pick(ACCEPT_LANGS),
+	  'Referer': pick(REFERERS),
+	  'Connection': 'keep-alive',
+	};
+}
+
+export function random_time(min = 0, max = 1000) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
