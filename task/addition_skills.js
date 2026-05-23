@@ -106,7 +106,7 @@ let data = [
 	},
 	{
 		pinyin: 'yelvsha',
-		name: '耶律纱',
+		na1me: '耶律纱',
 		skills: [
 			{
 				name: '盾壓四方',

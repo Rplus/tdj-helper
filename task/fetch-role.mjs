@@ -7,8 +7,11 @@ import {
 	pick_obj,
 	remove_html_tag,
 	converter,
+	converter_tw2cn,
 	uniq_array,
 	random_time,
+	get_bili_data_url,
+	bilidata_to_obj,
 } from './u.mjs';
 
 // const FORCE_FETCH = true;
@@ -136,6 +139,7 @@ const op_roles = fetched_details
 			summons = _summons.map((s) => s.name);
 		}
 
+		/*
 		// get skills
 		if (role.skill) {
 			all_skill = all_skill.concat(
@@ -146,6 +150,7 @@ const op_roles = fetched_details
 				})
 			);
 		}
+		*/
 
 		let ooop = {
 			...pick_obj(role, [
@@ -201,30 +206,6 @@ outputJSON({
 	cn2tw: true,
 });
 
-
-
-const all_skill_hant = JSON.parse(converter(JSON.stringify(
-	all_skill.toSorted((a, b) => {
-		// localeCompare 可以正確處理字串與數字混合的情況
-		return a.img.localeCompare(b.img, undefined, { numeric: true, sensitivity: 'base' });
-	})
-)));
-
-const unique_all_skill = uniq_array(all_skill_hant, 'name', 'img');
-
-outputJSON({
-	json: all_skill_hant,
-	fn: './task/rawres/__skills.json',
-	// space: 0,
-	cn2tw: true,
-});
-
-outputJSON({
-	json: unique_all_skill,
-	fn: './task/rawres/__uni_skills.json',
-	// space: 0,
-	cn2tw: true,
-});
 
 
 // ================
