@@ -64,6 +64,25 @@ update-bili-data--summon--force:
 	bun ./task/fetch-bili-summon.mjs --force-fetch;
 
 
+update-data--skill:
+	bun ./task/fetch-skill.mjs;
+update-data--skill--force:
+	bun ./task/fetch-skill.mjs --force-fetch;
+
+
+update-data--state:
+	bun ./task/fetch-state.mjs;
+update-data--state--force:
+	bun ./task/fetch-state.mjs --force-fetch;
+
+
+update-data--bili-skill:
+	bun ./task/fetch-bili-skill.mjs;
+update-data--bili-skill--force:
+	bun ./task/fetch-bili-skill.mjs --force-fetch;
+
+
+
 
 
 update-official-data: update-data--parse update-data--sorting
