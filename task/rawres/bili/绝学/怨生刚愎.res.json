@@ -1,0 +1,59 @@
+{
+	"query": {
+		"subject": "绝学/怨生刚愎#0##",
+		"data": [{
+			"property": "习得角色",
+			"dataitem": [{
+				"type": 2,
+				"item": "驚飛羽"
+			}]
+		}, {
+			"property": "绝学冷却",
+			"dataitem": [{
+				"type": 2,
+				"item": "2回合"
+			}]
+		}, {
+			"property": "绝学名称",
+			"dataitem": [{
+				"type": 2,
+				"item": "怨生刚愎"
+			}]
+		}, {
+			"property": "绝学射程",
+			"dataitem": [{
+				"type": 2,
+				"item": "十字5格"
+			}]
+		}, {
+			"property": "绝学描述",
+			"dataitem": [{
+				"type": 2,
+				"item": "選擇單個敵人，施加「怨憎」狀態，持續 1 回合，自身獲得「暗鎧」狀態。\n「怨憎」：只可朝施加者移動，行動結束時若處於施加者 3 格外則將「怨憎」替換為「定身」狀態，持續 1 回合。（下回合施加者行動結束後移除）\n「暗鎧」：受到剋制傷害降低 20%，受到傷害後，40% 機率對攻擊者施加 1 個隨機「減益狀態」（受到傷害後消耗）\n「定身」：無法移動，無法護衛"
+			}]
+		}, {
+			"property": "绝学消耗",
+			"dataitem": [{
+				"type": 2,
+				"item": "2"
+			}]
+		}, {
+			"property": "绝学类别",
+			"dataitem": [{
+				"type": 2,
+				"item": "主動"
+			}]
+		}, {
+			"property": "绝学范围",
+			"dataitem": [{
+				"type": 2,
+				"item": "单体"
+			}]
+		}],
+		"serializer": "SMW\\Serializers\\SemanticDataSerializer",
+		"version": 2
+	},
+	"meta": {
+		"type": "subject"
+	}
+}

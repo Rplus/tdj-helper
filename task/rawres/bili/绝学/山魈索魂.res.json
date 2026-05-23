@@ -1,0 +1,59 @@
+{
+	"query": {
+		"subject": "绝学/山魈索魂#0##",
+		"data": [{
+			"property": "习得角色",
+			"dataitem": [{
+				"type": 2,
+				"item": "驚飛羽"
+			}]
+		}, {
+			"property": "绝学冷却",
+			"dataitem": [{
+				"type": 2,
+				"item": "2回合"
+			}]
+		}, {
+			"property": "绝学名称",
+			"dataitem": [{
+				"type": 2,
+				"item": "山魈索魂"
+			}]
+		}, {
+			"property": "绝学射程",
+			"dataitem": [{
+				"type": 2,
+				"item": "十字5格"
+			}]
+		}, {
+			"property": "绝学描述",
+			"dataitem": [{
+				"type": 2,
+				"item": "主動使用，選擇1個目標身周的指定空格，無視阻擋翻越到空格上，自身獲得再行動（2格）。"
+			}]
+		}, {
+			"property": "绝学消耗",
+			"dataitem": [{
+				"type": 2,
+				"item": "2"
+			}]
+		}, {
+			"property": "绝学类别",
+			"dataitem": [{
+				"type": 2,
+				"item": "再動"
+			}]
+		}, {
+			"property": "绝学范围",
+			"dataitem": [{
+				"type": 2,
+				"item": "单体"
+			}]
+		}],
+		"serializer": "SMW\\Serializers\\SemanticDataSerializer",
+		"version": 2
+	},
+	"meta": {
+		"type": "subject"
+	}
+}
