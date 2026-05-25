@@ -5,7 +5,7 @@ import Img from '$lib/Img.svelte';
 export let jobs = [];
 
 // const max_len = data.keys.job.length;
-const max_len = 7;
+const max_len = 8;
 
 let jobs_with_img = jobs.map((job) => {
 	return {
