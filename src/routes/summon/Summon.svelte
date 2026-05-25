@@ -6,7 +6,7 @@ import { status_props } from './summon.js';
 
 let order_style = status_props
 	.map((prop, index) => {
-		return `--${prop.prop}: ${data.stats[index]}`;
+		return `--${prop.prop}: ${data.status[index]}`;
 	})
 	.join(';');
 </script>
@@ -22,13 +22,9 @@ let order_style = status_props
 >
 	<Avatar role={data} />
 
-	{#each data.stats as stat}
-		<div class="text-right">
-			{#if stat > 100}
-				<strong>{stat}%</strong>
-			{:else}
-				{stat}%
-			{/if}
+	{#each data.status as stat}
+		<div class="text-right" class:is-strong={stat > 100}>
+			{stat}%
 		</div>
 	{/each}
 </div>
@@ -44,6 +40,10 @@ let order_style = status_props
 		align-items: center;
 		gap: 0.25em;
 	}
+}
+
+.is-strong {
+	font-weight: 900;
 }
 
 /* trick for anchor target with sticky header */

@@ -57,7 +57,7 @@ export let data;
 	<div style="font-size: smaller">
 		繼承屬性：
 		<table>
-			{#each data.summon.stats as stat, index}
+			{#each data.summon.status as stat, index}
 				<tr>
 					<td class="text-right">
 						{stat}%
