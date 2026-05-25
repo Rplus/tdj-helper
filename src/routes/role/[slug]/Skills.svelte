@@ -12,24 +12,8 @@ import Img from '$lib/Img.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 import Switcher from '$lib/Switcher.svelte';
 
-// let adv_skills = find_adv_skills(pinyin, skills);
 
 let grid_mode = false;
-
-// function gen_skill_string(skill = {}) {
-// 	return [
-// 		// skill.name,
-// 		skill.cost ? '🔥'.repeat(parseFloat(skill.cost) || 1) : '🔥',
-// 		clear_html(skill.desc),
-// 		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
-// 		// skill.cost && `　- 🔥 ${skill.cost}`,
-// 		skill.cd && `　- ⏳ ${skill.cd}`,
-// 		skill.shoot !== '-' && `　- 🏹 ${skill.shoot}`,
-// 		skill.range !== '-' && `　- 🎯 ${skill.range}`,
-// 		skill.type && `　- 🏷️ ${skill.type}`,
-// 		'　- ' + (skill.way === '被動' ? '💤' : '👊') + ` ${skill.way}`,
-// 	].filter(Boolean);
-// }
 
 let other_skills = find_other_skills(pinyin);
 let adv_skills = other_skills?.adv_skills;
@@ -44,18 +28,6 @@ let skills_list = [
 	}),
 ];
 
-// console.log(111, skills_list);
-
-// dirty hack for special skills
-// let sp_skills = get_special_skills(pinyin);
-// if (sp_skills) {
-//		skills = skills.concat(sp_skills);
-// }
-
-// console.log(112 , pinyin, other_skills?.extra_skills, other_skills?.adv_skills);
-// if (other_skills?.extra_skills) {
-// 	skills = skills.concat(other_skills.extra_skills);
-// }
 </script>
 
 <div class="hr">
@@ -63,28 +35,6 @@ let skills_list = [
 
 	<Switcher left_label="▦" right_label="▤" bind:checked={grid_mode} />
 </div>
-
-<!--
-	{#each skills_list as skill}
-		{#if skill.extra}
-			+ {skill.name}
-		{:else}
-			- {skill.name}
-		{/if}
-		<br>
-	{/each}
-
-	<br>
-	{#if adv_skills}
-		{#each adv_skills as adv_skill_set}
-			{#each adv_skill_set as adv_skill}
-				* {adv_skill.name || adv_skill}
-				<br>
-			{/each}
-			<br>
-		{/each}
-	{/if}
--->
 
 <div class="skills" class:grid={grid_mode}>
 	{#each basic_skills as skill}
@@ -147,10 +97,6 @@ let skills_list = [
 
 				<svelte:fragment slot="info">
 					<div class="pre-line skill-info">
-						<!-- <div>
-							{'🔥'.repeat(parseFloat(skill.cost) || 1)}
-						</div> -->
-
 						{#each gen_skill_desc(skill, false) as sk_desc}
 							<div>
 								{sk_desc.content}
