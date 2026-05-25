@@ -32,9 +32,9 @@ let grid_mode = false;
 // }
 
 let other_skills = find_other_skills(pinyin);
-let adv_skills = other_skills.adv_skills;
-let extra_skills = other_skills.extra_skills || [];
-let support_skill = other_skills.support_skill;
+let adv_skills = other_skills?.adv_skills;
+let extra_skills = other_skills?.extra_skills || [];
+let support_skill = other_skills?.support_skill;
 
 let skills_list = [
 	...basic_skills,
@@ -167,7 +167,7 @@ let skills_list = [
 
 <div class="mb-2" />
 
-{#if adv_skills.length}
+{#if adv_skills?.length}
 	<AdvSkills skills={adv_skills} {lang} {basic_skills} />
 {/if}
 
