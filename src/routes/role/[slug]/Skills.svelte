@@ -1,40 +1,61 @@
 <script>
-export let skills = [];
+export let basic_skills = [];
 export let lang = 'tw';
 export let pinyin = '';
+export let fallback_img = '';
 
 import { get_img, clear_html, resize_img } from '$lib/u.js';
-import { find_adv_skills, get_special_skills } from './skill.js';
+import { find_other_skills, get_skill_img, gen_skill_desc } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
 import Img from '$lib/Img.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 import Switcher from '$lib/Switcher.svelte';
 
-let adv_skills = find_adv_skills(pinyin, skills);
+// let adv_skills = find_adv_skills(pinyin, skills);
 
 let grid_mode = false;
 
-function gen_skill_string(skill = {}) {
-	return [
-		// skill.name,
-		skill.cost ? '🔥'.repeat(parseFloat(skill.cost) || 1) : '🔥',
-		clear_html(skill.desc),
-		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
-		// skill.cost && `　- 🔥 ${skill.cost}`,
-		skill.cd && `　- ⏳ ${skill.cd}`,
-		skill.shoot !== '-' && `　- 🏹 ${skill.shoot}`,
-		skill.range !== '-' && `　- 🎯 ${skill.range}`,
-		skill.type && `　- 🏷️ ${skill.type}`,
-		'　- ' + (skill.way === '被動' ? '💤' : '👊') + ` ${skill.way}`,
-	].filter(Boolean);
-}
+// function gen_skill_string(skill = {}) {
+// 	return [
+// 		// skill.name,
+// 		skill.cost ? '🔥'.repeat(parseFloat(skill.cost) || 1) : '🔥',
+// 		clear_html(skill.desc),
+// 		// `- 🔥 ${skill.cost.replace(/\D/g, '')}`, // always 3
+// 		// skill.cost && `　- 🔥 ${skill.cost}`,
+// 		skill.cd && `　- ⏳ ${skill.cd}`,
+// 		skill.shoot !== '-' && `　- 🏹 ${skill.shoot}`,
+// 		skill.range !== '-' && `　- 🎯 ${skill.range}`,
+// 		skill.type && `　- 🏷️ ${skill.type}`,
+// 		'　- ' + (skill.way === '被動' ? '💤' : '👊') + ` ${skill.way}`,
+// 	].filter(Boolean);
+// }
+
+let other_skills = find_other_skills(pinyin);
+let adv_skills = other_skills.adv_skills;
+let extra_skills = other_skills.extra_skills || [];
+let support_skill = other_skills.support_skill;
+
+let skills_list = [
+	...basic_skills,
+	...extra_skills.map(i => {
+		i.extra = true;
+		return i;
+	}),
+];
+
+// console.log(111, skills_list);
 
 // dirty hack for special skills
-let sp_skills = get_special_skills(pinyin);
-if (sp_skills) {
-	skills = skills.concat(sp_skills);
-}
+// let sp_skills = get_special_skills(pinyin);
+// if (sp_skills) {
+//		skills = skills.concat(sp_skills);
+// }
+
+// console.log(112 , pinyin, other_skills?.extra_skills, other_skills?.adv_skills);
+// if (other_skills?.extra_skills) {
+// 	skills = skills.concat(other_skills.extra_skills);
+// }
 </script>
 
 <div class="hr">
@@ -43,10 +64,32 @@ if (sp_skills) {
 	<Switcher left_label="▦" right_label="▤" bind:checked={grid_mode} />
 </div>
 
+<!--
+	{#each skills_list as skill}
+		{#if skill.extra}
+			+ {skill.name}
+		{:else}
+			- {skill.name}
+		{/if}
+		<br>
+	{/each}
+
+	<br>
+	{#if adv_skills}
+		{#each adv_skills as adv_skill_set}
+			{#each adv_skill_set as adv_skill}
+				* {adv_skill.name || adv_skill}
+				<br>
+			{/each}
+			<br>
+		{/each}
+	{/if}
+-->
+
 <div class="skills" class:grid={grid_mode}>
-	{#each skills as skill}
+	{#each basic_skills as skill}
 		<div
-			hidden={!grid_mode || skill.special}
+			hidden={!grid_mode || skill.extra}
 			class="skill ai-c jc-c flex text-center"
 			style="--row: {skill.grid_row}; --col: {skill.grid_col};"
 		>
@@ -55,7 +98,7 @@ if (sp_skills) {
 					{skill.name}
 					<br />
 					<Img
-						src={get_img('skill', skill.img, 96, lang)}
+						src={get_skill_img({ skill_img: skill.img, lang })}
 						alt={skill.name}
 						width="48"
 						height="48"
@@ -74,24 +117,24 @@ if (sp_skills) {
 							<li>way: {skill.way}</li>
 						</ul>
 					</div>
-					<!--
-					<details>
-						<pre>{JSON.stringify(skill, null, 2)}</pre>
-					</details>
-					-->
 				</div>
 			</details>
 		</div>
+	{/each}
 
+	{#each skills_list as skill}
 		<div hidden={grid_mode}>
 			<MediaObj mobile_align="center">
 				<div slot="img" class="flex"
-					style="background-color: {skill.special ? `#f003` : `#0ff5`};"
+					style="background-color: {skill.extra ? `#f003` : `#0ff5`};"
 				>
 					<Img
-						src={skill.special
-							? resize_img(skill.img)
-							: get_img('skill', skill.img, 96, lang)}
+						src={get_skill_img({
+							skill_img: skill.img,
+							extra_img: skill.imgsrc,
+							lang,
+							fallback_img,
+						})}
 						alt={skill.name}
 						width="48"
 						height="48"
@@ -104,21 +147,17 @@ if (sp_skills) {
 
 				<svelte:fragment slot="info">
 					<div class="pre-line skill-info">
-						<div>
+						<!-- <div>
 							{'🔥'.repeat(parseFloat(skill.cost) || 1)}
-						</div>
+						</div> -->
 
-						<div>{clear_html(skill.desc)}</div>
-						<div class="skill-meta">
-							<div data-cd data-way={skill.way}>⏳ {skill.cd === '無' ? 0 : skill.cd}</div>
-							<div data-shoot={skill.shoot}>🏹 {skill.shoot}</div>
-							<div data-range={skill.range}>🎯 {skill.range}</div>
-							<div data-type={skill.type} data-way={skill.way}>🏷️ {skill.type}</div>
-							<div data-way={skill.way}>{skill.way === '被動' ? '💤' : '👊'} {skill.way}</div>
-						</div>
-						<!--
-						{gen_skill_string(skill).join('\n')}
-						-->
+						{#each gen_skill_desc(skill, false) as sk_desc}
+							<div>
+								{sk_desc.content}
+								<div class="skill-meta">{sk_desc.sub}</div>
+							</div>
+						{/each}
+
 					</div>
 				</svelte:fragment>
 			</MediaObj>
@@ -129,7 +168,7 @@ if (sp_skills) {
 <div class="mb-2" />
 
 {#if adv_skills.length}
-	<AdvSkills skills={adv_skills} {lang} />
+	<AdvSkills skills={adv_skills} {lang} {basic_skills} />
 {/if}
 
 <style>

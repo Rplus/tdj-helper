@@ -1,50 +1,56 @@
-import adv_skills_data from '$lib/data/adv_skills.min.json';
-import adv_skills_of_role from '$lib/data/adv_skills_of_role.min.json';
-import special_skills from '$lib/data/addition_skills.min.json';
+// import adv_skills_data from '$lib/data/adv_skills.min.json';
+// import adv_skills_of_role from '$lib/data/adv_skills_of_role.min.json';
+// import special_skills from '$lib/data/addition_skills.min.json';
+import role_other_skills from '$lib/data/role_other_skills.min.json';
+import subskills from '$lib/data/subskills.min.json';
+import { get_img, clear_html, resize_img } from '$lib/u.js';
 
-export function find_adv_skills(role_pinyin = '', basic_skills = []) {
-	let names = adv_skills_of_role[role_pinyin];
-	if (!names) {
-		return [];
-	}
-
-	let all_skills = adv_skills_data.concat(basic_skills);
-	return names.map((name) => {
-		let skill = all_skills.find((s) => s.name === name);
-		if (!skill) {
-			return { name };
-		}
-
-		if (skill.desc.match(/「[^」]+式」/)) {
-			let sub_skills = skill.desc
-				.match(/「[^」]+式」/g)
-				.map((i) => i.replace(/[「」]/g, ''))
-				.map((ss) => all_skills.find((s) => s.name === ss))
-				.filter((s) => s?.name !== skill.name)
-
-			if (sub_skills && sub_skills.length) {
-				skill.sub_skills = sub_skills;
-			}
-		}
-		return skill;
-	});
+export function find_other_skills(role_pinyin = '') {
+	return role_other_skills[role_pinyin];
 }
 
-export function get_special_skills(pinyin) {
-	let sp_skills = special_skills[pinyin];
-	if (!sp_skills) {
-		return;
-	}
+export function find_subskills(name = '') {
+	const ss = subskills.map[name];
+	return ss?.map(_sname => subskills.data.find(i => i.name === _sname));
+}
 
-	return sp_skills.map(sk => {
-		let data = adv_skills_data.find(i => i.name === sk.name);
-		return {
-			...data,
-			way: sk.way || '主動',
-			img: sk.img ? `https://patchwiki.biligame.com/images/tdj` + sk.img : '',
-			special: true,
-		};
-	});
+export function get_skill_img({
+	skill_img = '',
+	extra_img = '',
+	lang = 'cn',
+	fallback_img = '',
+}) {
+	if (extra_img) {
+		return resize_img(extra_img);
+	}
+	if (skill_img) {
+		return get_img('skill', skill_img, 96, lang);
+	}
+	return get_img('inherent', fallback_img, 64);
+}
+
+export function gen_skill_desc(skill, is_adv = true, is_sub = false,) {
+	let subskills = find_subskills(skill.name);
+	let subskills_obj = subskills?.map(ss => gen_skill_desc(ss, false, true)).flat() || [];
+
+	let op = [
+		{
+			content: [
+				is_sub ? `\n 🔁 ${skill.name}` : is_adv ? skill.name : '🔥'.repeat(parseFloat(skill.cost) || 1),
+				clear_html(skill.desc),
+			].join('\n'),
+			sub: [
+				skill.cd && skill.cd !== '無' && skill.cd !== '-' && `　- ⏳ ${skill.cd}`,
+				skill.shoot && skill.shoot !== '無' && `　- 🏹 ${skill.shoot}`,
+				skill.range && skill.range !== '無' && `　- 🎯 ${skill.range}`,
+				skill.type && `　- 🏷 ${skill.type}`,
+				skill.way && `　- 💤 ${skill.way}`,
+			].filter(Boolean).join('\n'),
+		},
+		...subskills_obj,
+	];
+
+	return op;
 }
 
 export function handle_skills(skills) {

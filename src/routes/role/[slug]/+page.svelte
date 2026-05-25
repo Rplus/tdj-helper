@@ -80,8 +80,9 @@ $: {
 
 			<Skills
 				pinyin={data.role.pinyin}
-				skills={handle_skills(detail_data.skill)}
+				basic_skills={handle_skills(detail_data.skill)}
 				lang={data.role.pinyin_tw ? 'tw' : 'cn'}
+				fallback_img={detail_data.inherent}
 			/>
 		{/if}
 
