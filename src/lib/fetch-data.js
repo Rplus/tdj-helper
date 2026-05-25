@@ -80,7 +80,7 @@ const PROXY = [
 				.then((r) => r.text())
 				.then((data) => {
 					data = JSON.parse(data);
-					return data?.[0];
+					return data?.data?.data?.[0];
 				})
 				.catch((err) => {
 					throw error(err);
