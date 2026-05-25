@@ -28,7 +28,7 @@ print-date:
 	date +%FT%T%:::z > './src/lib/data/latest-fetch-time.txt';
 
 host-local-json:
-	npx servor --static ./task/rawdata/tdj 404.html 9527
+	npx servor --static ./data/_cache/tdj-roles 404.html 9527
 
 
 
