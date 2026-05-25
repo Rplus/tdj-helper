@@ -123,8 +123,8 @@ export function get_role_url_from_git(role) {
 	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
 	let path = JSON_PATH;
 
-	if (browser && location.hostname !== 'rplus.github.io') {
-		// use local data
+
+	if (import.meta.env.DEV) {
 		path = 'http://localhost:9527';
 	}
 
