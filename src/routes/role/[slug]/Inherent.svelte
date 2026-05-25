@@ -17,6 +17,10 @@ import Img from '$lib/Img.svelte';
 	</svelte:fragment>
 
 	<svelte:fragment slot="info">
-		<MultiLv name="lv" lvs={stars.map(clear_html)} />
+		<MultiLv name="lv" lvs={stars.map(s => {
+			return {
+				content: clear_html(s),
+			};
+		})} />
 	</svelte:fragment>
 </MediaObj>

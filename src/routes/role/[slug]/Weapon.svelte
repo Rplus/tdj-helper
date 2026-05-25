@@ -6,7 +6,7 @@ import MultiLv from '$lib/MultiLv.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 import Img from '$lib/Img.svelte';
 
-let descs = weapon.map((w) => clear_html(w.desc));
+let descs = weapon.map((w) => ({content: clear_html(w.desc)}));
 </script>
 
 {#if weapon && weapon[0]}

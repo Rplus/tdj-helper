@@ -14,7 +14,7 @@ export let name = 'lv';
 			{name}
 			id="{name}-{index + 1}"
 			checked={index === lvs.length - 1}
-			disabled={!lv}
+			disabled={lv.length ? false : !lv.content}
 		/>
 
 		<label
@@ -25,7 +25,23 @@ export let name = 'lv';
 			style="--index: {index + 1}"
 		/>
 
-		<div class="desc pre-line">{lv}</div>
+		<div class="desc pre-line">
+			{#if lv.length}
+				{#each lv as _lv}
+					<div>
+						{_lv.content}
+						{#if _lv.sub}
+							<div class="sub">{_lv.sub}</div>
+						{/if}
+					</div>
+				{/each}
+			{:else}
+				{lv.content}
+				{#if lv.sub}
+					<div class="sub">{lv.sub}</div>
+				{/if}
+			{/if}
+		</div>
 	{/each}
 </div>
 
@@ -94,6 +110,13 @@ export let name = 'lv';
 	&:empty {
 		display: none;
 	}
+}
+
+.sub {
+	margin-block-start: 0.25em;
+	margin-inline-start: 1em;
+	opacity: 0.75;
+	font-size: smaller;
 }
 
 input:checked + .lv ~ .lv::before {
