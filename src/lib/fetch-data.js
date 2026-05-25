@@ -116,7 +116,8 @@ export function get_role_url_without_proxy(name, lang) {
 	}, lang);
 }
 
-const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj';
+// const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj';
+const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_cache/tdj-roles';
 
 export function get_role_url_from_git(role) {
 	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
