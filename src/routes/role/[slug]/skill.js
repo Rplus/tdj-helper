@@ -29,14 +29,14 @@ export function get_skill_img({
 	return get_img('inherent', fallback_img, 64);
 }
 
-export function gen_skill_desc(skill, is_adv = true, is_sub = false,) {
+export function gen_skill_desc(skill, show_name_title = true, is_sub = false,) {
 	let subskills = find_subskills(skill.name);
 	let subskills_obj = subskills?.map(ss => gen_skill_desc(ss, false, true)).flat() || [];
 
 	let op = [
 		{
 			content: [
-				is_sub ? `\n 🔁 ${skill.name}` : is_adv ? skill.name : '🔥'.repeat(parseFloat(skill.cost) || 1),
+				is_sub ? `\n 🔁 ${skill.name}` : show_name_title ? skill.name : '🔥'.repeat(parseFloat(skill.cost) || 1),
 				clear_html(skill.desc),
 			].join('\n'),
 			sub: [
