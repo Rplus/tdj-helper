@@ -8,6 +8,7 @@ import { get_img, clear_html, resize_img } from '$lib/u.js';
 import { find_other_skills, get_skill_img, gen_skill_desc } from './skill.js';
 
 import AdvSkills from './AdvSkills.svelte';
+import SupportSkills from './SupportSkills.svelte';
 import Img from '$lib/Img.svelte';
 import MediaObj from '$lib/MediaObj.svelte';
 import Switcher from '$lib/Switcher.svelte';
@@ -115,6 +116,9 @@ let skills_list = [
 
 {#if adv_skills?.length}
 	<AdvSkills skills={adv_skills} {lang} {basic_skills} />
+{/if}
+{#if support_skill}
+	<SupportSkills skill={support_skill} />
 {/if}
 
 <style>
