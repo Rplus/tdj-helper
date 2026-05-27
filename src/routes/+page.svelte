@@ -34,6 +34,10 @@ import { link } from '$lib/u.js';
 			</li>
 
 			<li>
+				<a href={link('/skill-query')}>技能檢索</a>
+			</li>
+
+			<li>
 				<a href={link('/state')}>狀態列表</a>
 			</li>
 		</ul>
