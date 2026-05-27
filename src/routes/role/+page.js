@@ -50,6 +50,7 @@ export const load = ({ params }) => {
 
 	return {
 		roles: roles_data,
+		tags: [...new Set(roles_data.flatMap(i => i.tags).filter(Boolean))].sort(),
 		// props,
 		// careers,
 	};
