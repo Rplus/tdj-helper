@@ -8,6 +8,7 @@
 	--main-bgc: #eee;
 	--link-color: rgb(0, 100, 200);
 	--link-visited-color: rgb(0, 80, 160);
+	scrollbar-gutter: stable;
 
 	&.dark-theme {
 		color-scheme: dark;
