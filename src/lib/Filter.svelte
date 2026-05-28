@@ -96,6 +96,7 @@ function init_filters(init_with_qs = true) {
 		prop: cate.prop,
 		title: cate.title,
 		multi: cate.multi,
+		toggleable: cate.toggleable,
 		options: cate.values.map((key, index) => {
 			filter_mapping[`${cate.prop}.${key}`] = [cate_index, index];
 
@@ -226,8 +227,8 @@ function allow_submit_next_time(e) {
 	</div>
 
 	{#each filters as filter}
-		<div class="filter">
-			<div class="filter-title">
+		<details class="filter" class:is-toggleable={filter.toggleable} open>
+			<summary class="filter-title">
 				{filter.title}:
 
 				{#if filter.multi}
@@ -241,7 +242,7 @@ function allow_submit_next_time(e) {
 						title={filter.is_cap ? '聯集 [交集]' : '[聯集] 交集'}
 					/>
 				{/if}
-			</div>
+			</summary>
 
 			{#each filter.options as option}
 				<label class="filer-option-label" hidden={!option.key}>
@@ -254,7 +255,7 @@ function allow_submit_next_time(e) {
 					{/if}
 				</label>
 			{/each}
-		</div>
+		</details>
 	{/each}
 
 	<div>
@@ -266,6 +267,20 @@ function allow_submit_next_time(e) {
 <style>
 .filter {
 	margin-bottom: 1em;
+
+	&:not(.is-toggleable) .filter-title {
+		pointer-events: none;
+	}
+
+	&.is-toggleable .filter-title {
+		display: list-item;
+		cursor: pointer;
+
+		&::marker {
+			color: #9999;
+			font-size: smaller;
+		}
+	}
 
 	@media (max-width: 700px) {
 		font-size: smaller;
@@ -296,6 +311,7 @@ function allow_submit_next_time(e) {
 	font-family: inherit;
 	font-size: smaller;
 	cursor: pointer;
+	pointer-events: auto;
 
 	&::after,
 	&::before {
