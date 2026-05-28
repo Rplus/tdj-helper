@@ -20,4 +20,11 @@ export const filter_cates = [
 		title: '屬相',
 		values: ['炎', '雷', '冰', '光', '暗', '幽', '神', '魔'],
 	},
+	{
+		prop: 'tags',
+		title: '標籤',
+		multi: true,
+		toggleable: true,
+		values: ['#召喚物', '#剋制召喚物', '#再行動', '#再啟動', '#免死', '#剋制免死', '#協攻', '#陣眼', '#援襲技能',],
+	},
 ];

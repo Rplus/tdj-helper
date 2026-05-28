@@ -3,7 +3,6 @@ import { get_refs } from '$lib/fetch-data.js';
 
 import Filter from './Filter.svelte';
 import Role from './Role.svelte';
-import Tags from './Tags.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Switcher from '$lib/Switcher.svelte';
@@ -38,8 +37,6 @@ $: grid_view = !false;
 	<Header title="英靈圖鑑" />
 
 	<Filter />
-
-	<Tags tags={data.tags} />
 
 	<div class="hr">
 		<Switcher left_label="▦" right_label="▤" bind:checked={grid_view} />
