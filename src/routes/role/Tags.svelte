@@ -24,16 +24,20 @@ function gen_tag_style(_status) {
 </script>
 
 
-<div>
-	標籤:
-</div>
 
-{#each tags_status as tag}
-	<label class="label inline-flex">
-		<input type="checkbox" bind:checked={tag.selected} title={tag.label} />
-		{tag.label}
-	</label>
-{/each}
+<form class="tag-form">
+	<details>
+		<summary>標籤:</summary>
+		<div>
+			{#each tags_status as tag}
+				<label class="label inline-flex">
+					<input type="checkbox" bind:checked={tag.selected} title={tag.label} />
+					{tag.label}
+				</label>
+			{/each}
+		</div>
+	</details>
+</form>
 
 
 <svelte:head>
@@ -41,8 +45,21 @@ function gen_tag_style(_status) {
 </svelte:head>
 
 <style>
+.tag-form {
+	@media (max-width: 700px) {
+		font-size: smaller;
+	}
+}
+
+summary {
+	&::marker {
+		color: #9999;
+	}
+}
+
 .label {
 	cursor: pointer;
 	margin: 0 .25em 0 0.5em;
+	user-select: none;
 }
 </style>
