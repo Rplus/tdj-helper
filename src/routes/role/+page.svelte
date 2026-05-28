@@ -158,6 +158,9 @@ $: grid_view = !false;
 	}
 }
 
+.workspace {
+	overflow: hidden;
+}
 .workspace:has(input[name="grid_view_mode"][value="career"]:checked) {
 	& .header-careers {
 		display: flex;
