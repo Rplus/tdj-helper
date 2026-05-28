@@ -204,7 +204,7 @@ function allow_submit_next_time(e) {
 	</div>
 
 	{#each filters as filter}
-		<details class="filter" class:is-toggleable={filter.toggleable} open>
+		<details class="filter" class:is-toggleable={filter.toggleable} data-prop={filter.prop} open={!filter.toggleable}>
 			<summary class="filter-title">
 				{filter.title}:
 
