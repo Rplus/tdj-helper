@@ -30,6 +30,8 @@ print-date:
 host-local-json:
 	npx servor --static ./data/_cache/tdj-roles 404.html 9527
 
+dev-with-json:
+	@$(MAKE) -j2 dev host-local-json
 
 
 update-data--ornament:
