@@ -23,7 +23,7 @@ let table_rc_style = `;
 	data-career={data.career}
 	data-prop={data.prop}
 	data-search={data.name}
-	data-tags={data.tags?.map(tag => `#${tag}`) || ''}
+	data-tags={data.tags?.map(tag => `＃${tag}`) || ''}
 	style={order_style + table_rc_style}
 >
 	<Avatar role={data} />
