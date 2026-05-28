@@ -31,7 +31,7 @@ import { onMount } from 'svelte';
 
 const query_param = 'q';
 
-let filters = init_filters();
+let filters = create_filters(new Set(get_qs()));
 let input_value = (browser && new URLSearchParams(location.search).get(query_param)) || '';
 let search_kwd = input_value ||'';
 let is_composing = false;
@@ -80,7 +80,7 @@ function gen_qs(filters, search_kwd = '') {
 // $: console.log({filters});
 
 $: {
-	if (!is_composing) {
+	if (!is_composing && search_kwd !== input_value) {
 		search_kwd = input_value;
 		if (search_cb) {
 			search_cb(input_value);
@@ -88,44 +88,21 @@ $: {
 	}
 }
 
-// ∪ &cup; ∩ &cap;
-function init_filters(init_with_qs = true) {
-	let filter_mapping = {};
-
-	let init_filters = filter_cates.map((cate, cate_index) => ({
+function create_filters(preset_filters = new Set()) {
+	console.log('create_filters');
+	return filter_cates.map((cate) => ({
 		prop: cate.prop,
 		title: cate.title,
 		multi: cate.multi,
 		toggleable: cate.toggleable,
-		options: cate.values.map((key, index) => {
-			filter_mapping[`${cate.prop}.${key}`] = [cate_index, index];
 
-			return {
-				key,
-				checked: false,
-				icon: cate.icons?.[index],
-			};
-		}),
+		options: cate.values.map((key, index) => ({
+			key,
+			checked: preset_filters.has(`${cate.prop}.${key}`),
+			icon: cate.icons?.[index],
+		})),
 	}));
-
-	if (!init_with_qs) {
-		return init_filters;
-	}
-
-	let preset_filters = get_qs();
-
-	// set filter init value follow with qs
-	preset_filters.forEach((i) => {
-		if (!filter_mapping[i] || !filter_mapping[i].length) {
-			return;
-		}
-
-		let matched_index = filter_mapping[i];
-		init_filters[matched_index[0]].options[matched_index[1]].checked = true;
-	});
-
-	return init_filters;
-}
+};
 
 function get_qs() {
 	let qs;
@@ -190,7 +167,7 @@ function gen_search_style(_kwd) {
 }
 
 function reset_filter() {
-	filters = init_filters(false);
+	filters = create_filters();
 	input_value = '';
 }
 
@@ -244,7 +221,7 @@ function allow_submit_next_time(e) {
 				{/if}
 			</summary>
 
-			{#each filter.options as option}
+			{#each filter.options as option (option.key)}
 				<label class="filer-option-label" hidden={!option.key}>
 					<input type="checkbox" bind:checked={option.checked} title={option.key} />
 
@@ -259,10 +236,10 @@ function allow_submit_next_time(e) {
 	{/each}
 
 	<div>
-		<svelte:element this="style">{filter_style}</svelte:element>
-		<svelte:element this="style">{search_style}</svelte:element>
+		<svelte:element this="style">{filter_style}{search_style}</svelte:element>
 	</div>
 </form>
+
 
 <style>
 .filter {
