@@ -50,21 +50,5 @@ export const load = ({ params }) => {
 
 	return {
 		roles: roles_data,
-		tags: [...new Set(roles_data.flatMap(i => i.tags).filter(Boolean))]
-			.sort((a, b) => {
-				// 1. 移除「剋制」，取得核心詞（例如："剋制免死" -> "免死"）
-				const coreA = a.replace(/^剋制/, '');
-				const coreB = b.replace(/^剋制/, '');
-
-				// 2. 先比較核心詞（讓「OO」與「剋制OO」群組在一起）
-				if (coreA !== coreB) {
-					return coreA.localeCompare(coreB, 'zh-Hant');
-				}
-
-				// 3. 核心詞相同時，讓「OO」排在「剋制OO」前面（文字短的在前面）
-				return a.length - b.length;
-			}),
-		// props,
-		// careers,
 	};
 };
