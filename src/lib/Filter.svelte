@@ -8,6 +8,23 @@ export let search_cb = null;
 import { browser } from '$app/environment';
 import { replaceState } from '$app/navigation';
 import { onMount } from 'svelte';
+import { writable } from 'svelte/store';
+import { saveItem, getItem } from '$lib/u.js';
+
+const STORAGE_KEY = 'filter-toggle-status';
+
+const details_store = writable(getItem(STORAGE_KEY) || {});
+
+details_store.subscribe((obj) => {
+	saveItem({ key: STORAGE_KEY, value: obj });
+});
+
+function handle_toggle(io_key, is_open) {
+	details_store.update(obj => {
+		obj[io_key] = is_open;
+		return obj;
+	});
+}
 
 // ### filter_cates sample
 // # TODO: values contain (value, title)?
@@ -41,13 +58,13 @@ $: search_style = search_kwd ? `${gen_search_style(search_kwd)}` : '';
 
 let loaded = false;
 
-$: {
-	update_state('?' + gen_qs(filters, search_kwd));
-}
-
 onMount(() => {
 	loaded = true;
 });
+
+$: {
+	update_state('?' + gen_qs(filters, search_kwd));
+}
 
 function update_state(qs = '') {
 	if (loaded) {
@@ -89,7 +106,6 @@ $: {
 }
 
 function create_filters(preset_filters = new Set()) {
-	console.log('create_filters');
 	return filter_cates.map((cate) => ({
 		prop: cate.prop,
 		title: cate.title,
@@ -204,8 +220,16 @@ function allow_submit_next_time(e) {
 	</div>
 
 	{#each filters as filter}
-		<details class="filter" class:is-toggleable={filter.toggleable} data-prop={filter.prop} open={!filter.toggleable}>
-			<summary class="filter-title">
+		<svelte:element
+			this={filter.toggleable ? 'details' : 'div'}
+			class="filter" class:is-toggleable={filter.toggleable} data-prop={filter.prop}
+			open={filter.toggleable ? $details_store[filter.prop] : true}
+			on:toggle={(e) => filter.toggleable && handle_toggle(filter.prop, e.currentTarget.open)}
+		>
+			<svelte:element
+				this={filter.toggleable ? 'summary' : 'div'}
+				class="filter-title"
+			>
 				{filter.title}:
 
 				{#if filter.multi}
@@ -219,7 +243,7 @@ function allow_submit_next_time(e) {
 						title={filter.is_cap ? '聯集 [交集]' : '[聯集] 交集'}
 					/>
 				{/if}
-			</summary>
+			</svelte:element>
 
 			{#each filter.options as option (option.key)}
 				<label class="filer-option-label" hidden={!option.key}>
@@ -232,7 +256,7 @@ function allow_submit_next_time(e) {
 					{/if}
 				</label>
 			{/each}
-		</details>
+		</svelte:element>
 	{/each}
 
 	<div>
@@ -244,10 +268,6 @@ function allow_submit_next_time(e) {
 <style>
 .filter {
 	margin-bottom: 1em;
-
-	&:not(.is-toggleable) .filter-title {
-		pointer-events: none;
-	}
 
 	&.is-toggleable .filter-title {
 		display: list-item;
