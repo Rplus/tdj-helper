@@ -2,10 +2,12 @@
 	import { onMount, } from 'svelte';
  	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import { browser } from '$app/environment';
 
 	let loading = !true;
 	let roles = [];
-	let kwd = '無視護衛';
+	let kwd = browser && new URLSearchParams(location.search).get('kwd') || '無視護衛';
+	// let kwd = '無視護衛';
 
 	let render_list = [];
 
@@ -69,7 +71,8 @@
 	});
 
 	function query(e) {
-		console.log(e, 'query');
+		e.preventDefault();
+		// console.log(e, 'query');
 		const form_data = new FormData(e.currentTarget);
 		const kwd = form_data.get('kwd');
 		if (!kwd) {
