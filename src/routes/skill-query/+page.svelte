@@ -2,14 +2,17 @@
 	import { onMount, } from 'svelte';
  	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 
 	let loading = !true;
 	let roles = [];
-	let kwd = browser && new URLSearchParams(location.search).get('kwd') || '無視護衛';
-	// let kwd = '無視護衛';
-
 	let render_list = [];
+	$: kwd =  $page.url.searchParams.get('kwd') || '';
+
+	$: {
+		query(kwd, roles);
+	}
 
 	onMount(() => {
 		Promise.all([
@@ -70,17 +73,14 @@
 			});
 	});
 
-	function query(e) {
-		e.preventDefault();
-		// console.log(e, 'query');
-		const form_data = new FormData(e.currentTarget);
-		const kwd = form_data.get('kwd');
-		if (!kwd) {
+	function query(_kwd = '', _roles) {
+		if (!_kwd) {
+			render_list = [];
 			return;
 		}
 
-		render_list = roles.map(role => {
-			let skills = role.skills.filter(skill => skill.desc.includes(kwd));
+		render_list = _roles.map(role => {
+			let skills = role.skills.filter(skill => skill.desc.includes(_kwd));
 			if (!skills.length) {
 				return;
 			}
@@ -89,8 +89,15 @@
 				skills,
 			}
 		}).filter(Boolean);
+	}
 
-		// console.log(1213, roles.length, render_list);
+	function handle_submit(e) {
+		e.preventDefault();
+
+		const form_data = new FormData(e.currentTarget);
+		const next_kwd = form_data.get('kwd') || '';
+
+		goto(`?kwd=${next_kwd}`, { keepFocus: true });
 	}
 
 	function format_desc(str = '') {
@@ -103,11 +110,11 @@
 
 <Header title="技能檢索" />
 
-<form id="form" on:submit={query}>
+<form id="form" on:submit={handle_submit}>
 	<fieldset>
 		<legend>
 			Q:
-			<input type="search" id="kwd" name="kwd" placeholder="skill key word" autofocus bind:value={kwd}>
+			<input type="search" id="kwd" name="kwd" placeholder="無視護衛" value={kwd} autofocus>
 			<input type="submit" disabled={loading}>
 		</legend>
 		<ul id="list">
