@@ -41,9 +41,19 @@ $: {
 <NavItem prev={data.role.siblings.prev} next={data.role.siblings.next} cate="role" />
 
 <div class="hr">
-	射程 🏹 {data.role.range}
-	<br />
-	移動 👣 {data.role.speed}
+	<div class="flex">
+		<div>
+			屬性 👤 {data.role.prop}
+			<br />
+			職業 💼 {data.role.career}
+		</div>
+		<div style="padding:.5em"></div>
+		<div>
+			射程 🏹 {data.role.range}
+			<br />
+			移動 👣 {data.role.speed}
+		</div>
+	</div>
 </div>
 
 {#if browser}
