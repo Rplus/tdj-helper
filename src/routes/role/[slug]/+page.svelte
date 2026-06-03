@@ -102,35 +102,37 @@ $: {
 
 		<hr />
 		<details>
-			<ul>
-				<li>
-					<a
-						href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
-						rel="noopener"
-						target="_blank"
-					>official data</a>
-				</li>
-				<li>
-					<a
-						href={get_role_url_from_git(data.role)}
-						rel="noopener"
-						target="_blank"
-					>git data</a>
-				</li>
-				<li>
-					<a
-						href={resize_img(
-							`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
-							960,
-						)}
-						rel="noopener"
-						target="_img"
-					>
-						large avater img
-					</a>
-				</li>
-			</ul>
-			<pre>{JSON.stringify(detail_data, null, 2)}</pre>
+			<div class="details-ctx">
+				<ul>
+					<li>
+						<a
+							href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
+							rel="noopener"
+							target="_blank"
+						>official data</a>
+					</li>
+					<li>
+						<a
+							href={get_role_url_from_git(data.role)}
+							rel="noopener"
+							target="_blank"
+						>git data</a>
+					</li>
+					<li>
+						<a
+							href={resize_img(
+								`https://media.zlongame.com/media/news/cn/tdj/info/data/hero/${data.role.pic}.png`,
+								960,
+							)}
+							rel="noopener"
+							target="_img"
+						>
+							large avater img
+						</a>
+					</li>
+				</ul>
+				<pre>{JSON.stringify(detail_data, null, 2)}</pre>
+			</div>
 		</details>
 	{:catch error}
 		<p style="color: red">{error.message}</p>
@@ -144,6 +146,11 @@ details:not(:hover, :focus-within, [open]) {
 	opacity: 0.1;
 	transition: opacity .3s;
 }
+
+details:not([open]) .details-ctx {
+	display: none;
+}
+
 pre {
 	overflow: auto;
 }
