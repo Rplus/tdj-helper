@@ -27,41 +27,26 @@
 						desc: role.star6,
 						type: '天賦',
 					})
-				}
 
-				for (let role in other_skills) {
-					const role_index = role_basic.findIndex(i => i.pinyin === role);
-					let role_data = other_skills[role];
+					let _skills = other_skills[role.pinyin];
+					if (!_skills) {
+						continue;
+					}
 
-					for (let skill_type in role_data) {
-						let skill_set = role_data[skill_type];
-
-						if (skill_set.name) { // support skill
-							role_basic[role_index].skills.push({
-								name: skill_set.name,
-								desc: skill_set.descs[1].desc,
-								type: 'support_skill',
-							});
-						} else if (skill_set.length) {
-							skill_set.forEach(ss => {
-								if (ss.desc) {
-									role_basic[role_index].skills.push({
-										name: ss.name,
-										desc: ss.desc,
-										type: skill_type,
-									});
-								} else if (ss.length) {
-									ss.forEach(sss => {
-										if (sss.desc) {
-											role_basic[role_index].skills.push({
-												name: sss.name,
-												desc: sss.desc,
-												type: skill_type,
-											});
-										}
-									})
-								}
-							})
+					for (let _type in _skills) {
+						if (_type === 'adv_skills' || _type === 'extra_skills') {
+							let new_skills = _skills[_type].flatMap(i =>
+								i.desc ? [{ ...i, type: _type }] : []
+							);
+							role.skills.push(...new_skills);
+						}
+						else if (_type === 'support_skill') {
+							let new_skill = {
+								..._skills[_type],
+								desc: '【援襲】' + _skills[_type].descs[1].desc,
+								type: _type,
+							};
+							role.skills.push(new_skill);
 						}
 					}
 				}
