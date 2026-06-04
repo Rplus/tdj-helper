@@ -22,11 +22,6 @@
 			.then(([role_basic, other_skills]) => {
 
 				for (let role of role_basic) {
-					role.skills.push({
-						name: '天賦',
-						desc: role.star6,
-						type: '天賦',
-					})
 
 					let _skills = other_skills[role.pinyin];
 					if (!_skills) {
