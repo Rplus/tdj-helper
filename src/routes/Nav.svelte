@@ -25,7 +25,7 @@ let pages = [
 		title: '飾品',
 	},
 	{
-		path: link('/skill-query?kwd=逆闕'),
+		path: link('/skill-query?kwd=援襲'),
 		title: '檢索',
 	},
 	{
