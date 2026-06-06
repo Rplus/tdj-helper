@@ -26,15 +26,15 @@ import { link } from '$lib/u.js';
 			</li>
 
 			<li>
+				<a href={link('/skill-query')}>技能檢索</a>
+			</li>
+
+			<li>
 				<a href={link('/summon')}>召喚物圖鑑</a>
 			</li>
 
 			<li>
 				<a href={link('/rune')}>魂石圖鑑</a>
-			</li>
-
-			<li>
-				<a href={link('/skill-query')}>技能檢索</a>
 			</li>
 
 			<li>
