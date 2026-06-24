@@ -9,6 +9,8 @@ import Switcher from '$lib/Switcher.svelte';
 
 import { filter_cates } from './filter.js';
 import { status_props } from './role.js';
+import { link } from '$lib/u.js';
+
 
 export let data;
 
@@ -65,8 +67,9 @@ $: grid_view = !false;
 		<!-- prop -->
 		<label class="flex jc-sa header header-props">
 			{#each filter_cates[2].values as prop}
-				<div>
+				<div class="inline-flex ai-c" style="gap: 2px;">
 					{prop}
+					<img src={link('/icon/') + `${prop}.png`} alt={prop} width="20" height="20">
 				</div>
 			{/each}
 		</label>
@@ -76,7 +79,7 @@ $: grid_view = !false;
 			{#each filter_cates[1].values as career, index}
 				<div class="inline-flex ai-c" style="gap: 2px;">
 					{career}
-					<img src={filter_cates[1].icons[index]} alt={career} width="16" height="16">
+					<img src={filter_cates[1].icons[index]} alt={career} width="20" height="20">
 				</div>
 			{/each}
 		</div>
