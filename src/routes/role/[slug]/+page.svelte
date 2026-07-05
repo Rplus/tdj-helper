@@ -58,7 +58,6 @@ $: {
 	</div>
 </div>
 
-sss
 <Skin skins={data.role.skins} name={data.role.name} />
 
 {#if browser}
