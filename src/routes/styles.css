@@ -87,6 +87,7 @@ button:not([disabled]) {
 *::before,
 *::after {
 	box-sizing: border-box;
+	scrollbar-width: thin;
 }
 
 .hr {
