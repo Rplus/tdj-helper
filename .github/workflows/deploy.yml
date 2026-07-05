@@ -1,9 +1,8 @@
-name: Deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - sveltekit
+    branches: 'sveltekit'
 
 permissions:
   contents: read
@@ -11,35 +10,44 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - run: npm ci
-      - run: npm run build
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: build   # ← 這裡改成你現在 gh-pages 用的輸出資料夾
-
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    runs-on: ubuntu-latest
     steps:
-      - id: deployment
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 1. 必須先安裝 pnpm，並透過官方 Action 自動啟用快取機制
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9 # 或是指定你的 pnpm 版本，如 8, 9, latest
+          run_install: false # 先不自動執行 install，留給下一步
+
+      # 2. 安裝 Node.js 並與 pnpm 快取連動
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm' # 這裡改填 pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile # 相當於 npm ci，確保版本一致
+
+      - name: Build site
+        run: pnpm run build
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'build/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
