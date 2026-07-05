@@ -82,9 +82,11 @@ $: {
 				]}
 			/>
 
-			<div class="hr" style="--ratio: 0.125;">神兵</div>
+			{#if detail_data.godclass_weapon}
+				<div class="hr" style="--ratio: 0.125;">神兵</div>
 
-			<Weapon weapon={detail_data.godclass_weapon} />
+				<Weapon weapon={detail_data.godclass_weapon} />
+			{/if}
 
 			<div class="mb-2" />
 
@@ -103,6 +105,7 @@ $: {
 		<hr />
 		<details>
 			<div class="details-ctx">
+
 				<ul>
 					<li>
 						<a
