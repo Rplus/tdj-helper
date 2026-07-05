@@ -17,6 +17,7 @@ import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
 import Summons from './Summons.svelte';
 import StateHint from './State.svelte';
+import Skin from './Skin.svelte';
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
 import Footer from '$lib/Footer.svelte';
@@ -30,6 +31,7 @@ $: {
 		promise = fetch_role_detail(data.role);
 	}
 }
+
 </script>
 
 <Header parent_path="/role" title="英靈：{data.role?.name}" />
@@ -55,6 +57,8 @@ $: {
 		</div>
 	</div>
 </div>
+
+<Skin skins={data.role.skins} name={data.role.name} />
 
 {#if browser}
 	{#await promise}
