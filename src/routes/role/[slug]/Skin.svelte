@@ -44,7 +44,7 @@ function handle_click() {
 			</div>
 			{#key `${name}-${skin.title}`}
 				{#if is_show}
-				<img class="skin_img" alt={skin.title} src={skin.img} loading="lazy"
+				<img class="skin_img" alt={skin.title} src={skin.img}
 					srcset="{skin.img} 2000w, {skin.img_l} 5000w">
 				{/if}
 			{/key}
