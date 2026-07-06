@@ -17,7 +17,7 @@ function get_imgs(url = '') {
 	let thumb_url = PROJECT_PATH + '/thumb' + url.replace('♥', 'px-%E7%AB%8B%E7%BB%98_');
 
 	return {
-		img: resize_img(thumb_url, 550),
+		img: resize_img(thumb_url, null, 550),
 		img_l: resize_img(o_url, 3000),
 	}
 }
