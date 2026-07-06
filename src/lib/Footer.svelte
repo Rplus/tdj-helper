@@ -1,5 +1,5 @@
 <script>
-import date from '$lib/data/latest-fetch-time.txt?raw';
+import { sync_time, } from '$lib/data/version.json';
 export let refs = [];
 export let time = false;
 </script>
@@ -12,7 +12,7 @@ export let time = false;
 
 <footer class="footer">
 	{#if time}
-		<time class="update-time">{time === true ? date : time}</time>
+		<time class="update-time">{time === true ? sync_time : time}</time>
 	{/if}
 
 	<slot />
