@@ -9,12 +9,12 @@ $: name_split = name.match(/(·)?.{1,2}/g);
 	{#if href}
 		<a {href}>
 			{#each name_split as n}
-				<span class="inline-block">{n}</span>
+				{n}<wbr>
 			{/each}
 		</a>
 	{:else}
 		{#each name_split as n}
-			<span class="inline-block">{n}</span>
+			{n}<wbr>
 		{/each}
 	{/if}
 </span>
@@ -23,5 +23,6 @@ $: name_split = name.match(/(·)?.{1,2}/g);
 .name {
 	font-size: 0.85rem;
 	line-height: 1.1;
+	word-break: keep-all;
 }
 </style>
