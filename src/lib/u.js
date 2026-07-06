@@ -32,11 +32,14 @@ const img_folders = {
 	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data',
 };
 
-export function resize_img(url = '', size = 128) {
+export function resize_img(url = '', size_w = 128, size_h = null) {
 	if (!url) {
 		return '';
 	}
-	return `https://wsrv.nl/?&w=${size}&h=${size}&we&il&output=webp&default=1&url=${url}`;
+	if (size_h === null) {
+		size_h = size_w;
+	}
+	return `https://wsrv.nl/?&w=${size_w}&h=${size_h}&we&il&output=webp&default=1&url=${url}`;
 }
 
 export function resize_imgs(url = '', sizes = [128]) {
