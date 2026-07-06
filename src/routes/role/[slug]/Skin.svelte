@@ -7,11 +7,20 @@ $: skins_arr = Object.keys(skins).map((skin_name, index) => {
 	return {
 		title: skin_name,
 		order: skin_name === name ? -1 : index,
-		img: resize_img(skins[skin_name], 600),
-		img_s: resize_img(skins[skin_name]),
-		img_l: resize_img(skins[skin_name], 3000),
+		...get_imgs(skins[skin_name]),
 	}
 }).sort((a, b) => a.order - b.order);
+
+const PROJECT_PATH = 'https://patchwiki.biligame.com/images/tdj';
+function get_imgs(url = '') {
+	let o_url = PROJECT_PATH + url.split(/\/\d+♥/)[0];
+	let thumb_url = PROJECT_PATH + '/thumb' + url.replace('♥', 'px-%E7%AB%8B%E7%BB%98_');
+
+	return {
+		img: resize_img(thumb_url, 550),
+		img_l: resize_img(o_url, 3000),
+	}
+}
 
 let is_show = false;
 
@@ -56,9 +65,9 @@ function handle_click() {
 
 .card {
 	position: relative;
-	flex: 0 0 70%;
+	flex: 0 0 75%;
 	height: calc(70vw + 50px);
-	max-height: 700px;
+	max-height: 650px;
 	padding-top: 1.25em;
 	margin-right: 1rem;
 	color: white;
@@ -67,17 +76,13 @@ function handle_click() {
 	justify-content: center;
 	align-items: center;
 	border-radius: .5em;
-	scroll-snap-align: center; /* 關鍵屬性：卡片的中心點與容器中心貼齊 */
+	scroll-snap-align: center;
 	background-color: #000;
 	font-size: calc(.5vw + 1rem);
 
 	&:only-child {
 		flex: 0 0 100%;
 		margin: 0;
-	}
-
-	&:nth-child(even) {
-		/* background-color: #000c; */
 	}
 }
 
@@ -91,8 +96,8 @@ function handle_click() {
 }
 
 .skin_img {
-	width: 600px;
-	height: 600px;
+	width: 550px;
+	height: 550px;
 	max-width: 70vw;
 	max-height: 70vw;
 	object-fit: contain;
