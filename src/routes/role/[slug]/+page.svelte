@@ -108,22 +108,21 @@ $: {
 
 		<hr />
 		<details>
+			<summary>raw data source:</summary>
 			<div class="details-ctx">
-
 				<ul>
 					<li>
 						<a
 							href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
 							rel="noopener"
 							target="_blank"
-						>official data</a>
+						>official { data.role.pinyin_tw ? '(tw)' : '(cn)' }</a>
 					</li>
 					<li>
-						<a
-							href={get_role_url_from_git(data.role)}
-							rel="noopener"
-							target="_blank"
-						>git data</a>
+						<a href={get_role_url_from_git(data.role, 'github')} rel="noopener" target="_blank">github</a>
+					</li>
+					<li>
+						<a href={get_role_url_from_git(data.role, 'cdn')} rel="noopener" target="_blank">cdn</a>
 					</li>
 					<li>
 						<a
@@ -138,7 +137,9 @@ $: {
 						</a>
 					</li>
 				</ul>
-				<pre>{JSON.stringify(detail_data, null, 2)}</pre>
+				<details>
+					<pre>{JSON.stringify(detail_data, null, 2)}</pre>
+				</details>
 			</div>
 		</details>
 	{:catch error}
