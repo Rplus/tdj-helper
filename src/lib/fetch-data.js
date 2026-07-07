@@ -118,19 +118,24 @@ export function get_role_url_without_proxy(name, lang) {
 }
 
 // const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-helper/refs/heads/sveltekit/task/rawdata/tdj';
-// const JSON_PATH = 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_cache/tdj-roles';
-const JSON_PATH = 'https://cdn.jsdelivr.net/gh/Rplus/tdj-data@data/_cache/tdj-roles';
+const JSON_PATH = {
+	cdn: 'https://cdn.jsdelivr.net/gh/Rplus/tdj-data@data/_cache/tdj-roles',
+	github: 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_cache/tdj-roles',
+	local: 'http://localhost:9527',
+};
 
-export function get_role_url_from_git(role) {
+export function get_role_url_from_git(role, source) {
 	let _fn = role.pinyin_tw ? `${role.name}.tw.json` : `${role.path}.cn.json`;
-	let path = JSON_PATH;
 
-	if (import.meta.env.DEV) {
-		path = 'http://localhost:9527';
+	if (import.meta.env.DEV && !source) {
+		source = 'local';
 	}
+
+	let path = JSON_PATH[source || 'cdn'];
 
 	return `${path}/${_fn}?version=${folder_commit_sha}`;
 }
+
 function get_role_url(name, lang) {
 	let _url = get_role_url_without_proxy(name, lang);
 	return PROXY.get_proxy_url(_url);
