@@ -57,6 +57,7 @@ function handle_click() {
 <style>
 .horizontal-scroll-container {
 	display: flex;
+	gap: 1rem;
 	width: 80vw;
 	overflow-x: auto;
 	white-space: nowrap;
@@ -73,24 +74,22 @@ function handle_click() {
 
 .card {
 	position: relative;
+	display: flex;
 	flex: 0 0 75%;
 	height: calc(70vw + 50px);
 	max-height: 650px;
 	padding-top: 1.25em;
-	margin-right: 1rem;
-	color: white;
-	font-size: 2rem;
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	border-radius: .5em;
-	scroll-snap-align: center;
+	color: #fff;
+	font-size: calc(.5vw + 1rem);
 	background-image:
 		linear-gradient(0deg, #000a, #0006),
 		url('https://tw-media.game-beans.com/media/pictures/tdj/info/page/img/bg.jpg');
 	background-color: #000;
 	background-position: 50%;
-	font-size: calc(.5vw + 1rem);
+	scroll-snap-align: center;
 
 	&:focus-visible {
 		outline: unset;
@@ -99,6 +98,13 @@ function handle_click() {
 	&:only-child {
 		flex: 0 0 100%;
 		margin: 0;
+	}
+
+	&:first-child:not(:only-child) {
+		margin-inline-start: 12.5%;
+	}
+	&:last-child:not(:only-child) {
+		margin-inline-end: 12.5%;
 	}
 }
 
