@@ -131,7 +131,7 @@ export function get_role_url_from_git(role, source) {
 		source = 'local';
 	}
 
-	let path = JSON_PATH[source || 'cdn'];
+	let path = JSON_PATH[source] || JSON_PATH.cdn;
 
 	return `${path}/${_fn}?version=${folder_commit_sha}`;
 }
