@@ -85,7 +85,11 @@ function handle_click() {
 	align-items: center;
 	border-radius: .5em;
 	scroll-snap-align: center;
+	background-image:
+		linear-gradient(0deg, #000a, #0006),
+		url('https://tw-media.game-beans.com/media/pictures/tdj/info/page/img/bg.jpg');
 	background-color: #000;
+	background-position: 50%;
 	font-size: calc(.5vw + 1rem);
 
 	&:focus-visible {
@@ -101,9 +105,10 @@ function handle_click() {
 .title {
 	position: absolute;
 	top: .5em;
+	opacity: 0.5;
 
 	& a {
-		color: #fff;
+		color: inherit;
 	}
 }
 
