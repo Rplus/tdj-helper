@@ -64,6 +64,11 @@ function handle_click() {
 	scroll-snap-type: x mandatory;
 	margin-left: calc(50% - 40vw);
 	margin-right: calc(50% - 40vw);
+	scrollbar-color: transparent transparent;
+	transition: scrollbar-color .3s;
+	&:hover {
+		scrollbar-color: #3336 #0000;
+	}
 
 	@media (max-width: 800px) {
 		width: 100%;
