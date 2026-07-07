@@ -14,13 +14,18 @@ $: skins_arr = Object.keys(skins).map((skin_name, index) => {
 
 const PROJECT_PATH = 'https://patchwiki.biligame.com/images/tdj';
 function get_imgs(url = '') {
-	let o_url = PROJECT_PATH + url.split(/\/\d+♥/)[0];
-	let thumb_url = PROJECT_PATH + '/thumb' + url.replace('♥', 'px-%E7%AB%8B%E7%BB%98_');
+	let [path, fn, x1, x2] = url.split('♥');
+
+	let img_o = PROJECT_PATH + path.replace('.png/', '.png');
+	let img_x1 = x1 ? PROJECT_PATH + '/thumb' + path + x1 + 'px-%E7%AB%8B%E7%BB%98_' + fn : img_o;
+	let img_x2 = x2 ? PROJECT_PATH + '/thumb' + path + x2 + 'px-%E7%AB%8B%E7%BB%98_' + fn : img_o;
 
 	return {
-		img: resize_img(thumb_url, null, 550),
-		img_l: resize_img(o_url, 3000),
-	}
+		img_x1: resize_img(img_x1, null, 550),
+		img_x2: resize_img(img_x2, null, 1100),
+		img_f: resize_img(img_o, 3000),
+		img_o,
+	};
 }
 
 let is_show = getItem('show_skin') || false;
@@ -43,14 +48,18 @@ function handle_click() {
 	{#each skins_arr as skin, index}
 		<a class="card" href="#skin_{index}" id="skin_{index}">
 			<div class="title">
-				<a href={skin.img_l} target="_blank">
-					{skin.title}
-				</a>
+				{skin.title}
+				<ul class="img_list">
+					<li><a href={skin.img_x1} target="_blank">x1</a></li>
+					<li><a href={skin.img_x2} target="_blank">x2</a></li>
+					<li><a href={skin.img_f} target="_blank">large</a></li>
+					<li><a href={skin.img_o} target="_blank">origin</a></li>
+				</ul>
 			</div>
 			{#key `${name}-${skin.title}`}
 				{#if is_show}
-				<img class="skin_img" alt={skin.title} src={skin.img}
-					srcset="{skin.img} 2000w, {skin.img_l} 5000w">
+				<img class="skin_img" alt={skin.title} src={skin.img_x1}
+					srcset="{skin.img_x1} 2000w, {skin.img_x2} 5000w">
 				{/if}
 			{/key}
 		</a>
@@ -122,9 +131,31 @@ function handle_click() {
 	position: absolute;
 	top: .5em;
 	opacity: 0.5;
+	padding: 0 .5rem;
 
 	& a {
 		color: inherit;
+		display: block;
+		padding: 2px .5em;
+
+		&:hover {
+			background-color: #fff3;
+		}
+	}
+
+	& .img_list {
+		position: absolute;
+		left: 100%;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 1rem;
+		background-color: #000c;
+	}
+
+	&:not(:hover) .img_list {
+		display: none;
 	}
 }
 
