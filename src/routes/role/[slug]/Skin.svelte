@@ -2,6 +2,7 @@
 export let skins = {};
 export let name = '';
 import { resize_img } from '$lib/u.js';
+import { saveItem, getItem } from '$lib/u.js';
 
 $: skins_arr = Object.keys(skins).map((skin_name, index) => {
 	return {
@@ -22,10 +23,14 @@ function get_imgs(url = '') {
 	}
 }
 
-let is_show = false;
+let is_show = getItem('show_skin') || false;
 
 function handle_click() {
 	is_show = !is_show;
+	saveItem({
+		key: 'show_skin',
+		value: is_show,
+	});
 }
 
 </script>
