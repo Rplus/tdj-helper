@@ -57,10 +57,18 @@ function handle_click() {
 <style>
 .horizontal-scroll-container {
 	display: flex;
-	width: 100%;
+	width: 80vw;
 	overflow-x: auto;
 	white-space: nowrap;
 	scroll-snap-type: x mandatory;
+	margin-left: calc(50% - 40vw);
+	margin-right: calc(50% - 40vw);
+
+	@media (max-width: 800px) {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 .card {
@@ -80,6 +88,10 @@ function handle_click() {
 	background-color: #000;
 	font-size: calc(.5vw + 1rem);
 
+	&:focus-visible {
+		outline: unset;
+	}
+
 	&:only-child {
 		flex: 0 0 100%;
 		margin: 0;
@@ -96,7 +108,7 @@ function handle_click() {
 }
 
 .skin_img {
-	width: 550px;
+	/* width: 550px; */
 	height: 550px;
 	max-width: 70vw;
 	max-height: 70vw;
