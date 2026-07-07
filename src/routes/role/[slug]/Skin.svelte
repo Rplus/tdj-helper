@@ -166,7 +166,8 @@ function handle_click() {
 	max-height: 70vw;
 	object-fit: contain;
 	display: block;
-	overflow: unset!important;
+	overflow: unset !important;
+	user-select: none;
 }
 
 .marker {
