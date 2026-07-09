@@ -4,6 +4,7 @@
 	import Footer from '$lib/Footer.svelte';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import role_other_skills from '$lib/data/role_other_skills.min.json';
 
 	let loading = !true;
 	let roles = [];
@@ -17,13 +18,13 @@
 	onMount(() => {
 		Promise.all([
 			'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/roles_skills_for_query.min.json',
-			'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/role_other_skills.src.json',
+			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/role_other_skills.src.json',
 		].map(i => fetch(i).then(r => r.json())))
-			.then(([role_basic, other_skills]) => {
+			.then(([role_basic]) => {
 
 				for (let role of role_basic) {
 
-					let _skills = other_skills[role.pinyin];
+					let _skills = role_other_skills[role.pinyin];
 					if (!_skills) {
 						continue;
 					}
