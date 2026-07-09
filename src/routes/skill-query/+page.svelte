@@ -17,7 +17,8 @@
 
 	onMount(() => {
 		Promise.all([
-			'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/roles_skills_for_query.min.json',
+			'https://cdn.jsdelivr.net/gh/Rplus/tdj-data@data/_pre/roles_skills_for_query.min.json',
+			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/roles_skills_for_query.min.json',
 			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/role_other_skills.src.json',
 		].map(i => fetch(i).then(r => r.json())))
 			.then(([role_basic]) => {
