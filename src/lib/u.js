@@ -27,6 +27,8 @@ export const icons = {
 	破軍: 'Rider',
 };
 
+export const careers = Object.freeze(['俠客', '鐵衛', '祝由', '御風', '羽士', '咒師', '鬥將', '破軍']);
+
 const img_folders = {
 	cn: 'https://media.zlongame.com/media/news/cn/tdj/info/data',
 	tw: 'https://tw-media.game-beans.com/media/pictures/tdj/info/data',

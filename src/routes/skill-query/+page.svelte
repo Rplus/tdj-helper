@@ -2,9 +2,12 @@
 	import { onMount, } from 'svelte';
  	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import QueryFilter from './QueryFilter.svelte';
+
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import role_other_skills from '$lib/data/role_other_skills.min.json';
+	import roles_data from '$lib/data/roles.min.json';
 
 	let loading = !true;
 	let roles = [];
@@ -21,9 +24,8 @@
 			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/roles_skills_for_query.min.json',
 			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/role_other_skills.src.json',
 		].map(i => fetch(i).then(r => r.json())))
-			.then(([role_basic]) => {
-
-				for (let role of role_basic) {
+			.then(([roles_with_basic_skill]) => {
+				for (let role of roles_with_basic_skill) {
 
 					let _skills = role_other_skills[role.pinyin];
 					if (!_skills) {
@@ -46,9 +48,13 @@
 							role.skills.push(new_skill);
 						}
 					}
+
+					let role_info = roles_data.find(r => r.name === role.name)
+					role.prop = role_info.prop;
+					role.career = role_info.career;
 				}
 
-				roles = role_basic;
+				roles = roles_with_basic_skill;
 			})
 			.finally(() => {
 				loading = false;
@@ -68,6 +74,8 @@
 			}
 			return {
 				name: role.name,
+				prop: role.prop,
+				career: role.career,
 				skills,
 			}
 		}).filter(Boolean);
@@ -92,6 +100,8 @@
 
 <Header title="技能檢索" />
 
+<QueryFilter />
+
 <form id="form" on:submit={handle_submit}>
 	<fieldset>
 		<legend>
@@ -101,7 +111,7 @@
 		</legend>
 		<ul id="list">
 			{#each render_list as role}
-				<li>
+				<li class="role" data-prop={role.prop} data-career={role.career}>
 					<a href="/tdj-helper/role/{role.name}#:~:text={kwd}">
 						{role.name}
 					</a>
