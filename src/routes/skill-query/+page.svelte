@@ -111,7 +111,7 @@
 		</legend>
 		<ul id="list">
 			{#each render_list as role}
-				<li class="role" data-prop={role.prop} data-career={role.career}>
+				<li class="role-item" data-prop={role.prop} data-career={role.career}>
 					<a href="/tdj-helper/role/{role.name}#:~:text={kwd}">
 						{role.name}
 					</a>

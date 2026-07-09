@@ -35,7 +35,7 @@ function handle_click() {
 	<legend class="marker" data-show={is_show} on:click={handle_click}>Filter</legend>
 
 	<div class="filter-box" hidden={!is_show}>
-		<Filter {filter_cates} item_class=".role" />
+		<Filter {filter_cates} item_class=".role-item" />
 	</div>
 </fieldset>
 
