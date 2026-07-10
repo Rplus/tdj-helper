@@ -117,11 +117,14 @@ async function toggle_fullscreen(event) {
 	margin-right: calc(50% - 40vw);
 	scrollbar-color: transparent transparent;
 	transition: scrollbar-color .3s;
+
+	--card-width: 75%;
+
 	&:hover {
 		scrollbar-color: #3336 #0000;
 	}
 
-	@media (max-width: 800px) {
+	@media (max-width: 1024px) {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
@@ -152,7 +155,7 @@ async function toggle_fullscreen(event) {
 .card {
 	position: relative;
 	display: flex;
-	flex: 0 0 75%;
+	flex: 0 0 var(--card-width);
 	height: calc(70vw + 50px);
 	max-height: 650px;
 	padding-top: 1.25em;
@@ -179,11 +182,11 @@ async function toggle_fullscreen(event) {
 	}
 
 	&:first-of-type:not(:only-of-type) {
-		margin-inline-start: 12.5%;
+		margin-inline-start: calc(var(--card-width) / 2);
 	}
 
 	&:last-of-type:not(:only-of-type) {
-		margin-inline-end: 12.5%;
+		margin-inline-end: calc(var(--card-width) / 2);
 	}
 }
 
@@ -238,11 +241,13 @@ async function toggle_fullscreen(event) {
 }
 
 .horizontal-scroll-container:fullscreen {
+	--card-width: 90%;
 	background-color: #200;
 
 	& .card {
 		max-height: unset;
 		height: calc(100vh - 1em);
+		background-size: 110vw auto;
 	}
 
 	& .skin_img {
