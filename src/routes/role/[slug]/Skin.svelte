@@ -38,6 +38,27 @@ function handle_click() {
 	});
 }
 
+
+let active_fullscreen_node;
+async function toggle_fullscreen(event) {
+	event.preventDefault();
+
+	const target_node = event.currentTarget.closest('.horizontal-scroll-container');
+
+	try {
+		if (!document.fullscreenElement) {
+			await target_node.requestFullscreen();
+			active_fullscreen_node = target_node;
+		} else {
+			await document.exitFullscreen();
+			active_fullscreen_node = null;
+		}
+	} catch (err) {
+		console.error("全螢幕失敗:", err);
+	}
+
+}
+
 </script>
 
 <div class="hr" style="--ratio: 0.125; cursor: pointer;" on:click={handle_click}>
@@ -58,10 +79,25 @@ function handle_click() {
 			</div>
 			{#key `${name}-${skin.title}`}
 				{#if is_show}
-				<img class="skin_img" alt={skin.title} src={skin.img_x1}
-					srcset="{skin.img_x1} 2000w, {skin.img_x2} 5000w">
+				<picture class="skin_img-box"
+					style:--bgi="url({skin.img_x1})"
+					style:--bgi-fullscreen="url({skin.img_x2}), url({skin.img_x1})"
+				>
+					<img class="skin_img" alt={skin.title} src={skin.img_x1}
+						>
+				</picture>
 				{/if}
 			{/key}
+
+			<div class="fullscreen-btn" on:click={(e) => toggle_fullscreen(e)}>
+				<!-- ⛶ -->
+				<svg class="enter-fullscreen-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+					<path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+				</svg>
+				<svg class="leave-fullscreen-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+					<path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/>
+				</svg>
+			</div>
 		</a>
 	{/each}
 </div>
@@ -70,6 +106,7 @@ function handle_click() {
 
 <style>
 .horizontal-scroll-container {
+	position: relative;
 	display: flex;
 	gap: 1rem;
 	width: 80vw;
@@ -91,6 +128,27 @@ function handle_click() {
 	}
 }
 
+.fullscreen-btn {
+	position: absolute;
+	top: .25em;
+	right: .5em;
+	color: #fff;
+	font-size: 1.5rem;
+	transition: opacity .3s;
+	cursor: pointer;
+
+	&:not(:hover) {
+		opacity: 0.3;
+	}
+
+	& .leave-fullscreen-icon {
+		display: none;
+	}
+}
+.card:not(:hover) .fullscreen-btn {
+	opacity: 0;
+}
+
 .card {
 	position: relative;
 	display: flex;
@@ -107,22 +165,24 @@ function handle_click() {
 		linear-gradient(0deg, #000a, #0006),
 		url('https://tw-media.game-beans.com/media/pictures/tdj/info/page/img/bg.jpg');
 	background-color: #000;
-	background-position: 50%;
+	background-position: 50% 0;
+	background-size: 85vw auto;
 	scroll-snap-align: center;
 
 	&:focus-visible {
 		outline: unset;
 	}
 
-	&:only-child {
+	&:only-of-type {
 		flex: 0 0 100%;
 		margin: 0;
 	}
 
-	&:first-child:not(:only-child) {
+	&:first-of-type:not(:only-of-type) {
 		margin-inline-start: 12.5%;
 	}
-	&:last-child:not(:only-child) {
+
+	&:last-of-type:not(:only-of-type) {
 		margin-inline-end: 12.5%;
 	}
 }
@@ -168,7 +228,36 @@ function handle_click() {
 	display: block;
 	overflow: unset !important;
 	user-select: none;
+	opacity: 0;
 }
+.skin_img-box {
+	background-image: var(--bgi);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.horizontal-scroll-container:fullscreen {
+	background-color: #200;
+
+	& .card {
+		max-height: unset;
+		height: calc(100vh - 1em);
+	}
+
+	& .skin_img {
+		height: 1100px;
+		max-height: 90vh;
+		opacity: 0.5;
+	}
+
+	& .skin_img-box {
+		background-image: var(--bgi-fullscreen);
+	}
+	& .leave-fullscreen-icon { display: block; }
+	& .enter-fullscreen-icon { display: none; }
+}
+
 
 .marker {
 	&::before {
