@@ -14,6 +14,14 @@ $: skins_arr = Object.keys(skins).map((skin_name, index) => {
 
 const PROJECT_PATH = 'https://patchwiki.biligame.com/images/tdj';
 function get_imgs(url = '') {
+	if (url.indexOf('♥') === -1) {
+		return {
+			img_x1: url,
+			img_x2: url,
+			img_f: url,
+			img_o: url,
+		};
+	}
 	let [path, fn, x1, x2] = url.split('♥');
 
 	let img_o = PROJECT_PATH + path.replace('.png/', '.png');
