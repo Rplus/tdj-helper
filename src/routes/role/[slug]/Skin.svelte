@@ -193,6 +193,7 @@ async function toggle_fullscreen(event) {
 .title {
 	position: absolute;
 	top: .5em;
+	z-index: 2;
 	opacity: 0.5;
 	padding: 0 .5rem;
 
@@ -232,6 +233,7 @@ async function toggle_fullscreen(event) {
 	overflow: unset !important;
 	user-select: none;
 	opacity: 0;
+	visibility: hidden;
 }
 .skin_img-box {
 	background-image: var(--bgi);
