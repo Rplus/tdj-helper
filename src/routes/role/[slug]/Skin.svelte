@@ -178,6 +178,7 @@ async function toggle_fullscreen(event) {
 	background-color: #000;
 	background-position: 50% 0;
 	background-size: 85vw auto;
+	background-repeat: no-repeat;
 	scroll-snap-align: center;
 
 	&:focus-visible {
