@@ -75,7 +75,7 @@ async function toggle_fullscreen(event) {
 
 <div class="horizontal-scroll-container" hidden={!is_show}>
 	{#each skins_arr as skin, index}
-		<a class="card" href="#skin_{index}" id="skin_{index}">
+		<a class="card" href="#skin_{index}" id="skin_{index}" data-sveltekit-replacestate>
 			<div class="title">
 				{skin.title}
 				<ul class="img_list">
