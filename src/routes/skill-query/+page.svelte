@@ -1,6 +1,6 @@
 <script>
 	import { onMount, } from 'svelte';
- 	import Header from '$lib/Header.svelte';
+	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import QueryFilter from './QueryFilter.svelte';
 
@@ -87,7 +87,9 @@
 		const form_data = new FormData(e.currentTarget);
 		const next_kwd = form_data.get('kwd') || '';
 
-		goto(`?kwd=${next_kwd}`, { keepFocus: true });
+		const params = new URLSearchParams();
+		params.set('kwd', next_kwd);
+		goto(`?${params.toString()}`, { keepFocus: true });
 	}
 
 	function format_desc(str = '') {
