@@ -12,6 +12,7 @@ import { handle_skills } from './skill.js';
 // import { link } from '$lib/u.js';
 
 import Role from '../Role.svelte';
+import Icon from '../Icon.svelte';
 import Skills from './Skills.svelte';
 import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
@@ -43,19 +44,19 @@ $: {
 <NavItem prev={data.role.siblings.prev} next={data.role.siblings.next} cate="role" />
 
 <div class="hr">
-	<div class="flex">
-		<div>
-			屬性 👤 {data.role.prop}
-			<br />
-			職業 💼 {data.role.career}
-		</div>
-		<div style="padding:.5em"></div>
-		<div>
-			射程 🏹 {data.role.range}
-			<br />
-			移動 👣 {data.role.speed}
-		</div>
-	</div>
+	<small class="text-center">
+		{data.role.prop}
+		<br>
+		{data.role.career}
+	</small>
+
+	<Icon role={data.role} />
+
+	<small>
+		射程 🏹 {data.role.range}
+		<br />
+		移動 👣 {data.role.speed}
+	</small>
 </div>
 
 <Skin skins={data.role.skins} name={data.role.name} />
