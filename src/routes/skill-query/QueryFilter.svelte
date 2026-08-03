@@ -34,7 +34,7 @@ function handle_click() {
 <fieldset style="margin-bottom: 2em">
 	<legend class="marker" data-show={is_show} on:click={handle_click}>Filter</legend>
 
-	<div class="filter-box" hidden={!is_show}>
+	<div class="filter-box" data-show={is_show}>
 		<Filter {filter_cates} item_class=".role-item" />
 	</div>
 </fieldset>
@@ -44,6 +44,15 @@ function handle_click() {
 <style>
 .filter-box :global(.filter.input-box) {
 	display: none;
+}
+
+.filter-box {
+	display: none;
+
+	&:has(input:checked),
+	&[data-show="true"] {
+		display: block;
+	}
 }
 
 .marker {
