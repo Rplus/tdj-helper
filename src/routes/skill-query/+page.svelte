@@ -34,9 +34,14 @@
 
 					for (let _type in _skills) {
 						if (_type === 'adv_skills' || _type === 'extra_skills') {
-							let new_skills = _skills[_type].flatMap(i =>
-								i.desc ? [{ ...i, type: _type }] : []
-							);
+
+							const new_skills = (_skills[_type] ?? []).flat(Infinity).reduce((acc, i) => {
+								if (i?.desc) {
+									acc.push({ ...i, type: _type });
+								}
+								return acc;
+							}, []);
+
 							role.skills.push(...new_skills);
 						}
 						else if (_type === 'support_skill') {
