@@ -68,7 +68,7 @@
 		}
 
 		render_list = _roles.map(role => {
-			let skills = role.skills.filter(skill => skill.desc.includes(_kwd));
+			let skills = role.skills.filter(skill => skill.desc.includes(_kwd) || skill.name.includes(_kwd));
 			if (!skills.length) {
 				return;
 			}
