@@ -124,7 +124,8 @@
 					</a>
 					<dl>
 						{#each role.skills as skill}
-							<dt>{skill.name}
+							<dt>
+								<span class="skill-name">{skill.name}</span>
 								<sup>/{skill.type || 'skill'}</sup>
 							</dt>
 							<dd>{@html format_desc(skill.desc)}</dd>
@@ -149,8 +150,10 @@ li {
 }
 dt {
 	font-size: smaller;
-	font-weight: bolder;
 	margin-top: 0.5em;
+}
+.skill-name {
+	font-weight: bolder;
 }
 dd {
 	margin-left: 1em;
