@@ -149,11 +149,12 @@ li {
 }
 dt {
 	font-size: smaller;
+	font-weight: bolder;
 	margin-top: 0.5em;
 }
 dd {
 	margin-left: 1em;
-	opacity: 0.5;
+	opacity: 0.7;
 	font-size: smaller;
 }
 </style>
