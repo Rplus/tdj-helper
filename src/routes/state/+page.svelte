@@ -3,6 +3,7 @@ import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 import Img from '$lib/Img.svelte';
 import { onMount } from 'svelte';
+import { link, } from '$lib/u.js';
 
 import { resize_img } from '$lib/u.js';
 
@@ -169,7 +170,11 @@ onMount(() => {
 				--cate:{get_index('cate', item.cate)};
 			"
 		>
-			<div class="name text-left">{item.name}</div>
+			<div class="name text-left">
+				<a class="name" href={link(`/skill-query?kwd=${item.name}`)}>
+					{item.name}
+				</a>
+			</div>
 			<div class="cate" data-cate={item.cate}></div>
 			<div class="dispellable" data-boolean={item.dispellable}></div>
 			<div class="extendable" data-boolean={item.extendable}></div>
