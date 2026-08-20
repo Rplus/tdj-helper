@@ -171,7 +171,7 @@ onMount(() => {
 			"
 		>
 			<div class="name text-left">
-				<a class="name" href={link(`/skill-query?kwd=${item.name}`)}>
+				<a class="name-link" href={link(`/skill-query?kwd=${item.name}`)}>
 					{item.name}
 				</a>
 			</div>
@@ -226,9 +226,11 @@ onMount(() => {
 		grid-template-columns: subgrid;
 		padding: 0.25em 0 .5em;
 		border-bottom: 1px dotted #0005;
+		scroll-margin-top: 40px;
 
 		@media (max-width: 720px) {
 			grid-template-columns: 100px repeat(3, 1fr);
+			scroll-margin-top: 80px;
 
 			& .desc {
 				grid-column: 2 / -1;
@@ -295,5 +297,8 @@ onMount(() => {
 		/* content: '▲'; */
 	}
 
+	.name-link:not(:hover) {
+		color: inherit;
+	}
 
 </style>
