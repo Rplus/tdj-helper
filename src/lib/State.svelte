@@ -112,7 +112,7 @@ onMount(() => {
 	position: absolute;
   position-anchor: --hint-anchor;
   position-area: right bottom;
-  position-try-fallbacks: left bottom;
+  position-try-fallbacks: left bottom, right top, left top;
 	position-try-order: most-width;
 	max-width: 15rem;
 	z-index: 100;
@@ -122,7 +122,7 @@ onMount(() => {
 	user-select: none;
 	pointer-events: none;
 
-	&[data-hidden=""] {
+	&[hidden] {
 		visibility: hidden;
 	}
 
