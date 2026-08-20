@@ -145,6 +145,9 @@
 
 
 <style>
+#form {
+	min-height: 70vh;
+}
 a {
 	text-decoration: underline;
 }
