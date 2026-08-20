@@ -3,7 +3,7 @@
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import QueryFilter from './QueryFilter.svelte';
-	import StateHint from '../role/[slug]/State.svelte';
+	import StateHint from '$lib/State.svelte';
 
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';

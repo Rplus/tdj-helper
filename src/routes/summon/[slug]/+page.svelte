@@ -10,7 +10,7 @@ import Footer from '$lib/Footer.svelte';
 // import MultiLv from '$lib/MultiLv.svelte';
 import Icon from '../Icon.svelte';
 import SummonSkill from './SummonSkill.svelte';
-import StateHint from '../../role/[slug]/State.svelte';
+import StateHint from '$lib/State.svelte';
 
 export let data;
 </script>

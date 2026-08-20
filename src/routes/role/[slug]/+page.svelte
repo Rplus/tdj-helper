@@ -17,7 +17,7 @@ import Skills from './Skills.svelte';
 import Inherent from './Inherent.svelte';
 import Weapon from './Weapon.svelte';
 import Summons from './Summons.svelte';
-import StateHint from './State.svelte';
+import StateHint from '$lib/State.svelte';
 import Skin from './Skin.svelte';
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
