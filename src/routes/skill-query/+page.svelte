@@ -3,6 +3,7 @@
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import QueryFilter from './QueryFilter.svelte';
+	import StateHint from '../role/[slug]/State.svelte';
 
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
@@ -108,6 +109,8 @@
 <Header title="技能檢索" />
 
 <QueryFilter />
+
+<StateHint />
 
 <form id="form" on:submit={handle_submit}>
 	<fieldset>
