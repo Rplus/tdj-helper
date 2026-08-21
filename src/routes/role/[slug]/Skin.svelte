@@ -240,9 +240,9 @@ async function toggle_fullscreen(event) {
 	object-fit: contain;
 	display: block;
 	overflow: unset !important;
-	user-select: none;
+	/* user-select: none; */
 	opacity: 0;
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 .skin_img-box {
 	background-image: var(--bgi);
