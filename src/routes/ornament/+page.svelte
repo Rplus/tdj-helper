@@ -6,12 +6,15 @@ import Header from '$lib/Header.svelte';
 import Filter from './Filter.svelte';
 import Footer from '$lib/Footer.svelte';
 import Item from './Item.svelte';
+import StateHint from '$lib/State.svelte';
 </script>
 
 <div class="workspace">
 	<Header title="飾品圖鑑" />
 
 	<Filter keys={data.keys} />
+
+	<StateHint />
 
 	<hr />
 
