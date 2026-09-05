@@ -107,6 +107,18 @@ $: {
 			<Summons summons={data.role.summons} />
 		{/if}
 
+
+		{#if data.role.tags}
+			<div class="hr">🏷️</div>
+			<div class="text-center">
+				{#each data.role.tags as tag}
+					<small class="inline-flex">
+						<sup>#</sup>{tag}⠀
+					</small>
+				{/each}
+			</div>
+		{/if}
+
 		<hr />
 		<details>
 			<summary>raw data source:</summary>
