@@ -7,9 +7,7 @@ import Summon from './Summon.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 
-import { status_props } from './summon.js';
-
-let { summons } = data;
+import { status_props, summons } from './summon.js';
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -42,6 +40,9 @@ function sort_by_prop(prop = '') {
 
 	<div class="list">
 		<div class="role role-head type-list">
+			<div on:click={() => sort_by_prop()}>
+				從屬
+			</div>
 			<div
 				class="name text-center"
 				on:click={() => sort_by_prop()}
@@ -77,7 +78,7 @@ function sort_by_prop(prop = '') {
 <style>
 .list {
 	display: grid;
-	grid-template-columns: 2fr repeat(6, 1fr);
+	grid-template-columns: 1fr 2fr repeat(7, 1fr);
 
 	@media (max-width: 700px) {
 		font-size: smaller;

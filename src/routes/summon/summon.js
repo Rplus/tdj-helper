@@ -1,5 +1,9 @@
 import summons_data from '$lib/data/summons.min.json';
 
+export const summons = summons_data.summons.sort((a, b) => {
+	return a.owner[1].localeCompare(b.owner[1]);
+});
+
 export function find_summon(prop, value) {
 	let max_index = summons_data.summons.length - 1;
 

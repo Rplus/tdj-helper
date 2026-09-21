@@ -20,6 +20,7 @@ let order_style = status_props
 	data-search={data.name}
 	style={order_style || ''}
 >
+	<div class="owner">{data.owner[0]}</div>
 	<Avatar role={data} />
 
 	{#each data.status as stat}
