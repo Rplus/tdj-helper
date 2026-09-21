@@ -124,4 +124,7 @@ function sort_by_prop(prop = '') {
 		content: '▲';
 	}
 }
+.type-list div:first-child {
+	text-align: right;
+}
 </style>
