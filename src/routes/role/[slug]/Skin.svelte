@@ -253,7 +253,7 @@ async function toggle_fullscreen(event) {
 	& .skin_img {
 		height: 1100px;
 		max-height: 90vh;
-		opacity: 0.5;
+		/* opacity: 0.5; */
 	}
 
 	& .skin_img-box {
