@@ -2,20 +2,17 @@
 export let name = '';
 export let href = '';
 
-$: name_split = name.match(/(·)?.{1,2}/g);
+import SplitTitle from '$lib/SplitTitle.svelte';
+
 </script>
 
 <span class="name">
 	{#if href}
 		<a {href}>
-			{#each name_split as n}
-				{n}<wbr>
-			{/each}
+			<SplitTitle string={name} />
 		</a>
 	{:else}
-		{#each name_split as n}
-			{n}<wbr>
-		{/each}
+		<SplitTitle string={name} />
 	{/if}
 </span>
 
@@ -23,6 +20,6 @@ $: name_split = name.match(/(·)?.{1,2}/g);
 .name {
 	font-size: 0.85rem;
 	line-height: 1.1;
-	word-break: keep-all;
+	max-width: 4em;
 }
 </style>
