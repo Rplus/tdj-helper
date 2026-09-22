@@ -40,7 +40,7 @@ function sort_by_prop(prop = '') {
 
 	<div class="list">
 		<div class="role role-head type-list">
-			<div on:click={() => sort_by_prop()}>
+			<div on:click={() => sort_by_prop()} class="text-right">
 				從屬
 			</div>
 			<div
@@ -78,7 +78,7 @@ function sort_by_prop(prop = '') {
 <style>
 .list {
 	display: grid;
-	grid-template-columns: 1fr 2fr repeat(7, 1fr);
+	grid-template-columns: 1.2fr 2fr repeat(7, 1fr);
 
 	@media (max-width: 700px) {
 		font-size: smaller;
@@ -123,8 +123,5 @@ function sort_by_prop(prop = '') {
 	&[data-dir='1']::before {
 		content: '▲';
 	}
-}
-.type-list div:first-child {
-	text-align: right;
 }
 </style>
