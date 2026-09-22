@@ -20,6 +20,9 @@ import SplitTitle from '$lib/SplitTitle.svelte';
 .name {
 	font-size: 0.85rem;
 	line-height: 1.1;
-	max-width: 4em;
+
+	@media (max-width: 900px) {
+		max-width: 4em;
+	}
 }
 </style>
