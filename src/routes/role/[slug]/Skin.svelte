@@ -37,8 +37,9 @@ function get_imgs(url = '') {
 }
 
 let is_show = getItem('show_skin') || false;
+$: is_fullscreen = false;
 
-function handle_click() {
+function fn_toggle_details() {
 	is_show = !is_show;
 	saveItem({
 		key: 'show_skin',
@@ -46,34 +47,17 @@ function handle_click() {
 	});
 }
 
-
-let active_fullscreen_node;
 async function toggle_fullscreen(event) {
-	event.preventDefault();
-
-	const target_node = event.currentTarget.closest('.horizontal-scroll-container');
-
-	try {
-		if (!document.fullscreenElement) {
-			await target_node.requestFullscreen();
-			active_fullscreen_node = target_node;
-		} else {
-			await document.exitFullscreen();
-			active_fullscreen_node = null;
-		}
-	} catch (err) {
-		console.error("全螢幕失敗:", err);
-	}
-
+	is_fullscreen = !is_fullscreen;
 }
 
 </script>
 
-<div class="hr" style="--ratio: 0.125; cursor: pointer;" on:click={handle_click}>
+<div class="hr" style="--ratio: 0.125; cursor: pointer;" on:click={fn_toggle_details}>
 	<span class="marker" data-show={is_show}></span>Skins
 </div>
 
-<div class="horizontal-scroll-container" hidden={!is_show}>
+<div class="horizontal-scroll-container" class:is-fullscreen={is_fullscreen} hidden={!is_show}>
 	{#each skins_arr as skin, index}
 		<a class="card" href="#skin_{index}" id="skin_{index}" data-sveltekit-replacestate>
 			<div class="title">
@@ -251,8 +235,13 @@ async function toggle_fullscreen(event) {
 	background-size: contain;
 }
 
-.horizontal-scroll-container:fullscreen {
+.horizontal-scroll-container.is-fullscreen {
 	--card-width: 90%;
+	position: fixed;
+	inset: 0;
+	z-index: 100;
+	width: 100%;
+	margin: 0;
 	background-color: #200;
 
 	& .card {
@@ -272,6 +261,10 @@ async function toggle_fullscreen(event) {
 	}
 	& .leave-fullscreen-icon { display: block; }
 	& .enter-fullscreen-icon { display: none; }
+
+	& .card:not(:hover) .fullscreen-btn {
+		opacity: .3;
+	}
 }
 
 
