@@ -87,11 +87,15 @@ export let data;
 
 	<li class="hr" style="--ratio: 0.125;">技能</li>
 
-	{#each data.summon.skills as skill}
-		<li class="mb-2">
-			<SummonSkill {skill} />
-		</li>
-	{/each}
+	{#if data.summon.skills.length}
+		{#each data.summon.skills as skill}
+			<li class="mb-2">
+				<SummonSkill {skill} />
+			</li>
+		{/each}
+	{:else}
+		※ 依循本體
+	{/if}
 </ul>
 
 <Footer time={true} refs={get_refs([1, 1, 1])} />
