@@ -116,7 +116,7 @@
 	<fieldset>
 		<legend>
 			Q:
-			<input type="search" id="kwd" name="kwd" placeholder="無視護衛" value={kwd} autofocus>
+			<input type="search" id="kwd" name="kwd" placeholder="無視護衛" value={kwd}>
 			<input type="submit" disabled={loading}>
 		</legend>
 		<ul id="list">
