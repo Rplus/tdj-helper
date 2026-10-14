@@ -64,6 +64,9 @@
 			})
 			.finally(() => {
 				loading = false;
+			})
+			.catch((err) => {
+				console.error(111, err);
 			});
 	});
 
