@@ -8,6 +8,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import role_other_skills from '$lib/data/role_other_skills.min.json';
+	import roles_with_basic_skill from '$lib/data/roles_skills_for_query.min.json';
 	import roles_data from '$lib/data/roles.min.json';
 
 	let loading = !true;
@@ -20,54 +21,41 @@
 	}
 
 	onMount(() => {
-		Promise.all([
-			'https://cdn.jsdelivr.net/gh/Rplus/tdj-data@data/_pre/roles_skills_for_query.min.json',
-			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/roles_skills_for_query.min.json',
-			// 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_pre/role_other_skills.src.json',
-		].map(i => fetch(i).then(r => r.json())))
-			.then(([roles_with_basic_skill]) => {
-				for (let role of roles_with_basic_skill) {
+		for (let role of roles_with_basic_skill) {
 
-					let _skills = role_other_skills[role.pinyin];
-					if (!_skills) {
-						continue;
-					}
+			let _skills = role_other_skills[role.pinyin];
+			if (!_skills) {
+				continue;
+			}
 
-					for (let _type in _skills) {
-						if (_type === 'adv_skills' || _type === 'extra_skills') {
+			for (let _type in _skills) {
+				if (_type === 'adv_skills' || _type === 'extra_skills') {
 
-							const new_skills = (_skills[_type] ?? []).flat(Infinity).reduce((acc, i) => {
-								if (i?.desc) {
-									acc.push({ ...i, type: _type });
-								}
-								return acc;
-							}, []);
-
-							role.skills.push(...new_skills);
+					const new_skills = (_skills[_type] ?? []).flat(Infinity).reduce((acc, i) => {
+						if (i?.desc) {
+							acc.push({ ...i, type: _type });
 						}
-						else if (_type === 'support_skill') {
-							let new_skill = {
-								..._skills[_type],
-								desc: '【援襲】' + _skills[_type].descs[1].desc,
-								type: _type,
-							};
-							role.skills.push(new_skill);
-						}
-					}
+						return acc;
+					}, []);
 
-					let role_info = roles_data.find(r => r.name === role.name)
-					role.prop = role_info.prop;
-					role.career = role_info.career;
+					role.skills.push(...new_skills);
 				}
+				else if (_type === 'support_skill') {
+					let new_skill = {
+						..._skills[_type],
+						desc: '【援襲】' + _skills[_type].descs[1].desc,
+						type: _type,
+					};
+					role.skills.push(new_skill);
+				}
+			}
 
-				roles = roles_with_basic_skill;
-			})
-			.finally(() => {
-				loading = false;
-			})
-			.catch((err) => {
-				console.error(111, err);
-			});
+			let role_info = roles_data.find(r => r.name === role.name)
+			role.prop = role_info.prop;
+			role.career = role_info.career;
+		}
+
+		roles = roles_with_basic_skill;
 	});
 
 	function query(_kwd = '', _roles) {
