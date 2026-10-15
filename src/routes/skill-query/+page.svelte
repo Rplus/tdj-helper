@@ -16,6 +16,8 @@
 	let render_list = [];
 	$: kwd =  $page.url.searchParams.get('kwd') || '';
 
+	$: title = `技能檢索<${kwd}>`;
+
 	$: {
 		query(kwd, roles);
 	}
@@ -97,7 +99,7 @@
 
 
 
-<Header title="技能檢索" />
+<Header title={title} />
 
 <QueryFilter />
 
