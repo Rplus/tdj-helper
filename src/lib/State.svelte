@@ -166,9 +166,9 @@
 			{activeState.name}
 		</a>
 		<sup class="meta">
-			<span class="boolean" class:active={activeState.stealable}>偷取</span>
-			<span class="boolean" class:active={activeState.extendable}>擴散</span>
-			<span class="boolean" class:active={activeState.dispellable}>驅散</span>
+			<span class="boolean" class:active={activeState.偷}>偷取</span>
+			<span class="boolean" class:active={activeState.擴}>擴散</span>
+			<span class="boolean" class:active={activeState.驅}>驅散</span>
 		</sup>
 	</div>
 	<div class="desc">

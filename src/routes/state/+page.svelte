@@ -165,7 +165,7 @@ onMount(() => {
 			name={item.name}
 			data-desc={item.desc}
 			class="item data"
-			style="--dispellable:{Number(item.dispellable)};--extendable:{Number(item.extendable)};--stealable:{Number(item.stealable)};
+			style="--dispellable:{Number(item.驅)};--extendable:{Number(item.擴)};--stealable:{Number(item.偷)};
 				--name:{get_index('name', item.name)};
 				--cate:{get_index('cate', item.cate)};
 			"
@@ -176,9 +176,9 @@ onMount(() => {
 				</a>
 			</div>
 			<div class="cate" data-cate={item.cate}></div>
-			<div class="dispellable" data-boolean={item.dispellable}></div>
-			<div class="extendable" data-boolean={item.extendable}></div>
-			<div class="stealable" data-boolean={item.stealable}></div>
+			<div class="dispellable" data-boolean={item.驅}></div>
+			<div class="extendable" data-boolean={item.擴}></div>
+			<div class="stealable" data-boolean={item.偷}></div>
 			<div class="desc text-left">{item.desc}</div>
 		</li>
 	{/each}
