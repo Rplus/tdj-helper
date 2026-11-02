@@ -179,7 +179,7 @@ onMount(() => {
 			<div class="dispellable" data-boolean={item.驅}></div>
 			<div class="extendable" data-boolean={item.擴}></div>
 			<div class="stealable" data-boolean={item.偷}></div>
-			<div class="desc text-left">{item.desc}</div>
+			<div class="desc pre-line text-left">{item.desc}</div>
 		</li>
 	{/each}
 	</ul>

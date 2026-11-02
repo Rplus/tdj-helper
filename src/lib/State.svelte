@@ -171,7 +171,7 @@
 			<span class="boolean" class:active={activeState.驅}>驅散</span>
 		</sup>
 	</div>
-	<div class="desc">
+	<div class="desc pre-line">
 		{activeState.desc}
 	</div>
 {/if}
