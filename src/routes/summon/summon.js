@@ -1,5 +1,11 @@
 import summons_data from '$lib/data/summons.min.json';
 
+export const summon_refs = [{
+	title: 'BWIKI',
+	link: 'https://wiki.biligame.com/tdj/分类:召唤物',
+	target: '_BWIKI',
+}];
+
 export const summons = summons_data.summons.sort((a, b) => {
 	return a.owner[1].localeCompare(b.owner[1]);
 });

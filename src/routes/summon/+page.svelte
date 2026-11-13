@@ -1,13 +1,12 @@
 <script>
 import data from '$lib/data/summons.min.json';
-import { get_refs } from '$lib/fetch-data.js';
 
 import Filter from './Filter.svelte';
 import Summon from './Summon.svelte';
 import Header from '$lib/Header.svelte';
 import Footer from '$lib/Footer.svelte';
 
-import { status_props, summons } from './summon.js';
+import { status_props, summons, summon_refs, } from './summon.js';
 
 let sort_prop = '';
 let sort_dir = -1;
@@ -73,7 +72,7 @@ function sort_by_prop(prop = '') {
 	</div>
 </div>
 
-<Footer time={true} refs={get_refs([1, 1, 1])} />
+<Footer time={true} refs={summon_refs} />
 
 <style>
 .list {

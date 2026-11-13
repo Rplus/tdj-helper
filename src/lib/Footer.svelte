@@ -19,7 +19,7 @@ export let time = false;
 
 	{#if refs?.length}
 		<ul>
-			資料來源：
+			Data Sources:
 			{#each refs as item}
 				<li>
 					{item.title}
@@ -29,6 +29,9 @@ export let time = false;
 					</a>
 				</li>
 			{/each}
+			<li>
+				Compiled and supplemented by Rplus
+			</li>
 		</ul>
 	{/if}
 </footer>

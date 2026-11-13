@@ -1,7 +1,7 @@
 <script>
 import { get_refs } from '$lib/fetch-data.js';
 import { link, clear_html } from '$lib/u.js';
-import { status_props } from '../summon.js';
+import { status_props, summon_refs, } from '../summon.js';
 
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
@@ -98,7 +98,7 @@ export let data;
 	{/if}
 </ul>
 
-<Footer time={true} refs={get_refs([1, 1, 1])} />
+<Footer time={true} refs={summon_refs} />
 
 <style>
 ul {

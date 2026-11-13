@@ -36,9 +36,9 @@ const refs = [
 		target: '_officail_cn',
 	},
 	{
-		title: 'Bili-Wiki',
+		title: 'BWIKI',
 		link: 'https://wiki.biligame.com/tdj/',
-		target: '_biliwiki',
+		target: '_BWIKI',
 	},
 ];
 
