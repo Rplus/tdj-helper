@@ -2,7 +2,8 @@ import { browser } from '$app/environment';
 import { error } from '@sveltejs/kit';
 import { folder_commit_sha, } from '$lib/data/version.json';
 
-export const cache = new Map();
+export const memory_cache = new Map();
+const CACHE_NAME = 'tdj-role-detail-v1';
 
 // https://www.telerik.com/blogs/client-caching-sveltekit
 export async function cache_fetch(key = '', fetch_callback) {
@@ -90,21 +91,72 @@ const PROXY = [
 ][0];
 
 export async function fetch_role_detail(role) {
-	let _url = get_role_url_from_git(role);
+	let raw_url = get_role_url_from_git(role);
 
-	// let _url = role.pinyin_tw ? get_role_url(role.pinyin_tw, 'tw') : get_role_url(role.pinyin, 'cn');
-	// return cache_fetch(_url, () => PROXY.fetch(_url));
-
-	if (browser && cache.has(_url)) {
-		return cache.get(_url);
+	if (browser && memory_cache.has(raw_url)) {
+		return memory_cache.get(raw_url);
 	}
 
-	let _data = await PROXY.fetch(_url);
-	// if (role.pinyin_tw && !_data) {
-	// 	_data = await PROXY.fetch(get_role_url(role.pinyin, 'cn'));
-	// }
+	const fetch_promise = _fetch_role_detail_core(role, raw_url);
+	if (browser) {
+		memory_cache.set(raw_url, fetch_promise);
 
-	cache.set(_url, _data);
+		// 如果抓失敗（例如斷網拋錯），清掉記憶體紀錄，讓使用者下次點擊可以重試
+		fetch_promise.catch(() => {
+			memory_cache.delete(raw_url);
+		});
+	}
+	return fetch_promise;
+}
+
+async function _fetch_role_detail_core(role, raw_url) {
+	// 1. 非瀏覽器環境或無痕模式不支援 caches，直接抓
+	if (!browser || typeof caches === 'undefined') {
+		return await PROXY.fetch(raw_url);
+	}
+
+	// 使用原生 URL 解析路徑與版本參數（加上 origin 作為相對路徑防呆）
+	const parsed_url = new URL(raw_url, window.location.origin);
+	const cache_key = parsed_url.pathname;
+	const current_version = parsed_url.searchParams.get('version') || '';
+
+	try {
+		const storage = await caches.open(CACHE_NAME);
+
+		// 1. 使用 pathname 查詢硬碟快取
+		const cached_res = await storage.match(cache_key);
+		if (cached_res) {
+			// console.log('cached_res', cached_res);
+			const cached_version = cached_res.headers.get('X-Version');
+			if (current_version && cached_version === current_version) {
+				return await cached_res.json();
+			}
+		}
+
+		// 2. 沒快取或版本更新，發送網路請求
+		const role_data = await PROXY.fetch(raw_url);
+
+		// console.log('PROXY.fetch');
+		if (role_data && role_data.name) {
+			try {
+				await storage.put(
+					cache_key,
+					new Response(JSON.stringify(role_data), {
+						headers: {
+							'Content-Type': 'application/json',
+							'X-Version': current_version
+						}
+					})
+				);
+			} catch (put_err) {
+				console.warn('寫入快取失敗:', put_err);
+			}
+		}
+
+		return role_data;
+	} catch (err) {
+		return await PROXY.fetch(raw_url);
+	}
 
 	return _data;
 }
