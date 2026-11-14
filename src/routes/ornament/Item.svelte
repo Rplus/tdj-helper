@@ -19,7 +19,7 @@ $: types = io2prop(item.type, 'type');
 $: jobs = io2prop(item.job, 'job');
 $: position = keys.position[item.position];
 
-let imgs = get_imgs('accessories', item.icon, [64, 128]);
+let imgs = item.img ? [item.img, item.img] : get_imgs('accessories', item.icon, [64, 128]);
 </script>
 
 <li
