@@ -81,7 +81,7 @@ import { goto } from '$app/navigation';
 	}
 
 	@media (max-width: 500px) {
-		display: none;
+		/* display: none; */
 	}
 }
 </style>
