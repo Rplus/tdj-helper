@@ -44,13 +44,13 @@ import { goto } from '$app/navigation';
 <nav class="nav" on:keydown={handleKey}>
 	{#if prev}
 		<a class="nav-link nav-link--prev" href={link(`/${cate}/${prev}`)}>
-			🠋 {prev}
+			◄ {prev}
 		</a>
 	{/if}
 
 	{#if next}
 		<a class="nav-link nav-link--next" href={link(`/${cate}/${next}`)}>
-			🠉{next}
+			► {next}
 		</a>
 	{/if}
 </nav>
@@ -81,7 +81,9 @@ import { goto } from '$app/navigation';
 	}
 
 	@media (max-width: 500px) {
-		/* display: none; */
+		position: absolute;
+		top: 4.5em;
+		font-size: small;
 	}
 }
 </style>
