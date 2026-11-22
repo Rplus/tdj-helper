@@ -173,7 +173,7 @@ export function get_role_url_without_proxy(name, lang) {
 const JSON_PATH = {
 	cdn: 'https://cdn.jsdelivr.net/gh/Rplus/tdj-data@data/_cache/tdj-roles',
 	github: 'https://raw.githubusercontent.com/Rplus/tdj-data/refs/heads/data/_cache/tdj-roles',
-	local: 'http://localhost:9527',
+	local: `/local-json`,
 };
 
 export function get_role_url_from_git(role, source) {
