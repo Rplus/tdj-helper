@@ -109,6 +109,13 @@ export async function fetch_role_detail(role) {
 	return fetch_promise;
 }
 
+export async function clear_caches() {
+	if (!('caches' in window)) return;
+	const cacheNames = await caches.keys();
+	await Promise.all(cacheNames.map((name) => caches.delete(name)));
+	console.log('已清空所有 Cache Storage:', cacheNames);
+}
+
 async function _fetch_role_detail_core(role, raw_url) {
 	// 1. 非瀏覽器環境或無痕模式不支援 caches，直接抓
 	if (!browser || typeof caches === 'undefined') {

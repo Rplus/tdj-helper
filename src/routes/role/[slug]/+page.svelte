@@ -2,6 +2,7 @@
 // import { onMount } from 'svelte';
 import {
 	fetch_role_detail,
+	clear_caches,
 	get_refs,
 	get_role_url_without_proxy,
 	get_role_url_from_git,
@@ -124,6 +125,9 @@ $: {
 			<summary>raw data source:</summary>
 			<div class="details-ctx">
 				<ul>
+					<li>
+						<button on:click={clear_caches}>clear cache</button>
+					</li>
 					<li>
 						<a
 							href={get_role_url_without_proxy(data.role.pinyin_tw || data.role.pinyin, data.role.pinyin_tw ? 'tw' : 'cn')}
