@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -47,6 +47,10 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: 'build/'
+
+      # 新增：等待 10 秒讓 GitHub 後端完成 Artifact 索引同步
+      - name: Wait for artifact sync
+        run: sleep 10
 
       - name: Deploy to GitHub Pages
         id: deployment
