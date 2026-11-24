@@ -1,6 +1,7 @@
 # make dev-with-json HOST=1 # 給區網 mobile 測試
 ifdef HOST
 	DEV_FLAGS = --host
+endif
 
 .PHONY: build
 
