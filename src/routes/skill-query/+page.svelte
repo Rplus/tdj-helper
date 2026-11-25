@@ -10,6 +10,7 @@
 	import role_other_skills from '$lib/data/role_other_skills.min.json';
 	import roles_with_basic_skill from '$lib/data/roles_skills_for_query.min.json';
 	import roles_data from '$lib/data/roles.min.json';
+	import { find_subskills } from '../role/[slug]/skill.js';
 
 	let loading = !true;
 	let roles = [];
@@ -23,17 +24,18 @@
 	}
 
 	onMount(() => {
-		for (let role of roles_with_basic_skill) {
+		let roles_data = structuredClone(roles_with_basic_skill);
+		for (let role of roles_data) {
 
-			let _skills = role_other_skills[role.pinyin];
-			if (!_skills) {
+			let _other_skills = role_other_skills[role.pinyin];
+			if (!_other_skills) {
 				continue;
 			}
 
-			for (let _type in _skills) {
+			for (let _type in _other_skills) {
 				if (_type === 'adv_skills' || _type === 'extra_skills') {
 
-					const new_skills = (_skills[_type] ?? []).flat(Infinity).reduce((acc, i) => {
+					const new_skills = (_other_skills[_type] ?? []).flat(Infinity).reduce((acc, i) => {
 						if (i?.desc) {
 							acc.push({ ...i, type: _type });
 						}
@@ -44,11 +46,19 @@
 				}
 				else if (_type === 'support_skill') {
 					let new_skill = {
-						..._skills[_type],
-						desc: '【援襲】' + _skills[_type].descs[1].desc,
+						..._other_skills[_type],
+						desc: '【援襲】' + _other_skills[_type].descs[1].desc,
 						type: _type,
 					};
 					role.skills.push(new_skill);
+				}
+			}
+
+			for (let _skill of role.skills) {
+				let subskills = find_subskills(_skill.name);
+				if (subskills) {
+					let subskills_desc = subskills.map(s => '【' + s.name + '】\n' + s.desc).join('\n');
+					_skill.desc += '\n' + subskills_desc;
 				}
 			}
 
@@ -57,7 +67,7 @@
 			role.career = role_info.career;
 		}
 
-		roles = roles_with_basic_skill;
+		roles = roles_data;
 	});
 
 	function query(_kwd = '', _roles) {
@@ -124,7 +134,7 @@
 								<strong>{skill.name}</strong>
 								<sup>/{skill.type || 'skill'}</sup>
 							</dt>
-							<dd>{@html format_desc(skill.desc)}</dd>
+							<dd class="pre-line">{@html format_desc(skill.desc)}</dd>
 						{/each}
 					</dl>
 				</li>
