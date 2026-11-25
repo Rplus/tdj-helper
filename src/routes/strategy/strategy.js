@@ -12,3 +12,7 @@ export const strategy_data = data;
 export function find_strategy(prop, value) {
 	return data.find((item) => item[prop] === value);
 }
+
+export function find_strategy_with_role(rolename = '') {
+	return rolename && data.find(item => item.members?.[0]?.name === rolename);
+}

@@ -20,6 +20,7 @@ import Weapon from './Weapon.svelte';
 import Summons from './Summons.svelte';
 import StateHint from '$lib/State.svelte';
 import Skin from './Skin.svelte';
+import Strategy from './Strategy.svelte';
 import Header from '$lib/Header.svelte';
 import NavItem from '$lib/NavItem.svelte';
 import Footer from '$lib/Footer.svelte';
@@ -90,8 +91,12 @@ $: {
 
 			{#if detail_data.godclass_weapon}
 				<div class="hr" style="--ratio: 0.125;">神兵</div>
-
 				<Weapon weapon={detail_data.godclass_weapon} />
+			{/if}
+
+			{#if detail_data.strategy}
+				<div class="hr" style="--ratio: 0.125;">戰陣</div>
+				<Strategy rolename={detail_data.name} />
 			{/if}
 
 			<div class="mb-2" />
